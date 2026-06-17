@@ -1,0 +1,62 @@
+[
+  {
+    "national_team": "Australia",
+    "team_code": "AUS",
+    "group": "D",
+    "roster_player": "Jacob ITALIANO",
+    "roster_position": "DF",
+    "roster_club": "Grazer AK (AUT)",
+    "league": "Austrian Bundesliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Austria",
+    "team_code": "AUT",
+    "group": "J",
+    "roster_player": "Alexander SCHLAGER",
+    "roster_position": "GK",
+    "roster_club": "FC Red Bull Salzburg (AUT)",
+    "league": "Austrian Bundesliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Austria",
+    "team_code": "AUT",
+    "group": "J",
+    "roster_player": "Alessandro SCHOEPF",
+    "roster_position": "MF",
+    "roster_club": "Wolfsberger AC (AUT)",
+    "league": "Austrian Bundesliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Bosnia and Herzegovina",
+    "team_code": "BIH",
+    "group": "B",
+    "roster_player": "Kerim ALAJBEGOVIC",
+    "roster_position": "FW",
+    "roster_club": "FC Red Bull Salzburg (AUT)",
+    "league": "Austrian Bundesliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "South Korea",
+    "team_code": "KOR",
+    "group": "A",
+    "roster_player": "Taeseok LEE",
+    "roster_position": "DF",
+    "roster_club": "FK Austria Wien (AUT)",
+    "league": "Austrian Bundesliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Panama",
+    "team_code": "PAN",
+    "group": "L",
+    "roster_player": "Andres ANDRADE",
+    "roster_position": "DF",
+    "roster_club": "LASK Linz (AUT)",
+    "league": "Austrian Bundesliga",
+    "_tier": "xg"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "national_team": "Austria",
+    "team_code": "AUT",
+    "group": "J",
+    "roster_player": "Florian WIEGELE",
+    "roster_position": "GK",
+    "roster_club": "FC Viktoria Plzeň (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Bosnia and Herzegovina",
+    "team_code": "BIH",
+    "group": "B",
+    "roster_player": "Amar MEMIC",
+    "roster_position": "MF",
+    "roster_club": "FC Viktoria Plzeň (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Bosnia and Herzegovina",
+    "team_code": "BIH",
+    "group": "B",
+    "roster_player": "Ermin MAHMIC",
+    "roster_position": "MF",
+    "roster_club": "FC Slovan Liberec (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "David ZIMA",
+    "roster_position": "DF",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Tomas HOLES",
+    "roster_position": "DF",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Stepan CHALOUPEK",
+    "roster_position": "DF",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Vladimir DARIDA",
+    "roster_position": "MF",
+    "roster_club": "FC Hradec Králové (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Jan KUCHTA",
+    "roster_position": "FW",
+    "roster_club": "AC Sparta Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Lukas CERV",
+    "roster_position": "MF",
+    "roster_club": "FC Viktoria Plzeň (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Mojmir CHYTIL",
+    "roster_position": "FW",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Jindrich STANEK",
+    "roster_position": "GK",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Lukas PROVOD",
+    "roster_position": "MF",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Michal SADILEK",
+    "roster_position": "MF",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Tomas CHORY",
+    "roster_position": "FW",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Jaroslav ZELENY",
+    "roster_position": "DF",
+    "roster_club": "AC Sparta Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "David DOUDERA",
+    "roster_position": "DF",
+    "roster_club": "SK Slavia Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Alexandr SOJKA",
+    "roster_position": "MF",
+    "roster_club": "FC Viktoria Plzeň (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Hugo SOCHUREK",
+    "roster_position": "MF",
+    "roster_club": "AC Sparta Praha (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Denis VISINSKY",
+    "roster_position": "FW",
+    "roster_club": "FC Viktoria Plzeň (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ghana",
+    "team_code": "GHA",
+    "group": "L",
+    "roster_player": "Prince ADU",
+    "roster_position": "FW",
+    "roster_club": "FC Viktoria Plzeň (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Merchas MERCHAS DOSKI",
+    "roster_position": "DF",
+    "roster_club": "FC Viktoria Plzeň (CZE)",
+    "league": "Czech First League",
+    "_tier": "xg"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "national_team": "Brazil",
+    "team_code": "BRA",
+    "group": "C",
+    "roster_player": "Roger ROGER IBANEZ",
+    "roster_position": "DF",
+    "roster_club": "Al Ahli FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Brazil",
+    "team_code": "BRA",
+    "group": "C",
+    "roster_player": "Fabio FABINHO",
+    "roster_position": "MF",
+    "roster_club": "Al Ittihad (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Jurien GAARI",
+    "roster_position": "DF",
+    "roster_club": "Abha Club (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Nabil NABIL DONGA",
+    "roster_position": "MF",
+    "roster_club": "Al Najmah SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "England",
+    "team_code": "ENG",
+    "group": "L",
+    "roster_player": "Ivan TONEY",
+    "roster_position": "FW",
+    "roster_club": "Al Ahli FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Ghana",
+    "team_code": "GHA",
+    "group": "L",
+    "roster_player": "Christopher BAAH",
+    "roster_position": "FW",
+    "roster_club": "Al Qadsiah FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Ivory Coast",
+    "team_code": "CIV",
+    "group": "E",
+    "roster_player": "Franck KESSIE",
+    "roster_position": "MF",
+    "roster_club": "Al Ahli FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Ali ALI AZAIZEH",
+    "roster_position": "FW",
+    "roster_club": "Al Shabab FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Julian QUINONES",
+    "roster_position": "FW",
+    "roster_club": "Al Qadsiah FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_player": "Yassine BOUNOU",
+    "roster_position": "GK",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Panama",
+    "team_code": "PAN",
+    "group": "L",
+    "roster_player": "Orlando MOSQUERA",
+    "roster_position": "GK",
+    "roster_club": "Al Fayha FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_player": "Rúben RUBEN NEVES",
+    "roster_position": "MF",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_player": "Cristiano CRISTIANO RONALDO",
+    "roster_position": "FW",
+    "roster_club": "Al Nassr FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Ali ALI MAJRASHI",
+    "roster_position": "DF",
+    "roster_club": "Al Ahli FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Feras FERAS ALBRIKAN",
+    "roster_position": "FW",
+    "roster_club": "Al Ahli FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Ziyad ZIYAD ALJOHANI",
+    "roster_position": "MF",
+    "roster_club": "Al Ahli FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Khalid KHALID ALGHANNAM",
+    "roster_position": "FW",
+    "roster_club": "Al Ettifaq FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Ali ALI LAJAMI",
+    "roster_position": "DF",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Hassan HASSAN ALTAMBAKTI",
+    "roster_position": "DF",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Mohamed MOHAMED KANNO",
+    "roster_position": "MF",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Moteb MOTEB ALHARBI",
+    "roster_position": "DF",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Nasser NASSER ALDAWSARI",
+    "roster_position": "MF",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  }
+]

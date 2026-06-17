@@ -1,0 +1,1450 @@
+WC Qualification CONCACAF xG (Expected Goals) | FootyStats
+
+# xG (Expected Goals) - International WC Qualification CONCACAF
+
+Nation
+
+Type
+
+Cup
+
+Teams
+
+32
+
+Season
+
+2026
+
+- 2022
+
+Matches
+
+100/100 Played
+
+Progress
+
+100% completed
+
+Competition
+
+Goals
+
+Over/Under
+
+More
+
+## xG (Expected Goals) - WC Qualification CONCACAF
+
+## xG Per 90, including xG Difference
+
+MP
+
+Matches Played
+
+### Honduras National Team
+
+### Dominican Republic National Team
+
+### Costa Rica National Team
+
+### Trinidad and Tobago National Team
+
+### Panama National Team
+
+### Haiti National Team
+
+### Jamaica National Team
+
+### Guatemala National Team
+
+### Curaçao National Team
+
+### St. Kitts and Nevis National Team
+
+### Guyana National Team
+
+### Suriname National Team
+
+### Nicaragua National Team
+
+### Grenada National Team
+
+### El Salvador National Team
+
+### Barbados National Team
+
+### Puerto Rico FC
+
+### St. Lucia National Team
+
+### Cuba National Team
+
+### Bermuda National Team
+
+### Aruba
+
+### Dominica National Team
+
+### St. Vincent / Grenadines National Team
+
+### Antigua and Barbuda National Team
+
+### Belize National Team
+
+### Montserrat
+
+### British Virgin Islands
+
+### Cayman Islands National Team
+
+### Bahamas National Team
+
+### Anguilla National Team
+
+### Turks and Caicos Islands National Team
+
+### US Virgin Islands
+
+| # | Team | xG | xGA | xGD | GF | GA | xG vs Actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Honduras National TeamWC Qualification CONCACAF (Div. -1)League Pos. 2 / 32International FormLast 5PPGOverallWDWLD2.10HomeWWWDW2.60AwayWWDLD1.60StatisticsOverallHomeAwayWin %60%80%40%AVG2.102.202.00Scored1.702.001.40Conceded0.400.200.60BTTS20%20%20%CS70%80%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 2.15 | 0.90 | +1.25 | 1.70 | 0.40 | -0.45 |
+| 2 | Dominican Republic National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallLWLW1.50HomeWW3.00AwayLL0.00StatisticsOverallHomeAwayWin %50%100%0%AVG4.004.503.50Scored2.754.501.00Conceded1.250.002.50BTTS25%0%50%CS50%100%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 2.12 | 0.77 | +1.35 | 2.75 | 1.25 | +0.63 |
+| 3 | Costa Rica National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallDDWLD1.90HomeWWDWD2.20AwayWWDDL1.60StatisticsOverallHomeAwayWin %50%60%40%AVG3.203.602.80Scored2.502.602.40Conceded0.701.000.40BTTS40%60%20%CS50%40%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 2.03 | 0.97 | +1.06 | 2.50 | 0.70 | +0.47 |
+| 4 | Trinidad and Tobago National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallLWDDD1.40HomeDWDDD1.40AwayWLLWD1.40StatisticsOverallHomeAwayWin %30%20%40%AVG3.603.603.60Scored2.302.202.40Conceded1.301.401.20BTTS70%80%60%CS20%20%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.96 | 1.23 | +0.73 | 2.30 | 1.30 | +0.34 |
+| 5 | Panama National TeamWC Qualification CONCACAF (Div. -1)League Pos. 1 / 32International FormLast 5PPGOverallDWDWW2.40HomeWWDDW2.20AwayWWDWW2.60StatisticsOverallHomeAwayWin %70%60%80%AVG2.402.402.40Scored1.902.001.80Conceded0.500.400.60BTTS40%40%40%CS60%60%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.93 | 1.00 | +0.93 | 1.90 | 0.50 | -0.03 |
+| 6 | Haiti National TeamWC Qualification CONCACAF (Div. -1)League Pos. 1 / 32International FormLast 5PPGOverallDWLWW2.00HomeWLDWW2.00AwayWWDWL2.00StatisticsOverallHomeAwayWin %60%60%60%AVG3.302.404.20Scored2.001.202.80Conceded1.301.201.40BTTS40%40%40%CS50%60%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.71 | 1.45 | +0.26 | 2.00 | 1.30 | +0.29 |
+| 7 | Jamaica National TeamWC Qualification CONCACAF (Div. -1)League Pos. 2 / 32International FormLast 5PPGOverallWLWDD2.30HomeWWWWD2.60AwayWWWLD2.00StatisticsOverallHomeAwayWin %70%80%60%AVG2.402.002.80Scored1.902.001.80Conceded0.500.001.00BTTS20%0%40%CS70%100%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.70 | 1.04 | +0.66 | 1.90 | 0.50 | +0.20 |
+| 8 | Guatemala National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallDDWLW1.70HomeWWLLW1.80AwayWLDDW1.60StatisticsOverallHomeAwayWin %50%60%40%AVG3.304.402.20Scored2.103.001.20Conceded1.201.401.00BTTS50%60%40%CS30%20%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.69 | 1.28 | +0.41 | 2.10 | 1.20 | +0.41 |
+| 9 | Curaçao National TeamWC Qualification CONCACAF (Div. -1)League Pos. 1 / 32International FormLast 5PPGOverallWWDWD2.40HomeWWWWD2.60AwayWWDWD2.20StatisticsOverallHomeAwayWin %70%80%60%AVG3.303.603.00Scored2.802.802.80Conceded0.500.800.20BTTS40%60%20%CS60%40%80%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.66 | 1.29 | +0.37 | 2.80 | 0.50 | +1.14 |
+| 10 | St. Kitts and Nevis National TeamWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallLWLL0.75HomeWL1.50AwayLL0.00StatisticsOverallHomeAwayWin %25%50%0%AVG4.503.006.00Scored1.251.501.00Conceded3.251.505.00BTTS50%50%50%CS25%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.59 | 1.76 | -0.17 | 1.25 | 3.25 | -0.34 |
+| 11 | Guyana National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallLWLW1.50HomeWW3.00AwayLL0.00StatisticsOverallHomeAwayWin %50%100%0%AVG2.503.501.50Scored1.503.000.00Conceded1.000.501.50BTTS25%50%0%CS25%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.59 | 1.34 | +0.25 | 1.50 | 1.00 | -0.09 |
+| 12 | Suriname National TeamWC Qualification CONCACAF (Div. -1)League Pos. 2 / 32International FormLast 5PPGOverallWDDWL1.90HomeWWDDW2.20AwayWDWDL1.60StatisticsOverallHomeAwayWin %50%60%40%AVG2.702.403.00Scored1.902.001.80Conceded0.800.401.20BTTS60%40%80%CS40%60%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.47 | 1.31 | +0.16 | 1.90 | 0.80 | +0.43 |
+| 13 | Nicaragua National TeamWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallLLLWL1.30HomeWWDLW2.00AwayWLLLL0.60StatisticsOverallHomeAwayWin %40%60%20%AVG2.902.603.20Scored1.301.601.00Conceded1.601.002.20BTTS30%40%20%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.38 | 1.47 | -0.09 | 1.30 | 1.60 | -0.08 |
+| 14 | Grenada National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallDLWW1.75HomeLW1.50AwayDW2.00StatisticsOverallHomeAwayWin %50%50%50%AVG4.504.504.50Scored2.753.002.50Conceded1.751.502.00BTTS50%0%100%CS25%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.33 | 1.26 | +0.07 | 2.75 | 1.75 | +1.42 |
+| 15 | El Salvador National TeamWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallLLLLL1.10HomeDDLLL0.40AwayWWWLL1.80StatisticsOverallHomeAwayWin %30%0%60%AVG2.201.403.00Scored0.900.401.40Conceded1.301.001.60BTTS30%40%20%CS30%20%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.33 | 1.12 | +0.21 | 0.90 | 1.30 | -0.43 |
+| 16 | Barbados National TeamWC Qualification CONCACAF (Div. -1)League Pos. 5 / 32International FormLast 5PPGOverallLLDL0.25HomeLD0.50AwayLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.503.004.00Scored1.001.001.00Conceded2.502.003.00BTTS100%100%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.28 | 1.54 | -0.26 | 1.00 | 2.50 | -0.28 |
+| 17 | Puerto Rico FCWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallDWLW1.75HomeWW3.00AwayDL0.50StatisticsOverallHomeAwayWin %50%100%0%AVG3.005.500.50Scored2.505.000.00Conceded0.500.500.50BTTS25%50%0%CS50%50%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.25 | 1.05 | +0.20 | 2.50 | 0.50 | +1.25 |
+| 18 | St. Lucia National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallLDLW1.00HomeDW2.00AwayLL0.00StatisticsOverallHomeAwayWin %25%50%0%AVG3.503.503.50Scored1.252.000.50Conceded2.251.503.00BTTS75%100%50%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.23 | 1.80 | -0.57 | 1.25 | 2.25 | +0.02 |
+| 19 | Cuba National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallLWWL1.50HomeWL1.50AwayLW1.50StatisticsOverallHomeAwayWin %50%50%50%AVG2.753.002.50Scored1.502.001.00Conceded1.251.001.50BTTS50%50%50%CS50%50%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.08 | 1.16 | -0.08 | 1.50 | 1.25 | +0.42 |
+| 20 | Bermuda National TeamWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallLLLLD0.80HomeLWLLL0.60AwayDWLLD1.00StatisticsOverallHomeAwayWin %20%20%20%AVG4.405.203.60Scored1.301.201.40Conceded3.104.002.20BTTS50%20%80%CS10%20%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.04 | 2.02 | -0.98 | 1.30 | 3.10 | +0.26 |
+| 21 | ArubaWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallLDDL0.50HomeLL0.00AwayDD1.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.253.503.00Scored0.750.001.50Conceded2.503.501.50BTTS50%0%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.04 | 2.33 | -1.29 | 0.75 | 2.50 | -0.29 |
+| 22 | Dominica National TeamWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallLLWL0.75HomeLW1.50AwayLL0.00StatisticsOverallHomeAwayWin %25%50%0%AVG4.754.005.50Scored1.252.500.00Conceded3.501.505.50BTTS25%50%0%CS25%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.97 | 2.60 | -1.63 | 1.25 | 3.50 | +0.28 |
+| 23 | St. Vincent / Grenadines National TeamWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallLLWL0.75HomeLW1.50AwayLL0.00StatisticsOverallHomeAwayWin %25%50%0%AVG4.505.004.00Scored2.253.501.00Conceded2.251.503.00BTTS75%50%100%CS25%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.92 | 1.18 | -0.26 | 2.25 | 2.25 | +1.33 |
+| 24 | Antigua and Barbuda National TeamWC Qualification CONCACAF (Div. -1)League Pos. 5 / 32International FormLast 5PPGOverallDLLL0.25HomeDL0.50AwayLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.501.501.50Scored0.250.500.00Conceded1.251.001.50BTTS25%50%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.81 | 2.21 | -1.40 | 0.25 | 1.25 | -0.56 |
+| 25 | Belize National TeamWC Qualification CONCACAF (Div. -1)League Pos. 5 / 32International FormLast 5PPGOverallLLLL0.00HomeLL0.00AwayLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.753.002.50Scored0.250.000.50Conceded2.503.002.00BTTS25%0%50%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.80 | 1.83 | -1.03 | 0.25 | 2.50 | -0.55 |
+| 26 | MontserratWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallLLWL0.75HomeLW1.50AwayLL0.00StatisticsOverallHomeAwayWin %25%50%0%AVG3.252.504.00Scored0.751.000.50Conceded2.501.503.50BTTS50%50%50%CS25%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.80 | 1.88 | -1.08 | 0.75 | 2.50 | -0.05 |
+| 27 | British Virgin IslandsWC Qualification CONCACAF (Div. -1)League Pos. 5 / 32International FormLast 5PPGOverallDLLLL0.33HomeDLL0.33AwayDLL0.33StatisticsOverallHomeAwayWin %0%0%0%AVG2.171.333.00Scored0.170.000.33Conceded2.001.332.67BTTS17%0%33%CS17%33%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.66 | 1.92 | -1.26 | 0.17 | 2.00 | -0.49 |
+| 28 | Cayman Islands National TeamWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallWLLL0.75HomeWL1.50AwayLL0.00StatisticsOverallHomeAwayWin %25%50%0%AVG2.501.004.00Scored0.250.500.00Conceded2.250.504.00BTTS0%0%0%CS25%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.58 | 1.83 | -1.25 | 0.25 | 2.25 | -0.33 |
+| 29 | Bahamas National TeamWC Qualification CONCACAF (Div. -1)League Pos. 5 / 32International FormLast 5PPGOverallLLLL0.00HomeLL0.00AwayLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG5.758.003.50Scored0.250.500.00Conceded5.507.503.50BTTS25%50%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.51 | 2.64 | -2.13 | 0.25 | 5.50 | -0.26 |
+| 30 | Anguilla National TeamWC Qualification CONCACAF (Div. -1)League Pos. 5 / 32International FormLast 5PPGOverallDLLLL0.33HomeDLL0.33AwayDLL0.33StatisticsOverallHomeAwayWin %0%0%0%AVG3.832.335.33Scored0.170.000.33Conceded3.672.335.00BTTS17%0%33%CS17%33%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.19 | 2.50 | -2.31 | 0.17 | 3.67 | -0.02 |
+| 31 | Turks and Caicos Islands National TeamWC Qualification CONCACAF (Div. -1)League Pos. 3 / 32International FormLast 5PPGOverallDD1.00HomeD1.00AwayD1.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.002.000.00Scored0.501.000.00Conceded0.501.000.00BTTS50%100%0%CS50%0%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 0.00 | 0.00 | 0.00 | 0.50 | 0.50 | +0.50 |
+| 32 | US Virgin IslandsWC Qualification CONCACAF (Div. -1)League Pos. 4 / 32International FormLast 5PPGOverallDD1.00HomeD1.00AwayD1.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.002.000.00Scored0.501.000.00Conceded0.501.000.00BTTS50%100%0%CS50%0%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 0.00 | 0.00 | 0.00 | 0.50 | 0.50 | +0.50 |
+
+This table describes the xG per match of each team in the WC Qualification CONCACAF.xG = Expected Goals to be scored.xGA = Expected Goals to be conceded.xG vs Actual measures the team's actual goals scored against the expected goals scored. A negative number is bad since the team is scoring less than expected. A positive number means the team is scoring more than expected.
+
+For Expected Points data, go to WC Qualification CONCACAF Expected Points Table.
+
+## Players with the Most xG
+
+| # | Player | xG Total | Goals | xG / 90' | Shots | Position | Apps |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Oscar Alexander Santiz Cayax | 5.48 | 6 | 0.73 | 24 | FW | 9 |
+| 2 | Duckens Nazon | 4.82 | 6 | 0.74 | 19 | FW | 10 |
+| 3 | Shamar Nicholson | 4.81 | 5 | 1.05 | 21 | FW | 7 |
+| 4 | Levi Samuel Garcia | 4.21 | 2 | 0.61 | 31 | FW | 8 |
+| 5 | Bancy Hernandez | 3.87 | 3 | 0.51 | 23 | FW | 10 |
+| 6 | Louicius Don Deedson | 3.84 | 4 | 0.82 | 13 | FW | 10 |
+| 7 | Adrian Alonso Martínez Batista | 3.79 | 4 | 0.69 | 14 | FW | 6 |
+| 8 | Dorny Romero | 3.74 | 4 | 0.94 | 17 | FW | 4 |
+| 9 | José Fajardo Nelson | 3.57 | 3 | 0.81 | 19 | FW | 8 |
+| 10 | Oalex Anderson | 3.56 | 4 | 0.89 | 12 | FW | 4 |
+| 11 | Caniggia Ginola Elva | 3.24 | 3 | 0.81 | 16 | MF | 4 |
+| 12 | Anthony Lozano | 3.19 | 2 | 0.68 | 21 | FW | 7 |
+| 13 | Kenji Gorré | 3.13 | 3 | 0.43 | 17 | FW | 8 |
+| 14 | Manfred Ugalde | 3.07 | 3 | 0.36 | 19 | FW | 10 |
+| 15 | Richonell Margaret | 2.96 | 3 | 0.4 | 10 | FW | 8 |
+| 16 | Jaime José Moreno Ciorciari | 2.93 | 4 | 0.44 | 14 | FW | 7 |
+| 17 | Tyrese Spicer | 2.78 | 2 | 0.43 | 18 | FW | 7 |
+| 18 | Frantzdy Pierrot | 2.7 | 2 | 0.32 | 21 | FW | 10 |
+| 19 | Puma | 2.69 | 3 | 0.48 | 10 | FW | 9 |
+| 20 | Orlando Moisés Galo Calderón | 2.66 | 3 | 0.34 | 8 | MF | 8 |
+| 21 | Juninho Bacuna | 2.57 | 3 | 0.31 | 19 | MF | 10 |
+| 22 | Dante Sealy | 2.57 | 3 | 0.49 | 21 | FW | 7 |
+| 23 | Darius Johnson | 2.45 | 2 | 0.73 | 13 | FW | 4 |
+| 24 | Warner Brown | 2.45 | 3 | 1.66 | 7 | FW | 2 |
+| 25 | Rangelo Janga | 2.35 | 3 | 1.35 | 5 | FW | 2 |
+
+This is the list of the players with the highest xGs in the WC Qualification CONCACAF. List can include players from all positions. For more shots data, go to Shots data for WC Qualification CONCACAF page.
+
+## xG Overall (Per Match)
+
+Previous Next
+
+#1
+
+Costa Rica National Team
+
+2.03xG
+
+#2
+
+1.71xG
+
+#3
+
+1.70xG
+
+#4
+
+1.66xG
+
+#5
+
+1.38xG
+
+#6
+
+1.25xG
+
+#7
+
+2.15xG
+
+#8
+
+Dominican Republic National Team
+
+2.12xG
+
+#9
+
+Trinidad and Tobago National Team
+
+1.96xG
+
+#10
+
+1.93xG
+
+#11
+
+1.59xG
+
+#12
+
+St. Kitts and Nevis National Team
+
+1.59xG
+
+#13
+
+1.28xG
+
+#14
+
+1.08xG
+
+#15
+
+1.04xG
+
+#16
+
+0.97xG
+
+#17
+
+Antigua and Barbuda National Team
+
+0.81xG
+
+#18
+
+1.33xG
+
+#19
+
+St. Vincent / Grenadines National Team
+
+0.92xG
+
+#20
+
+1.69xG
+
+#21
+
+1.47xG
+
+#22
+
+El Salvador National Team
+
+1.33xG
+
+#23
+
+St. Lucia National Team
+
+1.23xG
+
+#24
+
+0.80xG
+
+#25
+
+0.80xG
+
+#26
+
+0.66xG
+
+#27
+
+Cayman Islands National Team
+
+0.58xG
+
+#28
+
+0.51xG
+
+#29
+
+0.19xG
+
+#30
+
+0.00xG
+
+#31
+
+1.04xG
+
+#32
+
+Turks and Caicos Islands National Team
+
+0.00xG
+
+## xG Home
+
+Previous Next
+
+#1
+
+Dominican Republic National Team
+
+2.94xG
+
+#2
+
+St. Kitts and Nevis National Team
+
+2.34xG
+
+#3
+
+Costa Rica National Team
+
+2.20xG
+
+#4
+
+2.19xG
+
+#5
+
+2.13xG
+
+#6
+
+Trinidad and Tobago National Team
+
+2.09xG
+
+#7
+
+2.08xG
+
+#8
+
+1.99xG
+
+#9
+
+1.79xG
+
+#10
+
+1.68xG
+
+#11
+
+1.53xG
+
+#12
+
+1.36xG
+
+#13
+
+1.63xG
+
+#14
+
+1.52xG
+
+#15
+
+1.21xG
+
+#16
+
+2.33xG
+
+#17
+
+St. Lucia National Team
+
+1.93xG
+
+#18
+
+El Salvador National Team
+
+1.08xG
+
+#19
+
+0.90xG
+
+#20
+
+0.85xG
+
+#21
+
+0.79xG
+
+#22
+
+0.79xG
+
+#23
+
+St. Vincent / Grenadines National Team
+
+0.77xG
+
+#24
+
+0.76xG
+
+#25
+
+Antigua and Barbuda National Team
+
+0.71xG
+
+#26
+
+Cayman Islands National Team
+
+0.82xG
+
+#27
+
+0.75xG
+
+#28
+
+0.62xG
+
+#29
+
+0.46xG
+
+#30
+
+0.17xG
+
+#31
+
+Turks and Caicos Islands National Team
+
+0.00xG
+
+#32
+
+0.00xG
+
+## xG Away
+
+Previous Next
+
+#1
+
+Costa Rica National Team
+
+1.86xG
+
+#2
+
+2.22xG
+
+#3
+
+Trinidad and Tobago National Team
+
+1.84xG
+
+#4
+
+1.73xG
+
+#5
+
+1.67xG
+
+#6
+
+1.60xG
+
+#7
+
+1.89xG
+
+#8
+
+Dominican Republic National Team
+
+1.29xG
+
+#9
+
+1.22xG
+
+#10
+
+1.05xG
+
+#11
+
+0.51xG
+
+#12
+
+0.93xG
+
+#13
+
+El Salvador National Team
+
+1.57xG
+
+#14
+
+1.75xG
+
+#15
+
+1.20xG
+
+#16
+
+St. Kitts and Nevis National Team
+
+0.85xG
+
+#17
+
+1.42xG
+
+#18
+
+1.35xG
+
+#19
+
+St. Vincent / Grenadines National Team
+
+1.07xG
+
+#20
+
+1.04xG
+
+#21
+
+0.85xG
+
+#22
+
+0.81xG
+
+#23
+
+0.73xG
+
+#24
+
+Antigua and Barbuda National Team
+
+0.92xG
+
+#25
+
+St. Lucia National Team
+
+0.54xG
+
+#26
+
+1.33xG
+
+#27
+
+0.87xG
+
+#28
+
+0.39xG
+
+#29
+
+0.22xG
+
+#30
+
+Cayman Islands National Team
+
+0.10xG
+
+#31
+
+0.00xG
+
+#32
+
+Turks and Caicos Islands National Team
+
+0.00xG
+
+## xGA Overall (Per Match)
+
+Previous Next
+
+#1
+
+1.45xGA
+
+#2
+
+Trinidad and Tobago National Team
+
+1.23xGA
+
+#3
+
+1.04xGA
+
+#4
+
+1.00xGA
+
+#5
+
+1.29xGA
+
+#6
+
+1.31xGA
+
+#7
+
+Costa Rica National Team
+
+0.97xGA
+
+#8
+
+1.88xGA
+
+#9
+
+2.64xGA
+
+#10
+
+1.47xGA
+
+#11
+
+2.60xGA
+
+#12
+
+2.02xGA
+
+#13
+
+1.54xGA
+
+#14
+
+St. Kitts and Nevis National Team
+
+1.76xGA
+
+#15
+
+1.34xGA
+
+#16
+
+1.26xGA
+
+#17
+
+1.16xGA
+
+#18
+
+El Salvador National Team
+
+1.12xGA
+
+#19
+
+1.05xGA
+
+#20
+
+1.83xGA
+
+#21
+
+0.90xGA
+
+#22
+
+2.33xGA
+
+#23
+
+St. Vincent / Grenadines National Team
+
+1.18xGA
+
+#24
+
+Antigua and Barbuda National Team
+
+2.21xGA
+
+#25
+
+St. Lucia National Team
+
+1.80xGA
+
+#26
+
+1.92xGA
+
+#27
+
+2.50xGA
+
+#28
+
+1.28xGA
+
+#29
+
+Cayman Islands National Team
+
+1.83xGA
+
+#30
+
+Dominican Republic National Team
+
+0.77xGA
+
+#31
+
+Turks and Caicos Islands National Team
+
+0.00xGA
+
+#32
+
+0.00xGA
+
+## xGA Home
+
+Previous Next
+
+#1
+
+3.51xGA
+
+#2
+
+1.28xGA
+
+#3
+
+2.10xGA
+
+#4
+
+Trinidad and Tobago National Team
+
+1.16xGA
+
+#5
+
+1.84xGA
+
+#6
+
+1.61xGA
+
+#7
+
+1.49xGA
+
+#8
+
+1.30xGA
+
+#9
+
+St. Kitts and Nevis National Team
+
+1.26xGA
+
+#10
+
+1.23xGA
+
+#11
+
+Costa Rica National Team
+
+1.15xGA
+
+#12
+
+1.03xGA
+
+#13
+
+1.03xGA
+
+#14
+
+0.73xGA
+
+#15
+
+El Salvador National Team
+
+0.84xGA
+
+#16
+
+0.81xGA
+
+#17
+
+0.63xGA
+
+#18
+
+0.71xGA
+
+#19
+
+2.41xGA
+
+#20
+
+3.30xGA
+
+#21
+
+Cayman Islands National Team
+
+2.48xGA
+
+#22
+
+Antigua and Barbuda National Team
+
+2.18xGA
+
+#23
+
+2.13xGA
+
+#24
+
+2.07xGA
+
+#25
+
+St. Lucia National Team
+
+1.22xGA
+
+#26
+
+1.20xGA
+
+#27
+
+St. Vincent / Grenadines National Team
+
+0.93xGA
+
+#28
+
+0.72xGA
+
+#29
+
+0.68xGA
+
+#30
+
+Dominican Republic National Team
+
+0.42xGA
+
+#31
+
+0.00xGA
+
+#32
+
+Turks and Caicos Islands National Team
+
+0.00xGA
+
+## xGA Away
+
+Previous Next
+
+#1
+
+1.93xGA
+
+#2
+
+2.05xGA
+
+#3
+
+1.77xGA
+
+#4
+
+1.62xGA
+
+#5
+
+3.60xGA
+
+#6
+
+St. Kitts and Nevis National Team
+
+2.26xGA
+
+#7
+
+1.63xGA
+
+#8
+
+1.59xGA
+
+#9
+
+1.33xGA
+
+#10
+
+1.59xGA
+
+#11
+
+1.40xGA
+
+#12
+
+Trinidad and Tobago National Team
+
+1.30xGA
+
+#13
+
+1.93xGA
+
+#14
+
+2.25xGA
+
+#15
+
+Costa Rica National Team
+
+0.79xGA
+
+#16
+
+El Salvador National Team
+
+1.40xGA
+
+#17
+
+1.18xGA
+
+#18
+
+1.71xGA
+
+#19
+
+1.72xGA
+
+#20
+
+1.04xGA
+
+#21
+
+St. Lucia National Team
+
+2.39xGA
+
+#22
+
+1.79xGA
+
+#23
+
+Antigua and Barbuda National Team
+
+2.24xGA
+
+#24
+
+1.60xGA
+
+#25
+
+St. Vincent / Grenadines National Team
+
+1.44xGA
+
+#26
+
+1.43xGA
+
+#27
+
+1.37xGA
+
+#28
+
+Dominican Republic National Team
+
+1.13xGA
+
+#29
+
+1.08xGA
+
+#30
+
+Cayman Islands National Team
+
+0.53xGA
+
+#31
+
+Turks and Caicos Islands National Team
+
+0.00xGA
+
+#32
+
+0.00xGA
+
+Fixture
+
+Home XG
+
+Away XG
+
+AVG Goals
+
+- XG: Upcoming Fixtures
+
+Fixture
+
+Home XG
+
+Away XG
+
+Final Goals
+
+1.44
+
+1.71
+
+0
+
+1.22
+
+1.15
+
+2
+
+Costa Rica vs Honduras
+
+1.60
+
+1.59
+
+0
+
+Trinidad and Tobago vs Bermuda
+
+2.68
+
+1.61
+
+4
+
+Panama vs El Salvador
+
+2.57
+
+0.83
+
+3
+
+2.53
+
+1.22
+
+4
+
+2.52
+
+1.08
+
+5
+
+Haiti vs Costa Rica
+
+0.96
+
+1.67
+
+1
+
+1.16
+
+1.87
+
+2
+
+0.54
+
+3.25
+
+7
+
+Trinidad and Tobago vs Jamaica
+
+1.83
+
+0.65
+
+2
+
+Suriname vs El Salvador
+
+1.47
+
+0.99
+
+4
+
+El Salvador vs Guatemala
+
+0.81
+
+0.56
+
+1
+
+3.04
+
+1.01
+
+2
+
+3.33
+
+0.69
+
+4
+
+- XG: Recent Results
+
+## xG (Expected Goals) By Teams in WC Qualification CONCACAF
+
+---
+
+### Which Team Has The Best xG?
+
+Currently, Costa Rica National Team has the best xG (Expected Goals For) in the WC Qualification CONCACAF with 2.03 xG per game.
+
+### Which Team Has The Worst xG?
+
+Currently, Turks and Caicos Islands National Team has the worst xG (Expected Goals For) in the WC Qualification CONCACAF with 0.00 xG per game.
+
+### Who Has The Best xG at Home?
+
+The team with the best xG when playing at home this season is Dominican Republic National Team, who has an xG of 2.94 from their home games thus far.
+
+### Who Has The Worst xG at Home?
+
+The team with the worst xG when playing at home this season is US Virgin Islands, who is expected to score just 0.00 goals per game in front of their own fans.
+
+### Who Has The Best xG Away From Home?
+
+The team with the best xG whilst on the road this season is Costa Rica National Team, who is expected to score 1.86 goals per game in their opponents stadium.
+
+### Who Has The Worst xG Away From Home?
+
+The team with the worst xG whilst on the road this season is Turks and Caicos Islands National Team, who is expected to score just 0.00 goals per game in their opponents stadium.
+
+### Who Has The Best xGA?
+
+US Virgin Islands has the best xGA (Expected Goals Against) in the WC Qualification CONCACAF with just 0.00 goals expected against them per game. Arguably, this stat could suggest they have the best defence in this competition.
+
+### Who Has The Best xGA at Home?
+
+Turks and Caicos Islands National Team has the best xGA (Expected Goals Against) in the WC Qualification CONCACAF when playing at home with just 0.00 goals expected against them per game. They are formidable when playing at home.
+
+### Who Has The Best xGA Away From Home?
+
+US Virgin Islands has the best xGA (Expected Goals Against) in the WC Qualification CONCACAF when playing away from home with just 0.00 goals expected against them per game. Very frustrating for those home fans who must watch their team face US Virgin Islands.
+
+### Who Has The Worst xGA?
+
+Fans of Haiti National Team will demand better defending in the future, with 1.45 xGA (Goals Expected Against). The worst of all teams in the WC Qualification CONCACAF this season.
+
+### Who Has The Worst xGA at Home?
+
+The team with the worst xGA (Goals Expected Against) when playing at home this season is Bahamas National Team, who is expected to concede 3.51 goals per game in front of their own fans.
+
+### Who Has The Worst xGA Away From Home?
+
+The team with the worst xGA (Goals Expected Against) when playing away from home this season is Bermuda National Team, who is expected to concede 1.93 goals per game whilst on their travels.
+
+### How is the xG calculated for WC Qualification CONCACAF?
+
+FootyStats uses a unique formula for calculating xG. Traditional xG only takes account of shot positions while FootyStats uses a combination of shot accuracy (on/off target), shot frequency (number of shots), attack dangerousness, overall attack pressure (posession amount and depth of posession) to summarize expected goals for WC Qualification CONCACAF. The reason for using more data points to calculate xG is because many attacks can be extremely dangerous without a shot attempt, and using other data such as posession and depth of attack can increase the granularity of WC Qualification CONCACAF's xG data.
+
+## xG (Expected Goals) - International
+
+WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Asia xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2014 Brazil xG (Expected Goals)- Cup or Playoff
+
+International Friendlies xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Africa xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2010 South Africa xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Championship xG (Expected Goals)- Cup or Playoff
+
+FIFA Confederations Cup xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Qualifiers xG (Expected Goals)- Cup or Playoff
+
+UEFA Nations League xG (Expected Goals)- Cup or Playoff
+
+WC Qualification South America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2006 Germany xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2002 Korea Japan xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2018 Russia xG (Expected Goals)- Cup or Playoff
+
+International Champions Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup xG (Expected Goals)- Cup or Playoff
+
+Copa America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup U20 xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Women's World Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U17 World Cup xG (Expected Goals)- Cup or Playoff
+
+Olympics xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Champions League xG (Expected Goals)- Cup or Playoff
+
+UEFA Womens Euro xG (Expected Goals)- Cup or Playoff
+
+Africa U20 Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+WC Qualification CONCACAF xG (Expected Goals)- Cup or Playoff
+
+Olympic Qualifying Concacaf xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U21 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+Olympics Women xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Concacaf xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Oceania xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+FIFA Arab Cup xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Nations League xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U19 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+International Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+AFC Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONMEBOL UEFA Cup of Champions xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2022 Qatar xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Championship U20 xG (Expected Goals)- Cup or Playoff
+
+CONCACAF League xG (Expected Goals)- Cup or Playoff
+
+Arab Club Champions Cup xG (Expected Goals)- Cup or Playoff
+
+Elite League U20 xG (Expected Goals)- Cup or Playoff
+
+CAF Super Cup xG (Expected Goals)- Cup or Playoff
+
+Gulf Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+SheBelieves Cup xG (Expected Goals)- Cup or Playoff
+
+Womens Olympic Qualifying CAF xG (Expected Goals)- Cup or Playoff
+
+UEFA CONMEBOL Club Challenge xG (Expected Goals)- Cup or Playoff
+
+Asian Games xG (Expected Goals)- Cup or Playoff
+
+Concacaf W Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Turkish Womens Cup xG (Expected Goals)- Cup or Playoff
+
+Sud Ladies Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Central American Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U20 Womens World Cup xG (Expected Goals)- Cup or Playoff
+
+Campeones Cup xG (Expected Goals)- Cup or Playoff
+
+African Football League xG (Expected Goals)- Cup or Playoff
+
+African Games Women xG (Expected Goals)- Cup or Playoff
+
+AFF Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Champions League xG (Expected Goals)- Cup or Playoff
+
+Club Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+Concacaf Championship Women U20 xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup Playin xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+EAFF E1 Football Championship xG (Expected Goals)- Cup or Playoff
+
+J League World Challenge xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Club Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Womens Nations Cup xG (Expected Goals)- Cup or Playoff
+
+World Cup xG (Expected Goals)- Cup or Playoff
+
+Loading
+
+Go Premium
+
+Close
+
+/
+
+https://cdn.footystats.org/
+
+- Starts in ### min'
+
+- Starts in ### Hr'
+
+Live'
+
+- Started'
+
+●Soon
+
+●Started
+
+no
+
+Get Profitable Predictions In Your Email!

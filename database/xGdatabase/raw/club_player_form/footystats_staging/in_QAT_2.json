@@ -1,0 +1,65 @@
+[
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Hasan HASSAN ALHAYDOS",
+    "roster_position": "FW",
+    "roster_club": "Al Sadd SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Meshaal MESHAAL BARSHAM",
+    "roster_position": "GK",
+    "roster_club": "Al Sadd SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Pedro PEDRO MIGUEL",
+    "roster_position": "DF",
+    "roster_club": "Al Sadd SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Mohamed MOHAMED MANAI",
+    "roster_position": "FW",
+    "roster_club": "Al Shamal SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Assim ASSIM MADIBO",
+    "roster_position": "MF",
+    "roster_club": "Al Wakrah SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Lucas LUCAS MENDES",
+    "roster_position": "DF",
+    "roster_club": "Al Wakrah SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Yusuf YUSUF ABDURISAG",
+    "roster_position": "FW",
+    "roster_club": "Al Wakrah SC (QAT)",
+    "league": "Qatar Stars League"
+  }
+]

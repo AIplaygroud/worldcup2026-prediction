@@ -1,0 +1,245 @@
+[
+  {
+    "national_team": "Argentina",
+    "team_code": "ARG",
+    "group": "J",
+    "roster_player": "Nicolas OTAMENDI",
+    "roster_position": "DF",
+    "roster_club": "SL Ben ca (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Belgium",
+    "team_code": "BEL",
+    "group": "G",
+    "roster_player": "Zeno DEBAST",
+    "roster_position": "DF",
+    "roster_club": "Sporting CP (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Jovane JOVANE CABRAL",
+    "roster_position": "MF",
+    "roster_club": "CF Estrela Da Amadora (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Josimar VOZINHA",
+    "roster_position": "GK",
+    "roster_club": "GD Chaves (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Jair YANNICK SEMEDO",
+    "roster_position": "MF",
+    "roster_club": "SC Farense (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Ianique STOPIRA",
+    "roster_position": "DF",
+    "roster_club": "SCU Torreense (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Sidny SIDNY LOPES CABRAL",
+    "roster_position": "DF",
+    "roster_club": "SL Ben ca (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Telmo TELMO ARCANJO",
+    "roster_position": "MF",
+    "roster_club": "Vitória SC (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Richard RIOS",
+    "roster_position": "MF",
+    "roster_club": "SL Ben ca (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Luis SUAREZ",
+    "roster_position": "FW",
+    "roster_club": "Sporting CP (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Czechia",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_player": "Lukas HORNICEK",
+    "roster_position": "GK",
+    "roster_club": "SC Braga (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Haiti",
+    "team_code": "HAI",
+    "group": "C",
+    "roster_player": "Leverton PIERRE",
+    "roster_position": "MF",
+    "roster_club": "FC Vizela (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Haiti",
+    "team_code": "HAI",
+    "group": "C",
+    "roster_player": "Yassin FORTUNE",
+    "roster_position": "FW",
+    "roster_club": "FC Vizela (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Ivory Coast",
+    "team_code": "CIV",
+    "group": "E",
+    "roster_player": "Ghislain KONAN",
+    "roster_position": "DF",
+    "roster_club": "Gil Vicente FC (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Ivory Coast",
+    "team_code": "CIV",
+    "group": "E",
+    "roster_player": "Ousmane DIOMANDE",
+    "roster_position": "DF",
+    "roster_club": "Sporting CP (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Norway",
+    "team_code": "NOR",
+    "group": "I",
+    "roster_player": "Andreas SCHJELDERUP",
+    "roster_position": "MF",
+    "roster_club": "SL Ben ca (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Norway",
+    "team_code": "NOR",
+    "group": "I",
+    "roster_player": "Fredrik AURSNES",
+    "roster_position": "MF",
+    "roster_club": "SL Ben ca (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_player": "Diogo DIOGO COSTA",
+    "roster_position": "GK",
+    "roster_club": "FC Porto (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_player": "Tomás TOMAS ARAUJO",
+    "roster_position": "DF",
+    "roster_club": "SL Ben ca (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_player": "Francisco FRANCISCO TRINCAO",
+    "roster_position": "FW",
+    "roster_club": "Sporting CP (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_player": "Gonçalo GONCALO INACIO",
+    "roster_position": "DF",
+    "roster_club": "Sporting CP (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_player": "Rui RUI SILVA",
+    "roster_position": "GK",
+    "roster_club": "Sporting CP (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "South Africa",
+    "team_code": "RSA",
+    "group": "A",
+    "roster_player": "Sphephelo SITHOLE",
+    "roster_position": "MF",
+    "roster_club": "CD Tondela (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Sweden",
+    "team_code": "SWE",
+    "group": "F",
+    "roster_player": "Gustaf LAGERBIELKE",
+    "roster_position": "DF",
+    "roster_club": "SC Braga (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Deniz GUL",
+    "roster_position": "FW",
+    "roster_club": "FC Porto (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Rodrigo ZALAZAR",
+    "roster_position": "MF",
+    "roster_club": "SC Braga (POR)",
+    "league": "Primeira Liga"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Maxi ARAUJO",
+    "roster_position": "MF",
+    "roster_club": "Sporting CP (POR)",
+    "league": "Primeira Liga"
+  }
+]

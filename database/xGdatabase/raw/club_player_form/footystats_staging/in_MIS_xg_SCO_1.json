@@ -1,0 +1,192 @@
+[
+  {
+    "national_team": "Australia",
+    "team_code": "AUS",
+    "group": "D",
+    "roster_player": "Cameron DEVLIN",
+    "roster_position": "MF",
+    "roster_club": "Heart Of Midlothian FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Belgium",
+    "team_code": "BEL",
+    "group": "G",
+    "roster_player": "Nicolas RASKIN",
+    "roster_position": "MF",
+    "roster_club": "Rangers FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Canada",
+    "team_code": "CAN",
+    "group": "B",
+    "roster_player": "Alistair JOHNSTON",
+    "roster_position": "DF",
+    "roster_club": "Celtic FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_player": "Aaron TSHIBOLA",
+    "roster_position": "MF",
+    "roster_club": "Kilmarnock FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Daizen MAEDA",
+    "roster_position": "MF",
+    "roster_club": "Celtic FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "South Korea",
+    "team_code": "KOR",
+    "group": "A",
+    "roster_player": "Hyunjun YANG",
+    "roster_position": "MF",
+    "roster_club": "Celtic FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "New Zealand",
+    "team_code": "NZL",
+    "group": "G",
+    "roster_player": "Elijah JUST",
+    "roster_position": "MF",
+    "roster_club": "Motherwell FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Norway",
+    "team_code": "NOR",
+    "group": "I",
+    "roster_player": "Thelo AASGAARD",
+    "roster_position": "MF",
+    "roster_club": "Rangers FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "Grant HANLEY",
+    "roster_position": "DF",
+    "roster_club": "Hibernian FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "Kieran TIERNEY",
+    "roster_position": "DF",
+    "roster_club": "Celtic FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "Liam KELLY",
+    "roster_position": "GK",
+    "roster_club": "Rangers FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "John SOUTTAR",
+    "roster_position": "DF",
+    "roster_club": "Rangers FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "Lawrence SHANKLAND",
+    "roster_position": "FW",
+    "roster_club": "Heart Of Midlothian FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "Craig GORDON",
+    "roster_position": "GK",
+    "roster_club": "Heart Of Midlothian FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "Anthony RALSTON",
+    "roster_position": "DF",
+    "roster_club": "Celtic FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "Findlay CURTIS",
+    "roster_position": "FW",
+    "roster_club": "Kilmarnock FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Sweden",
+    "team_code": "SWE",
+    "group": "F",
+    "roster_player": "Benjamin NYGREN",
+    "roster_position": "MF",
+    "roster_club": "Celtic FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Tunisia",
+    "team_code": "TUN",
+    "group": "F",
+    "roster_player": "Sebastian TOUNEKTI",
+    "roster_position": "MF",
+    "roster_club": "Celtic FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "USA",
+    "team_code": "USA",
+    "group": "D",
+    "roster_player": "Auston TRUSTY",
+    "roster_position": "DF",
+    "roster_club": "Celtic FC (SCO)",
+    "league": "Scottish Premiership",
+    "_tier": "xg"
+  }
+]

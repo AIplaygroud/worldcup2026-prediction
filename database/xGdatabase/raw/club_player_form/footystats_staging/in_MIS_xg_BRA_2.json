@@ -1,0 +1,62 @@
+[
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Sergio ROCHET",
+    "roster_position": "GK",
+    "roster_club": "SC Internacional (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Nicolas DE LA CRUZ",
+    "roster_position": "MF",
+    "roster_club": "CR Flamengo (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Giorgian DE ARRASCAETA",
+    "roster_position": "MF",
+    "roster_club": "CR Flamengo (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Guillermo VARELA",
+    "roster_position": "DF",
+    "roster_club": "CR Flamengo (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Agustin CANOBBIO",
+    "roster_position": "MF",
+    "roster_club": "Fluminense FC (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Joaquin PIQUEREZ",
+    "roster_position": "MF",
+    "roster_club": "SE Palmeiras (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  }
+]

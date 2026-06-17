@@ -1,0 +1,7 @@
+﻿confederation,competition,teams_parsed,source,source_url,data_status,notes
+UEFA,WC Qualification Europe,50,FootyStats,https://footystats.org/international/wc-qualification-europe/xg,public_table_parsed,
+AFC,WC Qualification Asia,47,FootyStats,https://footystats.org/international/wc-qualification-asia/xg,public_table_parsed,
+CAF,WC Qualification Africa,50,FootyStats,https://footystats.org/international/wc-qualification-africa/xg,public_table_parsed,
+CONCACAF,WC Qualification CONCACAF,32,FootyStats,https://footystats.org/international/wc-qualification-concacaf/xg,public_table_parsed,
+CONMEBOL,WC Qualification South America,10,FootyStats,https://footystats.org/international/wc-qualification-south-america/xg,public_table_parsed,
+OFC,WC Qualification Oceania,0,FootyStats/StatsBet/MakeYourStats candidate,https://footystats.org/international/wc-qualification-oceania,missing_xg,No verifiable public team xG table parsed; Cloudflare blocked direct fetch.

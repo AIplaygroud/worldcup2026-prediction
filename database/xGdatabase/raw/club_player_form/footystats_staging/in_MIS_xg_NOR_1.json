@@ -1,0 +1,72 @@
+[
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Aimar AIMAR SHER",
+    "roster_position": "MF",
+    "roster_club": "Sarpsborg 08 FF (NOR)",
+    "league": "Norwegian Eliteserien",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "New Zealand",
+    "team_code": "NZL",
+    "group": "G",
+    "roster_player": "Joe BELL",
+    "roster_position": "MF",
+    "roster_club": "Viking Stavanger (NOR)",
+    "league": "Norwegian Eliteserien",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Norway",
+    "team_code": "NOR",
+    "group": "I",
+    "roster_player": "Patrick BERG",
+    "roster_position": "MF",
+    "roster_club": "FK Bodø/Glimt (NOR)",
+    "league": "Norwegian Eliteserien",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Norway",
+    "team_code": "NOR",
+    "group": "I",
+    "roster_player": "Fredrik BJORKAN",
+    "roster_position": "DF",
+    "roster_club": "FK Bodø/Glimt (NOR)",
+    "league": "Norwegian Eliteserien",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Norway",
+    "team_code": "NOR",
+    "group": "I",
+    "roster_player": "Jens HAUGE",
+    "roster_position": "MF",
+    "roster_club": "FK Bodø/Glimt (NOR)",
+    "league": "Norwegian Eliteserien",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Norway",
+    "team_code": "NOR",
+    "group": "I",
+    "roster_player": "Henrik FALCHENER",
+    "roster_position": "DF",
+    "roster_club": "Viking Stavanger (NOR)",
+    "league": "Norwegian Eliteserien",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "South Africa",
+    "team_code": "RSA",
+    "group": "A",
+    "roster_player": "Samukelo KABINI",
+    "roster_position": "DF",
+    "roster_club": "Molde FK (NOR)",
+    "league": "Norwegian Eliteserien",
+    "_tier": "xg"
+  }
+]

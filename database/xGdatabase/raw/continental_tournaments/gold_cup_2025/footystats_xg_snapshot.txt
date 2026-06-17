@@ -1,0 +1,970 @@
+CONCACAF Gold Cup xG (Expected Goals) | FootyStats
+
+# xG (Expected Goals) - International CONCACAF Gold Cup
+
+Nation
+
+Type
+
+Cup
+
+Teams
+
+16
+
+Season
+
+2025
+
+- 2023
+- 2021
+- 2019
+
+Matches
+
+31/31 Played
+
+Progress
+
+100% completed
+
+Competition
+
+Goals
+
+Over/Under
+
+More
+
+## xG (Expected Goals) - CONCACAF Gold Cup
+
+## xG Per 90, including xG Difference
+
+MP
+
+Matches Played
+
+### Panama National Team
+
+### Mexico National Team
+
+### United States Men's National Team
+
+### Dominican Republic National Team
+
+### Haiti National Team
+
+### Canada National Team
+
+### Costa Rica National Team
+
+### Suriname National Team
+
+### Guadeloupe National Team
+
+### Jamaica National Team
+
+### Guatemala National Team
+
+### Honduras National Team
+
+### Curaçao National Team
+
+### Saudi Arabia National Team
+
+### Trinidad and Tobago National Team
+
+### El Salvador National Team
+
+| # | Team | xG | xGA | xGD | GF | GA | xG vs Actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Panama National TeamCONCACAF Gold Cup (Div. -1)League Pos. 1 / 16International FormLast 5PPGOverallWWWD2.50HomeWWD2.33AwayW3.00StatisticsOverallHomeAwayWin %75%67%100%AVG3.754.671.00Scored2.753.331.00Conceded1.001.330.00BTTS75%100%0%CS25%0%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.79 | 1.06 | +0.73 | 2.75 | 1.00 | +0.96 |
+| 2 | Mexico National TeamCONCACAF Gold Cup (Div. -1)League Pos. 1 / 16International FormLast 5PPGOverallWDWWW2.67HomeWDWW2.50AwayWW3.00StatisticsOverallHomeAwayWin %83%75%100%AVG2.172.002.50Scored1.671.502.00Conceded0.500.500.50BTTS33%25%50%CS67%75%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.61 | 0.73 | +0.88 | 1.67 | 0.50 | +0.06 |
+| 3 | United States Men's National TeamCONCACAF Gold Cup (Div. -1)League Pos. 1 / 16International FormLast 5PPGOverallWWDWL2.17HomeWWDWL2.00AwayW3.00StatisticsOverallHomeAwayWin %67%60%100%AVG3.173.601.00Scored2.172.401.00Conceded1.001.200.00BTTS67%80%0%CS33%20%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.51 | 1.05 | +0.46 | 2.17 | 1.00 | +0.66 |
+| 4 | Dominican Republic National TeamCONCACAF Gold Cup (Div. -1)League Pos. 3 / 16International FormLast 5PPGOverallLLD0.33HomeD1.00AwayLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.670.004.00Scored1.000.001.50Conceded1.670.002.50BTTS67%0%100%CS33%100%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.45 | 1.70 | -0.25 | 1.00 | 1.67 | -0.45 |
+| 5 | Haiti National TeamCONCACAF Gold Cup (Div. -1)League Pos. 4 / 16International FormLast 5PPGOverallLDL0.33HomeL0.00AwayDL0.50StatisticsOverallHomeAwayWin %0%0%0%AVG2.001.002.50Scored0.670.001.00Conceded1.331.001.50BTTS67%0%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.33 | 1.10 | +0.23 | 0.67 | 1.33 | -0.66 |
+| 6 | Canada National TeamCONCACAF Gold Cup (Div. -1)League Pos. 1 / 16International FormLast 5PPGOverallWDWD2.00HomeWWD2.33AwayD1.00StatisticsOverallHomeAwayWin %50%67%0%AVG2.502.672.00Scored2.252.671.00Conceded0.250.001.00BTTS25%0%100%CS75%100%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.28 | 0.70 | +0.58 | 2.25 | 0.25 | +0.97 |
+| 7 | Costa Rica National TeamCONCACAF Gold Cup (Div. -1)League Pos. 2 / 16International FormLast 5PPGOverallWWDD2.00HomeWW3.00AwayDD1.00StatisticsOverallHomeAwayWin %50%100%0%AVG3.505.002.00Scored2.003.001.00Conceded1.502.001.00BTTS75%100%50%CS25%0%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.24 | 1.47 | -0.23 | 2.00 | 1.50 | +0.76 |
+| 8 | Suriname National TeamCONCACAF Gold Cup (Div. -1)League Pos. 4 / 16International FormLast 5PPGOverallLLD0.33HomeL0.00AwayLD0.50StatisticsOverallHomeAwayWin %0%0%0%AVG3.002.003.50Scored1.000.001.50Conceded2.002.002.00BTTS33%0%50%CS33%0%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.22 | 1.78 | -0.56 | 1.00 | 2.00 | -0.22 |
+| 9 | Guadeloupe National TeamCONCACAF Gold Cup (Div. -1)League Pos. 4 / 16International FormLast 5PPGOverallLLL0.00HomeL0.00AwayLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG5.005.005.00Scored1.672.001.50Conceded3.333.003.50BTTS100%100%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.22 | 1.37 | -0.15 | 1.67 | 3.33 | +0.45 |
+| 10 | Jamaica National TeamCONCACAF Gold Cup (Div. -1)League Pos. 3 / 16International FormLast 5PPGOverallLWL1.00HomeLW1.50AwayL0.00StatisticsOverallHomeAwayWin %33%50%0%AVG3.002.005.00Scored1.001.001.00Conceded2.001.004.00BTTS67%50%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.16 | 1.13 | +0.03 | 1.00 | 2.00 | -0.16 |
+| 11 | Guatemala National TeamCONCACAF Gold Cup (Div. -1)League Pos. 2 / 16International FormLast 5PPGOverallWLWDL1.40HomeL0.00AwayWWDL1.75StatisticsOverallHomeAwayWin %40%0%50%AVG2.001.002.25Scored1.000.001.25Conceded1.001.001.00BTTS40%0%50%CS40%0%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 5 | 1.14 | 1.36 | -0.22 | 1.00 | 1.00 | -0.14 |
+| 12 | Honduras National TeamCONCACAF Gold Cup (Div. -1)League Pos. 2 / 16International FormLast 5PPGOverallLWWDL1.40HomeWW3.00AwayLDL0.33StatisticsOverallHomeAwayWin %40%100%0%AVG2.802.503.00Scored1.002.000.33Conceded1.800.502.67BTTS40%50%33%CS20%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 5 | 0.92 | 1.40 | -0.48 | 1.00 | 1.80 | +0.08 |
+| 13 | Curaçao National TeamCONCACAF Gold Cup (Div. -1)League Pos. 3 / 16International FormLast 5PPGOverallDDL0.67HomeDD1.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.671.003.00Scored0.670.501.00Conceded1.000.502.00BTTS67%50%100%CS33%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 0.91 | 0.80 | +0.11 | 0.67 | 1.00 | -0.24 |
+| 14 | Saudi Arabia National TeamCONCACAF Gold Cup (Div. -1)League Pos. 2 / 16International FormLast 5PPGOverallWLDL1.00HomeLD0.50AwayWL1.50StatisticsOverallHomeAwayWin %25%0%50%AVG1.501.501.50Scored0.500.500.50Conceded1.001.001.00BTTS25%50%0%CS25%0%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.73 | 1.19 | -0.46 | 0.50 | 1.00 | -0.23 |
+| 15 | Trinidad and Tobago National TeamCONCACAF Gold Cup (Div. -1)League Pos. 3 / 16International FormLast 5PPGOverallLDD0.67HomeD1.00AwayLD0.50StatisticsOverallHomeAwayWin %0%0%0%AVG3.002.003.50Scored0.671.000.50Conceded2.331.003.00BTTS67%100%50%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 0.62 | 1.82 | -1.20 | 0.67 | 2.33 | +0.05 |
+| 16 | El Salvador National TeamCONCACAF Gold Cup (Div. -1)League Pos. 4 / 16International FormLast 5PPGOverallDLL0.33Home0.00AwayDLL0.33StatisticsOverallHomeAwayWin %0%0%0%AVG1.330.001.33Scored0.000.000.00Conceded1.330.001.33BTTS0%0%0%CS33%0%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 0.21 | 0.77 | -0.56 | 0.00 | 1.33 | -0.21 |
+
+This table describes the xG per match of each team in the CONCACAF Gold Cup.xG = Expected Goals to be scored.xGA = Expected Goals to be conceded.xG vs Actual measures the team's actual goals scored against the expected goals scored. A negative number is bad since the team is scoring less than expected. A positive number means the team is scoring more than expected.
+
+For Expected Points data, go to CONCACAF Gold Cup Expected Points Table.
+
+## Players with the Most xG
+
+| # | Player | xG Total | Goals | xG / 90' | Shots | Position | Apps |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Ismael Díaz | 4.66 | 6 | 1.28 | 11 | FW | 4 |
+| 2 | Raúl Jiménez | 2.8 | 3 | 0.56 | 11 | FW | 6 |
+| 3 | Diego Luna | 2.69 | 3 | 0.54 | 10 | MF | 6 |
+| 4 | Manfred Ugalde | 2.61 | 3 | 0.88 | 8 | FW | 3 |
+| 5 | Patrick Agyemang | 2.43 | 0 | 0.43 | 14 | MF | 3 |
+| 6 | Malik Tillman | 2.41 | 3 | 0.4 | 8 | MF | 6 |
+| 7 | Tomas Abdiel Rodríguez Mena | 2.34 | 3 | 0.83 | 7 | FW | 4 |
+| 8 | Tajon Buchanan | 2.18 | 3 | 1.03 | 4 | FW | 4 |
+| 9 | César Montes | 2.15 | 3 | 0.44 | 4 | DF | 5 |
+| 10 | Edson Álvarez | 2.01 | 2 | 0.33 | 9 | MF | 6 |
+| 11 | Adrian Alonso Martínez Batista | 1.93 | 2 | 0.5 | 9 | FW | 4 |
+| 12 | Chris Richards | 1.89 | 2 | 0.32 | 8 | DF | 6 |
+| 13 | Josimar Alcócer | 1.73 | 2 | 0.54 | 6 | FW | 4 |
+| 14 | Olger Escobar | 1.56 | 2 | 1 | 4 | MF | 5 |
+| 15 | Nathan Saliba | 1.49 | 2 | 0.74 | 3 | MF | 2 |
+| 16 | Oscar Alexander Santiz Cayax | 1.4 | 1 | 0.49 | 11 | FW | 5 |
+| 17 | Leon Bailey | 1.36 | 1 | 0.5 | 10 | FW | 3 |
+| 18 | Maximilian Arfsten | 1.34 | 1 | 0.28 | 8 | FW | 5 |
+| 19 | Ernesto Alexis Vega Rojas | 1.33 | 1 | 0.26 | 8 | FW | 6 |
+| 20 | Romell Quioto | 1.27 | 1 | 0.29 | 7 | FW | 5 |
+| 21 | Thierry Ambrose | 1.2 | 1 | 0.61 | 7 | FW | 3 |
+| 22 | Tani Oluwaseyi | 1.16 | 1 | 0.65 | 8 | FW | 3 |
+| 23 | Eduardo Antonio Guerrero Lozcano | 1.13 | 1 | 0.96 | 6 | FW | 3 |
+| 24 | Firas Albirakan | 1.08 | 1 | 0.33 | 5 | FW | 4 |
+| 25 | Rubio Rubin | 1.08 | 1 | 0.53 | 5 | FW | 3 |
+
+This is the list of the players with the highest xGs in the CONCACAF Gold Cup. List can include players from all positions. For more shots data, go to Shots data for CONCACAF Gold Cup page.
+
+## xG Overall (Per Match)
+
+Previous Next
+
+#1
+
+1.79xG
+
+#2
+
+1.61xG
+
+#3
+
+United States Men's National Team
+
+1.51xG
+
+#4
+
+Dominican Republic National Team
+
+1.45xG
+
+#5
+
+1.33xG
+
+#6
+
+1.28xG
+
+#7
+
+Costa Rica National Team
+
+1.24xG
+
+#8
+
+1.22xG
+
+#9
+
+1.22xG
+
+#10
+
+1.16xG
+
+#11
+
+1.14xG
+
+#12
+
+0.92xG
+
+#13
+
+0.91xG
+
+#14
+
+Saudi Arabia National Team
+
+0.73xG
+
+#15
+
+Trinidad and Tobago National Team
+
+0.62xG
+
+#16
+
+El Salvador National Team
+
+0.21xG
+
+## xG Home
+
+Previous Next
+
+#1
+
+United States Men's National Team
+
+1.63xG
+
+#2
+
+Costa Rica National Team
+
+1.79xG
+
+#3
+
+1.61xG
+
+#4
+
+1.57xG
+
+#5
+
+1.52xG
+
+#6
+
+Dominican Republic National Team
+
+1.49xG
+
+#7
+
+1.46xG
+
+#8
+
+1.04xG
+
+#9
+
+1.00xG
+
+#10
+
+Saudi Arabia National Team
+
+0.90xG
+
+#11
+
+0.85xG
+
+#12
+
+0.77xG
+
+#13
+
+Trinidad and Tobago National Team
+
+0.74xG
+
+#14
+
+0.70xG
+
+#15
+
+0.39xG
+
+#16
+
+El Salvador National Team
+
+0.00xG
+
+## xG Away
+
+Previous Next
+
+#1
+
+2.42xG
+
+#2
+
+1.77xG
+
+#3
+
+1.48xG
+
+#4
+
+Dominican Republic National Team
+
+1.43xG
+
+#5
+
+1.40xG
+
+#6
+
+1.40xG
+
+#7
+
+1.33xG
+
+#8
+
+1.19xG
+
+#9
+
+1.19xG
+
+#10
+
+United States Men's National Team
+
+0.91xG
+
+#11
+
+0.87xG
+
+#12
+
+0.73xG
+
+#13
+
+Costa Rica National Team
+
+0.70xG
+
+#14
+
+Trinidad and Tobago National Team
+
+0.56xG
+
+#15
+
+Saudi Arabia National Team
+
+0.56xG
+
+#16
+
+El Salvador National Team
+
+0.55xG
+
+## xGA Overall (Per Match)
+
+Previous Next
+
+#1
+
+Trinidad and Tobago National Team
+
+1.82xGA
+
+#2
+
+1.78xGA
+
+#3
+
+Dominican Republic National Team
+
+1.70xGA
+
+#4
+
+Costa Rica National Team
+
+1.47xGA
+
+#5
+
+1.40xGA
+
+#6
+
+1.37xGA
+
+#7
+
+1.36xGA
+
+#8
+
+Saudi Arabia National Team
+
+1.19xGA
+
+#9
+
+1.13xGA
+
+#10
+
+1.10xGA
+
+#11
+
+1.06xGA
+
+#12
+
+United States Men's National Team
+
+1.05xGA
+
+#13
+
+0.80xGA
+
+#14
+
+El Salvador National Team
+
+0.77xGA
+
+#15
+
+0.73xGA
+
+#16
+
+0.70xGA
+
+## xGA Home
+
+Previous Next
+
+#1
+
+Dominican Republic National Team
+
+1.79xGA
+
+#2
+
+2.42xGA
+
+#3
+
+1.73xGA
+
+#4
+
+Trinidad and Tobago National Team
+
+1.44xGA
+
+#5
+
+1.29xGA
+
+#6
+
+Costa Rica National Team
+
+1.28xGA
+
+#7
+
+1.24xGA
+
+#8
+
+United States Men's National Team
+
+1.18xGA
+
+#9
+
+1.14xGA
+
+#10
+
+1.03xGA
+
+#11
+
+0.88xGA
+
+#12
+
+Saudi Arabia National Team
+
+0.79xGA
+
+#13
+
+0.75xGA
+
+#14
+
+0.74xGA
+
+#15
+
+0.67xGA
+
+#16
+
+El Salvador National Team
+
+0.00xGA
+
+## xGA Away
+
+Previous Next
+
+#1
+
+Trinidad and Tobago National Team
+
+2.01xGA
+
+#2
+
+1.81xGA
+
+#3
+
+Costa Rica National Team
+
+1.67xGA
+
+#4
+
+Dominican Republic National Team
+
+1.67xGA
+
+#5
+
+1.64xGA
+
+#6
+
+Saudi Arabia National Team
+
+1.60xGA
+
+#7
+
+1.48xGA
+
+#8
+
+1.22xGA
+
+#9
+
+El Salvador National Team
+
+1.10xGA
+
+#10
+
+1.09xGA
+
+#11
+
+1.05xGA
+
+#12
+
+0.91xGA
+
+#13
+
+0.68xGA
+
+#14
+
+0.58xGA
+
+#15
+
+United States Men's National Team
+
+0.39xGA
+
+#16
+
+0.39xGA
+
+Fixture
+
+Home XG
+
+Away XG
+
+AVG Goals
+
+- XG: Upcoming Fixtures
+
+Fixture
+
+Home XG
+
+Away XG
+
+Final Goals
+
+0.65
+
+1.81
+
+3
+
+1.10
+
+0.70
+
+1
+
+1.43
+
+1.91
+
+3
+
+USMNT vs Costa Rica
+
+1.80
+
+0.80
+
+4
+
+0.78
+
+1.17
+
+0
+
+Mexico vs Saudi Arabia
+
+1.58
+
+0.24
+
+2
+
+1.64
+
+1.04
+
+2
+
+Canada vs El Salvador
+
+1.41
+
+0.16
+
+2
+
+1.05
+
+1.19
+
+3
+
+0.91
+
+1.40
+
+5
+
+0.85
+
+1.14
+
+5
+
+Mexico vs Costa Rica
+
+1.53
+
+0.59
+
+0
+
+Dominican Republic vs Suriname
+
+1.49
+
+1.79
+
+0
+
+Saudi Arabia vs Trinidad and Tobago
+
+1.40
+
+0.67
+
+2
+
+1.68
+
+0.93
+
+3
+
+- XG: Recent Results
+
+## xG (Expected Goals) By Teams in CONCACAF Gold Cup
+
+---
+
+### Which Team Has The Best xG?
+
+Currently, Panama National Team has the best xG (Expected Goals For) in the CONCACAF Gold Cup with 1.79 xG per game.
+
+### Which Team Has The Worst xG?
+
+Currently, El Salvador National Team has the worst xG (Expected Goals For) in the CONCACAF Gold Cup with 0.21 xG per game.
+
+### Who Has The Best xG at Home?
+
+The team with the best xG when playing at home this season is United States Men's National Team, who has an xG of 1.63 from their home games thus far.
+
+### Who Has The Worst xG at Home?
+
+The team with the worst xG when playing at home this season is El Salvador National Team, who is expected to score just 0.00 goals per game in front of their own fans.
+
+### Who Has The Best xG Away From Home?
+
+The team with the best xG whilst on the road this season is Panama National Team, who is expected to score 2.42 goals per game in their opponents stadium.
+
+### Who Has The Worst xG Away From Home?
+
+The team with the worst xG whilst on the road this season is El Salvador National Team, who is expected to score just 0.55 goals per game in their opponents stadium.
+
+### Who Has The Best xGA?
+
+Canada National Team has the best xGA (Expected Goals Against) in the CONCACAF Gold Cup with just 0.70 goals expected against them per game. Arguably, this stat could suggest they have the best defence in this competition.
+
+### Who Has The Best xGA at Home?
+
+El Salvador National Team has the best xGA (Expected Goals Against) in the CONCACAF Gold Cup when playing at home with just 0.00 goals expected against them per game. They are formidable when playing at home.
+
+### Who Has The Best xGA Away From Home?
+
+Panama National Team has the best xGA (Expected Goals Against) in the CONCACAF Gold Cup when playing away from home with just 0.39 goals expected against them per game. Very frustrating for those home fans who must watch their team face Panama National Team.
+
+### Who Has The Worst xGA?
+
+Fans of Trinidad and Tobago National Team will demand better defending in the future, with 1.82 xGA (Goals Expected Against). The worst of all teams in the CONCACAF Gold Cup this season.
+
+### Who Has The Worst xGA at Home?
+
+The team with the worst xGA (Goals Expected Against) when playing at home this season is Dominican Republic National Team, who is expected to concede 1.79 goals per game in front of their own fans.
+
+### Who Has The Worst xGA Away From Home?
+
+The team with the worst xGA (Goals Expected Against) when playing away from home this season is Trinidad and Tobago National Team, who is expected to concede 2.01 goals per game whilst on their travels.
+
+### How is the xG calculated for CONCACAF Gold Cup?
+
+FootyStats uses a unique formula for calculating xG. Traditional xG only takes account of shot positions while FootyStats uses a combination of shot accuracy (on/off target), shot frequency (number of shots), attack dangerousness, overall attack pressure (posession amount and depth of posession) to summarize expected goals for CONCACAF Gold Cup. The reason for using more data points to calculate xG is because many attacks can be extremely dangerous without a shot attempt, and using other data such as posession and depth of attack can increase the granularity of CONCACAF Gold Cup's xG data.
+
+## xG (Expected Goals) - International
+
+WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Asia xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2014 Brazil xG (Expected Goals)- Cup or Playoff
+
+International Friendlies xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Africa xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2010 South Africa xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Championship xG (Expected Goals)- Cup or Playoff
+
+FIFA Confederations Cup xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Qualifiers xG (Expected Goals)- Cup or Playoff
+
+UEFA Nations League xG (Expected Goals)- Cup or Playoff
+
+WC Qualification South America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2006 Germany xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2002 Korea Japan xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2018 Russia xG (Expected Goals)- Cup or Playoff
+
+International Champions Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup xG (Expected Goals)- Cup or Playoff
+
+Copa America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup U20 xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Women's World Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U17 World Cup xG (Expected Goals)- Cup or Playoff
+
+Olympics xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Champions League xG (Expected Goals)- Cup or Playoff
+
+UEFA Womens Euro xG (Expected Goals)- Cup or Playoff
+
+Africa U20 Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+WC Qualification CONCACAF xG (Expected Goals)- Cup or Playoff
+
+Olympic Qualifying Concacaf xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U21 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+Olympics Women xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Concacaf xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Oceania xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+FIFA Arab Cup xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Nations League xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U19 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+International Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+AFC Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONMEBOL UEFA Cup of Champions xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2022 Qatar xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Championship U20 xG (Expected Goals)- Cup or Playoff
+
+CONCACAF League xG (Expected Goals)- Cup or Playoff
+
+Arab Club Champions Cup xG (Expected Goals)- Cup or Playoff
+
+Elite League U20 xG (Expected Goals)- Cup or Playoff
+
+CAF Super Cup xG (Expected Goals)- Cup or Playoff
+
+Gulf Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+SheBelieves Cup xG (Expected Goals)- Cup or Playoff
+
+Womens Olympic Qualifying CAF xG (Expected Goals)- Cup or Playoff
+
+UEFA CONMEBOL Club Challenge xG (Expected Goals)- Cup or Playoff
+
+Asian Games xG (Expected Goals)- Cup or Playoff
+
+Concacaf W Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Turkish Womens Cup xG (Expected Goals)- Cup or Playoff
+
+Sud Ladies Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Central American Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U20 Womens World Cup xG (Expected Goals)- Cup or Playoff
+
+Campeones Cup xG (Expected Goals)- Cup or Playoff
+
+African Football League xG (Expected Goals)- Cup or Playoff
+
+African Games Women xG (Expected Goals)- Cup or Playoff
+
+AFF Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Champions League xG (Expected Goals)- Cup or Playoff
+
+Club Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+Concacaf Championship Women U20 xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup Playin xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+EAFF E1 Football Championship xG (Expected Goals)- Cup or Playoff
+
+J League World Challenge xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Club Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Womens Nations Cup xG (Expected Goals)- Cup or Playoff
+
+World Cup xG (Expected Goals)- Cup or Playoff
+
+Loading
+
+Go Premium
+
+Close
+
+/
+
+https://cdn.footystats.org/
+
+- Starts in ### min'
+
+- Starts in ### Hr'
+
+Live'
+
+- Started'
+
+●Soon
+
+●Started
+
+no
+
+Get Profitable Predictions In Your Email!

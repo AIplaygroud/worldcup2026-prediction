@@ -1,0 +1,49 @@
+team,strength_rank,opponent_strength_index,attack_percentile,defense_percentile,xgd_percentile,sample_size_percentile,weighted_matches,quality_flag,source,last_verified,notes
+Algeria,30,0.401,0.298,0.511,0.383,0.447,15.6,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Argentina,20,0.576,0.255,0.872,0.532,0.979,25.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Australia,41,0.223,0.021,0.404,0.149,0.745,20.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Austria,16,0.605,0.553,0.617,0.66,0.617,17.35,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Belgium,4,0.908,0.979,0.851,0.957,0.574,16.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Bosnia and Herzegovina,29,0.423,0.702,0.149,0.468,0.17,10.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Brazil,31,0.377,0.191,0.553,0.298,0.851,21.2,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Canada,39,0.237,0.149,0.362,0.213,0.106,8.0,context_only,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Cape Verde,28,0.437,0.277,0.66,0.404,0.17,10.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Colombia,33,0.341,0.362,0.255,0.319,0.915,22.8,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Croatia,8,0.813,0.915,0.702,0.872,0.574,16.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Curacao,37,0.289,0.468,0.128,0.277,0.213,12.4,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Czechia,27,0.445,0.638,0.191,0.489,0.66,18.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+DR Congo,36,0.29,0.17,0.426,0.234,0.468,15.9,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Ecuador,38,0.254,0.0,0.468,0.191,0.851,21.2,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Egypt,25,0.462,0.404,0.532,0.447,0.447,15.6,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+England,1,0.942,0.894,1.0,0.979,0.681,18.2,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+France,3,0.917,0.936,0.957,0.936,0.404,14.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Germany,6,0.832,0.851,0.83,0.894,0.404,14.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Ghana,24,0.494,0.447,0.574,0.511,0.17,10.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Haiti,35,0.298,0.596,0.043,0.255,0.213,12.4,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Iran,21,0.557,0.723,0.298,0.638,0.809,20.8,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Iraq,46,0.131,0.043,0.149,0.064,0.957,24.25,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Ivory Coast,9,0.811,0.766,0.915,0.809,0.404,14.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Japan,13,0.737,0.532,0.936,0.745,0.745,20.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Jordan,43,0.189,0.234,0.106,0.106,0.872,21.6,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Mexico,14,0.667,0.574,0.809,0.723,0.043,7.2,context_only,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Morocco,5,0.847,0.809,0.979,0.83,0.277,13.6,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Netherlands,10,0.777,0.83,0.745,0.787,0.574,16.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+New Zealand,47,0.118,0.064,0.213,0.085,0.0,2.0,thin_sample,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Norway,11,0.776,0.872,0.723,0.851,0.106,8.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Panama,17,0.602,0.766,0.383,0.681,0.596,16.4,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Paraguay,40,0.23,0.085,0.34,0.17,0.766,20.4,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Portugal,7,0.816,0.957,0.638,0.915,0.574,16.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Qatar,44,0.154,0.213,0.064,0.043,0.936,23.6,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Saudi Arabia,26,0.455,0.426,0.426,0.426,1.0,26.15,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Scotland,45,0.144,0.34,0.0,0.021,0.404,14.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Senegal,15,0.617,0.681,0.489,0.702,0.638,17.6,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+South Africa,19,0.577,0.383,0.787,0.617,0.255,13.2,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+South Korea,12,0.775,0.787,0.766,0.766,0.809,20.8,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Spain,2,0.933,1.0,0.894,1.0,0.404,14.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Sweden,48,0.057,0.128,0.021,0.0,0.106,8.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Switzerland,18,0.579,0.489,0.681,0.596,0.404,14.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Tunisia,22,0.531,0.511,0.574,0.553,0.255,13.2,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Turkey,32,0.359,0.617,0.085,0.34,0.574,16.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+USA,34,0.316,0.319,0.319,0.362,0.043,7.2,context_only,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Uruguay,42,0.197,0.106,0.234,0.128,0.915,22.8,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.
+Uzbekistan,23,0.509,0.66,0.277,0.574,0.745,20.0,ok,team_recent_form.csv,2026-06-15,Relative strength index from weighted xG/xGA/xGD and sample size. Higher is stronger.

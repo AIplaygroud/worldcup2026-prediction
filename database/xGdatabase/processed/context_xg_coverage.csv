@@ -1,0 +1,8 @@
+﻿category,competition,season,teams_parsed,recommended_weight,source,source_url,data_status,notes
+continental_tournament,Copa America,2024,16,0.80,FootyStats,https://footystats.org/international/copa-america/xg,public_table_parsed,
+continental_tournament,Africa Cup of Nations,2023,24,0.80,FootyStats,https://footystats.org/international/africa-cup-of-nations/xg,public_table_parsed,
+continental_tournament,AFC Asian Cup,2023,24,0.80,FootyStats,https://footystats.org/international/afc-asian-cup/xg,public_table_parsed,
+continental_tournament,CONCACAF Gold Cup,2025,16,0.80,FootyStats,https://footystats.org/international/concacaf-gold-cup/xg,public_table_parsed,
+friendly_deweighted,International Friendlies,2026,50,0.22-0.55,FootyStats,https://footystats.org/international/international-friendlies/xg,public_table_parsed,"Per-team strength-tiered weights (0.22-0.55); see recommended_weight per row in context_xg_summary.csv. Weights are per team, not per match."
+continental_tournament,UEFA Euro Championship,2024,24,0.80,FootyStats,https://footystats.org/uefa-euro,stats_table_parsed,Parsed from FootyStats Euro country table because dedicated endpoint resolves to stats layout.
+continental_tournament,UEFA Nations League,2024-25,0,0.80,FBref/FootyStats/xGscore candidates,https://fbref.com/en/comps/677/stats/UEFA-Nations-League-Stats,missing_xg,FootyStats current page empty for 2026/27; FBref direct fetch 403.

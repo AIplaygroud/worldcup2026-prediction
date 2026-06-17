@@ -1,0 +1,132 @@
+[
+  {
+    "national_team": "Australia",
+    "team_code": "AUS",
+    "group": "D",
+    "roster_player": "Paul IZZO",
+    "roster_position": "GK",
+    "roster_club": "Randers FC (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Austria",
+    "team_code": "AUT",
+    "group": "J",
+    "roster_player": "Patrick PENTZ",
+    "roster_position": "GK",
+    "roster_club": "Brøndby IF (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Bosnia and Herzegovina",
+    "team_code": "BIH",
+    "group": "B",
+    "roster_player": "Benjamin TAHIROVIC",
+    "roster_position": "MF",
+    "roster_club": "Brøndby IF (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Croatia",
+    "team_code": "CRO",
+    "group": "L",
+    "roster_player": "Dominik KOTARSKI",
+    "roster_position": "GK",
+    "roster_club": "FC København (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Denil CASTILLO",
+    "roster_position": "MF",
+    "roster_club": "FC Midtjylland (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Ibrahim IBRAHIM ADEL",
+    "roster_position": "FW",
+    "roster_club": "FC Nordsjælland (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ghana",
+    "team_code": "GHA",
+    "group": "L",
+    "roster_player": "Caleb YIRENKYI",
+    "roster_position": "MF",
+    "roster_club": "FC Nordsjælland (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Kevin KEVIN YAKOB",
+    "roster_position": "MF",
+    "roster_club": "Aarhus GF (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Junnosuke SUZUKI",
+    "roster_position": "DF",
+    "roster_club": "FC København (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "South Korea",
+    "team_code": "KOR",
+    "group": "A",
+    "roster_player": "Hanbeom LEE",
+    "roster_position": "DF",
+    "roster_club": "FC Midtjylland (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "South Korea",
+    "team_code": "KOR",
+    "group": "A",
+    "roster_player": "Guesung CHO",
+    "roster_position": "FW",
+    "roster_club": "FC Midtjylland (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "New Zealand",
+    "team_code": "NZL",
+    "group": "G",
+    "roster_player": "Callum McCOWATT",
+    "roster_position": "MF",
+    "roster_club": "Silkeborg IF (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Tunisia",
+    "team_code": "TUN",
+    "group": "F",
+    "roster_player": "Elias ACHOURI",
+    "roster_position": "FW",
+    "roster_club": "FC København (DEN)",
+    "league": "Danish Superliga",
+    "_tier": "xg"
+  }
+]

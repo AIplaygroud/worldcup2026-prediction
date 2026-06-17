@@ -1,0 +1,142 @@
+[
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Santiago ARIAS",
+    "roster_position": "DF",
+    "roster_club": "CA Independiente (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Kevin CASTANO",
+    "roster_position": "MF",
+    "roster_club": "CA River Plate (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Juan QUINTERO",
+    "roster_position": "MF",
+    "roster_club": "CA River Plate (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Leandro CAMPAZ",
+    "roster_position": "FW",
+    "roster_club": "CA Rosario Central (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Alvaro MONTERO",
+    "roster_position": "GK",
+    "roster_club": "CA Vélez Sars eld (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Hernan GALINDEZ",
+    "roster_position": "GK",
+    "roster_club": "CA Huracán (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Jordy CAICEDO",
+    "roster_position": "FW",
+    "roster_club": "CA Huracán (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Orlando GILL",
+    "roster_position": "GK",
+    "roster_club": "CA San Lorenzo (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Jose CANALE",
+    "roster_position": "DF",
+    "roster_club": "CA Lanús (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Alex ARCE",
+    "roster_position": "FW",
+    "roster_club": "CS Independiente Rivadavia (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Gabriel AVALOS",
+    "roster_position": "FW",
+    "roster_club": "CA Independiente (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Alexandro MAIDANA",
+    "roster_position": "DF",
+    "roster_club": "CA Talleres (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Matias VINA",
+    "roster_position": "DF",
+    "roster_club": "CA River Plate (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Fernando MUSLERA",
+    "roster_position": "GK",
+    "roster_club": "Estudiantes LP (ARG)",
+    "league": "Argentine Primera",
+    "_tier": "xg"
+  }
+]

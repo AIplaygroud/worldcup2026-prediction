@@ -1,0 +1,191 @@
+[
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Salem SALEM ALDAWSARI",
+    "roster_position": "FW",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Sultan SULTAN MANDASH",
+    "roster_position": "FW",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Hassan HASSAN KADISH",
+    "roster_position": "DF",
+    "roster_club": "Al Ittihad (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Saleh SALEH ALSHEHRI",
+    "roster_position": "FW",
+    "roster_club": "Al Ittihad (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Abdulelah ABDULELAH ALAMRI",
+    "roster_position": "DF",
+    "roster_club": "Al Nassr FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Abdullah ABDULLAH ALHAMDDAN",
+    "roster_position": "FW",
+    "roster_club": "Al Nassr FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Abdullah ABDULLAH ALKHAIBARI",
+    "roster_position": "MF",
+    "roster_club": "Al Nassr FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Aiman AIMAN YAHYA",
+    "roster_position": "FW",
+    "roster_club": "Al Nassr FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Nawaf NAWAF ALAQIDI",
+    "roster_position": "GK",
+    "roster_club": "Al Nassr FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Nawaf NAWAF BU WASHL",
+    "roster_position": "DF",
+    "roster_club": "Al Nassr FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Ahmed AHMED ALKASSAR",
+    "roster_position": "GK",
+    "roster_club": "Al Qadsiah FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Jehad JEHAD THIKRI",
+    "roster_position": "DF",
+    "roster_club": "Al Qadsiah FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Mohammed MOHAMMED ABU ALSHAMAT",
+    "roster_position": "DF",
+    "roster_club": "Al Qadsiah FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Musab MUSAB ALJUWAYR",
+    "roster_position": "MF",
+    "roster_club": "Al Qadsiah FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Mohammed MOHAMMED ALOWAIS",
+    "roster_position": "GK",
+    "roster_club": "Al Ula Saudi FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_player": "Ala ALA ALHAJJI",
+    "roster_position": "MF",
+    "roster_club": "Neom SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_player": "Jack HENDRY",
+    "roster_position": "DF",
+    "roster_club": "Al Ettifaq FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Senegal",
+    "team_code": "SEN",
+    "group": "I",
+    "roster_player": "Edouard MENDY",
+    "roster_position": "GK",
+    "roster_club": "Al Ahli FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Senegal",
+    "team_code": "SEN",
+    "group": "I",
+    "roster_player": "Kalidou KOULIBALY",
+    "roster_position": "DF",
+    "roster_club": "Al Hilal SC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Senegal",
+    "team_code": "SEN",
+    "group": "I",
+    "roster_player": "Sadio MANE",
+    "roster_position": "FW",
+    "roster_club": "Al Nassr FC (KSA)",
+    "league": "Saudi Pro League"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Merih DEMIRAL",
+    "roster_position": "DF",
+    "roster_club": "Al Ahli FC (KSA)",
+    "league": "Saudi Pro League"
+  }
+]

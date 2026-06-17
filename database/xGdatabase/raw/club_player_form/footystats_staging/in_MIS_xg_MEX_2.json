@@ -1,0 +1,52 @@
+[
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Sebastian CACERES",
+    "roster_position": "DF",
+    "roster_club": "Club América (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Santiago MELE",
+    "roster_position": "GK",
+    "roster_club": "CF Monterrey (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Brian RODRIGUEZ",
+    "roster_position": "FW",
+    "roster_club": "Club América (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Rodrigo AGUIRRE",
+    "roster_position": "FW",
+    "roster_club": "Tigres UANL (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "USA",
+    "team_code": "USA",
+    "group": "D",
+    "roster_player": "Alex ZENDEJAS",
+    "roster_position": "FW",
+    "roster_club": "Club América (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  }
+]

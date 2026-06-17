@@ -1,0 +1,128 @@
+[
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Kou ITAKURA",
+    "roster_position": "DF",
+    "roster_club": "AFC Ajax (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Takehiro TOMIYASU",
+    "roster_position": "DF",
+    "roster_club": "AFC Ajax (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Ayase UEDA",
+    "roster_position": "FW",
+    "roster_club": "Feyenoord Rotterdam (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Tsuyoshi WATANABE",
+    "roster_position": "DF",
+    "roster_club": "Feyenoord Rotterdam (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Koki OGAWA",
+    "roster_position": "FW",
+    "roster_club": "NEC Nijmegen (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Mateo CHAVEZ",
+    "roster_position": "DF",
+    "roster_club": "AZ Alkmaar (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_player": "Anass SALAH EDDINE",
+    "roster_position": "DF",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_player": "Ismael SAIBARI",
+    "roster_position": "MF",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Netherlands",
+    "team_code": "NED",
+    "group": "F",
+    "roster_player": "Wout WEGHORST",
+    "roster_position": "FW",
+    "roster_club": "AFC Ajax (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Netherlands",
+    "team_code": "NED",
+    "group": "F",
+    "roster_player": "Guus TIL",
+    "roster_position": "MF",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "New Zealand",
+    "team_code": "NZL",
+    "group": "G",
+    "roster_player": "Ryan THOMAS",
+    "roster_position": "MF",
+    "roster_club": "PEC Zwolle (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "South Korea",
+    "team_code": "KOR",
+    "group": "A",
+    "roster_player": "Inbeom HWANG",
+    "roster_position": "MF",
+    "roster_club": "Feyenoord Rotterdam (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "USA",
+    "team_code": "USA",
+    "group": "D",
+    "roster_player": "Ricardo PEPI",
+    "roster_position": "FW",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "USA",
+    "team_code": "USA",
+    "group": "D",
+    "roster_player": "Sergino DEST",
+    "roster_position": "DF",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  }
+]

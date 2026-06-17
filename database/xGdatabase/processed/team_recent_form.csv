@@ -1,0 +1,49 @@
+team,raw_matches,weighted_matches,recent_xg_per_match,recent_xga_per_match,recent_xgd_per_match,recent_goals_for_per_match,recent_goals_against_per_match,has_qualifier_xg,context_rows,sources,quality_flag,last_verified,notes
+Algeria,19,15.6,1.337,0.949,0.388,2.256,0.667,yes,2,Africa Cup of Nations | International Friendlies | WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Argentina,28,25.0,1.304,0.712,0.592,1.79,0.458,yes,2,Copa America | International Friendlies | WC Qualification South America,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Australia,21,20.0,1.102,1.028,0.074,2.264,0.472,yes,1,AFC Asian Cup | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Austria,21,17.35,1.582,0.907,0.674,2.694,0.441,yes,2,International Friendlies | UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Belgium,18,16.0,2.51,0.715,1.795,3.665,0.74,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Bosnia and Herzegovina,10,10.0,1.72,1.19,0.53,1.9,0.9,yes,0,WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Brazil,22,21.2,1.255,0.932,0.323,1.318,0.874,yes,1,Copa America | WC Qualification South America,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Canada,10,8.0,1.184,1.036,0.148,1.302,0.802,no,2,CONCACAF Gold Cup | Copa America,context_only,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Cape Verde,10,10.0,1.31,0.9,0.41,1.6,0.8,yes,0,WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Colombia,24,22.8,1.412,1.085,0.327,1.653,0.895,yes,1,Copa America | WC Qualification South America,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Croatia,18,16.0,2.29,0.89,1.4,2.575,0.75,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Curacao,13,12.4,1.515,1.195,0.32,2.388,0.597,yes,1,CONCACAF Gold Cup | WC Qualification CONCACAF,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Czechia,20,18.0,1.681,1.133,0.548,2.067,1.156,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+DR Congo,18,15.9,1.217,1.002,0.215,1.367,0.538,yes,2,Africa Cup of Nations | International Friendlies | WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Ecuador,22,21.2,1.072,0.967,0.105,0.851,0.389,yes,1,Copa America | WC Qualification South America,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Egypt,17,15.6,1.451,0.941,0.51,1.745,0.383,yes,1,Africa Cup of Nations | WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+England,22,18.2,2.271,0.468,1.804,2.415,0.148,yes,2,International Friendlies | UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+France,16,14.0,2.363,0.634,1.729,2.573,0.801,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Germany,16,14.0,2.159,0.754,1.404,3.144,0.614,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Ghana,10,10.0,1.48,0.93,0.55,2.3,0.6,yes,0,WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Haiti,13,12.4,1.636,1.382,0.254,1.743,1.306,yes,1,CONCACAF Gold Cup | WC Qualification CONCACAF,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Iran,22,20.8,1.727,1.061,0.666,2.146,0.847,yes,1,AFC Asian Cup | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Iraq,27,24.25,1.113,1.19,-0.078,1.596,0.81,yes,2,AFC Asian Cup | International Friendlies | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Ivory Coast,15,14.0,1.756,0.653,1.103,2.357,0.343,yes,1,Africa Cup of Nations | WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Japan,21,20.0,1.556,0.646,0.91,3.184,0.472,yes,1,AFC Asian Cup | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Jordan,23,21.6,1.283,1.24,0.042,1.964,0.851,yes,1,AFC Asian Cup | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Mexico,9,7.2,1.6,0.787,0.813,1.223,0.443,no,2,CONCACAF Gold Cup | Copa America,context_only,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Morocco,15,13.6,1.791,0.609,1.182,2.149,0.266,yes,1,Africa Cup of Nations | WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Netherlands,18,16.0,1.875,0.835,1.04,2.84,0.7,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+New Zealand,2,2.0,1.13,1.12,0.01,0.5,2.0,yes,0,WC Qualification Asia,thin_sample,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Norway,8,8.0,2.21,0.87,1.34,4.63,0.63,yes,0,WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Panama,18,16.4,1.756,1.031,0.725,1.988,0.988,yes,2,CONCACAF Gold Cup | Copa America | WC Qualification CONCACAF,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Paraguay,21,20.4,1.146,1.048,0.099,0.806,0.808,yes,1,Copa America | WC Qualification South America,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Portugal,20,16.0,2.435,0.906,1.529,2.736,0.951,yes,2,International Friendlies | UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Qatar,25,23.6,1.267,1.357,-0.09,2.046,1.358,yes,1,AFC Asian Cup | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Saudi Arabia,31,26.15,1.47,1.002,0.468,1.121,0.786,yes,3,AFC Asian Cup | CONCACAF Gold Cup | International Friendlies | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Scotland,16,14.0,1.406,1.563,-0.157,2.187,1.073,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Senegal,21,17.6,1.694,0.965,0.729,2.041,0.376,yes,2,Africa Cup of Nations | International Friendlies | WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+South Africa,14,13.2,1.44,0.79,0.65,1.652,0.818,yes,1,Africa Cup of Nations | WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+South Korea,22,20.8,1.766,0.793,0.973,2.345,0.77,yes,1,AFC Asian Cup | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Spain,16,14.0,2.523,0.67,1.853,3.1,0.37,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Sweden,8,8.0,1.18,1.41,-0.23,1.25,1.88,yes,0,WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Switzerland,16,14.0,1.529,0.897,0.631,2.084,0.656,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Tunisia,14,13.2,1.545,0.93,0.615,2.091,0.364,yes,1,Africa Cup of Nations | WC Qualification Africa,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Turkey,18,16.0,1.66,1.32,0.34,2.29,1.4,yes,1,UEFA Euro Championship | WC Qualification Europe,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+USA,9,7.2,1.403,1.05,0.353,1.78,1.0,no,2,CONCACAF Gold Cup | Copa America,context_only,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Uruguay,24,22.8,1.152,1.098,0.053,1.309,0.709,yes,1,Copa America | WC Qualification South America,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.
+Uzbekistan,21,20.0,1.686,1.064,0.622,1.632,0.672,yes,1,AFC Asian Cup | WC Qualification Asia,ok,2026-06-15,Weighted xG uses qualifiers at 1.00 and context rows at each row's recommended_weight.

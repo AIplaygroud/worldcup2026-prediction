@@ -1,0 +1,222 @@
+[
+  {
+    "national_team": "Algeria",
+    "team_code": "ALG",
+    "group": "J",
+    "roster_player": "Yassine TITRAOUI",
+    "roster_position": "MF",
+    "roster_club": "Sporting Charleroi (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Belgium",
+    "team_code": "BEL",
+    "group": "G",
+    "roster_player": "Brandon MECHELE",
+    "roster_position": "DF",
+    "roster_club": "Club Brugge (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Belgium",
+    "team_code": "BEL",
+    "group": "G",
+    "roster_player": "Joaquin SEYS",
+    "roster_position": "DF",
+    "roster_club": "Club Brugge (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Belgium",
+    "team_code": "BEL",
+    "group": "G",
+    "roster_player": "Hans VANAKEN",
+    "roster_position": "MF",
+    "roster_club": "Club Brugge (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Canada",
+    "team_code": "CAN",
+    "group": "B",
+    "roster_player": "Luc DE FOUGEROLLES",
+    "roster_position": "DF",
+    "roster_club": "FCV Dender EH (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Canada",
+    "team_code": "CAN",
+    "group": "B",
+    "roster_player": "Promise DAVID",
+    "roster_position": "FW",
+    "roster_club": "Royale Union Saint-Gilloise (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Canada",
+    "team_code": "CAN",
+    "group": "B",
+    "roster_player": "Nathan SALIBA",
+    "roster_position": "MF",
+    "roster_club": "RSC Anderlecht (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_player": "Joris KAYEMBE",
+    "roster_position": "DF",
+    "roster_club": "KRC Genk (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_player": "Matthieu EPOLO",
+    "roster_position": "GK",
+    "roster_club": "Standard Liège (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ivory Coast",
+    "team_code": "CIV",
+    "group": "E",
+    "roster_player": "Mohamed KONE",
+    "roster_position": "GK",
+    "roster_club": "Sporting Charleroi (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ivory Coast",
+    "team_code": "CIV",
+    "group": "E",
+    "roster_player": "Parfait GUIAGON",
+    "roster_position": "MF",
+    "roster_club": "Sporting Charleroi (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Jearl MARGARITHA",
+    "roster_position": "FW",
+    "roster_club": "SK Beveren (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Joel ORDONEZ",
+    "roster_position": "DF",
+    "roster_club": "Club Brugge (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Anthony VALENCIA",
+    "roster_position": "MF",
+    "roster_club": "Royal Antwerp FC (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Kevin RODRIGUEZ",
+    "roster_position": "FW",
+    "roster_club": "Royale Union Saint-Gilloise (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Yaimar MEDINA",
+    "roster_position": "DF",
+    "roster_club": "KRC Genk (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Haiti",
+    "team_code": "HAI",
+    "group": "C",
+    "roster_player": "Wilguens PAUGAIN",
+    "roster_position": "DF",
+    "roster_club": "SV Zulte Waregem (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Alireza JAHANBAKHSH",
+    "roster_position": "MF",
+    "roster_club": "FCV Dender EH (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Dennis DARGAHI",
+    "roster_position": "FW",
+    "roster_club": "Standard Liège (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Shogo TANIGUCHI",
+    "roster_position": "DF",
+    "roster_club": "Sint-Truiden VV (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_player": "Keisuke GOTO",
+    "roster_position": "FW",
+    "roster_club": "Sint-Truiden VV (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Cesar HUERTA",
+    "roster_position": "FW",
+    "roster_club": "RSC Anderlecht (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  }
+]

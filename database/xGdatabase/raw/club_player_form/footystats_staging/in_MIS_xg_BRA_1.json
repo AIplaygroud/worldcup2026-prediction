@@ -1,0 +1,222 @@
+[
+  {
+    "national_team": "Argentina",
+    "team_code": "ARG",
+    "group": "J",
+    "roster_player": "Jose LOPEZ",
+    "roster_position": "FW",
+    "roster_club": "SE Palmeiras (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Brazil",
+    "team_code": "BRA",
+    "group": "C",
+    "roster_player": "Alex ALEX SANDRO",
+    "roster_position": "DF",
+    "roster_club": "CR Flamengo (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Brazil",
+    "team_code": "BRA",
+    "group": "C",
+    "roster_player": "Neymar NEYMAR JR",
+    "roster_position": "FW",
+    "roster_club": "Santos FC (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Brazil",
+    "team_code": "BRA",
+    "group": "C",
+    "roster_player": "Weverton WEVERTON",
+    "roster_position": "GK",
+    "roster_club": "Grêmio FBPA (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Brazil",
+    "team_code": "BRA",
+    "group": "C",
+    "roster_player": "Leonardo LEO PEREIRA",
+    "roster_position": "DF",
+    "roster_club": "CR Flamengo (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Brazil",
+    "team_code": "BRA",
+    "group": "C",
+    "roster_player": "Danilo DANILO SANTOS",
+    "roster_position": "MF",
+    "roster_club": "Botafogo (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Jorge CARRASCAL",
+    "roster_position": "MF",
+    "roster_club": "CR Flamengo (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Juan PORTILLA",
+    "roster_position": "MF",
+    "roster_club": "Athletico Paranaense (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Andres GOMEZ",
+    "roster_position": "FW",
+    "roster_club": "CR Vasco Da Gama (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Felix TORRES",
+    "roster_position": "DF",
+    "roster_club": "SC Internacional (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Alan MINDA",
+    "roster_position": "MF",
+    "roster_club": "Atlético Mineiro (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Angelo PRECIADO",
+    "roster_position": "DF",
+    "roster_club": "Atlético Mineiro (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Gonzalo PLATA",
+    "roster_position": "FW",
+    "roster_club": "CR Flamengo (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Alan FRANCO",
+    "roster_position": "MF",
+    "roster_club": "Atlético Mineiro (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Netherlands",
+    "team_code": "NED",
+    "group": "F",
+    "roster_player": "Memphis DEPAY",
+    "roster_position": "FW",
+    "roster_club": "SC Corinthians (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Fabian BALBUENA",
+    "roster_position": "DF",
+    "roster_club": "Grêmio FBPA (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Junior ALONSO",
+    "roster_position": "DF",
+    "roster_club": "Atlético Mineiro (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Ramon SOSA",
+    "roster_position": "MF",
+    "roster_club": "SE Palmeiras (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Mauricio MAURICIO",
+    "roster_position": "MF",
+    "roster_club": "SE Palmeiras (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Gustavo GOMEZ",
+    "roster_position": "DF",
+    "roster_club": "SE Palmeiras (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Damian BOBADILLA",
+    "roster_position": "MF",
+    "roster_club": "São Paulo FC (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Isidro PITTA",
+    "roster_position": "FW",
+    "roster_club": "Red Bull Bragantino (BRA)",
+    "league": "Brazil Serie A",
+    "_tier": "xg"
+  }
+]

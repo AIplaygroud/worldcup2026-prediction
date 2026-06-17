@@ -1,0 +1,42 @@
+[
+  {
+    "national_team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_player": "Zakaria EL OUAHDI",
+    "roster_position": "DF",
+    "roster_club": "KRC Genk (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_player": "Redouane HALHAL",
+    "roster_position": "DF",
+    "roster_club": "KV Mechelen (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Sweden",
+    "team_code": "SWE",
+    "group": "F",
+    "roster_player": "Besfort ZENELI",
+    "roster_position": "MF",
+    "roster_club": "Royale Union Saint-Gilloise (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Sweden",
+    "team_code": "SWE",
+    "group": "F",
+    "roster_player": "Gustaf NILSSON",
+    "roster_position": "FW",
+    "roster_club": "Club Brugge (BEL)",
+    "league": "Belgian Pro League",
+    "_tier": "xg"
+  }
+]

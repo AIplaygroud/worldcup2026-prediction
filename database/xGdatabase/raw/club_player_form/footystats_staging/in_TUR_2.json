@@ -1,0 +1,164 @@
+[
+  {
+    "national_team": "Tunisia",
+    "team_code": "TUN",
+    "group": "F",
+    "roster_player": "Mortadha BEN OUANES",
+    "roster_position": "DF",
+    "roster_club": "Kasımpaşa SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Orkun KOKCU",
+    "roster_position": "MF",
+    "roster_club": "Beşiktaş JK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Caglar SOYUNCU",
+    "roster_position": "DF",
+    "roster_club": "Fenerbahçe SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Ismail YUKSEK",
+    "roster_position": "MF",
+    "roster_club": "Fenerbahçe SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Kerem AKTURKOGLU",
+    "roster_position": "FW",
+    "roster_club": "Fenerbahçe SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Mert GUNOK",
+    "roster_position": "GK",
+    "roster_club": "Fenerbahçe SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Mert MULDUR",
+    "roster_position": "DF",
+    "roster_club": "Fenerbahçe SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Oguz AYDIN",
+    "roster_position": "FW",
+    "roster_club": "Fenerbahçe SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Abdulkerim BARDAKCI",
+    "roster_position": "DF",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Baris YILMAZ",
+    "roster_position": "FW",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Eren ELMALI",
+    "roster_position": "DF",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Kaan AYHAN",
+    "roster_position": "MF",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Ugurcan CAKIR",
+    "roster_position": "GK",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Yunus AKGUN",
+    "roster_position": "FW",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Irfan KAHVECI",
+    "roster_position": "FW",
+    "roster_club": "Kasımpaşa SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_player": "Samet AKAYDIN",
+    "roster_position": "DF",
+    "roster_club": "Çaykur Rizespor (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Abbosbek FAYZULLAEV",
+    "roster_position": "MF",
+    "roster_club": "Başakşehir FK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Eldor SHOMURODOV",
+    "roster_position": "FW",
+    "roster_club": "Başakşehir FK (TUR)",
+    "league": "Super Lig"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "national_team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_player": "Samuel MOUTOUSSAMY",
+    "roster_position": "MF",
+    "roster_club": "Atromitos FC (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_player": "Gael KAKUTA",
+    "roster_position": "FW",
+    "roster_club": "AEL FC (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Jeremy ANTONISSE",
+    "roster_position": "FW",
+    "roster_club": "AE Ki sia FC (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Moises RAMIREZ",
+    "roster_position": "GK",
+    "roster_club": "AE Ki sia FC (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ghana",
+    "team_code": "GHA",
+    "group": "L",
+    "roster_player": "Baba RAHMAN",
+    "roster_position": "DF",
+    "roster_club": "PAOK Saloniki (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Mehdi TAREMI",
+    "roster_position": "FW",
+    "roster_club": "Olympiacos FC (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Jorge SANCHEZ",
+    "roster_position": "DF",
+    "roster_club": "PAOK Saloniki (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Orbelin PINEDA",
+    "roster_position": "MF",
+    "roster_club": "AEK Athens (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_player": "Ayoub EL KAABI",
+    "roster_position": "FW",
+    "roster_club": "Olympiacos FC (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_player": "Facundo PELLISTRI",
+    "roster_position": "FW",
+    "roster_club": "Panathinaikos FC (GRE)",
+    "league": "Greek Super League",
+    "_tier": "xg"
+  }
+]

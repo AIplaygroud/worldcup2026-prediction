@@ -1,0 +1,152 @@
+[
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Fahad FAHAD TALIB",
+    "roster_position": "GK",
+    "roster_club": "Al Talaba SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Akam AKAM HASHIM",
+    "roster_position": "DF",
+    "roster_club": "Al Zawra'a SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Munaf MUNAF YOUNUS",
+    "roster_position": "DF",
+    "roster_club": "Al Shorta SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Jalal JALAL HASSAN",
+    "roster_position": "GK",
+    "roster_club": "Al Zawra'a SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Ali ALI YOUSIF",
+    "roster_position": "FW",
+    "roster_club": "Al Talaba SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Ahmed AHMED YAHYA",
+    "roster_position": "DF",
+    "roster_club": "Al Shorta SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Aymen AYMEN HUSSEIN",
+    "roster_position": "FW",
+    "roster_club": "Al Karma SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Ahmed AHMED BASIL",
+    "roster_position": "GK",
+    "roster_club": "Al Shorta SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Zaid ZAID ISMAEL",
+    "roster_position": "MF",
+    "roster_club": "Al Talaba SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Mustafa MUSTAFA SAADOON",
+    "roster_position": "DF",
+    "roster_club": "Al Shorta SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Mohammad MOHAMMAD ABUHASHEESH",
+    "roster_position": "DF",
+    "roster_club": "Al Karma SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Abdallah ABDALLAH NASIB",
+    "roster_position": "DF",
+    "roster_club": "Al Zawra'a SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Amer AMER JAMOUS",
+    "roster_position": "MF",
+    "roster_club": "Al Zawra'a SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Ibrahim IBRAHIM SADEH",
+    "roster_position": "MF",
+    "roster_club": "Al Karma SC (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Mohannad MOHANNAD ABUTAHA",
+    "roster_position": "MF",
+    "roster_club": "Al-Quwa Al-Jawiya (IRQ)",
+    "league": "Iraq Stars League",
+    "_tier": "try"
+  }
+]

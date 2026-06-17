@@ -1,0 +1,152 @@
+[
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Edilson DINEY BORGES",
+    "roster_position": "DF",
+    "roster_club": "Al Bataeh Club (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_player": "Simon BANZA",
+    "roster_position": "FW",
+    "roster_club": "Al Jazira (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Ramy RAMY RABIA",
+    "roster_position": "DF",
+    "roster_club": "Al Ain FC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Saeid EZATOLAHI",
+    "roster_position": "MF",
+    "roster_club": "Shabab Al Ahli Club (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Mehdi GHAYEDI",
+    "roster_position": "FW",
+    "roster_club": "Al Nasr SC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Saman GHODDOS",
+    "roster_position": "MF",
+    "roster_club": "Al Ittihad Kalba SCC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Shahriyar MOGHANLOO",
+    "roster_position": "FW",
+    "roster_club": "Al Ittihad Kalba SCC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Mohammad GHORBANI",
+    "roster_position": "MF",
+    "roster_club": "Al Wahda SC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Ibrahim IBRAHIM BAYESH",
+    "roster_position": "MF",
+    "roster_club": "Al Dhafra SCC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Mohanad MOHANAD ALI",
+    "roster_position": "FW",
+    "roster_club": "Dibba FC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_player": "Sou RAHIMI",
+    "roster_position": "FW",
+    "roster_club": "Al Ain FC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_player": "Alejandro ROMERO GAMARRA",
+    "roster_position": "FW",
+    "roster_club": "Al Ain FC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Otabek SHUKUROV",
+    "roster_position": "MF",
+    "roster_club": "Baniyas Club (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Abdulla ABDULLAEV",
+    "roster_position": "DF",
+    "roster_club": "Dibba FC (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Azizjon GANIEV",
+    "roster_position": "MF",
+    "roster_club": "Al Bataeh Club (UAE)",
+    "league": "UAE Pro League",
+    "_tier": "try"
+  }
+]

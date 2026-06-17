@@ -1,0 +1,200 @@
+[
+  {
+    "national_team": "Algeria",
+    "team_code": "ALG",
+    "group": "J",
+    "roster_player": "Ramiz ZERROUKI",
+    "roster_position": "MF",
+    "roster_club": "FC Twente (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Australia",
+    "team_code": "AUS",
+    "group": "D",
+    "roster_player": "Jordan BOS",
+    "roster_position": "DF",
+    "roster_club": "Feyenoord Rotterdam (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Australia",
+    "team_code": "AUS",
+    "group": "D",
+    "roster_player": "Ajdin HRUSTIC",
+    "roster_position": "FW",
+    "roster_club": "SC Heracles Almelo (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Austria",
+    "team_code": "AUT",
+    "group": "J",
+    "roster_player": "Paul WANNER",
+    "roster_position": "MF",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Bosnia and Herzegovina",
+    "team_code": "BIH",
+    "group": "B",
+    "roster_player": "Esmir BAJRAKTAREVIC",
+    "roster_position": "FW",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Jamiro JAMIRO MONTEIRO",
+    "roster_position": "MF",
+    "roster_club": "PEC Zwolle (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Croatia",
+    "team_code": "CRO",
+    "group": "L",
+    "roster_player": "Josip SUTALO",
+    "roster_position": "DF",
+    "roster_club": "AFC Ajax (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Croatia",
+    "team_code": "CRO",
+    "group": "L",
+    "roster_player": "Ivan PERISIC",
+    "roster_position": "FW",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Kevin FELIDA",
+    "roster_position": "MF",
+    "roster_club": "FC Den Bosch (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Brandley KUWAS",
+    "roster_position": "FW",
+    "roster_club": "FC Volendam (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Juninho BACUNA",
+    "roster_position": "MF",
+    "roster_club": "FC Volendam (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Deveron FONVILLE",
+    "roster_position": "DF",
+    "roster_club": "NEC Nijmegen (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Sherel FLORANUS",
+    "roster_position": "DF",
+    "roster_club": "PEC Zwolle (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Armando OBISPO",
+    "roster_position": "DF",
+    "roster_club": "PSV Eindhoven (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Godfried ROEMERATOE",
+    "roster_position": "MF",
+    "roster_club": "RKC Waalwijk (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Roshon VAN EIJMA",
+    "roster_position": "DF",
+    "roster_club": "RKC Waalwijk (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Tyrese NOSLIN",
+    "roster_position": "FW",
+    "roster_club": "SC Telstar (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Tyrick BODAK",
+    "roster_position": "GK",
+    "roster_club": "SC Telstar (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Shurandy SAMBO",
+    "roster_position": "DF",
+    "roster_club": "Sparta Rotterdam (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Trevor DOORNBUSCH",
+    "roster_position": "GK",
+    "roster_club": "VVV Venlo (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Haiti",
+    "team_code": "HAI",
+    "group": "C",
+    "roster_player": "Ruben PROVIDENCE",
+    "roster_position": "FW",
+    "roster_club": "Almere City FC (NED)",
+    "league": "Eredivisie"
+  },
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Zidane ZIDANE IQBAL",
+    "roster_position": "MF",
+    "roster_club": "FC Utrecht (NED)",
+    "league": "Eredivisie"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Aymen AYMEN HUSSEIN",
+    "roster_position": "FW",
+    "roster_club": "Al Karma SC (IRQ)",
+    "matched_player": "Aymen Hussein",
+    "club": "Al-Karma",
+    "league": "Iraq Stars League",
+    "season": "2025/2026",
+    "matches_played": 11,
+    "minutes": 945,
+    "goals": 9,
+    "assists": 0,
+    "shots": "",
+    "key_passes": "",
+    "xg": "",
+    "npxg": "",
+    "xa": "",
+    "xg_per90": "",
+    "xa_per90": "",
+    "source": "FootyStats",
+    "source_url": "https://footystats.org/players/iraq/aymen-hussein",
+    "last_verified": "2026-06-16",
+    "match_confidence": "footystats_basic",
+    "recommended_weight": 0.3,
+    "notes": "xG unavailable for Iraqi Premier League; goals/minutes/assists only"
+  }
+]

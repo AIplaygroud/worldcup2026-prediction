@@ -1,0 +1,200 @@
+[
+  {
+    "national_team": "Algeria",
+    "team_code": "ALG",
+    "group": "J",
+    "roster_player": "Adil BOULBINA",
+    "roster_position": "FW",
+    "roster_club": "Al Duhail SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Hamdy HAMDY FATHY",
+    "roster_position": "MF",
+    "roster_club": "Al Wakrah SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Ali ALI OLWAN",
+    "roster_position": "FW",
+    "roster_club": "Al Sailiya SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Nizar NIZAR ALRASHDAN",
+    "roster_position": "MF",
+    "roster_club": "Qatar SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Ahmed AHMED FATHY",
+    "roster_position": "MF",
+    "roster_club": "Al Arabi SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Alhashmi ALHASHMI ALHUSSEIN",
+    "roster_position": "DF",
+    "roster_club": "Al Arabi SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Gueye ISSA LAYE",
+    "roster_position": "DF",
+    "roster_club": "Al Arabi SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Almoez ALMOEZ ALI",
+    "roster_position": "FW",
+    "roster_club": "Al Duhail SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Edmilson EDMILSON JUNIOR",
+    "roster_position": "FW",
+    "roster_club": "Al Duhail SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Karim KARIM BOUDIAF",
+    "roster_position": "MF",
+    "roster_club": "Al Duhail SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Salah SALAH ZAKARIA",
+    "roster_position": "GK",
+    "roster_club": "Al Duhail SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Sultan SULTAN ALBRAKE",
+    "roster_position": "DF",
+    "roster_club": "Al Duhail SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Tahsin TAHSIN JAMSHID",
+    "roster_position": "FW",
+    "roster_club": "Al Duhail SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Ahmed AHMED ALGANEHI",
+    "roster_position": "MF",
+    "roster_club": "Al Gharafa SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Ayoub AYOUB ALOUI",
+    "roster_position": "DF",
+    "roster_club": "Al Gharafa SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Mohammed MOHAMMED MUNTARI",
+    "roster_position": "FW",
+    "roster_club": "Al Gharafa SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Abdelaziz ABDULAZIZ HATEM",
+    "roster_position": "MF",
+    "roster_club": "Al Rayyan SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Ahmed AHMED ALAAELDIN",
+    "roster_position": "FW",
+    "roster_club": "Al Rayyan SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Jassem JASSEM GABER",
+    "roster_position": "DF",
+    "roster_club": "Al Rayyan SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Mahmoud MAHMOUD ABUNADA",
+    "roster_position": "GK",
+    "roster_club": "Al Rayyan SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Akram AKRAM AFIF",
+    "roster_position": "FW",
+    "roster_club": "Al Sadd SC (QAT)",
+    "league": "Qatar Stars League"
+  },
+  {
+    "national_team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_player": "Boualem BOUALEM KHOUKHI",
+    "roster_position": "DF",
+    "roster_club": "Al Sadd SC (QAT)",
+    "league": "Qatar Stars League"
+  }
+]

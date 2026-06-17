@@ -1,0 +1,173 @@
+[
+  {
+    "national_team": "Bosnia and Herzegovina",
+    "team_code": "BIH",
+    "group": "B",
+    "roster_player": "Nihad MUJAKIC",
+    "roster_position": "DF",
+    "roster_club": "Gaziantep FK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Nuno NUNO DA COSTA",
+    "roster_position": "MF",
+    "roster_club": "Başakşehir FK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Ryan RYAN MENDES",
+    "roster_position": "FW",
+    "roster_club": "Iğdır FK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_player": "Wagner WAGNER PINA",
+    "roster_position": "DF",
+    "roster_club": "Trabzonspor (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Davinson SANCHEZ",
+    "roster_position": "DF",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Leandro BACUNA",
+    "roster_position": "MF",
+    "roster_club": "Iğdır FK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Joshua BRENET",
+    "roster_position": "DF",
+    "roster_club": "Kayserispor (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Curacao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_player": "Riechedly BAZOER",
+    "roster_position": "DF",
+    "roster_club": "Konyaspor (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_player": "Meschack ELIA",
+    "roster_position": "FW",
+    "roster_club": "Alanyaspor (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "France",
+    "team_code": "FRA",
+    "group": "I",
+    "roster_player": "Ngolo KANTE",
+    "roster_position": "MF",
+    "roster_club": "Fenerbahçe SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Germany",
+    "team_code": "GER",
+    "group": "E",
+    "roster_player": "Leroy SANE",
+    "roster_position": "MF",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Ghana",
+    "team_code": "GHA",
+    "group": "L",
+    "roster_player": "Jerome OPOKU",
+    "roster_position": "DF",
+    "roster_club": "Başakşehir FK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Haiti",
+    "team_code": "HAI",
+    "group": "C",
+    "roster_player": "Frantzdy PIERROT",
+    "roster_position": "FW",
+    "roster_club": "Çaykur Rizespor (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Ivory Coast",
+    "team_code": "CIV",
+    "group": "E",
+    "roster_player": "Wilfried SINGO",
+    "roster_position": "DF",
+    "roster_club": "Galatasaray SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Ivory Coast",
+    "team_code": "CIV",
+    "group": "E",
+    "roster_player": "Christ OULAI",
+    "roster_position": "MF",
+    "roster_club": "Trabzonspor (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_player": "Nélson NELSON SEMEDO",
+    "roster_position": "DF",
+    "roster_club": "Fenerbahçe SK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Senegal",
+    "team_code": "SEN",
+    "group": "I",
+    "roster_player": "Cherif NDIAYE",
+    "roster_position": "FW",
+    "roster_club": "Samsunspor (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "South Korea",
+    "team_code": "KOR",
+    "group": "A",
+    "roster_player": "Hyeongyu OH",
+    "roster_position": "FW",
+    "roster_club": "Beşiktaş JK (TUR)",
+    "league": "Super Lig"
+  },
+  {
+    "national_team": "Tunisia",
+    "team_code": "TUN",
+    "group": "F",
+    "roster_player": "Adam AROUS",
+    "roster_position": "DF",
+    "roster_club": "Kasımpaşa SK (TUR)",
+    "league": "Super Lig"
+  }
+]

@@ -1,0 +1,1935 @@
+WC Qualification Africa xG (Expected Goals) | FootyStats
+
+# xG (Expected Goals) - International WC Qualification Africa
+
+Nation
+
+Type
+
+Cup
+
+Teams
+
+50
+
+Season
+
+2026
+
+- 2022
+- 2016/18
+
+Matches
+
+265/265 Played
+
+Progress
+
+100% completed
+
+Competition
+
+Goals
+
+Over/Under
+
+More
+
+## xG (Expected Goals) - WC Qualification Africa
+
+## xG Per 90, including xG Difference
+
+MP
+
+Matches Played
+
+### Morocco National Team
+
+### Ivory Coast National Team
+
+### Tunisia National Team
+
+### Senegal National Team
+
+### Egypt National Team
+
+### Cameroon National Team
+
+### Mali National Team
+
+### Burkina Faso National Team
+
+### Ghana National Team
+
+### Nigeria National Team
+
+### Gambia National Team
+
+### South Africa National Team
+
+### Algeria National Team
+
+### Angola National Team
+
+### Kenya National Team
+
+### Equatorial Guinea National Team
+
+### Togo National Team
+
+### Cape Verde Islands National Team
+
+### Namibia National Team
+
+### Uganda National Team
+
+### Comoros National Team
+
+### Congo DR National Team
+
+### Gabon National Team
+
+### Guinea National Team
+
+### Botswana National Team
+
+### Mauritania National Team
+
+### Madagascar National Team
+
+### Malawi National Team
+
+### Swaziland National Team
+
+### Liberia National Team
+
+### Zimbabwe National Team
+
+### Benin National Team
+
+### Guinea-Bissau National Team
+
+### Sudan National Team
+
+### Étoile du Congo
+
+### Ethiopia National Team
+
+### Sierra Leone National Team
+
+### Mozambique National Team
+
+### Libya National Team
+
+### Rwanda National Team
+
+### Burundi National Team
+
+### Djibouti National Team
+
+### Central African Republic National Team
+
+### Lesotho National Team
+
+### South Sudan National Team
+
+### São Tomé e Príncipe National Team
+
+### Chad National Team
+
+### Somalia National Team
+
+### Mauritius National Team
+
+### Seychelles National Team
+
+| # | Team | xG | xGA | xGD | GF | GA | xG vs Actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Morocco National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWWW3.00HomeWWWW3.00AwayWWWW3.00StatisticsOverallHomeAwayWin %100%100%100%AVG3.002.753.25Scored2.752.503.00Conceded0.250.250.25BTTS25%25%25%CS75%75%75%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.82 | 0.58 | +1.24 | 2.75 | 0.25 | +0.93 |
+| 2 | Ivory Coast National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWDWW2.60HomeWWWWW3.00AwayWDWDW2.20StatisticsOverallHomeAwayWin %80%100%60%AVG2.503.002.00Scored2.503.002.00Conceded0.000.000.00BTTS0%0%0%CS100%100%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.77 | 0.57 | +1.20 | 2.50 | 0.00 | +0.73 |
+| 3 | Tunisia National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWWW2.80HomeWWWWW3.00AwayWDWWW2.60StatisticsOverallHomeAwayWin %90%100%80%AVG2.202.601.80Scored2.202.601.80Conceded0.000.000.00BTTS0%0%0%CS100%100%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.63 | 0.92 | +0.71 | 2.20 | 0.00 | +0.57 |
+| 4 | Senegal National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWWW2.40HomeWDWWW2.60AwayDWDWW2.20StatisticsOverallHomeAwayWin %70%80%60%AVG2.502.802.20Scored2.202.601.80Conceded0.300.200.40BTTS20%20%20%CS80%80%80%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.61 | 0.93 | +0.68 | 2.20 | 0.30 | +0.59 |
+| 5 | Egypt National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWDWW2.60HomeWWWWW3.00AwayWDWDW2.20StatisticsOverallHomeAwayWin %80%100%60%AVG2.202.601.80Scored2.002.401.60Conceded0.200.200.20BTTS20%20%20%CS80%80%80%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.58 | 0.70 | +0.88 | 2.00 | 0.20 | +0.42 |
+| 6 | Cameroon National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallWLWDL1.73HomeWWWDL2.17AwayDDDLW1.20StatisticsOverallHomeAwayWin %45%67%20%AVG2.092.671.40Scored1.552.170.80Conceded0.550.500.60BTTS36%33%40%CS45%50%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 11 | 1.57 | 0.93 | +0.64 | 1.55 | 0.55 | -0.02 |
+| 7 | Mali National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallDWLWW1.80HomeWDLWW2.00AwayDWDLW1.60StatisticsOverallHomeAwayWin %50%60%40%AVG2.303.401.20Scored1.702.401.00Conceded0.601.000.20BTTS40%80%0%CS50%20%80%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.56 | 0.70 | +0.86 | 1.70 | 0.60 | +0.14 |
+| 8 | Burkina Faso National TeamWC Qualification Africa (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWWDWW2.10HomeDDWDW1.80AwayWLWWW2.40StatisticsOverallHomeAwayWin %60%40%80%AVG3.103.003.20Scored2.302.002.60Conceded0.801.000.60BTTS60%80%40%CS40%20%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.55 | 1.05 | +0.50 | 2.30 | 0.80 | +0.75 |
+| 9 | Ghana National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWDWWW2.50HomeWWWWW3.00AwayLWWDW2.00StatisticsOverallHomeAwayWin %80%100%60%AVG2.903.002.80Scored2.302.402.20Conceded0.600.600.60BTTS30%20%40%CS60%80%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.48 | 0.93 | +0.55 | 2.30 | 0.60 | +0.82 |
+| 10 | Nigeria National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallDWWWD1.75HomeDWWWD1.86AwayDLWDW1.60StatisticsOverallHomeAwayWin %42%43%40%AVG2.502.572.40Scored1.671.861.40Conceded0.830.711.00BTTS75%71%80%CS25%29%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 12 | 1.41 | 0.77 | +0.64 | 1.67 | 0.83 | +0.26 |
+| 11 | Gambia National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLWWLW1.30HomeLWDWL1.40AwayLLLWW1.20StatisticsOverallHomeAwayWin %40%40%40%AVG4.504.604.40Scored2.702.602.80Conceded1.802.001.60BTTS60%60%60%CS20%20%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.41 | 1.09 | +0.32 | 2.70 | 1.80 | +1.29 |
+| 12 | South Africa National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWDDW2.10HomeWWWDW2.60AwayLDWWD1.60StatisticsOverallHomeAwayWin %60%80%40%AVG2.302.801.80Scored1.702.201.20Conceded0.600.600.60BTTS40%60%20%CS50%40%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.35 | 0.71 | +0.64 | 1.70 | 0.60 | +0.35 |
+| 13 | Algeria National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWDWW2.50HomeWLWWW2.40AwayWWWDW2.60StatisticsOverallHomeAwayWin %80%80%80%AVG3.204.002.40Scored2.402.802.00Conceded0.801.200.40BTTS70%100%40%CS30%0%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.34 | 0.86 | +0.48 | 2.40 | 0.80 | +1.06 |
+| 14 | Angola National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLWDD1.20HomeWDLLW1.40AwayDDDDD1.00StatisticsOverallHomeAwayWin %20%40%0%AVG1.702.201.20Scored0.901.200.60Conceded0.801.000.60BTTS50%60%40%CS40%20%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.33 | 0.90 | +0.43 | 0.90 | 0.80 | -0.43 |
+| 15 | Kenya National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLWWL1.20HomeDDLLW1.00AwayLWDWL1.40StatisticsOverallHomeAwayWin %30%20%40%AVG3.202.803.60Scored1.801.602.00Conceded1.401.201.60BTTS50%60%40%CS40%40%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.32 | 0.98 | +0.34 | 1.80 | 1.40 | +0.48 |
+| 16 | Equatorial Guinea National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallDWLLD1.40HomeLWWLD1.40AwayWLDWL1.40StatisticsOverallHomeAwayWin %40%40%40%AVG2.101.802.40Scored0.900.801.00Conceded1.201.001.40BTTS30%20%40%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.32 | 0.83 | +0.49 | 0.90 | 1.20 | -0.42 |
+| 17 | Togo National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLWLD0.80HomeDDDWL1.20AwayDLLLD0.40StatisticsOverallHomeAwayWin %10%20%0%AVG1.501.601.40Scored0.500.800.20Conceded1.000.801.20BTTS30%40%20%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.31 | 0.96 | +0.35 | 0.50 | 1.00 | -0.81 |
+| 18 | Cape Verde Islands National TeamWC Qualification Africa (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWDW2.30HomeDWWWW2.60AwayWLWWD2.00StatisticsOverallHomeAwayWin %70%80%60%AVG2.401.203.60Scored1.601.202.00Conceded0.800.001.60BTTS30%0%60%CS70%100%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.31 | 0.90 | +0.41 | 1.60 | 0.80 | +0.29 |
+| 19 | Namibia National TeamWC Qualification Africa (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallDLWLL1.50HomeDDDLW1.20AwayWWWLL1.80StatisticsOverallHomeAwayWin %40%20%60%AVG2.302.002.60Scored1.301.201.40Conceded1.000.801.20BTTS40%60%20%CS50%40%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.24 | 0.93 | +0.31 | 1.30 | 1.00 | +0.06 |
+| 20 | Uganda National TeamWC Qualification Africa (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWWWWL1.80HomeWLWWW2.40AwayLWLWL1.20StatisticsOverallHomeAwayWin %60%80%40%AVG2.302.202.40Scored1.401.801.00Conceded0.900.401.40BTTS40%20%60%CS60%80%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.23 | 0.85 | +0.38 | 1.40 | 0.90 | +0.17 |
+| 21 | Comoros National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallWLWLL1.50HomeWWLWL1.80AwayLWLWL1.20StatisticsOverallHomeAwayWin %50%60%40%AVG2.502.802.20Scored1.201.401.00Conceded1.301.401.20BTTS30%40%20%CS40%40%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.23 | 0.96 | +0.27 | 1.20 | 1.30 | -0.03 |
+| 22 | Congo DR National TeamWC Qualification Africa (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallLWWWD2.17HomeWWWLW2.40AwayWWWWD2.00StatisticsOverallHomeAwayWin %67%80%57%AVG2.002.002.00Scored1.421.401.43Conceded0.580.600.57BTTS33%20%43%CS58%80%43%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 12 | 1.23 | 0.99 | +0.24 | 1.42 | 0.58 | +0.19 |
+| 23 | Gabon National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallWDWWL2.27HomeWWWDW2.60AwayLWWWL2.00StatisticsOverallHomeAwayWin %73%80%67%AVG3.272.603.83Scored2.092.002.17Conceded1.180.601.67BTTS55%40%67%CS36%60%17%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 11 | 1.23 | 0.99 | +0.24 | 2.09 | 1.18 | +0.86 |
+| 24 | Guinea National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLWDWD1.50HomeWLDDD1.20AwayLWLWW1.80StatisticsOverallHomeAwayWin %40%20%60%AVG1.901.602.20Scored1.100.801.40Conceded0.800.800.80BTTS40%40%40%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.17 | 1.01 | +0.16 | 1.10 | 0.80 | -0.07 |
+| 25 | Botswana National TeamWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallWLLLD1.00HomeLWLWL1.20AwayLWLLD0.80StatisticsOverallHomeAwayWin %30%40%20%AVG2.802.603.00Scored1.201.201.20Conceded1.601.401.80BTTS50%40%60%CS20%40%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.13 | 1.19 | -0.06 | 1.20 | 1.60 | +0.07 |
+| 26 | Mauritania National TeamWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallLWDDL0.70HomeLLLWD0.80AwayLDDDL0.60StatisticsOverallHomeAwayWin %10%20%0%AVG1.701.402.00Scored0.400.400.40Conceded1.301.001.60BTTS10%0%20%CS40%40%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.13 | 1.11 | +0.02 | 0.40 | 1.30 | -0.73 |
+| 27 | Madagascar National TeamWC Qualification Africa (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallLWWWL1.90HomeWDLWW2.00AwayLWWWL1.80StatisticsOverallHomeAwayWin %60%60%60%AVG2.902.403.40Scored1.701.402.00Conceded1.201.001.40BTTS50%40%60%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.12 | 1.17 | -0.05 | 1.70 | 1.20 | +0.58 |
+| 28 | Malawi National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLWDWL1.30HomeLWLDW1.40AwayWLLWL1.20StatisticsOverallHomeAwayWin %40%40%40%AVG2.102.601.60Scored1.101.600.60Conceded1.001.001.00BTTS30%40%20%CS20%20%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.11 | 1.25 | -0.14 | 1.10 | 1.00 | -0.01 |
+| 29 | Swaziland National TeamWC Qualification Africa (Div. -1)League Pos. 6 / 54International FormLast 5PPGOverallDLLDL0.30HomeLLDDD0.60AwayLLLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.502.602.40Scored0.601.000.20Conceded1.901.602.20BTTS30%40%20%CS10%20%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.04 | 1.54 | -0.50 | 0.60 | 1.90 | -0.44 |
+| 30 | Liberia National TeamWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallWLDWD1.20HomeLLLWW1.20AwayDWLDD1.20StatisticsOverallHomeAwayWin %30%40%20%AVG2.202.002.40Scored1.001.001.00Conceded1.201.001.40BTTS50%40%60%CS10%0%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.03 | 1.26 | -0.23 | 1.00 | 1.20 | -0.03 |
+| 31 | Zimbabwe National TeamWC Qualification Africa (Div. -1)League Pos. 6 / 54International FormLast 5PPGOverallDLLDL0.50HomeDLDLD0.60AwayDLDLL0.40StatisticsOverallHomeAwayWin %0%0%0%AVG1.701.801.60Scored0.500.600.40Conceded1.201.201.20BTTS40%40%40%CS20%20%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.01 | 1.40 | -0.39 | 0.50 | 1.20 | -0.51 |
+| 32 | Benin National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLWWWL1.70HomeWWLWW2.40AwayLDDWL1.00StatisticsOverallHomeAwayWin %50%80%20%AVG2.302.202.40Scored1.201.600.80Conceded1.100.601.60BTTS30%20%40%CS50%60%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.00 | 0.94 | +0.06 | 1.20 | 1.10 | +0.20 |
+| 33 | Guinea-Bissau National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLDWLL1.00HomeDDLDW1.20AwayDWLLL0.80StatisticsOverallHomeAwayWin %20%20%20%AVG1.801.801.80Scored0.801.000.60Conceded1.000.801.20BTTS50%60%40%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.00 | 1.00 | 0.00 | 0.80 | 1.00 | -0.20 |
+| 34 | Sudan National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallDLLDL1.30HomeDWDDD1.40AwayWWLLL1.20StatisticsOverallHomeAwayWin %30%20%40%AVG1.401.001.80Scored0.800.601.00Conceded0.600.400.80BTTS20%40%0%CS50%60%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.99 | 1.34 | -0.35 | 0.80 | 0.60 | -0.19 |
+| 35 | Étoile du CongoWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallLLDLL0.13HomeLLLD0.25AwayLLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.503.503.50Scored0.500.250.75Conceded3.003.252.75BTTS38%25%50%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 0.99 | 1.86 | -0.87 | 0.50 | 3.00 | -0.49 |
+| 36 | Ethiopia National TeamWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallWLLWL0.90HomeDLLWW1.40AwayDDLLL0.40StatisticsOverallHomeAwayWin %20%40%0%AVG2.302.602.00Scored0.901.400.40Conceded1.401.201.60BTTS30%20%40%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.97 | 1.58 | -0.61 | 0.90 | 1.40 | -0.07 |
+| 37 | Sierra Leone National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLDWLW1.50HomeLWWWL1.80AwayDDLDW1.20StatisticsOverallHomeAwayWin %40%60%20%AVG2.202.402.00Scored1.201.401.00Conceded1.001.001.00BTTS50%40%60%CS20%20%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.95 | 1.05 | -0.10 | 1.20 | 1.00 | +0.25 |
+| 38 | Mozambique National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLLWLW1.80HomeLWWWL1.80AwayWWLLW1.80StatisticsOverallHomeAwayWin %60%60%60%AVG3.102.803.40Scored1.401.601.20Conceded1.701.202.20BTTS50%60%40%CS30%20%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.94 | 1.10 | -0.16 | 1.40 | 1.70 | +0.46 |
+| 39 | Libya National TeamWC Qualification Africa (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLWWDD1.60HomeDWDWD1.80AwayWLLWD1.40StatisticsOverallHomeAwayWin %40%40%40%AVG2.203.001.40Scored1.201.800.60Conceded1.001.200.80BTTS50%80%20%CS40%20%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.92 | 1.23 | -0.31 | 1.20 | 1.00 | +0.28 |
+| 40 | Rwanda National TeamWC Qualification Africa (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallDLWLL1.10HomeDWLDL1.00AwayLWLWL1.20StatisticsOverallHomeAwayWin %30%20%40%AVG1.401.401.40Scored0.500.600.40Conceded0.900.801.00BTTS10%20%0%CS40%40%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.90 | 0.97 | -0.07 | 0.50 | 0.90 | -0.40 |
+| 41 | Burundi National TeamWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallWLLLL1.00HomeWLLWL1.20AwayDWLLL0.80StatisticsOverallHomeAwayWin %30%40%20%AVG2.603.002.20Scored1.301.800.80Conceded1.301.201.40BTTS40%40%40%CS10%20%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.88 | 1.13 | -0.25 | 1.30 | 1.30 | +0.42 |
+| 42 | Djibouti National TeamWC Qualification Africa (Div. -1)League Pos. 6 / 54International FormLast 5PPGOverallLLLLL0.10HomeLDLLL0.20AwayLLLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.803.004.60Scored0.500.400.60Conceded3.302.604.00BTTS50%40%60%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.85 | 1.59 | -0.74 | 0.50 | 3.30 | -0.35 |
+| 43 | Central African Republic National TeamWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallDLLLW0.80HomeWLDLL0.80AwayLDLLW0.80StatisticsOverallHomeAwayWin %20%20%20%AVG3.502.604.40Scored1.100.401.80Conceded2.402.202.60BTTS50%20%80%CS20%40%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.83 | 1.68 | -0.85 | 1.10 | 2.40 | +0.27 |
+| 44 | Lesotho National TeamWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallDLLLW0.90HomeDLLLW0.80AwayDWLDL1.00StatisticsOverallHomeAwayWin %20%20%20%AVG2.001.602.40Scored0.600.400.80Conceded1.401.201.60BTTS30%20%40%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.80 | 1.77 | -0.97 | 0.60 | 1.40 | -0.20 |
+| 45 | South Sudan National TeamWC Qualification Africa (Div. -1)League Pos. 6 / 54International FormLast 5PPGOverallDLDLD0.50HomeDLLLD0.40AwayLDLDD0.60StatisticsOverallHomeAwayWin %0%0%0%AVG2.202.601.80Scored0.300.200.40Conceded1.902.401.40BTTS30%20%40%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.79 | 1.76 | -0.97 | 0.30 | 1.90 | -0.49 |
+| 46 | São Tomé e Príncipe National TeamWC Qualification Africa (Div. -1)League Pos. 6 / 54International FormLast 5PPGOverallLLLLW0.30HomeLLLLW0.60AwayLLLLL0.00StatisticsOverallHomeAwayWin %10%20%0%AVG3.103.003.20Scored0.500.600.40Conceded2.602.402.80BTTS30%20%40%CS10%20%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.78 | 1.80 | -1.02 | 0.50 | 2.60 | -0.28 |
+| 47 | Chad National TeamWC Qualification Africa (Div. -1)League Pos. 6 / 54International FormLast 5PPGOverallLDLLL0.10HomeLLDLL0.20AwayLLLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.902.803.00Scored0.500.600.40Conceded2.402.202.60BTTS40%40%40%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.77 | 1.54 | -0.77 | 0.50 | 2.40 | -0.27 |
+| 48 | Somalia National TeamWC Qualification Africa (Div. -1)League Pos. 6 / 54International FormLast 5PPGOverallLLLLL0.10HomeLLLLL0.00AwayLLDLL0.20StatisticsOverallHomeAwayWin %0%0%0%AVG2.302.402.20Scored0.300.200.40Conceded2.002.201.80BTTS30%20%40%CS10%0%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.72 | 1.52 | -0.80 | 0.30 | 2.00 | -0.42 |
+| 49 | Mauritius National TeamWC Qualification Africa (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallDLLLD0.60HomeDWLLD1.00AwayLLLDL0.20StatisticsOverallHomeAwayWin %10%20%0%AVG2.401.403.40Scored0.700.401.00Conceded1.701.002.40BTTS40%20%60%CS20%40%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.70 | 1.46 | -0.76 | 0.70 | 1.70 | 0.00 |
+| 50 | Seychelles National TeamWC Qualification Africa (Div. -1)League Pos. 6 / 54International FormLast 5PPGOverallLLLLL0.00HomeLLLLL0.00AwayLLLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG5.505.405.60Scored0.200.200.20Conceded5.305.205.40BTTS20%20%20%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 0.42 | 2.38 | -1.96 | 0.20 | 5.30 | -0.22 |
+
+This table describes the xG per match of each team in the WC Qualification Africa.xG = Expected Goals to be scored.xGA = Expected Goals to be conceded.xG vs Actual measures the team's actual goals scored against the expected goals scored. A negative number is bad since the team is scoring less than expected. A positive number means the team is scoring more than expected.
+
+For Expected Points data, go to WC Qualification Africa Expected Points Table.
+
+## Players with the Most xG
+
+| # | Player | xG Total | Goals | xG / 90' | Shots | Position | Apps |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mohamed Salah | 5.03 | 9 | 1.69 | 0 | FW | 9 |
+| 2 | Victor Osimhen | 4.79 | 8 | 1.17 | 0 | FW | 7 |
+| 3 | Mohamed Amoura | 4.27 | 10 | 1.42 | 0 | FW | 10 |
+| 4 | Jordan Ayew | 4.14 | 7 | 1.08 | 0 | FW | 10 |
+| 5 | Kamory Doumbia | 4.11 | 8 | 1.09 | 0 | MF | 10 |
+| 6 | Denis Bouanga | 3.7 | 8 | 0.74 | 0 | FW | 11 |
+| 7 | Michael Olunga | 3.45 | 6 | 1 | 0 | FW | 10 |
+| 8 | Musa Barrow | 3.4 | 6 | 0.98 | 0 | FW | 10 |
+| 9 | Steve Mounié | 3.24 | 5 | 0.54 | 4 | FW | 10 |
+| 10 | Sadio Mané | 3.24 | 5 | 0.92 | 0 | FW | 8 |
+| 11 | Pierre-Emerick Aubameyang | 3.15 | 7 | 0.96 | 0 | FW | 6 |
+| 12 | Rayan Raveleson | 2.95 | 5 | 0.74 | 0 | MF | 10 |
+| 13 | Ayoub El Kaabi | 2.66 | 4 | 2.2 | 5 | FW | 6 |
+| 14 | Pape Matar Sarr | 2.58 | 5 | 1.17 | 0 | MF | 10 |
+| 15 | Mohamed Ali Ben Romdhane | 2.57 | 4 | 2.34 | 0 | MF | 5 |
+| 16 | Adama Sidibeh | 2.57 | 5 | 0.94 | 0 | FW | 6 |
+| 17 | Bryan Mbeumo | 2.56 | 4 | 0.58 | 0 | FW | 11 |
+| 18 | Mahmoud Trezeguet | 2.54 | 5 | 0.66 | 0 | FW | 10 |
+| 19 | Ezzeddine Maryami | 2.54 | 4 | 0.64 | 0 | FW | 6 |
+| 20 | Ismael Saibari | 2.53 | 3 | 0.79 | 9 | MF | 6 |
+| 21 | Vincent Paté Aboubakar | 2.5 | 4 | 1 | 0 | FW | 9 |
+| 22 | Yankuba Minteh | 2.35 | 5 | 0.97 | 0 | FW | 8 |
+| 23 | Myziane Maolida | 2.33 | 4 | 1.03 | 0 | FW | 10 |
+| 24 | Oswin Reagan Appollis | 2.16 | 2 | 0.4 | 10 | FW | 8 |
+| 25 | Peter Shalulile | 2.07 | 4 | 0.73 | 0 | FW | 6 |
+
+This is the list of the players with the highest xGs in the WC Qualification Africa. List can include players from all positions. For more shots data, go to Shots data for WC Qualification Africa page.
+
+## xG Overall (Per Match)
+
+Previous Next
+
+#1
+
+1.82xG
+
+#2
+
+Ivory Coast National Team
+
+1.77xG
+
+#3
+
+1.48xG
+
+#4
+
+1.41xG
+
+#5
+
+1.61xG
+
+#6
+
+1.57xG
+
+#7
+
+1.58xG
+
+#8
+
+South Africa National Team
+
+1.35xG
+
+#9
+
+1.34xG
+
+#10
+
+1.32xG
+
+#11
+
+1.17xG
+
+#12
+
+Central African Republic National Team
+
+0.83xG
+
+#13
+
+0.42xG
+
+#14
+
+1.04xG
+
+#15
+
+1.33xG
+
+#16
+
+Burkina Faso National Team
+
+1.55xG
+
+#17
+
+1.31xG
+
+#18
+
+1.23xG
+
+#19
+
+1.13xG
+
+#20
+
+0.92xG
+
+#21
+
+0.80xG
+
+#22
+
+São Tomé e Príncipe National Team
+
+0.78xG
+
+#23
+
+1.63xG
+
+#24
+
+1.23xG
+
+#25
+
+1.13xG
+
+#26
+
+1.56xG
+
+#27
+
+1.41xG
+
+#28
+
+Equatorial Guinea National Team
+
+1.32xG
+
+#29
+
+Cape Verde Islands National Team
+
+1.31xG
+
+#30
+
+1.24xG
+
+#31
+
+Congo DR National Team
+
+1.23xG
+
+#32
+
+1.12xG
+
+#33
+
+1.11xG
+
+#34
+
+1.01xG
+
+#35
+
+Sierra Leone National Team
+
+0.95xG
+
+#36
+
+0.99xG
+
+#37
+
+1.23xG
+
+#38
+
+1.03xG
+
+#39
+
+0.77xG
+
+#40
+
+1.00xG
+
+#41
+
+1.00xG
+
+#42
+
+0.97xG
+
+#43
+
+0.88xG
+
+#44
+
+0.85xG
+
+#45
+
+South Sudan National Team
+
+0.79xG
+
+#46
+
+0.90xG
+
+#47
+
+0.72xG
+
+#48
+
+0.94xG
+
+#49
+
+0.99xG
+
+#50
+
+0.70xG
+
+## xG Home
+
+Previous Next
+
+#1
+
+Ivory Coast National Team
+
+2.16xG
+
+#2
+
+1.99xG
+
+#3
+
+1.70xG
+
+#4
+
+1.69xG
+
+#5
+
+1.65xG
+
+#6
+
+1.61xG
+
+#7
+
+1.51xG
+
+#8
+
+1.39xG
+
+#9
+
+South Africa National Team
+
+1.39xG
+
+#10
+
+1.34xG
+
+#11
+
+1.20xG
+
+#12
+
+1.95xG
+
+#13
+
+Burkina Faso National Team
+
+1.73xG
+
+#14
+
+Central African Republic National Team
+
+0.76xG
+
+#15
+
+1.47xG
+
+#16
+
+1.42xG
+
+#17
+
+1.30xG
+
+#18
+
+1.19xG
+
+#19
+
+1.16xG
+
+#20
+
+1.13xG
+
+#21
+
+1.06xG
+
+#22
+
+São Tomé e Príncipe National Team
+
+0.74xG
+
+#23
+
+1.46xG
+
+#24
+
+1.13xG
+
+#25
+
+0.46xG
+
+#26
+
+1.41xG
+
+#27
+
+Cape Verde Islands National Team
+
+1.44xG
+
+#28
+
+1.45xG
+
+#29
+
+1.39xG
+
+#30
+
+1.38xG
+
+#31
+
+1.36xG
+
+#32
+
+Equatorial Guinea National Team
+
+1.33xG
+
+#33
+
+Sierra Leone National Team
+
+1.28xG
+
+#34
+
+Congo DR National Team
+
+1.27xG
+
+#35
+
+1.10xG
+
+#36
+
+1.05xG
+
+#37
+
+1.03xG
+
+#38
+
+0.90xG
+
+#39
+
+0.95xG
+
+#40
+
+1.24xG
+
+#41
+
+South Sudan National Team
+
+1.02xG
+
+#42
+
+0.96xG
+
+#43
+
+0.96xG
+
+#44
+
+0.95xG
+
+#45
+
+0.90xG
+
+#46
+
+0.88xG
+
+#47
+
+0.77xG
+
+#48
+
+0.72xG
+
+#49
+
+0.68xG
+
+#50
+
+0.64xG
+
+## xG Away
+
+Previous Next
+
+#1
+
+1.75xG
+
+#2
+
+Ivory Coast National Team
+
+1.38xG
+
+#3
+
+1.65xG
+
+#4
+
+1.65xG
+
+#5
+
+1.62xG
+
+#6
+
+1.57xG
+
+#7
+
+Burkina Faso National Team
+
+1.36xG
+
+#8
+
+South Africa National Team
+
+1.31xG
+
+#9
+
+1.30xG
+
+#10
+
+1.25xG
+
+#11
+
+1.14xG
+
+#12
+
+1.12xG
+
+#13
+
+0.98xG
+
+#14
+
+1.20xG
+
+#15
+
+Cape Verde Islands National Team
+
+1.19xG
+
+#16
+
+0.98xG
+
+#17
+
+1.47xG
+
+#18
+
+1.50xG
+
+#19
+
+Congo DR National Team
+
+1.21xG
+
+#20
+
+0.97xG
+
+#21
+
+0.89xG
+
+#22
+
+Equatorial Guinea National Team
+
+1.31xG
+
+#23
+
+Central African Republic National Team
+
+0.89xG
+
+#24
+
+São Tomé e Príncipe National Team
+
+0.81xG
+
+#25
+
+1.44xG
+
+#26
+
+1.34xG
+
+#27
+
+0.72xG
+
+#28
+
+1.13xG
+
+#29
+
+1.10xG
+
+#30
+
+1.04xG
+
+#31
+
+0.99xG
+
+#32
+
+0.90xG
+
+#33
+
+Sierra Leone National Team
+
+0.53xG
+
+#34
+
+0.37xG
+
+#35
+
+0.98xG
+
+#36
+
+0.88xG
+
+#37
+
+1.17xG
+
+#38
+
+1.01xG
+
+#39
+
+0.92xG
+
+#40
+
+1.12xG
+
+#41
+
+1.06xG
+
+#42
+
+0.89xG
+
+#43
+
+0.81xG
+
+#44
+
+0.76xG
+
+#45
+
+0.64xG
+
+#46
+
+0.63xG
+
+#47
+
+South Sudan National Team
+
+0.56xG
+
+#48
+
+1.02xG
+
+#49
+
+0.80xG
+
+#50
+
+0.53xG
+
+## xGA Overall (Per Match)
+
+Previous Next
+
+#1
+
+0.93xGA
+
+#2
+
+Burkina Faso National Team
+
+1.05xGA
+
+#3
+
+0.93xGA
+
+#4
+
+0.93xGA
+
+#5
+
+South Africa National Team
+
+0.71xGA
+
+#6
+
+0.58xGA
+
+#7
+
+0.92xGA
+
+#8
+
+0.98xGA
+
+#9
+
+1.01xGA
+
+#10
+
+0.96xGA
+
+#11
+
+0.96xGA
+
+#12
+
+0.90xGA
+
+#13
+
+Cape Verde Islands National Team
+
+0.90xGA
+
+#14
+
+0.86xGA
+
+#15
+
+0.77xGA
+
+#16
+
+0.70xGA
+
+#17
+
+1.54xGA
+
+#18
+
+Congo DR National Team
+
+0.99xGA
+
+#19
+
+1.19xGA
+
+#20
+
+Equatorial Guinea National Team
+
+0.83xGA
+
+#21
+
+Central African Republic National Team
+
+1.68xGA
+
+#22
+
+Ivory Coast National Team
+
+0.57xGA
+
+#23
+
+São Tomé e Príncipe National Team
+
+1.80xGA
+
+#24
+
+1.23xGA
+
+#25
+
+1.11xGA
+
+#26
+
+0.99xGA
+
+#27
+
+0.93xGA
+
+#28
+
+South Sudan National Team
+
+1.76xGA
+
+#29
+
+0.85xGA
+
+#30
+
+1.25xGA
+
+#31
+
+Sierra Leone National Team
+
+1.05xGA
+
+#32
+
+2.38xGA
+
+#33
+
+1.86xGA
+
+#34
+
+1.40xGA
+
+#35
+
+1.34xGA
+
+#36
+
+1.26xGA
+
+#37
+
+1.10xGA
+
+#38
+
+1.00xGA
+
+#39
+
+0.94xGA
+
+#40
+
+1.54xGA
+
+#41
+
+0.97xGA
+
+#42
+
+1.13xGA
+
+#43
+
+1.58xGA
+
+#44
+
+1.46xGA
+
+#45
+
+1.09xGA
+
+#46
+
+1.59xGA
+
+#47
+
+1.17xGA
+
+#48
+
+1.52xGA
+
+#49
+
+1.77xGA
+
+#50
+
+0.70xGA
+
+## xGA Home
+
+Previous Next
+
+#1
+
+South Sudan National Team
+
+1.71xGA
+
+#2
+
+Burkina Faso National Team
+
+1.01xGA
+
+#3
+
+0.96xGA
+
+#4
+
+1.08xGA
+
+#5
+
+0.92xGA
+
+#6
+
+0.91xGA
+
+#7
+
+0.89xGA
+
+#8
+
+0.86xGA
+
+#9
+
+0.85xGA
+
+#10
+
+0.79xGA
+
+#11
+
+South Africa National Team
+
+0.55xGA
+
+#12
+
+0.38xGA
+
+#13
+
+0.91xGA
+
+#14
+
+Cape Verde Islands National Team
+
+0.76xGA
+
+#15
+
+0.89xGA
+
+#16
+
+Central African Republic National Team
+
+1.89xGA
+
+#17
+
+São Tomé e Príncipe National Team
+
+1.76xGA
+
+#18
+
+1.62xGA
+
+#19
+
+1.13xGA
+
+#20
+
+1.13xGA
+
+#21
+
+Congo DR National Team
+
+0.98xGA
+
+#22
+
+0.73xGA
+
+#23
+
+0.68xGA
+
+#24
+
+Ivory Coast National Team
+
+0.58xGA
+
+#25
+
+Equatorial Guinea National Team
+
+0.49xGA
+
+#26
+
+0.87xGA
+
+#27
+
+0.84xGA
+
+#28
+
+0.75xGA
+
+#29
+
+2.29xGA
+
+#30
+
+1.54xGA
+
+#31
+
+1.29xGA
+
+#32
+
+1.28xGA
+
+#33
+
+1.16xGA
+
+#34
+
+Sierra Leone National Team
+
+1.11xGA
+
+#35
+
+0.81xGA
+
+#36
+
+1.54xGA
+
+#37
+
+0.73xGA
+
+#38
+
+1.79xGA
+
+#39
+
+1.68xGA
+
+#40
+
+1.48xGA
+
+#41
+
+1.38xGA
+
+#42
+
+1.28xGA
+
+#43
+
+1.11xGA
+
+#44
+
+1.08xGA
+
+#45
+
+0.98xGA
+
+#46
+
+0.91xGA
+
+#47
+
+0.79xGA
+
+#48
+
+0.68xGA
+
+#49
+
+0.64xGA
+
+#50
+
+0.64xGA
+
+## xGA Away
+
+Previous Next
+
+#1
+
+1.90xGA
+
+#2
+
+South Sudan National Team
+
+1.81xGA
+
+#3
+
+1.47xGA
+
+#4
+
+Central African Republic National Team
+
+1.46xGA
+
+#5
+
+São Tomé e Príncipe National Team
+
+1.83xGA
+
+#6
+
+1.85xGA
+
+#7
+
+0.84xGA
+
+#8
+
+1.16xGA
+
+#9
+
+1.04xGA
+
+#10
+
+Cape Verde Islands National Team
+
+1.03xGA
+
+#11
+
+1.02xGA
+
+#12
+
+1.01xGA
+
+#13
+
+0.95xGA
+
+#14
+
+0.94xGA
+
+#15
+
+South Africa National Team
+
+0.86xGA
+
+#16
+
+0.82xGA
+
+#17
+
+1.32xGA
+
+#18
+
+0.79xGA
+
+#19
+
+1.25xGA
+
+#20
+
+0.58xGA
+
+#21
+
+1.67xGA
+
+#22
+
+Congo DR National Team
+
+0.99xGA
+
+#23
+
+1.48xGA
+
+#24
+
+2.46xGA
+
+#25
+
+2.07xGA
+
+#26
+
+1.55xGA
+
+#27
+
+1.52xGA
+
+#28
+
+1.42xGA
+
+#29
+
+1.39xGA
+
+#30
+
+1.38xGA
+
+#31
+
+1.35xGA
+
+#32
+
+1.19xGA
+
+#33
+
+Burkina Faso National Team
+
+1.08xGA
+
+#34
+
+1.01xGA
+
+#35
+
+0.97xGA
+
+#36
+
+Sierra Leone National Team
+
+0.97xGA
+
+#37
+
+1.48xGA
+
+#38
+
+Ivory Coast National Team
+
+0.56xGA
+
+#39
+
+1.43xGA
+
+#40
+
+1.24xGA
+
+#41
+
+1.38xGA
+
+#42
+
+0.96xGA
+
+#43
+
+1.19xGA
+
+#44
+
+0.72xGA
+
+#45
+
+0.97xGA
+
+#46
+
+1.25xGA
+
+#47
+
+Equatorial Guinea National Team
+
+1.18xGA
+
+#48
+
+0.78xGA
+
+#49
+
+1.35xGA
+
+#50
+
+1.00xGA
+
+Fixture
+
+Home XG
+
+Away XG
+
+AVG Goals
+
+- XG: Upcoming Fixtures
+
+Fixture
+
+Home XG
+
+Away XG
+
+Final Goals
+
+Nigeria vs Congo DR
+
+1.13
+
+1.64
+
+2
+
+Cameroon vs Congo DR
+
+1.08
+
+1.06
+
+1
+
+1.72
+
+0.88
+
+5
+
+Morocco vs Étoile du Congo
+
+2.00
+
+0.10
+
+1
+
+Ivory Coast vs Kenya
+
+1.40
+
+0.18
+
+3
+
+1.57
+
+0.46
+
+2
+
+1.90
+
+1.00
+
+4
+
+Congo DR vs Sudan
+
+1.21
+
+0.26
+
+1
+
+South Africa vs Rwanda
+
+1.31
+
+0.39
+
+3
+
+0.94
+
+0.91
+
+4
+
+1.20
+
+1.26
+
+4
+
+0.52
+
+0.87
+
+1
+
+1.49
+
+0.94
+
+3
+
+0.53
+
+2.45
+
+7
+
+0.32
+
+0.58
+
+0
+
+- XG: Recent Results
+
+## xG (Expected Goals) By Teams in WC Qualification Africa
+
+---
+
+### Which Team Has The Best xG?
+
+Currently, Morocco National Team has the best xG (Expected Goals For) in the WC Qualification Africa with 1.82 xG per game.
+
+### Which Team Has The Worst xG?
+
+Currently, Mauritius National Team has the worst xG (Expected Goals For) in the WC Qualification Africa with 0.70 xG per game.
+
+### Who Has The Best xG at Home?
+
+The team with the best xG when playing at home this season is Ivory Coast National Team, who has an xG of 2.16 from their home games thus far.
+
+### Who Has The Worst xG at Home?
+
+The team with the worst xG when playing at home this season is Somalia National Team, who is expected to score just 0.64 goals per game in front of their own fans.
+
+### Who Has The Best xG Away From Home?
+
+The team with the best xG whilst on the road this season is Mali National Team, who is expected to score 1.75 goals per game in their opponents stadium.
+
+### Who Has The Worst xG Away From Home?
+
+The team with the worst xG whilst on the road this season is Lesotho National Team, who is expected to score just 0.53 goals per game in their opponents stadium.
+
+### Who Has The Best xGA?
+
+Mali National Team has the best xGA (Expected Goals Against) in the WC Qualification Africa with just 0.70 goals expected against them per game. Arguably, this stat could suggest they have the best defence in this competition.
+
+### Who Has The Best xGA at Home?
+
+Guinea-Bissau National Team has the best xGA (Expected Goals Against) in the WC Qualification Africa when playing at home with just 0.64 goals expected against them per game. They are formidable when playing at home.
+
+### Who Has The Best xGA Away From Home?
+
+Namibia National Team has the best xGA (Expected Goals Against) in the WC Qualification Africa when playing away from home with just 1.00 goals expected against them per game. Very frustrating for those home fans who must watch their team face Namibia National Team.
+
+### Who Has The Worst xGA?
+
+Fans of Senegal National Team will demand better defending in the future, with 0.93 xGA (Goals Expected Against). The worst of all teams in the WC Qualification Africa this season.
+
+### Who Has The Worst xGA at Home?
+
+The team with the worst xGA (Goals Expected Against) when playing at home this season is South Sudan National Team, who is expected to concede 1.71 goals per game in front of their own fans.
+
+### Who Has The Worst xGA Away From Home?
+
+The team with the worst xGA (Goals Expected Against) when playing away from home this season is Djibouti National Team, who is expected to concede 1.90 goals per game whilst on their travels.
+
+### How is the xG calculated for WC Qualification Africa?
+
+FootyStats uses a unique formula for calculating xG. Traditional xG only takes account of shot positions while FootyStats uses a combination of shot accuracy (on/off target), shot frequency (number of shots), attack dangerousness, overall attack pressure (posession amount and depth of posession) to summarize expected goals for WC Qualification Africa. The reason for using more data points to calculate xG is because many attacks can be extremely dangerous without a shot attempt, and using other data such as posession and depth of attack can increase the granularity of WC Qualification Africa's xG data.
+
+## xG (Expected Goals) - International
+
+WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Asia xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2014 Brazil xG (Expected Goals)- Cup or Playoff
+
+International Friendlies xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Africa xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2010 South Africa xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Championship xG (Expected Goals)- Cup or Playoff
+
+FIFA Confederations Cup xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Qualifiers xG (Expected Goals)- Cup or Playoff
+
+UEFA Nations League xG (Expected Goals)- Cup or Playoff
+
+WC Qualification South America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2006 Germany xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2002 Korea Japan xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2018 Russia xG (Expected Goals)- Cup or Playoff
+
+International Champions Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup xG (Expected Goals)- Cup or Playoff
+
+Copa America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup U20 xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Women's World Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U17 World Cup xG (Expected Goals)- Cup or Playoff
+
+Olympics xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Champions League xG (Expected Goals)- Cup or Playoff
+
+UEFA Womens Euro xG (Expected Goals)- Cup or Playoff
+
+Africa U20 Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+WC Qualification CONCACAF xG (Expected Goals)- Cup or Playoff
+
+Olympic Qualifying Concacaf xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U21 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+Olympics Women xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Concacaf xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Oceania xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+FIFA Arab Cup xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Nations League xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U19 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+International Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+AFC Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONMEBOL UEFA Cup of Champions xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2022 Qatar xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Championship U20 xG (Expected Goals)- Cup or Playoff
+
+CONCACAF League xG (Expected Goals)- Cup or Playoff
+
+Arab Club Champions Cup xG (Expected Goals)- Cup or Playoff
+
+Elite League U20 xG (Expected Goals)- Cup or Playoff
+
+CAF Super Cup xG (Expected Goals)- Cup or Playoff
+
+Gulf Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+SheBelieves Cup xG (Expected Goals)- Cup or Playoff
+
+Womens Olympic Qualifying CAF xG (Expected Goals)- Cup or Playoff
+
+UEFA CONMEBOL Club Challenge xG (Expected Goals)- Cup or Playoff
+
+Asian Games xG (Expected Goals)- Cup or Playoff
+
+Concacaf W Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Turkish Womens Cup xG (Expected Goals)- Cup or Playoff
+
+Sud Ladies Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Central American Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U20 Womens World Cup xG (Expected Goals)- Cup or Playoff
+
+Campeones Cup xG (Expected Goals)- Cup or Playoff
+
+African Football League xG (Expected Goals)- Cup or Playoff
+
+African Games Women xG (Expected Goals)- Cup or Playoff
+
+AFF Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Champions League xG (Expected Goals)- Cup or Playoff
+
+Club Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+Concacaf Championship Women U20 xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup Playin xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+EAFF E1 Football Championship xG (Expected Goals)- Cup or Playoff
+
+J League World Challenge xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Club Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Womens Nations Cup xG (Expected Goals)- Cup or Playoff
+
+World Cup xG (Expected Goals)- Cup or Playoff
+
+Loading
+
+Go Premium
+
+Close
+
+/
+
+https://cdn.footystats.org/
+
+- Starts in ### min'
+
+- Starts in ### Hr'
+
+Live'
+
+- Started'
+
+●Soon
+
+●Started
+
+no
+
+Get Profitable Predictions In Your Email!

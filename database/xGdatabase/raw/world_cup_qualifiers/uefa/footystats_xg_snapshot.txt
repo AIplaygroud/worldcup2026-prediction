@@ -1,0 +1,1887 @@
+WC Qualification Europe xG (Expected Goals) | FootyStats
+
+# xG (Expected Goals) - International WC Qualification Europe
+
+Nation
+
+Type
+
+Cup
+
+Teams
+
+50
+
+Season
+
+2026
+
+- 2022
+- 2016/18
+
+Matches
+
+204/204 Played
+
+Progress
+
+100% completed
+
+Competition
+
+Goals
+
+Over/Under
+
+More
+
+## xG (Expected Goals) - WC Qualification Europe
+
+## xG Per 90, including xG Difference
+
+MP
+
+Matches Played
+
+### Portugal National Team
+
+### Spain National Team
+
+### Belgium National Team
+
+### Croatia National Team
+
+### France National Team
+
+### England National Team
+
+### Denmark National Team
+
+### Norway National Team
+
+### Italy National Team
+
+### Netherlands National Team
+
+### Germany National Team
+
+### Wales National Team
+
+### Czech Republic National Team
+
+### Poland National Team
+
+### Austria National Team
+
+### Greece National Team
+
+### Israel National Team
+
+### Bosnia Herzegovina National Team
+
+### Montenegro National Team
+
+### Serbia National Team
+
+### Cyprus National Team
+
+### Romania National Team
+
+### Turkey National Team
+
+### Switzerland National Team
+
+### Hungary National Team
+
+### Kazakhstan National Team
+
+### Republic of Ireland National Team
+
+### Scotland National Team
+
+### Ukraine National Team
+
+### Georgia National Team
+
+### Iceland National Team
+
+### Slovakia National Team
+
+### Sweden National Team
+
+### FYR Macedonia National Team
+
+### Albania National Team
+
+### Kosovo National Team
+
+### Moldova National Team
+
+### Northern Ireland National Team
+
+### Belarus National Team
+
+### Malta National Team
+
+### Lithuania National Team
+
+### Slovenia National Team
+
+### Luxembourg National Team
+
+### Armenia National Team
+
+### Latvia National Team
+
+### Bulgaria National Team
+
+### Azerbaijan National Team
+
+### San Marino National Team
+
+### Gibraltar National Team
+
+### Liechtenstein National Team
+
+| # | Team | xG | xGA | xGD | GF | GA | xG vs Actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Portugal National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWDLW2.17HomeWDW2.33AwayWWL2.00StatisticsOverallHomeAwayWin %67%67%67%AVG4.505.004.00Scored3.334.002.67Conceded1.171.001.33BTTS50%67%33%CS33%33%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 2.84 | 0.89 | +1.95 | 3.33 | 1.17 | +0.49 |
+| 2 | Spain National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWWD2.67HomeWWD2.33AwayWWW3.00StatisticsOverallHomeAwayWin %83%67%100%AVG3.833.334.33Scored3.502.674.33Conceded0.330.670.00BTTS17%33%0%CS83%67%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 2.74 | 0.71 | +2.03 | 3.50 | 0.33 | +0.76 |
+| 3 | Belgium National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWDWDW2.25HomeWWDW2.50AwayDWWD2.00StatisticsOverallHomeAwayWin %63%75%50%AVG4.505.004.00Scored3.634.253.00Conceded0.880.751.00BTTS50%25%75%CS50%75%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 2.57 | 0.70 | +1.87 | 3.63 | 0.88 | +1.06 |
+| 4 | Croatia National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWDWWW2.75HomeWWWW3.00AwayWWDW2.50StatisticsOverallHomeAwayWin %88%100%75%AVG3.754.253.25Scored3.253.752.75Conceded0.500.500.50BTTS38%50%25%CS63%50%75%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 2.56 | 0.78 | +1.78 | 3.25 | 0.50 | +0.69 |
+| 5 | France National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWDWW2.67HomeWWW3.00AwayWDW2.33StatisticsOverallHomeAwayWin %83%100%67%AVG3.333.333.33Scored2.673.002.33Conceded0.670.331.00BTTS50%33%67%CS50%67%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 2.54 | 0.48 | +2.06 | 2.67 | 0.67 | +0.13 |
+| 6 | England National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWWW3.00HomeWWWW3.00AwayWWWW3.00StatisticsOverallHomeAwayWin %100%100%100%AVG2.752.253.25Scored2.752.253.25Conceded0.000.000.00BTTS0%0%0%CS100%100%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 2.38 | 0.43 | +1.95 | 2.75 | 0.00 | +0.37 |
+| 7 | Denmark National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWDLWD1.88HomeDWDW2.00AwayWWLD1.75StatisticsOverallHomeAwayWin %50%50%50%AVG3.883.004.75Scored2.752.253.25Conceded1.130.751.50BTTS50%50%50%CS50%50%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 2.32 | 0.92 | +1.40 | 2.75 | 1.13 | +0.43 |
+| 8 | Norway National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWWW3.00HomeWWWW3.00AwayWWWW3.00StatisticsOverallHomeAwayWin %100%100%100%AVG5.256.254.25Scored4.635.753.50Conceded0.630.500.75BTTS50%50%50%CS50%50%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 2.21 | 0.87 | +1.34 | 4.63 | 0.63 | +2.42 |
+| 9 | Italy National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWWLWD2.20HomeWWWLW2.40AwayLWWWD2.00StatisticsOverallHomeAwayWin %70%80%60%AVG3.703.404.00Scored2.402.602.20Conceded1.300.801.80BTTS40%20%60%CS50%80%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 2.18 | 1.22 | +0.96 | 2.40 | 1.30 | +0.22 |
+| 10 | Netherlands National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWDW2.50HomeWDWW2.50AwayWWWD2.50StatisticsOverallHomeAwayWin %75%75%75%AVG3.884.503.25Scored3.384.252.50Conceded0.500.250.75BTTS38%25%50%CS63%75%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 2.07 | 0.75 | +1.32 | 3.38 | 0.50 | +1.31 |
+| 11 | Germany National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWWW2.50HomeWWW3.00AwayLWW2.00StatisticsOverallHomeAwayWin %83%100%67%AVG3.174.671.67Scored2.674.331.00Conceded0.500.330.67BTTS17%33%0%CS67%67%67%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 2.01 | 0.72 | +1.29 | 2.67 | 0.50 | +0.66 |
+| 12 | Wales National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWLWWD1.89HomeWWLWD2.00AwayDLWW1.75StatisticsOverallHomeAwayWin %56%60%50%AVG3.784.602.75Scored2.443.201.50Conceded1.331.401.25BTTS67%80%50%CS33%20%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 9 | 1.95 | 1.02 | +0.93 | 2.44 | 1.33 | +0.49 |
+| 13 | Czech Republic National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallDLWDD1.80HomeWDWDD2.00AwayWLWL1.50StatisticsOverallHomeAwayWin %50%50%50%AVG3.403.173.75Scored2.202.332.00Conceded1.200.831.75BTTS50%50%50%CS50%50%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.89 | 1.16 | +0.73 | 2.20 | 1.20 | +0.31 |
+| 14 | Poland National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWDWWL2.00HomeWWWDW2.60AwayLDWWL1.40StatisticsOverallHomeAwayWin %60%80%40%AVG2.902.403.40Scored1.801.801.80Conceded1.100.601.60BTTS70%60%80%CS30%40%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.85 | 1.15 | +0.70 | 1.80 | 1.10 | -0.05 |
+| 15 | Austria National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWLWD2.38HomeWWWD2.50AwayWWLW2.25StatisticsOverallHomeAwayWin %75%75%75%AVG3.254.002.50Scored2.753.502.00Conceded0.500.500.50BTTS38%50%25%CS50%50%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.76 | 0.93 | +0.83 | 2.75 | 0.50 | +0.99 |
+| 16 | Greece National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLLLWD1.17HomeWLW2.00AwayLLD0.33StatisticsOverallHomeAwayWin %33%67%0%AVG3.674.672.67Scored1.672.670.67Conceded2.002.002.00BTTS67%67%67%CS17%0%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.73 | 1.30 | +0.43 | 1.67 | 2.00 | -0.06 |
+| 17 | Israel National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallWLLLW1.50HomeWLLW1.50AwayWWLL1.50StatisticsOverallHomeAwayWin %50%50%50%AVG4.885.754.00Scored2.383.001.75Conceded2.502.752.25BTTS63%100%25%CS13%0%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.73 | 1.47 | +0.26 | 2.38 | 2.50 | +0.65 |
+| 18 | Bosnia Herzegovina National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallDWDDD1.90HomeWWLWD2.00AwayWWDDD1.80StatisticsOverallHomeAwayWin %50%60%40%AVG2.802.603.00Scored1.901.602.20Conceded0.901.000.80BTTS70%80%60%CS30%20%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 10 | 1.72 | 1.19 | +0.53 | 1.90 | 0.90 | +0.18 |
+| 19 | Montenegro National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLLWL1.13HomeWWLL1.50AwayLLLW0.75StatisticsOverallHomeAwayWin %38%50%25%AVG3.133.003.25Scored1.001.500.50Conceded2.131.502.75BTTS38%50%25%CS13%25%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.60 | 1.64 | -0.04 | 1.00 | 2.13 | -0.60 |
+| 20 | Serbia National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLLWLW1.63HomeWLLW1.50AwayDWWL1.75StatisticsOverallHomeAwayWin %50%50%50%AVG2.383.001.75Scored1.131.251.00Conceded1.251.750.75BTTS25%25%25%CS38%25%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.58 | 1.18 | +0.40 | 1.13 | 1.25 | -0.45 |
+| 21 | Cyprus National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLDDWL1.00HomeWDDL1.25AwayLLLW0.75StatisticsOverallHomeAwayWin %25%25%25%AVG2.753.002.50Scored1.381.501.25Conceded1.381.501.25BTTS38%50%25%CS25%25%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.57 | 1.31 | +0.26 | 1.38 | 1.38 | -0.19 |
+| 22 | Romania National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallDWLWL1.44HomeLWWW2.25AwayWLDLL0.80StatisticsOverallHomeAwayWin %44%75%20%AVG3.333.003.60Scored2.112.501.80Conceded1.220.501.80BTTS56%25%80%CS22%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 9 | 1.52 | 1.06 | +0.46 | 2.11 | 1.22 | +0.59 |
+| 23 | Turkey National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWWDWW2.38HomeLWWW2.25AwayWWDW2.50StatisticsOverallHomeAwayWin %75%75%75%AVG3.883.504.25Scored2.381.753.00Conceded1.501.751.25BTTS50%25%75%CS38%50%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.51 | 1.40 | +0.11 | 2.38 | 1.50 | +0.87 |
+| 24 | Switzerland National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWDWD2.33HomeWWW3.00AwayWDD1.67StatisticsOverallHomeAwayWin %67%100%33%AVG2.674.001.33Scored2.333.671.00Conceded0.330.330.33BTTS33%33%33%CS67%67%67%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.46 | 0.76 | +0.70 | 2.33 | 0.33 | +0.87 |
+| 25 | Hungary National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLWDWL1.33HomeLWL1.00AwayDDW1.67StatisticsOverallHomeAwayWin %33%33%33%AVG3.504.003.00Scored1.832.001.67Conceded1.672.001.33BTTS67%67%67%CS33%33%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.43 | 1.63 | -0.20 | 1.83 | 1.67 | +0.40 |
+| 26 | Kazakhstan National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLWDD1.00HomeLLWD1.00AwayLWLD1.00StatisticsOverallHomeAwayWin %25%25%25%AVG2.752.003.50Scored1.131.251.00Conceded1.630.752.50BTTS38%25%50%CS25%25%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.42 | 1.77 | -0.35 | 1.13 | 1.63 | -0.29 |
+| 27 | Republic of Ireland National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallLWWWD1.57HomeDWW2.33AwayLLWD1.00StatisticsOverallHomeAwayWin %43%67%25%AVG2.862.333.25Scored1.571.671.50Conceded1.290.671.75BTTS57%33%75%CS29%67%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 7 | 1.41 | 1.83 | -0.42 | 1.57 | 1.29 | +0.16 |
+| 28 | Scotland National TeamWC Qualification Europe (Div. -1)League Pos. 1 / 54International FormLast 5PPGOverallWWWLW2.17HomeWWW3.00AwayDWL1.33StatisticsOverallHomeAwayWin %67%100%33%AVG3.334.332.33Scored2.173.001.33Conceded1.171.331.00BTTS67%100%33%CS33%0%67%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.32 | 1.66 | -0.34 | 2.17 | 1.17 | +0.85 |
+| 29 | Ukraine National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWWLWL1.43HomeLWWL1.50AwayDWL1.33StatisticsOverallHomeAwayWin %43%50%33%AVG3.572.754.67Scored1.571.252.00Conceded2.001.502.67BTTS57%50%67%CS14%25%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 7 | 1.31 | 1.37 | -0.06 | 1.57 | 2.00 | +0.26 |
+| 30 | Georgia National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallWLLLL0.50HomeLWL1.00AwayLLL0.00StatisticsOverallHomeAwayWin %17%33%0%AVG3.674.003.33Scored1.171.670.67Conceded2.502.332.67BTTS50%33%67%CS17%33%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.28 | 1.29 | -0.01 | 1.17 | 2.50 | -0.11 |
+| 31 | Iceland National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLLDWL1.17HomeWLD1.33AwayLWL1.00StatisticsOverallHomeAwayWin %33%33%33%AVG4.005.672.33Scored2.173.331.00Conceded1.832.331.33BTTS50%67%33%CS33%33%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.24 | 1.45 | -0.21 | 2.17 | 1.83 | +0.93 |
+| 32 | Slovakia National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallLWWLL1.71HomeWWWL2.25AwayWLL1.00StatisticsOverallHomeAwayWin %57%75%33%AVG3.003.003.00Scored1.292.000.33Conceded1.711.002.67BTTS14%25%0%CS57%75%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 7 | 1.20 | 1.41 | -0.21 | 1.29 | 1.71 | +0.09 |
+| 33 | Sweden National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLDWW1.00HomeLLDW1.00AwayDLLW1.00StatisticsOverallHomeAwayWin %25%25%25%AVG3.132.503.75Scored1.251.001.50Conceded1.881.502.25BTTS63%50%75%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.18 | 1.41 | -0.23 | 1.25 | 1.88 | +0.07 |
+| 34 | FYR Macedonia National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallWDDLL1.44HomeDDWD1.50AwayWWDLL1.40StatisticsOverallHomeAwayWin %33%25%40%AVG3.002.753.20Scored1.442.001.00Conceded1.560.752.20BTTS44%75%20%CS44%25%60%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 9 | 1.14 | 1.62 | -0.48 | 1.44 | 1.56 | +0.30 |
+| 35 | Albania National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWWWLL1.56HomeWDWL1.75AwayLDWWL1.40StatisticsOverallHomeAwayWin %44%50%40%AVG1.671.501.80Scored0.891.000.80Conceded0.780.501.00BTTS22%0%40%CS56%75%40%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 9 | 1.12 | 1.15 | -0.03 | 0.89 | 0.78 | -0.23 |
+| 36 | Kosovo National TeamWC Qualification Europe (Div. -1)League Pos. 2 / 54International FormLast 5PPGOverallWWDWL1.75HomeWDDL1.25AwayLWWW2.25StatisticsOverallHomeAwayWin %50%25%75%AVG2.381.253.50Scored1.250.751.75Conceded1.130.501.75BTTS25%25%25%CS50%50%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.08 | 1.40 | -0.32 | 1.25 | 1.13 | +0.17 |
+| 37 | Moldova National TeamWC Qualification Europe (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallLLDLL0.13HomeLLLL0.00AwayLLDL0.25StatisticsOverallHomeAwayWin %0%0%0%AVG4.634.005.25Scored0.630.500.75Conceded4.003.504.50BTTS50%25%75%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.06 | 2.55 | -1.49 | 0.63 | 4.00 | -0.43 |
+| 38 | Northern Ireland National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallWLLWL1.29HomeWLW2.00AwayWLLL0.75StatisticsOverallHomeAwayWin %43%67%25%AVG2.141.332.75Scored1.001.001.00Conceded1.140.331.75BTTS29%0%50%CS29%67%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 7 | 1.04 | 1.33 | -0.29 | 1.00 | 1.14 | -0.04 |
+| 39 | Belarus National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLLDD0.33HomeLLD0.33AwayLLD0.33StatisticsOverallHomeAwayWin %0%0%0%AVG3.502.674.33Scored0.670.001.33Conceded2.832.673.00BTTS50%0%100%CS17%33%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 1.03 | 2.39 | -1.36 | 0.67 | 2.83 | -0.36 |
+| 40 | Malta National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLDLWL0.63HomeLDLL0.25AwayLLDW1.00StatisticsOverallHomeAwayWin %13%0%25%AVG2.882.503.25Scored0.500.500.50Conceded2.382.002.75BTTS25%25%25%CS25%25%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.01 | 1.97 | -0.96 | 0.50 | 2.38 | -0.51 |
+| 41 | Lithuania National TeamWC Qualification Europe (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallDLLLL0.38HomeDDLL0.50AwayLDLL0.25StatisticsOverallHomeAwayWin %0%0%0%AVG2.633.252.00Scored0.751.250.25Conceded1.882.001.75BTTS50%75%25%CS13%0%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 0.97 | 1.66 | -0.69 | 0.75 | 1.88 | -0.22 |
+| 42 | Slovenia National TeamWC Qualification Europe (Div. -1)League Pos. 3 / 54International FormLast 5PPGOverallLDDLD0.67HomeDDL0.67AwayLDD0.67StatisticsOverallHomeAwayWin %0%0%0%AVG1.832.001.67Scored0.500.670.33Conceded1.331.331.33BTTS33%33%33%CS33%33%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.94 | 1.24 | -0.30 | 0.50 | 1.33 | -0.44 |
+| 43 | Luxembourg National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLLLL0.00HomeLLL0.00AwayLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.332.332.33Scored0.170.330.00Conceded2.172.002.33BTTS17%33%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.87 | 1.61 | -0.74 | 0.17 | 2.17 | -0.70 |
+| 44 | Armenia National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallWLLLL0.50HomeLWL1.00AwayLLL0.00StatisticsOverallHomeAwayWin %17%33%0%AVG3.673.004.33Scored0.500.670.33Conceded3.172.334.00BTTS33%33%33%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.84 | 2.10 | -1.26 | 0.50 | 3.17 | -0.34 |
+| 45 | Latvia National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLDLL0.63HomeDLDL0.50AwayWLLL0.75StatisticsOverallHomeAwayWin %13%0%25%AVG2.503.002.00Scored0.630.750.50Conceded1.882.251.50BTTS38%50%25%CS13%0%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 0.80 | 1.87 | -1.07 | 0.63 | 1.88 | -0.17 |
+| 46 | Bulgaria National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallLLLLW0.50HomeLLW1.00AwayLLL0.00StatisticsOverallHomeAwayWin %17%33%0%AVG3.674.333.00Scored0.501.000.00Conceded3.173.333.00BTTS33%67%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.52 | 2.48 | -1.96 | 0.50 | 3.17 | -0.02 |
+| 47 | Azerbaijan National TeamWC Qualification Europe (Div. -1)League Pos. 4 / 54International FormLast 5PPGOverallDLLLL0.17HomeDLL0.33AwayLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.172.673.67Scored0.500.670.33Conceded2.672.003.33BTTS50%67%33%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.46 | 2.21 | -1.75 | 0.50 | 2.67 | +0.04 |
+| 48 | San Marino National TeamWC Qualification Europe (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallLLLLL0.00HomeLLLL0.00AwayLLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG5.135.005.25Scored0.250.250.25Conceded4.884.755.00BTTS25%25%25%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 0.45 | 2.61 | -2.16 | 0.25 | 4.88 | -0.20 |
+| 49 | Gibraltar National TeamWC Qualification Europe (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallLLLLL0.00HomeLLLL0.00AwayLLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.883.754.00Scored0.380.250.50Conceded3.503.503.50BTTS38%25%50%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 0.41 | 2.72 | -2.31 | 0.38 | 3.50 | -0.03 |
+| 50 | Liechtenstein National TeamWC Qualification Europe (Div. -1)League Pos. 5 / 54International FormLast 5PPGOverallLLLLL0.00HomeLLLL0.00AwayLLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.883.004.75Scored0.000.000.00Conceded3.883.004.75BTTS0%0%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 0.30 | 2.54 | -2.24 | 0.00 | 3.88 | -0.30 |
+
+This table describes the xG per match of each team in the WC Qualification Europe.xG = Expected Goals to be scored.xGA = Expected Goals to be conceded.xG vs Actual measures the team's actual goals scored against the expected goals scored. A negative number is bad since the team is scoring less than expected. A positive number means the team is scoring more than expected.
+
+For Expected Points data, go to WC Qualification Europe Expected Points Table.
+
+## Players with the Most xG
+
+| # | Player | xG Total | Goals | xG / 90' | Shots | Position | Apps |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Erling Haaland | 12.98 | 16 | 1.65 | 36 | FW | 8 |
+| 2 | Harry Kane | 7.39 | 8 | 0.98 | 29 | FW | 8 |
+| 3 | Marko Arnautović | 6.54 | 8 | 1.38 | 16 | FW | 7 |
+| 4 | Memphis Depay | 6.38 | 8 | 1.06 | 23 | FW | 8 |
+| 5 | Edin Džeko | 5.63 | 6 | 0.71 | 28 | FW | 9 |
+| 6 | Andrej Kramarić | 5.49 | 6 | 0.95 | 21 | MF | 8 |
+| 7 | Mikel Oyarzabal | 5.42 | 6 | 1.09 | 19 | FW | 6 |
+| 8 | Cristiano Ronaldo | 5.39 | 5 | 1.3 | 31 | FW | 5 |
+| 9 | Kylian Mbappé | 5.33 | 5 | 1.36 | 29 | FW | 4 |
+| 10 | Mateo Retegui | 5.3 | 5 | 0.67 | 30 | FW | 10 |
+| 11 | Kevin De Bruyne | 5.27 | 6 | 0.94 | 20 | MF | 6 |
+| 12 | Mikel Merino | 5.18 | 6 | 1 | 22 | MF | 6 |
+| 13 | Moise Kean | 5.11 | 6 | 1.36 | 19 | FW | 5 |
+| 14 | Patrik Schick | 5.01 | 5 | 0.67 | 23 | FW | 8 |
+| 15 | Alexander Sørloth | 4.98 | 5 | 0.76 | 24 | FW | 8 |
+| 16 | Rasmus Højlund | 4.79 | 5 | 0.91 | 23 | FW | 7 |
+| 17 | Jeremy Doku | 4.78 | 5 | 0.67 | 22 | FW | 8 |
+| 18 | Robert Lewandowski | 4.45 | 5 | 0.58 | 21 | FW | 9 |
+| 19 | Troy Parrott | 4.39 | 6 | 1.25 | 10 | FW | 5 |
+| 20 | Harry Wilson | 4.33 | 5 | 0.7 | 17 | FW | 6 |
+| 21 | Marcel Sabitzer | 4.32 | 3 | 0.55 | 23 | MF | 8 |
+| 22 | Ivan Perišić | 4.13 | 4 | 0.65 | 19 | FW | 8 |
+| 23 | Nikola Krstović | 4.1 | 2 | 0.52 | 36 | FW | 8 |
+| 24 | Christos Tzolis | 3.91 | 3 | 0.66 | 22 | FW | 6 |
+| 25 | Barnabás Varga | 3.89 | 5 | 0.8 | 13 | FW | 5 |
+
+This is the list of the players with the highest xGs in the WC Qualification Europe. List can include players from all positions. For more shots data, go to Shots data for WC Qualification Europe page.
+
+## xG Overall (Per Match)
+
+Previous Next
+
+#1
+
+Czech Republic National Team
+
+1.89xG
+
+#2
+
+1.76xG
+
+#3
+
+1.60xG
+
+#4
+
+1.58xG
+
+#5
+
+1.46xG
+
+#6
+
+1.28xG
+
+#7
+
+FYR Macedonia National Team
+
+1.14xG
+
+#8
+
+1.03xG
+
+#9
+
+0.87xG
+
+#10
+
+San Marino National Team
+
+0.45xG
+
+#11
+
+2.84xG
+
+#12
+
+2.74xG
+
+#13
+
+2.21xG
+
+#14
+
+1.85xG
+
+#15
+
+1.52xG
+
+#16
+
+2.01xG
+
+#17
+
+1.31xG
+
+#18
+
+1.18xG
+
+#19
+
+1.06xG
+
+#20
+
+Northern Ireland National Team
+
+1.04xG
+
+#21
+
+0.80xG
+
+#22
+
+0.30xG
+
+#23
+
+0.94xG
+
+#24
+
+2.38xG
+
+#25
+
+1.73xG
+
+#26
+
+1.73xG
+
+#27
+
+1.57xG
+
+#28
+
+1.43xG
+
+#29
+
+Republic of Ireland National Team
+
+1.41xG
+
+#30
+
+0.84xG
+
+#31
+
+2.18xG
+
+#32
+
+1.12xG
+
+#33
+
+2.57xG
+
+#34
+
+1.95xG
+
+#35
+
+2.54xG
+
+#36
+
+2.07xG
+
+#37
+
+1.20xG
+
+#38
+
+0.46xG
+
+#39
+
+0.41xG
+
+#40
+
+2.56xG
+
+#41
+
+2.32xG
+
+#42
+
+Bosnia Herzegovina National Team
+
+1.72xG
+
+#43
+
+1.01xG
+
+#44
+
+0.52xG
+
+#45
+
+1.51xG
+
+#46
+
+1.08xG
+
+#47
+
+0.97xG
+
+#48
+
+1.32xG
+
+#49
+
+1.42xG
+
+#50
+
+1.24xG
+
+## xG Home
+
+Previous Next
+
+#1
+
+2.06xG
+
+#2
+
+1.99xG
+
+#3
+
+Czech Republic National Team
+
+1.69xG
+
+#4
+
+1.95xG
+
+#5
+
+1.75xG
+
+#6
+
+1.68xG
+
+#7
+
+Republic of Ireland National Team
+
+1.96xG
+
+#8
+
+FYR Macedonia National Team
+
+1.47xG
+
+#9
+
+3.08xG
+
+#10
+
+1.43xG
+
+#11
+
+2.99xG
+
+#12
+
+2.49xG
+
+#13
+
+2.20xG
+
+#14
+
+2.03xG
+
+#15
+
+1.92xG
+
+#16
+
+2.24xG
+
+#17
+
+1.52xG
+
+#18
+
+Northern Ireland National Team
+
+1.20xG
+
+#19
+
+1.18xG
+
+#20
+
+1.10xG
+
+#21
+
+0.86xG
+
+#22
+
+0.77xG
+
+#23
+
+0.32xG
+
+#24
+
+2.18xG
+
+#25
+
+1.41xG
+
+#26
+
+1.40xG
+
+#27
+
+2.46xG
+
+#28
+
+2.95xG
+
+#29
+
+2.26xG
+
+#30
+
+2.09xG
+
+#31
+
+1.55xG
+
+#32
+
+1.31xG
+
+#33
+
+0.55xG
+
+#34
+
+San Marino National Team
+
+0.45xG
+
+#35
+
+2.94xG
+
+#36
+
+2.90xG
+
+#37
+
+2.36xG
+
+#38
+
+0.41xG
+
+#39
+
+Bosnia Herzegovina National Team
+
+2.03xG
+
+#40
+
+1.61xG
+
+#41
+
+1.60xG
+
+#42
+
+1.16xG
+
+#43
+
+0.43xG
+
+#44
+
+1.08xG
+
+#45
+
+0.72xG
+
+#46
+
+1.07xG
+
+#47
+
+1.16xG
+
+#48
+
+1.05xG
+
+#49
+
+1.24xG
+
+#50
+
+0.97xG
+
+## xG Away
+
+Previous Next
+
+#1
+
+Czech Republic National Team
+
+2.19xG
+
+#2
+
+1.56xG
+
+#3
+
+1.39xG
+
+#4
+
+1.48xG
+
+#5
+
+1.47xG
+
+#6
+
+1.15xG
+
+#7
+
+1.48xG
+
+#8
+
+2.60xG
+
+#9
+
+2.52xG
+
+#10
+
+2.48xG
+
+#11
+
+2.22xG
+
+#12
+
+1.67xG
+
+#13
+
+1.52xG
+
+#14
+
+1.48xG
+
+#15
+
+1.21xG
+
+#16
+
+1.19xG
+
+#17
+
+1.04xG
+
+#18
+
+1.02xG
+
+#19
+
+1.88xG
+
+#20
+
+Republic of Ireland National Team
+
+0.99xG
+
+#21
+
+2.20xG
+
+#22
+
+1.77xG
+
+#23
+
+FYR Macedonia National Team
+
+0.89xG
+
+#24
+
+Northern Ireland National Team
+
+0.91xG
+
+#25
+
+1.89xG
+
+#26
+
+1.28xG
+
+#27
+
+1.14xG
+
+#28
+
+0.97xG
+
+#29
+
+0.74xG
+
+#30
+
+0.36xG
+
+#31
+
+0.27xG
+
+#32
+
+San Marino National Team
+
+0.45xG
+
+#33
+
+2.13xG
+
+#34
+
+2.21xG
+
+#35
+
+2.28xG
+
+#36
+
+1.48xG
+
+#37
+
+1.41xG
+
+#38
+
+Bosnia Herzegovina National Team
+
+1.41xG
+
+#39
+
+1.33xG
+
+#40
+
+1.24xG
+
+#41
+
+1.11xG
+
+#42
+
+1.08xG
+
+#43
+
+0.87xG
+
+#44
+
+0.86xG
+
+#45
+
+0.63xG
+
+#46
+
+0.61xG
+
+#47
+
+0.40xG
+
+#48
+
+1.25xG
+
+#49
+
+0.77xG
+
+#50
+
+0.75xG
+
+## xGA Overall (Per Match)
+
+Previous Next
+
+#1
+
+1.64xGA
+
+#2
+
+1.63xGA
+
+#3
+
+1.31xGA
+
+#4
+
+1.30xGA
+
+#5
+
+1.18xGA
+
+#6
+
+0.89xGA
+
+#7
+
+0.43xGA
+
+#8
+
+0.71xGA
+
+#9
+
+2.55xGA
+
+#10
+
+1.37xGA
+
+#11
+
+1.15xGA
+
+#12
+
+1.06xGA
+
+#13
+
+1.41xGA
+
+#14
+
+0.93xGA
+
+#15
+
+Republic of Ireland National Team
+
+1.83xGA
+
+#16
+
+0.87xGA
+
+#17
+
+0.76xGA
+
+#18
+
+0.75xGA
+
+#19
+
+FYR Macedonia National Team
+
+1.62xGA
+
+#20
+
+0.72xGA
+
+#21
+
+0.70xGA
+
+#22
+
+1.02xGA
+
+#23
+
+Northern Ireland National Team
+
+1.33xGA
+
+#24
+
+1.61xGA
+
+#25
+
+1.22xGA
+
+#26
+
+1.47xGA
+
+#27
+
+2.54xGA
+
+#28
+
+2.21xGA
+
+#29
+
+San Marino National Team
+
+2.61xGA
+
+#30
+
+1.41xGA
+
+#31
+
+1.45xGA
+
+#32
+
+1.29xGA
+
+#33
+
+2.48xGA
+
+#34
+
+2.72xGA
+
+#35
+
+1.97xGA
+
+#36
+
+2.10xGA
+
+#37
+
+1.77xGA
+
+#38
+
+1.66xGA
+
+#39
+
+1.15xGA
+
+#40
+
+2.39xGA
+
+#41
+
+1.66xGA
+
+#42
+
+1.40xGA
+
+#43
+
+1.40xGA
+
+#44
+
+Bosnia Herzegovina National Team
+
+1.19xGA
+
+#45
+
+1.24xGA
+
+#46
+
+0.92xGA
+
+#47
+
+0.78xGA
+
+#48
+
+0.48xGA
+
+#49
+
+1.87xGA
+
+#50
+
+Czech Republic National Team
+
+1.16xGA
+
+## xGA Home
+
+Previous Next
+
+#1
+
+1.52xGA
+
+#2
+
+1.47xGA
+
+#3
+
+1.36xGA
+
+#4
+
+2.23xGA
+
+#5
+
+1.24xGA
+
+#6
+
+Republic of Ireland National Team
+
+1.54xGA
+
+#7
+
+1.54xGA
+
+#8
+
+2.26xGA
+
+#9
+
+1.22xGA
+
+#10
+
+1.57xGA
+
+#11
+
+FYR Macedonia National Team
+
+1.29xGA
+
+#12
+
+Northern Ireland National Team
+
+1.12xGA
+
+#13
+
+1.31xGA
+
+#14
+
+1.20xGA
+
+#15
+
+1.00xGA
+
+#16
+
+0.97xGA
+
+#17
+
+0.94xGA
+
+#18
+
+0.71xGA
+
+#19
+
+0.69xGA
+
+#20
+
+0.66xGA
+
+#21
+
+0.64xGA
+
+#22
+
+0.51xGA
+
+#23
+
+0.40xGA
+
+#24
+
+1.14xGA
+
+#25
+
+0.60xGA
+
+#26
+
+1.87xGA
+
+#27
+
+2.69xGA
+
+#28
+
+San Marino National Team
+
+2.47xGA
+
+#29
+
+2.44xGA
+
+#30
+
+1.54xGA
+
+#31
+
+1.32xGA
+
+#32
+
+1.14xGA
+
+#33
+
+1.07xGA
+
+#34
+
+1.79xGA
+
+#35
+
+1.47xGA
+
+#36
+
+1.59xGA
+
+#37
+
+1.98xGA
+
+#38
+
+1.75xGA
+
+#39
+
+1.43xGA
+
+#40
+
+1.29xGA
+
+#41
+
+1.26xGA
+
+#42
+
+Bosnia Herzegovina National Team
+
+0.98xGA
+
+#43
+
+0.97xGA
+
+#44
+
+0.95xGA
+
+#45
+
+0.35xGA
+
+#46
+
+0.66xGA
+
+#47
+
+0.36xGA
+
+#48
+
+1.79xGA
+
+#49
+
+Czech Republic National Team
+
+1.03xGA
+
+#50
+
+0.89xGA
+
+## xGA Away
+
+Previous Next
+
+#1
+
+2.84xGA
+
+#2
+
+1.91xGA
+
+#3
+
+2.56xGA
+
+#4
+
+1.42xGA
+
+#5
+
+2.84xGA
+
+#6
+
+1.80xGA
+
+#7
+
+San Marino National Team
+
+2.76xGA
+
+#8
+
+1.38xGA
+
+#9
+
+Republic of Ireland National Team
+
+2.06xGA
+
+#10
+
+1.91xGA
+
+#11
+
+FYR Macedonia National Team
+
+1.87xGA
+
+#12
+
+1.59xGA
+
+#13
+
+Northern Ireland National Team
+
+1.49xGA
+
+#14
+
+1.34xGA
+
+#15
+
+2.41xGA
+
+#16
+
+1.14xGA
+
+#17
+
+1.50xGA
+
+#18
+
+1.30xGA
+
+#19
+
+1.06xGA
+
+#20
+
+1.26xGA
+
+#21
+
+1.05xGA
+
+#22
+
+1.03xGA
+
+#23
+
+1.14xGA
+
+#24
+
+2.40xGA
+
+#25
+
+0.92xGA
+
+#26
+
+0.84xGA
+
+#27
+
+0.80xGA
+
+#28
+
+0.74xGA
+
+#29
+
+2.75xGA
+
+#30
+
+2.51xGA
+
+#31
+
+2.06xGA
+
+#32
+
+1.76xGA
+
+#33
+
+1.73xGA
+
+#34
+
+1.57xGA
+
+#35
+
+1.50xGA
+
+#36
+
+2.80xGA
+
+#37
+
+1.95xGA
+
+#38
+
+1.57xGA
+
+#39
+
+1.54xGA
+
+#40
+
+1.51xGA
+
+#41
+
+Bosnia Herzegovina National Team
+
+1.41xGA
+
+#42
+
+1.30xGA
+
+#43
+
+1.05xGA
+
+#44
+
+0.90xGA
+
+#45
+
+0.87xGA
+
+#46
+
+0.61xGA
+
+#47
+
+0.50xGA
+
+#48
+
+Czech Republic National Team
+
+1.36xGA
+
+#49
+
+0.88xGA
+
+#50
+
+0.78xGA
+
+Fixture
+
+Home XG
+
+Away XG
+
+AVG Goals
+
+- XG: Upcoming Fixtures
+
+Fixture
+
+Home XG
+
+Away XG
+
+Final Goals
+
+Bosnia and Herzegovina vs Italy
+
+3.38
+
+1.02
+
+2
+
+1.15
+
+1.82
+
+5
+
+1.17
+
+1.27
+
+1
+
+Czech Republic vs Denmark
+
+1.16
+
+2.63
+
+4
+
+Czech Republic vs Republic of Ireland
+
+1.35
+
+1.34
+
+4
+
+Denmark vs FYR Macedonia
+
+2.45
+
+0.36
+
+4
+
+Italy vs Northern Ireland
+
+2.17
+
+0.85
+
+2
+
+1.28
+
+1.11
+
+4
+
+1.59
+
+0.91
+
+3
+
+2.27
+
+1.13
+
+7
+
+Wales vs Bosnia and Herzegovina
+
+2.05
+
+1.61
+
+2
+
+1.71
+
+0.56
+
+1
+
+0.48
+
+1.96
+
+3
+
+1.17
+
+1.91
+
+6
+
+2.61
+
+1.46
+
+4
+
+- XG: Recent Results
+
+## xG (Expected Goals) By Teams in WC Qualification Europe
+
+---
+
+### Which Team Has The Best xG?
+
+Currently, Czech Republic National Team has the best xG (Expected Goals For) in the WC Qualification Europe with 1.89 xG per game.
+
+### Which Team Has The Worst xG?
+
+Currently, Iceland National Team has the worst xG (Expected Goals For) in the WC Qualification Europe with 1.24 xG per game.
+
+### Who Has The Best xG at Home?
+
+The team with the best xG when playing at home this season is Montenegro National Team, who has an xG of 2.06 from their home games thus far.
+
+### Who Has The Worst xG at Home?
+
+The team with the worst xG when playing at home this season is Luxembourg National Team, who is expected to score just 0.97 goals per game in front of their own fans.
+
+### Who Has The Best xG Away From Home?
+
+The team with the best xG whilst on the road this season is Czech Republic National Team, who is expected to score 2.19 goals per game in their opponents stadium.
+
+### Who Has The Worst xG Away From Home?
+
+The team with the worst xG whilst on the road this season is Latvia National Team, who is expected to score just 0.75 goals per game in their opponents stadium.
+
+### Who Has The Best xGA?
+
+Czech Republic National Team has the best xGA (Expected Goals Against) in the WC Qualification Europe with just 1.16 goals expected against them per game. Arguably, this stat could suggest they have the best defence in this competition.
+
+### Who Has The Best xGA at Home?
+
+Portugal National Team has the best xGA (Expected Goals Against) in the WC Qualification Europe when playing at home with just 0.89 goals expected against them per game. They are formidable when playing at home.
+
+### Who Has The Best xGA Away From Home?
+
+Spain National Team has the best xGA (Expected Goals Against) in the WC Qualification Europe when playing away from home with just 0.78 goals expected against them per game. Very frustrating for those home fans who must watch their team face Spain National Team.
+
+### Who Has The Worst xGA?
+
+Fans of Montenegro National Team will demand better defending in the future, with 1.64 xGA (Goals Expected Against). The worst of all teams in the WC Qualification Europe this season.
+
+### Who Has The Worst xGA at Home?
+
+The team with the worst xGA (Goals Expected Against) when playing at home this season is Israel National Team, who is expected to concede 1.52 goals per game in front of their own fans.
+
+### Who Has The Worst xGA Away From Home?
+
+The team with the worst xGA (Goals Expected Against) when playing away from home this season is Liechtenstein National Team, who is expected to concede 2.84 goals per game whilst on their travels.
+
+### How is the xG calculated for WC Qualification Europe?
+
+FootyStats uses a unique formula for calculating xG. Traditional xG only takes account of shot positions while FootyStats uses a combination of shot accuracy (on/off target), shot frequency (number of shots), attack dangerousness, overall attack pressure (posession amount and depth of posession) to summarize expected goals for WC Qualification Europe. The reason for using more data points to calculate xG is because many attacks can be extremely dangerous without a shot attempt, and using other data such as posession and depth of attack can increase the granularity of WC Qualification Europe's xG data.
+
+## xG (Expected Goals) - International
+
+WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Asia xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2014 Brazil xG (Expected Goals)- Cup or Playoff
+
+International Friendlies xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Africa xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2010 South Africa xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Championship xG (Expected Goals)- Cup or Playoff
+
+FIFA Confederations Cup xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Qualifiers xG (Expected Goals)- Cup or Playoff
+
+UEFA Nations League xG (Expected Goals)- Cup or Playoff
+
+WC Qualification South America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2006 Germany xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2002 Korea Japan xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2018 Russia xG (Expected Goals)- Cup or Playoff
+
+International Champions Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup xG (Expected Goals)- Cup or Playoff
+
+Copa America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup U20 xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Women's World Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U17 World Cup xG (Expected Goals)- Cup or Playoff
+
+Olympics xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Champions League xG (Expected Goals)- Cup or Playoff
+
+UEFA Womens Euro xG (Expected Goals)- Cup or Playoff
+
+Africa U20 Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+WC Qualification CONCACAF xG (Expected Goals)- Cup or Playoff
+
+Olympic Qualifying Concacaf xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U21 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+Olympics Women xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Concacaf xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Oceania xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+FIFA Arab Cup xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Nations League xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U19 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+International Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+AFC Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONMEBOL UEFA Cup of Champions xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2022 Qatar xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Championship U20 xG (Expected Goals)- Cup or Playoff
+
+CONCACAF League xG (Expected Goals)- Cup or Playoff
+
+Arab Club Champions Cup xG (Expected Goals)- Cup or Playoff
+
+Elite League U20 xG (Expected Goals)- Cup or Playoff
+
+CAF Super Cup xG (Expected Goals)- Cup or Playoff
+
+Gulf Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+SheBelieves Cup xG (Expected Goals)- Cup or Playoff
+
+Womens Olympic Qualifying CAF xG (Expected Goals)- Cup or Playoff
+
+UEFA CONMEBOL Club Challenge xG (Expected Goals)- Cup or Playoff
+
+Asian Games xG (Expected Goals)- Cup or Playoff
+
+Concacaf W Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Turkish Womens Cup xG (Expected Goals)- Cup or Playoff
+
+Sud Ladies Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Central American Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U20 Womens World Cup xG (Expected Goals)- Cup or Playoff
+
+Campeones Cup xG (Expected Goals)- Cup or Playoff
+
+African Football League xG (Expected Goals)- Cup or Playoff
+
+African Games Women xG (Expected Goals)- Cup or Playoff
+
+AFF Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Champions League xG (Expected Goals)- Cup or Playoff
+
+Club Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+Concacaf Championship Women U20 xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup Playin xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+EAFF E1 Football Championship xG (Expected Goals)- Cup or Playoff
+
+J League World Challenge xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Club Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Womens Nations Cup xG (Expected Goals)- Cup or Playoff
+
+World Cup xG (Expected Goals)- Cup or Playoff
+
+Loading
+
+Go Premium
+
+Close
+
+/
+
+https://cdn.footystats.org/
+
+- Starts in ### min'
+
+- Starts in ### Hr'
+
+Live'
+
+- Started'
+
+●Soon
+
+●Started
+
+no
+
+Get Profitable Predictions In Your Email!

@@ -1,0 +1,162 @@
+[
+  {
+    "national_team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_player": "Zaid ZAID TAHSEEN",
+    "roster_position": "DF",
+    "roster_club": "Pakhtakor Tashkent FK (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Utkir YUSUPOV",
+    "roster_position": "GK",
+    "roster_club": "PFC Navbahor Namangan (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Khojiakbar ALIJONOV",
+    "roster_position": "DF",
+    "roster_club": "Pakhtakor Tashkent FK (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Farrukh SAYFIEV",
+    "roster_position": "DF",
+    "roster_club": "FK Neftchi Farg'ona (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Akmal MOZGOVOY",
+    "roster_position": "MF",
+    "roster_club": "Pakhtakor Tashkent FK (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Jamshid ISKANDEROV",
+    "roster_position": "MF",
+    "roster_club": "FK Neftchi Farg'ona (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Abduvohid NEMATOV",
+    "roster_position": "GK",
+    "roster_club": "Nasaf Qarshi FC (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Sherzod NASRULLAEV",
+    "roster_position": "DF",
+    "roster_club": "Pakhtakor Tashkent FK (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Umar ESHMURODOV",
+    "roster_position": "DF",
+    "roster_club": "Nasaf Qarshi FC (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Botirali ERGASHEV",
+    "roster_position": "GK",
+    "roster_club": "FK Neftchi Farg'ona (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Dostonbek KHAMDAMOV",
+    "roster_position": "MF",
+    "roster_club": "Pakhtakor Tashkent FK (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Azizbek AMONOV",
+    "roster_position": "FW",
+    "roster_club": "FK Dinamo Samarkand (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Sherzod ESANOV",
+    "roster_position": "MF",
+    "roster_club": "FK Buxoro (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Behruzjon KARIMOV",
+    "roster_position": "DF",
+    "roster_club": "Surkhon FK (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Avazbek ULMASALIYEV",
+    "roster_position": "DF",
+    "roster_club": "OKMK FK (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Jakhongir UROZOV",
+    "roster_position": "DF",
+    "roster_club": "FK Dinamo Samarkand (UZB)",
+    "league": "Uzbekistan Super League",
+    "_tier": "try"
+  }
+]

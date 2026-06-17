@@ -1,0 +1,1424 @@
+﻿[
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Haiti",
+        "team_code":  "HAI",
+        "group":  "C",
+        "player":  "Duckens NAZON",
+        "position":  "FW",
+        "club":  "Esteghlal Tehran FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Amirmohammad RAZAGHINIA",
+        "position":  "MF",
+        "club":  "Esteghlal Tehran FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Roozbeh CHESHMI",
+        "position":  "MF",
+        "club":  "Esteghlal Tehran FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Saleh HARDANI",
+        "position":  "DF",
+        "club":  "Esteghlal Tehran FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Ali NEMATI",
+        "position":  "DF",
+        "club":  "Foolad Khuzestan FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Ramin REZAEIAN",
+        "position":  "DF",
+        "club":  "Foolad Khuzestan FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Danial IRI",
+        "position":  "DF",
+        "club":  "Malavan Anzali FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Ali ALIPOUR",
+        "position":  "FW",
+        "club":  "Persepolis FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Hossein KANANI",
+        "position":  "DF",
+        "club":  "Persepolis FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Milad MOHAMMADI",
+        "position":  "DF",
+        "club":  "Persepolis FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Payam NIAZMAND",
+        "position":  "GK",
+        "club":  "Persepolis FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Arya YOUSEFI",
+        "position":  "DF",
+        "club":  "Sepahan SC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Ehsan HAJISAFI",
+        "position":  "DF",
+        "club":  "Sepahan SC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Hossein HOSSEINI",
+        "position":  "GK",
+        "club":  "Sepahan SC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Alireza BEIRANVAND",
+        "position":  "GK",
+        "club":  "Tractor Sazi Tabriz FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Amirhossein HOSSEINZADEH",
+        "position":  "FW",
+        "club":  "Tractor Sazi Tabriz FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Mehdi TORABI",
+        "position":  "MF",
+        "club":  "Tractor Sazi Tabriz FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Iran",
+        "team_code":  "IRN",
+        "group":  "G",
+        "player":  "Shoja KHALILZADEH",
+        "position":  "DF",
+        "club":  "Tractor Sazi Tabriz FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Uzbekistan",
+        "team_code":  "UZB",
+        "group":  "K",
+        "player":  "Jaloliddin MASHARIPOV",
+        "position":  "MF",
+        "club":  "Esteghlal Tehran FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Uzbekistan",
+        "team_code":  "UZB",
+        "group":  "K",
+        "player":  "Rustam ASHURMATOV",
+        "position":  "DF",
+        "club":  "Esteghlal Tehran FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Uzbekistan",
+        "team_code":  "UZB",
+        "group":  "K",
+        "player":  "Igor SERGEEV",
+        "position":  "FW",
+        "club":  "Persepolis FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Uzbekistan",
+        "team_code":  "UZB",
+        "group":  "K",
+        "player":  "Oston URUNOV",
+        "position":  "MF",
+        "club":  "Persepolis FC (IRN)"
+    },
+    {
+        "target_league":  "Persian Gulf Pro League",
+        "team":  "Uzbekistan",
+        "team_code":  "UZB",
+        "group":  "K",
+        "player":  "Odiljon XAMROBEKOV",
+        "position":  "MF",
+        "club":  "Tractor Sazi Tabriz FC (IRN)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Brazil",
+        "team_code":  "BRA",
+        "group":  "C",
+        "player":  "Roger ROGER IBANEZ",
+        "position":  "DF",
+        "club":  "Al Ahli FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Brazil",
+        "team_code":  "BRA",
+        "group":  "C",
+        "player":  "Fabio FABINHO",
+        "position":  "MF",
+        "club":  "Al Ittihad (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Jurien GAARI",
+        "position":  "DF",
+        "club":  "Abha Club (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Egypt",
+        "team_code":  "EGY",
+        "group":  "G",
+        "player":  "Nabil NABIL DONGA",
+        "position":  "MF",
+        "club":  "Al Najmah SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "England",
+        "team_code":  "ENG",
+        "group":  "L",
+        "player":  "Ivan TONEY",
+        "position":  "FW",
+        "club":  "Al Ahli FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Ghana",
+        "team_code":  "GHA",
+        "group":  "L",
+        "player":  "Christopher BAAH",
+        "position":  "FW",
+        "club":  "Al Qadsiah FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Ivory Coast",
+        "team_code":  "CIV",
+        "group":  "E",
+        "player":  "Franck KESSIE",
+        "position":  "MF",
+        "club":  "Al Ahli FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Jordan",
+        "team_code":  "JOR",
+        "group":  "J",
+        "player":  "Ali ALI AZAIZEH",
+        "position":  "FW",
+        "club":  "Al Shabab FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Mexico",
+        "team_code":  "MEX",
+        "group":  "A",
+        "player":  "Julian QUINONES",
+        "position":  "FW",
+        "club":  "Al Qadsiah FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Morocco",
+        "team_code":  "MAR",
+        "group":  "C",
+        "player":  "Yassine BOUNOU",
+        "position":  "GK",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Panama",
+        "team_code":  "PAN",
+        "group":  "L",
+        "player":  "Orlando MOSQUERA",
+        "position":  "GK",
+        "club":  "Al Fayha FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Portugal",
+        "team_code":  "POR",
+        "group":  "K",
+        "player":  "Rúben RUBEN NEVES",
+        "position":  "MF",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Portugal",
+        "team_code":  "POR",
+        "group":  "K",
+        "player":  "Cristiano CRISTIANO RONALDO",
+        "position":  "FW",
+        "club":  "Al Nassr FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Ali ALI MAJRASHI",
+        "position":  "DF",
+        "club":  "Al Ahli FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Feras FERAS ALBRIKAN",
+        "position":  "FW",
+        "club":  "Al Ahli FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Ziyad ZIYAD ALJOHANI",
+        "position":  "MF",
+        "club":  "Al Ahli FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Khalid KHALID ALGHANNAM",
+        "position":  "FW",
+        "club":  "Al Ettifaq FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Ali ALI LAJAMI",
+        "position":  "DF",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Hassan HASSAN ALTAMBAKTI",
+        "position":  "DF",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Mohamed MOHAMED KANNO",
+        "position":  "MF",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Moteb MOTEB ALHARBI",
+        "position":  "DF",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Nasser NASSER ALDAWSARI",
+        "position":  "MF",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Salem SALEM ALDAWSARI",
+        "position":  "FW",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Sultan SULTAN MANDASH",
+        "position":  "FW",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Hassan HASSAN KADISH",
+        "position":  "DF",
+        "club":  "Al Ittihad (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Saleh SALEH ALSHEHRI",
+        "position":  "FW",
+        "club":  "Al Ittihad (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Abdulelah ABDULELAH ALAMRI",
+        "position":  "DF",
+        "club":  "Al Nassr FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Abdullah ABDULLAH ALHAMDDAN",
+        "position":  "FW",
+        "club":  "Al Nassr FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Abdullah ABDULLAH ALKHAIBARI",
+        "position":  "MF",
+        "club":  "Al Nassr FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Aiman AIMAN YAHYA",
+        "position":  "FW",
+        "club":  "Al Nassr FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Nawaf NAWAF ALAQIDI",
+        "position":  "GK",
+        "club":  "Al Nassr FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Nawaf NAWAF BU WASHL",
+        "position":  "DF",
+        "club":  "Al Nassr FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Ahmed AHMED ALKASSAR",
+        "position":  "GK",
+        "club":  "Al Qadsiah FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Jehad JEHAD THIKRI",
+        "position":  "DF",
+        "club":  "Al Qadsiah FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Mohammed MOHAMMED ABU ALSHAMAT",
+        "position":  "DF",
+        "club":  "Al Qadsiah FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Musab MUSAB ALJUWAYR",
+        "position":  "MF",
+        "club":  "Al Qadsiah FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Mohammed MOHAMMED ALOWAIS",
+        "position":  "GK",
+        "club":  "Al Ula Saudi FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Saudi Arabia",
+        "team_code":  "KSA",
+        "group":  "H",
+        "player":  "Ala ALA ALHAJJI",
+        "position":  "MF",
+        "club":  "Neom SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Scotland",
+        "team_code":  "SCO",
+        "group":  "C",
+        "player":  "Jack HENDRY",
+        "position":  "DF",
+        "club":  "Al Ettifaq FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Senegal",
+        "team_code":  "SEN",
+        "group":  "I",
+        "player":  "Edouard MENDY",
+        "position":  "GK",
+        "club":  "Al Ahli FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Senegal",
+        "team_code":  "SEN",
+        "group":  "I",
+        "player":  "Kalidou KOULIBALY",
+        "position":  "DF",
+        "club":  "Al Hilal SC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Senegal",
+        "team_code":  "SEN",
+        "group":  "I",
+        "player":  "Sadio MANE",
+        "position":  "FW",
+        "club":  "Al Nassr FC (KSA)"
+    },
+    {
+        "target_league":  "Saudi Pro League",
+        "team":  "Turkey",
+        "team_code":  "TUR",
+        "group":  "D",
+        "player":  "Merih DEMIRAL",
+        "position":  "DF",
+        "club":  "Al Ahli FC (KSA)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Algeria",
+        "team_code":  "ALG",
+        "group":  "J",
+        "player":  "Ramiz ZERROUKI",
+        "position":  "MF",
+        "club":  "FC Twente (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Australia",
+        "team_code":  "AUS",
+        "group":  "D",
+        "player":  "Jordan BOS",
+        "position":  "DF",
+        "club":  "Feyenoord Rotterdam (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Australia",
+        "team_code":  "AUS",
+        "group":  "D",
+        "player":  "Ajdin HRUSTIC",
+        "position":  "FW",
+        "club":  "SC Heracles Almelo (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Austria",
+        "team_code":  "AUT",
+        "group":  "J",
+        "player":  "Paul WANNER",
+        "position":  "MF",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Bosnia and Herzegovina",
+        "team_code":  "BIH",
+        "group":  "B",
+        "player":  "Esmir BAJRAKTAREVIC",
+        "position":  "FW",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Cape Verde",
+        "team_code":  "CPV",
+        "group":  "H",
+        "player":  "Jamiro JAMIRO MONTEIRO",
+        "position":  "MF",
+        "club":  "PEC Zwolle (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Croatia",
+        "team_code":  "CRO",
+        "group":  "L",
+        "player":  "Josip SUTALO",
+        "position":  "DF",
+        "club":  "AFC Ajax (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Croatia",
+        "team_code":  "CRO",
+        "group":  "L",
+        "player":  "Ivan PERISIC",
+        "position":  "FW",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Kevin FELIDA",
+        "position":  "MF",
+        "club":  "FC Den Bosch (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Brandley KUWAS",
+        "position":  "FW",
+        "club":  "FC Volendam (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Juninho BACUNA",
+        "position":  "MF",
+        "club":  "FC Volendam (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Deveron FONVILLE",
+        "position":  "DF",
+        "club":  "NEC Nijmegen (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Sherel FLORANUS",
+        "position":  "DF",
+        "club":  "PEC Zwolle (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Armando OBISPO",
+        "position":  "DF",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Godfried ROEMERATOE",
+        "position":  "MF",
+        "club":  "RKC Waalwijk (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Roshon VAN EIJMA",
+        "position":  "DF",
+        "club":  "RKC Waalwijk (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Tyrese NOSLIN",
+        "position":  "FW",
+        "club":  "SC Telstar (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Tyrick BODAK",
+        "position":  "GK",
+        "club":  "SC Telstar (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Shurandy SAMBO",
+        "position":  "DF",
+        "club":  "Sparta Rotterdam (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Curacao",
+        "team_code":  "CUW",
+        "group":  "E",
+        "player":  "Trevor DOORNBUSCH",
+        "position":  "GK",
+        "club":  "VVV Venlo (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Haiti",
+        "team_code":  "HAI",
+        "group":  "C",
+        "player":  "Ruben PROVIDENCE",
+        "position":  "FW",
+        "club":  "Almere City FC (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Iraq",
+        "team_code":  "IRQ",
+        "group":  "I",
+        "player":  "Zidane ZIDANE IQBAL",
+        "position":  "MF",
+        "club":  "FC Utrecht (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Japan",
+        "team_code":  "JPN",
+        "group":  "F",
+        "player":  "Kou ITAKURA",
+        "position":  "DF",
+        "club":  "AFC Ajax (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Japan",
+        "team_code":  "JPN",
+        "group":  "F",
+        "player":  "Takehiro TOMIYASU",
+        "position":  "DF",
+        "club":  "AFC Ajax (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Japan",
+        "team_code":  "JPN",
+        "group":  "F",
+        "player":  "Ayase UEDA",
+        "position":  "FW",
+        "club":  "Feyenoord Rotterdam (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Japan",
+        "team_code":  "JPN",
+        "group":  "F",
+        "player":  "Tsuyoshi WATANABE",
+        "position":  "DF",
+        "club":  "Feyenoord Rotterdam (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Japan",
+        "team_code":  "JPN",
+        "group":  "F",
+        "player":  "Koki OGAWA",
+        "position":  "FW",
+        "club":  "NEC Nijmegen (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Mexico",
+        "team_code":  "MEX",
+        "group":  "A",
+        "player":  "Mateo CHAVEZ",
+        "position":  "DF",
+        "club":  "AZ Alkmaar (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Morocco",
+        "team_code":  "MAR",
+        "group":  "C",
+        "player":  "Anass SALAH EDDINE",
+        "position":  "DF",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Morocco",
+        "team_code":  "MAR",
+        "group":  "C",
+        "player":  "Ismael SAIBARI",
+        "position":  "MF",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Netherlands",
+        "team_code":  "NED",
+        "group":  "F",
+        "player":  "Wout WEGHORST",
+        "position":  "FW",
+        "club":  "AFC Ajax (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "Netherlands",
+        "team_code":  "NED",
+        "group":  "F",
+        "player":  "Guus TIL",
+        "position":  "MF",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "New Zealand",
+        "team_code":  "NZL",
+        "group":  "G",
+        "player":  "Ryan THOMAS",
+        "position":  "MF",
+        "club":  "PEC Zwolle (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "South Korea",
+        "team_code":  "KOR",
+        "group":  "A",
+        "player":  "Inbeom HWANG",
+        "position":  "MF",
+        "club":  "Feyenoord Rotterdam (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "USA",
+        "team_code":  "USA",
+        "group":  "D",
+        "player":  "Ricardo PEPI",
+        "position":  "FW",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Eredivisie",
+        "team":  "USA",
+        "team_code":  "USA",
+        "group":  "D",
+        "player":  "Sergino DEST",
+        "position":  "DF",
+        "club":  "PSV Eindhoven (NED)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Argentina",
+        "team_code":  "ARG",
+        "group":  "J",
+        "player":  "Nicolas OTAMENDI",
+        "position":  "DF",
+        "club":  "SL Ben ca (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Belgium",
+        "team_code":  "BEL",
+        "group":  "G",
+        "player":  "Zeno DEBAST",
+        "position":  "DF",
+        "club":  "Sporting CP (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Cape Verde",
+        "team_code":  "CPV",
+        "group":  "H",
+        "player":  "Jovane JOVANE CABRAL",
+        "position":  "MF",
+        "club":  "CF Estrela Da Amadora (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Cape Verde",
+        "team_code":  "CPV",
+        "group":  "H",
+        "player":  "Josimar VOZINHA",
+        "position":  "GK",
+        "club":  "GD Chaves (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Cape Verde",
+        "team_code":  "CPV",
+        "group":  "H",
+        "player":  "Jair YANNICK SEMEDO",
+        "position":  "MF",
+        "club":  "SC Farense (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Cape Verde",
+        "team_code":  "CPV",
+        "group":  "H",
+        "player":  "Ianique STOPIRA",
+        "position":  "DF",
+        "club":  "SCU Torreense (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Cape Verde",
+        "team_code":  "CPV",
+        "group":  "H",
+        "player":  "Sidny SIDNY LOPES CABRAL",
+        "position":  "DF",
+        "club":  "SL Ben ca (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Cape Verde",
+        "team_code":  "CPV",
+        "group":  "H",
+        "player":  "Telmo TELMO ARCANJO",
+        "position":  "MF",
+        "club":  "Vitória SC (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Colombia",
+        "team_code":  "COL",
+        "group":  "K",
+        "player":  "Richard RIOS",
+        "position":  "MF",
+        "club":  "SL Ben ca (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Colombia",
+        "team_code":  "COL",
+        "group":  "K",
+        "player":  "Luis SUAREZ",
+        "position":  "FW",
+        "club":  "Sporting CP (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Czechia",
+        "team_code":  "CZE",
+        "group":  "A",
+        "player":  "Lukas HORNICEK",
+        "position":  "GK",
+        "club":  "SC Braga (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Haiti",
+        "team_code":  "HAI",
+        "group":  "C",
+        "player":  "Leverton PIERRE",
+        "position":  "MF",
+        "club":  "FC Vizela (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Haiti",
+        "team_code":  "HAI",
+        "group":  "C",
+        "player":  "Yassin FORTUNE",
+        "position":  "FW",
+        "club":  "FC Vizela (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Ivory Coast",
+        "team_code":  "CIV",
+        "group":  "E",
+        "player":  "Ghislain KONAN",
+        "position":  "DF",
+        "club":  "Gil Vicente FC (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Ivory Coast",
+        "team_code":  "CIV",
+        "group":  "E",
+        "player":  "Ousmane DIOMANDE",
+        "position":  "DF",
+        "club":  "Sporting CP (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Norway",
+        "team_code":  "NOR",
+        "group":  "I",
+        "player":  "Andreas SCHJELDERUP",
+        "position":  "MF",
+        "club":  "SL Ben ca (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Norway",
+        "team_code":  "NOR",
+        "group":  "I",
+        "player":  "Fredrik AURSNES",
+        "position":  "MF",
+        "club":  "SL Ben ca (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Portugal",
+        "team_code":  "POR",
+        "group":  "K",
+        "player":  "Diogo DIOGO COSTA",
+        "position":  "GK",
+        "club":  "FC Porto (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Portugal",
+        "team_code":  "POR",
+        "group":  "K",
+        "player":  "Tomás TOMAS ARAUJO",
+        "position":  "DF",
+        "club":  "SL Ben ca (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Portugal",
+        "team_code":  "POR",
+        "group":  "K",
+        "player":  "Francisco FRANCISCO TRINCAO",
+        "position":  "FW",
+        "club":  "Sporting CP (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Portugal",
+        "team_code":  "POR",
+        "group":  "K",
+        "player":  "Gonçalo GONCALO INACIO",
+        "position":  "DF",
+        "club":  "Sporting CP (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Portugal",
+        "team_code":  "POR",
+        "group":  "K",
+        "player":  "Rui RUI SILVA",
+        "position":  "GK",
+        "club":  "Sporting CP (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "South Africa",
+        "team_code":  "RSA",
+        "group":  "A",
+        "player":  "Sphephelo SITHOLE",
+        "position":  "MF",
+        "club":  "CD Tondela (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Sweden",
+        "team_code":  "SWE",
+        "group":  "F",
+        "player":  "Gustaf LAGERBIELKE",
+        "position":  "DF",
+        "club":  "SC Braga (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Turkey",
+        "team_code":  "TUR",
+        "group":  "D",
+        "player":  "Deniz GUL",
+        "position":  "FW",
+        "club":  "FC Porto (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Uruguay",
+        "team_code":  "URU",
+        "group":  "H",
+        "player":  "Rodrigo ZALAZAR",
+        "position":  "MF",
+        "club":  "SC Braga (POR)"
+    },
+    {
+        "target_league":  "Primeira Liga",
+        "team":  "Uruguay",
+        "team_code":  "URU",
+        "group":  "H",
+        "player":  "Maxi ARAUJO",
+        "position":  "MF",
+        "club":  "Sporting CP (POR)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Algeria",
+        "team_code":  "ALG",
+        "group":  "J",
+        "player":  "Adil BOULBINA",
+        "position":  "FW",
+        "club":  "Al Duhail SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Egypt",
+        "team_code":  "EGY",
+        "group":  "G",
+        "player":  "Hamdy HAMDY FATHY",
+        "position":  "MF",
+        "club":  "Al Wakrah SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Jordan",
+        "team_code":  "JOR",
+        "group":  "J",
+        "player":  "Ali ALI OLWAN",
+        "position":  "FW",
+        "club":  "Al Sailiya SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Jordan",
+        "team_code":  "JOR",
+        "group":  "J",
+        "player":  "Nizar NIZAR ALRASHDAN",
+        "position":  "MF",
+        "club":  "Qatar SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Ahmed AHMED FATHY",
+        "position":  "MF",
+        "club":  "Al Arabi SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Alhashmi ALHASHMI ALHUSSEIN",
+        "position":  "DF",
+        "club":  "Al Arabi SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Gueye ISSA LAYE",
+        "position":  "DF",
+        "club":  "Al Arabi SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Almoez ALMOEZ ALI",
+        "position":  "FW",
+        "club":  "Al Duhail SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Edmilson EDMILSON JUNIOR",
+        "position":  "FW",
+        "club":  "Al Duhail SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Karim KARIM BOUDIAF",
+        "position":  "MF",
+        "club":  "Al Duhail SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Salah SALAH ZAKARIA",
+        "position":  "GK",
+        "club":  "Al Duhail SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Sultan SULTAN ALBRAKE",
+        "position":  "DF",
+        "club":  "Al Duhail SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Tahsin TAHSIN JAMSHID",
+        "position":  "FW",
+        "club":  "Al Duhail SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Ahmed AHMED ALGANEHI",
+        "position":  "MF",
+        "club":  "Al Gharafa SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Ayoub AYOUB ALOUI",
+        "position":  "DF",
+        "club":  "Al Gharafa SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Mohammed MOHAMMED MUNTARI",
+        "position":  "FW",
+        "club":  "Al Gharafa SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Abdelaziz ABDULAZIZ HATEM",
+        "position":  "MF",
+        "club":  "Al Rayyan SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Ahmed AHMED ALAAELDIN",
+        "position":  "FW",
+        "club":  "Al Rayyan SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Jassem JASSEM GABER",
+        "position":  "DF",
+        "club":  "Al Rayyan SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Mahmoud MAHMOUD ABUNADA",
+        "position":  "GK",
+        "club":  "Al Rayyan SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Akram AKRAM AFIF",
+        "position":  "FW",
+        "club":  "Al Sadd SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Boualem BOUALEM KHOUKHI",
+        "position":  "DF",
+        "club":  "Al Sadd SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Hasan HASSAN ALHAYDOS",
+        "position":  "FW",
+        "club":  "Al Sadd SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Meshaal MESHAAL BARSHAM",
+        "position":  "GK",
+        "club":  "Al Sadd SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Pedro PEDRO MIGUEL",
+        "position":  "DF",
+        "club":  "Al Sadd SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Mohamed MOHAMED MANAI",
+        "position":  "FW",
+        "club":  "Al Shamal SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Assim ASSIM MADIBO",
+        "position":  "MF",
+        "club":  "Al Wakrah SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Lucas LUCAS MENDES",
+        "position":  "DF",
+        "club":  "Al Wakrah SC (QAT)"
+    },
+    {
+        "target_league":  "Qatar Stars League",
+        "team":  "Qatar",
+        "team_code":  "QAT",
+        "group":  "B",
+        "player":  "Yusuf YUSUF ABDURISAG",
+        "position":  "FW",
+        "club":  "Al Wakrah SC (QAT)"
+    }
+]

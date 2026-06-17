@@ -1,0 +1,49 @@
+﻿team,team_code,group,total_players,GK,DF,MF,FW,head_coach_raw,head_coach_nationality,head_coach,source
+Algeria,ALG,J,26,3,9,7,7,PETKOVIC Vladimir Vladimir PETKOVIĆ Switzerland,Switzerland,Vladimir PETKOVIĆ,squads_48_teams.csv
+Argentina,ARG,J,26,3,8,8,7,SCALONI Lionel Lionel Sebastián SCALONI Argentina,Argentina,Lionel SCALONI,squads_48_teams.csv
+Australia,AUS,D,26,3,10,5,8,POPOVIC Tony Tony POPOVIC Australia,Australia,Tony POPOVIC,squads_48_teams.csv
+Austria,AUT,J,26,3,8,11,4,RANGNICK Ralf Ralf Dietrich RANGNICK Germany,Germany,Ralf RANGNICK,squads_48_teams.csv
+Belgium,BEL,G,26,3,9,8,6,GARCIA Rudi Rudi José GARCIA France,France,Rudi GARCIA,squads_48_teams.csv
+Bosnia and Herzegovina,BIH,B,26,3,8,8,7,BARBAREZ Sergej Sergej BARBAREZ Bosnia And Herzegovina,Bosnia And Herzegovina,Sergej BARBAREZ,squads_48_teams.csv
+Brazil,BRA,C,26,3,9,5,9,ANCELOTTI Carlo Carlo ANCELOTTI Italy,Italy,Carlo ANCELOTTI,squads_48_teams.csv
+Canada,CAN,B,26,3,9,8,6,MARSCH Jesse Jesse Alan MARSCH USA,USA,Jesse MARSCH,squads_48_teams.csv
+Cape Verde,CPV,H,26,3,8,12,3,BUBISTA Pedro LEITÃO BRITO Cabo Verde,Cabo Verde,Pedro LEITÃO BRITO,squads_48_teams.csv
+Colombia,COL,K,26,3,9,8,6,LORENZO Nestor Nestor Gabriel LORENZO Argentina,Argentina,Nestor LORENZO,squads_48_teams.csv
+Croatia,CRO,L,26,3,8,9,6,DALIC Zlatko Zlatko DALIĆ Croatia,Croatia,Zlatko DALIĆ,squads_48_teams.csv
+Curacao,CUW,E,26,3,8,7,8,ADVOCAAT Dick Dirk Nicolaas ADVOCAAT Netherlands,Netherlands,Dick ADVOCAAT,squads_48_teams.csv
+Czechia,CZE,A,26,3,9,7,7,KOUBEK Miroslav Miroslav KOUBEK Czech Republic,Czech Republic,Miroslav KOUBEK,squads_48_teams.csv
+DR Congo,COD,K,26,3,8,8,7,DESABRE Sebastien Sebastien Serge Louis DESABRE France,France,Sebastien DESABRE,squads_48_teams.csv
+Ecuador,ECU,E,26,3,8,8,7,BECCACECE Sebastian Sebastián Andrés BECCACECE Argentina,Argentina,Sebastian BECCACECE,squads_48_teams.csv
+Egypt,EGY,G,26,4,8,7,7,HOSSAM HASSAN Hossam Hassan Hassanein HASSAN Egypt,Egypt,Hossam HASSAN,squads_48_teams.csv
+England,ENG,L,26,3,9,7,7,TUCHEL Thomas Thomas TUCHEL Germany,Germany,Thomas TUCHEL,squads_48_teams.csv
+France,FRA,I,26,3,9,7,7,DESCHAMPS Didier Didier Claude DESCHAMPS France,France,Didier DESCHAMPS,squads_48_teams.csv
+Germany,GER,E,26,3,8,11,4,NAGELSMANN Julian Julian NAGELSMANN Germany,Germany,Julian NAGELSMANN,squads_48_teams.csv
+Ghana,GHA,L,26,3,9,6,8,CARLOS QUEIROZ Carlos Manuel BRITO LEAL DE QUEIROZ Portugal,Portugal,Carlos BRITO LEAL DE QUEIROZ,squads_48_teams.csv
+Haiti,HAI,C,26,3,8,6,9,MIGNE Sebastien Sébastien Bernard Henri C MIGNÉ France,France,Sebastien MIGNÉ,squads_48_teams.csv
+Iran,IRN,G,26,3,9,8,6,GHALEHNOY Amir Ardeshir GHALEHNOY IR Iran,IR Iran,Amir GHALEHNOY,squads_48_teams.csv
+Iraq,IRQ,I,26,3,9,7,7,ARNOLD Graham Graham James ARNOLD Australia,Australia,Graham ARNOLD,squads_48_teams.csv
+Ivory Coast,CIV,E,26,3,8,6,9,FAE Emerse Emerse FAE Côte D'Ivoire,Côte D'Ivoire,Emerse FAE,squads_48_teams.csv
+Japan,JPN,F,26,3,9,10,4,MORIYASU Hajime Hajime MORIYASU Japan,Japan,Hajime MORIYASU,squads_48_teams.csv
+Jordan,JOR,J,26,3,9,7,7,SELLAMI Jamal Jamal SELLAMI Morocco,Morocco,Jamal SELLAMI,squads_48_teams.csv
+Mexico,MEX,A,26,3,7,8,8,AGUIRRE Javier Javier AGUIRRE ONAINDIA Mexico,Mexico,Javier AGUIRRE ONAINDIA,squads_48_teams.csv
+Morocco,MAR,C,26,3,9,9,5,OUAHBI Mohamed Mohamed OUAHBI Morocco,Morocco,Mohamed OUAHBI,squads_48_teams.csv
+Netherlands,NED,F,26,3,8,8,7,KOEMAN Ronald Ronald KOEMAN Netherlands,Netherlands,Ronald KOEMAN,squads_48_teams.csv
+New Zealand,NZL,G,26,3,9,10,4,BAZELEY Darren Darren Shaun BAZELEY New Zealand,New Zealand,Darren BAZELEY,squads_48_teams.csv
+Norway,NOR,I,26,3,8,10,5,SOLBAKKEN Stale Ståle SOLBAKKEN Norway,Norway,Stale SOLBAKKEN,squads_48_teams.csv
+Panama,PAN,L,26,3,11,8,4,CHRISTIANSEN Thomas Thomas CHRISTIANSEN TARIN Spain,Spain,Thomas CHRISTIANSEN TARIN,squads_48_teams.csv
+Paraguay,PAR,D,26,3,8,9,6,ALFARO Gustavo Gustavo Julio ALFARO Argentina,Argentina,Gustavo ALFARO,squads_48_teams.csv
+Portugal,POR,K,26,3,9,6,8,MARTINEZ Roberto Roberto MARTÍNEZ MONTOLIU Spain,Spain,Roberto MARTÍNEZ MONTOLIU,squads_48_teams.csv
+Qatar,QAT,B,26,3,9,5,9,LOPETEGUI Julen Julian LOPETEGUI ARGOTE Spain,Spain,Julen LOPETEGUI ARGOTE,squads_48_teams.csv
+Saudi Arabia,KSA,H,26,3,10,6,7,DONIS Georgios Georgios DONIS Greece,Greece,Georgios DONIS,squads_48_teams.csv
+Scotland,SCO,C,26,3,10,6,7,CLARKE Steve Stephen CLARKE Scotland,Scotland,Steve CLARKE,squads_48_teams.csv
+Senegal,SEN,I,26,3,8,7,8,THIAW Pape Pape Bouna THIAW Senegal,Senegal,Pape THIAW,squads_48_teams.csv
+South Africa,RSA,A,26,3,10,5,8,BROOS Hugo Hugo Henri BROOS Belgium,Belgium,Hugo BROOS,squads_48_teams.csv
+South Korea,KOR,A,26,3,9,11,3,HONG Myungbo Myung Bo HONG Korea Republic,Korea Republic,Myungbo HONG,squads_48_teams.csv
+Spain,ESP,H,26,3,8,7,8,DE LA FUENTE Luis Luis DE LA FUENTE CASTILLO Spain,Spain,Luis DE LA FUENTE CASTILLO,squads_48_teams.csv
+Sweden,SWE,F,26,3,11,7,5,POTTER Graham Graham Stephen POTTER England,England,Graham POTTER,squads_48_teams.csv
+Switzerland,SUI,B,26,3,8,8,7,YAKIN Murat Murat YAKIN Switzerland,Switzerland,Murat YAKIN,squads_48_teams.csv
+Tunisia,TUN,F,26,3,10,8,5,LAMOUCHI Sabri Sabri LAMOUCHI France,France,Sabri LAMOUCHI,squads_48_teams.csv
+Turkey,TUR,D,26,3,9,5,9,MONTELLA Vincenzo Vincenzo MONTELLA Italy,Italy,Vincenzo MONTELLA,squads_48_teams.csv
+USA,USA,D,26,3,10,6,7,POCHETTINO Mauricio Mauricio Roberto POCHETTINO TROSSERO Argentina,Argentina,Mauricio POCHETTINO TROSSERO,squads_48_teams.csv
+Uruguay,URU,H,26,3,7,11,5,BIELSA Marcelo Marcelo Alberto BIELSA Argentina,Argentina,Marcelo BIELSA,squads_48_teams.csv
+Uzbekistan,UZB,K,26,3,10,10,3,CANNAVARO Fabio Fabio CANNAVARO Italy,Italy,Fabio CANNAVARO,squads_48_teams.csv

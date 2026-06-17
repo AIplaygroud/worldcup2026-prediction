@@ -1,0 +1,1170 @@
+Africa Cup of Nations xG (Expected Goals) | FootyStats
+
+# xG (Expected Goals) - International Africa Cup of Nations
+
+Nation
+
+Type
+
+Cup
+
+Teams
+
+24
+
+Season
+
+2025
+
+- 2023
+- 2021
+- 2019
+
+Matches
+
+52/52 Played
+
+Progress
+
+100% completed
+
+Competition
+
+Goals
+
+Over/Under
+
+More
+
+## xG (Expected Goals) - Africa Cup of Nations
+
+## xG Per 90, including xG Difference
+
+MP
+
+Matches Played
+
+### Senegal National Team
+
+### Morocco National Team
+
+### Ivory Coast National Team
+
+### South Africa National Team
+
+### Nigeria National Team
+
+### Angola National Team
+
+### Congo DR National Team
+
+### Gabon National Team
+
+### Algeria National Team
+
+### Burkina Faso National Team
+
+### Tunisia National Team
+
+### Cameroon National Team
+
+### Egypt National Team
+
+### Zimbabwe National Team
+
+### Uganda National Team
+
+### Equatorial Guinea National Team
+
+### Benin National Team
+
+### Mali National Team
+
+### Sudan National Team
+
+### Tanzania National Team
+
+### Zambia National Team
+
+### Mozambique National Team
+
+### Comoros National Team
+
+### Botswana National Team
+
+| # | Team | xG | xGA | xGD | GF | GA | xG vs Actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Senegal National TeamAfrica Cup of Nations (Div. -1)League Pos. 1 / 24International FormLast 5PPGOverallWWWWW2.71HomeWDWWW2.60AwayWW3.00StatisticsOverallHomeAwayWin %86%80%100%AVG2.142.202.00Scored1.861.802.00Conceded0.290.400.00BTTS29%40%0%CS71%60%100%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 7 | 1.93 | 0.89 | +1.04 | 1.86 | 0.29 | -0.07 |
+| 2 | Morocco National TeamAfrica Cup of Nations (Div. -1)League Pos. 1 / 24International FormLast 5PPGOverallWWWDL2.00HomeWDW2.33AwayWWDL1.75StatisticsOverallHomeAwayWin %57%67%50%AVG1.571.671.50Scored1.291.331.25Conceded0.290.330.25BTTS14%33%0%CS71%67%75%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 7 | 1.75 | 0.65 | +1.10 | 1.29 | 0.29 | -0.46 |
+| 3 | Ivory Coast National TeamAfrica Cup of Nations (Div. -1)League Pos. 2 / 24International FormLast 5PPGOverallWDWWL2.00HomeWDW2.33AwayWL1.50StatisticsOverallHomeAwayWin %60%67%50%AVG3.202.005.00Scored2.001.672.50Conceded1.200.332.50BTTS60%33%100%CS40%67%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 5 | 1.72 | 0.86 | +0.86 | 2.00 | 1.20 | +0.28 |
+| 4 | South Africa National TeamAfrica Cup of Nations (Div. -1)League Pos. 2 / 24International FormLast 5PPGOverallWLWL1.50HomeWL1.50AwayLW1.50StatisticsOverallHomeAwayWin %50%50%50%AVG3.003.003.00Scored1.501.501.50Conceded1.501.501.50BTTS75%100%50%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.72 | 1.04 | +0.68 | 1.50 | 1.50 | -0.22 |
+| 5 | Nigeria National TeamAfrica Cup of Nations (Div. -1)League Pos. 1 / 24International FormLast 5PPGOverallWWWDD2.43HomeWWWD2.50AwayWWD2.33StatisticsOverallHomeAwayWin %71%75%67%AVG2.573.002.00Scored2.002.251.67Conceded0.570.750.33BTTS43%50%33%CS57%50%67%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 7 | 1.57 | 0.84 | +0.73 | 2.00 | 0.57 | +0.43 |
+| 6 | Angola National TeamAfrica Cup of Nations (Div. -1)League Pos. 3 / 24International FormLast 5PPGOverallLDD0.67HomeDD1.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.671.003.00Scored0.670.501.00Conceded1.000.502.00BTTS67%50%100%CS33%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.52 | 1.15 | +0.37 | 0.67 | 1.00 | -0.85 |
+| 7 | Congo DR National TeamAfrica Cup of Nations (Div. -1)League Pos. 2 / 24International FormLast 5PPGOverallWDWL1.75HomeW3.00AwayDWL1.33StatisticsOverallHomeAwayWin %50%100%33%AVG1.751.002.00Scored1.251.001.33Conceded0.500.000.67BTTS25%0%33%CS50%100%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.42 | 1.16 | +0.26 | 1.25 | 0.50 | -0.17 |
+| 8 | Gabon National TeamAfrica Cup of Nations (Div. -1)League Pos. 4 / 24International FormLast 5PPGOverallLLL0.00HomeLL0.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.675.001.00Scored1.332.000.00Conceded2.333.001.00BTTS67%100%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.42 | 1.63 | -0.21 | 1.33 | 2.33 | -0.09 |
+| 9 | Algeria National TeamAfrica Cup of Nations (Div. -1)League Pos. 1 / 24International FormLast 5PPGOverallWWWWL2.40HomeWWWL2.25AwayW3.00StatisticsOverallHomeAwayWin %80%75%100%AVG2.201.754.00Scored1.601.253.00Conceded0.600.501.00BTTS20%0%100%CS60%75%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 5 | 1.31 | 1.08 | +0.23 | 1.60 | 0.60 | +0.29 |
+| 10 | Burkina Faso National TeamAfrica Cup of Nations (Div. -1)League Pos. 2 / 24International FormLast 5PPGOverallWLWL1.50HomeW3.00AwayLWL1.00StatisticsOverallHomeAwayWin %50%100%33%AVG2.253.002.00Scored1.002.000.67Conceded1.251.001.33BTTS25%100%0%CS25%0%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.30 | 1.14 | +0.16 | 1.00 | 1.25 | -0.30 |
+| 11 | Tunisia National TeamAfrica Cup of Nations (Div. -1)League Pos. 2 / 24International FormLast 5PPGOverallWLDD1.25HomeW3.00AwayLDD0.67StatisticsOverallHomeAwayWin %25%100%0%AVG3.254.003.00Scored1.753.001.33Conceded1.501.001.67BTTS100%100%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.28 | 0.96 | +0.32 | 1.75 | 1.50 | +0.47 |
+| 12 | Cameroon National TeamAfrica Cup of Nations (Div. -1)League Pos. 1 / 24International FormLast 5PPGOverallWDWWL2.00HomeWL1.50AwayDWW2.33StatisticsOverallHomeAwayWin %60%50%67%AVG2.201.502.67Scored1.200.501.67Conceded1.001.001.00BTTS60%0%100%CS20%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 5 | 1.24 | 1.23 | +0.01 | 1.20 | 1.00 | -0.04 |
+| 13 | Egypt National TeamAfrica Cup of Nations (Div. -1)League Pos. 1 / 24International FormLast 5PPGOverallDWWLD2.00HomeWWWWD2.60AwayDL0.50StatisticsOverallHomeAwayWin %57%80%0%AVG2.002.600.50Scored1.291.800.00Conceded0.710.800.50BTTS43%60%0%CS43%40%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 7 | 1.22 | 1.37 | -0.15 | 1.29 | 0.71 | +0.07 |
+| 14 | Zimbabwe National TeamAfrica Cup of Nations (Div. -1)League Pos. 4 / 24International FormLast 5PPGOverallLDL0.33HomeL0.00AwayLD0.50StatisticsOverallHomeAwayWin %0%0%0%AVG3.335.002.50Scored1.332.001.00Conceded2.003.001.50BTTS100%100%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.19 | 2.42 | -1.23 | 1.33 | 2.00 | +0.14 |
+| 15 | Uganda National TeamAfrica Cup of Nations (Div. -1)League Pos. 4 / 24International FormLast 5PPGOverallLDL0.33HomeDL0.50AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.333.004.00Scored1.001.001.00Conceded2.332.003.00BTTS100%100%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.05 | 1.45 | -0.40 | 1.00 | 2.33 | -0.05 |
+| 16 | Equatorial Guinea National TeamAfrica Cup of Nations (Div. -1)League Pos. 4 / 24International FormLast 5PPGOverallLLL0.00HomeLL0.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.672.503.00Scored0.670.501.00Conceded2.002.002.00BTTS67%50%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 1.02 | 1.55 | -0.53 | 0.67 | 2.00 | -0.35 |
+| 17 | Benin National TeamAfrica Cup of Nations (Div. -1)League Pos. 3 / 24International FormLast 5PPGOverallLWLL0.75HomeWL1.50AwayLL0.00StatisticsOverallHomeAwayWin %25%50%0%AVG2.252.002.50Scored0.500.500.50Conceded1.751.502.00BTTS25%0%50%CS25%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 1.01 | 1.18 | -0.17 | 0.50 | 1.75 | -0.51 |
+| 18 | Mali National TeamAfrica Cup of Nations (Div. -1)League Pos. 2 / 24International FormLast 5PPGOverallDDDDL0.80HomeDDL0.67AwayDD1.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.401.671.00Scored0.600.670.50Conceded0.801.000.50BTTS60%67%50%CS20%0%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 5 | 0.99 | 1.34 | -0.35 | 0.60 | 0.80 | -0.39 |
+| 19 | Sudan National TeamAfrica Cup of Nations (Div. -1)League Pos. 3 / 24International FormLast 5PPGOverallLWLL0.75HomeL0.00AwayLWL1.00StatisticsOverallHomeAwayWin %25%0%33%AVG2.502.002.67Scored0.500.000.67Conceded2.002.002.00BTTS25%0%33%CS25%0%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.89 | 1.55 | -0.66 | 0.50 | 2.00 | -0.39 |
+| 20 | Tanzania National TeamAfrica Cup of Nations (Div. -1)League Pos. 3 / 24International FormLast 5PPGOverallLDDL0.50HomeD1.00AwayLDL0.33StatisticsOverallHomeAwayWin %0%0%0%AVG2.002.002.00Scored0.751.000.67Conceded1.251.001.33BTTS75%100%67%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.83 | 1.62 | -0.79 | 0.75 | 1.25 | -0.08 |
+| 21 | Zambia National TeamAfrica Cup of Nations (Div. -1)League Pos. 4 / 24International FormLast 5PPGOverallDDL0.67HomeDL0.50AwayD1.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.671.502.00Scored0.330.001.00Conceded1.331.501.00BTTS33%0%100%CS33%50%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 0.79 | 1.61 | -0.82 | 0.33 | 1.33 | -0.46 |
+| 22 | Mozambique National TeamAfrica Cup of Nations (Div. -1)League Pos. 3 / 24International FormLast 5PPGOverallLWLL0.75HomeL0.00AwayLWL1.00StatisticsOverallHomeAwayWin %25%0%33%AVG3.253.003.33Scored1.001.001.00Conceded2.252.002.33BTTS50%100%33%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 4 | 0.77 | 2.04 | -1.27 | 1.00 | 2.25 | +0.23 |
+| 23 | Comoros National TeamAfrica Cup of Nations (Div. -1)League Pos. 3 / 24International FormLast 5PPGOverallLDD0.67HomeD1.00AwayLD0.50StatisticsOverallHomeAwayWin %0%0%0%AVG0.670.001.00Scored0.000.000.00Conceded0.670.001.00BTTS0%0%0%CS67%100%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 0.65 | 1.47 | -0.82 | 0.00 | 0.67 | -0.65 |
+| 24 | Botswana National TeamAfrica Cup of Nations (Div. -1)League Pos. 4 / 24International FormLast 5PPGOverallLLL0.00HomeL0.00AwayLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.333.002.00Scored0.000.000.00Conceded2.333.002.00BTTS0%0%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 3 | 0.53 | 2.50 | -1.97 | 0.00 | 2.33 | -0.53 |
+
+This table describes the xG per match of each team in the Africa Cup of Nations.xG = Expected Goals to be scored.xGA = Expected Goals to be conceded.xG vs Actual measures the team's actual goals scored against the expected goals scored. A negative number is bad since the team is scoring less than expected. A positive number means the team is scoring more than expected.
+
+For Expected Points data, go to Africa Cup of Nations Expected Points Table.
+
+## Players with the Most xG
+
+| # | Player | xG Total | Goals | xG / 90' | Shots | Position | Apps |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Nicolas Jackson | 1.91 | 2 | 2.2 | 7 | FW | 5 |
+| 2 | Elias Achouri | 1.51 | 2 | 1.66 | 2 | FW | 4 |
+| 3 | Riyad Mahrez | 1.36 | 3 | 1.57 | 2 | FW | 4 |
+| 4 | Omar Marmoush | 1.25 | 2 | 1.25 | 8 | FW | 6 |
+| 5 | Lassine Sinayoko | 0.95 | 3 | 0.95 | 4 | FW | 5 |
+| 6 | Ademola Lookman | 0.95 | 3 | 0.95 | 4 | FW | 6 |
+| 7 | Lyle Foster | 0.88 | 2 | 0.88 | 3 | FW | 4 |
+| 8 | Brahim Diaz | 0.87 | 5 | 1.03 | 2 | FW | 7 |
+| 9 | Mohamed Salah | 0.87 | 4 | 0.87 | 4 | FW | 6 |
+| 10 | Sadio Mané | 0.82 | 2 | 0.95 | 9 | FW | 7 |
+| 11 | Théo Bongonda | 0.8 | 1 | 1.06 | 3 | FW | 4 |
+| 12 | Denis Omedi | 0.8 | 1 | 1.64 | 2 | FW | 3 |
+| 13 | Edmond Tapsoba | 0.8 | 1 | 0.8 | 2 | DF | 4 |
+| 14 | Charles William M'Mombwa | 0.79 | 1 | 0.79 | 2 | MF | 4 |
+| 15 | Patson Daka | 0.78 | 1 | 0.78 | 3 | FW | 3 |
+| 16 | Georgi Minoungou | 0.77 | 1 | 6.3 | 2 | FW | 4 |
+| 17 | Cherif Ndiaye | 0.76 | 2 | 5.7 | 1 | FW | 5 |
+| 18 | Prince Dube | 0.75 | 1 | 0.94 | 2 | FW | 3 |
+| 19 | Ayoub El Kaabi | 0.73 | 3 | 2.63 | 1 | FW | 7 |
+| 20 | Oswin Reagan Appollis | 0.73 | 2 | 0.82 | 2 | FW | 4 |
+| 21 | Oluwasemilogo Adesewo Ibidapo Ajayi | 0.73 | 1 | 0.73 | 1 | DF | 6 |
+| 22 | Marvin José Anieboh Pallaruelo | 0.73 | 1 | 8.21 | 1 | DF | 3 |
+| 23 | Manuel Cafumana | 0.71 | 1 | 0.71 | 1 | MF | 3 |
+| 24 | Ellyes Skhiri | 0.71 | 1 | 0.71 | 1 | MF | 4 |
+| 25 | Ibrahim Maza | 0.71 | 2 | 2.13 | 1 | MF | 5 |
+
+This is the list of the players with the highest xGs in the Africa Cup of Nations. List can include players from all positions. For more shots data, go to Shots data for Africa Cup of Nations page.
+
+## xG Overall (Per Match)
+
+Previous Next
+
+#1
+
+1.75xG
+
+#2
+
+Ivory Coast National Team
+
+1.72xG
+
+#3
+
+1.31xG
+
+#4
+
+1.93xG
+
+#5
+
+1.57xG
+
+#6
+
+South Africa National Team
+
+1.72xG
+
+#7
+
+1.52xG
+
+#8
+
+Burkina Faso National Team
+
+1.30xG
+
+#9
+
+1.28xG
+
+#10
+
+1.24xG
+
+#11
+
+1.05xG
+
+#12
+
+0.83xG
+
+#13
+
+0.65xG
+
+#14
+
+0.53xG
+
+#15
+
+1.22xG
+
+#16
+
+1.42xG
+
+#17
+
+Congo DR National Team
+
+1.42xG
+
+#18
+
+1.19xG
+
+#19
+
+Equatorial Guinea National Team
+
+1.02xG
+
+#20
+
+1.01xG
+
+#21
+
+0.99xG
+
+#22
+
+0.89xG
+
+#23
+
+0.79xG
+
+#24
+
+0.77xG
+
+## xG Home
+
+Previous Next
+
+#1
+
+1.99xG
+
+#2
+
+1.78xG
+
+#3
+
+Ivory Coast National Team
+
+1.64xG
+
+#4
+
+Burkina Faso National Team
+
+1.77xG
+
+#5
+
+1.73xG
+
+#6
+
+1.72xG
+
+#7
+
+1.69xG
+
+#8
+
+1.47xG
+
+#9
+
+1.52xG
+
+#10
+
+South Africa National Team
+
+1.47xG
+
+#11
+
+1.21xG
+
+#12
+
+1.20xG
+
+#13
+
+0.56xG
+
+#14
+
+Equatorial Guinea National Team
+
+1.24xG
+
+#15
+
+1.01xG
+
+#16
+
+Congo DR National Team
+
+1.18xG
+
+#17
+
+1.14xG
+
+#18
+
+1.00xG
+
+#19
+
+1.05xG
+
+#20
+
+0.84xG
+
+#21
+
+0.74xG
+
+#22
+
+0.76xG
+
+#23
+
+0.90xG
+
+#24
+
+0.54xG
+
+## xG Away
+
+Previous Next
+
+#1
+
+Ivory Coast National Team
+
+1.85xG
+
+#2
+
+South Africa National Team
+
+1.96xG
+
+#3
+
+1.77xG
+
+#4
+
+1.74xG
+
+#5
+
+1.74xG
+
+#6
+
+Congo DR National Team
+
+1.49xG
+
+#7
+
+1.39xG
+
+#8
+
+1.36xG
+
+#9
+
+1.22xG
+
+#10
+
+1.22xG
+
+#11
+
+1.19xG
+
+#12
+
+Burkina Faso National Team
+
+1.14xG
+
+#13
+
+1.13xG
+
+#14
+
+1.03xG
+
+#15
+
+0.88xG
+
+#16
+
+0.90xG
+
+#17
+
+0.86xG
+
+#18
+
+0.59xG
+
+#19
+
+Equatorial Guinea National Team
+
+0.57xG
+
+#20
+
+0.84xG
+
+#21
+
+0.76xG
+
+#22
+
+0.73xG
+
+#23
+
+0.71xG
+
+#24
+
+0.52xG
+
+## xGA Overall (Per Match)
+
+Previous Next
+
+#1
+
+1.63xGA
+
+#2
+
+Congo DR National Team
+
+1.16xGA
+
+#3
+
+2.42xGA
+
+#4
+
+1.23xGA
+
+#5
+
+1.08xGA
+
+#6
+
+0.89xGA
+
+#7
+
+0.84xGA
+
+#8
+
+0.65xGA
+
+#9
+
+1.15xGA
+
+#10
+
+Burkina Faso National Team
+
+1.14xGA
+
+#11
+
+2.04xGA
+
+#12
+
+1.62xGA
+
+#13
+
+0.96xGA
+
+#14
+
+1.61xGA
+
+#15
+
+Equatorial Guinea National Team
+
+1.55xGA
+
+#16
+
+1.55xGA
+
+#17
+
+1.45xGA
+
+#18
+
+1.37xGA
+
+#19
+
+1.34xGA
+
+#20
+
+1.18xGA
+
+#21
+
+South Africa National Team
+
+1.04xGA
+
+#22
+
+1.47xGA
+
+#23
+
+2.50xGA
+
+#24
+
+Ivory Coast National Team
+
+0.86xGA
+
+## xGA Home
+
+Previous Next
+
+#1
+
+1.90xGA
+
+#2
+
+1.93xGA
+
+#3
+
+1.75xGA
+
+#4
+
+Congo DR National Team
+
+1.14xGA
+
+#5
+
+2.90xGA
+
+#6
+
+1.12xGA
+
+#7
+
+1.62xGA
+
+#8
+
+1.52xGA
+
+#9
+
+Equatorial Guinea National Team
+
+1.45xGA
+
+#10
+
+1.32xGA
+
+#11
+
+1.28xGA
+
+#12
+
+1.13xGA
+
+#13
+
+1.08xGA
+
+#14
+
+0.91xGA
+
+#15
+
+South Africa National Team
+
+1.14xGA
+
+#16
+
+1.13xGA
+
+#17
+
+1.02xGA
+
+#18
+
+0.98xGA
+
+#19
+
+Burkina Faso National Team
+
+0.57xGA
+
+#20
+
+0.48xGA
+
+#21
+
+1.24xGA
+
+#22
+
+0.85xGA
+
+#23
+
+Ivory Coast National Team
+
+0.87xGA
+
+#24
+
+0.76xGA
+
+## xGA Away
+
+Previous Next
+
+#1
+
+2.69xGA
+
+#2
+
+2.30xGA
+
+#3
+
+2.08xGA
+
+#4
+
+Equatorial Guinea National Team
+
+1.77xGA
+
+#5
+
+1.72xGA
+
+#6
+
+1.68xGA
+
+#7
+
+1.61xGA
+
+#8
+
+1.59xGA
+
+#9
+
+1.41xGA
+
+#10
+
+1.32xGA
+
+#11
+
+Congo DR National Team
+
+1.16xGA
+
+#12
+
+1.08xGA
+
+#13
+
+1.11xGA
+
+#14
+
+1.58xGA
+
+#15
+
+1.88xGA
+
+#16
+
+1.38xGA
+
+#17
+
+Burkina Faso National Team
+
+1.33xGA
+
+#18
+
+1.18xGA
+
+#19
+
+1.03xGA
+
+#20
+
+South Africa National Team
+
+0.94xGA
+
+#21
+
+Ivory Coast National Team
+
+0.84xGA
+
+#22
+
+0.83xGA
+
+#23
+
+0.78xGA
+
+#24
+
+0.60xGA
+
+Fixture
+
+Home XG
+
+Away XG
+
+AVG Goals
+
+- XG: Upcoming Fixtures
+
+Fixture
+
+Home XG
+
+Away XG
+
+Final Goals
+
+1.63
+
+1.87
+
+1
+
+0.63
+
+0.96
+
+0
+
+0.38
+
+1.78
+
+0
+
+1.52
+
+0.47
+
+1
+
+Egypt vs Ivory Coast
+
+0.75
+
+1.61
+
+5
+
+0.39
+
+1.56
+
+2
+
+0.61
+
+1.01
+
+2
+
+0.83
+
+2.18
+
+1
+
+Ivory Coast vs Burkina
+
+1.93
+
+0.90
+
+3
+
+Algeria vs Congo DR
+
+1.49
+
+0.75
+
+1
+
+2.44
+
+0.22
+
+4
+
+1.56
+
+0.91
+
+4
+
+South Africa vs Cameroon
+
+1.76
+
+1.09
+
+3
+
+1.58
+
+0.43
+
+1
+
+0.72
+
+1.53
+
+2
+
+- XG: Recent Results
+
+## xG (Expected Goals) By Teams in Africa Cup of Nations
+
+---
+
+### Which Team Has The Best xG?
+
+Currently, Morocco National Team has the best xG (Expected Goals For) in the Africa Cup of Nations with 1.75 xG per game.
+
+### Which Team Has The Worst xG?
+
+Currently, Mozambique National Team has the worst xG (Expected Goals For) in the Africa Cup of Nations with 0.77 xG per game.
+
+### Who Has The Best xG at Home?
+
+The team with the best xG when playing at home this season is Senegal National Team, who has an xG of 1.99 from their home games thus far.
+
+### Who Has The Worst xG at Home?
+
+The team with the worst xG when playing at home this season is Comoros National Team, who is expected to score just 0.54 goals per game in front of their own fans.
+
+### Who Has The Best xG Away From Home?
+
+The team with the best xG whilst on the road this season is Ivory Coast National Team, who is expected to score 1.85 goals per game in their opponents stadium.
+
+### Who Has The Worst xG Away From Home?
+
+The team with the worst xG whilst on the road this season is Botswana National Team, who is expected to score just 0.52 goals per game in their opponents stadium.
+
+### Who Has The Best xGA?
+
+Ivory Coast National Team has the best xGA (Expected Goals Against) in the Africa Cup of Nations with just 0.86 goals expected against them per game. Arguably, this stat could suggest they have the best defence in this competition.
+
+### Who Has The Best xGA at Home?
+
+Tunisia National Team has the best xGA (Expected Goals Against) in the Africa Cup of Nations when playing at home with just 0.76 goals expected against them per game. They are formidable when playing at home.
+
+### Who Has The Best xGA Away From Home?
+
+Nigeria National Team has the best xGA (Expected Goals Against) in the Africa Cup of Nations when playing away from home with just 0.60 goals expected against them per game. Very frustrating for those home fans who must watch their team face Nigeria National Team.
+
+### Who Has The Worst xGA?
+
+Fans of Gabon National Team will demand better defending in the future, with 1.63 xGA (Goals Expected Against). The worst of all teams in the Africa Cup of Nations this season.
+
+### Who Has The Worst xGA at Home?
+
+The team with the worst xGA (Goals Expected Against) when playing at home this season is Zimbabwe National Team, who is expected to concede 1.90 goals per game in front of their own fans.
+
+### Who Has The Worst xGA Away From Home?
+
+The team with the worst xGA (Goals Expected Against) when playing away from home this season is Zimbabwe National Team, who is expected to concede 2.69 goals per game whilst on their travels.
+
+### How is the xG calculated for Africa Cup of Nations?
+
+FootyStats uses a unique formula for calculating xG. Traditional xG only takes account of shot positions while FootyStats uses a combination of shot accuracy (on/off target), shot frequency (number of shots), attack dangerousness, overall attack pressure (posession amount and depth of posession) to summarize expected goals for Africa Cup of Nations. The reason for using more data points to calculate xG is because many attacks can be extremely dangerous without a shot attempt, and using other data such as posession and depth of attack can increase the granularity of Africa Cup of Nations's xG data.
+
+## xG (Expected Goals) - International
+
+WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Asia xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2014 Brazil xG (Expected Goals)- Cup or Playoff
+
+International Friendlies xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Africa xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2010 South Africa xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Championship xG (Expected Goals)- Cup or Playoff
+
+FIFA Confederations Cup xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Qualifiers xG (Expected Goals)- Cup or Playoff
+
+UEFA Nations League xG (Expected Goals)- Cup or Playoff
+
+WC Qualification South America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2006 Germany xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2002 Korea Japan xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2018 Russia xG (Expected Goals)- Cup or Playoff
+
+International Champions Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup xG (Expected Goals)- Cup or Playoff
+
+Copa America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup U20 xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Women's World Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U17 World Cup xG (Expected Goals)- Cup or Playoff
+
+Olympics xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Champions League xG (Expected Goals)- Cup or Playoff
+
+UEFA Womens Euro xG (Expected Goals)- Cup or Playoff
+
+Africa U20 Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+WC Qualification CONCACAF xG (Expected Goals)- Cup or Playoff
+
+Olympic Qualifying Concacaf xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U21 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+Olympics Women xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Concacaf xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Oceania xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+FIFA Arab Cup xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Nations League xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U19 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+International Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+AFC Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONMEBOL UEFA Cup of Champions xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2022 Qatar xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Championship U20 xG (Expected Goals)- Cup or Playoff
+
+CONCACAF League xG (Expected Goals)- Cup or Playoff
+
+Arab Club Champions Cup xG (Expected Goals)- Cup or Playoff
+
+Elite League U20 xG (Expected Goals)- Cup or Playoff
+
+CAF Super Cup xG (Expected Goals)- Cup or Playoff
+
+Gulf Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+SheBelieves Cup xG (Expected Goals)- Cup or Playoff
+
+Womens Olympic Qualifying CAF xG (Expected Goals)- Cup or Playoff
+
+UEFA CONMEBOL Club Challenge xG (Expected Goals)- Cup or Playoff
+
+Asian Games xG (Expected Goals)- Cup or Playoff
+
+Concacaf W Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Turkish Womens Cup xG (Expected Goals)- Cup or Playoff
+
+Sud Ladies Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Central American Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U20 Womens World Cup xG (Expected Goals)- Cup or Playoff
+
+Campeones Cup xG (Expected Goals)- Cup or Playoff
+
+African Football League xG (Expected Goals)- Cup or Playoff
+
+African Games Women xG (Expected Goals)- Cup or Playoff
+
+AFF Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Champions League xG (Expected Goals)- Cup or Playoff
+
+Club Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+Concacaf Championship Women U20 xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup Playin xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+EAFF E1 Football Championship xG (Expected Goals)- Cup or Playoff
+
+J League World Challenge xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Club Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Womens Nations Cup xG (Expected Goals)- Cup or Playoff
+
+World Cup xG (Expected Goals)- Cup or Playoff
+
+Loading
+
+Go Premium
+
+Close
+
+/
+
+https://cdn.footystats.org/
+
+- Starts in ### min'
+
+- Starts in ### Hr'
+
+Live'
+
+- Started'
+
+●Soon
+
+●Started
+
+no
+
+Get Profitable Predictions In Your Email!

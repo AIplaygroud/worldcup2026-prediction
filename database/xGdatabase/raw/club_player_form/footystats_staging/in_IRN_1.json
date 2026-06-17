@@ -1,0 +1,209 @@
+[
+  {
+    "national_team": "Haiti",
+    "team_code": "HAI",
+    "group": "C",
+    "roster_player": "Duckens NAZON",
+    "roster_position": "FW",
+    "roster_club": "Esteghlal Tehran FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Amirmohammad RAZAGHINIA",
+    "roster_position": "MF",
+    "roster_club": "Esteghlal Tehran FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Roozbeh CHESHMI",
+    "roster_position": "MF",
+    "roster_club": "Esteghlal Tehran FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Saleh HARDANI",
+    "roster_position": "DF",
+    "roster_club": "Esteghlal Tehran FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Ali NEMATI",
+    "roster_position": "DF",
+    "roster_club": "Foolad Khuzestan FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Ramin REZAEIAN",
+    "roster_position": "DF",
+    "roster_club": "Foolad Khuzestan FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Danial IRI",
+    "roster_position": "DF",
+    "roster_club": "Malavan Anzali FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Ali ALIPOUR",
+    "roster_position": "FW",
+    "roster_club": "Persepolis FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Hossein KANANI",
+    "roster_position": "DF",
+    "roster_club": "Persepolis FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Milad MOHAMMADI",
+    "roster_position": "DF",
+    "roster_club": "Persepolis FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Payam NIAZMAND",
+    "roster_position": "GK",
+    "roster_club": "Persepolis FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Arya YOUSEFI",
+    "roster_position": "DF",
+    "roster_club": "Sepahan SC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Ehsan HAJISAFI",
+    "roster_position": "DF",
+    "roster_club": "Sepahan SC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Hossein HOSSEINI",
+    "roster_position": "GK",
+    "roster_club": "Sepahan SC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Alireza BEIRANVAND",
+    "roster_position": "GK",
+    "roster_club": "Tractor Sazi Tabriz FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Amirhossein HOSSEINZADEH",
+    "roster_position": "FW",
+    "roster_club": "Tractor Sazi Tabriz FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Mehdi TORABI",
+    "roster_position": "MF",
+    "roster_club": "Tractor Sazi Tabriz FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_player": "Shoja KHALILZADEH",
+    "roster_position": "DF",
+    "roster_club": "Tractor Sazi Tabriz FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Jaloliddin MASHARIPOV",
+    "roster_position": "MF",
+    "roster_club": "Esteghlal Tehran FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Rustam ASHURMATOV",
+    "roster_position": "DF",
+    "roster_club": "Esteghlal Tehran FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Igor SERGEEV",
+    "roster_position": "FW",
+    "roster_club": "Persepolis FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Oston URUNOV",
+    "roster_position": "MF",
+    "roster_club": "Persepolis FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  },
+  {
+    "national_team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_player": "Odiljon XAMROBEKOV",
+    "roster_position": "MF",
+    "roster_club": "Tractor Sazi Tabriz FC (IRN)",
+    "league": "Persian Gulf Pro League"
+  }
+]

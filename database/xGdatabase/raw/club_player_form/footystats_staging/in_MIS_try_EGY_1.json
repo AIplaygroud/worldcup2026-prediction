@@ -1,0 +1,202 @@
+[
+  {
+    "national_team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_player": "Fiston MAYELE",
+    "roster_position": "FW",
+    "roster_club": "Pyramids FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mohamed MOHAMED ELSHENAWY",
+    "roster_position": "GK",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Yasser YASSER IBRAHIM",
+    "roster_position": "DF",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mohamed MOHAMED HANY",
+    "roster_position": "DF",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Hossam HOSSAM ABDELMAGUID",
+    "roster_position": "DF",
+    "roster_club": "Zamalek SC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mahmoud TREZEGUET",
+    "roster_position": "FW",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Emam EMAM ASHOUR",
+    "roster_position": "MF",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mostafa MOSTAFA ZICO",
+    "roster_position": "MF",
+    "roster_club": "Pyramids FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Ahmed AHMED FATOUH",
+    "roster_position": "DF",
+    "roster_club": "Zamalek SC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Karim KARIM HAFEZ",
+    "roster_position": "DF",
+    "roster_club": "Pyramids FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mahdy MAHDY SOLIMAN",
+    "roster_position": "GK",
+    "roster_club": "Zamalek SC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mohanad MOHANAD LASHIN",
+    "roster_position": "MF",
+    "roster_club": "Pyramids FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Marawan MARAWAN ATTIA",
+    "roster_position": "MF",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mahmoud MAHMOUD SABER",
+    "roster_position": "MF",
+    "roster_club": "ZED FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mostafa MOSTAFA SHOUBIR",
+    "roster_position": "GK",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Tarek TAREK ALAA",
+    "roster_position": "DF",
+    "roster_club": "ZED FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Ahmed ZIZO",
+    "roster_position": "FW",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_player": "Mohamed MOHAMED ALAA",
+    "roster_position": "GK",
+    "roster_club": "El Gouna FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_player": "Odeh ODEH FAKHOURY",
+    "roster_position": "FW",
+    "roster_club": "Pyramids FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  },
+  {
+    "national_team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_player": "Youssef BELAMMARI",
+    "roster_position": "DF",
+    "roster_club": "Al Ahly FC (EGY)",
+    "league": "Egyptian Premier League",
+    "_tier": "try"
+  }
+]

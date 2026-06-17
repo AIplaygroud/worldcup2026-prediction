@@ -1,0 +1,222 @@
+[
+  {
+    "national_team": "Canada",
+    "team_code": "CAN",
+    "group": "B",
+    "roster_player": "Marcelo FLORES",
+    "roster_position": "MF",
+    "roster_club": "Tigres UANL (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Camilo VARGAS",
+    "roster_position": "GK",
+    "roster_club": "Atlas FC (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_player": "Willer DITTA",
+    "roster_position": "DF",
+    "roster_club": "CF Cruz Azul (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Enner VALENCIA",
+    "roster_position": "FW",
+    "roster_club": "CF Pachuca (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Pedro VITE",
+    "roster_position": "MF",
+    "roster_club": "Pumas UNAM (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_player": "Jackson POROZO",
+    "roster_position": "DF",
+    "roster_club": "Club Tijuana (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Raul RANGEL",
+    "roster_position": "GK",
+    "roster_club": "CD Guadalajara (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Erik LIRA",
+    "roster_position": "MF",
+    "roster_club": "CF Cruz Azul (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Luis ROMO",
+    "roster_position": "MF",
+    "roster_club": "CD Guadalajara (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Alexis VEGA",
+    "roster_position": "FW",
+    "roster_club": "Deportivo Toluca FC (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Carlos ACEVEDO",
+    "roster_position": "GK",
+    "roster_club": "Club Santos Laguna (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Armando GONZALEZ",
+    "roster_position": "FW",
+    "roster_club": "CD Guadalajara (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Israel REYES",
+    "roster_position": "DF",
+    "roster_club": "Club América (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Gilberto MORA",
+    "roster_position": "MF",
+    "roster_club": "Club Tijuana (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Guillermo MARTINEZ",
+    "roster_position": "FW",
+    "roster_club": "Pumas UNAM (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Jesus GALLARDO",
+    "roster_position": "DF",
+    "roster_club": "Deportivo Toluca FC (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Roberto ALVARADO",
+    "roster_position": "FW",
+    "roster_club": "CD Guadalajara (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_player": "Brian GUTIERREZ",
+    "roster_position": "MF",
+    "roster_club": "CD Guadalajara (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Panama",
+    "team_code": "PAN",
+    "group": "L",
+    "roster_player": "Jose RODRIGUEZ",
+    "roster_position": "MF",
+    "roster_club": "FC Juárez (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Panama",
+    "team_code": "PAN",
+    "group": "L",
+    "roster_player": "Adalberto CARRASQUILLA",
+    "roster_position": "MF",
+    "roster_club": "Pumas UNAM (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Panama",
+    "team_code": "PAN",
+    "group": "L",
+    "roster_player": "Ismael DIAZ",
+    "roster_position": "MF",
+    "roster_club": "Club León (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  },
+  {
+    "national_team": "Panama",
+    "team_code": "PAN",
+    "group": "L",
+    "roster_player": "Edgar BARCENAS",
+    "roster_position": "MF",
+    "roster_club": "Mazatlán FC (MEX)",
+    "league": "Liga MX",
+    "_tier": "xg"
+  }
+]

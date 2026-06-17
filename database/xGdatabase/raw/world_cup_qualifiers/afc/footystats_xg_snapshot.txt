@@ -1,0 +1,1830 @@
+WC Qualification Asia xG (Expected Goals) | FootyStats
+
+# xG (Expected Goals) - International WC Qualification Asia
+
+Nation
+
+Type
+
+Cup
+
+Teams
+
+47
+
+Season
+
+2026
+
+- 2022
+- 2016/18
+
+Matches
+
+226/226 Played
+
+Progress
+
+100% completed
+
+Competition
+
+Goals
+
+Over/Under
+
+More
+
+## xG (Expected Goals) - WC Qualification Asia
+
+## xG Per 90, including xG Difference
+
+MP
+
+Matches Played
+
+### Hong Kong National Team
+
+### Singapore National Team
+
+### Iran National Team
+
+### Uzbekistan National Team
+
+### South Korea National Team
+
+### Bangladesh National Team
+
+### Afghanistan National Team
+
+### Japan National Team
+
+### Saudi Arabia National Team
+
+### Yemen National Team
+
+### Maldives National Team
+
+### North Korea National Team
+
+### Nepal National Team
+
+### United Arab Emirates National Team
+
+### Palestine National Team
+
+### Jordan National Team
+
+### Indonesia National Team
+
+### Bhutan National Team
+
+### Qatar National Team
+
+### Kyrgyzstan National Team
+
+### Cambodia National Team
+
+### New Zealand National Team
+
+### Bahrain National Team
+
+### Oman National Team
+
+### Iraq National Team
+
+### Mongolia National Team
+
+### Laos National Team
+
+### Australia National Team
+
+### Sri Lanka National Team
+
+### China National Team
+
+### Kuwait National Team
+
+### Guam National Team
+
+### Pakistan National Team
+
+### Brunei Darussalam National Team
+
+### Taiwan National Team
+
+### India National Team
+
+### Syria National Team
+
+### Tajikistan National Team
+
+### Lebanon National Team
+
+### Malaysia National Team
+
+### Turkmenistan National Team
+
+### Philippines National Team
+
+### Vietnam National Team
+
+### Thailand National Team
+
+### Myanmar National Team
+
+### Macau National Team
+
+### Timor-Leste National Team
+
+| # | Team | xG | xGA | xGD | GF | GA | xG vs Actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Hong Kong National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallDLLLD0.63HomeWDLL1.00AwayLLLD0.25StatisticsOverallHomeAwayWin %13%25%0%AVG3.134.002.25Scored1.002.000.00Conceded2.132.002.25BTTS25%50%0%CS25%25%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 2.62 | 1.23 | +1.39 | 1.00 | 2.13 | -1.62 |
+| 2 | Singapore National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallLDLLL0.88HomeWLDL1.00AwayWLLL0.75StatisticsOverallHomeAwayWin %25%25%25%AVG4.134.503.75Scored1.001.250.75Conceded3.133.253.00BTTS63%75%50%CS13%0%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.94 | 0.63 | +1.31 | 1.00 | 3.13 | -0.94 |
+| 3 | Iran National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallWWDLW2.31HomeWWWDW2.50AwayWDWWL2.13StatisticsOverallHomeAwayWin %69%75%63%AVG2.943.002.88Scored2.192.631.75Conceded0.750.381.13BTTS38%25%50%CS56%75%38%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.81 | 1.10 | +0.71 | 2.19 | 0.75 | +0.38 |
+| 4 | Uzbekistan National TeamWC Qualification Asia (Div. -1)League Pos. 2 / 47International FormLast 5PPGOverallWWDDW2.19HomeWDWWW2.50AwayWLWDD1.88StatisticsOverallHomeAwayWin %63%75%50%AVG2.382.132.63Scored1.691.751.63Conceded0.690.381.00BTTS38%25%50%CS63%75%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.76 | 1.13 | +0.63 | 1.69 | 0.69 | -0.07 |
+| 5 | South Korea National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallDDDWW2.38HomeDWDDW2.00AwayWWWDW2.75StatisticsOverallHomeAwayWin %69%50%88%AVG3.002.633.38Scored2.502.003.00Conceded0.500.630.38BTTS44%50%38%CS56%50%63%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.66 | 0.74 | +0.92 | 2.50 | 0.50 | +0.84 |
+| 6 | Bangladesh National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallDLLLL0.63HomeWDLL1.00AwayDLLL0.25StatisticsOverallHomeAwayWin %13%25%0%AVG3.252.004.50Scored0.500.750.25Conceded2.751.254.25BTTS38%50%25%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.59 | 1.42 | +0.17 | 0.50 | 2.75 | -1.09 |
+| 7 | Afghanistan National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallLDWDL1.38HomeWLDD1.25AwayWLWL1.50StatisticsOverallHomeAwayWin %38%25%50%AVG2.381.253.50Scored0.630.251.00Conceded1.751.002.50BTTS25%0%50%CS50%75%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.56 | 1.01 | +0.55 | 0.63 | 1.75 | -0.93 |
+| 8 | Japan National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallWWDLW2.56HomeWDWDW2.50AwayWWWWL2.63StatisticsOverallHomeAwayWin %81%75%88%AVG3.563.503.63Scored3.383.383.38Conceded0.190.130.25BTTS13%13%13%CS81%88%75%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.52 | 0.65 | +0.87 | 3.38 | 0.19 | +1.86 |
+| 9 | Saudi Arabia National TeamWC Qualification Asia (Div. -1)League Pos. 2 / 47International FormLast 5PPGOverallDWLWD1.67HomeLDWLD1.33AwayDLDWW2.00StatisticsOverallHomeAwayWin %44%33%56%AVG1.941.782.11Scored1.221.001.44Conceded0.720.780.67BTTS33%33%33%CS56%56%56%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 18 | 1.50 | 1.00 | +0.50 | 1.22 | 0.72 | -0.28 |
+| 10 | Yemen National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallWLLDD1.13HomeWLLD1.00AwayDWLD1.25StatisticsOverallHomeAwayWin %25%25%25%AVG2.383.001.75Scored1.131.251.00Conceded1.251.750.75BTTS38%25%50%CS38%25%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.43 | 0.91 | +0.52 | 1.13 | 1.25 | -0.30 |
+| 11 | Maldives National TeamWC Qualification Asia (Div. -1)League Pos. 14 / 47International FormLast 5PPGOverallDL0.50HomeD1.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.502.003.00Scored1.001.001.00Conceded1.501.002.00BTTS100%100%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 1.42 | 1.59 | -0.17 | 1.00 | 1.50 | -0.42 |
+| 12 | North Korea National TeamWC Qualification Asia (Div. -1)League Pos. 2 / 47International FormLast 5PPGOverallLLLDL0.75HomeDLLLD0.63AwayLDLLL0.88StatisticsOverallHomeAwayWin %19%13%25%AVG3.003.252.75Scored1.251.381.13Conceded1.751.881.63BTTS50%63%38%CS6%0%13%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.40 | 1.73 | -0.33 | 1.25 | 1.75 | -0.15 |
+| 13 | Nepal National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallLLLLD0.63HomeDLLL0.25AwayWLLD1.00StatisticsOverallHomeAwayWin %13%0%25%AVG3.133.253.00Scored0.500.250.75Conceded2.633.002.25BTTS25%25%25%CS13%0%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 1.32 | 1.01 | +0.31 | 0.50 | 2.63 | -0.82 |
+| 14 | United Arab Emirates National TeamWC Qualification Asia (Div. -1)League Pos. 2 / 47International FormLast 5PPGOverallDWLDL1.75HomeWWDWD1.90AwayLWDLL1.60StatisticsOverallHomeAwayWin %50%50%50%AVG2.602.502.70Scored1.801.901.70Conceded0.800.601.00BTTS50%50%50%CS35%40%30%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 20 | 1.30 | 1.26 | +0.04 | 1.80 | 0.80 | +0.50 |
+| 15 | Palestine National TeamWC Qualification Asia (Div. -1)League Pos. 2 / 47International FormLast 5PPGOverallDLWWD1.13HomeLDDWD1.25AwayDLLLW1.00StatisticsOverallHomeAwayWin %25%25%25%AVG2.192.631.75Scored1.001.500.50Conceded1.191.131.25BTTS38%63%13%CS38%25%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.29 | 1.23 | +0.06 | 1.00 | 1.19 | -0.29 |
+| 16 | Jordan National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallDWDWL1.81HomeDLWWL1.63AwayWDDDW2.00StatisticsOverallHomeAwayWin %50%50%50%AVG2.753.132.38Scored2.002.251.75Conceded0.750.880.63BTTS44%25%63%CS38%38%38%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.28 | 1.16 | +0.12 | 2.00 | 0.75 | +0.72 |
+| 17 | Indonesia National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallWWLLL1.40HomeLWWWL1.90AwayDLLLL0.90StatisticsOverallHomeAwayWin %40%60%20%AVG3.152.403.90Scored1.551.501.60Conceded1.600.902.30BTTS35%10%60%CS45%70%20%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 20 | 1.28 | 1.31 | -0.03 | 1.55 | 1.60 | +0.27 |
+| 18 | Bhutan National TeamWC Qualification Asia (Div. -1)League Pos. 11 / 47International FormLast 5PPGOverallLW1.50HomeW3.00AwayL0.00StatisticsOverallHomeAwayWin %50%100%0%AVG3.002.004.00Scored1.002.000.00Conceded2.000.004.00BTTS0%0%0%CS50%100%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 1.23 | 2.62 | -1.39 | 1.00 | 2.00 | -0.23 |
+| 19 | Qatar National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallLWLDW1.83HomeWWWWW2.67AwayLLLLD1.00StatisticsOverallHomeAwayWin %56%89%22%AVG3.614.223.00Scored2.063.111.00Conceded1.561.112.00BTTS61%78%44%CS28%22%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 18 | 1.22 | 1.45 | -0.23 | 2.06 | 1.56 | +0.84 |
+| 20 | Kyrgyzstan National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallLLWDD1.19HomeLWLWD1.75AwayLLLLD0.63StatisticsOverallHomeAwayWin %31%50%13%AVG3.133.253.00Scored1.562.001.13Conceded1.561.251.88BTTS63%75%50%CS19%25%13%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.14 | 1.70 | -0.56 | 1.56 | 1.56 | +0.42 |
+| 21 | Cambodia National TeamWC Qualification Asia (Div. -1)League Pos. 12 / 47International FormLast 5PPGOverallDL0.50HomeD1.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG0.500.001.00Scored0.000.000.00Conceded0.500.001.00BTTS0%0%0%CS50%100%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 1.13 | 0.56 | +0.57 | 0.00 | 0.50 | -1.13 |
+| 22 | New Zealand National TeamWC Qualification Asia (Div. -1)League Pos. 0 / 47International FormLast 5PPGOverallLD0.50HomeL0.00AwayD1.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.503.002.00Scored0.500.001.00Conceded2.003.001.00BTTS50%0%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 1.13 | 1.12 | +0.01 | 0.50 | 2.00 | -0.63 |
+| 23 | Bahrain National TeamWC Qualification Asia (Div. -1)League Pos. 2 / 47International FormLast 5PPGOverallDLLLL1.06HomeLDLDL0.75AwayWDLLL1.38StatisticsOverallHomeAwayWin %25%13%38%AVG2.192.631.75Scored1.000.881.13Conceded1.191.750.63BTTS19%25%13%CS38%25%50%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.11 | 1.17 | -0.06 | 1.00 | 1.19 | -0.11 |
+| 24 | Oman National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallLDWDL1.50HomeLWWLD1.75AwayLLDWL1.25StatisticsOverallHomeAwayWin %44%50%38%AVG2.132.132.13Scored1.251.501.00Conceded0.880.631.13BTTS25%25%25%CS50%63%38%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 1.09 | 1.31 | -0.22 | 1.25 | 0.88 | +0.16 |
+| 25 | Iraq National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallWWDDW2.05HomeDDLWW2.30AwayWLWDD1.80StatisticsOverallHomeAwayWin %60%70%50%AVG2.152.302.00Scored1.501.601.40Conceded0.650.700.60BTTS35%40%30%CS60%50%70%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 20 | 1.05 | 1.21 | -0.16 | 1.50 | 0.65 | +0.45 |
+| 26 | Mongolia National TeamWC Qualification Asia (Div. -1)League Pos. 17 / 47International FormLast 5PPGOverallLL0.00HomeL0.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.001.001.00Scored0.000.000.00Conceded1.001.001.00BTTS0%0%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 1.01 | 1.56 | -0.55 | 0.00 | 1.00 | -1.01 |
+| 27 | Laos National TeamWC Qualification Asia (Div. -1)League Pos. 13 / 47International FormLast 5PPGOverallDL0.50HomeL0.00AwayD1.00StatisticsOverallHomeAwayWin %0%0%0%AVG1.501.002.00Scored0.500.001.00Conceded1.001.001.00BTTS50%0%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 1.01 | 1.32 | -0.31 | 0.50 | 1.00 | -0.51 |
+| 28 | Australia National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallDWWWW2.31HomeLWDWW2.38AwayDDDWW2.25StatisticsOverallHomeAwayWin %69%75%63%AVG2.813.252.38Scored2.382.881.88Conceded0.440.380.50BTTS31%25%38%CS63%63%63%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 0.97 | 1.13 | -0.16 | 2.38 | 0.44 | +1.41 |
+| 29 | Sri Lanka National TeamWC Qualification Asia (Div. -1)League Pos. 15 / 47International FormLast 5PPGOverallLD0.50HomeD1.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.502.003.00Scored0.501.000.00Conceded2.001.003.00BTTS50%100%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 0.91 | 1.43 | -0.52 | 0.50 | 2.00 | -0.41 |
+| 30 | China National TeamWC Qualification Asia (Div. -1)League Pos. 2 / 47International FormLast 5PPGOverallLLLLW1.06HomeLWLLW1.25AwayLLWLL0.88StatisticsOverallHomeAwayWin %31%38%25%AVG2.812.882.75Scored1.001.250.75Conceded1.811.632.00BTTS50%63%38%CS13%13%13%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 0.87 | 1.47 | -0.60 | 1.00 | 1.81 | +0.13 |
+| 31 | Kuwait National TeamWC Qualification Asia (Div. -1)League Pos. 1 / 47International FormLast 5PPGOverallDDLLL0.75HomeDLDLL0.63AwayDLDDL0.88StatisticsOverallHomeAwayWin %13%13%13%AVG2.441.753.13Scored0.810.501.13Conceded1.631.252.00BTTS38%38%38%CS25%25%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 16 | 0.79 | 1.82 | -1.03 | 0.81 | 1.63 | +0.02 |
+| 32 | Guam National TeamWC Qualification Asia (Div. -1)League Pos. 18 / 47International FormLast 5PPGOverallLL0.00HomeL0.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.001.003.00Scored0.500.001.00Conceded1.501.002.00BTTS50%0%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 0.63 | 1.94 | -1.31 | 0.50 | 1.50 | -0.13 |
+| 33 | Pakistan National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallLLLLL0.50HomeWLLL0.75AwayDLLL0.25StatisticsOverallHomeAwayWin %13%25%0%AVG3.503.503.50Scored0.250.500.00Conceded3.253.003.50BTTS13%25%0%CS25%25%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 0.56 | 1.13 | -0.57 | 0.25 | 3.25 | -0.31 |
+| 34 | Brunei Darussalam National TeamWC Qualification Asia (Div. -1)League Pos. 20 / 47International FormLast 5PPGOverallLL0.00HomeL0.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG6.006.006.00Scored0.000.000.00Conceded6.006.006.00BTTS0%0%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | 0.47 | 2.24 | -1.77 | 0.00 | 6.00 | -0.47 |
+| 35 | Taiwan National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallLLLLL0.75HomeWLLL0.75AwayWLLL0.75StatisticsOverallHomeAwayWin %25%25%25%AVG3.252.504.00Scored1.131.001.25Conceded2.131.502.75BTTS25%0%50%CS25%25%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | 0.40 | -0.44 | +0.84 | 1.13 | 2.13 | +0.73 |
+| 36 | India National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallLDLDL0.83HomeLLD0.33AwayWDL1.33StatisticsOverallHomeAwayWin %17%0%33%AVG1.672.001.33Scored0.500.330.67Conceded1.171.670.67BTTS33%33%33%CS50%33%67%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 0.50 | 1.17 | +0.50 |
+| 37 | Syria National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallLDWWL1.17HomeLLW1.00AwayDWL1.33StatisticsOverallHomeAwayWin %33%33%33%AVG3.504.332.67Scored1.502.330.67Conceded2.002.002.00BTTS17%0%33%CS33%33%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 1.50 | 2.00 | +1.50 |
+| 38 | Tajikistan National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallWLDLW1.33HomeDDW1.67AwayWLL1.00StatisticsOverallHomeAwayWin %33%33%33%AVG3.002.333.67Scored1.831.672.00Conceded1.170.671.67BTTS50%67%33%CS17%33%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 1.83 | 1.17 | +1.83 |
+| 39 | Lebanon National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallDLLDW1.00HomeDLW1.33AwayDLD0.67StatisticsOverallHomeAwayWin %17%33%0%AVG2.173.001.33Scored0.831.330.33Conceded1.331.671.00BTTS17%0%33%CS50%67%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 0.83 | 1.33 | +0.83 |
+| 40 | Malaysia National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallWLLDW1.67HomeWLW2.00AwayWLD1.33StatisticsOverallHomeAwayWin %50%67%33%AVG3.004.331.67Scored1.502.330.67Conceded1.502.001.00BTTS50%67%33%CS17%0%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 1.50 | 1.50 | +1.50 |
+| 41 | Turkmenistan National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallDLLLD0.33HomeLLD0.33AwayDLL0.33StatisticsOverallHomeAwayWin %0%0%0%AVG3.001.674.33Scored0.670.331.00Conceded2.331.333.33BTTS50%33%67%CS17%33%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 0.67 | 2.33 | +0.67 |
+| 42 | Philippines National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallDLLLL0.17HomeLDL0.33AwayLLL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG2.833.002.67Scored0.500.330.67Conceded2.332.672.00BTTS33%33%33%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 0.50 | 2.33 | +0.50 |
+| 43 | Vietnam National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallLLLWL1.00HomeLLW1.00AwayWLL1.00StatisticsOverallHomeAwayWin %33%33%33%AVG2.673.002.33Scored1.001.001.00Conceded1.672.001.33BTTS33%33%33%CS17%0%33%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 1.00 | 1.67 | +1.00 |
+| 44 | Thailand National TeamWC Qualification Asia (Div. -1)League Pos. 3 / 47International FormLast 5PPGOverallWDLDW1.33HomeLLW1.00AwayWDD1.67StatisticsOverallHomeAwayWin %33%33%33%AVG3.003.332.67Scored1.501.331.67Conceded1.502.001.00BTTS83%67%100%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 6 | 0.00 | 0.00 | 0.00 | 1.50 | 1.50 | +1.50 |
+| 45 | Myanmar National TeamWC Qualification Asia (Div. -1)League Pos. 4 / 47International FormLast 5PPGOverallLDLLL0.63HomeWLDL1.00AwayDLLL0.25StatisticsOverallHomeAwayWin %13%25%0%AVG4.635.004.25Scored1.001.750.25Conceded3.633.254.00BTTS50%75%25%CS13%0%25%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 8 | -0.13 | -0.31 | +0.18 | 1.00 | 3.63 | +1.13 |
+| 46 | Macau National TeamWC Qualification Asia (Div. -1)League Pos. 16 / 47International FormLast 5PPGOverallLD0.50HomeD1.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.000.006.00Scored0.500.001.00Conceded2.500.005.00BTTS50%0%100%CS50%100%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | -0.31 | -0.13 | -0.18 | 0.50 | 2.50 | +0.81 |
+| 47 | Timor-Leste National TeamWC Qualification Asia (Div. -1)League Pos. 19 / 47International FormLast 5PPGOverallLL0.00HomeL0.00AwayL0.00StatisticsOverallHomeAwayWin %0%0%0%AVG3.503.004.00Scored0.000.000.00Conceded3.503.004.00BTTS0%0%0%CS0%0%0%Want to see Corner Stats , Card Stats , FTS , Over 2.5 ~ 3.5 here?Upgrade to FootyStats Premium! | 2 | -0.44 | 0.40 | -0.84 | 0.00 | 3.50 | +0.44 |
+
+This table describes the xG per match of each team in the WC Qualification Asia.xG = Expected Goals to be scored.xGA = Expected Goals to be conceded.xG vs Actual measures the team's actual goals scored against the expected goals scored. A negative number is bad since the team is scoring less than expected. A positive number means the team is scoring more than expected.
+
+For Expected Points data, go to WC Qualification Asia Expected Points Table.
+
+## Players with the Most xG
+
+| # | Player | xG Total | Goals | xG / 90' | Shots | Position | Apps |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Ali Iyad Olwan | 2.56 | 9 | 1.35 | 9 | FW | 13 |
+| 2 | Daichi Kamada | 2.16 | 5 | 0.69 | 6 | MF | 12 |
+| 3 | Harib Abdalla Suhail Al Musharrkh Al Maazmi | 2.06 | 6 | 0.63 | 10 | FW | 18 |
+| 4 | Kevin Diks | 1.72 | 2 | 0.69 | 6 | DF | 7 |
+| 5 | Salem Mohammed Al Dawsari | 1.66 | 2 | 0.28 | 16 | FW | 14 |
+| 6 | Firas Albirakan | 1.6 | 5 | 0.29 | 5 | FW | 15 |
+| 7 | Caio Lucas Fernandes | 1.58 | 2 | 0.35 | 6 | FW | 7 |
+| 8 | Pedro Miguel Correia | 1.57 | 2 | 0.39 | 4 | DF | 8 |
+| 9 | Abdulrahman Al Obod | 1.54 | 2 | 1.52 | 5 | FW | 2 |
+| 10 | Yudong Wang | 1.42 | 1 | 0.71 | 8 | FW | 3 |
+| 11 | Issam Al Sabhi | 1.35 | 2 | 0.31 | 10 | FW | 14 |
+| 12 | Luan Martins Pereira | 1.24 | 1 | 0.37 | 7 | FW | 6 |
+| 13 | Waheb Saleh | 1.18 | 1 | 0.76 | 7 | FW | 2 |
+| 14 | Eldor Shomurodov | 1.16 | 5 | 0.58 | 7 | FW | 13 |
+| 15 | Mehdi Taremi | 1.14 | 11 | 0.57 | 6 | FW | 15 |
+| 16 | Muhanad Ali | 1.13 | 3 | 0.37 | 8 | FW | 15 |
+| 17 | Ole Romeny | 1.13 | 3 | 0.43 | 6 | FW | 6 |
+| 18 | Jo-Guk Ri | 1.1 | 3 | 0.55 | 7 | FW | 12 |
+| 19 | Musab Fahz Aljuwayr | 1.08 | 3 | 0.22 | 7 | MF | 14 |
+| 20 | Mohammad Mehdi Mohebi | 1.06 | 1 | 0.62 | 5 | FW | 2 |
+| 21 | Hyun-Gyu Oh | 1.04 | 4 | 1.17 | 6 | FW | 9 |
+| 22 | Shuto Machino | 1.04 | 1 | 0.96 | 6 | FW | 3 |
+| 23 | Jae-Sung Lee | 0.94 | 5 | 0.52 | 4 | MF | 16 |
+| 24 | Ali Saleh | 0.94 | 3 | 0.33 | 4 | FW | 14 |
+| 25 | Lee Kang-in | 0.92 | 5 | 0.44 | 5 | MF | 15 |
+
+This is the list of the players with the highest xGs in the WC Qualification Asia. List can include players from all positions. For more shots data, go to Shots data for WC Qualification Asia page.
+
+## xG Overall (Per Match)
+
+Previous Next
+
+#1
+
+1.59xG
+
+#2
+
+1.56xG
+
+#3
+
+Hong Kong National Team
+
+2.62xG
+
+#4
+
+1.52xG
+
+#5
+
+1.11xG
+
+#6
+
+0.97xG
+
+#7
+
+0.87xG
+
+#8
+
+0.40xG
+
+#9
+
+0.00xG
+
+#10
+
+Saudi Arabia National Team
+
+1.50xG
+
+#11
+
+1.29xG
+
+#12
+
+North Korea National Team
+
+1.40xG
+
+#13
+
+1.22xG
+
+#14
+
+1.09xG
+
+#15
+
+Sri Lanka National Team
+
+0.91xG
+
+#16
+
+0.56xG
+
+#17
+
+0.00xG
+
+#18
+
+0.00xG
+
+#19
+
+-0.31xG
+
+#20
+
+1.42xG
+
+#21
+
+1.28xG
+
+#22
+
+0.63xG
+
+#23
+
+Brunei Darussalam National Team
+
+0.47xG
+
+#24
+
+0.00xG
+
+#25
+
+1.94xG
+
+#26
+
+1.05xG
+
+#27
+
+1.81xG
+
+#28
+
+1.76xG
+
+#29
+
+South Korea National Team
+
+1.66xG
+
+#30
+
+1.01xG
+
+#31
+
+1.43xG
+
+#32
+
+United Arab Emirates National Team
+
+1.30xG
+
+#33
+
+1.13xG
+
+#34
+
+0.00xG
+
+#35
+
+0.00xG
+
+#36
+
+0.00xG
+
+#37
+
+1.01xG
+
+#38
+
+0.00xG
+
+#39
+
+-0.44xG
+
+#40
+
+1.32xG
+
+#41
+
+0.00xG
+
+#42
+
+0.79xG
+
+#43
+
+1.14xG
+
+#44
+
+-0.13xG
+
+#45
+
+New Zealand National Team
+
+1.13xG
+
+#46
+
+1.28xG
+
+#47
+
+1.23xG
+
+## xG Home
+
+Previous Next
+
+#1
+
+Hong Kong National Team
+
+3.16xG
+
+#2
+
+1.73xG
+
+#3
+
+1.47xG
+
+#4
+
+1.72xG
+
+#5
+
+1.34xG
+
+#6
+
+Saudi Arabia National Team
+
+1.75xG
+
+#7
+
+1.59xG
+
+#8
+
+1.49xG
+
+#9
+
+1.40xG
+
+#10
+
+North Korea National Team
+
+1.36xG
+
+#11
+
+1.29xG
+
+#12
+
+1.38xG
+
+#13
+
+2.03xG
+
+#14
+
+1.23xG
+
+#15
+
+1.03xG
+
+#16
+
+1.28xG
+
+#17
+
+Sri Lanka National Team
+
+0.72xG
+
+#18
+
+0.59xG
+
+#19
+
+0.00xG
+
+#20
+
+2.68xG
+
+#21
+
+2.14xG
+
+#22
+
+South Korea National Team
+
+1.63xG
+
+#23
+
+1.40xG
+
+#24
+
+1.35xG
+
+#25
+
+0.00xG
+
+#26
+
+1.29xG
+
+#27
+
+1.16xG
+
+#28
+
+Brunei Darussalam National Team
+
+0.82xG
+
+#29
+
+0.69xG
+
+#30
+
+0.47xG
+
+#31
+
+United Arab Emirates National Team
+
+1.33xG
+
+#32
+
+1.28xG
+
+#33
+
+1.18xG
+
+#34
+
+1.27xG
+
+#35
+
+1.05xG
+
+#36
+
+1.32xG
+
+#37
+
+New Zealand National Team
+
+1.06xG
+
+#38
+
+0.90xG
+
+#39
+
+0.00xG
+
+#40
+
+0.00xG
+
+#41
+
+0.00xG
+
+#42
+
+0.00xG
+
+#43
+
+0.00xG
+
+#44
+
+0.00xG
+
+#45
+
+0.00xG
+
+#46
+
+0.00xG
+
+#47
+
+0.00xG
+
+## xG Away
+
+Previous Next
+
+#1
+
+Hong Kong National Team
+
+2.07xG
+
+#2
+
+1.84xG
+
+#3
+
+1.52xG
+
+#4
+
+Saudi Arabia National Team
+
+1.24xG
+
+#5
+
+0.96xG
+
+#6
+
+0.74xG
+
+#7
+
+0.73xG
+
+#8
+
+0.00xG
+
+#9
+
+North Korea National Team
+
+1.44xG
+
+#10
+
+1.58xG
+
+#11
+
+1.58xG
+
+#12
+
+1.31xG
+
+#13
+
+Sri Lanka National Team
+
+1.10xG
+
+#14
+
+0.71xG
+
+#15
+
+0.70xG
+
+#16
+
+0.53xG
+
+#17
+
+0.00xG
+
+#18
+
+South Korea National Team
+
+1.70xG
+
+#19
+
+1.19xG
+
+#20
+
+1.39xG
+
+#21
+
+1.28xG
+
+#22
+
+1.42xG
+
+#23
+
+0.79xG
+
+#24
+
+0.66xG
+
+#25
+
+1.28xG
+
+#26
+
+1.09xG
+
+#27
+
+0.95xG
+
+#28
+
+United Arab Emirates National Team
+
+1.27xG
+
+#29
+
+0.80xG
+
+#30
+
+Brunei Darussalam National Team
+
+0.12xG
+
+#31
+
+0.00xG
+
+#32
+
+1.00xG
+
+#33
+
+0.96xG
+
+#34
+
+1.32xG
+
+#35
+
+1.28xG
+
+#36
+
+New Zealand National Team
+
+1.20xG
+
+#37
+
+0.87xG
+
+#38
+
+0.67xG
+
+#39
+
+0.56xG
+
+#40
+
+0.00xG
+
+#41
+
+0.00xG
+
+#42
+
+0.00xG
+
+#43
+
+0.00xG
+
+#44
+
+0.00xG
+
+#45
+
+0.00xG
+
+#46
+
+0.00xG
+
+#47
+
+0.00xG
+
+## xGA Overall (Per Match)
+
+Previous Next
+
+#1
+
+1.56xGA
+
+#2
+
+Hong Kong National Team
+
+1.23xGA
+
+#3
+
+1.42xGA
+
+#4
+
+2.62xGA
+
+#5
+
+North Korea National Team
+
+1.73xGA
+
+#6
+
+1.45xGA
+
+#7
+
+1.17xGA
+
+#8
+
+1.10xGA
+
+#9
+
+1.31xGA
+
+#10
+
+1.01xGA
+
+#11
+
+1.47xGA
+
+#12
+
+Sri Lanka National Team
+
+1.43xGA
+
+#13
+
+1.13xGA
+
+#14
+
+1.13xGA
+
+#15
+
+Saudi Arabia National Team
+
+1.00xGA
+
+#16
+
+1.94xGA
+
+#17
+
+0.91xGA
+
+#18
+
+1.59xGA
+
+#19
+
+-0.44xGA
+
+#20
+
+1.31xGA
+
+#21
+
+1.23xGA
+
+#22
+
+1.13xGA
+
+#23
+
+0.00xGA
+
+#24
+
+1.32xGA
+
+#25
+
+South Korea National Team
+
+0.74xGA
+
+#26
+
+Brunei Darussalam National Team
+
+2.24xGA
+
+#27
+
+0.65xGA
+
+#28
+
+0.63xGA
+
+#29
+
+United Arab Emirates National Team
+
+1.26xGA
+
+#30
+
+1.70xGA
+
+#31
+
+New Zealand National Team
+
+1.12xGA
+
+#32
+
+0.56xGA
+
+#33
+
+1.82xGA
+
+#34
+
+1.21xGA
+
+#35
+
+1.16xGA
+
+#36
+
+1.01xGA
+
+#37
+
+0.40xGA
+
+#38
+
+0.00xGA
+
+#39
+
+0.00xGA
+
+#40
+
+0.00xGA
+
+#41
+
+0.00xGA
+
+#42
+
+0.00xGA
+
+#43
+
+0.00xGA
+
+#44
+
+0.00xGA
+
+#45
+
+-0.13xGA
+
+#46
+
+0.00xGA
+
+#47
+
+-0.31xGA
+
+## xGA Home
+
+Previous Next
+
+#1
+
+Sri Lanka National Team
+
+1.58xGA
+
+#2
+
+1.52xGA
+
+#3
+
+Hong Kong National Team
+
+0.73xGA
+
+#4
+
+2.07xGA
+
+#5
+
+North Korea National Team
+
+1.94xGA
+
+#6
+
+1.42xGA
+
+#7
+
+1.38xGA
+
+#8
+
+1.28xGA
+
+#9
+
+1.26xGA
+
+#10
+
+1.04xGA
+
+#11
+
+0.96xGA
+
+#12
+
+0.66xGA
+
+#13
+
+1.09xGA
+
+#14
+
+1.84xGA
+
+#15
+
+1.36xGA
+
+#16
+
+1.27xGA
+
+#17
+
+1.19xGA
+
+#18
+
+1.10xGA
+
+#19
+
+0.91xGA
+
+#20
+
+0.70xGA
+
+#21
+
+Saudi Arabia National Team
+
+0.62xGA
+
+#22
+
+0.56xGA
+
+#23
+
+0.00xGA
+
+#24
+
+1.32xGA
+
+#25
+
+0.96xGA
+
+#26
+
+South Korea National Team
+
+0.72xGA
+
+#27
+
+Brunei Darussalam National Team
+
+2.66xGA
+
+#28
+
+1.49xGA
+
+#29
+
+1.23xGA
+
+#30
+
+United Arab Emirates National Team
+
+1.19xGA
+
+#31
+
+New Zealand National Team
+
+1.11xGA
+
+#32
+
+1.05xGA
+
+#33
+
+0.53xGA
+
+#34
+
+1.04xGA
+
+#35
+
+0.87xGA
+
+#36
+
+0.31xGA
+
+#37
+
+0.80xGA
+
+#38
+
+0.00xGA
+
+#39
+
+0.00xGA
+
+#40
+
+0.00xGA
+
+#41
+
+0.00xGA
+
+#42
+
+0.00xGA
+
+#43
+
+0.00xGA
+
+#44
+
+0.00xGA
+
+#45
+
+0.00xGA
+
+#46
+
+0.00xGA
+
+#47
+
+0.00xGA
+
+## xGA Away
+
+Previous Next
+
+#1
+
+1.59xGA
+
+#2
+
+3.16xGA
+
+#3
+
+2.68xGA
+
+#4
+
+Hong Kong National Team
+
+1.72xGA
+
+#5
+
+1.65xGA
+
+#6
+
+1.52xGA
+
+#7
+
+North Korea National Team
+
+1.51xGA
+
+#8
+
+1.40xGA
+
+#9
+
+1.36xGA
+
+#10
+
+1.34xGA
+
+#11
+
+1.31xGA
+
+#12
+
+1.36xGA
+
+#13
+
+1.24xGA
+
+#14
+
+1.18xGA
+
+#15
+
+1.10xGA
+
+#16
+
+1.56xGA
+
+#17
+
+1.35xGA
+
+#18
+
+0.72xGA
+
+#19
+
+1.35xGA
+
+#20
+
+Saudi Arabia National Team
+
+1.39xGA
+
+#21
+
+0.00xGA
+
+#22
+
+0.00xGA
+
+#23
+
+1.32xGA
+
+#24
+
+2.17xGA
+
+#25
+
+2.15xGA
+
+#26
+
+Brunei Darussalam National Team
+
+1.82xGA
+
+#27
+
+United Arab Emirates National Team
+
+1.34xGA
+
+#28
+
+New Zealand National Team
+
+1.13xGA
+
+#29
+
+South Korea National Team
+
+0.77xGA
+
+#30
+
+1.36xGA
+
+#31
+
+0.59xGA
+
+#32
+
+1.29xGA
+
+#33
+
+1.05xGA
+
+#34
+
+0.99xGA
+
+#35
+
+0.47xGA
+
+#36
+
+0.00xGA
+
+#37
+
+0.00xGA
+
+#38
+
+0.00xGA
+
+#39
+
+0.00xGA
+
+#40
+
+0.00xGA
+
+#41
+
+0.00xGA
+
+#42
+
+0.00xGA
+
+#43
+
+0.00xGA
+
+#44
+
+0.00xGA
+
+#45
+
+0.69xGA
+
+#46
+
+1.40xGA
+
+#47
+
+Sri Lanka National Team
+
+1.28xGA
+
+Fixture
+
+Home XG
+
+Away XG
+
+AVG Goals
+
+- XG: Upcoming Fixtures
+
+Fixture
+
+Home XG
+
+Away XG
+
+Final Goals
+
+1.10
+
+1.35
+
+3
+
+1.73
+
+1.21
+
+2
+
+Saudi Arabia vs Iraq
+
+1.83
+
+0.51
+
+0
+
+0.85
+
+1.54
+
+3
+
+0.87
+
+0.90
+
+1
+
+1.28
+
+1.03
+
+3
+
+Indonesia vs Saudi Arabia
+
+1.27
+
+2.33
+
+5
+
+0.88
+
+1.67
+
+0
+
+Palestine vs New Zealand
+
+1.13
+
+1.20
+
+2
+
+Saudi Arabia vs Australia
+
+1.74
+
+0.58
+
+3
+
+0.88
+
+0.99
+
+1
+
+Iran vs North Korea
+
+2.48
+
+0.81
+
+3
+
+2.17
+
+0.14
+
+3
+
+1.21
+
+0.65
+
+2
+
+South Korea vs Kuwait
+
+2.86
+
+0.44
+
+4
+
+- XG: Recent Results
+
+## xG (Expected Goals) By Teams in WC Qualification Asia
+
+---
+
+### Which Team Has The Best xG?
+
+Currently, Bangladesh National Team has the best xG (Expected Goals For) in the WC Qualification Asia with 1.59 xG per game.
+
+### Which Team Has The Worst xG?
+
+Currently, Bhutan National Team has the worst xG (Expected Goals For) in the WC Qualification Asia with 1.23 xG per game.
+
+### Who Has The Best xG at Home?
+
+The team with the best xG when playing at home this season is Hong Kong National Team, who has an xG of 3.16 from their home games thus far.
+
+### Who Has The Worst xG at Home?
+
+The team with the worst xG when playing at home this season is Syria National Team, who is expected to score just 0.00 goals per game in front of their own fans.
+
+### Who Has The Best xG Away From Home?
+
+The team with the best xG whilst on the road this season is Hong Kong National Team, who is expected to score 2.07 goals per game in their opponents stadium.
+
+### Who Has The Worst xG Away From Home?
+
+The team with the worst xG whilst on the road this season is India National Team, who is expected to score just 0.00 goals per game in their opponents stadium.
+
+### Who Has The Best xGA?
+
+Myanmar National Team has the best xGA (Expected Goals Against) in the WC Qualification Asia with just -0.31 goals expected against them per game. Arguably, this stat could suggest they have the best defence in this competition.
+
+### Who Has The Best xGA at Home?
+
+Timor-Leste National Team has the best xGA (Expected Goals Against) in the WC Qualification Asia when playing at home with just 0.00 goals expected against them per game. They are formidable when playing at home.
+
+### Who Has The Best xGA Away From Home?
+
+Sri Lanka National Team has the best xGA (Expected Goals Against) in the WC Qualification Asia when playing away from home with just 1.28 goals expected against them per game. Very frustrating for those home fans who must watch their team face Sri Lanka National Team.
+
+### Who Has The Worst xGA?
+
+Fans of Mongolia National Team will demand better defending in the future, with 1.56 xGA (Goals Expected Against). The worst of all teams in the WC Qualification Asia this season.
+
+### Who Has The Worst xGA at Home?
+
+The team with the worst xGA (Goals Expected Against) when playing at home this season is Sri Lanka National Team, who is expected to concede 1.58 goals per game in front of their own fans.
+
+### Who Has The Worst xGA Away From Home?
+
+The team with the worst xGA (Goals Expected Against) when playing away from home this season is Mongolia National Team, who is expected to concede 1.59 goals per game whilst on their travels.
+
+### How is the xG calculated for WC Qualification Asia?
+
+FootyStats uses a unique formula for calculating xG. Traditional xG only takes account of shot positions while FootyStats uses a combination of shot accuracy (on/off target), shot frequency (number of shots), attack dangerousness, overall attack pressure (posession amount and depth of posession) to summarize expected goals for WC Qualification Asia. The reason for using more data points to calculate xG is because many attacks can be extremely dangerous without a shot attempt, and using other data such as posession and depth of attack can increase the granularity of WC Qualification Asia's xG data.
+
+## xG (Expected Goals) - International
+
+WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Asia xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2014 Brazil xG (Expected Goals)- Cup or Playoff
+
+International Friendlies xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Africa xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2010 South Africa xG (Expected Goals)- Cup or Playoff
+
+WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Championship xG (Expected Goals)- Cup or Playoff
+
+FIFA Confederations Cup xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro Qualifiers xG (Expected Goals)- Cup or Playoff
+
+UEFA Nations League xG (Expected Goals)- Cup or Playoff
+
+WC Qualification South America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2006 Germany xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2002 Korea Japan xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2018 Russia xG (Expected Goals)- Cup or Playoff
+
+International Champions Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup xG (Expected Goals)- Cup or Playoff
+
+Copa America xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup U20 xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Women's World Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U17 World Cup xG (Expected Goals)- Cup or Playoff
+
+Olympics xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Champions League xG (Expected Goals)- Cup or Playoff
+
+UEFA Womens Euro xG (Expected Goals)- Cup or Playoff
+
+Africa U20 Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+WC Qualification CONCACAF xG (Expected Goals)- Cup or Playoff
+
+Olympic Qualifying Concacaf xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U21 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+Olympics Women xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Europe xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Concacaf xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Oceania xG (Expected Goals)- Cup or Playoff
+
+Womens WC Qualification Intercontinental Playoffs xG (Expected Goals)- Cup or Playoff
+
+FIFA Arab Cup xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Africa Cup of Nations Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Nations League xG (Expected Goals)- Cup or Playoff
+
+UEFA Euro U19 Championship Qualification xG (Expected Goals)- Cup or Playoff
+
+International Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+AFC Asian Cup xG (Expected Goals)- Cup or Playoff
+
+Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONMEBOL UEFA Cup of Champions xG (Expected Goals)- Cup or Playoff
+
+FIFA World Cup 2022 Qatar xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Championship U20 xG (Expected Goals)- Cup or Playoff
+
+CONCACAF League xG (Expected Goals)- Cup or Playoff
+
+Arab Club Champions Cup xG (Expected Goals)- Cup or Playoff
+
+Elite League U20 xG (Expected Goals)- Cup or Playoff
+
+CAF Super Cup xG (Expected Goals)- Cup or Playoff
+
+Gulf Cup of Nations xG (Expected Goals)- Cup or Playoff
+
+SheBelieves Cup xG (Expected Goals)- Cup or Playoff
+
+Womens Olympic Qualifying CAF xG (Expected Goals)- Cup or Playoff
+
+UEFA CONMEBOL Club Challenge xG (Expected Goals)- Cup or Playoff
+
+Asian Games xG (Expected Goals)- Cup or Playoff
+
+Concacaf W Gold Cup xG (Expected Goals)- Cup or Playoff
+
+Turkish Womens Cup xG (Expected Goals)- Cup or Playoff
+
+Sud Ladies Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Cup xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Gold Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Central American Cup xG (Expected Goals)- Cup or Playoff
+
+FIFA U20 Womens World Cup xG (Expected Goals)- Cup or Playoff
+
+Campeones Cup xG (Expected Goals)- Cup or Playoff
+
+African Football League xG (Expected Goals)- Cup or Playoff
+
+African Games Women xG (Expected Goals)- Cup or Playoff
+
+AFF Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Champions League xG (Expected Goals)- Cup or Playoff
+
+Club Friendlies Women xG (Expected Goals)- Cup or Playoff
+
+Concacaf Championship Women U20 xG (Expected Goals)- Cup or Playoff
+
+FIFA Club World Cup Playin xG (Expected Goals)- Cup or Playoff
+
+AFC Womens Asian Cup Qualification xG (Expected Goals)- Cup or Playoff
+
+EAFF E1 Football Championship xG (Expected Goals)- Cup or Playoff
+
+J League World Challenge xG (Expected Goals)- Cup or Playoff
+
+CONCACAF Caribbean Club Championship xG (Expected Goals)- Cup or Playoff
+
+OFC Womens Nations Cup xG (Expected Goals)- Cup or Playoff
+
+World Cup xG (Expected Goals)- Cup or Playoff
+
+Loading
+
+Go Premium
+
+Close
+
+/
+
+https://cdn.footystats.org/
+
+- Starts in ### min'
+
+- Starts in ### Hr'
+
+Live'
+
+- Started'
+
+●Soon
+
+●Started
+
+no
+
+Get Profitable Predictions In Your Email!
