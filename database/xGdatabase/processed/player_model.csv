@@ -1,0 +1,1249 @@
+team,team_code,group,player,position,age,height_cm,club,league,league_tier,minutes,xg_per90,xa_per90,att_score,att_measured,aerial_score,phys_score,def_score,exp_score,gk_score,overall,confidence
+Algeria,ALG,J,Melvin MASTIL,GK,26.3,194,FC Stade Nyonnais (SUI),,0.52,,,,5.7,0,82.9,82.0,53.1,65.4,53.4,63.6,inferred
+Algeria,ALG,J,Aissa MANDI,DF,34.6,184,Lille OSC (FRA),Ligue 1,1.0,2432,0.032,0.037,5.2,1,54.3,67.6,70.0,100.0,0.0,55.0,stats_full
+Algeria,ALG,J,Achraf ABADA,DF,27.0,185,USM Alger (ALG),,0.52,,,,13.7,0,57.1,82.0,59.9,69.6,0.0,57.7,inferred
+Algeria,ALG,J,Mohamed TOUGAI,DF,26.4,186,Espérance De Tunisie (TUN),,0.52,,,,13.7,0,60.0,82.0,59.9,66.0,0.0,58.5,inferred
+Algeria,ALG,J,Zineddine BELAID,DF,27.2,186,JS Kabylie (ALG),,0.52,,,,13.7,0,60.0,82.0,59.9,70.8,0.0,58.5,inferred
+Algeria,ALG,J,Ramiz ZERROUKI,MF,28.1,183,FC Twente (NED),Eredivisie,0.78,2667,0.141,0.154,17.3,1,51.4,100.0,46.7,84.0,0.0,48.7,stats_partial
+Algeria,ALG,J,Riyad MAHREZ,FW,35.3,179,Al Ahli FC (KSA),Saudi Pro League,0.62,2705,,,39.0,0,40.0,64.5,23.0,88.6,0.0,42.7,stats_partial
+Algeria,ALG,J,Houssem AOUAR,MF,28.0,175,Al Ittihad (KSA),Saudi Pro League,0.62,1902,,,28.8,0,28.6,94.6,44.3,78.6,0.0,49.1,stats_partial
+Algeria,ALG,J,Amine GOUIRI,FW,26.3,180,Olympique Marseille (FRA),Ligue 1,1.0,1318,0.494,0.272,57.5,1,42.9,89.4,26.0,79.8,0.0,58.5,stats_full
+Algeria,ALG,J,Fares CHAIBI,MF,23.5,183,Eintracht Frankfurt (GER),Bundesliga,1.0,1822,0.174,0.249,31.7,1,51.4,93.9,50.0,63.0,0.0,53.8,stats_full
+Algeria,ALG,J,Anis HADJ MOUSSA,FW,24.3,176,Feyenoord Rotterdam (NED),Eredivisie,0.78,2553,,,42.0,0,31.4,100.0,24.3,61.2,0.0,50.2,stats_partial
+Algeria,ALG,J,Nadhir BENBOUALI,FW,26.2,190,Györi ETO FC (HUN),,0.52,,,,37.2,0,71.4,82.0,22.3,64.8,0.0,49.8,inferred
+Algeria,ALG,J,Jaouen HADJAM,DF,23.2,185,BSC Young Boys (SUI),Swiss Super League,0.66,1238,0.16,0.32,23.8,1,57.1,88.6,62.9,51.0,0.0,61.7,stats_partial
+Algeria,ALG,J,Hicham BOUDAOUI,MF,26.7,175,OGC Nice (FRA),Ligue 1,1.0,1697,0.122,0.085,15.5,1,28.6,92.8,50.0,82.2,0.0,44.8,stats_full
+Algeria,ALG,J,Rayan AIT-NOURI,DF,25.0,180,Manchester City FC (ENG),Premier League,1.0,981,0.046,0.159,15.4,1,42.9,86.3,70.0,72.0,0.0,57.7,stats_full
+Algeria,ALG,J,Oussama BENBOT,GK,31.7,188,USM Alger (ALG),,0.52,,,,5.7,0,65.7,68.7,53.1,85.6,53.4,58.2,inferred
+Algeria,ALG,J,Ra BELGHALI,DF,24.0,180,Hellas Verona FC (ITA),Serie A,1.0,1935,0.121,0.103,16.8,1,42.9,94.9,70.0,66.0,0.0,60.1,stats_full
+Algeria,ALG,J,Mohamed AMOURA,FW,26.1,170,VfL Wolfsburg (GER),Bundesliga,1.0,1949,0.46,0.183,48.2,1,14.3,95.0,26.0,78.6,0.0,50.3,stats_full
+Algeria,ALG,J,Nabil BENTALEB,MF,31.6,189,Lille OSC (FRA),Ligue 1,1.0,1253,0.087,0.127,16.1,1,68.6,74.9,50.0,100.0,0.0,44.5,stats_full
+Algeria,ALG,J,Adil BOULBINA,FW,23.1,183,Al Duhail SC (QAT),Qatar Stars League,0.5,1384,0.52,0.296,30.6,1,51.4,90.0,22.1,45.6,0.0,44.7,stats_partial
+Algeria,ALG,J,Ramy BENSEBAINI,DF,31.2,187,Borussia Dortmund (GER),Bundesliga,1.0,1524,0.192,0.043,17.6,1,62.9,79.2,70.0,100.0,0.0,62.3,stats_full
+Algeria,ALG,J,Ibrahim MAZA,MF,20.6,180,Bayer Leverkusen (GER),Bundesliga,1.0,1845,0.293,0.214,38.0,1,42.9,85.1,50.0,45.6,0.0,53.3,stats_full
+Algeria,ALG,J,Luca ZIDANE,GK,28.1,183,Granada CF (ESP),,0.52,,,,5.7,0,51.4,82.0,53.1,76.2,53.4,57.3,inferred
+Algeria,ALG,J,Yassine TITRAOUI,MF,22.8,180,Sporting Charleroi (BEL),Belgian Pro League,0.72,2905,0.217,0.134,19.0,1,42.9,100.0,45.8,50.4,0.0,48.3,stats_partial
+Algeria,ALG,J,Fares GHEDJEMIS,FW,23.8,183,Frosinone (ITA),,0.52,,,,37.2,0,51.4,82.0,22.3,50.4,0.0,46.8,inferred
+Algeria,ALG,J,Samir CHERGUI,DF,27.4,185,Paris FC (FRA),Ligue 1,1.0,1157,0.135,0.011,11.0,1,57.1,87.9,70.0,86.4,0.0,61.8,stats_full
+Argentina,ARG,J,Juan MUSSO,GK,32.1,193,Atlético De Madrid (ESP),La Liga,1.0,720,0.0,0.0,0.0,1,80.0,68.4,62.0,100.0,75.0,75.0,stats_full
+Argentina,ARG,J,Leonardo BALERDI,DF,27.4,188,Olympique Marseille (FRA),Ligue 1,1.0,1996,0.117,0.011,9.6,1,65.7,95.5,70.0,86.4,0.0,66.0,stats_full
+Argentina,ARG,J,Nicolas TAGLIAFICO,DF,33.8,172,Olympique Lyonnais (FRA),Ligue 1,1.0,1292,0.13,0.152,21.2,1,20.0,64.2,70.0,100.0,0.0,46.2,stats_full
+Argentina,ARG,J,Gonzalo MONTIEL,DF,29.5,175,CA River Plate (ARG),La Liga,1.0,113,0.0,0.02,1.5,1,28.6,76.2,70.0,99.0,0.0,48.8,stats_partial
+Argentina,ARG,J,Leandro PAREDES,MF,32.0,182,CA Boca Juniors (ARG),Serie A,1.0,1207,0.11,0.21,24.0,1,48.6,72.5,50.0,100.0,0.0,45.1,stats_partial
+Argentina,ARG,J,Lisandro MARTINEZ,DF,28.4,175,Manchester United FC (ENG),Premier League,1.0,1217,0.008,0.034,3.2,1,28.6,88.5,70.0,92.4,0.0,52.2,stats_full
+Argentina,ARG,J,Rodrigo DE PAUL,MF,32.1,178,Inter Miami CF (USA),La Liga,1.0,1731,0.22,0.28,37.5,1,37.1,75.8,50.0,100.0,0.0,50.2,stats_partial
+Argentina,ARG,J,Valentin BARCO,MF,21.9,172,RC Strasbourg (FRA),Ligue 1,1.0,2187,0.135,0.218,26.5,1,20.0,97.2,50.0,53.4,0.0,49.4,stats_full
+Argentina,ARG,J,Julian ALVAREZ,FW,26.4,170,Atlético De Madrid (ESP),La Liga,1.0,1926,0.416,0.293,53.2,1,14.3,94.8,26.0,80.4,0.0,53.0,stats_full
+Argentina,ARG,J,Lionel MESSI,FW,39.0,170,Inter Miami CF (USA),Major League Soccer,0.58,1243,,,38.3,0,14.3,48.8,22.7,87.4,0.0,35.2,stats_partial
+Argentina,ARG,J,Giovani LO CELSO,MF,30.2,177,Real Betis (ESP),La Liga,1.0,1396,0.187,0.186,28.0,1,34.3,83.6,50.0,100.0,0.0,48.0,stats_full
+Argentina,ARG,J,Geronimo RULLI,GK,34.1,189,Olympique Marseille (FRA),Ligue 1,1.0,2610,0.003,0.002,0.4,1,68.6,70.5,62.0,100.0,75.0,73.0,stats_full
+Argentina,ARG,J,Cristian ROMERO,DF,28.1,185,Tottenham Hotspur FC (ENG),Premier League,1.0,1878,0.088,0.087,13.1,1,57.1,94.4,70.0,90.6,0.0,63.7,stats_full
+Argentina,ARG,J,Exequiel PALACIOS,MF,27.7,177,Bayer Leverkusen (GER),Bundesliga,1.0,1079,0.037,0.11,11.0,1,34.3,87.2,50.0,88.2,0.0,42.1,stats_full
+Argentina,ARG,J,Nico GONZALEZ,MF,28.2,180,Atlético De Madrid (ESP),Premier League,1.0,1576,0.035,0.051,6.4,1,42.9,91.7,50.0,91.2,0.0,42.3,stats_full
+Argentina,ARG,J,Thiago ALMADA,FW,25.1,171,Atlético De Madrid (ESP),La Liga,1.0,1327,0.241,0.189,32.2,1,17.1,89.4,26.0,72.6,0.0,40.8,stats_full
+Argentina,ARG,J,Giuliano SIMEONE,FW,23.5,174,Atlético De Madrid (ESP),La Liga,1.0,2153,0.255,0.231,36.4,1,25.7,96.9,26.0,63.0,0.0,45.9,stats_full
+Argentina,ARG,J,Nico PAZ,FW,21.8,185,Como (ITA),Serie A,1.0,2905,0.276,0.218,37.0,1,57.1,100.0,26.0,52.8,0.0,51.5,stats_full
+Argentina,ARG,J,Nicolas OTAMENDI,DF,38.3,182,SL Ben ca (POR),Primeira Liga,0.78,2606,0.095,0.116,12.3,1,48.6,55.0,65.4,93.4,0.0,49.8,stats_partial
+Argentina,ARG,J,Alexis MAC ALLISTER,MF,27.5,176,Liverpool FC (ENG),Premier League,1.0,2683,0.137,0.096,17.5,1,31.4,100.0,50.0,87.0,0.0,47.6,stats_full
+Argentina,ARG,J,Jose LOPEZ,FW,25.5,190,SE Palmeiras (BRA),Brazil Serie A,0.74,1313,0.433,0.2,35.1,1,71.4,89.3,24.0,67.2,0.0,50.3,stats_partial
+Argentina,ARG,J,Lautaro MARTINEZ,FW,28.8,175,FC Internazionale Milano (ITA),Serie A,1.0,2205,0.7,0.257,71.8,1,28.6,97.3,26.0,94.8,0.0,65.8,stats_full
+Argentina,ARG,J,Emiliano MARTINEZ,GK,33.8,195,Aston Villa FC (ENG),Premier League,1.0,2837,0.0,0.011,0.8,1,85.7,72.0,62.0,100.0,75.0,76.7,stats_full
+Argentina,ARG,J,Enzo FERNANDEZ,MF,25.4,178,Chelsea FC (ENG),Premier League,1.0,3149,0.341,0.253,44.6,1,37.1,100.0,50.0,74.4,0.0,59.0,stats_full
+Argentina,ARG,J,Facundo MEDINA,DF,27.0,184,Olympique Marseille (FRA),Ligue 1,1.0,1381,0.029,0.085,8.6,1,54.3,89.9,70.0,84.0,0.0,61.1,stats_full
+Argentina,ARG,J,Nahuel MOLINA,DF,28.2,179,Atlético De Madrid (ESP),La Liga,1.0,1292,0.028,0.21,17.8,1,40.0,89.1,70.0,91.2,0.0,58.0,stats_full
+Australia,AUS,D,Mathew RYAN,GK,34.2,184,Levante UD (ESP),La Liga,1.0,3240,0.003,0.0,0.2,1,54.3,70.0,62.0,100.0,75.0,70.1,stats_full
+Australia,AUS,D,Milos DEGENEK,DF,32.1,187,APOEL FC (CYP),,0.52,,,,13.7,0,62.9,66.7,59.9,85.6,0.0,55.6,inferred
+Australia,AUS,D,Alessandro CIRCATI,DF,22.7,191,Parma (ITA),Serie A,1.0,2667,0.025,0.008,2.5,1,74.3,100.0,70.0,58.2,0.0,68.7,stats_full
+Australia,AUS,D,Jacob ITALIANO,DF,24.9,177,Grazer AK (AUT),Austrian Bundesliga,0.62,2068,0.161,0.057,10.1,1,34.3,96.1,62.0,60.0,0.0,54.4,stats_partial
+Australia,AUS,D,Jordan BOS,DF,23.6,180,Feyenoord Rotterdam (NED),Eredivisie,0.78,2060,0.228,0.321,32.1,1,42.9,96.0,65.4,57.0,0.0,61.3,stats_partial
+Australia,AUS,D,Jason GERIA,DF,33.1,181,Albirex Niigata (JPN),,0.52,,,,13.7,0,45.7,61.9,59.9,85.6,0.0,49.2,inferred
+Australia,AUS,D,Mathew LECKIE,FW,35.4,181,Melbourne City FC (AUS),,0.52,,,,37.2,0,45.7,52.5,22.3,85.6,0.0,40.0,inferred
+Australia,AUS,D,Connor METCALFE,MF,26.6,183,FC St. Pauli (GER),Bundesliga,1.0,536,0.124,0.195,23.9,1,51.4,82.3,50.0,81.6,0.0,47.8,stats_full
+Australia,AUS,D,Mohamed TOURE,FW,22.2,186,Norwich City FC (ENG),,0.52,,,,37.2,0,60.0,82.0,22.3,40.8,0.0,48.1,inferred
+Australia,AUS,D,Ajdin HRUSTIC,FW,29.9,180,SC Heracles Almelo (NED),Eredivisie,0.78,2222,0.12,0.303,24.7,1,42.9,92.2,24.3,93.4,0.0,40.9,stats_partial
+Australia,AUS,D,Awer MABIL,FW,30.7,178,CD Castellón (ESP),,0.52,,,,37.2,0,37.1,73.6,22.3,85.6,0.0,43.0,inferred
+Australia,AUS,D,Paul IZZO,GK,31.4,184,Randers FC (DEN),Danish Superliga,0.6,2340,0.0,0.046,2.1,1,54.3,84.4,54.6,88.0,57.0,60.6,stats_partial
+Australia,AUS,D,Aiden ONEILL,MF,27.9,180,New York City FC (USA),Major League Soccer,0.58,991,0.019,0.032,2.2,1,42.9,86.4,43.7,76.8,0.0,37.7,stats_partial
+Australia,AUS,D,Cameron DEVLIN,MF,28.0,170,Heart Of Midlothian FC (SCO),Scottish Premiership,0.62,2392,0.092,0.121,9.9,1,14.3,99.0,44.3,78.6,0.0,41.2,stats_partial
+Australia,AUS,D,Kai TREWIN,DF,25.1,183,New York City FC (USA),Major League Soccer,0.58,1402,0.03,0.039,3.0,1,51.4,90.1,61.2,60.0,0.0,56.8,stats_partial
+Australia,AUS,D,Aziz BEHICH,DF,35.5,170,Melbourne City FC (AUS),,0.52,,,,13.7,0,14.3,52.1,59.9,85.6,0.0,37.3,inferred
+Australia,AUS,D,Nestory IRANKUNDA,FW,20.3,165,Watford FC (ENG),,0.52,,,,37.2,0,0.0,73.1,22.3,29.4,0.0,37.3,inferred
+Australia,AUS,D,Patrick BEACH,GK,22.9,189,Melbourne City FC (AUS),,0.52,,,,5.7,0,68.6,82.0,53.1,45.0,53.4,60.7,inferred
+Australia,AUS,D,Harry SOUTTAR,DF,27.6,198,Leicester City FC (ENG),,0.52,,,,13.7,0,94.3,82.0,59.9,73.2,0.0,68.8,inferred
+Australia,AUS,D,Cristian VOLPATO,FW,22.6,187,US Sassuolo (ITA),Serie A,1.0,1060,0.149,0.246,29.6,1,62.9,87.0,26.0,57.6,0.0,45.7,stats_full
+Australia,AUS,D,Cameron BURGESS,DF,30.7,194,Swansea City AFC (WAL),gPremier League,1.0,1361,0.03,0.08,8.2,1,82.9,80.6,70.0,100.0,0.0,67.2,stats_partial
+Australia,AUS,D,Jackson IRVINE,MF,33.3,189,FC St. Pauli (GER),Bundesliga,1.0,1617,0.091,0.051,10.6,1,68.6,68.6,50.0,100.0,0.0,40.8,stats_full
+Australia,AUS,D,Nishan VELUPILLAY,FW,25.1,181,Melbourne Victory FC (AUS),,0.52,,,,37.2,0,45.7,82.0,22.3,58.2,0.0,45.9,inferred
+Australia,AUS,D,Paul OKON-ENGSTLER,MF,21.4,185,Sydney FC (AUS),,0.52,,,,27.5,0,57.1,82.0,42.8,36.0,0.0,47.9,inferred
+Australia,AUS,D,Lucas HERRINGTON,DF,18.8,193,Colorado Rapids (USA),Major League Soccer,0.58,1542,0.034,0.052,3.7,1,80.0,76.0,61.2,22.2,0.0,61.9,stats_partial
+Australia,AUS,D,Tete YENGI,FW,25.5,197,FC Machida Zelvia (JPN),,0.52,,,,37.2,0,91.4,82.0,22.3,60.6,0.0,52.8,inferred
+Austria,AUT,J,Alexander SCHLAGER,GK,30.4,188,FC Red Bull Salzburg (AUT),Austrian Bundesliga,0.62,2790,0.0,0.05,2.3,1,65.7,91.6,54.9,88.6,57.9,64.5,stats_partial
+Austria,AUT,J,David AFFENGRUBER,DF,25.2,185,Elche CF (ESP),La Liga,1.0,2958,0.04,0.045,6.4,1,57.1,100.0,70.0,73.2,0.0,64.1,stats_full
+Austria,AUT,J,Kevin DANSO,DF,27.7,190,Tottenham Hotspur FC (ENG),Premier League,1.0,1489,0.032,0.01,3.2,1,71.4,90.9,70.0,88.2,0.0,65.6,stats_full
+Austria,AUT,J,Xaver SCHLAGER,MF,28.7,174,RB Leipzig (GER),Bundesliga,1.0,1844,0.105,0.107,15.9,1,25.7,94.1,50.0,94.2,0.0,45.0,stats_full
+Austria,AUT,J,Stefan POSCH,DF,29.1,188,1. FSV Mainz 05 (GER),Bundesliga,1.0,1399,0.026,0.031,4.3,1,65.7,89.6,70.0,96.6,0.0,63.7,stats_full
+Austria,AUT,J,Nicolas SEIWALD,MF,25.1,179,RB Leipzig (GER),Bundesliga,1.0,2730,0.06,0.06,9.0,1,40.0,100.0,50.0,72.6,0.0,45.1,stats_full
+Austria,AUT,J,Marko ARNAUTOVIC,FW,37.2,192,FK Crvena Zvezda (SRB),Serie A,1.0,364,0.29,0.92,90.8,1,77.1,44.4,26.0,100.0,0.0,73.0,stats_partial
+Austria,AUT,J,David ALABA,DF,34.0,180,Real Madrid C. F. (ESP),La Liga,1.0,419,0.055,0.0,4.1,1,42.9,57.7,70.0,100.0,0.0,48.9,stats_full
+Austria,AUT,J,Marcel SABITZER,MF,32.2,178,Borussia Dortmund (GER),Bundesliga,1.0,1835,0.056,0.11,12.5,1,37.1,76.0,50.0,100.0,0.0,40.2,stats_full
+Austria,AUT,J,Florian GRILLITSCH,MF,30.9,186,SC Braga (POR),La Liga,1.0,461,0.12,0.13,18.8,1,60.0,72.3,50.0,100.0,0.0,44.1,stats_partial
+Austria,AUT,J,Michael GREGORITSCH,FW,32.2,193,FC Augsburg (GER),Bundesliga,1.0,926,0.604,0.148,56.4,1,80.0,69.4,26.0,100.0,0.0,59.5,stats_full
+Austria,AUT,J,Florian WIEGELE,GK,25.2,205,FC Viktoria Plzeň (CZE),Czech First League,0.58,1785,0.0,0.049,2.1,1,100.0,93.6,54.2,60.6,56.1,70.5,stats_partial
+Austria,AUT,J,Patrick PENTZ,GK,29.4,183,Brøndby IF (DEN),Danish Superliga,0.6,2775,0.0,0.061,2.7,1,51.4,97.6,54.6,86.4,57.0,62.0,stats_partial
+Austria,AUT,J,Sasa KALAJDZIC,FW,28.9,200,LASK Linz (AUT),Premier League,1.0,11,0.0,0.0,0.0,1,100.0,77.6,26.0,95.4,0.0,33.1,stats_full
+Austria,AUT,J,Philipp LIENHART,DF,29.9,189,SC Freiburg (GER),Bundesliga,1.0,1296,0.066,0.01,5.7,1,68.6,84.3,70.0,100.0,0.0,63.5,stats_full
+Austria,AUT,J,Phillip MWENE,DF,32.4,170,1. FSV Mainz 05 (GER),Bundesliga,1.0,2081,0.088,0.093,13.6,1,14.3,76.6,70.0,100.0,0.0,46.5,stats_full
+Austria,AUT,J,Carney CHUKWUEMEKA,MF,22.7,187,Borussia Dortmund (GER),Bundesliga,1.0,869,0.253,0.066,23.9,1,62.9,85.3,50.0,58.2,0.0,49.7,stats_full
+Austria,AUT,J,Romano SCHMID,MF,26.4,168,SV Werder Bremen (GER),Bundesliga,1.0,3004,0.238,0.308,41.0,1,8.6,100.0,50.0,80.4,0.0,54.7,stats_full
+Austria,AUT,J,Christoph BAUMGARTNER,MF,26.9,180,RB Leipzig (GER),Bundesliga,1.0,2811,0.577,0.137,53.5,1,42.9,100.0,50.0,83.4,0.0,63.2,stats_full
+Austria,AUT,J,Konrad LAIMER,MF,29.1,180,FC Bayern München (GER),Bundesliga,1.0,1997,0.127,0.225,26.4,1,42.9,94.9,50.0,96.6,0.0,51.1,stats_full
+Austria,AUT,J,Patrick WIMMER,FW,25.0,182,VfL Wolfsburg (GER),Bundesliga,1.0,1678,0.195,0.121,23.7,1,48.6,92.6,26.0,72.0,0.0,41.4,stats_full
+Austria,AUT,J,Alexander PRASS,MF,25.1,180,TSG Hoffenheim (GER),Bundesliga,1.0,1269,0.117,0.154,20.3,1,42.9,88.9,50.0,72.6,0.0,47.1,stats_full
+Austria,AUT,J,Marco FRIEDL,DF,28.2,187,SV Werder Bremen (GER),Bundesliga,1.0,2552,0.026,0.01,2.7,1,62.9,100.0,70.0,91.2,0.0,65.3,stats_full
+Austria,AUT,J,Paul WANNER,MF,20.5,185,PSV Eindhoven (NED),Eredivisie,0.78,1641,0.237,0.228,27.2,1,57.1,83.0,46.7,38.4,0.0,49.0,stats_partial
+Austria,AUT,J,Michael SVOBODA,DF,27.7,195,Venezia FC (ITA),,0.52,,,,13.7,0,85.7,82.0,59.9,73.8,0.0,66.3,inferred
+Austria,AUT,J,Alessandro SCHOEPF,MF,32.4,178,Wolfsberger AC (AUT),Austrian Bundesliga,0.62,1824,0.245,0.277,24.3,1,37.1,74.8,44.3,88.6,0.0,43.2,stats_partial
+Belgium,BEL,G,Thibaut COURTOIS,GK,34.1,199,Real Madrid C. F. (ESP),La Liga,1.0,2880,0.0,0.0,0.0,1,97.1,70.5,62.0,100.0,75.0,78.8,stats_full
+Belgium,BEL,G,Zeno DEBAST,DF,22.6,189,Sporting CP (POR),Primeira Liga,0.78,1177,0.038,0.268,17.9,1,68.6,88.1,65.4,51.0,0.0,64.9,stats_partial
+Belgium,BEL,G,Arthur THEATE,DF,26.1,185,Eintracht Frankfurt (GER),Bundesliga,1.0,2147,0.06,0.022,6.1,1,57.1,96.8,70.0,78.6,0.0,63.3,stats_full
+Belgium,BEL,G,Brandon MECHELE,DF,33.4,190,Club Brugge (BEL),Belgian Pro League,0.72,3435,0.149,0.173,17.4,1,71.4,74.0,64.1,91.6,0.0,61.8,stats_partial
+Belgium,BEL,G,Maxim DE CUYPER,DF,25.5,182,Brighton & Hove Albion FC (ENG),Premier League,1.0,1412,0.111,0.299,30.7,1,48.6,90.2,70.0,75.0,0.0,62.7,stats_full
+Belgium,BEL,G,Axel WITSEL,MF,37.4,186,Girona FC (ESP),La Liga,1.0,2546,0.092,0.078,12.7,1,60.0,55.0,50.0,100.0,0.0,37.4,stats_full
+Belgium,BEL,G,Kevin DE BRUYNE,MF,35.0,181,SSC Napoli (ITA),Serie A,1.0,1176,0.269,0.308,43.3,1,45.7,58.1,50.0,100.0,0.0,48.9,stats_full
+Belgium,BEL,G,Youri TIELEMANS,MF,29.1,176,Aston Villa FC (ENG),Premier League,1.0,1861,0.089,0.144,17.5,1,31.4,93.7,50.0,96.6,0.0,46.1,stats_full
+Belgium,BEL,G,Romelu LUKAKU,FW,33.1,190,SSC Napoli (ITA),Serie A,1.0,33,1.606,0.575,100.0,1,71.4,58.7,26.0,100.0,0.0,80.1,stats_full
+Belgium,BEL,G,Leandro TROSSARD,FW,31.5,172,Arsenal FC (ENG),Premier League,1.0,2026,0.3,0.222,39.1,1,20.0,81.4,26.0,100.0,0.0,43.4,stats_full
+Belgium,BEL,G,Jeremy DOKU,FW,24.1,173,Manchester City FC (ENG),Premier League,1.0,1783,0.202,0.381,43.7,1,22.9,93.5,26.0,66.6,0.0,48.8,stats_full
+Belgium,BEL,G,Senne LAMMENS,GK,23.9,193,Manchester United FC (ENG),Premier League,1.0,2880,0.0,0.0,0.0,1,80.0,100.0,62.0,65.4,75.0,79.8,stats_full
+Belgium,BEL,G,Mike PENDERS,GK,20.9,200,RC Strasbourg (FRA),Ligue 1,1.0,2970,0.0,0.0,0.0,1,100.0,91.6,62.0,47.4,75.0,82.5,stats_full
+Belgium,BEL,G,Dodi LUKEBAKIO,FW,28.7,184,SL Ben ca (POR),La Liga,1.0,180,0.028,0.429,34.3,1,54.3,79.1,26.0,94.2,0.0,45.4,stats_full
+Belgium,BEL,G,Thomas MEUNIER,DF,34.8,190,Lille OSC (FRA),Ligue 1,1.0,1911,0.066,0.13,14.7,1,71.4,63.4,70.0,100.0,0.0,60.5,stats_full
+Belgium,BEL,G,Koni DE WINTER,DF,24.0,191,AC Milan (ITA),Serie A,1.0,1797,0.04,0.033,5.5,1,74.3,93.7,70.0,66.0,0.0,67.5,stats_full
+Belgium,BEL,G,Charles DE KETELAERE,FW,25.3,192,Atalanta Bergamo (ITA),Serie A,1.0,2206,0.185,0.435,46.5,1,77.1,97.4,26.0,73.8,0.0,59.2,stats_full
+Belgium,BEL,G,Joaquin SEYS,DF,21.2,178,Club Brugge (BEL),Belgian Pro League,0.72,2979,0.069,0.223,15.8,1,37.1,100.0,64.1,40.8,0.0,57.7,stats_partial
+Belgium,BEL,G,Diego MOREIRA,MF,21.9,179,RC Strasbourg (FRA),Ligue 1,1.0,2063,0.097,0.303,30.0,1,40.0,96.1,50.0,53.4,0.0,52.5,stats_full
+Belgium,BEL,G,Hans VANAKEN,MF,33.8,195,Club Brugge (BEL),Belgian Pro League,0.72,3367,0.228,0.255,26.1,1,85.7,72.0,45.8,91.6,0.0,48.5,stats_partial
+Belgium,BEL,G,Timothy CASTAGNE,DF,30.5,185,Fulham FC (ENG),Premier League,1.0,1849,0.072,0.085,11.8,1,57.1,85.7,70.0,100.0,0.0,61.3,stats_full
+Belgium,BEL,G,Alexis SAELEMAEKERS,MF,27.0,180,AC Milan (ITA),Serie A,1.0,2819,0.115,0.153,20.1,1,42.9,100.0,50.0,84.0,0.0,49.8,stats_full
+Belgium,BEL,G,Nicolas RASKIN,MF,25.3,178,Rangers FC (SCO),Scottish Premiership,0.62,2785,0.222,0.292,23.9,1,37.1,100.0,44.3,62.4,0.0,49.3,stats_partial
+Belgium,BEL,G,Amadou ONANA,MF,24.8,192,Aston Villa FC (ENG),Premier League,1.0,1793,0.139,0.025,12.3,1,77.1,93.6,50.0,70.8,0.0,48.5,stats_full
+Belgium,BEL,G,Nathan NGOY,DF,23.0,183,Lille OSC (FRA),Ligue 1,1.0,2397,0.059,0.046,7.9,1,51.4,99.1,70.0,60.0,0.0,62.4,stats_full
+Belgium,BEL,G,Matias FERNANDEZ-PARDO,FW,21.4,188,Lille OSC (FRA),Ligue 1,1.0,2408,0.415,0.181,44.7,1,65.7,99.2,26.0,50.4,0.0,56.9,stats_full
+Bosnia and Herzegovina,BIH,B,Nikola VASILJ,GK,30.5,193,FC St. Pauli (GER),Bundesliga,1.0,3060,0.0,0.0,0.0,1,80.0,91.0,62.0,100.0,75.0,78.4,stats_full
+Bosnia and Herzegovina,BIH,B,Nihad MUJAKIC,DF,28.2,189,Gaziantep FK (TUR),Super Lig,0.66,2201,0.006,0.103,5.4,1,68.6,97.3,62.9,81.0,0.0,64.6,stats_partial
+Bosnia and Herzegovina,BIH,B,Dennis HADZIKADUNIC,DF,27.9,191,UC Sampdoria (ITA),,0.52,,,,13.7,0,74.3,82.0,59.9,75.0,0.0,62.8,inferred
+Bosnia and Herzegovina,BIH,B,Tarik MUHAREMOVIC,DF,23.3,192,US Sassuolo (ITA),Serie A,1.0,2837,0.09,0.029,8.9,1,77.1,100.0,70.0,61.8,0.0,70.5,stats_full
+Bosnia and Herzegovina,BIH,B,Sead KOLASINAC,DF,33.0,183,Atalanta Bergamo (ITA),Serie A,1.0,1233,0.009,0.0,0.7,1,51.4,67.3,70.0,100.0,0.0,53.4,stats_full
+Bosnia and Herzegovina,BIH,B,Benjamin TAHIROVIC,MF,23.3,191,Brøndby IF (DEN),Danish Superliga,0.6,1200,0.13,0.221,15.8,1,74.3,88.3,44.0,49.8,0.0,46.8,stats_partial
+Bosnia and Herzegovina,BIH,B,Amar DEDIC,DF,23.8,180,SL Ben ca (POR),Ligue 1,1.0,287,0.28,0.56,63.0,1,42.9,80.1,70.0,64.8,0.0,63.3,stats_partial
+Bosnia and Herzegovina,BIH,B,Armin GIGOVIC,MF,24.2,187,BSC Young Boys (SUI),Bundesliga,1.0,1744,0.1,0.18,21.0,1,62.9,93.2,50.0,67.2,0.0,50.5,stats_partial
+Bosnia and Herzegovina,BIH,B,Samed BAZDAR,FW,22.4,189,Jagiellonia Białystok (POL),,0.52,,,,37.2,0,68.6,82.0,22.3,42.0,0.0,49.4,inferred
+Bosnia and Herzegovina,BIH,B,Ermedin DEMIROVIC,FW,28.2,185,VfB Stuttgart (GER),Bundesliga,1.0,1507,0.517,0.13,48.5,1,57.1,91.1,26.0,91.2,0.0,56.1,stats_full
+Bosnia and Herzegovina,BIH,B,Edin DZEKO,FW,40.2,192,FC Schalke 04 (GER),Serie A,1.0,220,0.105,0.072,13.3,1,77.1,43.7,26.0,100.0,0.0,30.2,stats_full
+Bosnia and Herzegovina,BIH,B,Mladen JURKAS,GK,18.7,193,FK Borac Banja Luka (BIH),,0.52,,,,5.7,0,80.0,67.9,53.1,19.8,53.4,60.9,inferred
+Bosnia and Herzegovina,BIH,B,Ivan BASIC,MF,24.1,178,FC Astana (KAZ),,0.52,,,,27.5,0,37.1,82.0,42.8,52.2,0.0,45.9,inferred
+Bosnia and Herzegovina,BIH,B,Ivan SUNJIC,MF,29.7,183,Pafos FC (CYP),,0.52,,,,27.5,0,51.4,78.6,42.8,85.6,0.0,46.5,inferred
+Bosnia and Herzegovina,BIH,B,Amar MEMIC,MF,25.4,176,FC Viktoria Plzeň (CZE),Czech First League,0.58,2342,0.211,0.267,20.8,1,31.4,98.6,43.7,61.8,0.0,47.0,stats_partial
+Bosnia and Herzegovina,BIH,B,Amir HADZIAHMETOVIC,MF,29.3,179,Hull City FC (ENG),,0.52,,,,27.5,0,40.0,80.5,42.8,83.4,0.0,45.8,inferred
+Bosnia and Herzegovina,BIH,B,Dzenis BURNIC,MF,28.1,182,Karlsruher SC (GER),,0.52,,,,27.5,0,48.6,82.0,42.8,76.2,0.0,47.0,inferred
+Bosnia and Herzegovina,BIH,B,Nikola KATIC,DF,29.7,194,FC Schalke 04 (GER),,0.52,,,,13.7,0,82.9,78.6,59.9,85.6,0.0,64.5,inferred
+Bosnia and Herzegovina,BIH,B,Kerim ALAJBEGOVIC,FW,18.7,186,FC Red Bull Salzburg (AUT),Austrian Bundesliga,0.62,1911,0.592,0.228,38.1,1,60.0,78.4,23.0,22.8,0.0,48.0,stats_partial
+Bosnia and Herzegovina,BIH,B,Esmir BAJRAKTAREVIC,FW,21.3,175,PSV Eindhoven (NED),Eredivisie,0.78,1077,0.437,0.337,45.3,1,28.6,87.2,24.3,43.2,0.0,49.1,stats_partial
+Bosnia and Herzegovina,BIH,B,Stjepan RADELJIC,DF,28.8,201,HNK Rijeka (CRO),,0.52,,,,13.7,0,100.0,82.0,59.9,80.4,0.0,70.5,inferred
+Bosnia and Herzegovina,BIH,B,Martin ZLOMISLIC,GK,27.8,189,HNK Rijeka (CRO),,0.52,,,,5.7,0,68.6,82.0,53.1,74.4,53.4,60.7,inferred
+Bosnia and Herzegovina,BIH,B,Haris TABAKOVIC,FW,32.0,196,Borussia Mönchengladbach (GER),Bundesliga,1.0,2424,0.532,0.07,45.2,1,88.6,81.4,26.0,100.0,0.0,57.0,stats_full
+Bosnia and Herzegovina,BIH,B,Nidal CELIK,DF,19.9,192,RC Lens (FRA),Ligue 1,1.0,637,0.017,0.0,1.3,1,77.1,72.9,70.0,41.4,0.0,62.6,stats_full
+Bosnia and Herzegovina,BIH,B,Jovo LUKIC,FW,27.5,190,Universitatea Cluj (ROU),,0.52,,,,37.2,0,71.4,82.0,22.3,72.6,0.0,49.8,inferred
+Bosnia and Herzegovina,BIH,B,Ermin MAHMIC,MF,21.3,182,FC Slovan Liberec (CZE),Czech First League,0.58,1555,0.523,0.222,32.4,1,48.6,91.5,43.7,37.2,0.0,51.6,stats_partial
+Brazil,BRA,C,Álisson ALISSON,GK,33.7,193,Liverpool FC (ENG),Premier League,1.0,2340,0.0,0.0,0.0,1,80.0,71.5,62.0,100.0,75.0,75.5,stats_full
+Brazil,BRA,C,Wesley WESLEY,DF,22.8,175,AS Roma (ITA),Serie A,1.0,2474,0.09,0.195,21.4,1,28.6,99.8,70.0,58.8,0.0,57.7,stats_full
+Brazil,BRA,C,Gabriel GABRIEL MAGALHAES,DF,28.5,190,Arsenal FC (ENG),Premier League,1.0,2748,0.152,0.089,18.1,1,71.4,100.0,70.0,93.0,0.0,70.1,stats_full
+Brazil,BRA,C,Marcos MARQUINHOS,DF,32.1,183,Paris Saint-Germain (FRA),Ligue 1,1.0,1040,0.005,0.003,0.6,1,51.4,70.7,70.0,100.0,0.0,54.2,stats_full
+Brazil,BRA,C,Carlos CASEMIRO,MF,34.3,185,Manchester United FC (ENG),Premier League,1.0,2649,0.223,0.108,24.8,1,57.1,69.5,50.0,100.0,0.0,45.5,stats_full
+Brazil,BRA,C,Alex ALEX SANDRO,DF,35.4,180,CR Flamengo (BRA),Brazil Serie A,0.74,1069,0.009,0.111,6.7,1,42.9,55.8,64.5,92.2,0.0,47.2,stats_partial
+Brazil,BRA,C,Vinicius VINICIUS JUNIOR,FW,25.9,176,Real Madrid C. F. (ESP),La Liga,1.0,2865,0.452,0.225,50.8,1,31.4,100.0,26.0,77.4,0.0,55.2,stats_full
+Brazil,BRA,C,Bruno BRUNO GUIMARAES,MF,28.6,182,Newcastle United FC (ENG),Premier League,1.0,2467,0.241,0.141,28.7,1,48.6,99.7,50.0,93.6,0.0,53.7,stats_full
+Brazil,BRA,C,Matheus MATHEUS CUNHA,FW,27.1,183,Manchester United FC (ENG),Premier League,1.0,2506,0.254,0.133,29.0,1,51.4,100.0,26.0,84.6,0.0,46.3,stats_full
+Brazil,BRA,C,Neymar NEYMAR JR,FW,34.4,175,Santos FC (BRA),Brazil Serie A,0.74,686,0.517,0.3,45.3,1,28.6,57.7,24.0,92.2,0.0,43.2,stats_partial
+Brazil,BRA,C,Raphael RAPHINHA,FW,29.5,176,FC Barcelona (ESP),La Liga,1.0,1424,0.703,0.373,80.7,1,31.4,87.6,26.0,99.0,0.0,69.2,stats_full
+Brazil,BRA,C,Weverton WEVERTON,GK,38.5,189,Grêmio FBPA (BRA),Brazil Serie A,0.74,1530,0.0,0.074,4.1,1,68.6,50.2,57.2,92.2,63.3,62.4,stats_partial
+Brazil,BRA,C,Danilo DANILO,DF,34.9,184,CR Flamengo (BRA),gPremier League,1.0,267,0.0,0.0,0.0,1,54.3,53.1,70.0,100.0,0.0,50.6,stats_partial
+Brazil,BRA,C,Gleison BREMER,DF,29.2,188,Juventus FC (ITA),Serie A,1.0,2187,0.112,0.017,9.7,1,65.7,96.0,70.0,97.2,0.0,66.2,stats_full
+Brazil,BRA,C,Leonardo LEO PEREIRA,DF,30.4,189,CR Flamengo (BRA),Brazil Serie A,0.74,1231,0.112,0.155,14.8,1,68.6,81.1,64.5,92.2,0.0,62.4,stats_partial
+Brazil,BRA,C,Douglas DOUGLAS SANTOS,DF,32.2,173,FC Zenit St. Petersburg (RUS),,0.52,,,,13.7,0,22.9,66.3,59.9,85.6,0.0,43.5,inferred
+Brazil,BRA,C,Fabio FABINHO,MF,32.6,188,Al Ittihad (KSA),,0.52,,,,27.5,0,65.7,64.3,42.8,85.6,0.0,44.3,inferred
+Brazil,BRA,C,Danilo DANILO SANTOS,MF,25.1,177,Botafogo (BRA),Brazil Serie A,0.74,981,0.55,0.247,44.2,1,34.3,86.3,46.1,64.8,0.0,54.2,stats_partial
+Brazil,BRA,C,Endrick ENDRICK,FW,19.9,172,Olympique Lyonnais (FRA),Ligue 1,1.0,1248,0.467,0.328,59.6,1,20.0,77.7,26.0,41.4,0.0,53.9,stats_full
+Brazil,BRA,C,Lucas LUCAS PAQUETA,MF,28.8,183,CR Flamengo (BRA),Premier League,1.0,1544,0.142,0.176,23.8,1,51.4,91.4,50.0,94.8,0.0,50.0,stats_full
+Brazil,BRA,C,Luiz LUIZ HENRIQUE,FW,25.4,182,FC Zenit St. Petersburg (RUS),,0.52,,,,37.2,0,48.6,82.0,22.3,60.0,0.0,46.4,inferred
+Brazil,BRA,C,Gabriel GABRIEL MARTINELLI,FW,25.0,178,Arsenal FC (ENG),Premier League,1.0,1025,0.47,0.226,52.2,1,37.1,86.7,26.0,72.0,0.0,54.2,stats_full
+Brazil,BRA,C,Ederson EDERSON,GK,32.8,188,Fenerbahçe SK (TUR),Serie A,1.0,2253,0.222,0.088,23.2,1,65.7,75.5,62.0,100.0,75.0,73.2,stats_full
+Brazil,BRA,C,Roger ROGER IBANEZ,DF,27.6,186,Al Ahli FC (KSA),Saudi Pro League,0.62,2471,0.164,0.147,14.5,1,60.0,99.7,62.0,76.2,0.0,63.7,stats_partial
+Brazil,BRA,C,Igor IGOR THIAGO,FW,25.0,190,Brentford FC (ENG),Premier League,1.0,3292,0.675,0.094,57.7,1,71.4,100.0,26.0,72.0,0.0,65.0,stats_full
+Brazil,BRA,C,Rayan RAYAN,FW,19.9,187,AFC Bournemouth (ENG),Premier League,1.0,1146,0.21,0.218,32.1,1,62.9,76.9,26.0,41.4,0.0,45.1,stats_full
+Cape Verde,CPV,H,Josimar VOZINHA,GK,40.0,189,GD Chaves (POR),,0.52,,,,5.7,0,68.6,45.1,53.1,85.6,53.4,55.2,inferred
+Cape Verde,CPV,H,Ianique STOPIRA,DF,38.1,178,SCU Torreense (POR),,0.52,,,,13.7,0,37.1,45.1,59.9,85.6,0.0,42.5,inferred
+Cape Verde,CPV,H,Edilson DINEY BORGES,DF,31.4,185,Al Bataeh Club (UAE),,0.52,,,,13.7,0,57.1,70.2,59.9,85.6,0.0,54.7,inferred
+Cape Verde,CPV,H,Roberto PICO LOPES,DF,34.0,186,Shamrock Rovers FC (IRL),,0.52,,,,13.7,0,60.0,58.2,59.9,85.6,0.0,52.6,inferred
+Cape Verde,CPV,H,Logan LOGAN COSTA,DF,25.2,190,Villarreal CF (ESP),La Liga,1.0,21,0.0,0.613,46.0,1,71.4,77.7,70.0,73.2,0.0,68.7,stats_full
+Cape Verde,CPV,H,Kevin KEVIN PINA,MF,29.4,177,FC Krasnodar (RUS),,0.52,,,,27.5,0,34.3,80.0,42.8,84.0,0.0,45.1,inferred
+Cape Verde,CPV,H,Jovane JOVANE CABRAL,MF,28.0,174,CF Estrela Da Amadora (POR),Primeira Liga,0.78,1675,0.462,0.136,35.0,1,25.7,92.6,46.7,83.4,0.0,51.4,stats_partial
+Cape Verde,CPV,H,João JOAO PAULO,MF,28.1,180,FC FCSB (ROU),,0.52,,,,27.5,0,42.9,82.0,42.8,76.2,0.0,46.5,inferred
+Cape Verde,CPV,H,Gilson GILSON BENCHIMOL,FW,24.5,187,FC Akron Tolyatti (RUS),,0.52,,,,37.2,0,62.9,82.0,22.3,54.6,0.0,48.5,inferred
+Cape Verde,CPV,H,Jamiro JAMIRO MONTEIRO,MF,32.6,175,PEC Zwolle (NED),Eredivisie,0.78,1278,0.163,0.234,23.2,1,28.6,69.8,46.7,93.4,0.0,41.3,stats_partial
+Cape Verde,CPV,H,Garry GARRY RODRIGUES,MF,35.5,173,Apollon Limassol (CYP),,0.52,,,,27.5,0,22.9,52.1,42.8,85.6,0.0,37.0,inferred
+Cape Verde,CPV,H,Márcio MARCIO ROSA,GK,29.3,186,PFC Montana (BUL),,0.52,,,,5.7,0,60.0,80.5,53.1,83.4,53.4,58.8,inferred
+Cape Verde,CPV,H,Sidny SIDNY LOPES CABRAL,DF,23.7,176,SL Ben ca (POR),,0.52,,,,13.7,0,31.4,82.0,59.9,49.8,0.0,50.0,inferred
+Cape Verde,CPV,H,Deroy DEROY DUARTE,MF,26.9,177,PFC Ludogorets Razgrad (BUL),,0.52,,,,27.5,0,34.3,82.0,42.8,69.0,0.0,45.6,inferred
+Cape Verde,CPV,H,Laros LAROS DUARTE,MF,29.3,180,Puskás Akadémia FC (HUN),,0.52,,,,27.5,0,42.9,80.5,42.8,83.4,0.0,46.1,inferred
+Cape Verde,CPV,H,Jair YANNICK SEMEDO,MF,30.5,176,SC Farense (POR),,0.52,,,,27.5,0,31.4,74.6,42.8,85.6,0.0,43.5,inferred
+Cape Verde,CPV,H,Willy WILLY SEMEDO,MF,32.1,185,AC Omonia (CYP),,0.52,,,,27.5,0,57.1,66.7,42.8,85.6,0.0,44.1,inferred
+Cape Verde,CPV,H,Telmo TELMO ARCANJO,MF,25.0,180,Vitória SC (POR),Primeira Liga,0.78,1242,0.206,0.112,18.6,1,42.9,88.7,46.7,65.4,0.0,45.6,stats_partial
+Cape Verde,CPV,H,Dailon DAILON LIVRAMENTO,FW,25.1,185,Casa Pia AC (POR),Serie A,1.0,871,0.09,0.28,27.8,1,57.1,85.3,26.0,72.6,0.0,43.5,stats_partial
+Cape Verde,CPV,H,Ryan RYAN MENDES,FW,36.4,178,Iğdır FK (TUR),,0.52,,,,37.2,0,37.1,48.4,22.3,85.6,0.0,37.9,inferred
+Cape Verde,CPV,H,Nuno NUNO DA COSTA,MF,35.3,182,Başakşehir FK (TUR),Super Lig,0.66,896,0.364,0.134,24.7,1,48.6,55.2,44.9,89.8,0.0,39.7,stats_partial
+Cape Verde,CPV,H,Steven STEVEN MOREIRA,DF,31.8,178,Columbus Crew (USA),Major League Soccer,0.58,1267,0.031,0.061,4.0,1,37.1,74.0,61.2,87.4,0.0,48.6,stats_partial
+Cape Verde,CPV,H,Carlos CJ DOS SANTOS,GK,25.8,189,San Diego FC (USA),Major League Soccer,0.58,3198,0.0,0.0,0.0,1,68.6,100.0,54.2,64.2,56.1,65.2,stats_partial
+Cape Verde,CPV,H,Wagner WAGNER PINA,DF,23.6,180,Trabzonspor (TUR),Super Lig,0.66,2444,0.036,0.263,14.8,1,42.9,99.5,62.9,53.4,0.0,58.8,stats_partial
+Cape Verde,CPV,H,Kelvin KELVIN PIRES,DF,26.0,193,SJK (FIN),,0.52,,,,13.7,0,80.0,82.0,59.9,63.6,0.0,64.5,inferred
+Cape Verde,CPV,H,Hélio HELIO VARELA,MF,24.1,176,Maccabi Tel-Aviv FC (ISR),,0.52,,,,27.5,0,31.4,82.0,42.8,52.2,0.0,45.3,inferred
+Canada,CAN,B,Dayne ST. CLAIR,GK,29.1,191,Inter Miami CF (USA),Major League Soccer,0.58,1445,0.0,0.002,0.1,1,74.3,90.0,54.2,84.0,56.1,64.8,stats_partial
+Canada,CAN,B,Alistair JOHNSTON,DF,27.7,180,Celtic FC (SCO),Scottish Premiership,0.62,501,0.029,0.264,13.6,1,42.9,82.0,62.0,76.8,0.0,54.0,stats_partial
+Canada,CAN,B,Al JONES,DF,28.7,191,Middlesbrough FC (ENG),,0.52,,,,13.7,0,74.3,82.0,59.9,79.8,0.0,62.8,inferred
+Canada,CAN,B,Luc DE FOUGEROLLES,DF,20.7,183,FCV Dender EH (BEL),Belgian Pro League,0.72,1652,0.014,0.124,7.5,1,51.4,83.9,64.1,37.8,0.0,56.7,stats_partial
+Canada,CAN,B,Joel WATERMAN,DF,30.4,185,Chicago Fire FC (USA),Major League Soccer,0.58,757,0.006,0.042,2.1,1,57.1,77.2,61.2,87.4,0.0,55.1,stats_partial
+Canada,CAN,B,Mathieu CHOINIERE,MF,27.4,173,LAFC (USA),Major League Soccer,0.58,857,0.038,0.045,3.6,1,22.9,85.2,43.7,73.8,0.0,36.0,stats_partial
+Canada,CAN,B,Stephen EUSTAQUIO,MF,29.5,175,LAFC (USA),Major League Soccer,0.58,672,0.024,0.006,1.3,1,28.6,81.0,43.7,86.4,0.0,34.6,stats_partial
+Canada,CAN,B,Ismael KONE,MF,24.0,188,US Sassuolo (ITA),Serie A,1.0,2795,0.164,0.057,16.6,1,65.7,100.0,50.0,66.0,0.0,50.7,stats_full
+Canada,CAN,B,Cyle LARIN,FW,31.2,188,Southampton FC (ENG),La Liga,1.0,1551,0.08,0.46,40.5,1,65.7,79.4,26.0,100.0,0.0,50.6,stats_partial
+Canada,CAN,B,Jonathan DAVID,FW,26.4,175,Juventus FC (ITA),Serie A,1.0,1784,0.578,0.213,59.3,1,28.6,93.6,26.0,80.4,0.0,58.2,stats_full
+Canada,CAN,B,Liam MILLAR,MF,26.7,176,Hull City FC (ENG),,0.52,,,,27.5,0,31.4,82.0,42.8,67.8,0.0,45.3,inferred
+Canada,CAN,B,Tani OLUWASEYI,FW,26.1,187,Villarreal CF (ESP),La Liga,1.0,949,0.343,0.194,40.3,1,62.9,86.0,26.0,78.6,0.0,51.4,stats_full
+Canada,CAN,B,Derek CORNELIUS,DF,28.6,186,Rangers FC (SCO),Ligue 1,1.0,58,0.0,0.0,0.0,1,60.0,78.0,70.0,93.6,0.0,58.5,stats_full
+Canada,CAN,B,Jacob SHAFFELBURG,MF,26.6,181,LAFC (USA),Major League Soccer,0.58,1433,0.247,0.224,20.5,1,45.7,90.4,43.7,69.0,0.0,46.3,stats_partial
+Canada,CAN,B,Moise BOMBITO,DF,26.2,190,OGC Nice (FRA),Ligue 1,1.0,154,0.0,0.0,0.0,1,71.4,78.9,70.0,79.2,0.0,62.2,stats_full
+Canada,CAN,B,Maxime CREPEAU,GK,32.1,185,Orlando City SC (USA),Major League Soccer,0.58,1361,0.0,0.0,0.0,1,57.1,73.1,54.2,87.4,56.1,58.9,stats_partial
+Canada,CAN,B,Tajon BUCHANAN,FW,27.3,183,Villarreal CF (ESP),La Liga,1.0,1873,0.132,0.125,19.3,1,51.4,94.4,26.0,85.8,0.0,39.8,stats_full
+Canada,CAN,B,Owen GOODMAN,GK,22.5,193,Barnsley (ENG),,0.52,,,,5.7,0,80.0,82.0,53.1,42.6,53.4,63.0,inferred
+Canada,CAN,B,Alphonso DAVIES,DF,25.6,183,FC Bayern München (GER),Bundesliga,1.0,521,0.076,0.225,22.6,1,51.4,82.2,70.0,75.6,0.0,60.4,stats_full
+Canada,CAN,B,Ali AHMED,FW,25.7,180,Norwich City FC (ENG),,0.52,,,,37.2,0,42.9,82.0,22.3,61.8,0.0,45.5,inferred
+Canada,CAN,B,Jonathan OSORIO,MF,34.0,175,Toronto FC (CAN),,0.52,,,,27.5,0,28.6,58.2,42.8,85.6,0.0,39.1,inferred
+Canada,CAN,B,Richie LARYEA,DF,31.4,175,Toronto FC (CAN),,0.52,,,,13.7,0,28.6,70.2,59.9,85.6,0.0,46.2,inferred
+Canada,CAN,B,Niko SIGUR,DF,22.8,178,HNK Hajduk Split (CRO),,0.52,,,,13.7,0,37.1,82.0,59.9,44.4,0.0,51.7,inferred
+Canada,CAN,B,Promise DAVID,FW,25.0,195,Royale Union Saint-Gilloise (BEL),Belgian Pro League,0.72,1496,0.646,0.087,39.6,1,85.7,91.0,23.8,63.6,0.0,55.2,stats_partial
+Canada,CAN,B,Nathan SALIBA,MF,22.4,174,RSC Anderlecht (BEL),Belgian Pro League,0.72,2324,0.215,0.139,19.1,1,25.7,98.4,45.8,48.0,0.0,46.3,stats_partial
+Canada,CAN,B,Marcelo FLORES,MF,22.7,164,Tigres UANL (MEX),Liga MX,0.68,946,0.395,0.11,25.8,1,0.0,86.0,45.2,48.6,0.0,43.1,stats_partial
+Colombia,COL,K,David OSPINA,GK,37.8,183,Atlético Nacional (COL),,0.52,,,,5.7,0,51.4,45.1,53.1,85.6,53.4,51.8,inferred
+Colombia,COL,K,Daniel MUNOZ,DF,30.1,180,Crystal Palace FC (ENG),Premier League,1.0,2417,0.117,0.189,22.9,1,42.9,92.7,70.0,100.0,0.0,60.5,stats_full
+Colombia,COL,K,Jhon LUCUMI,DF,28.0,187,Bologna FC (ITA),Serie A,1.0,2282,0.054,0.031,6.4,1,62.9,98.0,70.0,90.0,0.0,65.3,stats_full
+Colombia,COL,K,Santiago ARIAS,DF,34.4,177,CA Independiente (ARG),Argentine Primera,0.7,911,0.005,0.194,10.4,1,34.3,59.1,63.7,91.0,0.0,45.7,stats_partial
+Colombia,COL,K,Kevin CASTANO,MF,25.7,179,CA River Plate (ARG),Argentine Primera,0.7,93,0.039,0.223,13.8,1,40.0,78.3,45.5,67.2,0.0,40.5,stats_partial
+Colombia,COL,K,Richard RIOS,MF,26.0,185,SL Ben ca (POR),Primeira Liga,0.78,2284,0.277,0.203,28.1,1,57.1,98.1,46.7,71.4,0.0,53.1,stats_partial
+Colombia,COL,K,Luis DIAZ,FW,29.4,179,FC Bayern München (GER),Bundesliga,1.0,2464,0.543,0.37,68.5,1,40.0,97.3,26.0,98.4,0.0,65.7,stats_full
+Colombia,COL,K,Jorge CARRASCAL,MF,28.1,180,CR Flamengo (BRA),Brazil Serie A,0.74,616,0.38,0.269,36.0,1,42.9,83.0,46.1,82.8,0.0,51.0,stats_partial
+Colombia,COL,K,Jhon CORDOBA,FW,33.1,186,FC Krasnodar (RUS),,0.52,,,,37.2,0,60.0,61.9,22.3,85.6,0.0,44.1,inferred
+Colombia,COL,K,James RODRIGUEZ,MF,34.9,181,Minnesota United FC (USA),Major League Soccer,0.58,220,0.137,1.093,53.5,1,45.7,52.9,43.7,87.4,0.0,50.1,stats_partial
+Colombia,COL,K,Jhon ARIAS,MF,28.7,168,SE Palmeiras (BRA),Premier League,1.0,1140,0.26,0.071,24.8,1,8.6,87.8,50.0,94.2,0.0,45.2,stats_full
+Colombia,COL,K,Camilo VARGAS,GK,37.3,183,Atlas FC (MEX),Liga MX,0.68,2970,0.0,0.066,3.4,1,51.4,55.0,56.0,90.4,60.6,57.9,stats_partial
+Colombia,COL,K,Yerry MINA,DF,31.7,195,Cagliari (ITA),Serie A,1.0,2162,0.073,0.018,6.8,1,85.7,81.3,70.0,100.0,0.0,68.1,stats_full
+Colombia,COL,K,Gustavo PUERTA,DF,22.9,173,Racing Santander (ESP),,0.52,,,,13.7,0,22.9,82.0,59.9,45.0,0.0,47.4,inferred
+Colombia,COL,K,Juan PORTILLA,MF,27.8,181,Athletico Paranaense (BRA),Brazil Serie A,0.74,800,0.039,0.087,7.0,1,45.7,84.7,46.1,81.0,0.0,40.1,stats_partial
+Colombia,COL,K,Jefferson LERMA,MF,31.6,180,Crystal Palace FC (ENG),Premier League,1.0,1693,0.117,0.095,15.9,1,42.9,78.3,50.0,100.0,0.0,42.7,stats_full
+Colombia,COL,K,Johan MOJICA,DF,33.8,184,RCD Mallorca (ESP),La Liga,1.0,2723,0.027,0.13,11.8,1,54.3,72.0,70.0,100.0,0.0,57.1,stats_full
+Colombia,COL,K,Willer DITTA,DF,28.4,179,CF Cruz Azul (MEX),Liga MX,0.68,3802,0.036,0.137,8.8,1,40.0,100.0,63.3,82.8,0.0,57.3,stats_partial
+Colombia,COL,K,Cucho HERNANDEZ,FW,27.2,176,Real Betis (ESP),La Liga,1.0,2623,0.425,0.167,44.4,1,31.4,100.0,26.0,85.2,0.0,51.7,stats_full
+Colombia,COL,K,Juan QUINTERO,MF,33.4,167,CA River Plate (ARG),Argentine Primera,0.7,608,0.632,0.568,63.0,1,5.7,61.4,45.5,91.0,0.0,52.5,stats_partial
+Colombia,COL,K,Leandro CAMPAZ,FW,26.1,166,CA Rosario Central (ARG),Argentine Primera,0.7,750,0.362,0.426,41.4,1,2.9,84.2,23.7,69.6,0.0,42.4,stats_partial
+Colombia,COL,K,Deiver MACHADO,DF,32.8,173,FC Nantes (FRA),Ligue 1,1.0,1201,0.068,0.105,13.0,1,22.9,68.2,70.0,100.0,0.0,46.8,stats_full
+Colombia,COL,K,Davinson SANCHEZ,DF,30.0,188,Galatasaray SK (TUR),Super Lig,0.66,2426,0.06,0.141,9.9,1,65.7,93.4,62.9,89.8,0.0,63.4,stats_partial
+Colombia,COL,K,Alvaro MONTERO,GK,31.2,201,CA Vélez Sars eld (ARG),Argentine Primera,0.7,1530,0.0,0.022,1.2,1,100.0,79.2,56.4,91.0,61.5,71.9,stats_partial
+Colombia,COL,K,Luis SUAREZ,FW,28.5,179,Sporting CP (POR),Primeira Liga,0.78,2700,0.927,0.205,66.2,1,40.0,100.0,24.3,86.4,0.0,64.9,stats_partial
+Colombia,COL,K,Andres GOMEZ,FW,23.8,170,CR Vasco Da Gama (BRA),,0.52,,,,37.2,0,14.3,82.0,22.3,50.4,0.0,41.2,inferred
+DR Congo,COD,K,Lionel MPASI,GK,31.9,182,Le Havre AC (FRA),Ligue 1,1.0,308,0.0,0.0,0.0,1,48.6,66.3,62.0,100.0,75.0,68.4,stats_full
+DR Congo,COD,K,Aaron WAN-BISSAKA,DF,28.6,183,West Ham United FC (ENG),Premier League,1.0,2093,0.0,0.061,4.6,1,51.4,96.3,70.0,93.6,0.0,61.2,stats_full
+DR Congo,COD,K,Steve KAPUADI,DF,28.1,196,Widzew Łódź (POL),,0.52,,,,13.7,0,88.6,82.0,59.9,76.2,0.0,67.1,inferred
+DR Congo,COD,K,Axel TUANZEBE,DF,28.6,188,Burnley FC (ENG),Premier League,1.0,1209,0.042,0.0,3.2,1,65.7,88.4,70.0,93.6,0.0,63.3,stats_full
+DR Congo,COD,K,Dylan BATUBINSIKA,DF,30.3,185,AEL FC (GRE),Ligue 1,1.0,1971,0.01,0.03,3.0,1,57.1,87.8,70.0,100.0,0.0,60.5,stats_partial
+DR Congo,COD,K,Ngalayel MUKAU,MF,21.6,186,Lille OSC (FRA),Ligue 1,1.0,1548,0.15,0.03,13.5,1,60.0,91.4,50.0,51.6,0.0,46.8,stats_full
+DR Congo,COD,K,Nathanael MBUKU,MF,24.2,170,Montpellier HSC (FRA),,0.52,,,,27.5,0,14.3,82.0,42.8,52.8,0.0,43.6,inferred
+DR Congo,COD,K,Samuel MOUTOUSSAMY,MF,29.8,176,Atromitos FC (GRE),,0.52,,,,27.5,0,31.4,78.1,42.8,85.6,0.0,44.3,inferred
+DR Congo,COD,K,Brian CIPENGA,FW,28.3,172,CD Castellón (ESP),,0.52,,,,37.2,0,20.0,82.0,22.3,77.4,0.0,42.1,inferred
+DR Congo,COD,K,Theo BONGONDA,MF,30.6,176,FC Spartak Moscow (RUS),,0.52,,,,27.5,0,31.4,74.1,42.8,85.6,0.0,43.4,inferred
+DR Congo,COD,K,Gael KAKUTA,FW,35.0,174,AEL FC (GRE),Greek Super League,0.56,472,0.231,0.347,24.3,1,25.7,54.0,22.6,86.8,0.0,30.3,stats_partial
+DR Congo,COD,K,Joris KAYEMBE,DF,31.9,180,KRC Genk (BEL),Belgian Pro League,0.72,2105,0.036,0.182,11.8,1,42.9,79.7,64.1,91.6,0.0,53.8,stats_partial
+DR Congo,COD,K,Meschack ELIA,FW,28.9,173,Alanyaspor (TUR),Super Lig,0.66,812,0.351,0.103,22.5,1,22.9,84.8,23.3,85.2,0.0,35.1,stats_partial
+DR Congo,COD,K,Noah SADIKI,MF,21.5,165,Sunderland AFC (ENG),Premier League,1.0,2914,0.05,0.029,5.9,1,0.0,100.0,50.0,51.0,0.0,39.9,stats_full
+DR Congo,COD,K,Aaron TSHIBOLA,MF,31.4,184,Kilmarnock FC (SCO),Scottish Premiership,0.62,886,0.092,0.141,10.8,1,54.3,73.2,44.3,88.6,0.0,39.1,stats_partial
+DR Congo,COD,K,Timothy FAYULU,GK,26.9,192,FC Noah (ARM),,0.52,,,,5.7,0,77.1,82.0,53.1,69.0,53.4,62.4,inferred
+DR Congo,COD,K,Cedric BAKAMBU,FW,35.2,182,Real Betis (ESP),La Liga,1.0,542,0.738,0.179,68.8,1,48.6,53.5,26.0,100.0,0.0,58.4,stats_full
+DR Congo,COD,K,Charles PICKEL,MF,29.1,187,RCD Espanyol (ESP),La Liga,1.0,658,0.107,0.005,8.4,1,62.9,82.9,50.0,96.6,0.0,42.9,stats_full
+DR Congo,COD,K,Fiston MAYELE,FW,32.0,185,Pyramids FC (EGY),Egyptian Premier League,1.0,1597,0.342,0.116,34.4,1,57.1,75.3,26.0,100.0,0.0,45.1,stats_partial
+DR Congo,COD,K,Yoane WISSA,FW,29.8,176,Newcastle United FC (ENG),Premier League,1.0,492,0.592,0.031,46.7,1,31.4,78.0,26.0,100.0,0.0,48.6,stats_full
+DR Congo,COD,K,Matthieu EPOLO,GK,21.4,183,Standard Liège (BEL),Belgian Pro League,0.72,2610,0.002,0.036,2.1,1,51.4,100.0,56.8,42.0,62.4,65.8,stats_partial
+DR Congo,COD,K,Chancel MBEMBA,DF,31.9,182,Lille OSC (FRA),Ligue 1,1.0,949,0.032,0.055,6.5,1,48.6,71.1,70.0,100.0,0.0,54.3,stats_full
+DR Congo,COD,K,Simon BANZA,FW,29.8,189,Al Jazira (UAE),UAE Pro League,0.48,1141,0.705,0.088,28.5,1,68.6,83.6,21.9,84.4,0.0,44.9,stats_partial
+DR Congo,COD,K,Gedeon KALULU,DF,28.8,178,Aris Limassol FC (CYP),,0.52,,,,13.7,0,37.1,82.0,59.9,80.4,0.0,51.7,inferred
+DR Congo,COD,K,Edo KAYEMBE,MF,28.0,183,Watford FC (ENG),,0.52,,,,27.5,0,51.4,82.0,42.8,75.6,0.0,47.3,inferred
+DR Congo,COD,K,Arthur MASUAKU,DF,32.6,179,RC Lens (FRA),Ligue 1,1.0,235,0.004,0.02,1.8,1,40.0,62.4,70.0,100.0,0.0,48.9,stats_full
+Ivory Coast,CIV,E,Yahia FOFANA,GK,25.8,194,Çaykur Rizespor (TUR),Ligue 1,1.0,2700,0.0,0.0,0.0,1,82.9,100.0,62.0,76.8,75.0,80.3,stats_partial
+Ivory Coast,CIV,E,Ousmane DIOMANDE,DF,22.5,190,Sporting CP (POR),Primeira Liga,0.78,1296,0.047,0.201,14.5,1,71.4,89.2,65.4,50.4,0.0,65.5,stats_partial
+Ivory Coast,CIV,E,Ghislain KONAN,DF,30.5,176,Gil Vicente FC (POR),,0.52,,,,13.7,0,31.4,74.6,59.9,85.6,0.0,48.1,inferred
+Ivory Coast,CIV,E,Jean SERI,MF,34.9,168,NK Maribor (SVN),,0.52,,,,27.5,0,8.6,54.5,42.8,85.6,0.0,36.2,inferred
+Ivory Coast,CIV,E,Wilfried SINGO,DF,25.5,182,Galatasaray SK (TUR),Super Lig,0.66,947,0.19,0.199,19.3,1,48.6,86.0,62.9,64.8,0.0,57.8,stats_partial
+Ivory Coast,CIV,E,Seko FOFANA,MF,31.1,185,FC Porto (POR),Ligue 1,1.0,659,0.104,0.088,14.4,1,57.1,72.9,50.0,100.0,0.0,42.2,stats_full
+Ivory Coast,CIV,E,Odilon KOSSOUNOU,DF,25.4,191,Atalanta Bergamo (ITA),Serie A,1.0,981,0.024,0.024,3.6,1,74.3,86.3,70.0,74.4,0.0,65.4,stats_full
+Ivory Coast,CIV,E,Franck KESSIE,MF,29.5,183,Al Ahli FC (KSA),Saudi Pro League,0.62,2174,0.256,0.167,19.7,1,51.4,94.2,44.3,87.6,0.0,47.6,stats_partial
+Ivory Coast,CIV,E,Ange-Yoan BONNY,FW,22.6,189,FC Internazionale Milano (ITA),Serie A,1.0,1112,0.371,0.216,44.0,1,68.6,87.5,26.0,57.6,0.0,54.6,stats_full
+Ivory Coast,CIV,E,Simon ADINGRA,FW,24.5,175,AS Monaco (FRA),Ligue 1,1.0,871,0.3,0.151,33.8,1,28.6,85.3,26.0,69.0,0.0,42.6,stats_full
+Ivory Coast,CIV,E,Yan DIOMANDE,FW,19.6,180,RB Leipzig (GER),Bundesliga,1.0,2507,0.288,0.361,48.7,1,42.9,86.4,26.0,39.6,0.0,53.1,stats_full
+Ivory Coast,CIV,E,Elye WAHI,FW,23.4,181,OGC Nice (FRA),Ligue 1,1.0,937,0.407,0.077,36.3,1,45.7,85.9,26.0,62.4,0.0,46.6,stats_full
+Ivory Coast,CIV,E,Christopher OPERI,DF,29.1,183,Başakşehir FK (TUR),Ligue 1,1.0,1169,0.17,0.19,27.0,1,51.4,87.5,70.0,96.6,0.0,62.4,stats_partial
+Ivory Coast,CIV,E,Oumar DIAKITE,FW,22.5,182,Cercle Brugge (BEL),Ligue 1,1.0,1599,0.06,0.37,32.2,1,48.6,91.9,26.0,57.0,0.0,46.0,stats_partial
+Ivory Coast,CIV,E,Amad DIALLO,FW,23.9,173,Manchester United FC (ENG),Premier League,1.0,2341,0.22,0.217,32.8,1,22.9,98.6,26.0,65.4,0.0,43.8,stats_full
+Ivory Coast,CIV,E,Mohamed KONE,GK,24.3,186,Sporting Charleroi (BEL),Belgian Pro League,0.72,1710,0.0,0.038,2.1,1,60.0,92.9,56.8,59.4,62.4,66.5,stats_partial
+Ivory Coast,CIV,E,Guela DOUE,DF,23.7,187,RC Strasbourg (FRA),Ligue 1,1.0,2065,0.08,0.119,14.9,1,62.9,96.1,70.0,64.2,0.0,66.1,stats_full
+Ivory Coast,CIV,E,Ibrahim SANGARE,MF,28.5,191,Nottingham Forest FC (ENG),Premier League,1.0,2111,0.067,0.062,9.7,1,74.3,96.5,50.0,93.0,0.0,47.9,stats_full
+Ivory Coast,CIV,E,Nicolas PEPE,FW,31.0,183,Villarreal CF (ESP),La Liga,1.0,2497,0.353,0.291,48.3,1,51.4,88.0,26.0,100.0,0.0,54.5,stats_full
+Ivory Coast,CIV,E,Emmanuel AGBADOU,DF,29.0,185,Beşiktaş JK (TUR),Premier League,1.0,1093,0.037,0.014,3.8,1,57.1,87.3,70.0,96.0,0.0,60.6,stats_full
+Ivory Coast,CIV,E,Evan NDICKA,DF,26.8,192,AS Roma (ITA),Serie A,1.0,2686,0.08,0.019,7.4,1,77.1,100.0,70.0,82.8,0.0,70.3,stats_full
+Ivory Coast,CIV,E,Evann GUESSAND,FW,25.0,188,Crystal Palace FC (ENG),Premier League,1.0,920,0.181,0.121,22.6,1,65.7,85.8,26.0,72.0,0.0,42.1,stats_full
+Ivory Coast,CIV,E,Alban LAFONT,GK,27.4,196,Panathinaikos FC (GRE),Ligue 1,1.0,1080,0.0,0.0,0.0,1,88.6,87.2,62.0,86.4,75.0,79.5,stats_partial
+Ivory Coast,CIV,E,Bazoumana TOURE,FW,20.3,178,TSG Hoffenheim (GER),Bundesliga,1.0,2379,0.195,0.274,35.2,1,37.1,88.2,26.0,43.8,0.0,45.2,stats_full
+Ivory Coast,CIV,E,Parfait GUIAGON,MF,25.3,165,Sporting Charleroi (BEL),Belgian Pro League,0.72,2558,0.383,0.255,34.5,1,0.0,100.0,45.8,65.4,0.0,50.2,stats_partial
+Ivory Coast,CIV,E,Christ OULAI,MF,20.2,173,Trabzonspor (TUR),Super Lig,0.66,2078,0.132,0.277,20.2,1,22.9,85.4,44.9,33.0,0.0,43.0,stats_partial
+Croatia,CRO,L,Dominik LIVAKOVIC,GK,31.4,188,GNK Dinamo Zagreb (CRO),,0.52,,,,5.7,0,65.7,70.2,53.1,85.6,53.4,58.4,inferred
+Croatia,CRO,L,Josip STANISIC,DF,26.2,186,FC Bayern München (GER),Bundesliga,1.0,1842,0.072,0.178,18.8,1,60.0,94.1,70.0,79.2,0.0,65.3,stats_full
+Croatia,CRO,L,Marin PONGRACIC,DF,28.8,193,ACF Fiorentina (ITA),Serie A,1.0,2923,0.018,0.021,2.9,1,80.0,100.0,70.0,94.8,0.0,70.4,stats_full
+Croatia,CRO,L,Josko GVARDIOL,DF,24.4,185,Manchester City FC (ENG),Premier League,1.0,1374,0.122,0.029,11.3,1,57.1,89.9,70.0,68.4,0.0,62.3,stats_full
+Croatia,CRO,L,Duje CALETA-CAR,DF,29.7,193,Real Sociedad (ESP),La Liga,1.0,2140,0.079,0.008,6.5,1,80.0,92.7,70.0,100.0,0.0,69.2,stats_full
+Croatia,CRO,L,Josip SUTALO,DF,26.3,185,AFC Ajax (NED),Eredivisie,0.78,1797,0.008,0.165,10.1,1,57.1,93.7,65.4,73.2,0.0,61.7,stats_partial
+Croatia,CRO,L,Nikola MORO,MF,28.3,183,Bologna FC (ITA),Serie A,1.0,1784,0.047,0.104,11.3,1,51.4,93.6,50.0,91.8,0.0,45.6,stats_full
+Croatia,CRO,L,Mateo KOVACIC,MF,32.1,178,Manchester City FC (ENG),Premier League,1.0,120,0.069,0.32,29.2,1,37.1,64.0,50.0,100.0,0.0,43.9,stats_full
+Croatia,CRO,L,Andrej KRAMARIC,FW,35.0,177,TSG Hoffenheim (GER),Bundesliga,1.0,2256,0.522,0.181,52.7,1,34.3,64.6,26.0,100.0,0.0,49.7,stats_full
+Croatia,CRO,L,Luka MODRIC,MF,40.8,172,AC Milan (ITA),Serie A,1.0,2827,0.04,0.128,12.6,1,20.0,55.0,50.0,100.0,0.0,33.3,stats_full
+Croatia,CRO,L,Ante BUDIMIR,FW,34.9,190,CA Osasuna (ESP),La Liga,1.0,2995,0.577,0.051,47.1,1,71.4,66.5,26.0,100.0,0.0,52.5,stats_full
+Croatia,CRO,L,Ivor PANDUR,GK,26.2,187,Hull City FC (ENG),,0.52,,,,5.7,0,62.9,82.0,53.1,64.8,53.4,59.6,inferred
+Croatia,CRO,L,Nikola VLASIC,MF,28.7,179,Torino FC (ITA),Serie A,1.0,3079,0.217,0.137,26.5,1,40.0,100.0,50.0,94.2,0.0,52.1,stats_full
+Croatia,CRO,L,Ivan PERISIC,FW,37.4,186,PSV Eindhoven (NED),Eredivisie,0.78,2219,0.333,0.43,44.6,1,60.0,53.6,24.3,93.4,0.0,46.7,stats_partial
+Croatia,CRO,L,Mario PASALIC,MF,31.3,188,Atalanta Bergamo (ITA),Serie A,1.0,1922,0.162,0.293,34.1,1,65.7,81.7,50.0,100.0,0.0,53.2,stats_full
+Croatia,CRO,L,Martin BATURINA,MF,23.3,172,Como (ITA),Serie A,1.0,1579,0.108,0.382,36.8,1,20.0,91.7,50.0,61.8,0.0,52.1,stats_full
+Croatia,CRO,L,Petar SUCIC,MF,22.6,183,FC Internazionale Milano (ITA),Serie A,1.0,1763,0.111,0.206,23.8,1,51.4,93.4,50.0,57.6,0.0,50.5,stats_full
+Croatia,CRO,L,Kristijan JAKIC,DF,29.1,181,FC Augsburg (GER),Bundesliga,1.0,1655,0.078,0.074,11.4,1,45.7,91.8,70.0,96.6,0.0,59.4,stats_full
+Croatia,CRO,L,Toni FRUK,MF,25.3,177,HNK Rijeka (CRO),,0.52,,,,27.5,0,34.3,82.0,42.8,59.4,0.0,45.6,inferred
+Croatia,CRO,L,Igor MATANOVIC,FW,23.2,194,SC Freiburg (GER),Bundesliga,1.0,1536,0.561,0.131,51.9,1,82.9,91.3,26.0,61.2,0.0,61.8,stats_full
+Croatia,CRO,L,Luka SUCIC,MF,23.8,185,Real Sociedad (ESP),La Liga,1.0,1003,0.158,0.032,14.2,1,57.1,86.5,50.0,64.8,0.0,45.5,stats_full
+Croatia,CRO,L,Luka VUSKOVIC,DF,19.3,193,Hamburger SV (GER),Bundesliga,1.0,2440,0.173,0.021,14.5,1,80.0,84.7,70.0,37.8,0.0,68.4,stats_full
+Croatia,CRO,L,Dominik KOTARSKI,GK,26.3,190,FC København (DEN),Danish Superliga,0.6,2790,0.0,0.072,3.2,1,71.4,100.0,54.6,67.8,57.0,66.3,stats_partial
+Croatia,CRO,L,Marco PASALIC,FW,25.7,177,Orlando City SC (USA),Major League Soccer,0.58,737,0.12,0.071,8.3,1,34.3,84.1,22.7,63.6,0.0,28.8,stats_partial
+Croatia,CRO,L,Martin ERLIC,DF,28.4,192,FC Midtjylland (DEN),Serie A,1.0,304,0.0,0.07,5.3,1,77.1,80.2,70.0,92.4,0.0,65.0,stats_partial
+Croatia,CRO,L,Petar MUSA,FW,28.3,190,FC Dallas (USA),Major League Soccer,0.58,1176,0.768,0.148,39.8,1,71.4,88.1,22.7,79.2,0.0,52.5,stats_partial
+Curacao,CUW,E,Eloy ROOM,GK,37.4,190,Miami FC (USA),USL Championship,0.45,918,0.0,0.0,0.0,1,71.4,47.2,51.8,83.5,50.2,54.0,stats_partial
+Curacao,CUW,E,Shurandy SAMBO,DF,24.8,174,Sparta Rotterdam (NED),Eredivisie,0.78,1625,0.022,0.142,9.6,1,25.7,92.1,65.4,64.2,0.0,51.8,stats_partial
+Curacao,CUW,E,Jurien GAARI,DF,32.5,183,Abha Club (KSA),Saudi Pro League,0.62,2790,0.007,0.071,3.6,1,51.4,79.0,62.0,88.6,0.0,54.3,stats_partial
+Curacao,CUW,E,Roshon VAN EIJMA,DF,28.0,186,RKC Waalwijk (NED),,0.52,,,,13.7,0,60.0,82.0,59.9,75.6,0.0,58.5,inferred
+Curacao,CUW,E,Sherel FLORANUS,DF,27.8,181,PEC Zwolle (NED),Eredivisie,0.78,2801,0.037,0.158,11.4,1,45.7,100.0,65.4,82.2,0.0,60.0,stats_partial
+Curacao,CUW,E,Godfried ROEMERATOE,MF,26.8,178,RKC Waalwijk (NED),,0.52,,,,27.5,0,37.1,82.0,42.8,68.4,0.0,45.9,inferred
+Curacao,CUW,E,Juninho BACUNA,MF,28.9,178,FC Volendam (NED),Eredivisie,0.78,709,0.164,0.253,24.4,1,37.1,83.9,46.7,88.8,0.0,46.1,stats_partial
+Curacao,CUW,E,Livano COMENENCIA,MF,22.4,185,FC Zürich (SUI),,0.52,,,,27.5,0,57.1,82.0,42.8,42.0,0.0,47.9,inferred
+Curacao,CUW,E,Juergen LOCADIA,FW,32.6,193,Miami FC (USA),USL Championship,0.45,842,0.451,0.131,19.6,1,80.0,66.7,21.7,83.5,0.0,38.3,stats_partial
+Curacao,CUW,E,Leandro BACUNA,MF,34.8,180,Iğdır FK (TUR),,0.52,,,,27.5,0,42.9,54.9,42.8,85.6,0.0,39.7,inferred
+Curacao,CUW,E,Jeremy ANTONISSE,FW,24.2,164,AE Ki sia FC (GRE),Greek Super League,0.56,2005,0.241,0.153,16.5,1,0.0,95.5,22.6,54.0,0.0,30.5,stats_partial
+Curacao,CUW,E,Sontje HANSEN,FW,24.1,176,Middlesbrough FC (ENG),,0.52,,,,37.2,0,31.4,82.0,22.3,52.2,0.0,43.8,inferred
+Curacao,CUW,E,Tyrese NOSLIN,FW,23.8,182,SC Telstar (NED),Eredivisie,0.78,2304,0.178,0.131,18.1,1,48.6,98.2,24.3,58.2,0.0,39.3,stats_partial
+Curacao,CUW,E,Kenji GORRE,FW,31.7,174,Maccabi Haifa FC (ISR),,0.52,,,,37.2,0,25.7,68.7,22.3,85.6,0.0,40.3,inferred
+Curacao,CUW,E,Arjany MARTHA,MF,22.8,180,Rotherham United FC (ENG),,0.52,,,,27.5,0,42.9,82.0,42.8,44.4,0.0,46.5,inferred
+Curacao,CUW,E,Jearl MARGARITHA,FW,26.2,181,SK Beveren (BEL),,0.52,,,,37.2,0,45.7,82.0,22.3,64.8,0.0,45.9,inferred
+Curacao,CUW,E,Brandley KUWAS,FW,33.7,181,FC Volendam (NED),Eredivisie,0.78,2025,0.26,0.207,27.3,1,45.7,69.4,24.3,93.4,0.0,38.2,stats_partial
+Curacao,CUW,E,Armando OBISPO,DF,27.3,185,PSV Eindhoven (NED),Eredivisie,0.78,805,0.258,0.111,21.6,1,57.1,84.7,65.4,79.2,0.0,61.2,stats_partial
+Curacao,CUW,E,Gervane KASTANEER,FW,30.0,189,Terengganu FC (MAS),,0.52,,,,37.2,0,68.6,77.1,22.3,85.6,0.0,48.4,inferred
+Curacao,CUW,E,Joshua BRENET,DF,32.2,181,Kayserispor (TUR),Super Lig,0.66,797,0.016,0.23,12.2,1,45.7,68.4,62.9,89.8,0.0,51.5,stats_partial
+Curacao,CUW,E,Tahith CHONG,MF,26.5,185,She eld United FC (ENG),,0.52,,,,27.5,0,57.1,82.0,42.8,66.6,0.0,47.9,inferred
+Curacao,CUW,E,Kevin FELIDA,MF,26.6,174,FC Den Bosch (NED),,0.52,,,,27.5,0,25.7,82.0,42.8,67.2,0.0,44.8,inferred
+Curacao,CUW,E,Riechedly BAZOER,DF,29.7,184,Konyaspor (TUR),Super Lig,0.66,926,0.024,0.121,7.2,1,54.3,82.2,62.9,89.8,0.0,56.8,stats_partial
+Curacao,CUW,E,Deveron FONVILLE,DF,23.1,188,NEC Nijmegen (NED),Eredivisie,0.78,1458,0.014,0.169,10.7,1,65.7,90.6,65.4,54.0,0.0,63.6,stats_partial
+Curacao,CUW,E,Tyrick BODAK,GK,24.1,190,SC Telstar (NED),,0.52,,,,5.7,0,71.4,82.0,53.1,52.2,53.4,61.3,inferred
+Curacao,CUW,E,Trevor DOORNBUSCH,GK,26.9,188,VVV Venlo (NED),,0.52,,,,5.7,0,65.7,82.0,53.1,69.0,53.4,60.2,inferred
+Czechia,CZE,A,Matej KOVAR,GK,26.1,196,PSV Eindhoven (NED),Bundesliga,1.0,360,0.0,0.0,0.0,1,88.6,80.7,62.0,78.6,75.0,78.6,stats_partial
+Czechia,CZE,A,David ZIMA,DF,25.6,190,SK Slavia Praha (CZE),Czech First League,0.58,1860,0.07,0.133,8.8,1,71.4,94.2,61.2,63.0,0.0,64.7,stats_partial
+Czechia,CZE,A,Tomas HOLES,DF,33.2,180,SK Slavia Praha (CZE),Czech First League,0.58,2092,0.107,0.176,12.3,1,42.9,72.2,61.2,87.4,0.0,51.1,stats_partial
+Czechia,CZE,A,Robin HRANAC,DF,26.4,189,TSG Hoffenheim (GER),Bundesliga,1.0,2261,0.082,0.005,6.5,1,68.6,97.8,70.0,80.4,0.0,67.0,stats_full
+Czechia,CZE,A,Vladimir COUFAL,DF,33.8,175,TSG Hoffenheim (GER),Bundesliga,1.0,3032,0.029,0.222,18.8,1,28.6,72.0,70.0,100.0,0.0,50.4,stats_full
+Czechia,CZE,A,Stepan CHALOUPEK,DF,23.3,188,SK Slavia Praha (CZE),Czech First League,0.58,1857,0.411,0.108,22.6,1,65.7,94.2,61.2,49.2,0.0,65.0,stats_partial
+Czechia,CZE,A,Ladislav KREJCI,DF,27.2,191,Wolverhampton Wanderers FC (ENG),Premier League,1.0,2385,0.065,0.056,9.1,1,74.3,99.0,70.0,85.2,0.0,69.4,stats_full
+Czechia,CZE,A,Vladimir DARIDA,MF,35.9,172,FC Hradec Králové (CZE),Czech First League,0.58,2775,0.37,0.204,25.0,1,20.0,61.5,43.7,87.4,0.0,38.3,stats_partial
+Czechia,CZE,A,Adam HLOZEK,FW,23.9,188,TSG Hoffenheim (GER),Bundesliga,1.0,30,3.558,0.0,100.0,1,65.7,77.8,26.0,65.4,0.0,83.0,stats_full
+Czechia,CZE,A,Patrik SCHICK,FW,30.4,191,Bayer Leverkusen (GER),Bundesliga,1.0,2005,0.872,0.143,76.1,1,74.3,87.5,26.0,100.0,0.0,73.1,stats_full
+Czechia,CZE,A,Jan KUCHTA,FW,29.4,185,AC Sparta Praha (CZE),Czech First League,0.58,1681,0.626,0.268,38.9,1,57.1,90.4,22.7,85.8,0.0,50.3,stats_partial
+Czechia,CZE,A,Lukas CERV,MF,25.2,182,FC Viktoria Plzeň (CZE),Czech First League,0.58,2658,0.126,0.163,12.6,1,48.6,100.0,43.7,60.6,0.0,45.8,stats_partial
+Czechia,CZE,A,Mojmir CHYTIL,FW,27.1,187,SK Slavia Praha (CZE),Czech First League,0.58,1451,0.81,0.134,41.1,1,62.9,90.6,22.7,72.0,0.0,52.4,stats_partial
+Czechia,CZE,A,David JURASEK,DF,25.9,183,SK Slavia Praha (CZE),Bundesliga,1.0,619,0.13,0.14,20.2,1,51.4,83.1,70.0,77.4,0.0,60.2,stats_partial
+Czechia,CZE,A,Pavel SULC,FW,25.5,177,Olympique Lyonnais (FRA),Ligue 1,1.0,1562,0.473,0.199,50.4,1,34.3,91.6,26.0,75.0,0.0,53.8,stats_full
+Czechia,CZE,A,Jindrich STANEK,GK,30.1,192,SK Slavia Praha (CZE),Czech First League,0.58,1710,0.0,0.049,2.1,1,77.1,86.8,54.2,87.4,56.1,64.9,stats_partial
+Czechia,CZE,A,Lukas PROVOD,MF,29.6,191,SK Slavia Praha (CZE),Czech First League,0.58,2495,0.36,0.376,32.0,1,74.3,96.4,43.7,87.0,0.0,55.2,stats_partial
+Czechia,CZE,A,Michal SADILEK,MF,27.0,169,SK Slavia Praha (CZE),Czech First League,0.58,2093,0.12,0.282,17.5,1,11.4,96.3,43.7,71.4,0.0,43.1,stats_partial
+Czechia,CZE,A,Tomas CHORY,FW,31.4,199,SK Slavia Praha (CZE),Czech First League,0.58,1912,0.779,0.228,43.8,1,97.1,81.1,22.7,87.4,0.0,57.2,stats_partial
+Czechia,CZE,A,Jaroslav ZELENY,DF,33.8,190,AC Sparta Praha (CZE),Czech First League,0.58,1760,0.062,0.217,12.1,1,71.4,67.2,61.2,87.4,0.0,58.4,stats_partial
+Czechia,CZE,A,David DOUDERA,DF,28.0,175,SK Slavia Praha (CZE),Czech First League,0.58,1502,0.13,0.269,17.4,1,28.6,91.0,61.2,77.4,0.0,52.3,stats_partial
+Czechia,CZE,A,Tomas SOUCEK,MF,31.3,192,West Ham United FC (ENG),Premier League,1.0,2206,0.213,0.034,18.5,1,77.1,83.9,50.0,100.0,0.0,48.6,stats_full
+Czechia,CZE,A,Lukas HORNICEK,GK,23.9,198,SC Braga (POR),Primeira Liga,0.78,2960,0.0,0.063,3.7,1,94.3,100.0,57.9,58.8,65.1,76.2,stats_partial
+Czechia,CZE,A,Alexandr SOJKA,MF,23.2,188,FC Viktoria Plzeň (CZE),Czech First League,0.58,1966,0.213,0.153,15.9,1,65.7,95.2,43.7,48.6,0.0,47.7,stats_partial
+Czechia,CZE,A,Hugo SOCHUREK,MF,18.0,183,AC Sparta Praha (CZE),,0.52,,,,27.5,0,51.4,65.6,42.8,15.6,0.0,43.2,inferred
+Czechia,CZE,A,Denis VISINSKY,FW,23.2,178,FC Viktoria Plzeň (CZE),Czech First League,0.58,1672,0.456,0.139,25.9,1,37.1,92.5,22.7,48.6,0.0,40.6,stats_partial
+Ecuador,ECU,E,Hernan GALINDEZ,GK,39.2,189,CA Huracán (ARG),Argentine Primera,0.7,1530,0.0,0.042,2.2,1,68.6,50.2,56.4,91.0,61.5,61.2,stats_partial
+Ecuador,ECU,E,Felix TORRES,DF,29.4,187,SC Internacional (BRA),Brazil Serie A,0.74,948,0.176,0.086,14.5,1,62.9,84.0,64.5,90.6,0.0,61.4,stats_partial
+Ecuador,ECU,E,Piero HINCAPIE,DF,24.4,183,Arsenal FC (ENG),Premier League,1.0,1786,0.021,0.107,9.6,1,51.4,93.6,70.0,68.4,0.0,61.3,stats_full
+Ecuador,ECU,E,Joel ORDONEZ,DF,22.1,188,Club Brugge (BEL),Belgian Pro League,0.72,2668,0.094,0.138,12.5,1,65.7,100.0,64.1,46.2,0.0,65.8,stats_partial
+Ecuador,ECU,E,Jordy ALCIVAR,MF,26.9,168,Independiente Del Valle (ECU),,0.52,,,,27.5,0,8.6,82.0,42.8,69.0,0.0,43.0,inferred
+Ecuador,ECU,E,Willian PACHO,DF,24.7,188,Paris Saint-Germain (FRA),Ligue 1,1.0,1910,0.019,0.004,1.7,1,65.7,94.7,70.0,70.2,0.0,64.6,stats_full
+Ecuador,ECU,E,Pervis ESTUPINAN,DF,28.4,175,AC Milan (ITA),Serie A,1.0,1045,0.041,0.136,13.3,1,28.6,86.9,70.0,92.4,0.0,53.3,stats_full
+Ecuador,ECU,E,Anthony VALENCIA,MF,22.9,173,Royal Antwerp FC (BEL),Belgian Pro League,0.72,1324,0.321,0.22,29.2,1,22.9,89.4,45.8,51.0,0.0,47.8,stats_partial
+Ecuador,ECU,E,John YEBOAH,FW,26.0,170,Venezia FC (ITA),,0.52,,,,37.2,0,14.3,82.0,22.3,63.6,0.0,41.2,inferred
+Ecuador,ECU,E,Kendry PAEZ,MF,19.1,178,CA River Plate (ARG),Ligue 1,1.0,411,0.236,0.098,25.0,1,37.1,68.5,50.0,36.6,0.0,43.4,stats_full
+Ecuador,ECU,E,Kevin RODRIGUEZ,FW,26.3,190,Royale Union Saint-Gilloise (BEL),Belgian Pro League,0.72,1826,0.581,0.122,38.0,1,71.4,93.9,23.8,71.4,0.0,52.8,stats_partial
+Ecuador,ECU,E,Moises RAMIREZ,GK,25.8,185,AE Ki sia FC (GRE),Greek Super League,0.56,2520,0.0,0.049,2.1,1,57.1,100.0,53.8,63.6,55.2,62.3,stats_partial
+Ecuador,ECU,E,Enner VALENCIA,FW,36.6,177,CF Pachuca (MEX),Liga MX,0.68,1368,0.627,0.105,37.3,1,34.3,52.1,23.5,90.4,0.0,38.4,stats_partial
+Ecuador,ECU,E,Alan MINDA,MF,23.1,174,Atlético Mineiro (BRA),Brazil Serie A,0.74,327,0.608,0.113,40.0,1,25.7,80.4,46.1,52.8,0.0,50.2,stats_partial
+Ecuador,ECU,E,Pedro VITE,MF,24.3,172,Pumas UNAM (MEX),Liga MX,0.68,2897,0.112,0.175,14.6,1,20.0,100.0,45.2,58.2,0.0,44.2,stats_partial
+Ecuador,ECU,E,Jordy CAICEDO,FW,28.6,186,CA Huracán (ARG),Argentine Primera,0.7,1493,0.462,0.032,25.9,1,60.0,90.9,23.7,84.6,0.0,43.8,stats_partial
+Ecuador,ECU,E,Angelo PRECIADO,DF,28.3,174,Atlético Mineiro (BRA),,0.52,,,,13.7,0,25.7,82.0,59.9,77.4,0.0,48.3,inferred
+Ecuador,ECU,E,Denil CASTILLO,MF,22.2,189,FC Midtjylland (DEN),Danish Superliga,0.6,1725,0.219,0.203,19.0,1,68.6,93.0,44.0,43.2,0.0,48.7,stats_partial
+Ecuador,ECU,E,Gonzalo PLATA,FW,25.6,178,CR Flamengo (BRA),Brazil Serie A,0.74,539,0.546,0.311,47.6,1,37.1,82.4,24.0,67.8,0.0,50.6,stats_partial
+Ecuador,ECU,E,Nilson ANGULO,FW,23.0,184,Sunderland AFC (ENG),Premier League,1.0,415,0.196,0.011,15.5,1,54.3,81.2,26.0,60.0,0.0,35.5,stats_full
+Ecuador,ECU,E,Alan FRANCO,MF,27.8,175,Atlético Mineiro (BRA),Brazil Serie A,0.74,226,0.0,0.072,4.0,1,28.6,79.5,46.1,81.0,0.0,35.9,stats_partial
+Ecuador,ECU,E,Gonzalo VALLE,GK,30.3,186,LDU Quito (ECU),,0.52,,,,5.7,0,60.0,75.6,53.1,85.6,53.4,58.1,inferred
+Ecuador,ECU,E,Moises CAICEDO,MF,24.6,178,Chelsea FC (ENG),Premier League,1.0,2811,0.049,0.084,10.0,1,37.1,100.0,50.0,69.6,0.0,45.2,stats_full
+Ecuador,ECU,E,Jeremy AREVALO,FW,21.2,182,VfB Stuttgart (GER),Bundesliga,1.0,21,0.677,0.266,70.7,1,48.6,77.7,26.0,49.2,0.0,64.3,stats_full
+Ecuador,ECU,E,Jackson POROZO,DF,25.9,192,Club Tijuana (MEX),Liga MX,0.68,3119,0.062,0.072,6.8,1,77.1,100.0,63.3,67.8,0.0,68.2,stats_partial
+Ecuador,ECU,E,Yaimar MEDINA,DF,21.6,173,KRC Genk (BEL),Belgian Pro League,0.72,1533,0.11,0.242,19.0,1,22.9,91.3,64.1,43.2,0.0,51.8,stats_partial
+Egypt,EGY,G,Mohamed MOHAMED ELSHENAWY,GK,37.5,191,Al Ahly FC (EGY),Egyptian Premier League,1.0,1350,0.0,0.033,2.5,1,74.3,49.3,62.0,100.0,75.0,71.0,stats_partial
+Egypt,EGY,G,Yasser YASSER IBRAHIM,DF,33.3,185,Al Ahly FC (EGY),,0.52,,,,13.7,0,57.1,61.1,59.9,85.6,0.0,52.5,inferred
+Egypt,EGY,G,Mohamed MOHAMED HANY,DF,30.4,175,Al Ahly FC (EGY),,0.52,,,,13.7,0,28.6,75.1,59.9,85.6,0.0,47.4,inferred
+Egypt,EGY,G,Hossam HOSSAM ABDELMAGUID,DF,25.1,193,Zamalek SC (EGY),,0.52,,,,13.7,0,80.0,82.0,59.9,58.2,0.0,64.5,inferred
+Egypt,EGY,G,Ramy RAMY RABIA,DF,33.1,183,Al Ain FC (UAE),,0.52,,,,13.7,0,51.4,61.9,59.9,85.6,0.0,50.9,inferred
+Egypt,EGY,G,Mohamed MOHAMED ABDELMONEIM,DF,27.4,184,OGC Nice (FRA),Ligue 1,1.0,855,0.0,0.0,0.0,1,54.3,85.2,70.0,86.4,0.0,58.6,stats_partial
+Egypt,EGY,G,Mahmoud TREZEGUET,FW,31.7,181,Al Ahly FC (EGY),Egyptian Premier League,1.0,1661,0.689,0.112,60.1,1,45.7,77.5,26.0,100.0,0.0,58.0,stats_partial
+Egypt,EGY,G,Emam EMAM ASHOUR,MF,28.3,180,Al Ahly FC (EGY),Egyptian Premier League,1.0,975,0.358,0.375,55.0,1,42.9,86.3,50.0,91.8,0.0,60.3,stats_partial
+Egypt,EGY,G,Hamza HAMZA ABDELKARIM,FW,18.5,182,FC Barcelona (ESP),,0.52,,,,37.2,0,48.6,67.2,22.3,18.6,0.0,43.4,inferred
+Egypt,EGY,G,Mohamed MOHAMED SALAH,FW,34.0,175,Liverpool FC (ENG),Premier League,1.0,2163,0.368,0.267,47.6,1,28.6,68.8,26.0,100.0,0.0,46.8,stats_full
+Egypt,EGY,G,Mostafa MOSTAFA ZICO,MF,29.1,179,Pyramids FC (EGY),Egyptian Premier League,1.0,1217,0.512,,34.0,0,40.0,87.9,50.0,96.6,0.0,52.1,stats_partial
+Egypt,EGY,G,Haissem HAISSEM HASSAN,FW,24.3,175,Real Oviedo (ESP),La Liga,1.0,1937,0.091,0.083,13.0,1,28.6,94.9,26.0,67.8,0.0,33.0,stats_full
+Egypt,EGY,G,Ahmed AHMED FATOUH,DF,28.2,177,Zamalek SC (EGY),,0.52,,,,13.7,0,34.3,82.0,59.9,76.8,0.0,50.8,inferred
+Egypt,EGY,G,Hamdy HAMDY FATHY,MF,31.7,183,Al Wakrah SC (QAT),Qatar Stars League,0.5,1483,0.208,0.112,12.0,1,51.4,76.1,42.5,85.0,0.0,39.6,stats_partial
+Egypt,EGY,G,Karim KARIM HAFEZ,DF,30.3,174,Pyramids FC (EGY),,0.52,,,,13.7,0,25.7,75.6,59.9,85.6,0.0,46.7,inferred
+Egypt,EGY,G,Mahdy MAHDY SOLIMAN,GK,39.0,189,Zamalek SC (EGY),,0.52,,,,5.7,0,68.6,45.1,53.1,85.6,53.4,55.2,inferred
+Egypt,EGY,G,Mohanad MOHANAD LASHIN,MF,30.0,186,Pyramids FC (EGY),,0.52,,,,27.5,0,60.0,77.1,42.8,85.6,0.0,47.0,inferred
+Egypt,EGY,G,Nabil NABIL DONGA,MF,30.2,179,Al Najmah SC (KSA),Saudi Pro League,0.62,915,0.028,0.083,5.2,1,40.0,79.6,44.3,88.6,0.0,37.0,stats_partial
+Egypt,EGY,G,Marawan MARAWAN ATTIA,MF,27.9,176,Al Ahly FC (EGY),,0.52,,,,27.5,0,31.4,82.0,42.8,75.0,0.0,45.3,inferred
+Egypt,EGY,G,Ibrahim IBRAHIM ADEL,FW,25.1,178,FC Nordsjælland (DEN),Danish Superliga,0.6,631,0.64,0.13,34.6,1,37.1,83.2,22.9,60.6,0.0,43.6,stats_partial
+Egypt,EGY,G,Mahmoud MAHMOUD SABER,MF,24.9,170,ZED FC (EGY),,0.52,,,,27.5,0,14.3,82.0,42.8,57.0,0.0,43.6,inferred
+Egypt,EGY,G,Omar OMAR MARMOUSH,FW,27.4,180,Manchester City FC (ENG),Premier League,1.0,693,0.489,0.276,57.4,1,42.9,83.7,26.0,86.4,0.0,57.3,stats_full
+Egypt,EGY,G,Mostafa MOSTAFA SHOUBIR,GK,26.1,195,Al Ahly FC (EGY),Egyptian Premier League,1.0,990,0.0,0.018,1.3,1,85.7,86.4,62.0,78.6,75.0,78.9,stats_partial
+Egypt,EGY,G,Tarek TAREK ALAA,DF,24.4,178,ZED FC (EGY),,0.52,,,,13.7,0,37.1,82.0,59.9,54.0,0.0,51.7,inferred
+Egypt,EGY,G,Ahmed ZIZO,FW,30.4,175,Al Ahly FC (EGY),Egyptian Premier League,1.0,1265,0.415,0.431,63.4,1,28.6,81.4,26.0,100.0,0.0,58.1,stats_partial
+Egypt,EGY,G,Mohamed MOHAMED ALAA,GK,27.5,188,El Gouna FC (EGY),,0.52,,,,5.7,0,65.7,82.0,53.1,72.6,53.4,60.2,inferred
+England,ENG,L,Jordan PICKFORD,GK,32.3,185,Everton FC (ENG),Premier League,1.0,3420,0.0,0.006,0.5,1,57.1,80.2,62.0,100.0,75.0,72.2,stats_full
+England,ENG,L,Ezri KONSA,DF,28.6,180,Aston Villa FC (ENG),Premier League,1.0,3036,0.032,0.018,3.8,1,42.9,100.0,70.0,93.6,0.0,59.4,stats_full
+England,ENG,L,Nico OREILLY,DF,21.2,177,Manchester City FC (ENG),,0.52,,,,13.7,0,34.3,82.0,59.9,34.8,0.0,50.8,inferred
+England,ENG,L,Declan RICE,MF,27.4,185,Arsenal FC (ENG),Premier League,1.0,3111,0.108,0.236,25.8,1,57.1,100.0,50.0,86.4,0.0,53.5,stats_full
+England,ENG,L,John STONES,DF,32.0,188,Manchester City FC (ENG),Premier League,1.0,445,0.0,0.013,1.0,1,65.7,66.8,70.0,100.0,0.0,57.6,stats_full
+England,ENG,L,Marc GUEHI,DF,25.9,183,Manchester City FC (ENG),Premier League,1.0,3150,0.134,0.078,15.9,1,51.4,100.0,70.0,77.4,0.0,63.8,stats_full
+England,ENG,L,Bukayo SAKA,FW,24.8,178,Arsenal FC (ENG),Premier League,1.0,2239,0.35,0.344,52.0,1,37.1,97.7,26.0,70.8,0.0,56.3,stats_full
+England,ENG,L,Elliot ANDERSON,MF,23.6,179,Nottingham Forest FC (ENG),Premier League,1.0,3329,0.093,0.131,16.8,1,40.0,100.0,50.0,63.6,0.0,48.2,stats_full
+England,ENG,L,Harry KANE,FW,32.9,190,FC Bayern München (GER),Bundesliga,1.0,2385,1.116,0.279,100.0,1,71.4,75.8,26.0,100.0,0.0,83.5,stats_full
+England,ENG,L,Jude BELLINGHAM,MF,23.0,183,Real Madrid C. F. (ESP),La Liga,1.0,1933,0.36,0.141,37.6,1,51.4,94.9,50.0,60.0,0.0,56.4,stats_full
+England,ENG,L,Marcus RASHFORD,FW,28.6,180,FC Barcelona (ESP),La Liga,1.0,1739,0.45,0.257,53.0,1,42.9,93.2,26.0,93.6,0.0,56.8,stats_full
+England,ENG,L,Tino LIVRAMENTO,DF,23.6,182,Newcastle United FC (ENG),Premier League,1.0,1323,0.01,0.042,3.9,1,48.6,89.4,70.0,63.6,0.0,58.5,stats_full
+England,ENG,L,Dean HENDERSON,GK,29.3,188,Crystal Palace FC (ENG),Premier League,1.0,3330,0.0,0.0,0.0,1,65.7,98.2,62.0,97.8,75.0,76.6,stats_full
+England,ENG,L,Jordan HENDERSON,MF,36.0,183,Brentford FC (ENG),Premier League,1.0,1935,0.026,0.154,13.5,1,51.4,57.9,50.0,100.0,0.0,37.5,stats_full
+England,ENG,L,Dan BURN,DF,34.1,201,Newcastle United FC (ENG),Premier League,1.0,2205,0.038,0.017,4.1,1,100.0,68.6,70.0,100.0,0.0,68.8,stats_full
+England,ENG,L,Kobbie MAINOO,MF,21.2,183,Manchester United FC (ENG),Premier League,1.0,1623,0.029,0.066,7.1,1,51.4,92.1,50.0,49.2,0.0,43.5,stats_full
+England,ENG,L,Morgan ROGERS,MF,23.9,187,Aston Villa FC (ENG),Premier League,1.0,3301,0.195,0.204,29.9,1,62.9,100.0,50.0,65.4,0.0,55.8,stats_full
+England,ENG,L,Anthony GORDON,FW,25.3,182,Newcastle United FC (ENG),Premier League,1.0,1888,0.417,0.177,44.5,1,48.6,94.5,26.0,73.8,0.0,53.3,stats_full
+England,ENG,L,Ollie WATKINS,FW,30.5,180,Aston Villa FC (ENG),Premier League,1.0,2908,0.583,0.087,50.2,1,42.9,91.0,26.0,100.0,0.0,54.9,stats_full
+England,ENG,L,Noni MADUEKE,FW,24.3,182,Arsenal FC (ENG),Premier League,1.0,1246,0.144,0.29,32.5,1,48.6,88.7,26.0,67.8,0.0,45.5,stats_full
+England,ENG,L,Eberechi EZE,MF,28.0,178,Arsenal FC (ENG),Premier League,1.0,1928,0.224,0.123,26.0,1,37.1,94.9,50.0,90.0,0.0,50.3,stats_full
+England,ENG,L,Ivan TONEY,FW,30.2,185,Al Ahli FC (KSA),Saudi Pro League,0.62,2749,,,39.0,0,57.1,92.8,23.0,88.6,0.0,50.9,stats_partial
+England,ENG,L,James TRAFFORD,GK,23.7,197,Manchester City FC (ENG),Premier League,1.0,360,0.0,0.0,0.0,1,91.4,80.7,62.0,64.2,75.0,79.1,stats_full
+England,ENG,L,Reece JAMES,DF,26.5,180,Chelsea FC (ENG),Premier League,1.0,1927,0.057,0.186,18.2,1,42.9,94.8,70.0,81.0,0.0,60.3,stats_full
+England,ENG,L,Djed SPENCE,DF,25.8,184,Tottenham Hotspur FC (ENG),Premier League,1.0,2068,0.049,0.081,9.8,1,54.3,96.1,70.0,76.8,0.0,62.8,stats_full
+England,ENG,L,Jarell QUANSAH,DF,23.4,190,Bayer Leverkusen (GER),Bundesliga,1.0,2303,0.139,0.035,13.1,1,71.4,98.2,70.0,62.4,0.0,68.9,stats_full
+France,FRA,I,Brice SAMBA,GK,32.1,187,Stade Rennais FC (FRA),Ligue 1,1.0,2880,0.0,0.002,0.1,1,62.9,81.4,62.0,100.0,75.0,73.5,stats_full
+France,FRA,I,Malo GUSTO,DF,23.1,179,Chelsea FC (ENG),Premier League,1.0,2306,0.076,0.149,16.9,1,40.0,98.3,70.0,60.6,0.0,60.1,stats_full
+France,FRA,I,Lucas DIGNE,DF,32.9,178,Aston Villa FC (ENG),Premier League,1.0,1857,0.034,0.148,13.7,1,37.1,72.2,70.0,100.0,0.0,52.2,stats_full
+France,FRA,I,Dayot UPAMECANO,DF,27.6,186,FC Bayern München (GER),Bundesliga,1.0,1805,0.041,0.072,8.5,1,60.0,93.7,70.0,87.6,0.0,63.7,stats_full
+France,FRA,I,Jules KOUNDE,DF,27.6,178,FC Barcelona (ESP),La Liga,1.0,2247,0.088,0.186,20.6,1,37.1,97.7,70.0,87.6,0.0,59.7,stats_full
+France,FRA,I,Manu KONE,MF,25.1,185,AS Roma (ITA),Serie A,1.0,2468,0.071,0.128,14.9,1,57.1,99.7,50.0,72.6,0.0,49.1,stats_full
+France,FRA,I,Ousmane DEMBELE,FW,29.1,179,Paris Saint-Germain (FRA),Ligue 1,1.0,1050,0.566,0.446,75.9,1,40.0,86.4,26.0,96.6,0.0,67.6,stats_full
+France,FRA,I,Aurelien TCHOUAMENI,MF,26.4,188,Real Madrid C. F. (ESP),La Liga,1.0,2656,0.104,0.078,13.7,1,65.7,100.0,50.0,80.4,0.0,49.5,stats_full
+France,FRA,I,Marcus THURAM,FW,28.9,192,FC Internazionale Milano (ITA),Serie A,1.0,1933,0.554,0.208,57.1,1,77.1,94.9,26.0,95.4,0.0,64.6,stats_full
+France,FRA,I,Kylian MBAPPE,FW,27.5,180,Real Madrid C. F. (ESP),La Liga,1.0,2623,0.885,0.248,85.0,1,42.9,100.0,26.0,87.0,0.0,75.8,stats_full
+France,FRA,I,Michael OLISE,FW,24.5,184,FC Bayern München (GER),Bundesliga,1.0,2308,0.45,0.665,83.6,1,54.3,98.3,26.0,69.0,0.0,76.4,stats_full
+France,FRA,I,Bradley BARCOLA,FW,23.8,187,Paris Saint-Germain (FRA),Ligue 1,1.0,1778,0.59,0.242,62.4,1,62.9,93.5,26.0,64.8,0.0,65.0,stats_full
+France,FRA,I,Ngolo KANTE,MF,35.2,171,Fenerbahçe SK (TUR),Super Lig,0.66,1144,0.135,0.137,13.5,1,17.1,57.1,44.9,89.8,0.0,32.6,stats_partial
+France,FRA,I,Adrien RABIOT,MF,31.2,191,AC Milan (ITA),Serie A,1.0,2546,0.154,0.139,22.0,1,74.3,86.8,50.0,100.0,0.0,50.4,stats_full
+France,FRA,I,Ibrahima KONATE,DF,27.1,194,Liverpool FC (ENG),Premier League,1.0,3133,0.056,0.021,5.8,1,82.9,100.0,70.0,84.6,0.0,71.7,stats_full
+France,FRA,I,Mike MAIGNAN,GK,31.0,191,AC Milan (ITA),Serie A,1.0,3296,0.0,0.0,0.0,1,74.3,88.0,62.0,100.0,75.0,76.8,stats_full
+France,FRA,I,William SALIBA,DF,25.2,192,Arsenal FC (ENG),Premier League,1.0,2609,0.054,0.045,7.4,1,77.1,100.0,70.0,73.2,0.0,70.3,stats_full
+France,FRA,I,Warren ZAIRE-EMERY,MF,20.3,176,Paris Saint-Germain (FRA),Ligue 1,1.0,2460,0.076,0.157,17.5,1,31.4,88.9,50.0,43.8,0.0,44.9,stats_full
+France,FRA,I,Theo HERNANDEZ,DF,28.7,184,Al Hilal SC (KSA),Serie A,1.0,2426,0.17,0.26,32.3,1,54.3,99.3,70.0,94.2,0.0,67.0,stats_partial
+France,FRA,I,Desire DOUE,FW,21.0,182,Paris Saint-Germain (FRA),Ligue 1,1.0,1372,0.537,0.253,59.2,1,48.6,82.7,26.0,48.0,0.0,59.0,stats_full
+France,FRA,I,Lucas HERNANDEZ,DF,30.3,184,Paris Saint-Germain (FRA),Ligue 1,1.0,1749,0.033,0.066,7.4,1,54.3,86.0,70.0,100.0,0.0,59.9,stats_full
+France,FRA,I,Jean-Philippe MATETA,FW,29.0,192,Crystal Palace FC (ENG),Premier League,1.0,2225,0.646,0.051,52.3,1,77.1,97.5,26.0,96.0,0.0,62.4,stats_full
+France,FRA,I,Robin RISSER,GK,21.5,193,RC Lens (FRA),Ligue 1,1.0,2970,0.0,0.002,0.1,1,80.0,100.0,62.0,51.0,75.0,79.8,stats_full
+France,FRA,I,Rayan CHERKI,MF,22.8,180,Manchester City FC (ENG),Premier League,1.0,1792,0.233,0.542,58.1,1,42.9,93.6,50.0,58.8,0.0,63.4,stats_full
+France,FRA,I,Maghnes AKLIOUCHE,MF,24.3,183,AS Monaco (FRA),Ligue 1,1.0,2430,0.245,0.198,33.2,1,51.4,99.4,50.0,67.8,0.0,55.8,stats_full
+France,FRA,I,Maxence LACROIX,DF,26.2,192,Crystal Palace FC (ENG),Premier League,1.0,3094,0.087,0.037,9.3,1,77.1,100.0,70.0,79.2,0.0,70.5,stats_full
+Germany,GER,E,Manuel NEUER,GK,40.2,193,FC Bayern München (GER),Bundesliga,1.0,1870,0.0,0.0,0.0,1,80.0,51.9,62.0,100.0,75.0,72.5,stats_full
+Germany,GER,E,Antonio RUEDIGER,DF,33.3,190,Real Madrid C. F. (ESP),,0.52,,,,13.7,0,71.4,61.1,59.9,85.6,0.0,56.7,inferred
+Germany,GER,E,Waldemar ANTON,DF,29.9,189,Borussia Dortmund (GER),Bundesliga,1.0,2880,0.058,0.014,5.4,1,68.6,94.6,70.0,100.0,0.0,66.0,stats_full
+Germany,GER,E,Jonathan TAH,DF,30.3,195,FC Bayern München (GER),Bundesliga,1.0,2031,0.029,0.026,4.1,1,85.7,88.3,70.0,100.0,0.0,69.4,stats_full
+Germany,GER,E,Aleksandar PAVLOVIC,MF,22.1,188,FC Bayern München (GER),Bundesliga,1.0,1451,0.096,0.121,16.3,1,65.7,90.6,50.0,54.6,0.0,48.2,stats_full
+Germany,GER,E,Joshua KIMMICH,DF,31.3,177,FC Bayern München (GER),Bundesliga,1.0,2268,0.094,0.3,29.6,1,34.3,84.4,70.0,100.0,0.0,56.8,stats_full
+Germany,GER,E,Kai HAVERTZ,FW,27.0,190,Arsenal FC (ENG),Premier League,1.0,582,0.757,0.225,73.7,1,71.4,82.7,26.0,84.0,0.0,70.4,stats_full
+Germany,GER,E,Leon GORETZKA,MF,31.4,189,FC Bayern München (GER),Bundesliga,1.0,2004,0.219,0.105,24.3,1,68.6,81.8,50.0,100.0,0.0,49.5,stats_full
+Germany,GER,E,Jamie LEWELING,MF,25.3,185,VfB Stuttgart (GER),Bundesliga,1.0,2385,0.155,0.228,28.7,1,57.1,99.0,50.0,73.8,0.0,54.4,stats_full
+Germany,GER,E,Jamal MUSIALA,MF,23.3,180,FC Bayern München (GER),Bundesliga,1.0,666,0.676,0.37,78.5,1,42.9,83.5,50.0,61.8,0.0,69.0,stats_full
+Germany,GER,E,Nick WOLTEMADE,FW,24.3,198,Newcastle United FC (ENG),Premier League,1.0,1953,0.381,0.134,38.6,1,94.3,95.1,26.0,67.8,0.0,57.0,stats_full
+Germany,GER,E,Oliver BAUMANN,GK,36.0,187,TSG Hoffenheim (GER),Bundesliga,1.0,3060,0.0,0.001,0.1,1,62.9,61.0,62.0,100.0,75.0,70.5,stats_full
+Germany,GER,E,Pascal GROSS,MF,35.0,181,Brighton & Hove Albion FC (ENG),,0.52,,,,27.5,0,45.7,54.1,42.8,85.6,0.0,39.8,inferred
+Germany,GER,E,Maximilian BEIER,FW,23.7,185,Borussia Dortmund (GER),Bundesliga,1.0,2069,0.359,0.216,43.1,1,57.1,96.1,26.0,64.2,0.0,54.1,stats_full
+Germany,GER,E,Nico SCHLOTTERBECK,DF,26.5,191,Borussia Dortmund (GER),Bundesliga,1.0,2520,0.136,0.038,13.1,1,74.3,100.0,70.0,81.0,0.0,70.2,stats_full
+Germany,GER,E,Angelo STILLER,MF,25.2,183,VfB Stuttgart (GER),Bundesliga,1.0,2752,0.118,0.198,23.7,1,51.4,100.0,50.0,73.2,0.0,52.1,stats_full
+Germany,GER,E,Florian WIRTZ,MF,23.1,176,Liverpool FC (ENG),Premier League,1.0,2426,0.281,0.2,36.1,1,31.4,99.3,50.0,60.6,0.0,54.9,stats_full
+Germany,GER,E,Nathaniel BROWN,DF,23.0,176,Eintracht Frankfurt (GER),Bundesliga,1.0,2668,0.07,0.107,13.3,1,31.4,100.0,70.0,60.0,0.0,57.4,stats_full
+Germany,GER,E,Leroy SANE,MF,30.4,183,Galatasaray SK (TUR),Super Lig,0.66,2289,0.335,0.263,29.6,1,51.4,89.9,44.9,89.8,0.0,50.7,stats_partial
+Germany,GER,E,Nadiem AMIRI,MF,29.6,178,1. FSV Mainz 05 (GER),Bundesliga,1.0,2112,0.456,0.28,55.2,1,37.1,93.0,50.0,99.6,0.0,61.6,stats_full
+Germany,GER,E,Alexander NUEBEL,GK,29.7,193,VfB Stuttgart (GER),,0.52,,,,5.7,0,80.0,78.6,53.1,85.6,53.4,62.5,inferred
+Germany,GER,E,David RAUM,DF,28.1,180,RB Leipzig (GER),Bundesliga,1.0,2570,0.084,0.387,35.3,1,42.9,100.0,70.0,90.6,0.0,64.2,stats_full
+Germany,GER,E,Felix NMECHA,MF,25.7,190,Borussia Dortmund (GER),Bundesliga,1.0,2208,0.137,0.074,15.8,1,71.4,97.4,50.0,76.2,0.0,50.3,stats_full
+Germany,GER,E,Malick THIAW,DF,24.9,194,Newcastle United FC (ENG),Premier League,1.0,2968,0.179,0.025,15.3,1,82.9,100.0,70.0,71.4,0.0,73.2,stats_full
+Germany,GER,E,Lennart KARL,MF,18.3,170,FC Bayern München (GER),Bundesliga,1.0,1268,0.505,0.198,52.7,1,14.3,72.2,50.0,31.8,0.0,53.1,stats_full
+Germany,GER,E,Deniz UNDAV,FW,29.9,179,VfB Stuttgart (GER),Bundesliga,1.0,2261,0.759,0.222,73.6,1,40.0,92.6,26.0,100.0,0.0,67.6,stats_full
+Ghana,GHA,L,Lawrence ZIGI,GK,29.5,188,FC St. Gallen (SUI),Swiss Super League,0.66,3150,0.0,0.043,2.1,1,65.7,97.0,55.7,88.8,59.7,66.5,stats_partial
+Ghana,GHA,L,Alidu SEIDU,DF,26.0,173,Stade Rennais FC (FRA),Ligue 1,1.0,1194,0.007,0.088,7.1,1,22.9,88.2,70.0,78.0,0.0,51.0,stats_full
+Ghana,GHA,L,Caleb YIRENKYI,MF,20.4,182,FC Nordsjælland (DEN),Danish Superliga,0.6,2614,0.09,0.276,16.5,1,48.6,89.6,44.0,32.4,0.0,44.8,stats_partial
+Ghana,GHA,L,Jonas ADJETEY,DF,22.5,188,VfL Wolfsburg (GER),Bundesliga,1.0,134,0.058,0.0,4.4,1,65.7,78.7,70.0,57.0,0.0,61.0,stats_full
+Ghana,GHA,L,Thomas PARTEY,MF,33.0,185,Villarreal CF (ESP),La Liga,1.0,892,0.052,0.033,6.4,1,57.1,65.0,50.0,100.0,0.0,37.0,stats_full
+Ghana,GHA,L,Abdul MUMIN,DF,28.0,188,Rayo Vallecano (ESP),La Liga,1.0,77,0.0,0.0,0.0,1,65.7,78.2,70.0,90.0,0.0,60.3,stats_full
+Ghana,GHA,L,Fatawu ISSAHAKU,FW,22.3,177,Leicester City FC (ENG),gPremier League,1.0,579,0.24,0.31,41.2,1,34.3,82.7,26.0,55.8,0.0,47.0,stats_partial
+Ghana,GHA,L,Kwasi SIBO,MF,28.0,183,Real Oviedo (ESP),La Liga,1.0,1782,0.016,0.003,1.4,1,51.4,93.5,50.0,90.0,0.0,41.6,stats_full
+Ghana,GHA,L,Jordan AYEW,FW,34.8,182,Leicester City FC (ENG),gPremier League,1.0,1356,0.06,0.25,23.2,1,48.6,60.1,26.0,100.0,0.0,34.7,stats_partial
+Ghana,GHA,L,Brandon THOMAS-ASANTE,FW,27.5,182,Coventry City FC (ENG),,0.52,,,,37.2,0,48.6,82.0,22.3,72.6,0.0,46.4,inferred
+Ghana,GHA,L,Antoine SEMENYO,MF,26.4,185,Manchester City FC (ENG),Premier League,1.0,3220,0.359,0.115,35.5,1,57.1,100.0,50.0,80.4,0.0,57.4,stats_full
+Ghana,GHA,L,Joseph ANANG,GK,26.0,190,St Patrick's Athletic FC (IRL),,0.52,,,,5.7,0,71.4,82.0,53.1,63.6,53.4,61.3,inferred
+Ghana,GHA,L,Christopher BAAH,FW,21.5,172,Al Qadsiah FC (KSA),Saudi Pro League,0.62,2702,0.135,0.375,23.7,1,20.0,100.0,23.0,39.6,0.0,38.3,stats_partial
+Ghana,GHA,L,Gideon MENSAH,DF,27.9,178,AJ Auxerre (FRA),Ligue 1,1.0,2353,0.0,0.063,4.7,1,37.1,98.7,70.0,89.4,0.0,57.5,stats_full
+Ghana,GHA,L,Elisha OWUSU,MF,28.6,182,AJ Auxerre (FRA),Ligue 1,1.0,2366,0.005,0.038,3.2,1,48.6,98.8,50.0,93.6,0.0,43.3,stats_full
+Ghana,GHA,L,Benjamin ASARE,GK,33.9,188,Hearts Of Oak SC (GHA),,0.52,,,,5.7,0,65.7,58.6,53.1,85.6,53.4,56.6,inferred
+Ghana,GHA,L,Baba RAHMAN,DF,32.0,179,PAOK Saloniki (GRE),Greek Super League,0.56,1915,0.105,0.176,11.8,1,40.0,77.7,60.8,86.8,0.0,51.4,stats_partial
+Ghana,GHA,L,Jerome OPOKU,DF,27.7,197,Başakşehir FK (TUR),Super Lig,0.66,2742,0.029,0.129,7.8,1,91.4,100.0,62.9,78.0,0.0,72.5,stats_partial
+Ghana,GHA,L,Inaki WILLIAMS,FW,32.0,186,Athletic Club (ESP),La Liga,1.0,2188,0.356,0.173,39.7,1,60.0,79.7,26.0,100.0,0.0,49.4,stats_full
+Ghana,GHA,L,Augustine BOAKYE,MF,25.6,178,AS Saint-Etienne (FRA),Ligue 1,1.0,733,0.11,0.34,33.8,1,37.1,84.1,50.0,75.6,0.0,50.7,stats_partial
+Ghana,GHA,L,Kojo OPPONG,DF,22.0,185,OGC Nice (FRA),Ligue 1,1.0,2440,0.048,0.022,5.3,1,57.1,99.5,70.0,54.0,0.0,63.8,stats_full
+Ghana,GHA,L,Kamaldeen SULEMANA,FW,24.3,174,Atalanta Bergamo (ITA),Serie A,1.0,993,0.225,0.207,32.4,1,25.7,86.4,26.0,67.8,0.0,41.6,stats_full
+Ghana,GHA,L,Derrick LUCKASSEN,DF,31.0,188,Pafos FC (CYP),,0.52,,,,13.7,0,65.7,72.2,59.9,85.6,0.0,57.8,inferred
+Ghana,GHA,L,Ernest NUAMAH,FW,22.6,178,Olympique Lyonnais (FRA),Ligue 1,1.0,16,0.962,0.0,72.1,1,37.1,77.6,26.0,57.6,0.0,63.4,stats_full
+Ghana,GHA,L,Prince ADU,FW,22.7,179,FC Viktoria Plzeň (CZE),Czech First League,0.58,1559,0.526,0.114,27.8,1,40.0,91.5,22.7,45.6,0.0,41.9,stats_partial
+Ghana,GHA,L,Marvin SENAYA,DF,25.4,181,AJ Auxerre (FRA),Ligue 1,1.0,1796,0.07,0.012,6.2,1,45.7,93.7,70.0,74.4,0.0,59.1,stats_full
+Haiti,HAI,C,Johny PLACIDE,GK,38.4,181,SC Bastia (FRA),,0.52,,,,5.7,0,45.7,45.1,53.1,85.6,53.4,50.6,inferred
+Haiti,HAI,C,Carlens ARCUS,DF,30.0,180,Angers SCO (FRA),Ligue 1,1.0,2053,0.009,0.091,7.5,1,42.9,90.2,70.0,100.0,0.0,57.5,stats_full
+Haiti,HAI,C,Keeto THERMONCY,DF,20.2,179,BSC Young Boys (SUI),,0.52,,,,13.7,0,40.0,72.8,59.9,28.8,0.0,50.2,inferred
+Haiti,HAI,C,Ricardo ADE,DF,36.1,190,LDU Quito (ECU),,0.52,,,,13.7,0,71.4,49.6,59.9,85.6,0.0,53.9,inferred
+Haiti,HAI,C,Hannes DELCROIX,DF,27.3,183,FC Lugano (SUI),Swiss Super League,0.66,1155,0.135,0.101,11.7,1,51.4,87.9,62.9,75.6,0.0,58.0,stats_partial
+Haiti,HAI,C,Carl SAINTE,MF,23.8,182,El Paso Locomotive FC (USA),USL Championship,0.45,1922,0.025,0.014,1.3,1,48.6,94.8,41.8,48.3,0.0,39.5,stats_partial
+Haiti,HAI,C,Derrick ETIENNE,FW,29.6,178,Toronto FC (CAN),,0.52,,,,37.2,0,37.1,79.0,22.3,85.2,0.0,44.0,inferred
+Haiti,HAI,C,Martin EXPERIENCE,DF,27.3,178,AS Nancy (FRA),,0.52,,,,13.7,0,37.1,82.0,59.9,71.4,0.0,51.7,inferred
+Haiti,HAI,C,Duckens NAZON,FW,32.2,181,Esteghlal Tehran FC (IRN),Persian Gulf Pro League,0.5,476,,,36.8,0,45.7,66.1,22.1,85.0,0.0,42.5,stats_partial
+Haiti,HAI,C,Jean-Ricner BELLEGARDE,MF,28.0,170,Wolverhampton Wanderers FC (ENG),Premier League,1.0,1268,0.062,0.086,11.1,1,14.3,88.9,50.0,90.0,0.0,40.6,stats_full
+Haiti,HAI,C,Louicius DEEDSON,FW,25.3,178,FC Dallas (USA),Major League Soccer,0.58,303,0.226,0.154,16.5,1,37.1,80.2,22.7,61.2,0.0,33.0,stats_partial
+Haiti,HAI,C,Alexandre PIERRE,GK,25.3,190,FC Sochaux-Montbéliard (FRA),,0.52,,,,5.7,0,71.4,82.0,53.1,59.4,53.4,61.3,inferred
+Haiti,HAI,C,Markhus LACROIX,DF,32.7,175,Colorado Springs Switchbacks FC (USA),,0.52,,,,13.7,0,28.6,63.8,59.9,85.6,0.0,44.6,inferred
+Haiti,HAI,C,Leverton PIERRE,MF,28.3,181,FC Vizela (POR),,0.52,,,,27.5,0,45.7,82.0,42.8,77.4,0.0,46.8,inferred
+Haiti,HAI,C,Ruben PROVIDENCE,FW,24.9,178,Almere City FC (NED),,0.52,,,,37.2,0,37.1,82.0,22.3,57.0,0.0,44.6,inferred
+Haiti,HAI,C,Lenny JOSEPH,FW,25.7,182,Ferencvárosi TC (HUN),,0.52,,,,37.2,0,48.6,82.0,22.3,61.8,0.0,46.4,inferred
+Haiti,HAI,C,Danley JEAN JACQUES,MF,26.1,182,Philadelphia Union (USA),Major League Soccer,0.58,1312,0.105,0.05,6.7,1,48.6,89.3,43.7,66.0,0.0,40.8,stats_partial
+Haiti,HAI,C,Wilson ISIDOR,FW,25.8,184,Sunderland AFC (ENG),Premier League,1.0,1142,0.443,0.0,33.2,1,54.3,87.8,26.0,76.8,0.0,46.6,stats_full
+Haiti,HAI,C,Yassin FORTUNE,FW,27.4,186,FC Vizela (POR),,0.52,,,,37.2,0,60.0,82.0,22.3,72.0,0.0,48.1,inferred
+Haiti,HAI,C,Frantzdy PIERROT,FW,31.2,194,Çaykur Rizespor (TUR),Super Lig,0.66,49,0.092,0.11,10.0,1,82.9,67.7,23.3,89.8,0.0,33.8,stats_partial
+Haiti,HAI,C,Josue CASIMIR,FW,24.7,178,AJ Auxerre (FRA),Ligue 1,1.0,1509,0.163,0.084,18.5,1,37.1,91.1,26.0,70.2,0.0,36.6,stats_full
+Haiti,HAI,C,Jean-Kevin DUVERNE,DF,28.9,184,KAA Gent (BEL),Ligue 1,1.0,537,0.02,0.06,6.0,1,54.3,82.3,70.0,95.4,0.0,58.8,stats_partial
+Haiti,HAI,C,Josue DUVERGER,GK,26.1,187,FC Cosmos Koblenz (GER),,0.52,,,,5.7,0,62.9,82.0,53.1,64.2,53.4,59.6,inferred
+Haiti,HAI,C,Wilguens PAUGAIN,DF,24.8,180,SV Zulte Waregem (BEL),Belgian Pro League,0.72,1281,0.064,0.074,7.5,1,42.9,89.0,64.1,62.4,0.0,55.5,stats_partial
+Haiti,HAI,C,Dominique SIMON,MF,25.9,178,FC Tatran Prešov (SVK),,0.52,,,,27.5,0,37.1,82.0,42.8,63.0,0.0,45.9,inferred
+Haiti,HAI,C,Woodensky PIERRE,MF,21.5,177,Violette AC (HAI),,0.52,,,,27.5,0,34.3,82.0,42.8,36.6,0.0,45.6,inferred
+Iran,IRN,G,Alireza BEIRANVAND,GK,33.7,195,Tractor Sazi Tabriz FC (IRN),Persian Gulf Pro League,0.5,1620,,,5.6,0,85.7,66.8,52.7,85.0,52.5,61.3,stats_partial
+Iran,IRN,G,Saleh HARDANI,DF,27.5,176,Esteghlal Tehran FC (IRN),Persian Gulf Pro League,0.5,1506,,,13.6,0,31.4,91.1,59.5,72.0,0.0,52.1,stats_partial
+Iran,IRN,G,Ehsan HAJISAFI,DF,36.3,178,Sepahan SC (IRN),Persian Gulf Pro League,0.5,1831,,,13.6,0,37.1,55.9,59.5,85.0,0.0,45.0,stats_partial
+Iran,IRN,G,Shoja KHALILZADEH,DF,37.1,183,Tractor Sazi Tabriz FC (IRN),Persian Gulf Pro League,0.5,1793,,,13.6,0,51.4,52.0,59.5,85.0,0.0,48.3,stats_partial
+Iran,IRN,G,Milad MOHAMMADI,DF,32.7,175,Persepolis FC (IRN),Persian Gulf Pro League,0.5,1371,,,13.6,0,28.6,69.9,59.5,85.0,0.0,45.9,stats_partial
+Iran,IRN,G,Saeid EZATOLAHI,MF,29.7,189,Shabab Al Ahli Club (UAE),,0.52,,,,27.5,0,68.6,78.6,42.8,85.6,0.0,48.2,inferred
+Iran,IRN,G,Alireza JAHANBAKHSH,MF,32.8,180,FCV Dender EH (BEL),Belgian Pro League,0.72,898,0.191,0.154,18.6,1,42.9,66.1,45.8,91.6,0.0,39.7,stats_partial
+Iran,IRN,G,Mohammad MOHEBBI,MF,27.5,187,FC Rostov (RUS),,0.52,,,,27.5,0,62.9,82.0,42.8,72.6,0.0,48.5,inferred
+Iran,IRN,G,Mehdi TAREMI,FW,33.9,187,Olympiacos FC (GRE),Greek Super League,0.56,1259,0.767,0.224,41.6,1,62.9,63.5,22.6,86.8,0.0,47.3,stats_partial
+Iran,IRN,G,Mehdi GHAYEDI,FW,27.5,166,Al Nasr SC (UAE),,0.52,,,,37.2,0,2.9,82.0,22.3,72.6,0.0,39.5,inferred
+Iran,IRN,G,Ali ALIPOUR,FW,30.6,181,Persepolis FC (IRN),Persian Gulf Pro League,0.5,1857,,,36.8,0,45.7,85.2,22.1,85.0,0.0,46.3,stats_partial
+Iran,IRN,G,Payam NIAZMAND,GK,31.2,193,Persepolis FC (IRN),Persian Gulf Pro League,0.5,1800,,,5.6,0,80.0,81.3,52.7,85.0,52.5,62.3,stats_partial
+Iran,IRN,G,Hossein KANANI,DF,32.2,188,Persepolis FC (IRN),Persian Gulf Pro League,0.5,1392,,,13.6,0,65.7,72.7,59.5,85.0,0.0,57.8,stats_partial
+Iran,IRN,G,Saman GHODDOS,MF,32.8,176,Al Ittihad Kalba SCC (UAE),,0.52,,,,27.5,0,31.4,63.3,42.8,85.6,0.0,40.7,inferred
+Iran,IRN,G,Roozbeh CHESHMI,MF,32.9,192,Esteghlal Tehran FC (IRN),Persian Gulf Pro League,0.5,1073,,,27.2,0,77.1,66.8,42.5,85.0,0.0,45.9,stats_partial
+Iran,IRN,G,Mehdi TORABI,MF,31.8,185,Tractor Sazi Tabriz FC (IRN),Persian Gulf Pro League,0.5,1155,,,27.2,0,57.1,73.1,42.5,85.0,0.0,45.5,stats_partial
+Iran,IRN,G,Arya YOUSEFI,DF,24.1,181,Sepahan SC (IRN),Persian Gulf Pro League,0.5,1702,,,13.6,0,45.7,92.8,59.5,51.6,0.0,56.8,stats_partial
+Iran,IRN,G,Amirhossein HOSSEINZADEH,FW,25.6,178,Tractor Sazi Tabriz FC (IRN),Persian Gulf Pro League,0.5,1886,,,36.8,0,37.1,94.5,22.1,60.6,0.0,46.9,stats_partial
+Iran,IRN,G,Ali NEMATI,DF,30.3,182,Foolad Khuzestan FC (IRN),Persian Gulf Pro League,0.5,1638,,,13.6,0,48.6,85.0,59.5,85.0,0.0,55.7,stats_partial
+Iran,IRN,G,Shahriyar MOGHANLOO,FW,31.5,189,Al Ittihad Kalba SCC (UAE),,0.52,,,,37.2,0,68.6,69.7,22.3,85.6,0.0,46.9,inferred
+Iran,IRN,G,Mohammad GHORBANI,MF,24.7,190,Al Wahda SC (UAE),,0.52,,,,27.5,0,71.4,82.0,42.8,55.8,0.0,49.3,inferred
+Iran,IRN,G,Hossein HOSSEINI,GK,34.0,189,Sepahan SC (IRN),Persian Gulf Pro League,0.5,1350,,,5.6,0,68.6,63.7,52.7,85.0,52.5,57.4,stats_partial
+Iran,IRN,G,Ramin REZAEIAN,DF,36.2,184,Foolad Khuzestan FC (IRN),Persian Gulf Pro League,0.5,849,,,13.6,0,54.3,51.1,59.5,85.0,0.0,48.9,stats_partial
+Iran,IRN,G,Dennis DARGAHI,FW,29.4,182,Standard Liège (BEL),Belgian Pro League,0.72,1975,0.242,0.067,16.7,1,48.6,93.0,23.8,90.0,0.0,37.4,stats_partial
+Iran,IRN,G,Danial IRI,DF,22.6,182,Malavan Anzali FC (IRN),,0.52,,,,13.7,0,48.6,82.0,59.9,43.2,0.0,55.1,inferred
+Iran,IRN,G,Amirmohammad RAZAGHINIA,MF,20.2,187,Esteghlal Tehran FC (IRN),Persian Gulf Pro League,0.5,1419,,,27.2,0,62.9,80.2,42.5,28.2,0.0,47.8,stats_partial
+Iraq,IRQ,I,Fahad FAHAD TALIB,GK,31.6,192,Al Talaba SC (IRQ),,0.52,,,,5.7,0,77.1,69.2,53.1,85.6,53.4,60.5,inferred
+Iraq,IRQ,I,Rebin REBIN GHAREEB,DF,34.2,193,Port FC (THA),,0.52,,,,13.7,0,80.0,57.4,59.9,85.6,0.0,58.4,inferred
+Iraq,IRQ,I,Hussein HUSSEIN ALI,DF,24.3,182,Pogoń Szczecin (POL),,0.52,,,,13.7,0,48.6,82.0,59.9,53.4,0.0,55.1,inferred
+Iraq,IRQ,I,Zaid ZAID TAHSEEN,DF,25.4,187,Pakhtakor Tashkent FK (UZB),,0.52,,,,13.7,0,62.9,82.0,59.9,60.0,0.0,59.4,inferred
+Iraq,IRQ,I,Akam AKAM HASHIM,DF,27.8,184,Al Zawra'a SC (IRQ),,0.52,,,,13.7,0,54.3,82.0,59.9,74.4,0.0,56.8,inferred
+Iraq,IRQ,I,Munaf MUNAF YOUNUS,DF,29.6,184,Al Shorta SC (IRQ),,0.52,,,,13.7,0,54.3,79.0,59.9,85.2,0.0,56.1,inferred
+Iraq,IRQ,I,Youssef YOUSSEF AMYN,MF,22.8,172,AEK Larnaca FC (CYP),,0.52,,,,27.5,0,20.0,82.0,42.8,44.4,0.0,44.2,inferred
+Iraq,IRQ,I,Ibrahim IBRAHIM BAYESH,MF,26.1,180,Al Dhafra SCC (UAE),,0.52,,,,27.5,0,42.9,82.0,42.8,64.2,0.0,46.5,inferred
+Iraq,IRQ,I,Ali ALI ALHAMADI,FW,24.3,187,Luton Town FC (ENG),,0.52,,,,37.2,0,62.9,82.0,22.3,53.4,0.0,48.5,inferred
+Iraq,IRQ,I,Mohanad MOHANAD ALI,FW,26.0,183,Dibba FC (UAE),,0.52,,,,37.2,0,51.4,82.0,22.3,63.6,0.0,46.8,inferred
+Iraq,IRQ,I,Ahmed AHMED QASIM,FW,22.9,183,Nashville SC (USA),Major League Soccer,0.58,807,0.065,0.053,5.1,1,51.4,84.8,22.7,46.8,0.0,29.8,stats_partial
+Iraq,IRQ,I,Jalal JALAL HASSAN,GK,35.1,188,Al Zawra'a SC (IRQ),,0.52,,,,5.7,0,65.7,53.7,53.1,85.6,53.4,55.9,inferred
+Iraq,IRQ,I,Ali ALI YOUSIF,FW,30.4,180,Al Talaba SC (IRQ),,0.52,,,,37.2,0,42.9,75.1,22.3,85.6,0.0,44.1,inferred
+Iraq,IRQ,I,Zidane ZIDANE IQBAL,MF,23.1,183,FC Utrecht (NED),Eredivisie,0.78,255,0.0,0.131,7.7,1,51.4,79.8,46.7,54.0,0.0,39.8,stats_partial
+Iraq,IRQ,I,Ahmed AHMED YAHYA,DF,31.0,187,Al Shorta SC (IRQ),,0.52,,,,13.7,0,62.9,72.2,59.9,85.6,0.0,56.9,inferred
+Iraq,IRQ,I,Amir AMIR ALAMMARI,MF,28.9,180,KS Cracovia (POL),,0.52,,,,27.5,0,42.9,82.0,42.8,81.0,0.0,46.5,inferred
+Iraq,IRQ,I,Ali ALI JASIM,FW,22.4,178,Al Najmah SC (KSA),Serie A,1.0,10,0.0,0.0,0.0,1,37.1,77.6,26.0,56.4,0.0,23.7,stats_partial
+Iraq,IRQ,I,Aymen AYMEN HUSSEIN,FW,30.2,190,Al Karma SC (IRQ),Iraq Stars League,0.4,945,,,35.0,0,71.4,79.8,21.3,82.0,0.0,48.0,stats_partial
+Iraq,IRQ,I,Kevin KEVIN YAKOB,MF,25.7,180,Aarhus GF (DEN),Danish Superliga,0.6,1445,0.37,0.206,25.9,1,42.9,90.5,44.0,64.2,0.0,48.3,stats_partial
+Iraq,IRQ,I,Aimar AIMAR SHER,MF,23.5,180,Sarpsborg 08 FF (NOR),Norwegian Eliteserien,0.56,807,0.167,0.142,13.0,1,42.9,84.8,43.4,49.8,0.0,41.5,stats_partial
+Iraq,IRQ,I,Marko MARKO FARJI,FW,22.2,185,Venezia FC (ITA),,0.52,,,,37.2,0,57.1,82.0,22.3,40.8,0.0,47.6,inferred
+Iraq,IRQ,I,Ahmed AHMED BASIL,GK,29.8,184,Al Shorta SC (IRQ),,0.52,,,,5.7,0,54.3,78.1,53.1,85.6,53.4,57.3,inferred
+Iraq,IRQ,I,Merchas MERCHAS DOSKI,DF,26.5,173,FC Viktoria Plzeň (CZE),Czech First League,0.58,2040,0.063,0.088,6.6,1,22.9,95.9,61.2,68.4,0.0,50.2,stats_partial
+Iraq,IRQ,I,Zaid ZAID ISMAEL,MF,24.4,185,Al Talaba SC (IRQ),,0.52,,,,27.5,0,57.1,82.0,42.8,54.0,0.0,47.9,inferred
+Iraq,IRQ,I,Mustafa MUSTAFA SAADOON,DF,25.1,181,Al Shorta SC (IRQ),,0.52,,,,13.7,0,45.7,82.0,59.9,58.2,0.0,54.3,inferred
+Iraq,IRQ,I,Frans FRANS PUTROS,DF,32.9,182,Persib Bandung (IDN),,0.52,,,,13.7,0,48.6,62.8,59.9,85.6,0.0,50.3,inferred
+Japan,JPN,F,Zion SUZUKI,GK,23.8,190,Parma (ITA),Serie A,1.0,1800,0.0,0.001,0.1,1,71.4,93.7,62.0,64.8,75.0,77.1,stats_full
+Japan,JPN,F,Yukinari SUGAWARA,DF,26.0,179,SV Werder Bremen (GER),Bundesliga,1.0,2444,0.062,0.09,11.4,1,40.0,99.5,70.0,78.0,0.0,59.6,stats_full
+Japan,JPN,F,Shogo TANIGUCHI,DF,34.9,185,Sint-Truiden VV (BEL),Belgian Pro League,0.72,2954,0.044,0.159,11.0,1,57.1,66.5,64.1,91.6,0.0,54.6,stats_partial
+Japan,JPN,F,Kou ITAKURA,DF,29.4,188,AFC Ajax (NED),Eredivisie,0.78,1345,0.078,0.124,11.8,1,65.7,87.5,65.4,91.8,0.0,63.0,stats_partial
+Japan,JPN,F,Yuto NAGATOMO,DF,39.8,170,FC Tokyo (JPN),,0.52,,,,13.7,0,14.3,45.1,59.9,85.6,0.0,35.6,inferred
+Japan,JPN,F,Wataru ENDO,MF,33.3,178,Liverpool FC (ENG),Premier League,1.0,162,0.034,0.077,8.3,1,37.1,58.8,50.0,100.0,0.0,34.3,stats_full
+Japan,JPN,F,Ao TANAKA,MF,27.8,180,Leeds United FC (ENG),Premier League,1.0,1330,0.149,0.092,18.1,1,42.9,89.5,50.0,88.8,0.0,46.4,stats_full
+Japan,JPN,F,Takefusa KUBO,MF,25.0,173,Real Sociedad (ESP),La Liga,1.0,1531,0.156,0.268,31.8,1,22.9,91.3,50.0,72.0,0.0,50.3,stats_full
+Japan,JPN,F,Keisuke GOTO,FW,21.0,191,Sint-Truiden VV (BEL),Belgian Pro League,0.72,2886,0.363,0.19,29.9,1,74.3,92.0,23.8,39.6,0.0,48.3,stats_partial
+Japan,JPN,F,Ritsu DOAN,MF,28.0,172,Eintracht Frankfurt (GER),Bundesliga,1.0,2425,0.153,0.242,29.6,1,20.0,99.3,50.0,90.0,0.0,51.2,stats_full
+Japan,JPN,F,Daizen MAEDA,MF,28.7,173,Celtic FC (SCO),Scottish Premiership,0.62,2837,0.453,0.185,29.7,1,22.9,100.0,44.3,82.8,0.0,50.2,stats_partial
+Japan,JPN,F,Keisuke OSAKO,GK,26.9,188,Sanfrecce Hiroshima (JPN),,0.52,,,,5.7,0,65.7,82.0,53.1,69.0,53.4,60.2,inferred
+Japan,JPN,F,Keito NAKAMURA,MF,25.9,180,Stade Reims (FRA),Ligue 1,1.0,2379,0.09,0.39,36.0,1,42.9,98.9,50.0,77.4,0.0,55.9,stats_partial
+Japan,JPN,F,Junya ITO,MF,33.3,177,KRC Genk (BEL),Ligue 1,1.0,2544,0.25,0.41,49.5,1,34.3,74.5,50.0,100.0,0.0,54.4,stats_partial
+Japan,JPN,F,Daichi KAMADA,MF,29.9,180,Crystal Palace FC (ENG),Premier League,1.0,1924,0.07,0.121,14.3,1,42.9,89.7,50.0,100.0,0.0,44.9,stats_full
+Japan,JPN,F,Tsuyoshi WATANABE,DF,29.4,184,Feyenoord Rotterdam (NED),Eredivisie,0.78,2637,0.105,0.153,15.1,1,54.3,97.6,65.4,91.8,0.0,62.6,stats_partial
+Japan,JPN,F,Yuito SUZUKI,MF,24.6,175,SC Freiburg (GER),Bundesliga,1.0,1645,0.229,0.115,25.8,1,28.6,92.3,50.0,69.6,0.0,48.8,stats_full
+Japan,JPN,F,Ayase UEDA,FW,27.8,182,Feyenoord Rotterdam (NED),Eredivisie,0.78,2535,0.83,0.079,53.2,1,48.6,100.0,24.3,82.2,0.0,59.0,stats_partial
+Japan,JPN,F,Koki OGAWA,FW,28.9,186,NEC Nijmegen (NED),Eredivisie,0.78,1273,0.583,0.187,45.0,1,60.0,89.0,24.3,88.8,0.0,54.0,stats_partial
+Japan,JPN,F,Ayumu SEKO,DF,26.0,186,Le Havre AC (FRA),Ligue 1,1.0,2629,0.033,0.016,3.7,1,60.0,100.0,70.0,78.0,0.0,64.6,stats_full
+Japan,JPN,F,Hiroki ITO,DF,27.1,188,FC Bayern München (GER),Bundesliga,1.0,918,0.147,0.108,19.1,1,65.7,85.8,70.0,84.6,0.0,65.0,stats_full
+Japan,JPN,F,Takehiro TOMIYASU,DF,27.6,187,AFC Ajax (NED),Eredivisie,0.78,217,0.017,0.357,21.9,1,62.9,79.5,65.4,81.0,0.0,61.6,stats_partial
+Japan,JPN,F,Tomoki HAYAKAWA,GK,27.3,187,Kashima Antlers (JPN),,0.52,,,,5.7,0,62.9,82.0,53.1,71.4,53.4,59.6,inferred
+Japan,JPN,F,Kaishu SANO,MF,25.5,176,1. FSV Mainz 05 (GER),Bundesliga,1.0,3060,0.047,0.106,11.5,1,31.4,100.0,50.0,75.0,0.0,45.2,stats_full
+Japan,JPN,F,Junnosuke SUZUKI,DF,22.9,180,FC København (DEN),Danish Superliga,0.6,1862,0.157,0.132,13.0,1,42.9,94.3,61.6,47.4,0.0,56.9,stats_partial
+Japan,JPN,F,Kento SHIOGAI,FW,21.2,180,VfL Wolfsburg (GER),Bundesliga,1.0,292,0.58,0.176,56.7,1,42.9,80.1,26.0,49.2,0.0,56.2,stats_full
+Jordan,JOR,J,Yazeed YAZEED ABULAILA,GK,33.4,188,Al Hussein SC (JOR),,0.52,,,,5.7,0,65.7,60.7,53.1,85.6,53.4,57.0,inferred
+Jordan,JOR,J,Mohammad MOHAMMAD ABUHASHEESH,DF,31.1,179,Al Karma SC (IRQ),,0.52,,,,13.7,0,40.0,71.7,59.9,85.6,0.0,50.0,inferred
+Jordan,JOR,J,Abdallah ABDALLAH NASIB,DF,32.3,184,Al Zawra'a SC (IRQ),,0.52,,,,13.7,0,54.3,65.8,59.9,85.6,0.0,52.8,inferred
+Jordan,JOR,J,Husam HUSAM ABUDAHAB,DF,26.1,186,Al Faisaly SC (JOR),,0.52,,,,13.7,0,60.0,82.0,59.9,64.2,0.0,58.5,inferred
+Jordan,JOR,J,Yazan YAZAN ALARAB,DF,30.4,185,FC Seoul (KOR),,0.52,,,,13.7,0,57.1,75.1,59.9,85.6,0.0,56.0,inferred
+Jordan,JOR,J,Amer AMER JAMOUS,MF,24.0,177,Al Zawra'a SC (IRQ),,0.52,,,,27.5,0,34.3,82.0,42.8,51.6,0.0,45.6,inferred
+Jordan,JOR,J,Mohammad MOHAMMAD ABUZRAIQ,FW,28.5,170,Raja Casablanca (MAR),,0.52,,,,37.2,0,14.3,82.0,22.3,78.6,0.0,41.2,inferred
+Jordan,JOR,J,Noor NOOR ALRAWABDEH,MF,29.3,182,Selangor FC (MAS),,0.52,,,,27.5,0,48.6,80.5,42.8,83.4,0.0,46.7,inferred
+Jordan,JOR,J,Ali ALI OLWAN,FW,26.2,182,Al Sailiya SC (QAT),Qatar Stars League,0.5,72,0.138,0.2,12.7,1,48.6,78.1,22.1,64.2,0.0,32.1,stats_partial
+Jordan,JOR,J,Mousa MOUSA ALTAMARI,FW,29.0,176,Stade Rennais FC (FRA),Ligue 1,1.0,2265,0.171,0.173,25.8,1,31.4,97.9,26.0,96.0,0.0,41.1,stats_full
+Jordan,JOR,J,Odeh ODEH FAKHOURY,FW,20.6,180,Pyramids FC (EGY),,0.52,,,,37.2,0,42.9,74.1,22.3,31.2,0.0,43.9,inferred
+Jordan,JOR,J,Noureddin NOUR BANIATEYAH,GK,33.4,179,Al Faisaly SC (JOR),,0.52,,,,5.7,0,40.0,60.7,53.1,85.6,53.4,51.8,inferred
+Jordan,JOR,J,Mahmoud MAHMOUD ALMARDI,FW,32.7,173,Al Hussein SC (JOR),,0.52,,,,37.2,0,22.9,63.8,22.3,85.6,0.0,38.9,inferred
+Jordan,JOR,J,Raja'ei RAJAEI AYED,MF,32.9,175,Al Hussein SC (JOR),,0.52,,,,27.5,0,28.6,62.8,42.8,85.6,0.0,40.2,inferred
+Jordan,JOR,J,Ibrahim IBRAHIM SADEH,MF,26.1,175,Al Karma SC (IRQ),,0.52,,,,27.5,0,28.6,82.0,42.8,64.2,0.0,45.0,inferred
+Jordan,JOR,J,Mohammad MOHAMMAD ABUALNADI,DF,25.3,185,Selangor FC (MAS),,0.52,,,,13.7,0,57.1,82.0,59.9,59.4,0.0,57.7,inferred
+Jordan,JOR,J,Saleem SALEEM OBAID,DF,34.4,187,Al Hussein SC (JOR),,0.52,,,,13.7,0,62.9,56.6,59.9,85.6,0.0,53.0,inferred
+Jordan,JOR,J,Ibrahim IBRAHIM SABRA,FW,20.4,184,NK Lokomotiva Zagreb (CRO),,0.52,,,,37.2,0,54.3,73.5,22.3,30.0,0.0,45.5,inferred
+Jordan,JOR,J,Sa'ed SAED ALROSAN,DF,29.4,186,Al Hussein SC (JOR),,0.52,,,,13.7,0,60.0,80.0,59.9,84.0,0.0,58.0,inferred
+Jordan,JOR,J,Mohannad MOHANNAD ABUTAHA,MF,23.4,173,Al-Quwa Al-Jawiya (IRQ),,0.52,,,,27.5,0,22.9,82.0,42.8,48.0,0.0,44.5,inferred
+Jordan,JOR,J,Nizar NIZAR ALRASHDAN,MF,27.2,183,Qatar SC (QAT),Qatar Stars League,0.5,966,0.091,0.201,11.0,1,51.4,86.2,42.5,70.2,0.0,41.7,stats_partial
+Jordan,JOR,J,Abdallah ABDALLAH ALFAKHORI,GK,26.4,190,Al Wahdat SC (JOR),,0.52,,,,5.7,0,71.4,82.0,53.1,66.0,53.4,61.3,inferred
+Jordan,JOR,J,Ehsan EHSAN HADDAD,DF,32.4,174,Al Hussein SC (JOR),,0.52,,,,13.7,0,25.7,65.3,59.9,85.6,0.0,44.1,inferred
+Jordan,JOR,J,Ali ALI AZAIZEH,FW,22.2,178,Al Shabab FC (KSA),Saudi Pro League,0.62,647,0.288,0.164,21.0,1,37.1,83.3,23.0,43.8,0.0,36.1,stats_partial
+Jordan,JOR,J,Mohammad MOHAMMAD ALDAOUD,MF,34.2,185,Al Wahdat SC (JOR),,0.52,,,,27.5,0,57.1,57.4,42.8,85.6,0.0,41.8,inferred
+Jordan,JOR,J,Anas ANAS BADAWI,DF,28.8,174,Al Faisaly SC (JOR),,0.52,,,,13.7,0,25.7,82.0,59.9,80.4,0.0,48.3,inferred
+South Korea,KOR,A,Seunggyu KIM,GK,35.7,187,FC Tokyo (JPN),,0.52,,,,5.7,0,62.9,51.2,53.1,85.6,53.4,55.0,inferred
+South Korea,KOR,A,Hanbeom LEE,DF,24.0,188,FC Midtjylland (DEN),Danish Superliga,0.6,2339,0.023,0.136,7.2,1,65.7,98.6,61.6,54.0,0.0,63.9,stats_partial
+South Korea,KOR,A,Gihyuk LEE,MF,25.9,184,Gangwon FC (KOR),,0.52,,,,27.5,0,54.3,82.0,42.8,63.0,0.0,47.6,inferred
+South Korea,KOR,A,Minjae KIM,DF,29.6,190,FC Bayern München (GER),Bundesliga,1.0,1621,0.04,0.026,5.0,1,71.4,88.8,70.0,99.6,0.0,65.4,stats_full
+South Korea,KOR,A,Taehyeon KIM,DF,25.7,186,Kashima Antlers (JPN),,0.52,,,,13.7,0,60.0,82.0,59.9,61.8,0.0,58.5,inferred
+South Korea,KOR,A,Inbeom HWANG,MF,29.7,177,Feyenoord Rotterdam (NED),Eredivisie,0.78,985,0.169,0.332,29.3,1,34.3,82.7,46.7,93.4,0.0,47.5,stats_partial
+South Korea,KOR,A,Heungmin SON,FW,33.9,183,LAFC (USA),Major League Soccer,0.58,1162,0.33,0.301,27.4,1,51.4,62.9,22.7,87.4,0.0,37.7,stats_partial
+South Korea,KOR,A,Seungho PAIK,MF,29.2,182,Birmingham City FC (ENG),,0.52,,,,27.5,0,48.6,81.0,42.8,82.8,0.0,46.8,inferred
+South Korea,KOR,A,Guesung CHO,FW,28.4,188,FC Midtjylland (DEN),Danish Superliga,0.6,1349,0.336,0.085,18.9,1,65.7,89.6,22.9,80.4,0.0,40.5,stats_partial
+South Korea,KOR,A,Jaesung LEE,MF,33.8,180,1. FSV Mainz 05 (GER),Bundesliga,1.0,2229,0.171,0.134,22.9,1,42.9,70.2,50.0,100.0,0.0,43.5,stats_full
+South Korea,KOR,A,Heechan HWANG,MF,30.4,177,Wolverhampton Wanderers FC (ENG),Premier League,1.0,1469,0.163,0.115,20.9,1,34.3,83.1,50.0,100.0,0.0,45.0,stats_full
+South Korea,KOR,A,Bumkeun SONG,GK,28.7,196,Jeonbuk Hyundai Motors FC (KOR),,0.52,,,,5.7,0,88.6,82.0,53.1,79.8,53.4,64.7,inferred
+South Korea,KOR,A,Taeseok LEE,DF,23.9,174,FK Austria Wien (AUT),Austrian Bundesliga,0.62,2577,0.151,0.2,16.3,1,25.7,100.0,62.0,54.0,0.0,53.8,stats_partial
+South Korea,KOR,A,Wije CHO,DF,24.8,190,Jeonbuk Hyundai Motors FC (KOR),,0.52,,,,13.7,0,71.4,82.0,59.9,56.4,0.0,62.0,inferred
+South Korea,KOR,A,Moonhwan KIM,DF,30.9,173,Daejeon Hana Citizen FC (KOR),,0.52,,,,13.7,0,22.9,72.7,59.9,85.6,0.0,45.1,inferred
+South Korea,KOR,A,Jinseob PARK,DF,30.6,183,Zhejiang FC (CHN),,0.52,,,,13.7,0,51.4,74.1,59.9,85.6,0.0,54.0,inferred
+South Korea,KOR,A,Junho BAE,MF,22.8,180,Stoke City FC (ENG),,0.52,,,,27.5,0,42.9,82.0,42.8,44.4,0.0,46.5,inferred
+South Korea,KOR,A,Hyeongyu OH,FW,25.2,183,Beşiktaş JK (TUR),Super Lig,0.66,1088,0.5,0.099,29.7,1,51.4,87.3,23.3,63.0,0.0,43.8,stats_partial
+South Korea,KOR,A,Kangin LEE,MF,25.3,174,Paris Saint-Germain (FRA),Ligue 1,1.0,1527,0.186,0.389,43.1,1,25.7,91.2,50.0,73.8,0.0,55.1,stats_full
+South Korea,KOR,A,Hyunjun YANG,MF,24.1,179,Celtic FC (SCO),Scottish Premiership,0.62,2072,0.354,0.16,23.9,1,40.0,96.1,44.3,55.2,0.0,48.7,stats_partial
+South Korea,KOR,A,Hyeonwoo JO,GK,34.7,189,Ulsan HD (KOR),,0.52,,,,5.7,0,68.6,55.3,53.1,85.6,53.4,56.7,inferred
+South Korea,KOR,A,Youngwoo SEOL,DF,27.5,180,FK Crvena Zvezda (SRB),,0.52,,,,13.7,0,42.9,82.0,59.9,72.6,0.0,53.4,inferred
+South Korea,KOR,A,Jens CASTROP,DF,22.9,178,Borussia Mönchengladbach (GER),Bundesliga,1.0,1613,0.24,0.078,23.9,1,37.1,92.0,70.0,59.4,0.0,58.7,stats_full
+South Korea,KOR,A,Jingyu KIM,MF,29.3,177,Jeonbuk Hyundai Motors FC (KOR),,0.52,,,,27.5,0,34.3,80.5,42.8,83.4,0.0,45.2,inferred
+South Korea,KOR,A,Jisung EOM,MF,24.1,177,Swansea City AFC (WAL),,0.52,,,,27.5,0,34.3,82.0,42.8,52.2,0.0,45.6,inferred
+South Korea,KOR,A,Donggyeong LEE,MF,28.7,175,Ulsan HD (KOR),,0.52,,,,27.5,0,28.6,82.0,42.8,79.8,0.0,45.0,inferred
+Mexico,MEX,A,Raul RANGEL,GK,26.3,190,CD Guadalajara (MEX),Liga MX,0.68,3060,0.0,0.055,2.8,1,71.4,100.0,56.0,70.2,60.6,68.7,stats_partial
+Mexico,MEX,A,Jorge SANCHEZ,DF,28.5,176,PAOK Saloniki (GRE),Greek Super League,0.56,633,0.007,0.073,3.4,1,31.4,83.2,60.8,79.8,0.0,49.0,stats_partial
+Mexico,MEX,A,Cesar MONTES,DF,29.3,191,FC Lokomotiv Moscow (RUS),,0.52,,,,13.7,0,74.3,80.5,59.9,83.4,0.0,62.5,inferred
+Mexico,MEX,A,Edson ALVAREZ,DF,28.6,180,Fenerbahçe SK (TUR),gPremier League,1.0,1633,0.04,0.06,7.5,1,42.9,92.2,70.0,93.6,0.0,58.0,stats_partial
+Mexico,MEX,A,Johan VASQUEZ,DF,27.6,182,Genoa CFC (ITA),Serie A,1.0,3219,0.053,0.013,5.0,1,48.6,100.0,70.0,87.6,0.0,61.3,stats_full
+Mexico,MEX,A,Erik LIRA,MF,26.1,172,CF Cruz Azul (MEX),Liga MX,0.68,3002,0.022,0.134,8.0,1,20.0,100.0,45.2,69.0,0.0,41.5,stats_partial
+Mexico,MEX,A,Luis ROMO,MF,31.0,183,CD Guadalajara (MEX),Liga MX,0.68,2453,0.11,0.169,14.2,1,51.4,87.6,45.2,90.4,0.0,44.0,stats_partial
+Mexico,MEX,A,Alvaro FIDALGO,MF,29.2,175,Real Betis (ESP),La Liga,1.0,567,0.084,0.031,8.6,1,28.6,81.6,50.0,97.2,0.0,39.2,stats_full
+Mexico,MEX,A,Raul JIMENEZ,FW,35.1,188,Fulham FC (ENG),Premier League,1.0,2215,0.488,0.079,42.5,1,65.7,63.8,26.0,100.0,0.0,48.6,stats_full
+Mexico,MEX,A,Alexis VEGA,FW,28.6,175,Deportivo Toluca FC (MEX),Liga MX,0.68,1499,0.343,0.654,50.8,1,28.6,91.0,23.5,84.0,0.0,52.8,stats_partial
+Mexico,MEX,A,Santiago GIMENEZ,FW,25.2,180,AC Milan (ITA),Serie A,1.0,905,0.377,0.054,32.3,1,42.9,85.6,26.0,73.2,0.0,43.9,stats_full
+Mexico,MEX,A,Carlos ACEVEDO,GK,30.2,185,Club Santos Laguna (MEX),Liga MX,0.68,2860,0.001,0.039,2.0,1,57.1,92.8,56.0,90.4,60.6,64.7,stats_partial
+Mexico,MEX,A,Guillermo OCHOA,GK,40.9,185,AEL Limassol (CYP),,0.52,,,,5.7,0,57.1,45.1,53.1,85.6,53.4,52.9,inferred
+Mexico,MEX,A,Armando GONZALEZ,FW,23.2,182,CD Guadalajara (MEX),Liga MX,0.68,2460,0.842,0.104,48.2,1,48.6,99.6,23.5,51.6,0.0,56.1,stats_partial
+Mexico,MEX,A,Israel REYES,DF,26.1,181,Club América (MEX),Liga MX,0.68,2839,0.042,0.162,10.4,1,45.7,100.0,63.3,69.0,0.0,59.3,stats_partial
+Mexico,MEX,A,Julian QUINONES,FW,29.2,177,Al Qadsiah FC (KSA),Saudi Pro League,0.62,2744,1.007,0.15,53.8,1,34.3,98.8,23.0,85.8,0.0,56.8,stats_partial
+Mexico,MEX,A,Orbelin PINEDA,MF,30.2,169,AEK Athens (GRE),Greek Super League,0.56,2480,0.209,0.199,17.1,1,11.4,92.6,43.4,86.8,0.0,42.0,stats_partial
+Mexico,MEX,A,Obed VARGAS,MF,20.9,175,Atlético De Madrid (ESP),La Liga,1.0,742,0.024,0.024,3.6,1,28.6,77.1,50.0,47.4,0.0,36.1,stats_full
+Mexico,MEX,A,Gilberto MORA,MF,17.7,175,Club Tijuana (MEX),Liga MX,0.68,1398,0.396,0.133,27.0,1,28.6,71.0,45.2,20.4,0.0,42.7,stats_partial
+Mexico,MEX,A,Mateo CHAVEZ,DF,22.1,178,AZ Alkmaar (NED),Eredivisie,0.78,837,0.186,0.234,24.6,1,37.1,85.0,65.4,48.0,0.0,55.7,stats_partial
+Mexico,MEX,A,Cesar HUERTA,FW,25.5,171,RSC Anderlecht (BEL),Belgian Pro League,0.72,544,0.308,0.121,23.2,1,17.1,82.4,23.8,66.6,0.0,34.2,stats_partial
+Mexico,MEX,A,Guillermo MARTINEZ,FW,31.3,191,Pumas UNAM (MEX),Liga MX,0.68,1342,0.589,0.048,32.5,1,74.3,77.2,23.5,90.4,0.0,46.8,stats_partial
+Mexico,MEX,A,Jesus GALLARDO,DF,31.8,174,Deportivo Toluca FC (MEX),Liga MX,0.68,2696,0.211,0.23,22.5,1,25.7,83.2,63.3,90.4,0.0,50.9,stats_partial
+Mexico,MEX,A,Luis CHAVEZ,MF,30.4,178,FC Dynamo Moscow (RUS),,0.52,,,,27.5,0,37.1,75.1,42.8,85.6,0.0,44.2,inferred
+Mexico,MEX,A,Roberto ALVARADO,FW,27.8,176,CD Guadalajara (MEX),Liga MX,0.68,2368,0.264,0.269,27.2,1,31.4,98.8,23.5,79.2,0.0,41.8,stats_partial
+Mexico,MEX,A,Brian GUTIERREZ,MF,23.0,178,CD Guadalajara (MEX),Liga MX,0.68,917,0.376,0.245,31.7,1,37.1,85.8,45.2,50.4,0.0,49.1,stats_partial
+Morocco,MAR,C,Yassine BOUNOU,GK,35.2,192,Al Hilal SC (KSA),Saudi Pro League,0.62,2340,0.0,0.031,1.4,1,77.1,64.1,54.9,88.6,57.9,62.7,stats_partial
+Morocco,MAR,C,Achraf HAKIMI,DF,27.6,180,Paris Saint-Germain (FRA),Ligue 1,1.0,1382,0.182,0.095,20.8,1,42.9,89.9,70.0,87.6,0.0,59.5,stats_full
+Morocco,MAR,C,Noussair MAZRAOUI,DF,28.6,183,Manchester United FC (ENG),Premier League,1.0,990,0.018,0.019,2.8,1,51.4,86.4,70.0,93.6,0.0,58.4,stats_full
+Morocco,MAR,C,Sofyan AMRABAT,MF,29.8,185,Real Betis (ESP),La Liga,1.0,1297,0.017,0.017,2.6,1,57.1,84.9,50.0,100.0,0.0,40.5,stats_full
+Morocco,MAR,C,Nayef AGUERD,DF,30.2,190,Olympique Marseille (FRA),Ligue 1,1.0,1407,0.057,0.017,5.6,1,71.4,83.7,70.0,100.0,0.0,64.2,stats_full
+Morocco,MAR,C,Ayyoub BOUADDI,MF,18.7,185,Lille OSC (FRA),Ligue 1,1.0,2354,0.041,0.077,8.8,1,57.1,81.7,50.0,34.2,0.0,42.2,stats_full
+Morocco,MAR,C,Chemsdine TALBI,MF,21.1,175,Sunderland AFC (ENG),Premier League,1.0,1556,0.134,0.035,12.7,1,28.6,91.5,50.0,48.6,0.0,43.3,stats_full
+Morocco,MAR,C,Azzedine OUNAHI,MF,26.2,182,Girona FC (ESP),La Liga,1.0,1777,0.195,0.276,35.3,1,48.6,93.5,50.0,79.2,0.0,54.9,stats_full
+Morocco,MAR,C,Sou RAHIMI,FW,30.0,180,Al Ain FC (UAE),,0.52,,,,37.2,0,42.9,77.1,22.3,85.6,0.0,44.5,inferred
+Morocco,MAR,C,Brahim DIAZ,FW,26.9,170,Real Madrid C. F. (ESP),La Liga,1.0,1243,0.124,0.263,29.0,1,14.3,88.7,26.0,83.4,0.0,38.4,stats_full
+Morocco,MAR,C,Ismael SAIBARI,MF,25.4,185,PSV Eindhoven (NED),Eredivisie,0.78,2147,0.676,0.35,60.0,1,57.1,96.8,46.7,67.8,0.0,65.6,stats_partial
+Morocco,MAR,C,Munir EL KAJOUI,GK,37.1,190,RS Berkane (MAR),,0.52,,,,5.7,0,71.4,45.5,53.1,85.6,53.4,55.8,inferred
+Morocco,MAR,C,Zakaria EL OUAHDI,DF,24.5,171,KRC Genk (BEL),Belgian Pro League,0.72,2998,0.311,0.205,27.9,1,17.1,100.0,64.1,60.6,0.0,53.6,stats_partial
+Morocco,MAR,C,Issa DIOP,DF,29.4,194,Fulham FC (ENG),Premier League,1.0,810,0.049,0.0,3.7,1,82.9,82.8,70.0,98.4,0.0,67.1,stats_full
+Morocco,MAR,C,Samir EL MOURABET,MF,20.7,187,RC Strasbourg (FRA),Ligue 1,1.0,2145,0.016,0.114,9.8,1,62.9,87.9,50.0,46.2,0.0,44.7,stats_full
+Morocco,MAR,C,Gessime YASSINE,MF,20.6,172,RC Strasbourg (FRA),Ligue 1,1.0,505,0.09,0.284,28.1,1,20.0,74.2,50.0,45.6,0.0,44.3,stats_full
+Morocco,MAR,C,Abde EZZALZOULI,FW,24.5,177,Real Betis (ESP),La Liga,1.0,2275,0.408,0.246,49.0,1,34.3,98.0,26.0,69.0,0.0,54.3,stats_full
+Morocco,MAR,C,Chadi RIAD,DF,23.0,186,Crystal Palace FC (ENG),Premier League,1.0,562,0.045,0.069,8.6,1,60.0,82.6,70.0,60.0,0.0,60.9,stats_full
+Morocco,MAR,C,Youssef BELAMMARI,DF,27.7,175,Al Ahly FC (EGY),,0.52,,,,13.7,0,28.6,82.0,59.9,73.8,0.0,49.1,inferred
+Morocco,MAR,C,Ayoub EL KAABI,FW,33.0,182,Olympiacos FC (GRE),Greek Super League,0.56,2109,0.795,0.112,38.1,1,48.6,73.3,22.6,86.8,0.0,45.2,stats_partial
+Morocco,MAR,C,Ayoub AMAIMOUNI,FW,21.5,179,Eintracht Frankfurt (GER),Bundesliga,1.0,551,0.092,0.105,14.8,1,40.0,82.5,26.0,51.0,0.0,33.2,stats_full
+Morocco,MAR,C,Ahmed TAGNAOUTI,GK,30.2,194,ASFAR (MAR),,0.52,,,,5.7,0,82.9,76.1,53.1,85.6,53.4,62.7,inferred
+Morocco,MAR,C,Bilal EL KHANNOUSS,MF,22.1,180,VfB Stuttgart (GER),Bundesliga,1.0,1654,0.168,0.287,34.1,1,42.9,92.4,50.0,54.6,0.0,53.5,stats_full
+Morocco,MAR,C,Neil EL AYNAOUI,MF,25.0,185,AS Roma (ITA),Serie A,1.0,958,0.09,0.167,19.3,1,57.1,86.1,50.0,72.0,0.0,47.5,stats_full
+Morocco,MAR,C,Redouane HALHAL,DF,23.3,189,KV Mechelen (BEL),Belgian Pro League,0.72,2849,0.045,0.148,10.4,1,68.6,100.0,64.1,53.4,0.0,66.4,stats_partial
+Morocco,MAR,C,Anass SALAH EDDINE,DF,24.4,181,PSV Eindhoven (NED),Eredivisie,0.78,1092,0.054,0.123,10.4,1,45.7,87.3,65.4,61.8,0.0,56.7,stats_partial
+Netherlands,NED,F,Bart VERBRUGGEN,GK,23.8,193,Brighton & Hove Albion FC (ENG),Premier League,1.0,3420,0.0,0.002,0.1,1,80.0,100.0,62.0,64.8,75.0,79.8,stats_full
+Netherlands,NED,F,Jurrien TIMBER,DF,25.0,179,Arsenal FC (ENG),Premier League,1.0,2475,0.147,0.094,18.1,1,40.0,99.8,70.0,72.0,0.0,60.7,stats_full
+Netherlands,NED,F,Marten DE ROON,MF,35.2,186,Atalanta Bergamo (ITA),Serie A,1.0,2720,0.027,0.053,6.0,1,60.0,65.0,50.0,100.0,0.0,37.1,stats_full
+Netherlands,NED,F,Virgil VAN DIJK,DF,34.9,195,Liverpool FC (ENG),Premier League,1.0,3420,0.129,0.009,10.4,1,85.7,66.5,70.0,100.0,0.0,64.9,stats_full
+Netherlands,NED,F,Nathan AKE,DF,31.3,180,Manchester City FC (ENG),Premier League,1.0,681,0.145,0.094,17.9,1,42.9,72.1,70.0,100.0,0.0,54.6,stats_full
+Netherlands,NED,F,Jan-Paul VAN HECKE,DF,26.0,189,Brighton & Hove Albion FC (ENG),Premier League,1.0,3214,0.094,0.029,9.2,1,68.6,100.0,70.0,78.0,0.0,68.0,stats_full
+Netherlands,NED,F,Justin KLUIVERT,MF,27.1,173,AFC Bournemouth (ENG),Premier League,1.0,934,0.221,0.221,33.1,1,22.9,85.9,50.0,84.6,0.0,49.5,stats_full
+Netherlands,NED,F,Ryan GRAVENBERCH,MF,24.1,190,Liverpool FC (ENG),Premier League,1.0,3008,0.046,0.071,8.8,1,71.4,100.0,50.0,66.6,0.0,48.2,stats_full
+Netherlands,NED,F,Wout WEGHORST,FW,33.9,197,AFC Ajax (NED),Eredivisie,0.78,1865,0.435,0.236,39.3,1,91.4,67.4,24.3,93.4,0.0,51.2,stats_partial
+Netherlands,NED,F,Memphis DEPAY,FW,32.3,178,SC Corinthians (BRA),Brazil Serie A,0.74,465,0.201,0.13,18.4,1,37.1,65.5,24.0,92.2,0.0,31.2,stats_partial
+Netherlands,NED,F,Cody GAKPO,FW,27.1,193,Liverpool FC (ENG),Premier League,1.0,2758,0.321,0.215,40.2,1,80.0,100.0,26.0,84.6,0.0,56.7,stats_full
+Netherlands,NED,F,Mats WIEFFER,DF,26.6,189,Brighton & Hove Albion FC (ENG),Premier League,1.0,1922,0.09,0.134,16.8,1,68.6,94.8,70.0,81.6,0.0,67.8,stats_full
+Netherlands,NED,F,Robin ROEFS,GK,23.4,193,Sunderland AFC (ENG),Premier League,1.0,3150,0.0,0.02,1.5,1,80.0,100.0,62.0,62.4,75.0,79.8,stats_full
+Netherlands,NED,F,Tijjani REIJNDERS,MF,27.9,178,Manchester City FC (ENG),Premier League,1.0,1642,0.266,0.168,32.6,1,37.1,92.3,50.0,89.4,0.0,52.3,stats_full
+Netherlands,NED,F,Micky VAN DE VEN,DF,25.2,193,Tottenham Hotspur FC (ENG),Premier League,1.0,3049,0.072,0.03,7.6,1,80.0,100.0,70.0,73.2,0.0,71.1,stats_full
+Netherlands,NED,F,Guus TIL,MF,28.5,188,PSV Eindhoven (NED),Eredivisie,0.78,2249,0.536,0.225,44.5,1,65.7,97.7,46.7,86.4,0.0,60.5,stats_partial
+Netherlands,NED,F,Noa LANG,FW,27.0,176,Galatasaray SK (TUR),Serie A,1.0,645,0.19,0.276,35.0,1,31.4,83.3,26.0,84.0,0.0,43.2,stats_full
+Netherlands,NED,F,Donyell MALEN,FW,27.4,178,AS Roma (ITA),Serie A,1.0,1499,0.913,0.093,75.5,1,37.1,91.0,26.0,86.4,0.0,67.9,stats_full
+Netherlands,NED,F,Brian BROBBEY,FW,24.4,181,Sunderland AFC (ENG),Premier League,1.0,1943,0.329,0.07,29.9,1,45.7,95.0,26.0,68.4,0.0,44.9,stats_full
+Netherlands,NED,F,Teun KOOPMEINERS,MF,28.3,185,Juventus FC (ITA),Serie A,1.0,1803,0.09,0.037,9.5,1,57.1,93.7,50.0,91.8,0.0,45.5,stats_full
+Netherlands,NED,F,Frenkie DE JONG,MF,29.1,181,FC Barcelona (ESP),La Liga,1.0,1597,0.061,0.287,26.1,1,45.7,91.3,50.0,96.6,0.0,50.3,stats_full
+Netherlands,NED,F,Denzel DUMFRIES,DF,30.2,188,FC Internazionale Milano (ITA),Serie A,1.0,1332,0.247,0.095,25.6,1,65.7,83.0,70.0,100.0,0.0,65.3,stats_full
+Netherlands,NED,F,Mark FLEKKEN,GK,33.0,195,Bayer Leverkusen (GER),Bundesliga,1.0,2132,0.0,0.003,0.2,1,85.7,73.5,62.0,100.0,75.0,76.9,stats_full
+Netherlands,NED,F,Crysencio SUMMERVILLE,FW,24.6,172,West Ham United FC (ENG),Premier League,1.0,2509,0.204,0.116,24.0,1,20.0,100.0,26.0,69.6,0.0,38.8,stats_full
+Netherlands,NED,F,Jorrel HATO,DF,20.3,182,Chelsea FC (ENG),Premier League,1.0,1131,0.027,0.056,6.2,1,48.6,78.2,70.0,43.8,0.0,56.1,stats_full
+Netherlands,NED,F,Quinten TIMBER,MF,25.0,176,Olympique Marseille (FRA),Ligue 1,1.0,1135,0.09,0.036,9.4,1,31.4,87.7,50.0,72.0,0.0,41.4,stats_full
+New Zealand,NZL,G,Max CROCOMBE,GK,32.8,190,Millwall FC (ENG),,0.52,,,,5.7,0,71.4,63.3,53.1,85.6,53.4,58.5,inferred
+New Zealand,NZL,G,Tim PAYNE,DF,32.4,179,Wellington Phoenix FC (NZL),,0.52,,,,13.7,0,40.0,65.3,59.9,85.6,0.0,48.4,inferred
+New Zealand,NZL,G,Francis DE VRIES,DF,31.5,181,Auckland FC (NZL),,0.52,,,,13.7,0,45.7,69.7,59.9,85.6,0.0,51.2,inferred
+New Zealand,NZL,G,Tyler BINDON,DF,21.4,190,She eld United FC (ENG),,0.52,,,,13.7,0,71.4,82.0,59.9,36.0,0.0,62.0,inferred
+New Zealand,NZL,G,Michael BOXALL,DF,37.8,191,Minnesota United FC (USA),Major League Soccer,0.58,451,0.0,0.0,0.0,1,74.3,44.9,61.2,87.4,0.0,51.9,stats_partial
+New Zealand,NZL,G,Joe BELL,MF,27.1,182,Viking Stavanger (NOR),Norwegian Eliteserien,0.56,520,0.057,0.209,11.2,1,48.6,82.2,43.4,71.4,0.0,40.7,stats_partial
+New Zealand,NZL,G,Matthew GARBETT,MF,24.2,192,Peterborough United FC (ENG),,0.52,,,,27.5,0,77.1,82.0,42.8,52.8,0.0,49.9,inferred
+New Zealand,NZL,G,Marko STAMENIC,MF,24.3,188,Swansea City AFC (WAL),,0.52,,,,27.5,0,65.7,82.0,42.8,53.4,0.0,48.8,inferred
+New Zealand,NZL,G,Chris WOOD,FW,34.5,191,Nottingham Forest FC (ENG),Premier League,1.0,913,0.332,0.032,27.3,1,74.3,58.7,26.0,100.0,0.0,40.5,stats_full
+New Zealand,NZL,G,Sarpreet SINGH,MF,27.3,180,Wellington Phoenix FC (NZL),,0.52,,,,27.5,0,42.9,82.0,42.8,71.4,0.0,46.5,inferred
+New Zealand,NZL,G,Elijah JUST,MF,26.1,176,Motherwell FC (SCO),Scottish Premiership,0.62,2702,0.332,0.258,27.4,1,31.4,100.0,44.3,67.2,0.0,50.2,stats_partial
+New Zealand,NZL,G,Alex PAULSEN,GK,23.9,193,Lechia Gdańsk (POL),,0.52,,,,5.7,0,80.0,82.0,53.1,51.0,53.4,63.0,inferred
+New Zealand,NZL,G,Liberato CACACE,DF,25.7,182,Wrexham AFC (WAL),Serie A,1.0,1915,0.06,0.15,15.8,1,48.6,94.7,70.0,76.2,0.0,61.6,stats_partial
+New Zealand,NZL,G,Alex RUFER,MF,30.0,180,Wellington Phoenix FC (NZL),,0.52,,,,27.5,0,42.9,77.1,42.8,85.6,0.0,45.2,inferred
+New Zealand,NZL,G,Nando PIJNAKER,DF,27.3,185,Auckland FC (NZL),,0.52,,,,13.7,0,57.1,82.0,59.9,71.4,0.0,57.7,inferred
+New Zealand,NZL,G,Finn SURMAN,DF,22.7,190,Portland Timbers (USA),Major League Soccer,0.58,1392,0.034,0.012,2.0,1,71.4,90.0,61.2,45.6,0.0,62.6,stats_partial
+New Zealand,NZL,G,Kosta BARBAROUSES,FW,36.3,171,WS Wanderers FC (AUS),,0.52,,,,37.2,0,17.1,48.8,22.3,85.6,0.0,35.0,inferred
+New Zealand,NZL,G,Ben WAINE,FW,25.0,185,Port Vale FC (ENG),,0.52,,,,37.2,0,57.1,82.0,22.3,57.6,0.0,47.6,inferred
+New Zealand,NZL,G,Ben OLD,MF,23.8,173,AS Saint-Etienne (FRA),Ligue 1,1.0,465,0.15,0.34,36.8,1,22.9,81.7,50.0,64.8,0.0,49.9,stats_partial
+New Zealand,NZL,G,Callum McCOWATT,MF,27.1,180,Silkeborg IF (DEN),Danish Superliga,0.6,2504,0.47,0.224,31.2,1,42.9,100.0,44.0,72.6,0.0,52.8,stats_partial
+New Zealand,NZL,G,Jesse RANDALL,FW,23.8,176,Auckland FC (NZL),,0.52,,,,37.2,0,31.4,82.0,22.3,50.4,0.0,43.8,inferred
+New Zealand,NZL,G,Michael WOUD,GK,27.4,196,Auckland FC (NZL),,0.52,,,,5.7,0,88.6,82.0,53.1,72.0,53.4,64.7,inferred
+New Zealand,NZL,G,Ryan THOMAS,MF,31.5,176,PEC Zwolle (NED),Eredivisie,0.78,2157,0.063,0.111,10.2,1,31.4,82.4,46.7,93.4,0.0,39.5,stats_partial
+New Zealand,NZL,G,Callan ELLIOT,DF,26.9,177,Auckland FC (NZL),,0.52,,,,13.7,0,34.3,82.0,59.9,69.0,0.0,50.8,inferred
+New Zealand,NZL,G,Lachlan BAYLISS,MF,23.9,178,Newcastle United Jets FC (AUS),,0.52,,,,27.5,0,37.1,82.0,42.8,51.0,0.0,45.9,inferred
+New Zealand,NZL,G,Tommy SMITH,DF,36.2,188,Braintree Town FC (ENG),,0.52,,,,13.7,0,65.7,49.2,59.9,85.6,0.0,52.1,inferred
+Norway,NOR,I,Orjan NYLAND,GK,35.8,192,Sevilla FC (ESP),La Liga,1.0,450,0.0,0.0,0.0,1,77.1,50.6,62.0,100.0,75.0,71.8,stats_full
+Norway,NOR,I,Morten THORSBY,MF,30.1,188,US Cremonese (ITA),Serie A,1.0,1390,0.176,0.052,17.1,1,65.7,84.1,50.0,100.0,0.0,46.9,stats_full
+Norway,NOR,I,Kristoffer AJER,DF,28.2,198,Brentford FC (ENG),Premier League,1.0,1809,0.052,0.045,7.3,1,94.3,93.8,70.0,91.2,0.0,73.8,stats_full
+Norway,NOR,I,Leo OSTIGARD,DF,26.5,183,Genoa CFC (ITA),,0.52,,,,13.7,0,51.4,82.0,59.9,66.6,0.0,56.0,inferred
+Norway,NOR,I,David MOLLER WOLFE,DF,24.1,185,Wolverhampton Wanderers FC (ENG),,0.52,,,,13.7,0,57.1,82.0,59.9,52.2,0.0,57.7,inferred
+Norway,NOR,I,Patrick BERG,MF,28.6,178,FK Bodø/Glimt (NOR),Norwegian Eliteserien,0.56,900,0.297,0.166,19.4,1,37.1,85.6,43.4,80.4,0.0,43.7,stats_partial
+Norway,NOR,I,Alexander SORLOTH,FW,30.5,196,Atlético De Madrid (ESP),,0.52,,,,37.2,0,88.6,74.6,22.3,85.6,0.0,50.9,inferred
+Norway,NOR,I,Sander BERGE,MF,28.3,195,Fulham FC (ENG),Premier League,1.0,2935,0.041,0.061,7.7,1,85.7,100.0,50.0,91.8,0.0,49.1,stats_full
+Norway,NOR,I,Erling HAALAND,FW,25.9,195,Manchester City FC (ENG),Premier League,1.0,2979,0.87,0.166,77.7,1,85.7,100.0,26.0,77.4,0.0,78.2,stats_full
+Norway,NOR,I,Martin ODEGAARD,MF,27.5,178,Arsenal FC (ENG),Premier League,1.0,1347,0.081,0.333,31.1,1,37.1,89.6,50.0,87.0,0.0,51.0,stats_full
+Norway,NOR,I,Jorgen STRAND LARSEN,FW,26.4,193,Crystal Palace FC (ENG),Premier League,1.0,2353,0.249,0.026,20.6,1,80.0,98.7,26.0,80.4,0.0,45.7,stats_full
+Norway,NOR,I,Sander TANGVIK,GK,23.5,193,Hamburger SV (GER),Bundesliga,1.0,90,0.0,0.0,0.0,1,80.0,78.3,62.0,63.0,75.0,76.5,stats_full
+Norway,NOR,I,Egil SELVIK,GK,28.9,187,Watford FC (ENG),,0.52,,,,5.7,0,62.9,82.0,53.1,81.0,53.4,59.6,inferred
+Norway,NOR,I,Fredrik AURSNES,MF,30.5,181,SL Ben ca (POR),Primeira Liga,0.78,2294,0.153,0.243,23.2,1,45.7,89.3,46.7,93.4,0.0,47.8,stats_partial
+Norway,NOR,I,Fredrik BJORKAN,DF,27.8,180,FK Bodø/Glimt (NOR),Norwegian Eliteserien,0.56,635,0.135,0.173,12.9,1,42.9,83.2,60.8,75.6,0.0,53.8,stats_partial
+Norway,NOR,I,Marcus HOLMGREN PEDERSEN,DF,25.9,184,Torino FC (ITA),,0.52,,,,13.7,0,54.3,82.0,59.9,63.0,0.0,56.8,inferred
+Norway,NOR,I,Torbjorn HEGGEM,DF,27.4,192,Bologna FC (ITA),Serie A,1.0,2109,0.043,0.002,3.4,1,77.1,96.5,70.0,86.4,0.0,68.8,stats_full
+Norway,NOR,I,Kristian THORSTVEDT,MF,27.3,189,US Sassuolo (ITA),Serie A,1.0,2450,0.244,0.097,25.6,1,68.6,99.6,50.0,85.8,0.0,54.5,stats_full
+Norway,NOR,I,Thelo AASGAARD,MF,24.1,188,Rangers FC (SCO),Scottish Premiership,0.62,1806,0.425,0.229,30.4,1,65.7,93.8,44.3,55.2,0.0,53.2,stats_partial
+Norway,NOR,I,Antonio NUSA,FW,21.2,183,RB Leipzig (GER),Bundesliga,1.0,2048,0.229,0.209,32.9,1,51.4,95.9,26.0,49.2,0.0,47.6,stats_full
+Norway,NOR,I,Andreas SCHJELDERUP,MF,22.0,177,SL Ben ca (POR),Primeira Liga,0.78,1732,0.393,0.324,41.9,1,34.3,93.1,46.7,47.4,0.0,55.2,stats_partial
+Norway,NOR,I,Oscar BOBB,MF,22.9,177,Fulham FC (ENG),Premier League,1.0,1046,0.123,0.174,22.3,1,34.3,86.9,50.0,59.4,0.0,46.6,stats_full
+Norway,NOR,I,Jens HAUGE,MF,26.7,184,FK Bodø/Glimt (NOR),Norwegian Eliteserien,0.56,785,0.17,0.266,18.3,1,54.3,84.6,43.4,69.0,0.0,44.7,stats_partial
+Norway,NOR,I,Sondre LANGAS,DF,25.4,190,Derby County FC (ENG),,0.52,,,,13.7,0,71.4,82.0,59.9,60.0,0.0,62.0,inferred
+Norway,NOR,I,Henrik FALCHENER,DF,23.1,194,Viking Stavanger (NOR),Norwegian Eliteserien,0.56,856,0.198,0.19,16.3,1,82.9,85.2,60.8,47.4,0.0,66.8,stats_partial
+Norway,NOR,I,Julian RYERSON,FW,28.6,186,Borussia Dortmund (GER),Bundesliga,1.0,2288,0.043,0.427,35.2,1,60.0,98.1,26.0,93.6,0.0,50.6,stats_full
+Panama,PAN,L,Luis MEJIA,GK,35.2,193,Club Nacional (URU),,0.52,,,,5.7,0,80.0,53.3,53.1,85.6,53.4,58.7,inferred
+Panama,PAN,L,Cesar BLACKMAN,DF,28.2,174,ŠK Slovan Bratislava (SVK),,0.52,,,,13.7,0,25.7,82.0,59.9,76.8,0.0,48.3,inferred
+Panama,PAN,L,Jose CORDOBA,DF,25.0,189,Norwich City FC (ENG),,0.52,,,,13.7,0,68.6,82.0,59.9,57.6,0.0,61.1,inferred
+Panama,PAN,L,Fidel ESCOBAR,DF,31.4,184,Deportivo Saprissa (CRC),,0.52,,,,13.7,0,54.3,70.2,59.9,85.6,0.0,53.9,inferred
+Panama,PAN,L,Edgardo FARINA,DF,24.7,195,FC Pari Nizhny Novgorod (RUS),,0.52,,,,13.7,0,85.7,82.0,59.9,55.8,0.0,66.3,inferred
+Panama,PAN,L,Cristian MARTINEZ,MF,29.4,170,Hapoel Kiryat Shmona FC (ISR),,0.52,,,,27.5,0,14.3,80.0,42.8,84.0,0.0,43.1,inferred
+Panama,PAN,L,Jose RODRIGUEZ,MF,28.0,180,FC Juárez (MEX),Liga MX,0.68,2936,0.19,0.279,23.9,1,42.9,100.0,45.2,80.4,0.0,50.2,stats_partial
+Panama,PAN,L,Adalberto CARRASQUILLA,MF,27.5,171,Pumas UNAM (MEX),Liga MX,0.68,2854,0.124,0.248,19.0,1,17.1,100.0,45.2,77.4,0.0,45.6,stats_partial
+Panama,PAN,L,Tomas RODRIGUEZ,FW,27.3,183,Deportivo Saprissa (CRC),,0.52,,,,37.2,0,51.4,82.0,22.3,71.4,0.0,46.8,inferred
+Panama,PAN,L,Ismael DIAZ,MF,29.1,184,Club León (MEX),Liga MX,0.68,1933,0.487,0.272,38.7,1,54.3,94.3,45.2,87.0,0.0,55.8,stats_partial
+Panama,PAN,L,Edgar BARCENAS,MF,32.6,175,Mazatlán FC (MEX),Liga MX,0.68,2255,0.174,0.16,17.0,1,28.6,76.7,45.2,90.4,0.0,40.1,stats_partial
+Panama,PAN,L,Cesar SAMUDIO,GK,32.3,189,CD Marathón (HON),,0.52,,,,5.7,0,68.6,65.8,53.1,85.6,53.4,58.3,inferred
+Panama,PAN,L,Jiovany RAMOS,DF,29.4,188,Puerto Cabello CF (VEN),,0.52,,,,13.7,0,65.7,80.0,59.9,84.0,0.0,59.8,inferred
+Panama,PAN,L,Carlos HARVEY,DF,26.4,184,Minnesota United FC (USA),Premier League,1.0,1947,0.372,0.144,38.7,1,54.3,95.0,70.0,80.4,0.0,66.8,stats_full
+Panama,PAN,L,Eric DAVIS,DF,35.2,180,CD Plaza Amador (PAN),,0.52,,,,13.7,0,42.9,53.3,59.9,85.6,0.0,46.2,inferred
+Panama,PAN,L,Andres ANDRADE,DF,27.7,187,LASK Linz (AUT),Austrian Bundesliga,0.62,2697,0.077,0.186,12.2,1,62.9,100.0,62.0,76.8,0.0,64.3,stats_partial
+Panama,PAN,L,Jose FAJARDO,FW,32.8,184,CD Universidad Católica (ECU),,0.52,,,,37.2,0,54.3,63.3,22.3,85.6,0.0,43.5,inferred
+Panama,PAN,L,Cecilio WATERMAN,FW,35.2,180,CD Universidad De Concepción (CHI),,0.52,,,,37.2,0,42.9,53.3,22.3,85.6,0.0,39.8,inferred
+Panama,PAN,L,Alberto QUINTERO,MF,38.5,165,CD Plaza Amador (PAN),,0.52,,,,27.5,0,0.0,45.1,42.8,85.6,0.0,33.0,inferred
+Panama,PAN,L,Anibal GODOY,MF,36.3,184,San Diego FC (USA),Major League Soccer,0.58,891,0.003,0.076,3.4,1,54.3,50.9,43.7,87.4,0.0,30.4,stats_partial
+Panama,PAN,L,Cesar YANIS,MF,30.4,160,CD Cobresal (CHI),,0.52,,,,27.5,0,0.0,75.1,42.8,85.6,0.0,40.5,inferred
+Panama,PAN,L,Orlando MOSQUERA,GK,31.5,191,Al Fayha FC (KSA),Saudi Pro League,0.62,2880,0.0,0.05,2.3,1,74.3,85.0,54.9,88.6,57.9,65.2,stats_partial
+Panama,PAN,L,Amir MURILLO,DF,30.3,185,Beşiktaş JK (TUR),Premier League,1.0,2132,0.025,0.013,2.9,1,57.1,89.1,70.0,100.0,0.0,60.9,stats_full
+Panama,PAN,L,Azarias LONDONO,FW,25.0,185,CD Universidad Católica (ECU),,0.52,,,,37.2,0,57.1,82.0,22.3,57.6,0.0,47.6,inferred
+Panama,PAN,L,Roderick MILLER,DF,34.2,190,Turan Tovuz (AZE),,0.52,,,,13.7,0,71.4,57.4,59.9,85.6,0.0,55.8,inferred
+Panama,PAN,L,Jorge GUTIERREZ,DF,27.8,171,Deportivo La Guaira (VEN),,0.52,,,,13.7,0,17.1,82.0,59.9,74.4,0.0,45.7,inferred
+Paraguay,PAR,D,Gatito FERNANDEZ,GK,38.2,191,Cerro Porteño (PAR),,0.52,,,,5.7,0,74.3,45.1,53.1,85.6,53.4,56.3,inferred
+Paraguay,PAR,D,Gustavo VELAZQUEZ,DF,35.2,189,Cerro Porteño (PAR),,0.52,,,,13.7,0,68.6,53.3,59.9,85.6,0.0,53.9,inferred
+Paraguay,PAR,D,Omar ALDERETE,DF,29.5,190,Sunderland AFC (ENG),Premier League,1.0,2808,0.05,0.019,5.2,1,71.4,97.0,70.0,99.0,0.0,67.5,stats_full
+Paraguay,PAR,D,Juan CACERES,DF,26.0,187,FC Dynamo Moscow (RUS),,0.52,,,,13.7,0,62.9,82.0,59.9,63.6,0.0,59.4,inferred
+Paraguay,PAR,D,Fabian BALBUENA,DF,34.8,188,Grêmio FBPA (BRA),Brazil Serie A,0.74,586,0.008,0.117,6.9,1,65.7,55.5,64.5,92.2,0.0,54.0,stats_partial
+Paraguay,PAR,D,Junior ALONSO,DF,33.3,184,Atlético Mineiro (BRA),Brazil Serie A,0.74,900,0.029,0.102,7.3,1,54.3,63.8,64.5,92.2,0.0,52.7,stats_partial
+Paraguay,PAR,D,Ramon SOSA,MF,26.8,178,SE Palmeiras (BRA),Brazil Serie A,0.74,686,0.278,0.168,24.8,1,37.1,83.7,46.1,75.0,0.0,46.1,stats_partial
+Paraguay,PAR,D,Diego GOMEZ,MF,23.2,183,Brighton & Hove Albion FC (ENG),Premier League,1.0,2186,0.264,0.086,26.2,1,51.4,97.2,50.0,61.2,0.0,52.4,stats_full
+Paraguay,PAR,D,Antonio SANABRIA,FW,30.3,180,US Cremonese (ITA),Serie A,1.0,921,0.291,0.194,36.4,1,42.9,79.1,26.0,100.0,0.0,44.9,stats_full
+Paraguay,PAR,D,Miguel ALMIRON,MF,32.3,178,Atlanta United FC (USA),gPremier League,1.0,157,0.15,0.45,45.0,1,37.1,63.3,50.0,100.0,0.0,50.0,stats_partial
+Paraguay,PAR,D,Mauricio MAURICIO,MF,25.0,175,SE Palmeiras (BRA),Brazil Serie A,0.74,943,0.268,0.136,22.4,1,28.6,86.0,46.1,64.2,0.0,44.8,stats_partial
+Paraguay,PAR,D,Orlando GILL,GK,26.0,190,CA San Lorenzo (ARG),Argentine Primera,0.7,1350,0.0,0.024,1.3,1,71.4,89.7,56.4,69.0,61.5,67.7,stats_partial
+Paraguay,PAR,D,Jose CANALE,DF,29.9,192,CA Lanús (ARG),Argentine Primera,0.7,1170,0.02,0.088,5.7,1,77.1,83.3,63.7,91.0,0.0,63.9,stats_partial
+Paraguay,PAR,D,Andres CUBAS,MF,30.1,166,Vancouver Whitecaps FC (CAN),,0.52,,,,27.5,0,2.9,76.6,42.8,85.6,0.0,41.1,inferred
+Paraguay,PAR,D,Gustavo GOMEZ,DF,33.1,179,SE Palmeiras (BRA),Brazil Serie A,0.74,1430,0.184,0.097,15.6,1,40.0,68.2,64.5,92.2,0.0,50.8,stats_partial
+Paraguay,PAR,D,Damian BOBADILLA,MF,24.9,180,São Paulo FC (BRA),Brazil Serie A,0.74,1067,0.084,0.228,17.3,1,42.9,87.1,46.1,63.6,0.0,44.5,stats_partial
+Paraguay,PAR,D,Alejandro ROMERO GAMARRA,FW,31.4,165,Al Ain FC (UAE),UAE Pro League,0.48,1836,0.232,0.413,23.2,1,0.0,80.5,21.9,84.4,0.0,31.1,stats_partial
+Paraguay,PAR,D,Alex ARCE,FW,31.0,188,CS Independiente Rivadavia (ARG),Argentine Primera,0.7,475,0.423,0.063,25.5,1,65.7,72.0,23.7,91.0,0.0,40.6,stats_partial
+Paraguay,PAR,D,Julio ENCISO,FW,22.4,168,RC Strasbourg (FRA),Ligue 1,1.0,1918,0.36,0.207,42.5,1,8.6,94.8,26.0,56.4,0.0,46.2,stats_full
+Paraguay,PAR,D,Braian OJEDA,MF,26.0,173,Orlando City SC (USA),Major League Soccer,0.58,1525,0.021,0.065,3.7,1,22.9,91.2,43.7,65.4,0.0,37.5,stats_partial
+Paraguay,PAR,D,Gabriel AVALOS,FW,35.7,185,CA Independiente (ARG),Argentine Primera,0.7,1510,0.537,0.252,41.4,1,57.1,56.9,23.7,91.0,0.0,45.1,stats_partial
+Paraguay,PAR,D,Gaston OLVEIRA,GK,33.1,191,Club Olimpia (PAR),,0.52,,,,5.7,0,74.3,61.9,53.1,85.6,53.4,58.9,inferred
+Paraguay,PAR,D,Matias GALARZA,MF,24.3,175,Atlanta United FC (USA),Major League Soccer,0.58,735,0.16,0.069,10.0,1,28.6,84.1,43.7,55.2,0.0,38.8,stats_partial
+Paraguay,PAR,D,Gustavo CABALLERO,MF,24.7,189,Portsmouth FC (ENG),,0.52,,,,27.5,0,68.6,82.0,42.8,55.8,0.0,49.0,inferred
+Paraguay,PAR,D,Isidro PITTA,FW,26.8,185,Red Bull Bragantino (BRA),,0.52,,,,37.2,0,57.1,82.0,22.3,68.4,0.0,47.6,inferred
+Paraguay,PAR,D,Alexandro MAIDANA,DF,20.9,173,CA Talleres (ARG),Argentine Primera,0.7,723,0.225,0.128,18.5,1,22.9,77.0,63.7,38.4,0.0,48.0,stats_partial
+Portugal,POR,K,Diogo DIOGO COSTA,GK,26.7,188,FC Porto (POR),Primeira Liga,0.78,2908,0.0,0.054,3.2,1,65.7,100.0,57.9,75.6,65.1,70.5,stats_partial
+Portugal,POR,K,Nélson NELSON SEMEDO,DF,32.6,179,Fenerbahçe SK (TUR),Super Lig,0.66,1944,0.063,0.183,12.2,1,40.0,74.5,62.9,89.8,0.0,51.3,stats_partial
+Portugal,POR,K,Rúben RUBEN DIAS,DF,29.1,187,Manchester City FC (ENG),Premier League,1.0,2142,0.018,0.018,2.7,1,62.9,96.2,70.0,96.6,0.0,64.3,stats_full
+Portugal,POR,K,Tomás TOMAS ARAUJO,DF,24.1,187,SL Ben ca (POR),Primeira Liga,0.78,1683,0.102,0.209,18.2,1,62.9,92.6,65.4,60.0,0.0,64.4,stats_partial
+Portugal,POR,K,José DIOGO DALOT,DF,27.2,184,Manchester United FC (ENG),Premier League,1.0,2614,0.076,0.121,14.8,1,54.3,100.0,70.0,85.2,0.0,64.5,stats_full
+Portugal,POR,K,Matheus MATHEUS NUNES,MF,27.8,183,Manchester City FC (ENG),Premier League,1.0,2865,0.021,0.097,8.9,1,51.4,100.0,50.0,88.8,0.0,46.2,stats_full
+Portugal,POR,K,Cristiano CRISTIANO RONALDO,FW,41.4,185,Al Nassr FC (KSA),Saudi Pro League,0.62,2610,,,39.0,0,57.1,55.0,23.0,88.6,0.0,43.3,stats_partial
+Portugal,POR,K,Bruno BRUNO FERNANDES,MF,31.8,183,Manchester United FC (ENG),Premier League,1.0,3082,0.348,0.519,65.0,1,51.4,83.2,50.0,100.0,0.0,64.5,stats_full
+Portugal,POR,K,Gonçalo GONCALO RAMOS,FW,25.0,185,Paris Saint-Germain (FRA),Ligue 1,1.0,1293,0.652,0.107,56.9,1,57.1,89.1,26.0,72.0,0.0,60.3,stats_full
+Portugal,POR,K,Bernardo BERNARDO SILVA,MF,31.8,173,Manchester City FC (ENG),Premier League,1.0,2917,0.089,0.163,18.9,1,22.9,83.2,50.0,100.0,0.0,43.1,stats_full
+Portugal,POR,K,João JOAO FELIX,FW,26.6,179,Al Nassr FC (KSA),Serie A,1.0,502,0.12,0.47,44.2,1,40.0,82.0,26.0,81.6,0.0,49.3,stats_partial
+Portugal,POR,K,José JOSE SA,GK,33.4,192,Wolverhampton Wanderers FC (ENG),Premier League,1.0,2070,0.0,0.004,0.3,1,77.1,71.1,62.0,100.0,75.0,74.8,stats_full
+Portugal,POR,K,Renato RENATO VEIGA,DF,22.9,188,Villarreal CF (ESP),La Liga,1.0,2553,0.007,0.004,0.8,1,65.7,100.0,70.0,59.4,0.0,65.8,stats_full
+Portugal,POR,K,Gonçalo GONCALO INACIO,DF,24.8,185,Sporting CP (POR),Primeira Liga,0.78,2507,0.07,0.246,18.5,1,57.1,100.0,65.4,64.2,0.0,64.5,stats_partial
+Portugal,POR,K,João JOAO NEVES,MF,21.7,171,Paris Saint-Germain (FRA),Ligue 1,1.0,1280,0.222,0.174,29.7,1,17.1,89.0,50.0,52.2,0.0,48.3,stats_full
+Portugal,POR,K,Francisco FRANCISCO TRINCAO,FW,26.5,184,Sporting CP (POR),Primeira Liga,0.78,2857,0.32,0.376,40.7,1,54.3,100.0,24.3,74.4,0.0,53.0,stats_partial
+Portugal,POR,K,Rafael RAFAEL LEAO,FW,27.0,188,AC Milan (ITA),Serie A,1.0,1874,0.461,0.239,52.5,1,65.7,94.4,26.0,84.0,0.0,60.2,stats_full
+Portugal,POR,K,Pedro PEDRO NETO,FW,26.3,174,Chelsea FC (ENG),Premier League,1.0,2667,0.174,0.268,33.1,1,25.7,100.0,26.0,79.8,0.0,44.7,stats_full
+Portugal,POR,K,Gonçalo GONCALO GUEDES,FW,29.5,179,Real Sociedad (ESP),La Liga,1.0,1833,0.203,0.131,25.1,1,40.0,91.2,26.0,99.0,0.0,40.6,stats_full
+Portugal,POR,K,João JOAO CANCELO,DF,32.1,173,FC Barcelona (ESP),La Liga,1.0,938,0.093,0.312,30.4,1,22.9,70.0,70.0,100.0,0.0,49.9,stats_full
+Portugal,POR,K,Rúben RUBEN NEVES,MF,29.3,183,Al Hilal SC (KSA),Saudi Pro League,0.62,2750,0.339,0.335,31.3,1,51.4,98.2,44.3,86.4,0.0,53.3,stats_partial
+Portugal,POR,K,Rui RUI SILVA,GK,32.4,191,Sporting CP (POR),Primeira Liga,0.78,2880,0.0,0.044,2.6,1,74.3,79.6,57.9,93.4,65.1,69.1,stats_partial
+Portugal,POR,K,Vitor VITINHA,MF,26.3,170,Paris Saint-Germain (FRA),Ligue 1,1.0,2122,0.042,0.147,14.2,1,14.3,96.6,50.0,79.8,0.0,43.7,stats_full
+Portugal,POR,K,Samuel SAMU COSTA,DF,25.5,185,RCD Mallorca (ESP),La Liga,1.0,2731,0.141,0.065,15.4,1,57.1,100.0,70.0,75.0,0.0,65.5,stats_full
+Portugal,POR,K,Nuno NUNO MENDES,DF,24.0,177,Paris Saint-Germain (FRA),Ligue 1,1.0,1251,0.274,0.364,47.9,1,34.3,88.8,70.0,66.0,0.0,60.7,stats_full
+Portugal,POR,K,Francisco FRANCISCO CONCEICAO,FW,23.5,166,Juventus FC (ITA),Serie A,1.0,2124,0.36,0.176,40.2,1,2.9,96.6,26.0,63.0,0.0,44.5,stats_full
+Qatar,QAT,B,Mahmoud MAHMOUD ABUNADA,GK,26.4,185,Al Rayyan SC (QAT),Qatar Stars League,0.5,1800,0.0,0.034,1.3,1,57.1,93.7,52.7,65.4,52.5,59.6,stats_partial
+Qatar,QAT,B,Pedro PEDRO MIGUEL,DF,35.9,180,Al Sadd SC (QAT),Qatar Stars League,0.5,1476,0.172,0.199,13.9,1,42.9,55.8,59.5,85.0,0.0,46.8,stats_partial
+Qatar,QAT,B,Lucas LUCAS MENDES,DF,36.0,179,Al Wakrah SC (QAT),,0.52,,,,13.7,0,40.0,50.0,59.9,85.6,0.0,44.5,inferred
+Qatar,QAT,B,Gueye ISSA LAYE,DF,28.5,178,Al Arabi SC (QAT),Qatar Stars League,0.5,854,0.052,0.187,9.0,1,37.1,85.2,59.5,78.0,0.0,51.6,stats_partial
+Qatar,QAT,B,Jassem JASSEM GABER,DF,24.3,181,Al Rayyan SC (QAT),Qatar Stars League,0.5,703,0.019,0.109,4.8,1,45.7,83.8,59.5,52.8,0.0,53.2,stats_partial
+Qatar,QAT,B,Abdelaziz ABDULAZIZ HATEM,MF,36.5,179,Al Rayyan SC (QAT),Qatar Stars League,0.5,921,0.042,0.187,8.6,1,40.0,50.2,42.5,85.0,0.0,30.6,stats_partial
+Qatar,QAT,B,Ahmed AHMED ALAAELDIN,FW,33.4,179,Al Rayyan SC (QAT),Qatar Stars League,0.5,943,0.294,0.175,17.6,1,40.0,63.6,22.1,85.0,0.0,30.6,stats_partial
+Qatar,QAT,B,Edmilson EDMILSON JUNIOR,FW,31.8,180,Al Duhail SC (QAT),Qatar Stars League,0.5,1524,0.324,0.187,19.2,1,42.9,75.9,22.1,85.0,0.0,34.4,stats_partial
+Qatar,QAT,B,Mohammed MOHAMMED MUNTARI,FW,32.5,192,Al Gharafa SC (QAT),Qatar Stars League,0.5,337,0.077,0.053,4.9,1,77.1,63.6,22.1,85.0,0.0,29.2,stats_partial
+Qatar,QAT,B,Hasan HASSAN ALHAYDOS,FW,35.5,174,Al Sadd SC (QAT),Qatar Stars League,0.5,236,0.076,0.698,29.0,1,25.7,50.6,22.1,85.0,0.0,32.1,stats_partial
+Qatar,QAT,B,Akram AKRAM AFIF,FW,29.6,176,Al Sadd SC (QAT),Qatar Stars League,0.5,1938,0.646,0.549,44.8,1,31.4,91.5,22.1,84.6,0.0,49.9,stats_partial
+Qatar,QAT,B,Karim KARIM BOUDIAF,MF,35.7,190,Al Duhail SC (QAT),Qatar Stars League,0.5,787,0.169,0.169,12.7,1,71.4,52.9,42.5,85.0,0.0,36.1,stats_partial
+Qatar,QAT,B,Ayoub AYOUB ALOUI,DF,21.3,181,Al Gharafa SC (QAT),Qatar Stars League,0.5,1682,0.073,0.053,4.7,1,45.7,92.6,59.5,34.8,0.0,55.4,stats_partial
+Qatar,QAT,B,Homam HOMAM AHMED,DF,26.8,188,Cultural Leonesa (ESP),,0.52,,,,13.7,0,65.7,82.0,59.9,68.4,0.0,60.3,inferred
+Qatar,QAT,B,Yusuf YUSUF ABDURISAG,FW,26.9,171,Al Wakrah SC (QAT),Qatar Stars League,0.5,1037,0.33,0.182,19.2,1,17.1,86.8,22.1,68.4,0.0,32.7,stats_partial
+Qatar,QAT,B,Boualem BOUALEM KHOUKHI,DF,35.9,185,Al Sadd SC (QAT),Qatar Stars League,0.5,1451,0.085,0.132,8.1,1,57.1,55.7,59.5,85.0,0.0,50.1,stats_partial
+Qatar,QAT,B,Ahmed AHMED ALGANEHI,MF,25.7,175,Al Gharafa SC (QAT),Qatar Stars League,0.5,901,0.27,0.2,17.6,1,28.6,85.6,42.5,61.2,0.0,41.9,stats_partial
+Qatar,QAT,B,Sultan SULTAN ALBRAKE,DF,30.2,178,Al Duhail SC (QAT),Qatar Stars League,0.5,1436,0.1,0.192,11.0,1,37.1,83.9,59.5,85.0,0.0,51.6,stats_partial
+Qatar,QAT,B,Almoez ALMOEZ ALI,FW,29.8,180,Al Duhail SC (QAT),Qatar Stars League,0.5,167,0.523,0.054,21.6,1,42.9,75.2,22.1,85.0,0.0,35.6,stats_partial
+Qatar,QAT,B,Ahmed AHMED FATHY,MF,33.4,171,Al Arabi SC (QAT),Qatar Stars League,0.5,1577,0.021,0.172,7.2,1,17.1,67.9,42.5,85.0,0.0,32.2,stats_partial
+Qatar,QAT,B,Salah SALAH ZAKARIA,GK,27.1,186,Al Duhail SC (QAT),Qatar Stars League,0.5,1204,0.0,0.089,3.3,1,60.0,88.3,52.7,69.6,52.5,59.4,stats_partial
+Qatar,QAT,B,Meshaal MESHAAL BARSHAM,GK,28.3,180,Al Sadd SC (QAT),Qatar Stars League,0.5,1800,0.0,0.04,1.5,1,42.9,93.7,52.7,76.8,52.5,56.8,stats_partial
+Qatar,QAT,B,Assim ASSIM MADIBO,MF,29.6,168,Al Wakrah SC (QAT),Qatar Stars League,0.5,1089,0.017,0.094,4.2,1,8.6,84.2,42.5,84.6,0.0,34.2,stats_partial
+Qatar,QAT,B,Tahsin TAHSIN JAMSHID,FW,20.0,166,Al Duhail SC (QAT),Qatar Stars League,0.5,402,0.029,0.031,2.2,1,2.9,71.4,22.1,27.0,0.0,18.2,stats_partial
+Qatar,QAT,B,Alhashmi ALHASHMI ALHUSSEIN,DF,22.8,182,Al Arabi SC (QAT),Qatar Stars League,0.5,383,0.023,0.052,2.8,1,48.6,80.9,59.5,43.8,0.0,53.1,stats_partial
+Qatar,QAT,B,Mohamed MOHAMED MANAI,FW,23.6,180,Al Shamal SC (QAT),Qatar Stars League,0.5,1480,0.327,0.103,16.1,1,42.9,90.8,22.1,48.6,0.0,35.7,stats_partial
+Saudi Arabia,KSA,H,Nawaf NAWAF ALAQIDI,GK,26.1,186,Al Nassr FC (KSA),Saudi Pro League,0.62,960,0.0,0.094,4.4,1,60.0,86.1,54.9,67.2,57.9,62.6,stats_partial
+Saudi Arabia,KSA,H,Ali ALI MAJRASHI,DF,26.7,169,Al Ahli FC (KSA),Saudi Pro League,0.62,1529,0.085,0.166,11.7,1,11.4,91.3,62.0,70.8,0.0,46.6,stats_partial
+Saudi Arabia,KSA,H,Ali ALI LAJAMI,DF,30.1,177,Al Hilal SC (KSA),Saudi Pro League,0.62,624,0.032,0.115,6.8,1,34.3,77.6,62.0,88.6,0.0,49.3,stats_partial
+Saudi Arabia,KSA,H,Abdulelah ABDULELAH ALAMRI,DF,29.4,185,Al Nassr FC (KSA),Saudi Pro League,0.62,1787,0.112,0.147,12.0,1,57.1,91.3,62.0,87.0,0.0,60.4,stats_partial
+Saudi Arabia,KSA,H,Hassan HASSAN ALTAMBAKTI,DF,27.3,183,Al Hilal SC (KSA),Saudi Pro League,0.62,2351,0.046,0.096,6.6,1,51.4,98.7,62.0,74.4,0.0,59.7,stats_partial
+Saudi Arabia,KSA,H,Nasser NASSER ALDAWSARI,MF,27.5,178,Al Hilal SC (KSA),Saudi Pro League,0.62,1621,0.059,0.138,9.2,1,37.1,92.1,44.3,75.6,0.0,41.5,stats_partial
+Saudi Arabia,KSA,H,Musab MUSAB ALJUWAYR,MF,23.0,175,Al Qadsiah FC (KSA),Saudi Pro League,0.62,2565,0.256,0.454,33.0,1,28.6,100.0,44.3,48.6,0.0,52.1,stats_partial
+Saudi Arabia,KSA,H,Aiman AIMAN YAHYA,FW,25.1,173,Al Nassr FC (KSA),Saudi Pro League,0.62,1248,0.203,0.212,19.3,1,22.9,88.7,23.0,61.2,0.0,34.1,stats_partial
+Saudi Arabia,KSA,H,Feras FERAS ALBRIKAN,FW,26.1,185,Al Ahli FC (KSA),Saudi Pro League,0.62,1730,0.241,0.084,15.1,1,57.1,93.1,23.0,67.2,0.0,37.8,stats_partial
+Saudi Arabia,KSA,H,Salem SALEM ALDAWSARI,FW,34.8,173,Al Hilal SC (KSA),Saudi Pro League,0.62,1889,0.453,0.355,37.6,1,22.9,63.3,23.0,88.6,0.0,39.1,stats_partial
+Saudi Arabia,KSA,H,Saleh SALEH ALSHEHRI,FW,32.6,184,Al Ittihad (KSA),Saudi Pro League,0.62,420,0.688,0.371,49.2,1,54.3,63.7,23.0,88.6,0.0,50.3,stats_partial
+Saudi Arabia,KSA,H,Saud SAUD ABDULHAMID,DF,26.9,172,RC Lens (FRA),Ligue 1,1.0,1335,0.074,0.185,19.4,1,20.0,89.5,70.0,83.4,0.0,52.3,stats_full
+Saudi Arabia,KSA,H,Nawaf NAWAF BU WASHL,DF,26.7,173,Al Nassr FC (KSA),Saudi Pro League,0.62,1870,0.0,0.277,12.9,1,22.9,94.3,62.0,70.8,0.0,51.0,stats_partial
+Saudi Arabia,KSA,H,Hassan HASSAN KADISH,DF,33.7,179,Al Ittihad (KSA),Saudi Pro League,0.62,2275,0.042,0.096,6.4,1,40.0,71.0,62.0,88.6,0.0,49.3,stats_partial
+Saudi Arabia,KSA,H,Abdullah ABDULLAH ALKHAIBARI,MF,29.8,175,Al Nassr FC (KSA),Saudi Pro League,0.62,1587,0.021,0.105,5.9,1,28.6,87.4,44.3,88.6,0.0,38.1,stats_partial
+Saudi Arabia,KSA,H,Ziyad ZIYAD ALJOHANI,MF,24.6,180,Al Ahli FC (KSA),Saudi Pro League,0.62,1474,0.051,0.148,9.3,1,42.9,90.8,44.3,58.2,0.0,41.8,stats_partial
+Saudi Arabia,KSA,H,Khalid KHALID ALGHANNAM,FW,25.6,171,Al Ettifaq FC (KSA),Saudi Pro League,0.62,2175,0.503,0.247,34.9,1,17.1,97.1,23.0,64.2,0.0,43.5,stats_partial
+Saudi Arabia,KSA,H,Ala ALA ALHAJJI,MF,30.5,178,Neom SC (KSA),Saudi Pro League,0.62,1344,0.192,0.194,17.9,1,37.1,81.5,44.3,88.6,0.0,42.4,stats_partial
+Saudi Arabia,KSA,H,Abdullah ABDULLAH ALHAMDDAN,FW,26.8,186,Al Nassr FC (KSA),Saudi Pro League,0.62,308,0.824,0.292,51.9,1,60.0,80.3,23.0,71.4,0.0,55.9,stats_partial
+Saudi Arabia,KSA,H,Sultan SULTAN MANDASH,FW,31.7,172,Al Hilal SC (KSA),Saudi Pro League,0.62,1326,0.39,0.321,33.1,1,20.0,74.9,23.0,88.6,0.0,38.5,stats_partial
+Saudi Arabia,KSA,H,Mohammed MOHAMMED ALOWAIS,GK,34.7,185,Al Ula Saudi FC (KSA),,0.52,,,,5.7,0,57.1,55.3,53.1,85.6,53.4,54.4,inferred
+Saudi Arabia,KSA,H,Ahmed AHMED ALKASSAR,GK,35.1,178,Al Qadsiah FC (KSA),Saudi Pro League,0.62,205,0.0,0.044,2.0,1,37.1,52.0,54.9,88.6,57.9,52.9,stats_partial
+Saudi Arabia,KSA,H,Mohamed MOHAMED KANNO,MF,31.7,191,Al Hilal SC (KSA),Saudi Pro League,0.62,2086,0.258,0.233,22.8,1,74.3,80.7,44.3,88.6,0.0,47.8,stats_partial
+Saudi Arabia,KSA,H,Moteb MOTEB ALHARBI,DF,26.3,177,Al Hilal SC (KSA),Saudi Pro League,0.62,1830,0.092,0.169,12.1,1,34.3,94.0,62.0,68.4,0.0,54.2,stats_partial
+Saudi Arabia,KSA,H,Jehad JEHAD THIKRI,DF,24.9,184,Al Qadsiah FC (KSA),Saudi Pro League,0.62,1514,0.032,0.111,6.6,1,54.3,91.1,62.0,60.0,0.0,58.7,stats_partial
+Saudi Arabia,KSA,H,Mohammed MOHAMMED ABU ALSHAMAT,DF,23.8,170,Al Qadsiah FC (KSA),Saudi Pro League,0.62,2496,0.186,0.319,23.5,1,14.3,100.0,62.0,53.4,0.0,51.4,stats_partial
+Scotland,SCO,C,Angus GUNN,GK,30.4,196,Nottingham Forest FC (ENG),Premier League,1.0,38,0.0,0.0,0.0,1,88.6,71.3,62.0,100.0,75.0,77.2,stats_full
+Scotland,SCO,C,Aaron HICKEY,DF,24.0,185,Brentford FC (ENG),Premier League,1.0,668,0.074,0.081,11.6,1,57.1,83.5,70.0,66.0,0.0,60.8,stats_full
+Scotland,SCO,C,Andy ROBERTSON,DF,32.3,178,Liverpool FC (ENG),Premier League,1.0,1160,0.081,0.117,14.9,1,37.1,70.5,70.0,100.0,0.0,52.0,stats_full
+Scotland,SCO,C,Scott McTOMINAY,MF,29.5,193,SSC Napoli (ITA),Serie A,1.0,2798,0.4,0.064,34.8,1,80.0,97.0,50.0,99.0,0.0,58.7,stats_full
+Scotland,SCO,C,Grant HANLEY,DF,34.6,188,Hibernian FC (SCO),Scottish Premiership,0.62,1932,0.062,0.089,7.0,1,65.7,64.5,62.0,88.6,0.0,55.5,stats_partial
+Scotland,SCO,C,Kieran TIERNEY,DF,29.0,180,Celtic FC (SCO),Scottish Premiership,0.62,2517,0.206,0.344,25.6,1,42.9,100.0,62.0,84.6,0.0,60.3,stats_partial
+Scotland,SCO,C,John McGINN,MF,31.7,178,Aston Villa FC (ENG),Premier League,1.0,2221,0.122,0.197,23.9,1,37.1,81.7,50.0,100.0,0.0,46.2,stats_full
+Scotland,SCO,C,Tyler FLETCHER,MF,19.2,183,Manchester United FC (ENG),Premier League,1.0,14,0.0,0.0,0.0,1,51.4,65.8,50.0,37.2,0.0,34.1,stats_full
+Scotland,SCO,C,Lyndon DYKES,FW,30.7,188,Charlton Athletic FC (ENG),,0.52,,,,37.2,0,65.7,73.6,22.3,85.6,0.0,47.3,inferred
+Scotland,SCO,C,Che ADAMS,FW,29.9,175,Torino FC (ITA),Serie A,1.0,1899,0.313,0.152,34.9,1,28.6,89.5,26.0,100.0,0.0,44.0,stats_full
+Scotland,SCO,C,Ryan CHRISTIE,MF,31.3,178,AFC Bournemouth (ENG),Premier League,1.0,942,0.171,0.155,24.4,1,37.1,74.1,50.0,100.0,0.0,44.5,stats_full
+Scotland,SCO,C,Liam KELLY,GK,30.4,184,Rangers FC (SCO),,0.52,,,,5.7,0,54.3,75.1,53.1,85.6,53.4,56.8,inferred
+Scotland,SCO,C,Jack HENDRY,DF,31.1,192,Al Ettifaq FC (KSA),Saudi Pro League,0.62,2557,0.032,0.111,6.6,1,77.1,87.4,62.0,88.6,0.0,64.6,stats_partial
+Scotland,SCO,C,Ross STEWART,FW,29.9,188,Southampton FC (ENG),,0.52,,,,37.2,0,65.7,77.6,22.3,85.6,0.0,48.0,inferred
+Scotland,SCO,C,John SOUTTAR,DF,29.7,186,Rangers FC (SCO),Scottish Premiership,0.62,2014,0.04,0.142,8.5,1,60.0,91.6,62.0,88.6,0.0,60.8,stats_partial
+Scotland,SCO,C,Dominic HYAM,DF,30.5,188,Wrexham AFC (WAL),,0.52,,,,13.7,0,65.7,74.6,59.9,85.6,0.0,58.4,inferred
+Scotland,SCO,C,Ben GANNON-DOAK,FW,20.6,173,AFC Bournemouth (ENG),,0.52,,,,37.2,0,22.9,74.1,22.3,31.2,0.0,40.9,inferred
+Scotland,SCO,C,George HIRST,FW,27.3,191,Ipswich Town FC (ENG),gPremier League,1.0,470,0.05,0.29,25.5,1,74.3,81.7,26.0,85.8,0.0,44.1,stats_partial
+Scotland,SCO,C,Lewis FERGUSON,MF,26.8,181,Bologna FC (ITA),Serie A,1.0,1576,0.037,0.089,9.4,1,45.7,91.7,50.0,82.8,0.0,43.8,stats_full
+Scotland,SCO,C,Lawrence SHANKLAND,FW,30.8,185,Heart Of Midlothian FC (SCO),Scottish Premiership,0.62,2500,0.608,0.151,35.3,1,57.1,89.2,23.0,88.6,0.0,48.1,stats_partial
+Scotland,SCO,C,Craig GORDON,GK,43.5,193,Heart Of Midlothian FC (SCO),Scottish Premiership,0.62,225,0.0,0.024,1.1,1,80.0,43.7,54.9,88.6,57.9,60.2,stats_partial
+Scotland,SCO,C,Nathan PATTERSON,DF,24.7,183,Everton FC (ENG),Premier League,1.0,241,0.063,0.0,4.7,1,51.4,79.7,70.0,70.2,0.0,57.1,stats_full
+Scotland,SCO,C,Kenny McLEAN,MF,34.4,183,Norwich City FC (ENG),,0.52,,,,27.5,0,51.4,56.6,42.8,85.6,0.0,41.0,inferred
+Scotland,SCO,C,Anthony RALSTON,DF,27.6,178,Celtic FC (SCO),Scottish Premiership,0.62,1300,0.035,0.191,10.5,1,37.1,89.2,62.0,76.2,0.0,53.6,stats_partial
+Scotland,SCO,C,Findlay CURTIS,FW,20.0,180,Kilmarnock FC (SCO),Scottish Premiership,0.62,1299,0.513,0.141,30.4,1,42.9,78.5,23.0,30.6,0.0,41.2,stats_partial
+Scotland,SCO,C,Scott McKENNA,DF,29.6,189,GNK Dinamo Zagreb (CRO),La Liga,1.0,2286,0.03,0.06,6.8,1,68.6,94.5,70.0,99.6,0.0,66.2,stats_partial
+Senegal,SEN,I,Yehvann DIOUF,GK,26.6,188,OGC Nice (FRA),Ligue 1,1.0,2340,0.0,0.0,0.0,1,65.7,98.6,62.0,81.6,75.0,76.7,stats_full
+Senegal,SEN,I,Mamadou SARR,DF,20.8,194,Chelsea FC (ENG),Premier League,1.0,99,0.517,0.0,38.8,1,82.9,71.5,70.0,46.8,0.0,69.5,stats_full
+Senegal,SEN,I,Kalidou KOULIBALY,DF,35.0,186,Al Hilal SC (KSA),Saudi Pro League,0.62,1597,0.077,0.187,12.3,1,60.0,60.6,62.0,88.6,0.0,53.6,stats_partial
+Senegal,SEN,I,Abdoulaye SECK,DF,34.0,192,Maccabi Haifa FC (ISR),,0.52,,,,13.7,0,77.1,58.2,59.9,85.6,0.0,57.7,inferred
+Senegal,SEN,I,Idrissa GUEYE,MF,36.7,174,Everton FC (ENG),Premier League,1.0,2120,0.081,0.072,11.5,1,25.7,55.5,50.0,100.0,0.0,33.5,stats_full
+Senegal,SEN,I,Pathe CISS,MF,32.2,186,Rayo Vallecano (ESP),La Liga,1.0,1974,0.181,0.022,15.2,1,60.0,77.0,50.0,100.0,0.0,43.8,stats_full
+Senegal,SEN,I,Assane DIAO,FW,20.8,185,Como (ITA),Serie A,1.0,1098,0.26,0.138,29.9,1,57.1,79.7,26.0,46.8,0.0,43.5,stats_full
+Senegal,SEN,I,Lamine CAMARA,MF,22.5,174,AS Monaco (FRA),Ligue 1,1.0,1870,0.065,0.245,23.2,1,25.7,94.3,50.0,57.0,0.0,48.0,stats_full
+Senegal,SEN,I,Bamba DIENG,FW,26.2,178,FC Lorient (FRA),Ligue 1,1.0,1239,0.688,0.084,57.9,1,37.1,88.7,26.0,79.2,0.0,57.7,stats_full
+Senegal,SEN,I,Sadio MANE,FW,34.2,175,Al Nassr FC (KSA),Saudi Pro League,0.62,2132,,,39.0,0,28.6,67.7,23.0,88.6,0.0,41.6,stats_partial
+Senegal,SEN,I,Nicolas JACKSON,FW,25.0,187,FC Bayern München (GER),Bundesliga,1.0,991,0.771,0.19,72.1,1,62.9,86.4,26.0,72.0,0.0,69.0,stats_full
+Senegal,SEN,I,Cherif NDIAYE,FW,30.4,190,Samsunspor (TUR),Super Lig,0.66,1422,0.415,0.112,26.1,1,71.4,82.7,23.3,89.8,0.0,43.9,stats_partial
+Senegal,SEN,I,Iliman NDIAYE,FW,26.3,180,Everton FC (ENG),Premier League,1.0,2805,0.197,0.143,25.5,1,42.9,100.0,26.0,79.8,0.0,43.1,stats_full
+Senegal,SEN,I,Ismail JAKOBS,DF,26.8,184,Galatasaray SK (TUR),Ligue 1,1.0,180,0.11,0.11,16.5,1,54.3,79.1,70.0,82.8,0.0,59.5,stats_partial
+Senegal,SEN,I,Krepin DIATTA,DF,27.3,173,AS Monaco (FRA),Ligue 1,1.0,997,0.084,0.159,18.2,1,22.9,86.5,70.0,85.8,0.0,52.2,stats_full
+Senegal,SEN,I,Edouard MENDY,GK,34.3,194,Al Ahli FC (KSA),Saudi Pro League,0.62,2340,0.0,0.052,2.4,1,82.9,68.5,54.9,88.6,57.9,64.5,stats_partial
+Senegal,SEN,I,Pape SARR,MF,23.8,185,Tottenham Hotspur FC (ENG),Premier League,1.0,1347,0.137,0.163,22.5,1,57.1,89.6,50.0,64.8,0.0,49.6,stats_full
+Senegal,SEN,I,Ismaila SARR,FW,28.3,185,Crystal Palace FC (ENG),Premier League,1.0,2181,0.476,0.091,42.5,1,57.1,97.1,26.0,91.8,0.0,54.0,stats_full
+Senegal,SEN,I,Moussa NIAKHATE,DF,30.3,190,Olympique Lyonnais (FRA),Ligue 1,1.0,2750,0.006,0.027,2.5,1,71.4,92.2,70.0,100.0,0.0,65.8,stats_full
+Senegal,SEN,I,Ibrahim MBAYE,FW,18.4,175,Paris Saint-Germain (FRA),Ligue 1,1.0,973,0.317,0.219,40.2,1,28.6,70.4,26.0,32.4,0.0,43.1,stats_full
+Senegal,SEN,I,Habib DIARRA,MF,22.4,178,Sunderland AFC (ENG),Premier League,1.0,1414,0.207,0.041,18.6,1,37.1,90.2,50.0,56.4,0.0,46.2,stats_full
+Senegal,SEN,I,Bara NDIAYE,MF,18.5,180,FC Bayern München (GER),Bundesliga,1.0,146,0.0,0.0,0.0,1,42.9,64.6,50.0,33.0,0.0,32.9,stats_full
+Senegal,SEN,I,Mory DIAW,GK,33.0,197,Le Havre AC (FRA),Ligue 1,1.0,2662,0.0,0.009,0.7,1,91.4,76.0,62.0,100.0,75.0,78.4,stats_full
+Senegal,SEN,I,Antoine MENDY,DF,22.1,187,OGC Nice (FRA),Ligue 1,1.0,2105,0.094,0.002,7.2,1,62.9,96.4,70.0,54.6,0.0,65.0,stats_full
+Senegal,SEN,I,El DIOUF,DF,21.5,177,West Ham United FC (ENG),Premier League,1.0,2711,0.019,0.108,9.5,1,34.3,100.0,70.0,51.0,0.0,57.7,stats_full
+Senegal,SEN,I,Pape GUEYE,MF,27.4,189,Villarreal CF (ESP),La Liga,1.0,2280,0.206,0.088,22.0,1,68.6,98.0,50.0,86.4,0.0,52.7,stats_full
+South Africa,RSA,A,Ronwen WILLIAMS,GK,34.4,184,Mamelodi Sundowns FC (RSA),South Africa PSL,0.52,2610,0.0,0.087,3.4,1,54.3,69.0,53.1,85.6,53.4,55.9,stats_partial
+South Africa,RSA,A,Thabang MATULUDI,DF,27.4,189,Polokwane City FC (RSA),,0.52,,,,13.7,0,68.6,82.0,59.9,72.0,0.0,61.1,inferred
+South Africa,RSA,A,Khulumani NDAMANE,DF,22.4,183,Mamelodi Sundowns FC (RSA),,0.52,,,,13.7,0,51.4,82.0,59.9,42.0,0.0,56.0,inferred
+South Africa,RSA,A,Teboho MOKOENA,MF,29.4,177,Mamelodi Sundowns FC (RSA),South Africa PSL,0.52,1617,0.318,0.287,23.6,1,34.3,89.8,42.8,84.0,0.0,46.0,stats_partial
+South Africa,RSA,A,Thalente MBATHA,MF,26.3,179,Orlando Pirates FC (RSA),South Africa PSL,0.52,1606,0.169,0.2,14.4,1,40.0,92.0,42.8,65.4,0.0,43.4,stats_partial
+South Africa,RSA,A,Aubrey MODIBA,DF,30.9,171,Mamelodi Sundowns FC (RSA),,0.52,,,,13.7,0,17.1,72.7,59.9,85.6,0.0,43.3,inferred
+South Africa,RSA,A,Oswin APPOLLIS,FW,24.8,171,Orlando Pirates FC (RSA),,0.52,,,,37.2,0,17.1,82.0,22.3,56.4,0.0,41.6,inferred
+South Africa,RSA,A,Tshepang MOREMI,FW,25.7,169,Orlando Pirates FC (RSA),,0.52,,,,37.2,0,11.4,82.0,22.3,61.8,0.0,40.8,inferred
+South Africa,RSA,A,Lyle FOSTER,FW,25.8,185,Burnley FC (ENG),Premier League,1.0,1375,0.235,0.075,23.2,1,57.1,89.9,26.0,76.8,0.0,41.9,stats_full
+South Africa,RSA,A,Relebohile MOFOKENG,FW,21.6,168,Orlando Pirates FC (RSA),,0.52,,,,37.2,0,8.6,82.0,22.3,37.2,0.0,40.4,inferred
+South Africa,RSA,A,Themba ZWANE,MF,36.9,178,Mamelodi Sundowns FC (RSA),South Africa PSL,0.52,532,0.083,0.257,13.3,1,37.1,46.5,42.8,85.6,0.0,31.3,stats_partial
+South Africa,RSA,A,Thapelo MASEKO,FW,22.6,178,AEL Limassol (CYP),,0.52,,,,37.2,0,37.1,82.0,22.3,43.2,0.0,44.6,inferred
+South Africa,RSA,A,Sphephelo SITHOLE,MF,27.3,197,CD Tondela (POR),Primeira Liga,0.78,1543,0.055,0.07,7.3,1,91.4,91.4,46.7,79.2,0.0,46.6,stats_partial
+South Africa,RSA,A,Mbekezeli MBOKAZI,DF,20.7,177,Chicago Fire FC (USA),Major League Soccer,0.58,1195,0.051,0.029,3.5,1,34.3,80.1,61.2,33.6,0.0,49.2,stats_partial
+South Africa,RSA,A,Iqraam RAYNERS,FW,30.5,174,Mamelodi Sundowns FC (RSA),South Africa PSL,0.52,1439,0.722,0.218,36.7,1,25.7,82.3,22.3,85.6,0.0,42.7,stats_partial
+South Africa,RSA,A,Sipho CHAINE,GK,29.5,186,Orlando Pirates FC (RSA),,0.52,,,,5.7,0,60.0,79.5,53.1,84.6,53.4,58.6,inferred
+South Africa,RSA,A,Evidence MAKGOPA,FW,26.0,183,Orlando Pirates FC (RSA),South Africa PSL,0.52,1067,0.476,0.302,30.3,1,51.4,87.1,22.3,63.6,0.0,44.0,stats_partial
+South Africa,RSA,A,Samukelo KABINI,DF,22.3,179,Molde FK (NOR),Norwegian Eliteserien,0.56,618,0.026,0.195,9.3,1,40.0,83.1,60.8,42.6,0.0,52.4,stats_partial
+South Africa,RSA,A,Nkosinathi SIBISI,DF,30.7,172,Orlando Pirates FC (RSA),,0.52,,,,13.7,0,20.0,73.6,59.9,85.6,0.0,44.4,inferred
+South Africa,RSA,A,Khuliso MUDAU,DF,31.1,179,Mamelodi Sundowns FC (RSA),,0.52,,,,13.7,0,40.0,71.7,59.9,85.6,0.0,50.0,inferred
+South Africa,RSA,A,Ime OKON,DF,22.3,187,Hannover 96 (GER),,0.52,,,,13.7,0,62.9,82.0,59.9,41.4,0.0,59.4,inferred
+South Africa,RSA,A,Ricardo GOSS,GK,32.2,181,Siwelele FC (RSA),,0.52,,,,5.7,0,45.7,66.3,53.1,85.6,53.4,53.8,inferred
+South Africa,RSA,A,Jayden ADAMS,MF,25.1,177,Mamelodi Sundowns FC (RSA),,0.52,,,,27.5,0,34.3,82.0,42.8,58.2,0.0,45.6,inferred
+South Africa,RSA,A,Olwethu MAKHANYA,DF,22.1,185,Philadelphia Union (USA),Major League Soccer,0.58,1324,0.028,0.028,2.4,1,57.1,89.4,61.2,42.0,0.0,58.2,stats_partial
+South Africa,RSA,A,Kamogelo SEBELEBELE,FW,23.9,166,Orlando Pirates FC (RSA),,0.52,,,,37.2,0,2.9,82.0,22.3,51.0,0.0,39.5,inferred
+South Africa,RSA,A,Bradley CROSS,DF,25.4,175,Kaizer Chiefs FC (RSA),,0.52,,,,13.7,0,28.6,82.0,59.9,60.0,0.0,49.1,inferred
+Spain,ESP,H,David RAYA,GK,30.7,186,Arsenal FC (ENG),Premier League,1.0,3330,0.0,0.004,0.3,1,60.0,89.8,62.0,100.0,75.0,74.2,stats_full
+Spain,ESP,H,Marc PUBILL,DF,23.0,191,Atlético De Madrid (ESP),La Liga,1.0,1377,0.087,0.041,9.6,1,74.3,89.9,70.0,60.0,0.0,67.2,stats_full
+Spain,ESP,H,Alex GRIMALDO,DF,30.7,171,Bayer Leverkusen (GER),Bundesliga,1.0,2539,0.24,0.363,45.2,1,17.1,89.8,70.0,100.0,0.0,55.4,stats_full
+Spain,ESP,H,Eric GARCIA,DF,25.4,183,FC Barcelona (ESP),La Liga,1.0,2761,0.109,0.064,13.0,1,51.4,100.0,70.0,74.4,0.0,63.4,stats_full
+Spain,ESP,H,Marcos LLORENTE,DF,31.4,183,Atlético De Madrid (ESP),La Liga,1.0,2190,0.091,0.173,19.8,1,51.4,83.2,70.0,100.0,0.0,60.2,stats_full
+Spain,ESP,H,Mikel MERINO,MF,30.0,188,Arsenal FC (ENG),Premier League,1.0,1002,0.469,0.206,50.6,1,65.7,81.3,50.0,100.0,0.0,59.7,stats_full
+Spain,ESP,H,Ferran TORRES,FW,26.3,183,FC Barcelona (ESP),La Liga,1.0,2025,0.719,0.14,64.4,1,51.4,95.7,26.0,79.8,0.0,64.9,stats_full
+Spain,ESP,H,Fabian RUIZ,MF,30.2,188,Paris Saint-Germain (FRA),,0.52,,,,27.5,0,65.7,76.1,42.8,85.6,0.0,47.3,inferred
+Spain,ESP,H,Pablo GAVI,MF,21.9,173,FC Barcelona (ESP),La Liga,1.0,578,0.0,0.107,8.0,1,22.9,82.7,50.0,53.4,0.0,38.7,stats_full
+Spain,ESP,H,Dani OLMO,FW,28.1,179,FC Barcelona (ESP),La Liga,1.0,2109,0.374,0.284,49.3,1,40.0,96.5,26.0,90.6,0.0,55.0,stats_full
+Spain,ESP,H,Yeremy PINO,FW,23.7,174,Crystal Palace FC (ENG),Premier League,1.0,2134,0.184,0.359,40.7,1,25.7,96.7,26.0,64.2,0.0,48.2,stats_full
+Spain,ESP,H,Pedro PORRO,DF,26.8,173,Tottenham Hotspur FC (ENG),Premier League,1.0,2815,0.045,0.136,13.6,1,22.9,100.0,70.0,82.8,0.0,54.9,stats_full
+Spain,ESP,H,Joan GARCIA,GK,25.1,194,FC Barcelona (ESP),La Liga,1.0,2700,0.0,0.0,0.0,1,82.9,100.0,62.0,72.6,75.0,80.3,stats_full
+Spain,ESP,H,Aymeric LAPORTE,DF,32.1,191,Athletic Club (ESP),La Liga,1.0,2068,0.079,0.019,7.4,1,74.3,78.2,70.0,100.0,0.0,63.9,stats_full
+Spain,ESP,H,Alex BAENA,MF,24.9,172,Atlético De Madrid (ESP),La Liga,1.0,1615,0.099,0.366,34.9,1,20.0,92.0,50.0,71.4,0.0,51.5,stats_full
+Spain,ESP,H,Rodrigo RODRI,MF,30.0,190,Manchester City FC (ENG),Premier League,1.0,1500,0.071,0.137,15.6,1,71.4,85.5,50.0,100.0,0.0,47.3,stats_full
+Spain,ESP,H,Nico WILLIAMS,FW,23.9,181,Athletic Club (ESP),La Liga,1.0,1715,0.308,0.217,39.4,1,45.7,92.9,26.0,65.4,0.0,49.7,stats_full
+Spain,ESP,H,Martin ZUBIMENDI,MF,27.4,181,Arsenal FC (ENG),Premier League,1.0,3040,0.087,0.032,8.9,1,45.7,100.0,50.0,86.4,0.0,45.6,stats_full
+Spain,ESP,H,Lamine YAMAL,FW,18.9,183,FC Barcelona (ESP),La Liga,1.0,2291,0.576,0.494,80.2,1,51.4,82.0,26.0,35.4,0.0,70.9,stats_full
+Spain,ESP,H,Pedro PEDRI,MF,23.6,174,FC Barcelona (ESP),La Liga,1.0,2117,0.101,0.253,26.5,1,25.7,96.6,50.0,63.6,0.0,49.8,stats_full
+Spain,ESP,H,Mikel OYARZABAL,FW,29.1,181,Real Sociedad (ESP),La Liga,1.0,2727,0.529,0.197,54.4,1,45.7,99.4,26.0,96.6,0.0,59.3,stats_full
+Spain,ESP,H,Pau CUBARSI,DF,19.4,183,FC Barcelona (ESP),La Liga,1.0,2733,0.018,0.014,2.4,1,51.4,85.6,70.0,38.4,0.0,58.2,stats_full
+Spain,ESP,H,Unai SIMON,GK,29.0,190,Athletic Club (ESP),La Liga,1.0,3330,0.0,0.001,0.1,1,71.4,100.0,62.0,96.0,75.0,78.0,stats_full
+Spain,ESP,H,Marc CUCURELLA,DF,27.9,173,Chelsea FC (ENG),Premier League,1.0,2714,0.063,0.151,16.1,1,22.9,100.0,70.0,89.4,0.0,55.3,stats_full
+Spain,ESP,H,Victor MUNOZ,FW,22.9,173,CA Osasuna (ESP),La Liga,1.0,2705,0.237,0.08,23.8,1,22.9,100.0,26.0,59.4,0.0,39.1,stats_full
+Spain,ESP,H,Borja IGLESIAS,FW,33.4,187,RC Celta Vigo (ESP),La Liga,1.0,1903,0.549,0.079,47.1,1,62.9,70.0,26.0,100.0,0.0,51.9,stats_full
+Sweden,SWE,F,Jacob WIDELL ZETTERSTROM,GK,27.9,197,Derby County FC (ENG),,0.52,,,,5.7,0,91.4,82.0,53.1,75.0,53.4,65.3,inferred
+Sweden,SWE,F,Gustaf LAGERBIELKE,DF,26.2,193,SC Braga (POR),Primeira Liga,0.78,2391,0.09,0.144,13.7,1,80.0,99.0,65.4,72.6,0.0,70.4,stats_partial
+Sweden,SWE,F,Victor LINDELOF,DF,31.9,187,Aston Villa FC (ENG),Premier League,1.0,938,0.015,0.057,5.4,1,62.9,71.0,70.0,100.0,0.0,58.4,stats_full
+Sweden,SWE,F,Isak HIEN,DF,27.4,191,Atalanta Bergamo (ITA),Serie A,1.0,1951,0.05,0.005,4.1,1,74.3,95.1,70.0,86.4,0.0,67.7,stats_full
+Sweden,SWE,F,Gabriel GUDMUNDSSON,DF,27.1,181,Leeds United FC (ENG),Premier League,1.0,2657,0.03,0.105,10.1,1,45.7,100.0,70.0,84.6,0.0,61.2,stats_full
+Sweden,SWE,F,Herman JOHANSSON,DF,28.7,190,FC Dallas (USA),Major League Soccer,0.58,1124,0.01,0.204,9.3,1,71.4,87.6,61.2,81.6,0.0,63.1,stats_partial
+Sweden,SWE,F,Lucas BERGVALL,MF,20.4,187,Tottenham Hotspur FC (ENG),Premier League,1.0,956,0.135,0.027,12.2,1,62.9,77.1,50.0,44.4,0.0,42.9,stats_full
+Sweden,SWE,F,Daniel SVENSSON,DF,24.3,183,Borussia Dortmund (GER),Bundesliga,1.0,2454,0.107,0.158,19.9,1,51.4,99.6,70.0,67.8,0.0,64.3,stats_full
+Sweden,SWE,F,Alexander ISAK,FW,26.7,190,Liverpool FC (ENG),Premier League,1.0,717,0.407,0.106,38.5,1,71.4,84.0,26.0,82.2,0.0,51.3,stats_full
+Sweden,SWE,F,Benjamin NYGREN,MF,24.9,187,Celtic FC (SCO),Scottish Premiership,0.62,2519,0.603,0.248,39.6,1,62.9,100.0,44.3,60.0,0.0,58.2,stats_partial
+Sweden,SWE,F,Anthony ELANGA,FW,24.1,178,Newcastle United FC (ENG),Premier League,1.0,1289,0.101,0.122,16.7,1,37.1,89.1,26.0,66.6,0.0,35.2,stats_full
+Sweden,SWE,F,Viktor JOHANSSON,GK,27.8,187,Stoke City FC (ENG),,0.52,,,,5.7,0,62.9,82.0,53.1,74.4,53.4,59.6,inferred
+Sweden,SWE,F,Ken SEMA,MF,32.7,180,Pafos FC (CYP),,0.52,,,,27.5,0,42.9,63.8,42.8,85.6,0.0,41.9,inferred
+Sweden,SWE,F,Hjalmar EKDAL,DF,27.6,187,Burnley FC (ENG),Premier League,1.0,1545,0.035,0.01,3.4,1,62.9,91.4,70.0,87.6,0.0,63.2,stats_full
+Sweden,SWE,F,Carl STARFELT,DF,31.0,185,RC Celta Vigo (ESP),La Liga,1.0,1492,0.023,0.005,2.1,1,57.1,80.0,70.0,100.0,0.0,58.5,stats_full
+Sweden,SWE,F,Jesper KARLSTROM,MF,31.0,182,Udinese (ITA),Serie A,1.0,3164,0.027,0.026,4.0,1,48.6,88.0,50.0,100.0,0.0,40.9,stats_full
+Sweden,SWE,F,Viktor GYOKERES,FW,28.0,189,Arsenal FC (ENG),Premier League,1.0,2255,0.554,0.106,49.5,1,68.6,97.8,26.0,90.0,0.0,59.7,stats_full
+Sweden,SWE,F,Yasin AYARI,MF,22.7,172,Brighton & Hove Albion FC (ENG),Premier League,1.0,1918,0.099,0.066,12.4,1,20.0,94.8,50.0,58.2,0.0,43.1,stats_full
+Sweden,SWE,F,Mattias SVANBERG,MF,27.4,186,VfL Wolfsburg (GER),Bundesliga,1.0,814,0.332,0.094,32.0,1,60.0,84.8,50.0,86.4,0.0,52.5,stats_full
+Sweden,SWE,F,Eric SMITH,DF,29.4,192,FC St. Pauli (GER),Bundesliga,1.0,2313,0.032,0.035,5.0,1,77.1,96.0,70.0,98.4,0.0,68.9,stats_full
+Sweden,SWE,F,Alexander BERNHARDSSON,DF,27.8,184,Holstein Kiel (GER),Bundesliga,1.0,1040,0.07,0.34,30.8,1,54.3,86.9,70.0,88.8,0.0,63.6,stats_partial
+Sweden,SWE,F,Besfort ZENELI,MF,23.6,187,Royale Union Saint-Gilloise (BEL),Belgian Pro League,0.72,765,0.375,0.586,51.9,1,62.9,84.4,45.8,55.2,0.0,59.6,stats_partial
+Sweden,SWE,F,Kristoffer NORDFELDT,GK,37.0,190,AIK Stockholm (SWE),,0.52,,,,5.7,0,71.4,45.9,53.1,85.6,53.4,55.9,inferred
+Sweden,SWE,F,Elliot STROUD,DF,24.0,185,Mjällby AIF (SWE),,0.52,,,,13.7,0,57.1,82.0,59.9,51.6,0.0,57.7,inferred
+Sweden,SWE,F,Gustaf NILSSON,FW,29.1,197,Club Brugge (BEL),Belgian Pro League,0.72,39,0.738,0.069,43.6,1,91.4,77.4,23.8,88.2,0.0,55.5,stats_partial
+Sweden,SWE,F,Taha ALI,FW,28.0,174,Malmö FF (SWE),,0.52,,,,37.2,0,25.7,82.0,22.3,75.6,0.0,42.9,inferred
+Switzerland,SUI,B,Gregor KOBEL,GK,28.5,196,Borussia Dortmund (GER),Bundesliga,1.0,3060,0.0,0.0,0.0,1,88.6,100.0,62.0,93.0,75.0,81.5,stats_full
+Switzerland,SUI,B,Miro MUHEIM,DF,28.2,182,Hamburger SV (GER),Bundesliga,1.0,2443,0.051,0.129,13.5,1,48.6,99.5,70.0,91.2,0.0,62.5,stats_full
+Switzerland,SUI,B,Silvan WIDMER,DF,33.3,183,1. FSV Mainz 05 (GER),Bundesliga,1.0,1855,0.133,0.088,16.6,1,51.4,70.2,70.0,100.0,0.0,56.5,stats_full
+Switzerland,SUI,B,Nico ELVEDI,DF,29.7,189,Borussia Mönchengladbach (GER),Bundesliga,1.0,2968,0.012,0.041,4.0,1,68.6,95.8,70.0,100.0,0.0,66.1,stats_full
+Switzerland,SUI,B,Manuel AKANJI,DF,30.9,188,FC Internazionale Milano (ITA),Serie A,1.0,2814,0.074,0.01,6.3,1,65.7,88.6,70.0,100.0,0.0,63.8,stats_full
+Switzerland,SUI,B,Denis ZAKARIA,MF,29.6,189,AS Monaco (FRA),Ligue 1,1.0,2039,0.113,0.063,13.2,1,68.6,92.4,50.0,99.6,0.0,47.7,stats_full
+Switzerland,SUI,B,Breel EMBOLO,FW,29.3,184,Stade Rennais FC (FRA),Ligue 1,1.0,1870,0.435,0.071,38.0,1,54.3,92.6,26.0,97.8,0.0,50.1,stats_full
+Switzerland,SUI,B,Remo FREULER,MF,34.2,181,Bologna FC (ITA),Serie A,1.0,2236,0.068,0.054,9.2,1,45.7,68.3,50.0,100.0,0.0,37.8,stats_full
+Switzerland,SUI,B,Johan MANZAMBI,MF,20.7,182,SC Freiburg (GER),Bundesliga,1.0,2145,0.169,0.15,23.9,1,48.6,87.9,50.0,46.2,0.0,48.9,stats_full
+Switzerland,SUI,B,Granit XHAKA,MF,33.7,183,Sunderland AFC (ENG),Premier League,1.0,2896,0.025,0.115,10.5,1,51.4,72.5,50.0,100.0,0.0,40.0,stats_full
+Switzerland,SUI,B,Dan NDOYE,FW,25.6,184,Nottingham Forest FC (ENG),Premier League,1.0,1184,0.089,0.118,15.5,1,54.3,88.2,26.0,75.6,0.0,36.9,stats_full
+Switzerland,SUI,B,Yvon MVOGO,GK,32.0,190,FC Lorient (FRA),Ligue 1,1.0,2790,0.0,0.003,0.2,1,71.4,82.0,62.0,100.0,75.0,75.3,stats_full
+Switzerland,SUI,B,Ricardo RODRIGUEZ,DF,33.8,182,Real Betis (ESP),La Liga,1.0,1552,0.008,0.028,2.7,1,48.6,65.9,70.0,100.0,0.0,52.4,stats_full
+Switzerland,SUI,B,Ardon JASHARI,MF,23.9,181,AC Milan (ITA),Serie A,1.0,703,0.031,0.145,13.2,1,45.7,83.8,50.0,65.4,0.0,43.3,stats_full
+Switzerland,SUI,B,Djibril SOW,MF,29.4,183,Sevilla FC (ESP),La Liga,1.0,2235,0.062,0.081,10.7,1,51.4,95.3,50.0,98.4,0.0,45.8,stats_full
+Switzerland,SUI,B,Christian FASSNACHT,FW,32.6,185,BSC Young Boys (SUI),Swiss Super League,0.66,2363,0.635,0.23,42.8,1,57.1,77.4,23.3,89.8,0.0,49.9,stats_partial
+Switzerland,SUI,B,Ruben VARGAS,FW,27.9,179,Sevilla FC (ESP),La Liga,1.0,1670,0.185,0.168,26.5,1,40.0,92.5,26.0,89.4,0.0,41.7,stats_full
+Switzerland,SUI,B,Eray COEMERT,DF,28.4,183,Valencia CF (ESP),,0.52,,,,13.7,0,51.4,82.0,59.9,78.0,0.0,56.0,inferred
+Switzerland,SUI,B,Noah OKAFOR,FW,26.1,185,Leeds United FC (ENG),Premier League,1.0,1592,0.356,0.128,36.3,1,57.1,91.8,26.0,78.6,0.0,49.5,stats_full
+Switzerland,SUI,B,Michel AEBISCHER,MF,29.4,183,Pisa SC (ITA),Serie A,1.0,2911,0.026,0.106,9.9,1,51.4,97.6,50.0,98.4,0.0,46.0,stats_full
+Switzerland,SUI,B,Marvin KELLER,GK,24.0,189,BSC Young Boys (SUI),Swiss Super League,0.66,3420,0.0,0.056,2.8,1,68.6,100.0,55.7,55.8,59.7,67.5,stats_partial
+Switzerland,SUI,B,Fabian RIEDER,MF,24.3,181,FC Augsburg (GER),Bundesliga,1.0,2387,0.157,0.203,27.0,1,45.7,99.0,50.0,67.8,0.0,52.6,stats_full
+Switzerland,SUI,B,Zeki AMDOUNI,FW,25.5,183,Burnley FC (ENG),Premier League,1.0,53,0.294,0.0,22.0,1,51.4,78.0,26.0,75.0,0.0,38.0,stats_full
+Switzerland,SUI,B,Aurele AMENDA,DF,22.9,194,Eintracht Frankfurt (GER),Bundesliga,1.0,1664,0.055,0.018,5.5,1,82.9,92.5,70.0,59.4,0.0,69.8,stats_full
+Switzerland,SUI,B,Luca JAQUEZ,DF,23.0,187,VfB Stuttgart (GER),Bundesliga,1.0,893,0.015,0.044,4.4,1,62.9,85.5,70.0,60.0,0.0,61.9,stats_full
+Switzerland,SUI,B,Cedric ITTEN,FW,29.5,190,Fortuna Düsseldorf (GER),,0.52,,,,37.2,0,71.4,79.5,22.3,84.6,0.0,49.3,inferred
+Tunisia,TUN,F,Mouhib CHAMAKH,GK,24.8,189,Club Africain (TUN),,0.52,,,,5.7,0,68.6,82.0,53.1,56.4,53.4,60.7,inferred
+Tunisia,TUN,F,Ali ABDI,DF,32.5,177,OGC Nice (FRA),Ligue 1,1.0,1156,0.187,0.16,26.0,1,34.3,69.4,70.0,100.0,0.0,52.6,stats_full
+Tunisia,TUN,F,Montassar TALBI,DF,28.1,190,FC Lorient (FRA),Ligue 1,1.0,2610,0.03,0.03,4.5,1,71.4,100.0,70.0,90.6,0.0,68.1,stats_full
+Tunisia,TUN,F,Omar REKIK,DF,24.5,188,NK Maribor (SVN),,0.52,,,,13.7,0,65.7,82.0,59.9,54.6,0.0,60.3,inferred
+Tunisia,TUN,F,Adam AROUS,DF,21.9,188,Kasımpaşa SK (TUR),Super Lig,0.66,1671,0.047,0.071,5.8,1,65.7,92.5,62.9,43.2,0.0,62.6,stats_partial
+Tunisia,TUN,F,Dylan BRONN,DF,31.0,186,Servette FC (SUI),Swiss Super League,0.66,1216,0.023,0.132,7.7,1,60.0,77.8,62.9,89.8,0.0,57.5,stats_partial
+Tunisia,TUN,F,Elias ACHOURI,FW,27.3,187,FC København (DEN),Danish Superliga,0.6,1376,0.266,0.275,24.3,1,62.9,89.9,22.9,73.8,0.0,43.1,stats_partial
+Tunisia,TUN,F,Elias SAAD,FW,26.5,185,Hannover 96 (GER),Bundesliga,1.0,518,0.065,0.108,13.0,1,57.1,82.2,26.0,81.0,0.0,34.7,stats_full
+Tunisia,TUN,F,Hazem MASTOURI,FW,29.0,191,FC Dynamo Makhachkala (RUS),,0.52,,,,37.2,0,74.3,82.0,22.3,81.6,0.0,50.2,inferred
+Tunisia,TUN,F,Hannibal MEJBRI,MF,23.4,177,Burnley FC (ENG),Premier League,1.0,1251,0.054,0.204,19.4,1,34.3,88.8,50.0,62.4,0.0,45.9,stats_full
+Tunisia,TUN,F,Ismael GHARBI,MF,22.2,180,FC Augsburg (GER),Bundesliga,1.0,71,0.286,0.041,24.5,1,42.9,78.1,50.0,55.2,0.0,46.1,stats_full
+Tunisia,TUN,F,Mortadha BEN OUANES,DF,32.0,188,Kasımpaşa SK (TUR),Super Lig,0.66,2279,0.102,0.232,16.5,1,65.7,80.4,62.9,89.8,0.0,61.1,stats_partial
+Tunisia,TUN,F,Rani KHEDIRA,MF,32.4,188,1. FC Union Berlin (GER),Bundesliga,1.0,2854,0.072,0.073,10.9,1,65.7,79.6,50.0,100.0,0.0,43.3,stats_full
+Tunisia,TUN,F,Khalil AYARI,MF,21.4,174,Paris Saint-Germain (FRA),,0.52,,,,27.5,0,25.7,82.0,42.8,36.0,0.0,44.8,inferred
+Tunisia,TUN,F,Mohamed HADJ MAHMOUD,MF,26.1,179,FC Lugano (SUI),,0.52,,,,27.5,0,40.0,82.0,42.8,64.2,0.0,46.2,inferred
+Tunisia,TUN,F,Aymen DAHMEN,GK,29.4,188,CS Sfaxien (TUN),,0.52,,,,5.7,0,65.7,80.0,53.1,84.0,53.4,59.9,inferred
+Tunisia,TUN,F,Ellyes SKHIRI,MF,31.1,185,Eintracht Frankfurt (GER),Bundesliga,1.0,1439,0.048,0.019,5.0,1,57.1,79.1,50.0,100.0,0.0,40.0,stats_full
+Tunisia,TUN,F,Rayan ELLOUMI,FW,18.7,180,Vancouver Whitecaps FC (CAN),,0.52,,,,37.2,0,42.9,67.9,22.3,19.8,0.0,42.7,inferred
+Tunisia,TUN,F,Firas CHAOUAT,FW,30.1,185,Club Africain (TUN),,0.52,,,,37.2,0,57.1,76.6,22.3,85.6,0.0,46.6,inferred
+Tunisia,TUN,F,Yan VALERY,DF,27.3,181,BSC Young Boys (SUI),,0.52,,,,13.7,0,45.7,82.0,59.9,71.4,0.0,54.3,inferred
+Tunisia,TUN,F,Mohamed BEN HMIDA,DF,30.5,181,Espérance De Tunisie (TUN),,0.52,,,,13.7,0,45.7,74.6,59.9,85.6,0.0,52.4,inferred
+Tunisia,TUN,F,Sabri BEN HESSEN,GK,30.0,189,Étoile Du Sahel (TUN),,0.52,,,,5.7,0,68.6,77.1,53.1,85.6,53.4,60.0,inferred
+Tunisia,TUN,F,Moutaz NEFFATI,DF,21.8,182,IFK Norrköping FK (SWE),,0.52,,,,13.7,0,48.6,82.0,59.9,38.4,0.0,55.1,inferred
+Tunisia,TUN,F,Raed CHIKHAOUI,DF,22.0,191,US Monastir (TUN),,0.52,,,,13.7,0,74.3,82.0,59.9,39.6,0.0,62.8,inferred
+Tunisia,TUN,F,Anis SLIMANE,MF,25.2,188,Norwich City FC (ENG),,0.52,,,,27.5,0,65.7,82.0,42.8,58.8,0.0,48.8,inferred
+Tunisia,TUN,F,Sebastian TOUNEKTI,MF,23.9,182,Celtic FC (SCO),Scottish Premiership,0.62,1509,0.209,0.248,21.3,1,48.6,91.1,44.3,54.0,0.0,47.2,stats_partial
+Turkey,TUR,D,Mert GUNOK,GK,37.3,196,Fenerbahçe SK (TUR),Super Lig,0.66,1105,0.0,0.035,1.7,1,88.6,48.1,55.7,89.8,59.7,63.7,stats_partial
+Turkey,TUR,D,Zeki CELIK,DF,29.3,180,AS Roma (ITA),Serie A,1.0,2747,0.058,0.079,10.3,1,42.9,98.2,70.0,97.8,0.0,59.9,stats_full
+Turkey,TUR,D,Merih DEMIRAL,DF,28.3,190,Al Ahli FC (KSA),Saudi Pro League,0.62,1647,0.125,0.091,10.0,1,71.4,92.3,62.0,80.4,0.0,64.6,stats_partial
+Turkey,TUR,D,Caglar SOYUNCU,DF,30.1,185,Fenerbahçe SK (TUR),Super Lig,0.66,773,0.013,0.208,10.9,1,57.1,78.9,62.9,89.8,0.0,57.4,stats_partial
+Turkey,TUR,D,Salih OZCAN,MF,28.4,182,Borussia Dortmund (GER),Bundesliga,1.0,55,0.221,0.247,35.1,1,48.6,78.0,50.0,92.4,0.0,50.9,stats_full
+Turkey,TUR,D,Orkun KOKCU,MF,25.5,175,Beşiktaş JK (TUR),Super Lig,0.66,2485,0.403,0.391,39.3,1,28.6,99.9,44.9,64.8,0.0,54.8,stats_partial
+Turkey,TUR,D,Kerem AKTURKOGLU,FW,27.6,172,Fenerbahçe SK (TUR),Super Lig,0.66,1961,0.391,0.328,35.6,1,20.0,95.1,23.3,77.4,0.0,43.9,stats_partial
+Turkey,TUR,D,Arda GULER,FW,21.3,175,Real Madrid C. F. (ESP),La Liga,1.0,2076,0.209,0.384,44.5,1,28.6,96.2,26.0,49.8,0.0,50.6,stats_full
+Turkey,TUR,D,Deniz GUL,FW,22.0,192,FC Porto (POR),,0.52,,,,37.2,0,77.1,82.0,22.3,39.6,0.0,50.6,inferred
+Turkey,TUR,D,Hakan CALHANOGLU,MF,32.3,178,FC Internazionale Milano (ITA),Serie A,1.0,1674,0.277,0.187,34.8,1,37.1,74.2,50.0,100.0,0.0,48.7,stats_full
+Turkey,TUR,D,Kenan YILDIZ,FW,21.1,187,Juventus FC (ITA),Serie A,1.0,2877,0.27,0.338,45.6,1,62.9,100.0,26.0,48.6,0.0,57.1,stats_full
+Turkey,TUR,D,Altay BAYINDIR,GK,28.2,198,Manchester United FC (ENG),Premier League,1.0,540,0.0,0.049,3.7,1,94.3,82.4,62.0,91.2,75.0,80.0,stats_full
+Turkey,TUR,D,Eren ELMALI,DF,25.9,181,Galatasaray SK (TUR),Super Lig,0.66,1410,0.177,0.16,16.7,1,45.7,90.2,62.9,67.2,0.0,57.6,stats_partial
+Turkey,TUR,D,Abdulkerim BARDAKCI,DF,31.8,185,Galatasaray SK (TUR),Super Lig,0.66,2547,0.054,0.167,10.9,1,57.1,83.2,62.9,89.8,0.0,58.4,stats_partial
+Turkey,TUR,D,Ozan KABAK,DF,26.2,187,TSG Hoffenheim (GER),Bundesliga,1.0,1731,0.241,0.023,19.8,1,62.9,93.1,70.0,79.2,0.0,66.1,stats_full
+Turkey,TUR,D,Ismail YUKSEK,MF,27.4,183,Fenerbahçe SK (TUR),Super Lig,0.66,1764,0.131,0.186,15.7,1,51.4,93.4,44.9,76.2,0.0,46.0,stats_partial
+Turkey,TUR,D,Irfan KAHVECI,FW,30.9,180,Kasımpaşa SK (TUR),Super Lig,0.66,1653,0.187,0.226,20.4,1,42.9,81.8,23.3,89.8,0.0,36.4,stats_partial
+Turkey,TUR,D,Mert MULDUR,DF,27.2,184,Fenerbahçe SK (TUR),Super Lig,0.66,835,0.141,0.186,16.2,1,54.3,85.0,62.9,75.0,0.0,58.8,stats_partial
+Turkey,TUR,D,Yunus AKGUN,FW,25.9,173,Galatasaray SK (TUR),Super Lig,0.66,1824,0.344,0.409,37.3,1,22.9,93.9,23.3,67.2,0.0,45.0,stats_partial
+Turkey,TUR,D,Ferdi KADIOGLU,DF,26.7,174,Brighton & Hove Albion FC (ENG),Premier League,1.0,3145,0.058,0.064,9.2,1,25.7,100.0,70.0,82.2,0.0,55.1,stats_full
+Turkey,TUR,D,Baris YILMAZ,FW,26.1,186,Galatasaray SK (TUR),Super Lig,0.66,2318,0.359,0.367,35.9,1,60.0,98.4,23.3,68.4,0.0,50.8,stats_partial
+Turkey,TUR,D,Kaan AYHAN,MF,31.6,185,Galatasaray SK (TUR),Super Lig,0.66,268,0.067,0.168,11.6,1,57.1,67.4,44.9,89.8,0.0,38.5,stats_partial
+Turkey,TUR,D,Ugurcan CAKIR,GK,30.2,191,Galatasaray SK (TUR),Super Lig,0.66,2610,0.0,0.058,2.9,1,74.3,92.8,55.7,89.8,59.7,67.6,stats_partial
+Turkey,TUR,D,Oguz AYDIN,FW,25.6,183,Fenerbahçe SK (TUR),Super Lig,0.66,637,0.148,0.353,24.8,1,51.4,83.2,23.3,65.4,0.0,40.3,stats_partial
+Turkey,TUR,D,Samet AKAYDIN,DF,32.3,190,Çaykur Rizespor (TUR),Super Lig,0.66,2571,0.113,0.133,12.2,1,71.4,80.2,62.9,89.8,0.0,62.2,stats_partial
+Turkey,TUR,D,Can UZUN,FW,20.6,186,Eintracht Frankfurt (GER),Bundesliga,1.0,1178,0.347,0.201,41.1,1,60.0,79.6,26.0,45.6,0.0,50.1,stats_full
+Uruguay,URU,H,Sergio ROCHET,GK,33.2,189,SC Internacional (BRA),Brazil Serie A,0.74,990,0.0,0.029,1.6,1,68.6,64.8,57.2,92.2,63.3,64.6,stats_partial
+Uruguay,URU,H,Jose GIMENEZ,DF,31.4,186,Atlético De Madrid (ESP),La Liga,1.0,1165,0.119,0.039,11.8,1,60.0,75.3,70.0,100.0,0.0,59.6,stats_full
+Uruguay,URU,H,Sebastian CACERES,DF,26.8,180,Club América (MEX),Liga MX,0.68,2379,0.005,0.1,5.4,1,42.9,98.9,63.3,73.2,0.0,57.4,stats_partial
+Uruguay,URU,H,Ronald ARAUJO,DF,27.3,185,FC Barcelona (ESP),La Liga,1.0,1049,0.198,0.051,18.7,1,57.1,86.9,70.0,85.8,0.0,62.7,stats_full
+Uruguay,URU,H,Manuel UGARTE,MF,25.2,182,Manchester United FC (ENG),Premier League,1.0,850,0.089,0.014,7.7,1,48.6,85.2,50.0,73.2,0.0,41.7,stats_full
+Uruguay,URU,H,Rodrigo BENTANCUR,MF,29.0,187,Tottenham Hotspur FC (ENG),Premier League,1.0,1931,0.046,0.041,6.5,1,62.9,94.9,50.0,96.0,0.0,45.1,stats_full
+Uruguay,URU,H,Nicolas DE LA CRUZ,MF,29.0,167,CR Flamengo (BRA),Brazil Serie A,0.74,224,0.076,0.205,15.6,1,5.7,79.5,46.1,88.2,0.0,38.2,stats_partial
+Uruguay,URU,H,Federico VALVERDE,MF,27.9,182,Real Madrid C. F. (ESP),La Liga,1.0,2765,0.073,0.163,17.7,1,48.6,100.0,50.0,89.4,0.0,49.4,stats_full
+Uruguay,URU,H,Darwin NUNEZ,FW,27.0,185,Al Hilal SC (KSA),gPremier League,1.0,1010,0.11,0.55,49.5,1,57.1,86.6,26.0,84.0,0.0,55.7,stats_partial
+Uruguay,URU,H,Giorgian DE ARRASCAETA,MF,32.0,177,CR Flamengo (BRA),Brazil Serie A,0.74,747,0.453,0.224,37.6,1,34.3,69.1,46.1,92.2,0.0,47.2,stats_partial
+Uruguay,URU,H,Facundo PELLISTRI,FW,24.5,174,Panathinaikos FC (GRE),Greek Super League,0.56,319,0.118,0.42,22.6,1,25.7,80.4,22.6,55.8,0.0,34.6,stats_partial
+Uruguay,URU,H,Santiago MELE,GK,28.8,185,CF Monterrey (MEX),Liga MX,0.68,1530,0.0,0.049,2.5,1,57.1,91.3,56.0,85.2,60.6,64.5,stats_partial
+Uruguay,URU,H,Guillermo VARELA,DF,33.2,174,CR Flamengo (BRA),Brazil Serie A,0.74,1068,0.018,0.261,15.5,1,25.7,65.3,64.5,92.2,0.0,45.7,stats_partial
+Uruguay,URU,H,Agustin CANOBBIO,MF,27.7,176,Fluminense FC (BRA),Brazil Serie A,0.74,864,0.416,0.172,32.6,1,31.4,85.3,46.1,80.4,0.0,49.0,stats_partial
+Uruguay,URU,H,Emiliano MARTINEZ,MF,26.8,184,SE Palmeiras (BRA),Premier League,1.0,2837,0.0,0.011,0.8,1,54.3,100.0,50.0,82.8,0.0,43.3,stats_full
+Uruguay,URU,H,Mathias OLIVERA,DF,28.6,174,SSC Napoli (ITA),Serie A,1.0,1370,0.118,0.039,11.8,1,25.7,89.8,70.0,93.6,0.0,52.9,stats_full
+Uruguay,URU,H,Matias VINA,DF,28.6,180,CA River Plate (ARG),Argentine Primera,0.7,542,0.07,0.1,8.9,1,42.9,82.4,63.7,84.6,0.0,53.9,stats_partial
+Uruguay,URU,H,Brian RODRIGUEZ,FW,26.1,175,Club América (MEX),Liga MX,0.68,2400,0.506,0.278,40.0,1,28.6,99.1,23.5,69.0,0.0,48.4,stats_partial
+Uruguay,URU,H,Rodrigo AGUIRRE,FW,31.7,182,Tigres UANL (MEX),Liga MX,0.68,2031,0.339,0.094,22.1,1,48.6,80.3,23.5,90.4,0.0,37.8,stats_partial
+Uruguay,URU,H,Maxi ARAUJO,MF,26.3,176,Sporting CP (POR),Primeira Liga,0.78,2199,0.256,0.215,27.6,1,31.4,97.3,46.7,73.2,0.0,50.2,stats_partial
+Uruguay,URU,H,Federico VINAS,FW,28.0,181,Real Oviedo (ESP),La Liga,1.0,2575,0.345,0.106,33.8,1,45.7,100.0,26.0,90.0,0.0,48.1,stats_full
+Uruguay,URU,H,Joaquin PIQUEREZ,MF,27.8,185,SE Palmeiras (BRA),Brazil Serie A,0.74,462,0.07,0.21,15.5,1,57.1,81.7,46.1,81.0,0.0,43.9,stats_partial
+Uruguay,URU,H,Fernando MUSLERA,GK,40.0,190,Estudiantes LP (ARG),Argentine Primera,0.7,1036,0.0,0.057,3.0,1,71.4,47.8,56.4,91.0,61.5,61.4,stats_partial
+Uruguay,URU,H,Santiago BUENO,DF,27.6,191,Wolverhampton Wanderers FC (ENG),Premier League,1.0,2549,0.07,0.032,7.7,1,74.3,100.0,70.0,87.6,0.0,69.4,stats_full
+Uruguay,URU,H,Juan SANABRIA,MF,26.2,170,Real Salt Lake (USA),Major League Soccer,0.58,1037,0.051,0.142,8.4,1,14.3,86.8,43.7,66.6,0.0,37.4,stats_partial
+Uruguay,URU,H,Rodrigo ZALAZAR,MF,26.8,175,SC Braga (POR),Primeira Liga,0.78,1954,0.682,0.273,55.9,1,28.6,95.1,46.7,76.2,0.0,60.7,stats_partial
+USA,USA,D,Matt TURNER,GK,32.0,190,New England Revolution (USA),Major League Soccer,0.58,1432,0.0,0.0,0.0,1,71.4,74.1,54.2,87.4,56.1,61.9,stats_partial
+USA,USA,D,Sergino DEST,DF,25.6,173,PSV Eindhoven (NED),Eredivisie,0.78,2205,0.072,0.263,19.6,1,22.9,97.3,65.4,69.0,0.0,53.7,stats_partial
+USA,USA,D,Chris RICHARDS,DF,26.2,189,Crystal Palace FC (ENG),Premier League,1.0,2819,0.057,0.016,5.5,1,68.6,100.0,70.0,79.2,0.0,67.4,stats_full
+USA,USA,D,Tyler ADAMS,MF,27.3,175,AFC Bournemouth (ENG),Premier League,1.0,1805,0.046,0.061,8.0,1,28.6,93.7,50.0,85.8,0.0,42.0,stats_full
+USA,USA,D,Antonee ROBINSON,DF,28.9,183,Fulham FC (ENG),Premier League,1.0,1484,0.059,0.066,9.4,1,51.4,90.9,70.0,95.4,0.0,60.5,stats_full
+USA,USA,D,Auston TRUSTY,DF,27.8,190,Celtic FC (SCO),Scottish Premiership,0.62,2162,0.034,0.186,10.2,1,71.4,97.0,62.0,77.4,0.0,65.8,stats_partial
+USA,USA,D,Giovanni REYNA,MF,23.6,187,Borussia Mönchengladbach (GER),Bundesliga,1.0,485,0.124,0.288,30.9,1,62.9,81.9,50.0,63.6,0.0,51.6,stats_full
+USA,USA,D,Weston McKENNIE,MF,27.8,180,Juventus FC (ITA),Serie A,1.0,2857,0.272,0.17,33.2,1,42.9,100.0,50.0,88.8,0.0,55.0,stats_full
+USA,USA,D,Ricardo PEPI,FW,23.4,185,PSV Eindhoven (NED),Eredivisie,0.78,1413,0.952,0.104,61.8,1,57.1,90.2,24.3,55.8,0.0,63.0,stats_partial
+USA,USA,D,Christian PULISIC,FW,27.7,177,AC Milan (ITA),Serie A,1.0,1612,0.533,0.281,61.1,1,34.3,92.0,26.0,88.2,0.0,59.7,stats_full
+USA,USA,D,Brenden AARONSON,FW,25.6,177,Leeds United FC (ENG),Premier League,1.0,2517,0.21,0.202,30.9,1,34.3,100.0,26.0,75.6,0.0,44.7,stats_full
+USA,USA,D,Miles ROBINSON,DF,29.3,187,FC Cincinnatti (USA),Major League Soccer,0.58,678,0.074,0.0,3.2,1,62.9,82.1,61.2,85.2,0.0,58.2,stats_partial
+USA,USA,D,Tim REAM,DF,38.7,186,Charlotte FC (USA),Major League Soccer,0.58,1059,0.004,0.019,1.0,1,60.0,47.9,61.2,87.4,0.0,48.5,stats_partial
+USA,USA,D,Sebastian BERHALTER,MF,25.1,175,Vancouver Whitecaps FC (CAN),,0.52,,,,27.5,0,28.6,82.0,42.8,58.2,0.0,45.0,inferred
+USA,USA,D,Cristian ROLDAN,MF,31.0,173,Seattle Sounders FC (USA),Major League Soccer,0.58,1080,0.08,0.058,6.0,1,22.9,76.8,43.7,87.4,0.0,34.8,stats_partial
+USA,USA,D,Alex FREEMAN,DF,21.8,188,Villarreal CF (ESP),La Liga,1.0,332,0.005,0.004,0.7,1,65.7,80.5,70.0,52.8,0.0,60.9,stats_full
+USA,USA,D,Malik TILLMAN,MF,24.0,187,Bayer Leverkusen (GER),Bundesliga,1.0,1681,0.274,0.193,35.0,1,62.9,92.6,50.0,66.0,0.0,56.0,stats_full
+USA,USA,D,Max ARFSTEN,DF,25.2,185,Columbus Crew (USA),Major League Soccer,0.58,1436,0.189,0.191,16.5,1,57.1,90.4,61.2,60.6,0.0,60.6,stats_partial
+USA,USA,D,Haji WRIGHT,FW,28.2,191,Coventry City FC (ENG),,0.52,,,,37.2,0,74.3,82.0,22.3,76.8,0.0,50.2,inferred
+USA,USA,D,Folarin BALOGUN,FW,25.0,179,AS Monaco (FRA),Ligue 1,1.0,2281,0.556,0.165,54.1,1,40.0,98.0,26.0,72.0,0.0,57.9,stats_full
+USA,USA,D,Timothy WEAH,FW,26.3,183,Olympique Marseille (FRA),Ligue 1,1.0,2286,0.11,0.149,19.4,1,51.4,98.1,26.0,79.8,0.0,40.6,stats_full
+USA,USA,D,Mark McKENZIE,DF,27.3,186,Toulouse FC (FRA),Ligue 1,1.0,2407,0.01,0.086,7.2,1,60.0,99.2,70.0,85.8,0.0,64.9,stats_full
+USA,USA,D,Joe SCALLY,DF,23.5,184,Borussia Mönchengladbach (GER),Bundesliga,1.0,2615,0.093,0.056,11.2,1,54.3,100.0,70.0,63.0,0.0,64.0,stats_full
+USA,USA,D,Matt FREESE,GK,27.8,198,New York City FC (USA),Major League Soccer,0.58,1520,0.003,0.0,0.1,1,94.3,91.2,54.2,76.2,56.1,69.0,stats_partial
+USA,USA,D,Chris BRADY,GK,22.3,193,Chicago Fire FC (USA),Major League Soccer,0.58,1440,0.0,0.0,0.0,1,80.0,90.5,54.2,43.2,56.1,66.0,stats_partial
+USA,USA,D,Alex ZENDEJAS,FW,28.4,167,Club América (MEX),Liga MX,0.68,2103,0.511,0.33,42.9,1,5.7,96.4,23.5,82.8,0.0,46.1,stats_partial
+Uzbekistan,UZB,K,Utkir YUSUPOV,GK,35.4,185,PFC Navbahor Namangan (UZB),Uzbekistan Super League,0.52,990,0.0,0.007,0.3,1,57.1,55.3,53.1,85.6,53.4,54.4,stats_partial
+Uzbekistan,UZB,K,Abdukodir KHUSANOV,DF,22.3,186,Manchester City FC (ENG),Premier League,1.0,1421,0.043,0.036,5.9,1,60.0,90.3,70.0,55.8,0.0,62.5,stats_full
+Uzbekistan,UZB,K,Khojiakbar ALIJONOV,DF,29.2,180,Pakhtakor Tashkent FK (UZB),,0.52,,,,13.7,0,42.9,81.0,59.9,82.8,0.0,53.1,inferred
+Uzbekistan,UZB,K,Farrukh SAYFIEV,DF,35.4,183,FK Neftchi Farg'ona (UZB),,0.52,,,,13.7,0,51.4,52.5,59.9,85.6,0.0,48.6,inferred
+Uzbekistan,UZB,K,Rustam ASHURMATOV,DF,29.9,186,Esteghlal Tehran FC (IRN),Persian Gulf Pro League,0.5,1178,,,13.6,0,60.0,83.3,59.5,85.0,0.0,58.7,stats_partial
+Uzbekistan,UZB,K,Akmal MOZGOVOY,MF,27.2,180,Pakhtakor Tashkent FK (UZB),,0.52,,,,27.5,0,42.9,82.0,42.8,70.8,0.0,46.5,inferred
+Uzbekistan,UZB,K,Otabek SHUKUROV,MF,30.0,183,Baniyas Club (UAE),,0.52,,,,27.5,0,51.4,77.1,42.8,85.6,0.0,46.1,inferred
+Uzbekistan,UZB,K,Jamshid ISKANDEROV,MF,32.7,171,FK Neftchi Farg'ona (UZB),,0.52,,,,27.5,0,17.1,63.8,42.8,85.6,0.0,39.4,inferred
+Uzbekistan,UZB,K,Odiljon XAMROBEKOV,MF,30.3,180,Tractor Sazi Tabriz FC (IRN),Persian Gulf Pro League,0.5,1152,,,27.2,0,42.9,81.0,42.5,85.0,0.0,46.0,stats_partial
+Uzbekistan,UZB,K,Jaloliddin MASHARIPOV,MF,32.8,174,Esteghlal Tehran FC (IRN),,0.52,,,,27.5,0,25.7,63.3,42.8,85.6,0.0,40.1,inferred
+Uzbekistan,UZB,K,Oston URUNOV,MF,25.5,181,Persepolis FC (IRN),Persian Gulf Pro League,0.5,1063,,,27.2,0,45.7,87.1,42.5,60.0,0.0,47.8,stats_partial
+Uzbekistan,UZB,K,Abduvohid NEMATOV,GK,25.2,182,Nasaf Qarshi FC (UZB),Uzbekistan Super League,0.52,810,0.0,0.004,0.2,1,48.6,84.8,53.1,58.8,53.4,57.1,stats_partial
+Uzbekistan,UZB,K,Sherzod NASRULLAEV,DF,27.9,183,Pakhtakor Tashkent FK (UZB),,0.52,,,,13.7,0,51.4,82.0,59.9,75.0,0.0,56.0,inferred
+Uzbekistan,UZB,K,Eldor SHOMURODOV,FW,31.0,190,Başakşehir FK (TUR),Super Lig,0.66,2838,0.601,0.182,38.8,1,71.4,88.0,23.3,89.8,0.0,52.0,stats_partial
+Uzbekistan,UZB,K,Umar ESHMURODOV,DF,33.5,185,Nasaf Qarshi FC (UZB),,0.52,,,,13.7,0,57.1,60.3,59.9,85.6,0.0,52.2,inferred
+Uzbekistan,UZB,K,Botirali ERGASHEV,GK,31.0,189,FK Neftchi Farg'ona (UZB),,0.52,,,,5.7,0,68.6,72.2,53.1,85.6,53.4,59.2,inferred
+Uzbekistan,UZB,K,Dostonbek KHAMDAMOV,MF,29.9,178,Pakhtakor Tashkent FK (UZB),,0.52,,,,27.5,0,37.1,77.6,42.8,85.6,0.0,44.8,inferred
+Uzbekistan,UZB,K,Abdulla ABDULLAEV,DF,28.8,181,Dibba FC (UAE),,0.52,,,,13.7,0,45.7,82.0,59.9,80.4,0.0,54.3,inferred
+Uzbekistan,UZB,K,Azizjon GANIEV,MF,28.3,178,Al Bataeh Club (UAE),,0.52,,,,27.5,0,37.1,82.0,42.8,77.4,0.0,45.9,inferred
+Uzbekistan,UZB,K,Azizbek AMONOV,FW,28.6,181,FK Dinamo Samarkand (UZB),,0.52,,,,37.2,0,45.7,82.0,22.3,79.2,0.0,45.9,inferred
+Uzbekistan,UZB,K,Igor SERGEEV,FW,33.1,185,Persepolis FC (IRN),Persian Gulf Pro League,0.5,404,,,36.8,0,57.1,61.3,22.1,85.0,0.0,43.3,stats_partial
+Uzbekistan,UZB,K,Abbosbek FAYZULLAEV,MF,22.7,167,Başakşehir FK (TUR),Super Lig,0.66,1109,0.351,0.252,29.8,1,5.7,87.5,44.9,48.0,0.0,45.6,stats_partial
+Uzbekistan,UZB,K,Sherzod ESANOV,MF,23.4,190,FK Buxoro (UZB),,0.52,,,,27.5,0,71.4,82.0,42.8,48.0,0.0,49.3,inferred
+Uzbekistan,UZB,K,Behruzjon KARIMOV,DF,18.9,172,Surkhon FK (UZB),,0.52,,,,13.7,0,20.0,68.6,59.9,21.0,0.0,43.2,inferred
+Uzbekistan,UZB,K,Avazbek ULMASALIYEV,DF,26.2,187,OKMK FK (UZB),,0.52,,,,13.7,0,62.9,82.0,59.9,64.8,0.0,59.4,inferred
+Uzbekistan,UZB,K,Jakhongir UROZOV,DF,22.4,190,FK Dinamo Samarkand (UZB),Uzbekistan Super League,0.52,810,0.0,0.002,0.1,1,71.4,84.8,59.9,42.0,0.0,60.6,stats_partial

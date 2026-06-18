@@ -1,0 +1,49 @@
+group,rank,team_en,team_zh,played,won,drawn,lost,goals_for,goals_against,goal_difference,points,status,notes,last_updated
+A,1,Mexico,墨西哥,1,1,0,0,2,0,2,3,provisional,,2026-06-16
+A,2,South Korea,韩国,1,1,0,0,2,1,1,3,provisional,,2026-06-16
+A,3,Czechia,捷克,1,0,0,1,1,2,-1,0,provisional,,2026-06-16
+A,4,South Africa,南非,1,0,0,1,0,2,-2,0,provisional,,2026-06-16
+B,1,Canada,加拿大,1,0,1,0,1,1,0,1,tie_unresolved,"Points, goal difference, and goals scored are level; fair-play/drawing-lots data not in repository.",2026-06-16
+B,2,Bosnia and Herzegovina,波黑,1,0,1,0,1,1,0,1,tie_unresolved,"Points, goal difference, and goals scored are level; fair-play/drawing-lots data not in repository.",2026-06-16
+B,3,Qatar,卡塔尔,1,0,1,0,1,1,0,1,tie_unresolved,"Points, goal difference, and goals scored are level; fair-play/drawing-lots data not in repository.",2026-06-16
+B,4,Switzerland,瑞士,1,0,1,0,1,1,0,1,tie_unresolved,"Points, goal difference, and goals scored are level; fair-play/drawing-lots data not in repository.",2026-06-16
+C,1,Scotland,苏格兰,1,1,0,0,1,0,1,3,provisional,,2026-06-16
+C,2,Brazil,巴西,1,0,1,0,1,1,0,1,tie_unresolved,"Level with Morocco on points, goal difference, goals scored, and head-to-head.",2026-06-16
+C,3,Morocco,摩洛哥,1,0,1,0,1,1,0,1,tie_unresolved,"Level with Brazil on points, goal difference, goals scored, and head-to-head.",2026-06-16
+C,4,Haiti,海地,1,0,0,1,0,1,-1,0,provisional,,2026-06-16
+D,1,USA,美国,1,1,0,0,4,1,3,3,provisional,,2026-06-16
+D,2,Australia,澳大利亚,1,1,0,0,2,0,2,3,provisional,,2026-06-16
+D,3,Turkey,土耳其,1,0,0,1,0,2,-2,0,provisional,,2026-06-16
+D,4,Paraguay,巴拉圭,1,0,0,1,1,4,-3,0,provisional,,2026-06-16
+E,1,Germany,德国,1,1,0,0,7,1,6,3,provisional,,2026-06-16
+E,2,Ivory Coast,科特迪瓦,1,1,0,0,1,0,1,3,provisional,,2026-06-16
+E,3,Ecuador,厄瓜多尔,1,0,0,1,0,1,-1,0,provisional,,2026-06-16
+E,4,Curacao,库拉索,1,0,0,1,1,7,-6,0,provisional,,2026-06-16
+F,1,Sweden,瑞典,1,1,0,0,5,1,4,3,provisional,,2026-06-16
+F,2,Netherlands,荷兰,1,0,1,0,2,2,0,1,tie_unresolved,"Level with Japan on points, goal difference, goals scored, and head-to-head.",2026-06-16
+F,3,Japan,日本,1,0,1,0,2,2,0,1,tie_unresolved,"Level with Netherlands on points, goal difference, goals scored, and head-to-head.",2026-06-16
+F,4,Tunisia,突尼斯,1,0,0,1,1,5,-4,0,provisional,,2026-06-16
+G,1,Iran,伊朗,1,0,1,0,2,2,0,1,tie_unresolved,"Level with New Zealand on points, goal difference, goals scored, and head-to-head.",2026-06-16
+G,2,New Zealand,新西兰,1,0,1,0,2,2,0,1,tie_unresolved,"Level with Iran on points, goal difference, goals scored, and head-to-head.",2026-06-16
+G,3,Belgium,比利时,1,0,1,0,1,1,0,1,tie_unresolved,"Level with Egypt on points, goal difference, goals scored, and head-to-head.",2026-06-16
+G,4,Egypt,埃及,1,0,1,0,1,1,0,1,tie_unresolved,"Level with Belgium on points, goal difference, goals scored, and head-to-head.",2026-06-16
+H,1,Saudi Arabia,沙特,1,0,1,0,1,1,0,1,tie_unresolved,"Level with Uruguay on points, goal difference, goals scored, and head-to-head.",2026-06-16
+H,2,Uruguay,乌拉圭,1,0,1,0,1,1,0,1,tie_unresolved,"Level with Saudi Arabia on points, goal difference, goals scored, and head-to-head.",2026-06-16
+H,3,Spain,西班牙,1,0,1,0,0,0,0,1,tie_unresolved,"Level with Cape Verde on points, goal difference, goals scored, and head-to-head.",2026-06-16
+H,4,Cape Verde,佛得角,1,0,1,0,0,0,0,1,tie_unresolved,"Level with Spain on points, goal difference, goals scored, and head-to-head.",2026-06-16
+I,1,France,法国,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+I,2,Senegal,塞内加尔,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+I,3,Iraq,伊拉克,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+I,4,Norway,挪威,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+J,1,Argentina,阿根廷,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+J,2,Algeria,阿尔及利亚,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+J,3,Austria,奥地利,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+J,4,Jordan,约旦,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+K,1,Portugal,葡萄牙,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+K,2,DR Congo,刚果金,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+K,3,Uzbekistan,乌兹别克斯坦,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+K,4,Colombia,哥伦比亚,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+L,1,England,英格兰,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+L,2,Croatia,克罗地亚,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+L,3,Ghana,加纳,0,0,0,0,0,0,0,0,not_started,,2026-06-16
+L,4,Panama,巴拿马,0,0,0,0,0,0,0,0,not_started,,2026-06-16

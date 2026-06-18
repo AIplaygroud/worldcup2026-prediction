@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "source": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry",
+    "fetchedAt": "2026-06-17 12:58:14 +0800",
+    "lastUpdateTime": null,
+    "matchCount": 0,
+    "poolErrors": {
+      "had,hhad": "HTTP Error 567: Unknown Status",
+      "crs": "HTTP Error 567: Unknown Status",
+      "ttg": "HTTP Error 567: Unknown Status",
+      "hafu": "HTTP Error 567: Unknown Status"
+    }
+  },
+  "rawByPool": {
+    "had,hhad": {
+      "error": "HTTP Error 567: Unknown Status"
+    },
+    "crs": {
+      "error": "HTTP Error 567: Unknown Status"
+    },
+    "ttg": {
+      "error": "HTTP Error 567: Unknown Status"
+    },
+    "hafu": {
+      "error": "HTTP Error 567: Unknown Status"
+    }
+  }
+}

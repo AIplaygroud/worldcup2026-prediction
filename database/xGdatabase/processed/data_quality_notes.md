@@ -34,9 +34,82 @@ Last verified: 2026-06-15
 - Qatar Stars League (QAT): 29 target missing players; automation_status=resolved_28_of_29; Filled via FootyStats 2025/26 per-player lookup -> player_form_non_big5_footystats_supplement.csv (FootyStats DOES expose Stars League player xG). 28/29; only Lucas Mendes (Al Wakrah) not found.
 - Persian Gulf Pro League (IRN): 23 target missing players; automation_status= basic); 2026-06-15
 
+## 2026 World Cup Match xG (high weight)
+
+Last verified: 2026-06-16 (cutoff 19:53 UTC+8)
+
+### Files
+
+- `wc2026_match_xg.csv`: match-level WC group-stage xG (one row per finished match).
+- `wc2026_team_xg.csv`: team aggregates from finished WC matches only.
+
+### Coverage (Round 1, Groups A–H)
+
+**Collected (16/24 round-1 fixtures):** all opening matches in Groups A–H with Opta xG via FotMob match centres.
+
+| Date (kickoff) | Match | Score | Home xG | Away xG | Source |
+|---|---|---|---|---|---|
+| 2026-06-11 | Mexico vs South Africa | 2-0 | 1.46 | 0.07 | [FotMob](https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt) |
+| 2026-06-12 | South Korea vs Czechia | 2-1 | 2.30 | 0.83 | [FotMob](https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa) |
+| 2026-06-12 | Canada vs Bosnia and Herzegovina | 1-1 | 1.23 | 0.96 | [FotMob](https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo) |
+| 2026-06-13 | USA vs Paraguay | 4-1 | 1.42 | 0.54 | [FotMob](https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j) |
+| 2026-06-13 | Qatar vs Switzerland | 1-1 | 0.60 | 3.20 | [FotMob](https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv) |
+| 2026-06-13 | Brazil vs Morocco | 1-1 | 1.26 | 1.37 | [FotMob](https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd) |
+| 2026-06-14 | Haiti vs Scotland | 0-1 | 1.05 | 1.05 | [FotMob](https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q) |
+| 2026-06-14 | Australia vs Turkey | 2-0 | 1.18 | 1.36 | [FotMob](https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk) |
+| 2026-06-14 | Germany vs Curacao | 7-1 | 4.22 | 0.41 | [FotMob](https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu) |
+| 2026-06-14 | Netherlands vs Japan | 2-2 | 0.78 | 0.59 | [FotMob](https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b) |
+| 2026-06-14 | Ivory Coast vs Ecuador | 1-0 | 1.52 | 1.01 | [FotMob](https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp) |
+| 2026-06-15 | Sweden vs Tunisia | 5-1 | 1.33 | 0.28 | [FotMob](https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290) |
+| 2026-06-15 | Spain vs Cape Verde | 0-0 | 2.10 | 0.20 | [FotMob](https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo) |
+| 2026-06-15 | Belgium vs Egypt | 1-1 | 1.35 | 1.08 | [FotMob](https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg) |
+| 2026-06-15 | Saudi Arabia vs Uruguay | 1-1 | 0.66 | 1.72 | [FotMob](https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb) |
+| 2026-06-16 | Iran vs New Zealand | 2-2 | 1.50 | 1.24 | [FotMob](https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l) |
+
+**Not collected at cutoff (8/24 round-1 fixtures — Groups I–L):**
+
+| Scheduled (UTC+8) | Match | Status at 2026-06-16 19:53 | Reason |
+|---|---|---|---|
+| 2026-06-16 19:00 | France vs Senegal (I) | Likely in progress / just kicked off | After cutoff; no post-match xG ingested |
+| 2026-06-16 22:00 | Iraq vs Norway (I) | Not started | Future fixture |
+| 2026-06-17 | Argentina vs Algeria (J) | Not started | Future fixture |
+| 2026-06-17 | Austria vs Jordan (J) | Not started | Future fixture |
+| 2026-06-17 | Portugal vs DR Congo (K) | Not started | Future fixture |
+| 2026-06-17 | England vs Croatia (L) | Not started | Future fixture |
+| 2026-06-17 | Ghana vs Panama (L) | Not started | Future fixture |
+| 2026-06-17 | Colombia vs Uzbekistan (K) | Not started | Future fixture |
+
+### Source hierarchy
+
+1. **Primary:** FotMob match statistics (Opta-powered xG, shots, big chances, possession) — all 16 collected matches.
+2. **Cross-check only (not used in CSV):** The Analyst (Opta articles), ESPN/FOX box scores — minor rounding differences vs FotMob on a few fixtures; CSV uses FotMob match-centre values for consistency.
+3. **Blocked / unavailable:**
+   - **FBref** (`fbref.com/en/comps/676/...`): HTTP 403 from automated fetch; not used.
+   - **Understat:** no 2026 WC national-team match feed located.
+   - **FIFA official:** scores/highlights only; no downloadable per-match xG table found.
+
+### Recommended layer weights (vs qualifier `recommended_weight` 1.00)
+
+- **WC group-stage match xG:** `recommended_weight = 1.30` (highest layer; same Opta model family as FotMob).
+- **WC qualifiers / continental qualifiers:** `1.00` (unchanged baseline in `team_recent_form.csv`).
+- **Context competitions (Gold Cup, friendlies, etc.):** keep existing lower weights (0.35–0.75 per row).
+
+Rationale: WC matches are same-tournament, same-opposition-strength context; one R1 sample is still thin — use high weight but cap influence until 2+ WC matches (see integration note below).
+
+### Integration note (45% recent-form pillar)
+
+Within the existing **45% data-driven recent state**, treat `wc2026_team_xg` as a separate sub-layer that should **partially replace** (not add on top of) qualifier-based `recent_xg_per_match` for teams with WC minutes. Suggested blend for a team with `n` WC matches:
+
+`effective_xg = (n * 1.30 * wc_xg + W_prior * recent_xg) / (n * 1.30 + W_prior)`
+
+where `W_prior = 1.00` for teams with qualifier xG and `W_prior = 0.50` for context-only teams (Canada, Mexico, USA). At `n = 1`, WC layer contributes ~57% of the effective rate for qualifier teams — enough to move estimates without overfitting a single game.
+
+All teams in `wc2026_team_xg.csv` carry `quality_flag = thin_sample` until `wc_matches >= 2`.
+
 ## Use In Prediction
 
 - Do not mix xG models as if they are identical. Keep source-layer weights in downstream modeling.
+- Prefer `wc2026_team_xg.csv` over re-deriving from qualifiers when predicting Group A–H round-2 fixtures; refresh after each completed matchday.
 - `opponent_strength_index` is a relative index for comparison, not an absolute probability.
 - Non-Big-5 supplements are lower-confidence than Understat because they mix FotMob, Transfermarkt, FBref snapshots, and public leaderboard snippets.
 - Injury/suspension and projected XI files are still separate inputs and should be updated before match-level predictions.

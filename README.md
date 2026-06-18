@@ -8,7 +8,7 @@
 *Turn any LLM into a deterministic World Cup prediction engine with one prompt.*
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Skill Version](https://img.shields.io/badge/skill-v1.0-blue.svg?style=flat-square)](skill.md)
+[![Skill Version](https://img.shields.io/badge/skill-v2.0-blue.svg?style=flat-square)](skill.md)
 [![Stars](https://img.shields.io/github/stars/TradingAi666/worldcup2026-prediction-skill?style=flat-square&color=yellow)](https://github.com/TradingAi666/worldcup2026-prediction-skill/stargazers)
 [![Forks](https://img.shields.io/github/forks/TradingAi666/worldcup2026-prediction-skill?style=flat-square&color=orange)](https://github.com/TradingAi666/worldcup2026-prediction-skill/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/TradingAi666/worldcup2026-prediction-skill?style=flat-square)](https://github.com/TradingAi666/worldcup2026-prediction-skill/commits/main)
@@ -381,11 +381,14 @@ export async function predict(teamA: string, teamB: string, stage = "小组赛")
 - [x] **v1.0** — 48 队完整资料库 + 4 层约束 + 严格 JSON
 - [x] **v1.0** — DeepSeek / Qwen / GPT / Claude 全模型适配
 - [x] **v1.0** — 在线 Demo 站(worldcup.youliaoyun.com)
-- [ ] **v1.1** — 每日情报区自动化更新 GitHub Action
-- [ ] **v1.1** — 英文版 `skill.en.md`
-- [ ] **v1.2** — 球员级别预测(进球者 / MVP / 黄牌)
-- [ ] **v1.2** — 赛后回测脚本(对照实际结果统计命中率)
-- [ ] **v2.0** — 升级为 Skill Pack:把方法论抽象为可复用的"赛事预测 Skill 模板",支持欧洲杯 / 奥运 / NBA
+- [x] **v1.2** — 赛后回测脚本(对照实际结果统计命中率,见 `scripts/predict_v2.py --backtest`)
+- [x] **v2.0** — 修正层:修复低估强队进球(Bias A)与高估弱队零封(Bias B)两大系统性偏差
+- [x] **v2.0** — 9 层可解释修正(崩溃模式 / 反击地板 / 封堵补偿 / 高位逼抢 / 教练适应 / 旅行疲劳 / 环境 / 关键缺阵 / Dixon-Coles 两段式)
+- [x] **v2.0** — 可复现 Python 引擎 `scripts/predict_v2.py`(纯标准库,四场回测方向全对)
+- [ ] **v2.1** — 每日情报区自动化更新 GitHub Action
+- [ ] **v2.1** — 英文版 `skill.en.md`
+- [ ] **v2.2** — 球员级别预测(进球者 / MVP / 黄牌)
+- [ ] **v3.0** — 升级为 Skill Pack:把方法论抽象为可复用的"赛事预测 Skill 模板",支持欧洲杯 / 奥运 / NBA
 
 ---
 

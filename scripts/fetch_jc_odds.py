@@ -58,6 +58,50 @@ POOL_LABELS_CN = {
     "hafu": "半全场",
     "crs": "比分",
 }
+TEAM_CANONICAL_BY_ODDS_NAME = {
+    "阿尔及利": ("Algeria", "ALG", "阿尔及利亚"),
+    "阿尔及利亚": ("Algeria", "ALG", "阿尔及利亚"),
+    "阿根廷": ("Argentina", "ARG", "阿根廷"),
+    "奥地利": ("Austria", "AUT", "奥地利"),
+    "巴拿马": ("Panama", "PAN", "巴拿马"),
+    "波黑": ("Bosnia and Herzegovina", "BIH", "波黑"),
+    "法国": ("France", "FRA", "法国"),
+    "刚果(金)": ("DR Congo", "COD", "刚果金"),
+    "刚果金": ("DR Congo", "COD", "刚果金"),
+    "哥伦比亚": ("Colombia", "COL", "哥伦比亚"),
+    "加纳": ("Ghana", "GHA", "加纳"),
+    "加拿大": ("Canada", "CAN", "加拿大"),
+    "捷克": ("Czechia", "CZE", "捷克"),
+    "卡塔尔": ("Qatar", "QAT", "卡塔尔"),
+    "克罗地亚": ("Croatia", "CRO", "克罗地亚"),
+    "墨西哥": ("Mexico", "MEX", "墨西哥"),
+    "南非": ("South Africa", "RSA", "南非"),
+    "葡萄牙": ("Portugal", "POR", "葡萄牙"),
+    "塞内加尔": ("Senegal", "SEN", "塞内加尔"),
+    "瑞士": ("Switzerland", "SUI", "瑞士"),
+    "乌兹别克": ("Uzbekistan", "UZB", "乌兹别克斯坦"),
+    "乌兹别克斯坦": ("Uzbekistan", "UZB", "乌兹别克斯坦"),
+    "伊拉克": ("Iraq", "IRQ", "伊拉克"),
+    "英格兰": ("England", "ENG", "英格兰"),
+    "约旦": ("Jordan", "JOR", "约旦"),
+    "韩国": ("Korea Republic", "KOR", "韩国"),
+    "挪威": ("Norway", "NOR", "挪威"),
+}
+
+
+def canonical_team(odds_name: str, all_name: str = "") -> dict:
+    """Return stable team identifiers while preserving Sporttery display names."""
+    team_en, team_code, team_cn = TEAM_CANONICAL_BY_ODDS_NAME.get(
+        odds_name,
+        TEAM_CANONICAL_BY_ODDS_NAME.get(all_name, (all_name or odds_name, "", all_name or odds_name)),
+    )
+    return {
+        "teamCn": team_cn,
+        "teamEn": team_en,
+        "teamCode": team_code,
+        "oddsName": odds_name,
+        "apiAllName": all_name or odds_name,
+    }
 
 
 def fetch(pool: str) -> dict:
@@ -210,14 +254,35 @@ def merge_matches(raw_by_pool: dict[str, dict]) -> dict[int, dict]:
             for m in day.get("subMatchList", []):
                 mid = m["matchId"]
                 if mid not in matches:
+                    home = canonical_team(
+                        m.get("homeTeamAbbName", ""),
+                        m.get("homeTeamAllName", ""),
+                    )
+                    away = canonical_team(
+                        m.get("awayTeamAbbName", ""),
+                        m.get("awayTeamAllName", ""),
+                    )
                     matches[mid] = {
                         "matchId": mid,
                         "matchNum": m.get("matchNum"),
                         "matchNumStr": m.get("matchNumStr", ""),
                         "matchDate": m.get("matchDate", ""),
                         "matchTime": m.get("matchTime", ""),
-                        "homeTeam": m.get("homeTeamAbbName", ""),
-                        "awayTeam": m.get("awayTeamAbbName", ""),
+                        "matchKey": f"{home['teamCode']}-{away['teamCode']}" if home["teamCode"] and away["teamCode"] else "",
+                        "homeTeam": home["teamCn"],
+                        "awayTeam": away["teamCn"],
+                        "homeTeamOddsName": home["oddsName"],
+                        "awayTeamOddsName": away["oddsName"],
+                        "homeTeamAllName": home["apiAllName"],
+                        "awayTeamAllName": away["apiAllName"],
+                        "homeTeamEn": home["teamEn"],
+                        "awayTeamEn": away["teamEn"],
+                        "homeTeamCode": home["teamCode"],
+                        "awayTeamCode": away["teamCode"],
+                        "homeTeamApiCode": m.get("homeTeamCode", ""),
+                        "awayTeamApiCode": m.get("awayTeamCode", ""),
+                        "homeTeamApiEnName": m.get("homeTeamAbbEnName", ""),
+                        "awayTeamApiEnName": m.get("awayTeamAbbEnName", ""),
                         "homeRank": m.get("homeRank", ""),
                         "awayRank": m.get("awayRank", ""),
                         "league": m.get("leagueAbbName", ""),
@@ -258,10 +323,19 @@ def single_cell(pools: dict, key: str) -> str:
 def write_summary_csv(path: Path, records: list[dict]) -> None:
     fields = [
         "matchNumStr",
+        "matchKey",
         "matchDate",
         "matchTime",
         "homeTeam",
         "awayTeam",
+        "homeTeamEn",
+        "awayTeamEn",
+        "homeTeamCode",
+        "awayTeamCode",
+        "homeTeamOddsName",
+        "awayTeamOddsName",
+        "homeTeamApiCode",
+        "awayTeamApiCode",
         "had_home",
         "had_draw",
         "had_away",
@@ -288,10 +362,19 @@ def write_summary_csv(path: Path, records: list[dict]) -> None:
             writer.writerow(
                 {
                     "matchNumStr": r["matchNumStr"],
+                    "matchKey": r["matchKey"],
                     "matchDate": r["matchDate"],
                     "matchTime": r["matchTime"],
                     "homeTeam": r["homeTeam"],
                     "awayTeam": r["awayTeam"],
+                    "homeTeamEn": r["homeTeamEn"],
+                    "awayTeamEn": r["awayTeamEn"],
+                    "homeTeamCode": r["homeTeamCode"],
+                    "awayTeamCode": r["awayTeamCode"],
+                    "homeTeamOddsName": r["homeTeamOddsName"],
+                    "awayTeamOddsName": r["awayTeamOddsName"],
+                    "homeTeamApiCode": r["homeTeamApiCode"],
+                    "awayTeamApiCode": r["awayTeamApiCode"],
                     "had_home": had.get("home", ""),
                     "had_draw": had.get("draw", ""),
                     "had_away": had.get("away", ""),
@@ -320,9 +403,16 @@ def write_detail_csv(path: Path, records: list[dict], pool: str, columns: list[s
                 writer.writerow(
                     {
                         "matchNumStr": r["matchNumStr"],
+                        "matchKey": r["matchKey"],
                         "matchDate": r["matchDate"],
                         "homeTeam": r["homeTeam"],
                         "awayTeam": r["awayTeam"],
+                        "homeTeamEn": r["homeTeamEn"],
+                        "awayTeamEn": r["awayTeamEn"],
+                        "homeTeamCode": r["homeTeamCode"],
+                        "awayTeamCode": r["awayTeamCode"],
+                        "homeTeamOddsName": r["homeTeamOddsName"],
+                        "awayTeamOddsName": r["awayTeamOddsName"],
                         **row,
                     }
                 )
@@ -345,6 +435,10 @@ def write_board_md(path: Path, meta: dict, records: list[dict]) -> None:
         hhad = r.get("hhad") or {}
         lines.append(f"## {r['matchNumStr']} {r['homeTeam']} vs {r['awayTeam']}")
         lines.append("")
+        lines.append(
+            f"- 匹配键: `{r['matchKey']}` | 英文: {r['homeTeamEn']} vs {r['awayTeamEn']} | "
+            f"体彩简称: {r['homeTeamOddsName']} vs {r['awayTeamOddsName']}"
+        )
         lines.append(
             f"- 开赛: {r['matchDate']} {r['matchTime']} | {r['homeRank']} vs {r['awayRank']}"
         )
@@ -394,44 +488,15 @@ def write_board_md(path: Path, meta: dict, records: list[dict]) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def pull_odds(limit: int = 8) -> dict:
-    pools = ["had,hhad", "crs", "ttg", "hafu"]
-    raw_by_pool: dict[str, dict] = {}
-    for pool in pools:
-        time.sleep(1.5)
-        try:
-            raw_by_pool[pool] = fetch(pool)
-        except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
-            raw_by_pool[pool] = {"error": str(exc)}
-
+def build_records(raw_by_pool: dict[str, dict], limit: int) -> list[dict]:
     merged = merge_matches(raw_by_pool)
     ordered = sorted(merged.values(), key=lambda m: (m["matchDate"], m["matchTime"]))
     selected = ordered[:limit]
-    records = [build_match_record(m) for m in selected]
+    return [build_match_record(m) for m in selected]
 
-    fetched_at = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
-    last_update = (
-        raw_by_pool.get("had,hhad", {})
-        .get("value", {})
-        .get("lastUpdateTime")
-    )
-    meta = {
-        "source": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry",
-        "fetchedAt": fetched_at,
-        "lastUpdateTime": last_update,
-        "matchCount": len(records),
-        "poolErrors": {k: v["error"] for k, v in raw_by_pool.items() if v.get("error")},
-    }
 
+def write_processed_outputs(meta: dict, records: list[dict]) -> Path:
     PROCESSED.mkdir(parents=True, exist_ok=True)
-    RAW.mkdir(parents=True, exist_ok=True)
-
-    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    raw_path = RAW / f"api_snapshot_{stamp}.json"
-    raw_path.write_text(
-        json.dumps({"meta": meta, "rawByPool": raw_by_pool}, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
 
     payload = {"meta": meta, "matches": records}
     json_path = PROCESSED / "match_odds_top8.json"
@@ -442,32 +507,149 @@ def pull_odds(limit: int = 8) -> dict:
         PROCESSED / "match_odds_ttg.csv",
         records,
         "ttg",
-        ["matchNumStr", "matchDate", "homeTeam", "awayTeam", "goals", "sp"],
+        [
+            "matchNumStr",
+            "matchKey",
+            "matchDate",
+            "homeTeam",
+            "awayTeam",
+            "homeTeamEn",
+            "awayTeamEn",
+            "homeTeamCode",
+            "awayTeamCode",
+            "homeTeamOddsName",
+            "awayTeamOddsName",
+            "goals",
+            "sp",
+        ],
     )
     write_detail_csv(
         PROCESSED / "match_odds_hafu.csv",
         records,
         "hafu",
-        ["matchNumStr", "matchDate", "homeTeam", "awayTeam", "code", "label", "sp"],
+        [
+            "matchNumStr",
+            "matchKey",
+            "matchDate",
+            "homeTeam",
+            "awayTeam",
+            "homeTeamEn",
+            "awayTeamEn",
+            "homeTeamCode",
+            "awayTeamCode",
+            "homeTeamOddsName",
+            "awayTeamOddsName",
+            "code",
+            "label",
+            "sp",
+        ],
     )
     write_detail_csv(
         PROCESSED / "match_odds_crs.csv",
         records,
         "crs",
-        ["matchNumStr", "matchDate", "homeTeam", "awayTeam", "score", "code", "sp"],
+        [
+            "matchNumStr",
+            "matchKey",
+            "matchDate",
+            "homeTeam",
+            "awayTeam",
+            "homeTeamEn",
+            "awayTeamEn",
+            "homeTeamCode",
+            "awayTeamCode",
+            "homeTeamOddsName",
+            "awayTeamOddsName",
+            "score",
+            "code",
+            "sp",
+        ],
     )
     write_board_md(PROCESSED / "odds_board.md", meta, records)
+    return json_path
 
+
+def save_raw_snapshot(meta: dict, raw_by_pool: dict[str, dict]) -> Path:
+    RAW.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    raw_path = RAW / f"api_snapshot_{stamp}.json"
+    raw_path.write_text(
+        json.dumps({"meta": meta, "rawByPool": raw_by_pool}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    return raw_path
+
+
+def build_meta(raw_by_pool: dict[str, dict], records: list[dict], fetched_at: str | None = None) -> dict:
+    last_update = (
+        raw_by_pool.get("had,hhad", {})
+        .get("value", {})
+        .get("lastUpdateTime")
+    )
+    return {
+        "source": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry",
+        "fetchedAt": fetched_at
+        or datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S %z"),
+        "lastUpdateTime": last_update,
+        "matchCount": len(records),
+        "poolErrors": {k: v["error"] for k, v in raw_by_pool.items() if v.get("error")},
+    }
+
+
+def pull_odds(limit: int = 8) -> dict:
+    pools = ["had,hhad", "crs", "ttg", "hafu"]
+    raw_by_pool: dict[str, dict] = {}
+    for pool in pools:
+        time.sleep(1.5)
+        try:
+            raw_by_pool[pool] = fetch(pool)
+        except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
+            raw_by_pool[pool] = {"error": str(exc)}
+
+    records = build_records(raw_by_pool, limit)
+    meta = build_meta(raw_by_pool, records)
+    raw_path = save_raw_snapshot(meta, raw_by_pool)
+    if not records:
+        return {
+            "meta": meta,
+            "paths": {"raw": str(raw_path)},
+            "processedSkipped": True,
+        }
+
+    json_path = write_processed_outputs(meta, records)
+
+    return {"meta": meta, "paths": {"json": str(json_path), "raw": str(raw_path)}}
+
+
+def restore_from_raw(raw_path: Path, limit: int = 8) -> dict:
+    payload = json.loads(raw_path.read_text(encoding="utf-8"))
+    raw_by_pool = payload["rawByPool"]
+    records = build_records(raw_by_pool, limit)
+    if not records:
+        raise RuntimeError(f"raw snapshot has no recoverable matches: {raw_path}")
+    meta = build_meta(
+        raw_by_pool,
+        records,
+        fetched_at=payload.get("meta", {}).get("fetchedAt"),
+    )
+    json_path = write_processed_outputs(meta, records)
     return {"meta": meta, "paths": {"json": str(json_path), "raw": str(raw_path)}}
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="拉取竞彩足球世界杯在售赔率")
     parser.add_argument("--limit", type=int, default=8, help="拉取场次数（默认 8）")
+    parser.add_argument("--from-raw", type=Path, help="从已有 raw/api_snapshot_*.json 重建 processed 表")
     args = parser.parse_args()
-    result = pull_odds(limit=args.limit)
+    if args.from_raw:
+        result = restore_from_raw(args.from_raw, limit=args.limit)
+    else:
+        result = pull_odds(limit=args.limit)
     meta = result["meta"]
-    print(f"已保存 {meta['matchCount']} 场 -> {ODDS_DIR}")
+    if result.get("processedSkipped"):
+        print(f"接口未返回可用场次，已保留现有 processed，仅保存 raw -> {ODDS_DIR}")
+    else:
+        print(f"已保存 {meta['matchCount']} 场 -> {ODDS_DIR}")
     print(f"拉取时间: {meta['fetchedAt']}")
     print(f"官方更新: {meta.get('lastUpdateTime', '未知')}")
     if meta.get("poolErrors"):

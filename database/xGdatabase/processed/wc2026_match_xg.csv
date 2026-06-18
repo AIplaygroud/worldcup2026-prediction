@@ -1,0 +1,17 @@
+match_date,group,home_team,away_team,home_score,away_score,home_xg,away_xg,home_shots,away_shots,source,source_url,fetched_at,quality_flag,notes
+2026-06-11,A,Mexico,South Africa,2,0,1.46,0.07,16,3,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-16T19:53:00+08:00,ok,possession 60-40; big chances 2-0
+2026-06-12,A,South Korea,Czechia,2,1,2.30,0.83,15,7,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-16T19:53:00+08:00,ok,possession 62-38; big chances 4-1
+2026-06-13,B,Canada,Bosnia and Herzegovina,1,1,1.23,0.96,13,8,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-16T19:53:00+08:00,ok,possession 61-39; big chances 2-2
+2026-06-13,D,USA,Paraguay,4,1,1.42,0.54,16,9,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-16T19:53:00+08:00,ok,possession 65-35; big chances 4-1
+2026-06-14,B,Qatar,Switzerland,1,1,0.60,3.20,6,26,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-16T19:53:00+08:00,ok,possession 32-68; big chances 1-6
+2026-06-14,C,Brazil,Morocco,1,1,1.26,1.37,12,14,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-16T19:53:00+08:00,ok,possession 51-49; big chances 1-2
+2026-06-14,C,Haiti,Scotland,0,1,1.05,1.05,15,9,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-16T19:53:00+08:00,ok,possession 54-46; big chances 1-2
+2026-06-14,D,Australia,Turkey,2,0,1.18,1.36,9,30,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-16T19:53:00+08:00,ok,possession 28-72; big chances 1-2
+2026-06-15,E,Germany,Curacao,7,1,4.22,0.41,26,8,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-16T19:53:00+08:00,ok,possession 65-35; big chances 6-0
+2026-06-15,F,Netherlands,Japan,2,2,0.78,0.59,10,10,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-16T19:53:00+08:00,ok,possession 60-40; big chances 0-0
+2026-06-15,E,Ivory Coast,Ecuador,1,0,1.52,1.01,15,12,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-16T19:53:00+08:00,ok,possession 48-52; big chances 2-1
+2026-06-15,F,Sweden,Tunisia,5,1,1.33,0.28,13,6,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-16T19:53:00+08:00,ok,possession 49-51; big chances 4-0
+2026-06-16,H,Spain,Cape Verde,0,0,2.10,0.20,27,6,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-16T19:53:00+08:00,ok,possession 74-26; big chances 2-1
+2026-06-16,G,Belgium,Egypt,1,1,1.35,1.08,15,14,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-16T19:53:00+08:00,ok,possession 54-46; big chances 2-2
+2026-06-16,H,Saudi Arabia,Uruguay,1,1,0.66,1.72,7,27,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-16T19:53:00+08:00,ok,possession 33-67; big chances 1-2
+2026-06-16,G,Iran,New Zealand,2,2,1.50,1.24,17,14,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-16T19:53:00+08:00,ok,kickoff 2026-06-16 01:00 UTC (09:00 UTC+8); possession 48-52; big chances 2-2

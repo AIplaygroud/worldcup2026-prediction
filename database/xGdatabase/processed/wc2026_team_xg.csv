@@ -1,0 +1,33 @@
+team,wc_matches,wc_xg_per_match,wc_xga_per_match,wc_xgd_per_match,wc_goals_for,wc_goals_against,sources,quality_flag,last_verified,notes
+Australia,1,1.18,1.36,-0.18,2,0,FotMob/Opta,thin_sample,2026-06-16,Group D R1 vs Turkey
+Belgium,1,1.35,1.08,0.27,1,1,FotMob/Opta,thin_sample,2026-06-16,Group G R1 vs Egypt
+Bosnia and Herzegovina,1,0.96,1.23,-0.27,1,1,FotMob/Opta,thin_sample,2026-06-16,Group B R1 at Canada
+Brazil,1,1.26,1.37,-0.11,1,1,FotMob/Opta,thin_sample,2026-06-16,Group C R1 vs Morocco
+Canada,1,1.23,0.96,0.27,1,1,FotMob/Opta,thin_sample,2026-06-16,Group B R1 vs Bosnia and Herzegovina
+Cape Verde,1,0.20,2.10,-1.90,0,0,FotMob/Opta,thin_sample,2026-06-16,Group H R1 at Spain
+Curacao,1,0.41,4.22,-3.81,1,7,FotMob/Opta,thin_sample,2026-06-16,Group E R1 at Germany
+Czechia,1,0.83,2.30,-1.47,1,2,FotMob/Opta,thin_sample,2026-06-16,Group A R1 at South Korea
+Ecuador,1,1.01,1.52,-0.51,0,1,FotMob/Opta,thin_sample,2026-06-16,Group E R1 at Ivory Coast
+Egypt,1,1.08,1.35,-0.27,1,1,FotMob/Opta,thin_sample,2026-06-16,Group G R1 at Belgium
+Germany,1,4.22,0.41,3.81,7,1,FotMob/Opta,thin_sample,2026-06-16,Group E R1 vs Curacao
+Haiti,1,1.05,1.05,0.00,0,1,FotMob/Opta,thin_sample,2026-06-16,Group C R1 vs Scotland
+Iran,1,1.50,1.24,0.26,2,2,FotMob/Opta,thin_sample,2026-06-16,Group G R1 vs New Zealand
+Ivory Coast,1,1.52,1.01,0.51,1,0,FotMob/Opta,thin_sample,2026-06-16,Group E R1 vs Ecuador
+Japan,1,0.59,0.78,-0.19,2,2,FotMob/Opta,thin_sample,2026-06-16,Group F R1 at Netherlands
+Mexico,1,1.46,0.07,1.39,2,0,FotMob/Opta,thin_sample,2026-06-16,Group A R1 vs South Africa
+Morocco,1,1.37,1.26,0.11,1,1,FotMob/Opta,thin_sample,2026-06-16,Group C R1 at Brazil
+Netherlands,1,0.78,0.59,0.19,2,2,FotMob/Opta,thin_sample,2026-06-16,Group F R1 vs Japan
+New Zealand,1,1.24,1.50,-0.26,2,2,FotMob/Opta,thin_sample,2026-06-16,Group G R1 at Iran
+Paraguay,1,0.54,1.42,-0.88,1,4,FotMob/Opta,thin_sample,2026-06-16,Group D R1 at USA
+Qatar,1,0.60,3.20,-2.60,1,1,FotMob/Opta,thin_sample,2026-06-16,Group B R1 vs Switzerland
+Saudi Arabia,1,0.66,1.72,-1.06,1,1,FotMob/Opta,thin_sample,2026-06-16,Group H R1 vs Uruguay
+Scotland,1,1.05,1.05,0.00,1,0,FotMob/Opta,thin_sample,2026-06-16,Group C R1 at Haiti
+South Africa,1,0.07,1.46,-1.39,0,2,FotMob/Opta,thin_sample,2026-06-16,Group A R1 at Mexico
+South Korea,1,2.30,0.83,1.47,2,1,FotMob/Opta,thin_sample,2026-06-16,Group A R1 vs Czechia
+Spain,1,2.10,0.20,1.90,0,0,FotMob/Opta,thin_sample,2026-06-16,Group H R1 vs Cape Verde
+Sweden,1,1.33,0.28,1.05,5,1,FotMob/Opta,thin_sample,2026-06-16,Group F R1 vs Tunisia
+Switzerland,1,3.20,0.60,2.60,1,1,FotMob/Opta,thin_sample,2026-06-16,Group B R1 at Qatar
+Tunisia,1,0.28,1.33,-1.05,1,5,FotMob/Opta,thin_sample,2026-06-16,Group F R1 at Sweden
+Turkey,1,1.36,1.18,0.18,0,2,FotMob/Opta,thin_sample,2026-06-16,Group D R1 at Australia
+USA,1,1.42,0.54,0.88,4,1,FotMob/Opta,thin_sample,2026-06-16,Group D R1 vs Paraguay
+Uruguay,1,1.72,0.66,1.06,1,1,FotMob/Opta,thin_sample,2026-06-16,Group H R1 at Saudi Arabia
