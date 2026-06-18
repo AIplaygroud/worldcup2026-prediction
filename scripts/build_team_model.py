@@ -67,6 +67,7 @@ def main():
     players_all = load(os.path.join(XG, "player_model.csv"))
     form = {r["team"]: r for r in load(os.path.join(XG, "team_recent_form.csv"))}
     wc_xg = {r["team"]: r for r in load(os.path.join(XG, "wc2026_team_xg.csv"))}
+    wc_adj = {r["team"]: r for r in load(os.path.join(XG, "wc2026_team_xg_adj.csv"))}
     strength = {r["team"]: r for r in load(os.path.join(XG, "opponent_strength.csv"))}
     coaches = {r["team"]: r for r in load(os.path.join(COMP, "coach_profiles.csv"))}
 
@@ -131,7 +132,11 @@ def main():
             wc_row = wc_xg.get(team, {})
             wc_n = fnum(wc_row.get("wc_matches"), 0) or 0
             if wc_n > 0:
-                wc_xg_pm = fnum(wc_row.get("wc_xg_per_match"), qual_xg)
+                # 对手强度标准化 adj_wc_xg（与 predict_v2 wc_blend_att 同源）
+                adj_row = wc_adj.get(team, {})
+                wc_xg_pm = fnum(adj_row.get("adj_wc_xg"))
+                if wc_xg_pm is None:
+                    wc_xg_pm = fnum(wc_row.get("wc_xg_per_match"), qual_xg)
                 w_wc, w_qual = 1.30, 1.00
                 rx = (wc_n * w_wc * wc_xg_pm + w_qual * qual_xg) / (wc_n * w_wc + w_qual)
             else:

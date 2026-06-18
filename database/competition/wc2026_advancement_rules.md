@@ -160,6 +160,17 @@ When the user asks about knockout path, favorite rotation, or "控分挑对手":
 4. Compare scenarios if the focal team wins, draws, or loses the last group match (1st vs 2nd, and ripple effects on third-placed rankings).
 5. State uncertainty explicitly when groups are not yet mathematically settled.
 
+### Round 2 pre-control notes
+
+For R2 predictions, read `wc2026_r2_strategy_notes.md` before applying a tactical or betting read. R2 "控分" is usually weaker than R3 because teams have not clinched before kickoff; the more common R2 pattern is:
+
+- 3-point teams still push for 6 points because that creates R3 rotation/control optionality.
+- 3-vs-3 matches can become lower-risk late if a draw leaves both on 4 points.
+- 1-point favorites often need to attack rather than coast, because a second draw creates R3 pressure and possible third-place uncertainty.
+- 0-vs-0 matches are survival games where late open-state risk can rise.
+
+Use these as context for match tempo, lineup rotation, and totals/handicap confidence, not as proof of deliberate tanking.
+
 ### Caveats
 
 - FIFA forbids teams from **same group** meeting again in the round of 32; Annex C enforces this.
@@ -170,7 +181,9 @@ When the user asks about knockout path, favorite rotation, or "控分挑对手":
 ## Data Files
 
 - `group_assignments.csv`: official project group allocation used by the prediction skill.
+- `wc2026_group_fixtures.csv`: full group-stage schedule (72 matches, FIFA match IDs 1–72); regenerate with `python scripts/build_group_fixtures.py`.
 - `group_standings.csv`: current project standings derived from `database/xGdatabase/processed/wc2026_match_xg.csv`.
+- `wc2026_r2_strategy_notes.md`: R2 fixture-by-fixture advancement incentive notes for control-score risk, first/second-place path value, rotation, and attacking intent.
 - `round_of_32_template.csv`: fixed round-of-32 slots and third-place candidate pools.
 - `annex_c_round_of_32.csv`: full FIFA Annex C table (495 rows). Source: FIFA FWC2026 Regulations, Annex C; built via `scripts/build_annex_c.py`.
 

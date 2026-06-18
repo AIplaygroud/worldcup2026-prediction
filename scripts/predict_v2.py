@@ -103,6 +103,11 @@ def load_data():
         wc = {r["team"]: r for r in _load_csv("wc2026_team_xg.csv")}
     except FileNotFoundError:
         pass
+    wc_adj = {}
+    try:
+        wc_adj = {r["team"]: r for r in _load_csv("wc2026_team_xg_adj.csv")}
+    except FileNotFoundError:
+        pass
 
     def fnum(rows, key):
         vals = []
@@ -120,7 +125,7 @@ def load_data():
         tm = {r["team"]: r for r in _load_csv("team_model.csv")}   # 2b（含 2a/2c 聚合）
     except FileNotFoundError:
         pass
-    return dict(form=form, strength=strength, wc=wc, team_model=tm,
+    return dict(form=form, strength=strength, wc=wc, wc_adj=wc_adj, team_model=tm,
                 league_xg=league_xg, league_xga=league_xga)
 
 
@@ -180,14 +185,23 @@ def base_lambdas(ctx: MatchContext, data) -> tuple[float, float, dict]:
         return min(base, TIER[tier_of(team)]["deff"])
 
     # WC 正赛 xG 混入（data_quality_notes 推荐公式，n=1, w=1.30, prior=1.0）
+    # 已用对手强度标准化的 adj_wc_xg，避免弱旅虚高 / 强旅偏低污染 att_h
     def wc_blend_att(team, raw):
         wc = data["wc"].get(team)
         if not wc:
             return raw
-        try:
-            wc_xg = float(wc["wc_xg_per_match"])
-        except (ValueError, KeyError):
-            return raw
+        wc_xg = None
+        adj_row = data["wc_adj"].get(team)
+        if adj_row:
+            try:
+                wc_xg = float(adj_row["adj_wc_xg"])
+            except (ValueError, KeyError, TypeError):
+                wc_xg = None
+        if wc_xg is None:
+            try:
+                wc_xg = float(wc["wc_xg_per_match"])
+            except (ValueError, KeyError):
+                return raw
         n, w_layer, w_prior = 1.0, 1.30, 1.00
         eff = (n * w_layer * wc_xg + w_prior * float(f[team]["recent_xg_per_match"])) / (n * w_layer + w_prior)
         return max(eff / lx, TIER[tier_of(team)]["att"])

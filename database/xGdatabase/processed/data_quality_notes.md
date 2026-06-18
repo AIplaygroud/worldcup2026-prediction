@@ -105,6 +105,28 @@ where `W_prior = 1.00` for teams with qualifier xG and `W_prior = 0.50` for cont
 
 All teams in `wc2026_team_xg.csv` carry `quality_flag = thin_sample` until `wc_matches >= 2`.
 
+### Opponent-strength normalization
+
+R1 match xG is opponent-dependent: beating a weak side inflates raw `wc_xg_per_match` (e.g. Germany 4.22 vs Curacao), while facing a strong side depresses it (e.g. Croatia 0.70 at England). Before blending into `att_h` / `form_index`, each team’s R1 xG is converted to **neutral-opponent equivalent** rates.
+
+**League anchors** (same as `predict_v2.py`):
+
+- `league_xg`  = mean of all `recent_xg_per_match` in `team_recent_form.csv`
+- `league_xga` = mean of all `recent_xga_per_match` in `team_recent_form.csv`
+
+**Per team** (R1 opponent from `wc2026_match_xg.csv`; opponent form from `team_recent_form.csv`):
+
+- `deff_opp  = clamp(opp.recent_xga_per_match / league_xga, 0.70, 1.40)`
+- `att_opp   = clamp(opp.recent_xg_per_match  / league_xg , 0.70, 1.40)`
+- `adj_wc_xg  = round(raw_wc_xg_per_match  / deff_opp, 3)`
+- `adj_wc_xga = round(raw_wc_xga_per_match / att_opp , 3)`
+
+Clamp bounds prevent a single extreme opponent from over-shrinking or over-inflating one-game samples.
+
+**Output table:** `wc2026_team_xg_adj.csv` (built by `scripts/build_wc_xg_adj.py`). Raw columns are retained for audit; `wc2026_team_xg.csv` stays unadjusted.
+
+**Downstream:** `predict_v2.py` `wc_blend_att` and `build_team_model.py` `form_index` use `adj_wc_xg` when present, falling back to raw `wc_xg_per_match` if a team row is missing.
+
 ## Use In Prediction
 
 - Do not mix xG models as if they are identical. Keep source-layer weights in downstream modeling.

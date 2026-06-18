@@ -22,9 +22,9 @@
 - 时间：2026年6月11日 — 7月19日；小组赛 6月11日—27日
 - 规模：48 队，12 个小组（A—L），每组 4 队；每组前两名 + 8 个成绩最好的第三名晋级 32 强淘汰赛
 - 揭幕战：6月11日 墨西哥 vs 南非（墨西哥城阿兹特克球场）
-- 晋级规则、分组与当前积分榜：优先查阅 `database/competition/wc2026_advancement_rules.md`、`database/competition/group_assignments.csv`、`database/competition/group_standings.csv`、`database/competition/round_of_32_template.csv`、`database/competition/annex_c_round_of_32.csv`
+- 晋级规则、分组与当前积分榜：优先查阅 `database/competition/wc2026_advancement_rules.md`、`database/competition/group_assignments.csv`、`database/competition/wc2026_group_fixtures.csv`、`database/competition/group_standings.csv`、`database/competition/round_of_32_template.csv`、`database/competition/annex_c_round_of_32.csv`
 - **场上规则与赛程环境变量**（补水休息、反拖延倒计时、VAR/科技、旅行/气候等）：查阅 `database/competition/wc2026_match_environment_rules.md`
-- **32 强落位 / 控分挑对手**：小组赛末轮或预测淘汰赛路径时，必须用 Annex C 查表（`annex_c_round_of_32.csv` 或 `python scripts/resolve_round_of_32.py`）；先确定 8 个晋级第三名来自哪 8 个组，再查具体「小组第一 vs 哪组第三」。详见 `wc2026_advancement_rules.md` 的 Strategic Implications 节。
+- **32 强落位 / 控分挑对手**：小组赛末轮或预测淘汰赛路径时，必须用 Annex C 查表（`annex_c_round_of_32.csv` 或 `python scripts/resolve_round_of_32.py`）；先确定 8 个晋级第三名来自哪 8 个组，再查具体「小组第一 vs 哪组第三」。详见 `wc2026_advancement_rules.md` 的 Strategic Implications 节。预测 **R2** 时同时查 `database/competition/wc2026_r2_strategy_notes.md`，判断 3 分队抢 6 分、4 分可接受、争第一/第二路径、轮换与晚段控分风险。
 
 ### 分组表
 
@@ -61,10 +61,11 @@
 
 | 数据层 | 文件 | 参考说明 |
 |---|---|---|
-| 世界杯正赛 | `wc2026_team_xg.csv`、`wc2026_match_xg.csv` | 本届正赛实际表现；**通常比预选赛更有参考价值**，但注意 `wc_matches` 与 `quality_flag` |
+| 世界杯正赛（对手强度标准化） | `wc2026_team_xg_adj.csv` | R1 原始 xG 折算成「中性对手等效 xG」；**判断球队真实近期攻防力时优先看这张**，避免被对手强弱带偏 |
+| 世界杯正赛（原始） | `wc2026_team_xg.csv`、`wc2026_match_xg.csv` | 本届正赛实际表现；**通常比预选赛更有参考价值**，但为未折算原始值，看 `wc_matches` 与 `quality_flag` |
 | 预选赛 / 洲际赛事 | `team_recent_form.csv` | 赛前置信基础；样本更足，但与正赛对手强度、战术环境未必一致 |
 
-权衡时据情判断，无固定公式：有正赛场次时**须在分析中引用正赛 xG**并说明相对预选赛的份量；`thin_sample`、context-only 先验、对手强弱、比分与 xG 背离、俱乐部状态变化等均可调整信任度；未踢正赛的球队以 `team_recent_form.csv` 为主。正赛 xG 来源为 Opta（FotMob），不得与预选赛层或其他模型 xG 等同视之；覆盖与缺口见 `data_quality_notes.md`。
+权衡时据情判断，无固定公式：有正赛场次时**须在分析中引用正赛 xG**并说明相对预选赛的份量。**关键提醒——原始 R1 xG 受对手强弱影响大**：揍弱旅会虚高（德国 4.22 对最弱库拉索）、碰强队会偏低（克罗地亚 0.70 对英格兰）；判断一支队真实近期攻击力时应优先参考 `wc2026_team_xg_adj.csv` 的中性等效 xG，不要拿原始值直接外推。`thin_sample`、context-only 先验、比分与 xG 背离（见 `wc2026_luck_index.csv`）、俱乐部状态变化等均可调整信任度；未踢正赛的球队以 `team_recent_form.csv` 为主。正赛 xG 来源为 Opta（FotMob），不得与预选赛层或其他模型 xG 等同视之；标准化口径与覆盖见 `data_quality_notes.md`。（`predict_v2.py` 与 `team_model.csv` 已自动使用标准化后的 adj_xg，无需手算。）
 
 规则：
 - 三个概率（胜/平/负）为整数，总和必须 = 100
@@ -247,24 +248,33 @@
 
 | 路径 | 性质 | 预测时用法 |
 |---|---|---|
-| `database/xGdatabase/processed/wc2026_team_xg.csv` | **动态汇总（正赛）** | 本届正赛队级 xG 聚合；通常优先于预选赛，样本与 `thin_sample` 由你据情降权 |
+| `database/xGdatabase/processed/wc2026_team_xg_adj.csv` | **正赛衍生（对手强度标准化）** | R1 原始 xG 折算为「中性对手等效 xG」（用模型 `deff` 口径夹紧防过拟合）；`predict_v2.py` / `build_team_model.py` 已接入；判断真实近期攻防力**优先于**原始 `wc2026_team_xg.csv`，避免德国揍库拉索式虚高 |
+| `database/xGdatabase/processed/wc2026_team_xg.csv` | **动态汇总（正赛·原始）** | 本届正赛队级 xG 聚合（未折算，对手强弱未均衡）；保留真实值供对照，外推真实实力请用 `_adj` 表；样本与 `thin_sample` 据情降权 |
 | `database/xGdatabase/processed/wc2026_match_xg.csv` | **动态明细（正赛）** | 逐场正赛 xG/射门/来源 URL |
+| `database/xGdatabase/processed/wc2026_luck_index.csv` | **正赛衍生** | 比分与 xG 背离度（attack/defense/net luck）；标记 R1 运气成分大、R2 应回归的队（如卡塔尔 lucky、瑞士/西班牙 unlucky finishing），据情微调而非硬调 |
+| `database/xGdatabase/processed/wc2026_player_match_stats.csv` | **动态明细（正赛球员）** | 24 场出场球员单场 xG/xA/评分/分钟；判断核心是否在状态、俱乐部好但正赛哑火（单场样本，慎用，与 `player_form_summary.csv` 俱乐部层互参） |
 | `database/xGdatabase/processed/team_recent_form.csv` | 静态汇总 | 预选赛/洲际近期 xG；与正赛层对照使用，未踢正赛时为主依据 |
 | `database/xGdatabase/processed/player_form_summary.csv` | 静态汇总 | 直接引用球员俱乐部状态（注意 `data_quality_notes.md` 覆盖率缺口） |
 | `database/xGdatabase/processed/player_model.csv` | **2a 衍生** | 球员五维评分（`scripts/build_player_model.py` 生成）；进攻/高空/身体为实测，防守/履历/门将为 inferred，看 `confidence` 列 |
 | `database/xGdatabase/processed/team_model.csv` | **2b 衍生** | 球队 12 维 + λ 钩子（`scripts/build_team_model.py` 生成）；`predict_v2.py` 自动读取作战术参数默认 |
 | `database/competition/coach_profiles.csv` | **2c 先验** | 48 主帅战术画像（`expert_prior`，非实测）；喂 L4 逼抢 / L5 教练适应 |
+| `database/competition/wc2026_team_tactics_observed.csv` | **正赛实测** | R1 各队控球/风格标签（部分场含三区进入、压迫数）；**实测**画像，与 `coach_profiles.csv` 的 `expert_prior` 互参，不互相覆盖 |
 | `database/xGdatabase/processed/opponent_strength.csv` | 静态汇总 | 相对比较用，非绝对概率 |
 | `database/xGdatabase/processed/data_quality_notes.md` | 静态说明 | 评估数据完整度与置信度下调依据 |
 | `database/competition/wc2026_advancement_rules.md` | 静态规则 | 小组排名、最好第三名、32 强对阵模板、Annex C 查表流程与**控分挑对手**分析框架；与投注 90 分钟结算规则区分使用 |
 | `database/competition/wc2026_match_environment_rules.md` | 静态规则/情境变量 | 比赛节奏、补水休息、反拖延、VAR、科技、旅行/气候等对比分分布和事件流的修正；与晋级规则、投注结算区分使用 |
 | `database/competition/group_assignments.csv` | 静态分组 | 12 个小组与 48 队中英文队名映射 |
+| `database/competition/wc2026_group_fixtures.csv` | **静态赛程** | 小组赛全部 **72 场**（FIFA 1–72）：日期、美东/当地时间、主客、球场、城市、`status`（与 `wc2026_match_xg.csv` 同步已赛场）；由 `scripts/build_group_fixtures.py` 生成 |
 | `database/competition/group_standings.csv` | 动态积分榜 | 当前小组积分、净胜球、进球数和临时排名；若 `status=tie_unresolved`，说明公平竞赛/抽签信息未入库 |
+| `database/competition/wc2026_fair_play_r1.csv` | **正赛衍生** | R1 各队黄/红牌与 FIFA 公平竞赛分；用于解 `group_standings.csv` 的并列；公平竞赛分相同仍需 FIFA 排名次级 tiebreaker（见该文件 notes） |
+| `database/competition/wc2026_r2_strategy_notes.md` | **R2 情境备注** | 第二轮 24 场的控分/争第一第二/第三名风险、轮换与进攻欲望预判；用于赛前叙事、λ 人工修正与大小球/让球风险提示，R2 结果更新后须复核 |
 | `database/competition/round_of_32_template.csv` | 静态对阵模板 | 32 强固定对阵与「小组第一 vs 可能第三名」候选池 |
 | `database/competition/annex_c_round_of_32.csv` | 静态查表 | FIFA Annex C 全表 495 行；`advancing_groups` 为 8 个晋级第三名组别 key，列 `vs_1A`…`vs_1L` 为具体落位 |
 | `scripts/resolve_round_of_32.py` | 工具脚本 | 输入 8 个晋级第三名组别或最终积分榜，输出完整 32 强对阵 |
 | `database/48-team-roster/processed/squads_48_teams.csv` | 静态名单 | 核对球员是否在队、位置与俱乐部 |
 | `database/48-team-roster/processed/squad_depth_summary.csv` | 静态汇总 | 评估阵容厚度 |
+| `database/xGdatabase/processed/wc2026_lineups_r1.csv` | **正赛事实（首发）** | R1 真实首发/阵型/换人（753 行）；**仅 R1 事实**，不是未来场次首发 |
+| `database/xGdatabase/processed/wc2026_lineup_priors.csv` | **先验（首发）** | 由 R1 推出的默认阵型/铁主力/轮换风险/保护名单，`confidence=r1_prior`；**仅作赛前基线参考，开赛前公布官方首发后必须覆盖**，不得当作既定首发 |
 | `database/48-team-roster/processed/projected_starting_xi.csv` | **空模板** | **当前仅有表头、无数据行，不可当作预计首发依据** |
 | `database/48-team-roster/processed/injury_suspension_notes.md` | **待更新占位** | **不可直接采信**；仅作人工/流程写入后的存档，预测前须重新核实 |
 | `reference/jingcai-football-simulation-rules.md` | **规则参考** | **投注必读**：竞彩玩法、90 分钟彩果、让球判定、过关/奖金计算；与预测比分转彩果时必查 |
@@ -273,6 +283,8 @@
 | `database/jc-odds/processed/match_odds_{ttg,hafu,crs}.csv` | **动态拉取** | 总进球、半全场、比分 SP 明细；含 `matchKey` 与标准队名字段 |
 
 > **关键约束**：`projected_starting_xi.csv` 与 `injury_suspension_notes.md` 不会随赛事自动更新。仓库内为空或过时是正常状态，**不代表「无人伤停」或「可按默认 XI 出战」**。
+>
+> **首发先验约束**：`wc2026_lineup_priors.csv` 仅是首轮观察推断的基线，**首发只在开赛前约 1 小时公布**。任何具体比赛预测仍须按第 5.2 节实时检索官方/权威首发；拿到后以官方为准覆盖先验，先验只在尚无官方阵容时提供「大概率首发 + 轮换风险」参考，且须注明置信度。
 
 ### 5.2 每次预测前必做：实时情报刷新
 
@@ -405,3 +417,7 @@ def[t]  = recent_xga[t] / 联赛均值 recent_xga      （越小越强）
 | 奥-约 | 1.9 / 0.6 | **2.2 / 1.1** | 2-1 | ✓ | ✓ |
 
 V2.0 的 λ 已贴合赛果级别（法国 2.42 ≈ 参考 2.45；奥-约 modal 2-1 与赛果一致），4 场方向全对、赛果比分全部落入 Top-5，BTTS 也从「一律否」回归现实（近场 53%–58%）。唯一仍偏弱的是阿根廷（2.0 vs 赛果 3-0 的高方差超神发挥），属正常残差，**不为单场方差过拟合系数**。
+
+> **⚠️ 扩样修正（24 场 R1 回测，2026-06-18）**：上表 4 场是 V2 的**校准样本**，全对属预期内的过拟合。把样本扩到**首轮全部 24 场**后，真实表现回落到：**方向 14/24（58.3%）、赛果∈Top-5 13/24（54.2%）、实际 BTTS 17/24（70.8%）**。详见 `database/xGdatabase/processed/wc2026_v2_backtest_r1.md`。
+>
+> 结论：**Bias B（BTTS 回归现实）在大样本上成立**；**Bias A（低估强队进球）方向对但幅度仍偏保守**（德 7-1、英 4-2、瑞 5-1 等大比分 λ 偶偏低）。该报告给出了系数微调方向（如 `COLLAPSE_K` 0.75→0.80–0.85、`wc_blend` w_wc 1.30→1.40），但**当前刻意不改 `predict_v2.py` 系数**：单轮 24 场样本不足以重新拟合，贸然调参只会从「拟合 4 场」变成「拟合 24 场」。**待 R2/R3 样本积累后再校准**。在此之前，预测强弱悬殊场时人工保证 Top-5 含 3+ 球尾巴即可。
