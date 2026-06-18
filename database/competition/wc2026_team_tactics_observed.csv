@@ -1,0 +1,49 @@
+match_date,group,team,opponent,possession,ppda,final_third_entries,crosses,set_piece_xg,counter_xg,high_press_regains,style_label,source,source_url,last_verified
+2026-06-11,A,Mexico,South Africa,60,,,,,,,possession-dominant,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,40,,,,,,,low-block-direct,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-12,A,South Korea,Czechia,62,,,,,,,possession-dominant,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,38,,,,,,,direct-counter,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,61,,37,,,,,possession-dominant,Opta Analyst,https://theanalyst.com/articles/canada-vs-qatar-prediction-world-cup-2026-match-preview,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,39,,15,,,,,low-block-counter,Opta Analyst,https://theanalyst.com/articles/canada-vs-qatar-prediction-world-cup-2026-match-preview,2026-06-18
+2026-06-13,D,USA,Paraguay,65,,,,,,530,high-press-possession,Opta Analyst,https://theanalyst.com/articles/usa-paraguay-best-stats-world-cup-2026-balogun-ream-pulisic,2026-06-18
+2026-06-13,D,Paraguay,USA,35,,,,,,,low-block,Opta Analyst,https://theanalyst.com/articles/usa-paraguay-best-stats-world-cup-2026-balogun-ream-pulisic,2026-06-18
+2026-06-14,B,Qatar,Switzerland,32,,38,,,,,low-block-counter,Sofascore/Opta Analyst,https://theanalyst.com/articles/qatar-vs-switzerland-stats-world-cup-2026,2026-06-18
+2026-06-14,B,Switzerland,Qatar,68,,79,35,,,,possession-inefficient,Sofascore/Opta Analyst,https://theanalyst.com/articles/qatar-vs-switzerland-stats-world-cup-2026,2026-06-18
+2026-06-14,C,Brazil,Morocco,51,,,,,,,balanced-press,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,49,,,,,,,high-press-direct,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Haiti,Scotland,54,,,,,,,possession-without-chance,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,46,,,,,,,direct-set-piece,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,D,Australia,Turkey,28,,,,,,,low-block-counter,Opta Analyst,https://theanalyst.com/articles/australia-vs-turkiye-stats-world-cup-2026,2026-06-18
+2026-06-14,D,Turkey,Australia,72,,,,,,,possession-dominant,Opta Analyst,https://theanalyst.com/articles/australia-vs-turkiye-stats-world-cup-2026,2026-06-18
+2026-06-15,E,Germany,Curacao,65,,,,,,,possession-dominant,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,35,,,,,,,low-block,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,F,Netherlands,Japan,60,,,,,,,possession-set-piece,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,40,,,,,,,counter-attacking,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,48,,,,,,,balanced-direct,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,52,,,,,,,possession-dominant,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,F,Sweden,Tunisia,49,,,,,,,direct-transition,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,51,,,,,,,mid-block,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-16,H,Spain,Cape Verde,74,,,,,,,possession-dominant,Opta Analyst,https://theanalyst.com/articles/how-cape-verde-frustrated-spain-world-cup-history-draw-shock,2026-06-18
+2026-06-16,H,Cape Verde,Spain,26,,,,,,,compact-low-block,Opta Analyst,https://theanalyst.com/articles/how-cape-verde-frustrated-spain-world-cup-history-draw-shock,2026-06-18
+2026-06-16,G,Belgium,Egypt,54,,,,,,,possession-press,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,46,,,,,,,mid-block-counter,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,33,,,,,,,low-block,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,67,,,,,,,possession-dominant,Opta Analyst,https://theanalyst.com/articles/saudi-arabia-vs-uruguay-stats-world-cup-2026,2026-06-18
+2026-06-16,G,Iran,New Zealand,48,,,,,,,balanced-counter,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,52,,,,,,,possession-direct,Yahoo Sports/Opta,https://sports.yahoo.com/soccer/breaking-news/article/iran-new-zealand-play-to-2-2-draw-to-keep-group-g-tied-up-with-1-point-apiece-030629071.html,2026-06-18
+2026-06-16,I,France,Senegal,53,,,,,,,balanced-control,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,47,,,,,,,mid-block-counter,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Iraq,Norway,39,,,,,,,low-block,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,61,,,,,,,possession-dominant,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-17,J,Argentina,Algeria,48,,,,,,,balanced-direct,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,52,,,,,,,possession-press,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Austria,Jordan,63,,,,,,,possession-dominant,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,37,,,,,,,low-block,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-18,K,Portugal,DR Congo,75,,,,,,,possession-stagnant,FotMob/Opta/Yahoo Sports,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,25,,,,,,,compact-low-block,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,62,,,,,,,possession-dominant,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,38,,,,,,,low-block-counter,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,L,England,Croatia,52,,,,,,,set-piece-heavy,Opta Analyst,https://theanalyst.com/articles/england-vs-croatia-stats-world-cup-2026,2026-06-18
+2026-06-18,L,Croatia,England,48,,,,,,,mid-block-counter,Opta Analyst,https://theanalyst.com/articles/england-vs-croatia-stats-world-cup-2026,2026-06-18
+2026-06-18,L,Ghana,Panama,38,,,,,,,low-block-counter,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,62,,,,,,,possession-dominant,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18

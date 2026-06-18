@@ -22,7 +22,9 @@
 - 时间：2026年6月11日 — 7月19日；小组赛 6月11日—27日
 - 规模：48 队，12 个小组（A—L），每组 4 队；每组前两名 + 8 个成绩最好的第三名晋级 32 强淘汰赛
 - 揭幕战：6月11日 墨西哥 vs 南非（墨西哥城阿兹特克球场）
-- 晋级规则、分组与当前积分榜：优先查阅 `database/competition/wc2026_advancement_rules.md`、`database/competition/group_assignments.csv`、`database/competition/group_standings.csv`
+- 晋级规则、分组与当前积分榜：优先查阅 `database/competition/wc2026_advancement_rules.md`、`database/competition/group_assignments.csv`、`database/competition/group_standings.csv`、`database/competition/round_of_32_template.csv`、`database/competition/annex_c_round_of_32.csv`
+- **场上规则与赛程环境变量**（补水休息、反拖延倒计时、VAR/科技、旅行/气候等）：查阅 `database/competition/wc2026_match_environment_rules.md`
+- **32 强落位 / 控分挑对手**：小组赛末轮或预测淘汰赛路径时，必须用 Annex C 查表（`annex_c_round_of_32.csv` 或 `python scripts/resolve_round_of_32.py`）；先确定 8 个晋级第三名来自哪 8 个组，再查具体「小组第一 vs 哪组第三」。详见 `wc2026_advancement_rules.md` 的 Strategic Implications 节。
 
 ### 分组表
 
@@ -50,7 +52,7 @@
 1. **数据化近期状态（45%）**：世界杯正赛 xG（`wc2026_team_xg.csv` / `wc2026_match_xg.csv`）与预选赛/洲际赛事（`team_recent_form.csv`）、核心球员 2025-26/2026 俱乐部 xG 数据和状态；**自行权衡**各层 xG 证据的份量与取舍理由；**本场赛前最新**伤病与出场风险（见第五节实时情报流程，不得使用过期伤停）
 2. **球队硬实力（25%）**：阵容厚度、世界排名档位、球员身价与大赛底蕴；因已有 xG 和球员状态数据，硬实力不再压过近期表现
 3. **对位与历史参考（10%）**：历史交锋、风格克制、攻防对位；历史交锋样本少或年代久远时必须降权
-4. **情境因素（15%）**：东道主优势（美/加/墨三队主场作战）、气候/场地、旅途、赛程密度、淘汰赛抗压经验、阵容年龄结构
+4. **情境因素（15%）**：东道主优势（美/加/墨三队主场作战）、气候/场地、旅途、赛程密度、淘汰赛抗压经验、阵容年龄结构；2026 特有场上规则与环境变量见 `database/competition/wc2026_match_environment_rules.md`（补水休息、反拖延、VAR/科技、旅行/气候等）
 5. **数据完整度与风险修正（5%）**：参考 `data_quality_notes.md`、球员数据覆盖率、非五大联赛补充质量；数据缺口越大，置信度越低，投注建议越保守
 
 #### 近期 xG 数据参考（45% 数据化近期状态内）
@@ -254,9 +256,13 @@
 | `database/competition/coach_profiles.csv` | **2c 先验** | 48 主帅战术画像（`expert_prior`，非实测）；喂 L4 逼抢 / L5 教练适应 |
 | `database/xGdatabase/processed/opponent_strength.csv` | 静态汇总 | 相对比较用，非绝对概率 |
 | `database/xGdatabase/processed/data_quality_notes.md` | 静态说明 | 评估数据完整度与置信度下调依据 |
-| `database/competition/wc2026_advancement_rules.md` | 静态规则 | 小组排名、最好第三名、淘汰赛晋级规则；与投注 90 分钟结算规则区分使用 |
+| `database/competition/wc2026_advancement_rules.md` | 静态规则 | 小组排名、最好第三名、32 强对阵模板、Annex C 查表流程与**控分挑对手**分析框架；与投注 90 分钟结算规则区分使用 |
+| `database/competition/wc2026_match_environment_rules.md` | 静态规则/情境变量 | 比赛节奏、补水休息、反拖延、VAR、科技、旅行/气候等对比分分布和事件流的修正；与晋级规则、投注结算区分使用 |
 | `database/competition/group_assignments.csv` | 静态分组 | 12 个小组与 48 队中英文队名映射 |
 | `database/competition/group_standings.csv` | 动态积分榜 | 当前小组积分、净胜球、进球数和临时排名；若 `status=tie_unresolved`，说明公平竞赛/抽签信息未入库 |
+| `database/competition/round_of_32_template.csv` | 静态对阵模板 | 32 强固定对阵与「小组第一 vs 可能第三名」候选池 |
+| `database/competition/annex_c_round_of_32.csv` | 静态查表 | FIFA Annex C 全表 495 行；`advancing_groups` 为 8 个晋级第三名组别 key，列 `vs_1A`…`vs_1L` 为具体落位 |
+| `scripts/resolve_round_of_32.py` | 工具脚本 | 输入 8 个晋级第三名组别或最终积分榜，输出完整 32 强对阵 |
 | `database/48-team-roster/processed/squads_48_teams.csv` | 静态名单 | 核对球员是否在队、位置与俱乐部 |
 | `database/48-team-roster/processed/squad_depth_summary.csv` | 静态汇总 | 评估阵容厚度 |
 | `database/48-team-roster/processed/projected_starting_xi.csv` | **空模板** | **当前仅有表头、无数据行，不可当作预计首发依据** |
@@ -377,7 +383,7 @@ def[t]  = recent_xga[t] / 联赛均值 recent_xga      （越小越强）
 | **L4** | **高位逼抢有效性** | 逼抢强 × 对手后场出球弱 → 该队 λ 上浮。挪威逼抢伊拉克、奥地利朗尼克逼抢约旦即此层。 |
 | **L5** | **教练临场适应** | 双方 `adapt` 系数之差 → 微调后段 λ（占比 20%）。Scaloni/Cissé 大赛适应高于对手。 |
 | **L6** | **旅行疲劳（差值化）** | 时差+距离折算疲劳，但两队同赴美东道国，**只取旅途负担之差**影响 λ；对称旅途相互抵消（伊拉克巴格达跨 8 时区 11000km 远累于挪威）。 |
-| **L7** | **环境** | 高温(≥28℃)/高湿(≥70%)削体能型欧洲队（顶棚闭合/恒温抵消）；海拔≥1500m 双方降速。迈阿密 29℃/78% 削奥地利即此层。 |
+| **L7** | **环境** | 高温(≥28℃)/高湿(≥70%)削体能型欧洲队（顶棚闭合/恒温抵消）；海拔≥1500m 双方降速。迈阿密 29℃/78% 削奥地利即此层。旅行/环境使用时须参考 `wc2026_match_environment_rules.md`；补水休息已固定存在, L7 勿与高温层重复惩罚。 |
 | **L8** | **关键攻击手缺阵** | 核心射手缺阵/伤后状态差 → 该队 λ `×(1−0.30×缺阵占比)`。本塞拜尼伤后→阿尔及利亚反击点打折。 |
 | **L9** | **Dixon-Coles + 两段式** | 低比分 τ 相关性修正（ρ=−0.045）；并用**上下半场两段泊松**建模——崩溃倍率把强队进球更多压到下半场，从而导出真实的**半全场**分布（如 平/胜、胜/胜）。 |
 

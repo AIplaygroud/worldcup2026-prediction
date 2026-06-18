@@ -1,0 +1,2 @@
+﻿<class 'dict'> ['langs', 'teams']
+{"langs": "ar_gen,de,en,es,fr_gen,it,pt-BR_gen,pt_gen", "teams": ["Mexico", "South Africa"]}

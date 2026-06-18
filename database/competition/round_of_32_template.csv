@@ -1,0 +1,17 @@
+match_no,home_slot,away_slot,slot_type,third_place_candidate_groups,notes
+73,2A,2B,fixed_runner_up,,Runner-up Group A vs Runner-up Group B
+74,1E,3rd,fixed_winner_vs_third,A;B;C;D;F,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+75,1F,2C,fixed_runner_up,,Winner Group F vs Runner-up Group C
+76,1C,2F,fixed_runner_up,,Winner Group C vs Runner-up Group F
+77,1I,3rd,fixed_winner_vs_third,C;D;F;G;H,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+78,2E,2I,fixed_runner_up,,Runner-up Group E vs Runner-up Group I
+79,1A,3rd,fixed_winner_vs_third,C;E;F;H;I,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+80,1L,3rd,fixed_winner_vs_third,E;H;I;J;K,If 3L qualifies it can only face 1K; if 3K qualifies it can only face 1L
+81,1D,3rd,fixed_winner_vs_third,B;E;F;I;J,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+82,1G,3rd,fixed_winner_vs_third,A;E;H;I;J,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+83,2K,2L,fixed_runner_up,,Runner-up Group K vs Runner-up Group L
+84,1H,2J,fixed_runner_up,,Winner Group H vs Runner-up Group J
+85,1B,3rd,fixed_winner_vs_third,E;F;G;I;J,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+86,1J,2H,fixed_runner_up,,Winner Group J vs Runner-up Group H
+87,1K,3rd,fixed_winner_vs_third,D;E;I;J;L,If 3K qualifies it can only face 1L; if 3L qualifies it can only face 1K
+88,2D,2G,fixed_runner_up,,Runner-up Group D vs Runner-up Group G

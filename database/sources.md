@@ -68,3 +68,21 @@
 - Apify FBref scraper reference: https://apify.com/parseforge/fbref-scraper
 
 Current preferred parsed data uses Understat Big 5 2025-26 as the recent-form layer. Enhanced name matching currently covers 615 roster players. FBref 2025-26 direct fetch and single-league pages returned 403 in this environment, while FotMob API tests timed out locally; therefore FotMob/Transfermarkt/PlayerStats are recorded as lower-weight manual or partial supplements until a stable batch path is available.
+
+## Competition Rules and Match Environment Sources
+
+- FIFA World Cup 2026 Regulations (PDF): https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf
+- FIFA groups, qualification and tie-breakers: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/groups-how-teams-qualify-tie-breakers
+- FIFA hydration breaks announcement: https://inside.fifa.com/organisation/news/hydration-breaks-world-cup-2026-player-welfare
+- FIFA advanced semi-automated offside / innovation: https://inside.fifa.com/news/offside-decisions-referee-body-cams-innovation-world-cup-2026
+- IFAB law changes (latest): https://www.theifab.com/law-changes/latest/
+- IFAB match-flow measures: https://theifab.com/news/the-ifab-introduces-further-measures-to-improve-match-flow-and-player-behaviour/
+- IFAB Circular 32: https://downloads.theifab.com/downloads/circular-32?l=en
+- BBC — goalkeeper tactical timeout / off-field treatment: https://www.bbc.com/sport/football/articles/c9v39x2v8yxo
+- BBC — semi-automated offside technology: https://www.bbc.com/sport/football/articles/c232d34kkyzo
+- Sky Sports — World Cup rule changes (VAR, subs, timeouts): https://www.skysports.com/football/news/12040/13549645/world-cup-ifab-confirm-new-var-powers-10-second-substitutions-and-tactical-timeout-ban-in-major-rule-changes
+- ESPN — throw-in / goal-kick countdown: https://www.espn.com/soccer/story/_/id/48014733/fifa-world-cup-countdown-throw-ins-goal-kicks-feature
+- ESPN — hydration breaks: https://www.espn.com/soccer/story/_/id/49080670/are-world-cup-hydration-breaks-actually-commercial-breaks-momentum-breaks
+- Fox Sports (OutKick) — mandatory water breaks: https://www.foxnews.com/outkick-sports/fifa-implements-mandatory-water-breaks-2026-world-cup
+- Sportstar — 2026 rule changes overview: https://sportstar.thehindu.com/football/fifa-world-cup/fifa-world-cup-2026-rules-law-changes-explained-var-offside-technology-substitutions/article71090636.ece
+- Sportstar — IFAB law changes explained: https://sportstar.thehindu.com/football/fifa-world-cup-2026-new-law-changes-explained-ifab/article71047027.ece

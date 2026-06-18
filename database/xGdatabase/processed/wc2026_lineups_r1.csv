@@ -1,0 +1,754 @@
+match_date,group,team,opponent,formation,player,shirt_no,position,is_starter,minutes,sub_in,sub_out,sub_reason,source,source_url,last_verified
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Raúl Rangel,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Israel Reyes,15,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,César Montes,3,CB,yes,90,,,red_card,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Johan Vásquez,5,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Jesús Gallardo,23,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Érik Lira,6,CDM,yes,76,,76,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Roberto Alvarado,25,RM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Brian Gutiérrez,26,CM,yes,66,,66,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Álvaro Fidalgo,8,CAM,yes,66,,66,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Julián Quiñones,16,LM,yes,79,,79,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Raul Jiménez,9,FWD,yes,76,,76,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Gilberto Mora,19,MID,no,24,66,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Luis Chávez,24,MID,no,24,66,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Edson Álvarez,4,MID,no,14,76,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Armando González,14,FWD,no,14,76,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,Mexico,South Africa,4-1-4-1,Alexis Vega,10,FWD,no,11,79,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Ronwen Williams,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Nkosinathi Sibisi,19,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Ime Okon,21,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Mbekezeli Mbokazi,14,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Khuliso Mudau,20,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Aubrey Maphosa Modiba,6,DEF,yes,77,,76,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Teboho Mokoena,4,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Sphephelo Sithole,13,MID,yes,49,,,red_card,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Jayden Adams,23,MID,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Iqraam Rayners,15,ST,yes,76,,76,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Lyle Foster,9,ST,yes,56,,56,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Thalente Mbatha,5,MID,no,34,56,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Themba Zwane,11,MID,no,23,61,,red_card,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Evidence Makgopa,17,FWD,no,14,76,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-11,A,South Africa,Mexico,5-3-2,Oswin Appollis,7,FWD,no,13,76,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Seung-Gyu Kim,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Han-Beom Lee,2,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Min-Jae Kim,4,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Gi-Hyuk Lee,3,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Young-Woo Seol,22,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,In-Beom Hwang,6,DM,yes,84,,84,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Seung-Ho Paik,8,DM,yes,84,,84,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Tae-Seok Lee,13,MID,yes,69,,69,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Kang-In Lee,19,CM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Jae-Sung Lee,10,CAM,yes,62,,62,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Heung-Min Son,7,ST,yes,69,,69,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Hee-Chan Hwang,11,FWD,no,28,62,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Hyun-Gyu Oh,18,FWD,no,21,69,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Ji-Sung Eom,25,FWD,no,21,69,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Jin-Gyu Kim,24,MID,no,6,84,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,South Korea,Czechia,3-4-2-1,Jin-Seob Park,16,MID,no,6,84,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Matej Kovár,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Stepán Chaloupek,6,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Robin Hranác,4,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Ladislav Krejcí,7,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Vladimír Coufal,5,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Tomás Soucek,22,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Alexandr Sojka,24,DM,yes,84,,84,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Jaroslav Zeleny,20,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Lukás Provod,17,CM,yes,64,,63,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Pavel Sulc,15,CAM,yes,64,,63,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Patrik Schick,10,ST,yes,64,,63,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Adam Hlozek,9,MID,no,26,63,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Michal Sadílek,18,MID,no,26,63,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Tomás Chory,19,FWD,no,26,63,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-12,A,Czechia,South Korea,3-4-2-1,Mojmír Chytil,13,FWD,no,6,84,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Maxime Crépeau,16,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Alistair Johnston,2,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Luc De Fougerolles,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Derek Cornelius,13,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Richie Laryea,22,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Tajon Buchanan,17,MID,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Ismaël Koné,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Stephen Eustaquio,7,MID,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Liam Millar,11,FWD,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Jonathan David,10,ST,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Tani Oluwaseyi,12,ST,yes,76,,76,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Ali Ahmed,20,FWD,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Jacob Shaffelburg,14,FWD,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Promise David,24,FWD,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Cyle Larin,9,FWD,no,14,76,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Canada,Bosnia and Herzegovina,4-4-2,Jonathan Osorio,21,MID,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Nikola Vasilj,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Amar Dedic,7,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Nikola Katic,18,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Tarik Muharemovic,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Sead Kolasinac,5,LB,yes,84,,83,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Esmir Bajraktarevic,20,FWD,yes,74,,74,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Ivan Basic,13,MID,yes,62,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Benjamin Tahirovic,6,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Amar Memic,15,MID,yes,74,,74,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Ermedin Demirovic,10,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Jovo Lukic,25,ST,yes,62,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Armin Gigovic,8,MID,no,28,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Samed Bazdar,9,FWD,no,28,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Ivan Sunjic,14,MID,no,16,74,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Kerim Alajbegovic,19,FWD,no,16,74,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,B,Bosnia and Herzegovina,Canada,4-4-2,Dzenis Burnic,17,MID,no,6,83,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Matt Freese,24,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Alex Freeman,16,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Chris Richards,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Tim Ream,13,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Antonee Robinson,5,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Tyler Adams,4,CDM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Weston McKennie,8,CM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Malik Tillman,17,CAM,yes,82,,82,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Sergiño Dest,2,RW,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Folarin Balogun,20,ST,yes,72,,72,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Christian Pulisic,10,LW,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Sebastian Berhalter,14,MID,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Timothy Weah,21,MID,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Ricardo Pepi,9,FWD,no,18,72,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,USA,Paraguay,4-1-2-3,Giovanni Reyna,7,MID,no,8,82,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Orlando Gill,12,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Juan Cáceres,4,RB,yes,79,,79,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Gustavo Gómez,15,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Omar Alderete,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Júnior Alonso,6,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Diego Gómez,8,MID,yes,80,,79,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Andrés Cubas,14,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Damián Bobadilla,16,MID,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Miguel Almirón,10,FWD,yes,79,,79,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Julio Enciso,19,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Antonio Sanabria,9,ST,yes,62,,62,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Mauricio,11,MID,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Álex Arce,18,FWD,no,28,62,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Gustavo Velázquez,2,DEF,no,11,79,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Alejandro Romero,17,MID,no,10,79,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-13,D,Paraguay,USA,4-4-2,Ramón Sosa,7,FWD,no,11,79,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Mahmud Abunada,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Ayoub Al Oui,13,RB,yes,60,,60,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Pedro Miguel,2,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Boualem Khoukhi,16,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Homam Elamin,14,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Jassem Gaber,5,MID,yes,60,,60,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Assim Madibo,23,MID,yes,79,,78,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Issa Laye,4,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Edmílson Junior,8,RW,yes,88,,88,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Yusuf Abdurisag,15,ST,yes,60,,60,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Akram Afif,11,LW,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Ahmed Fathi,20,MID,no,30,60,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Karim Boudiaf,12,MID,no,30,60,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Ahmed Alaaeldin,7,FWD,no,30,60,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Mohamed Al Mannai,26,MID,no,11,78,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Qatar,Switzerland,4-3-3,Hassan Al Haidos,10,FWD,no,2,88,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Gregor Kobel,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Denis Zakaria,6,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Nico Elvedi,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Manuel Akanji,5,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Ricardo Rodríguez,13,LB,yes,89,,89,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Michel Aebischer,20,MID,yes,65,,65,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Granit Xhaka,10,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Remo Freuler,8,MID,yes,89,,89,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Dan Ndoye,11,RW,yes,65,,65,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Breel Embolo,7,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Rubén Vargas,17,LW,yes,79,,79,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Fabian Rieder,22,MID,no,25,65,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Johan Manzambi,9,MID,no,25,65,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Zeki Amdouni,23,FWD,no,11,79,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Ardon Jashari,14,MID,no,1,89,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,B,Switzerland,Qatar,4-3-3,Miro Muheim,2,MID,no,1,89,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Alisson Becker,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Roger Ibañez,24,RB,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Marquinhos,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Gabriel,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Douglas Santos,16,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Lucas Paquetá,20,MID,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Bruno Guimarães,8,MID,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Casemiro,5,MID,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Raphinha,11,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Igor Thiago,25,ST,yes,62,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Vinícius Júnior,7,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Danilo,13,DEF,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Fabinho,17,MID,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Luiz Henrique,21,FWD,no,28,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Matheus Cunha,9,FWD,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Brazil,Morocco,4-4-2,Danilo,18,MID,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Yassine Bounou,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Achraf Hakimi,2,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Issa Diop,14,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Chadi Riad,18,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Noussair Mazraoui,3,LB,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Neil El Aynaoui,24,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Ayyoub Bouaddi,6,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Brahim Díaz,10,FWD,yes,65,,64,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Azzedine Ounahi,8,MID,yes,65,,64,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Bilal El Khannouss,23,MID,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Ismael Saibari,11,MID,yes,89,,89,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Samir El Mourabet,15,MID,no,25,64,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Chemsdine Talbi,7,FWD,no,25,64,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Anass Salah-Eddine,26,DEF,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Ayoube Amaimouni-Echghouyab,21,FWD,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Morocco,Brazil,4-2-3-1,Soufiane Rahimi,9,FWD,no,1,89,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Johny Placide,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Carlens Arcus,2,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Ricardo Adé,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Hannes Delcroix,5,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Martin Expérience,8,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Don Deedson Louicius,11,MID,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Danley Jean Jacques,17,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Jean-Ricner Bellegarde,10,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Ruben Providence,15,FWD,yes,85,,85,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Wilson Isidor,18,ST,yes,76,,75,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Frantzdy Pierrot,20,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Josué Casimir,21,MID,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Lenny Joseph,16,FWD,no,14,75,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Haiti,Scotland,4-4-2,Yassin Fortuné,19,FWD,no,5,85,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Angus Gunn,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Aaron Hickey,2,RB,yes,75,,75,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Grant Hanley,5,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Jack Hendry,13,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Andrew Robertson,3,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Ben Gannon-Doak,17,FWD,yes,75,,75,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Scott McTominay,4,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Lewis Ferguson,19,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,John McGinn,7,FWD,yes,83,,82,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Lawrence Shankland,20,ST,yes,83,,82,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Ché Adams,10,ST,yes,75,,75,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Nathan Patterson,22,DEF,no,15,75,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Ryan Christie,11,MID,no,15,75,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Lyndon Dykes,9,FWD,no,15,75,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Findlay Curtis,25,MID,no,7,82,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,C,Scotland,Haiti,4-4-2,Kenny McLean,23,MID,no,7,82,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Patrick Beach,18,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Alessandro Circati,3,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Harry Souttar,19,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Cameron Burgess,21,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Jacob Italiano,4,MID,yes,74,,74,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Jordan Bos,5,DEF,yes,84,,83,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Connor Metcalfe,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Aiden O'Neill,13,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Paul Okon-Engstler,24,MID,yes,84,,83,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Nestory Irankunda,17,MID,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Mohamed Touré,9,FWD,yes,74,,74,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Nishan Velupillay,23,FWD,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Jason Geria,6,DEF,no,16,74,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Tete Yengi,26,FWD,no,16,74,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Aziz Behich,16,DEF,no,6,83,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Australia,Turkey,5-4-1,Jackson Irvine,22,MID,no,6,83,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Ugurcan Çakir,23,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Zeki Çelik,2,RB,yes,81,,81,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Merih Demiral,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Abdülkerim Bardakci,14,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Ferdi Kadioglu,20,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Ismail Yüksek,16,DM,yes,81,,81,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Hakan Çalhanoglu,10,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Arda Güler,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Orkun Kökcü,6,MID,yes,62,,62,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Baris Alper Yilmaz,21,FWD,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Kerem Aktürkoglu,7,FWD,yes,85,,85,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Kenan Yildiz,11,MID,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Yunus Akgün,19,MID,no,28,62,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Mert Müldür,18,DEF,no,9,81,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Salih Özcan,5,MID,no,9,81,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-14,D,Turkey,Australia,4-2-3-1,Deniz Gül,9,FWD,no,5,85,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Manuel Neuer,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Joshua Kimmich,6,RB,yes,83,,83,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Jonathan Tah,4,CB,yes,73,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Nico Schlotterbeck,15,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Nathaniel Brown,18,LB,yes,73,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Felix Nmecha,23,DM,yes,73,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Aleksandar Pavlovic,5,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Leroy Sané,19,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Jamal Musiala,10,MID,yes,64,,64,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Florian Wirtz,17,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Kai Havertz,7,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Deniz Undav,26,FWD,no,26,64,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Antonio Rüdiger,2,DEF,no,17,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,David Raum,22,DEF,no,17,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Leon Goretzka,8,MID,no,17,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Germany,Curacao,4-2-3-1,Waldemar Anton,3,DEF,no,7,83,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Eloy Room,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Sherel Floranus,5,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Riechedly Bazoer,23,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Armando Obispo,18,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Deveron Fonville,24,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Livano Comenencia,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Leandro Bacuna,10,CDM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Juninho Bacuna,7,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Tahith Chong,21,MID,yes,83,,82,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Jürgen Locadia,9,ST,yes,65,,65,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Sontje Hansen,12,ST,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Jeremy Antonisse,11,FWD,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Jearl Margaritha,16,FWD,no,25,65,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,E,Curacao,Germany,4-3-1-2,Gervane Kastaneer,19,FWD,no,7,82,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Bart Verbruggen,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Denzel Dumfries,22,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Jan Paul van Hecke,6,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Virgil van Dijk,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Micky van de Ven,15,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Ryan Gravenberch,8,MID,yes,81,,81,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Frenkie de Jong,21,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Tijjani Reijnders,14,MID,yes,70,,70,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Crysencio Summerville,24,RW,yes,70,,70,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Donyell Malen,18,ST,yes,70,,70,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Cody Gakpo,11,LW,yes,85,,84,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Quinten Timber,26,MID,no,20,70,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Teun Koopmeiners,20,MID,no,20,70,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Memphis Depay,10,FWD,no,20,70,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Nathan Aké,5,DEF,no,9,81,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Netherlands,Japan,4-3-3,Brian Brobbey,19,FWD,no,5,84,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Zion Suzuki,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Tsuyoshi Watanabe,16,DEF,yes,75,,75,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Shogo Taniguchi,3,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Hiroki Ito,21,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Ritsu Doan,10,MID,yes,75,,75,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Kaishu Sano,24,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Daichi Kamada,15,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Keito Nakamura,13,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Takefusa Kubo,8,CM,yes,75,,75,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Daizen Maeda,11,CAM,yes,66,,66,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Ayase Ueda,18,ST,yes,84,,84,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Junya Ito,14,FWD,no,24,66,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Takehiro Tomiyasu,22,DEF,no,15,75,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Yukinari Sugawara,2,DEF,no,15,75,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Koki Ogawa,19,FWD,no,15,75,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,F,Japan,Netherlands,3-4-2-1,Kento Shiogai,26,FWD,no,6,84,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Yahia Fofana,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Guéla Doué,17,RB,yes,89,,89,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Wilfried Singo,5,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Emmanuel Agbadou,20,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Ghislain Konan,3,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Yan Diomande,11,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Franck Kessié,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Seko Fofana,6,MID,yes,77,,77,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Bazoumana Touré,24,FWD,yes,56,,56,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Nicolas Pépé,19,ST,yes,77,,77,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Elye Wahi,12,ST,yes,56,,56,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Amad Diallo,15,MID,no,34,56,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Ange-Yoan Bonny,9,FWD,no,34,56,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Christ Inao Oulaï,26,MID,no,13,77,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Ibrahim Sangaré,18,MID,no,13,77,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ivory Coast,Ecuador,4-4-2,Odilon Kossounou,7,DEF,no,1,89,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Hernán Galindez,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Alan Franco,21,MID,yes,62,,62,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Joel Ordóñez,4,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Willian Pacho,6,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,John Yeboah,9,FWD,yes,62,,62,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Moisés Caicedo,23,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Pedro Vite,15,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Piero Hincapié,3,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Gonzalo Plata,19,RW,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Enner Valencia,13,ST,yes,77,,77,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Alan Minda,14,LW,yes,56,,56,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Nilson Angulo,20,FWD,no,34,56,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Jackson Porozo,25,DEF,no,28,62,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Ángelo Preciado,17,MID,no,28,62,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,E,Ecuador,Ivory Coast,3-4-3,Kevin Rodríguez,11,FWD,no,13,77,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Kristoffer Nordfeldt,23,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Gustaf Lagerbielke,2,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Isak Hien,4,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Victor Nilsson Lindelöf,3,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Alexander Bernhardsson,21,MID,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Jesper Karlström,16,DM,yes,84,,84,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Yasin Ayari,18,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Gabriel Gudmundsson,5,DEF,yes,65,,64,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Benjamin Nygren,10,MID,yes,65,,64,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Viktor Gyökeres,17,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Alexander Isak,9,ST,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Elliot Stroud,24,MID,no,25,64,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Lucas Bergvall,7,MID,no,25,64,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Mattias Svanberg,19,MID,no,6,84,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Daniel Svensson,8,MID,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Sweden,Tunisia,3-4-1-2,Anthony Elanga,11,FWD,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Abdelmouhib Chamakh,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Omar Rekik,4,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Montassar Talbi,3,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Amine Ben Hamida,21,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Yan Valery,20,DEF,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Rani Khedira,13,MID,yes,83,,84,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Ellyes Skhiri,17,MID,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Hannibal Mejbri,10,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Ali Abdi,2,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Elias Saad,8,ST,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Anis Ben Slimane,25,ST,yes,84,,84,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Elias Achouri,7,MID,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Hadj Mahmoud,15,MID,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Sebastian Tounekti,26,FWD,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Ismaël Gharbi,11,MID,no,7,84,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-15,F,Tunisia,Sweden,3-5-2,Firas Chaouat,19,FWD,no,6,84,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Unai Simón,23,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Marcos Llorente,5,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Pau Cubarsí,22,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Aymeric Laporte,14,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Marc Cucurella,24,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Fabián Ruiz,8,MID,yes,71,,71,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Rodri,16,MID,yes,87,,87,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Pedri,20,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Ferran Torres,7,RW,yes,81,,81,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Mikel Oyarzabal,21,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Gavi,9,LW,yes,71,,71,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Mikel Merino,6,MID,no,19,71,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Lamine Yamal,19,FWD,no,19,71,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Dani Olmo,10,MID,no,9,81,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Spain,Cape Verde,4-3-3,Nico Williams,17,FWD,no,3,87,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Vozinha,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Steven Moreira,22,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Roberto Lopes,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Diney Borges,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Sidny Lopes Cabral,13,LB,yes,76,,76,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Kevin Pina,6,CDM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Ryan Mendes,20,RM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Laros Duarte,15,CM,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Jamiro Monteiro,10,CAM,yes,79,,79,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Jovane Cabral,7,LM,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Dailon Livramento,19,FWD,yes,61,,61,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Deroy Duarte,14,MID,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Nuno da Costa,21,FWD,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Willy Semedo,17,FWD,no,29,61,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,João Paulo,8,MID,no,14,76,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,H,Cape Verde,Spain,4-1-4-1,Telmo Arcanjo,18,FWD,no,11,79,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Thibaut Courtois,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Thomas Meunier,15,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Nathan Ngoy,25,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Brandon Mechele,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Timothy Castagne,21,LB,yes,56,,56,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Amadou Onana,24,DM,yes,56,,56,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Youri Tielemans,8,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Leandro Trossard,10,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Kevin De Bruyne,7,MID,yes,86,,85,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Jérémy Doku,11,FWD,yes,86,,85,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Charles De Ketelaere,17,MID,yes,66,,66,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Maxim De Cuyper,5,DEF,no,34,56,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Nicolas Raskin,23,MID,no,34,56,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Romelu Lukaku,9,FWD,no,24,66,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Hans Vanaken,20,MID,no,4,85,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Belgium,Egypt,4-2-3-1,Matias Fernandez-Pardo,26,FWD,no,4,85,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Mostafa Ahmed Shobeir,23,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Mohamed Hany,3,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Yasser Ibrahim,2,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Hamdi Fathi,14,CB,yes,88,,88,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Ahmed Abou El Fotouh,13,LB,yes,88,,88,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Mohanad Lasheen,17,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Marwan Ateya,19,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Mostafa Ziko,11,FWD,yes,76,,76,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Mohamed Salah,10,FWD,yes,76,,76,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Emam Ashour,8,MID,yes,71,,71,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Omar Marmoush,22,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Rami Rabia,5,DEF,no,19,71,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Hamza Abdelkarim,9,FWD,no,14,76,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Zizo,25,FWD,no,14,76,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Karim Hafez,15,DEF,no,2,88,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,G,Egypt,Belgium,4-2-3-1,Ibrahim Adel,20,FWD,no,2,88,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Mohammed Al Owais,21,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Saud Abdulhamid,12,RB,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Abdulelah Al Amri,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Hassan Al Tambakti,5,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Moteb Al-Harbi,24,LB,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Mohammed Abu Al Shamat,26,MID,yes,81,,81,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Mohamed Kanno,23,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Abdullah Alkhaibari,15,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Salem Al-Dawsari,10,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Firas Al-Buraikan,9,ST,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Musab Al-Juwayr,7,ST,yes,63,,63,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Nasser Al-Dawsari,6,MID,no,27,63,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Nawaf Al-Boushail,13,DEF,no,9,81,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Ali Lajami,3,DEF,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Alaa Hajji,18,MID,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Saudi Arabia,Uruguay,4-4-2,Abdullah Al-Hamdan,19,FWD,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Fernando Muslera,23,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Guillermo Varela,13,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Sebastián Cáceres,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Mathías Olivera,16,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Matías Viña,17,LB,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Federico Valverde,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Manuel Ugarte,5,MID,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Rodrigo Bentancur,6,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Maxi Araújo,20,DEF,yes,81,,81,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Federico Viñas,21,ST,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Darwin Núñez,9,ST,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Juan Sanabria,25,DEF,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Agustín Canobbio,14,FWD,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Nicolás de la Cruz,7,MID,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Brian Rodríguez,18,FWD,no,9,81,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,H,Uruguay,Saudi Arabia,4-4-2,Rodrigo Aguirre,19,FWD,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Alireza Beiranvand,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Ramin Rezaeian,23,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Shoja Khalilzadeh,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Ali Nemati,19,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Milad Mohammadi,5,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Mohammad Mohebi,8,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Saman Ghoddos,14,MID,yes,65,,65,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Saeid Ezatolahi,6,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Aria Yousefi,17,DEF,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Shahriar Moghanlou,20,ST,yes,53,,53,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Mehdi Taremi,9,ST,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Mehdi Ghayedi,10,FWD,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Ali Alipour,11,FWD,no,37,53,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Ehsan Haji Safi,3,DEF,no,25,65,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,Iran,New Zealand,4-4-2,Amirhossein Hosseinzadeh,18,FWD,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Max Crocombe,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Tim Payne,2,RB,yes,78,,77,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Finn Surman,16,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Michael Boxall,5,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Liberato Cacace,13,LB,yes,68,,68,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Joe Bell,6,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Marko Stamenic,8,DM,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Callum McCowatt,20,MID,yes,68,,68,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Sarpreet Singh,10,MID,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Elijah Just,11,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Chris Wood,9,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Benjamin Old,19,DEF,no,22,68,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Ryan Thomas,23,MID,no,22,68,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Callan Elliot,24,DEF,no,12,77,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Tyler Bindon,4,DEF,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,G,New Zealand,Iran,4-2-3-1,Jesse Randall,21,FWD,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Mike Maignan,16,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Jules Koundé,5,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Dayot Upamecano,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,William Saliba,17,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Theo Hernández,19,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Aurélien Tchouaméni,8,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Adrien Rabiot,14,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Michael Olise,11,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Ousmane Dembélé,7,FWD,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Désiré Doué,20,FWD,yes,87,,87,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Kylian Mbappé,10,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Bradley Barcola,12,FWD,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,France,Senegal,4-2-3-1,Rayan Cherki,24,MID,no,3,87,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Édouard Mendy,16,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Krépin Diatta,15,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Kalidou Koulibaly,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Moussa Niakhaté,19,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Malick Diouf,25,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Lamine Camara,8,MID,yes,76,,75,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Idrissa Gana Gueye,5,MID,yes,88,,88,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Pape Gueye,26,MID,yes,83,,83,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Ismaïla Sarr,18,RW,yes,75,,75,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Nicolas Jackson,11,ST,yes,83,,83,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Sadio Mané,10,LW,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Habib Diarra,21,MID,no,14,75,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Ibrahim Mbaye,20,FWD,no,15,75,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Bamba Dieng,9,FWD,no,7,83,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Iliman Ndiaye,13,FWD,no,7,83,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Senegal,France,4-3-3,Pathé Ciss,6,MID,no,2,88,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Jalal Hassan,12,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Hussein Ali,3,RB,yes,73,,73,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Zaid Tahseen,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Akam Hashem,5,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Merchas Doski,23,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Ibrahim Bayesh,8,MID,yes,78,,78,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Zaid Ismael,24,MID,yes,59,,59,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Amir Al-Ammari,16,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Ali Jasim,17,FWD,yes,73,,73,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Ayman Hussein,18,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Ali Al Hamadi,9,ST,yes,59,,59,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Zidane Iqbal,14,MID,no,31,59,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Marko Lawk Farji,21,FWD,no,31,59,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Mustafa Saadoun,25,DEF,no,17,73,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Ahmed Qasem,11,MID,no,17,73,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Iraq,Norway,4-4-2,Mohanad Ali,10,FWD,no,12,78,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Ørjan Håskjold Nyland,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Julian Ryerson,26,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Kristoffer Ajer,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Torbjørn Heggem,17,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,David Møller Wolfe,5,LB,yes,73,,73,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Martin Ødegaard,10,MID,yes,81,,81,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Sander Berge,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Fredrik Aursnes,14,MID,yes,73,,73,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Alexander Sørloth,7,RW,yes,73,,73,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Erling Haaland,9,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Antonio Nusa,20,LW,yes,73,,73,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Leo Østigard,4,DEF,no,17,73,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Kristian Thorstvedt,18,MID,no,17,73,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Andreas Schjelderup,21,FWD,no,17,73,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Oscar Bobb,22,FWD,no,17,73,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-16,I,Norway,Iraq,4-3-3,Patrick Berg,6,MID,no,9,81,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Emiliano Martínez,23,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Gonzalo Montiel,4,RB,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Cristian Romero,13,CB,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Lisandro Martínez,6,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Facundo Medina,25,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Rodrigo De Paul,7,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Alexis Mac Allister,20,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Enzo Fernández,24,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Thiago Almada,16,MID,yes,55,,55,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Lionel Messi,10,ST,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Lautaro Martínez,22,ST,yes,55,,55,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Nahuel Molina,26,DEF,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Nicolás González,15,MID,no,35,55,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Julián Álvarez,9,FWD,no,35,55,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Nicolás Otamendi,19,DEF,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Argentina,Algeria,4-4-2,Nico Paz,18,MID,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Luca Zidane,23,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Rafik Belghali,17,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Aïssa Mandi,2,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Ramy Bensebaini,21,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Rayan Aït-Nouri,15,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Hicham Boudaoui,14,DM,yes,64,,64,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Nabil Bentaleb,19,DM,yes,82,,82,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Anis Hadj Moussa,11,FWD,yes,64,,64,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Ibrahim Maza,22,MID,yes,81,,82,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Farès Chaïbi,10,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Amine Gouiri,9,FWD,yes,64,,64,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Houssem Aouar,8,MID,no,26,64,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Mohamed Amoura,18,FWD,no,26,64,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Riyad Mahrez,7,FWD,no,26,64,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Ramiz Zerrouki,6,MID,no,8,82,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Algeria,Argentina,4-2-3-1,Adil Boulbina,20,FWD,no,9,82,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Alexander Schlager,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Stefan Posch,5,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Philipp Lienhart,15,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,David Alaba,8,CB,yes,59,,59,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Phillipp Mwene,16,LB,yes,59,,59,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Nicolas Seiwald,6,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Xaver Schlager,4,DM,yes,59,,59,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Romano Schmid,18,MID,yes,83,,83,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Konrad Laimer,20,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Marcel Sabitzer,9,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Sasa Kalajdzic,14,FWD,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Marko Arnautovic,7,FWD,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Kevin Danso,3,DEF,no,31,59,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Carney Chukwuemeka,17,MID,no,31,59,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Paul Wanner,24,MID,no,31,59,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Austria,Jordan,4-2-3-1,Patrick Wimmer,21,FWD,no,7,83,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Yazeed Yazeed Abulaila,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Abdallah Nasib,3,DEF,yes,81,,81,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Yazan Abu Al-Arab,5,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Mo Abualnadi,16,DEF,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Ehsan Haddad,23,MID,yes,81,,81,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Mohannad Abu Taha,20,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Odeh Fakhouri,11,MID,yes,89,,88,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Nizar Al Rashdan,21,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Noor Al-Rawabdeh,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Ali Iyad Olwan,9,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Mousa Tamari,10,MID,yes,88,,88,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Saleem Obaid,17,DEF,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Saed Al-Rosan,19,DEF,no,9,81,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Mahmoud Al Mardi,13,MID,no,9,81,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Mohammad Al-Daoud,25,MID,no,2,88,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-17,J,Jordan,Austria,5-4-1,Ali Al-Azaizeh,24,FWD,no,1,88,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Diogo Costa,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,João Cancelo,20,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Tomás Araújo,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Renato Veiga,13,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Nuno Mendes,25,LB,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,João Neves,15,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Vitinha,23,DM,yes,83,,83,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Bernardo Silva,10,MID,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Bruno Fernandes,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Pedro Neto,18,FWD,yes,71,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Cristiano Ronaldo,7,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Francisco Conceição,26,MID,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Nélson Semedo,2,DEF,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Rafael Leão,17,FWD,no,19,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Portugal,DR Congo,4-2-3-1,Gonçalo Ramos,9,FWD,no,7,83,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Lionel Mpasi-Nzau,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Chancel Mbemba,22,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Axel Tuanzebe,4,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Steve Kapuadi,3,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Aaron Wan-Bissaka,2,DEF,yes,85,,85,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Arthur Masuaku,26,DEF,yes,74,,74,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Ngal Ayel Mukau,6,MID,yes,57,,57,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Samuel Moutoussamy,8,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Edo Kayembe,25,MID,yes,74,,74,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Cédric Bakambu,17,ST,yes,85,,85,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Yoane Wissa,20,ST,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Noah Sadiki,14,MID,no,33,57,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Joris Kayembe Ditu,12,DEF,no,16,74,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Charles Pickel,18,MID,no,16,74,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Gédéon Kalulu,24,DEF,no,5,85,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,DR Congo,Portugal,5-3-2,Simon Banza,23,FWD,no,5,85,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Camilo Vargas,12,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Daniel Muñoz,2,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Davinson Sánchez,23,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Jhon Lucumí,3,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Johan Mojica,17,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Gustavo Puerta,14,MID,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Jefferson Lerma,16,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Jhon Arias,11,FWD,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,James Rodríguez,10,RW,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Luis Suárez,25,ST,yes,80,,80,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Luis Díaz,7,LW,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Jaminton Campaz,21,FWD,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Richard Ríos,6,MID,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Juan Hernández,19,FWD,no,10,80,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Kevin Castaño,5,MID,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Colombia,Uzbekistan,4-3-3,Andrés Gómez,26,FWD,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Utkir Yusupov,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Abdukodir Khusanov,2,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Abdulla Abdullaev,18,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Rustamjon Ashurmatov,5,DEF,yes,77,,77,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Behruzjon Karimov,24,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Akmal Mozgovoy,6,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Otabek Shukurov,7,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Sherzod Nasrulloev,13,DEF,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Abbosbek Fayzullayev,22,CM,yes,77,,77,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Oston Urunov,11,CAM,yes,45,,46,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Eldor Shomurodov,14,ST,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Dostonbek Khamdamov,17,MID,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Farrukh Sayfiev,4,MID,no,45,46,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Jakhongir Urozov,26,DEF,no,13,77,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Azizbek Amonov,20,MID,no,13,77,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,K,Uzbekistan,Colombia,3-4-2-1,Igor Sergeev,21,FWD,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Jordan Pickford,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Reece James,24,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Ezri Konsa,2,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,John Stones,5,CB,yes,87,,87,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Nico O'Reilly,3,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Elliot Anderson,8,DM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Declan Rice,4,DM,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Noni Madueke,20,FWD,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Jude Bellingham,10,MID,yes,80,,79,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Anthony Gordon,18,FWD,yes,72,,72,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Harry Kane,9,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Morgan Rogers,17,MID,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Bukayo Saka,7,FWD,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Marcus Rashford,11,FWD,no,18,72,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Djed Spence,25,DEF,no,10,79,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,England,Croatia,4-2-3-1,Marc Guéhi,6,DEF,no,3,87,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Dominik Livakovic,1,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Josip Sutalo,6,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Luka Vuskovic,22,DEF,yes,66,,66,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Josko Gvardiol,4,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Josip Stanisic,2,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Luka Modric,10,DM,yes,58,,58,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Mario Pasalic,15,DM,yes,78,,78,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Ivan Perisic,14,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Petar Sucic,17,CM,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Martin Baturina,16,CAM,yes,78,,78,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Petar Musa,26,ST,yes,66,,66,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Mateo Kovacic,8,MID,no,32,58,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Marco Pasalic,24,MID,no,24,66,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Igor Matanovic,20,FWD,no,24,66,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Andrej Kramaric,9,MID,no,12,78,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Croatia,England,3-4-2-1,Nikola Vlasic,13,MID,no,12,78,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Lawrence Ati-Zigi,1,GK,yes,45,,46,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Marvin Senaya,26,RB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Jonas Adjetey,4,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Jerome Opoku,18,CB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Gideon Mensah,14,LB,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Ernest Nuamah,24,FWD,yes,58,,58,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Caleb Yirenkyi,3,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Elisha Owusu,15,MID,yes,78,,78,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Antoine Semenyo,11,FWD,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Kamaldeen Sulemana,22,MID,yes,58,,58,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Jordan Ayew,9,FWD,yes,87,,87,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Benjamin Asare,16,GK,no,45,46,,injury,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Abdul Fatawu,7,FWD,no,32,58,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Brandon Thomas-Asante,10,FWD,no,32,58,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Kwasi Sibo,8,MID,no,12,78,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Ghana,Panama,4-4-1-1,Prince Adu,25,FWD,no,3,87,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Orlando Mosquera,22,GK,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Jiovany Ramos,13,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,José Córdoba,3,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Andrés Andrade,16,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Amir Murillo,23,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Carlos Harvey,14,DEF,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Yoel Bárcenas,11,MID,yes,90,,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,César Blackman,2,DEF,yes,89,,90,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Cristian Martínez,6,RW,yes,63,,63,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Cecilio Waterman,18,ST,yes,63,,63,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,José Luis Rodriguez,7,LW,yes,74,,74,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Azarías Londoño,24,FWD,no,27,63,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,José Fajardo,17,FWD,no,27,63,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Ismael Díaz,10,FWD,no,16,74,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18
+2026-06-18,L,Panama,Ghana,3-4-3,Aníbal Godoy,20,MID,no,1,90,,tactical,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,2026-06-18

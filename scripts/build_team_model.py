@@ -5,7 +5,8 @@
 
 输入：
   · player_model.csv          (2a，先跑 build_player_model.py)
-  · team_recent_form.csv       (球队近期 xG)
+  · team_recent_form.csv       (球队近期 xG，预选赛/洲际)
+  · wc2026_team_xg.csv         (世界杯正赛 xG 聚合；form_index 混入用)
   · opponent_strength.csv      (相对强度)
   · squad_depth_summary.csv    (GK/DF/MF/FW 人数)
   · coach_profiles.csv         (2c，可选；缺失则用中性默认)
@@ -65,6 +66,7 @@ def clamp(v, lo, hi):
 def main():
     players_all = load(os.path.join(XG, "player_model.csv"))
     form = {r["team"]: r for r in load(os.path.join(XG, "team_recent_form.csv"))}
+    wc_xg = {r["team"]: r for r in load(os.path.join(XG, "wc2026_team_xg.csv"))}
     strength = {r["team"]: r for r in load(os.path.join(XG, "opponent_strength.csv"))}
     coaches = {r["team"]: r for r in load(os.path.join(COMP, "coach_profiles.csv"))}
 
@@ -119,10 +121,21 @@ def main():
         fit_press = 1 - abs(pressing_intensity - clamp(transition_quality / 100.0, 0, 1))
         tactical_fit = round(50 * (fit_attack + fit_press), 1)
 
+        # form_index：预选赛 recent_xg 为底；有正赛 wc_matches>0 时按 thin_sample 克制混入
+        # 权重与 predict_v2.py wc_blend_att 一致（n·w_wc·wc_xg + w_qual·qual_xg）/ (n·w_wc + w_qual)，
+        # w_wc=1.30 略抬正赛、单场 n=1 避免过拟合；无正赛则维持原逻辑。
         form_index = 0.0
         if team in form:
-            rx = fnum(form[team]["recent_xg_per_match"], 1.3)
+            qual_xg = fnum(form[team]["recent_xg_per_match"], 1.3)
             si = fnum(strength.get(team, {}).get("opponent_strength_index"), 0.5)
+            wc_row = wc_xg.get(team, {})
+            wc_n = fnum(wc_row.get("wc_matches"), 0) or 0
+            if wc_n > 0:
+                wc_xg_pm = fnum(wc_row.get("wc_xg_per_match"), qual_xg)
+                w_wc, w_qual = 1.30, 1.00
+                rx = (wc_n * w_wc * wc_xg_pm + w_qual * qual_xg) / (wc_n * w_wc + w_qual)
+            else:
+                rx = qual_xg
             form_index = round(rx * (0.6 + 0.4 * si), 3)
         bench_impact = round(clamp((depth_ratio - 0.75) / 0.2, 0, 1), 3)
 

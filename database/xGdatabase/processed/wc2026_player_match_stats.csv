@@ -1,0 +1,665 @@
+match_date,group,team,opponent,player,position,minutes,goals,assists,shots,xg,xa,key_passes,rating,big_chances,source,source_url,quality_flag
+2026-06-11,A,Mexico,South Africa,Raúl RANGEL,GK,90,0,0,,,,,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Israel REYES,DF,90,0,0,1,0.01,0.03,2,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,César MONTES,DF,90,0,0,,,0.01,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Johan VÁSQUEZ,DF,90,0,0,,,,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Jesús GALLARDO,DF,90,0,0,2,0.04,0.05,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Érik LIRA,DF,76,0,1,,,,1,7.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Roberto ALVARADO,MF,90,0,1,,,0.71,2,8.2,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Brian GUTIÉRREZ,MF,66,0,0,4,0.19,0.17,3,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Álvaro FIDALGO,MF,66,0,0,,,0.01,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Julián QUIÑONES,FW,79,1,0,5,0.37,0.08,2,8.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Raul JIMÉNEZ,FW,76,1,0,4,0.84,0.01,2,8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Gilberto MORA,MF,24,0,0,,,0.09,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Luis CHÁVEZ,MF,24,0,0,,,0.01,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Edson ÁLVAREZ,MF,14,0,0,,,0.01,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,Mexico,South Africa,Alexis VEGA,FW,11,0,0,,,0.01,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Ronwen WILLIAMS,GK,90,0,0,,,,,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Nkosinathi SIBISI,DF,90,0,0,,,,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Ime OKON,DF,90,0,0,,,,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Mbekezeli MBOKAZI,DF,90,0,0,1,0.01,0.05,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Khuliso MUDAU,DF,90,0,0,,,0.01,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Aubrey Maphosa MODIBA,DF,77,0,0,1,0.02,,0,5.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Teboho MOKOENA,MF,90,0,0,,,0.01,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Sphephelo SITHOLE,MF,49,0,0,,,,0,3.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Jayden ADAMS,MF,61,0,0,,,0.06,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Iqraam RAYNERS,FW,76,0,0,,,,0,5.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Lyle FOSTER,FW,56,0,0,1,0.04,,0,5.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-11,A,South Africa,Mexico,Evidence MAKGOPA,FW,14,0,0,,,0.01,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-africa-vs-mexico/1einvt,ok
+2026-06-12,A,South Korea,Czechia,Seung-Gyu KIM,GK,90,0,0,,,,,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Han-Beom LEE,DF,90,0,0,1,0.04,0.03,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Min-Jae KIM,DF,90,0,0,,,0.01,2,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Gi-Hyuk LEE,DF,90,0,0,,,0.02,0,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Young-Woo SEOL,DF,90,0,0,,,0.05,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,In-Beom HWANG,MF,84,1,1,3,0.36,0.5,1,8.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Seung-Ho PAIK,MF,84,0,0,,,0.05,0,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Tae-Seok LEE,MF,69,0,0,,,0.34,2,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Kang-In LEE,MF,90,0,1,1,0.02,0.21,3,8.4,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Jae-Sung LEE,MF,62,0,0,2,0.45,0.1,3,7.4,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Heung-Min SON,FW,69,0,0,6,1.01,0.04,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Hyun-Gyu OH,FW,21,1,0,1,0.37,,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Ji-Sung EOM,FW,21,0,0,,,0.01,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,South Korea,Czechia,Jin-Gyu KIM,MF,6,0,0,1,0.06,,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Matej KOVÁR,GK,90,0,0,,,,,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Stepán CHALOUPEK,DF,90,0,0,,,,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Robin HRANÁC,DF,90,0,0,,,,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Ladislav KREJCÍ,DF,90,1,0,1,0.21,,0,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Vladimír COUFAL,DF,90,0,1,,,0.08,1,6.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Tomás SOUCEK,MF,90,0,0,1,0.28,0.01,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Alexandr SOJKA,MF,84,0,0,,,0.17,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Jaroslav ZELENY,DF,90,0,0,,,0.04,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Lukás PROVOD,MF,64,0,0,,,0.01,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Pavel SULC,FW,64,0,0,1,0.01,0.01,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Patrik SCHICK,FW,64,0,0,,,,0,5.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Adam HLOZEK,MF,26,0,0,2,0.18,0.03,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Michal SADÍLEK,MF,26,0,0,2,0.15,0.01,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-12,A,Czechia,South Korea,Mojmír CHYTIL,FW,6,0,0,,,0.06,1,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/south-korea-vs-czechia/273opa,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Maxime CRÉPEAU,GK,90,0,0,,,,,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Alistair JOHNSTON,DF,90,0,0,1,0.06,0.05,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Luc DE FOUGEROLLES,DF,90,0,0,,,0.01,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Derek CORNELIUS,DF,90,0,0,1,0.06,0.01,0,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Richie LARYEA,DF,90,0,0,1,0.26,0.43,2,8.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Tajon BUCHANAN,MF,61,0,0,,,0.01,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Ismaël KONÉ,MF,90,0,0,1,0.02,0.06,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Stephen EUSTAQUIO,MF,89,0,0,1,0.02,0.41,3,7.5,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Liam MILLAR,FW,61,0,0,,,0.08,1,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Jonathan DAVID,FW,61,0,0,3,0.39,,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Tani OLUWASEYI,FW,76,0,0,2,0.18,,2,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Ali AHMED,FW,29,0,0,,,0.02,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Jacob SHAFFELBURG,FW,29,0,0,,,0.14,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Promise DAVID,FW,29,0,1,1,0.04,0.05,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Cyle LARIN,FW,14,1,0,2,0.21,,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Canada,Bosnia and Herzegovina,Jonathan OSORIO,MF,1,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Nikola VASILJ,GK,90,0,0,,,,,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Amar DEDIC,DF,90,0,0,,,0.01,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Nikola KATIC,DF,90,0,0,,,,0,8.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Tarik MUHAREMOVIC,DF,90,0,0,1,0.18,,0,8.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Sead KOLASINAC,DF,84,0,1,,,0.51,1,8,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Esmir BAJRAKTAREVIC,FW,74,0,0,,,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Ivan BASIC,MF,62,0,0,,,0.29,4,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Benjamin TAHIROVIC,MF,90,0,0,1,0.02,0.01,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Amar MEMIC,MF,74,0,0,1,0.05,,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Ermedin DEMIROVIC,FW,90,0,0,1,0.02,,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Jovo LUKIC,FW,62,1,0,3,0.69,,0,8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Armin GIGOVIC,MF,28,0,0,,,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,B,Bosnia and Herzegovina,Canada,Dzenis BURNIC,MF,6,0,0,1,0.01,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/canada-vs-bosnia-herzegovina/23f1qo,ok
+2026-06-13,D,USA,Paraguay,Matt FREESE,GK,90,0,0,,,,,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Alex FREEMAN,DF,90,0,1,,,0.04,1,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Chris RICHARDS,DF,90,0,0,1,0.04,0.01,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Tim REAM,DF,90,0,0,,,0.03,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Antonee ROBINSON,DF,90,0,0,,,0.06,1,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Tyler ADAMS,MF,90,0,0,,,0.02,1,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Weston MCKENNIE,MF,90,0,0,,,0.33,3,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Malik TILLMAN,MF,82,0,1,5,0.65,0.22,3,7.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Sergiño DEST,DF,72,0,0,,,0.06,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Folarin BALOGUN,FW,72,2,0,5,0.47,0.08,0,8.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Christian PULISIC,FW,45,0,1,,,0.12,2,7.9,2,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Sebastian BERHALTER,MF,45,0,0,1,0.02,0.12,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Timothy WEAH,MF,18,0,0,2,0.05,0.02,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Ricardo PEPI,FW,18,0,0,1,0.11,0.08,1,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,USA,Paraguay,Giovanni REYNA,MF,8,1,0,1,0.08,,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Orlando GILL,GK,90,0,0,,,,,5.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Juan CÁCERES,DF,79,0,0,,,,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Gustavo GÓMEZ,DF,90,0,0,,,,0,5.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Omar ALDERETE,DF,90,0,0,,,0.03,1,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Júnior ALONSO,DF,90,0,0,,,,1,5.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Diego GÓMEZ,MF,80,0,0,4,0.2,,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Andrés CUBAS,MF,90,0,0,,,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Damián BOBADILLA,MF,45,0,0,,,,0,5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Miguel ALMIRÓN,FW,79,0,0,2,0.07,0.02,2,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Julio ENCISO,MF,90,0,1,2,0.05,0.09,1,7.8,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Antonio SANABRIA,FW,62,0,0,,,0.1,1,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,MAURICIO,MF,45,1,0,1,0.22,,0,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-13,D,Paraguay,USA,Álex ARCE,FW,28,0,0,,,0.01,1,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,ok
+2026-06-14,B,Qatar,Switzerland,Mahmud ABUNADA,GK,90,0,0,,,,,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Ayoub AL OUI,DF,60,0,0,,,,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Pedro MIGUEL,DF,90,0,0,,,0.01,0,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Boualem KHOUKHI,DF,90,0,0,,,,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Homam ELAMIN,DF,90,0,0,1,0.01,0.01,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Jassem GABER,MF,60,0,0,,,,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Assim MADIBO,MF,79,0,0,,,,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Issa LAYE,DF,90,0,0,1,0.08,,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Edmílson JUNIOR,FW,88,0,0,2,0.39,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Yusuf ABDURISAG,FW,60,0,0,,,,1,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Akram AFIF,FW,90,0,0,,,0.21,2,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Ahmed FATHI,MF,30,0,0,,,0.01,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Karim BOUDIAF,MF,30,0,0,1,0.02,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Qatar,Switzerland,Ahmed ALAAELDIN,FW,30,0,0,1,0.11,,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Gregor KOBEL,GK,90,0,0,,,,,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Denis ZAKARIA,MF,90,0,0,2,0.27,0.15,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Nico ELVEDI,DF,90,0,0,2,0.31,0.06,1,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Manuel AKANJI,DF,90,0,0,1,0.27,0.15,2,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Ricardo RODRÍGUEZ,DF,89,0,0,,,0.58,2,7.8,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Michel AEBISCHER,MF,65,0,0,1,0.24,0.51,3,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Granit XHAKA,MF,90,0,0,2,0.05,0.08,2,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Remo FREULER,MF,89,0,0,,,0.07,1,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Dan NDOYE,FW,65,0,0,6,0.4,0.02,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Breel EMBOLO,FW,90,1,0,4,1.14,0.84,5,8,2,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Rubén VARGAS,FW,79,0,0,3,0.37,0.58,5,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Fabian RIEDER,MF,25,0,0,1,0.05,0.01,1,6.1,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Johan MANZAMBI,MF,25,0,0,2,0.06,0.14,1,5.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Zeki AMDOUNI,FW,11,0,0,1,0.02,0.01,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,B,Switzerland,Qatar,Ardon JASHARI,MF,1,0,0,1,0.01,,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/qatar-vs-switzerland/1beswv,ok
+2026-06-14,C,Brazil,Morocco,Alisson BECKER,GK,90,0,0,,,,,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,Roger IBAÑEZ,DF,45,0,0,,,,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,MARQUINHOS,DF,90,0,0,2,0.09,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,GABRIEL,DF,90,0,0,,,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,Douglas SANTOS,DF,90,0,0,,,0.03,1,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,Lucas PAQUETÁ,MF,61,0,0,2,0.18,0.03,1,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,Bruno GUIMARÃES,MF,80,0,1,1,0.01,0.02,1,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,CASEMIRO,MF,45,0,0,,,0.05,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,RAPHINHA,FW,90,0,0,2,0.15,0.33,3,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,Igor THIAGO,FW,62,0,0,2,0.66,0.01,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,Vinícius JÚNIOR,FW,90,1,0,1,0.08,0.09,2,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,DANILO,DF,45,0,0,,,0.01,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,Luiz HENRIQUE,FW,28,0,0,,,0.04,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,Matheus CUNHA,FW,29,0,0,,,0.01,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Brazil,Morocco,DANILO,MF,10,0,0,2,0.09,,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Yassine BOUNOU,GK,90,0,0,,,,,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Achraf HAKIMI,DF,90,0,0,3,0.18,0.11,3,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Issa DIOP,DF,90,0,0,,,0.01,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Chadi RIAD,DF,90,0,0,,,,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Noussair MAZRAOUI,DF,80,0,0,,,0.05,0,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Neil EL AYNAOUI,MF,90,0,0,3,0.22,0.02,1,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Ayyoub BOUADDI,MF,90,0,0,,,0.03,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Brahim DÍAZ,FW,65,0,1,3,0.1,0.25,2,7.1,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Azzedine OUNAHI,MF,65,0,0,,,0.03,2,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Bilal EL KHANNOUSS,MF,80,0,0,1,0.02,0.03,2,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Ismael SAIBARI,MF,89,1,0,3,0.71,0.03,0,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Samir EL MOURABET,MF,25,0,0,,,0.02,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Chemsdine TALBI,FW,25,0,0,,,0.01,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Morocco,Brazil,Ayoube AMAIMOUNI-ECHGHOUYAB,FW,10,0,0,1,0.14,,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,ok
+2026-06-14,C,Haiti,Scotland,Johny PLACIDE,GK,90,0,0,,,,,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Carlens ARCUS,DF,90,0,0,,,0.09,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Ricardo ADÉ,DF,90,0,0,1,0.03,0.06,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Hannes DELCROIX,DF,90,0,0,,,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Martin EXPÉRIENCE,DF,90,0,0,1,0.02,0.02,2,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Don Deedson LOUICIUS,MF,61,0,0,1,0.04,0.09,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Danley Jean JACQUES,MF,90,0,0,,,0.02,1,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Jean-Ricner BELLEGARDE,MF,90,0,0,3,0.16,0.15,2,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Ruben PROVIDENCE,FW,85,0,0,3,0.11,0.33,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Wilson ISIDOR,FW,76,0,0,2,0.04,0.05,1,5.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Frantzdy PIERROT,FW,90,0,0,3,0.65,0.11,1,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Josué CASIMIR,MF,29,0,0,1,0.01,0.02,1,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Haiti,Scotland,Lenny JOSEPH,FW,14,0,0,,,0.04,1,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Angus GUNN,GK,90,0,0,,,,,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Aaron HICKEY,DF,75,0,0,,,0.02,2,7.3,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Grant HANLEY,DF,90,0,0,,,0.02,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Jack HENDRY,DF,90,0,0,,,,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Andrew ROBERTSON,DF,90,0,0,,,0.17,2,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Ben GANNON-DOAK,FW,75,0,0,2,0.06,0.08,2,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Scott MCTOMINAY,MF,90,0,0,2,0.16,,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Lewis FERGUSON,MF,90,0,0,,,0.02,0,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,John MCGINN,FW,83,1,0,2,0.23,0.02,1,7.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Lawrence SHANKLAND,FW,83,0,0,2,0.11,0.01,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Ché ADAMS,FW,75,0,0,1,0.58,0.01,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,C,Scotland,Haiti,Kenny MCLEAN,MF,7,0,0,,,0.04,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,ok
+2026-06-14,D,Australia,Turkey,Patrick BEACH,GK,90,0,0,,,,,8.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Alessandro CIRCATI,DF,90,0,0,1,0.51,0.01,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Harry SOUTTAR,DF,90,0,0,1,0.04,,1,7.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Cameron BURGESS,DF,90,0,0,,,,0,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Jacob ITALIANO,MF,74,0,0,1,0.02,0.08,1,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Jordan BOS,DF,84,0,0,2,0.08,0.02,1,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Connor METCALFE,MF,90,1,0,1,0.03,0.1,1,8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Aiden O'NEILL,MF,90,0,0,,,0.06,1,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Paul OKON-ENGSTLER,MF,84,0,1,,,0.01,2,8.1,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Nestory IRANKUNDA,MF,61,1,0,2,0.45,,0,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Mohamed TOURÉ,FW,74,0,0,1,0.05,0.02,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Australia,Turkey,Jason GERIA,DF,16,0,0,,,0.04,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Ugurcan ÇAKIR,GK,90,0,0,,,,,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Zeki ÇELIK,MF,81,0,0,1,0.1,0.08,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Merih DEMIRAL,DF,90,0,0,1,0.02,0.13,1,6.5,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Abdülkerim BARDAKCI,DF,90,0,0,1,0.03,0.03,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Ferdi KADIOGLU,DF,90,0,0,1,0.04,0.2,5,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Ismail YÜKSEK,MF,81,0,0,3,0.15,0.04,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Hakan ÇALHANOGLU,MF,90,0,0,5,0.17,0.37,4,7.4,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Arda GÜLER,MF,90,0,0,8,0.26,0.27,2,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Orkun KÖKCÜ,MF,62,0,0,1,0.07,0.06,3,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Baris Alper YILMAZ,FW,45,0,0,,,0.01,0,5.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Kerem AKTÜRKOGLU,FW,85,0,0,3,0.29,0.04,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Kenan YILDIZ,MF,45,0,0,6,0.23,0.14,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Yunus AKGÜN,MF,28,0,0,,,0.05,2,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Mert MÜLDÜR,DF,9,0,0,,,0.01,1,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-14,D,Turkey,Australia,Salih ÖZCAN,MF,9,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,ok
+2026-06-15,E,Germany,Curacao,Manuel NEUER,GK,90,0,0,,,,,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Joshua KIMMICH,MF,83,0,2,,,0.83,5,8.8,2,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Jonathan TAH,DF,73,0,0,,,0.23,1,6.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Nico SCHLOTTERBECK,DF,90,1,0,2,0.31,0.04,0,8.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Nathaniel BROWN,DF,73,1,1,2,0.42,0.57,3,8.5,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Felix NMECHA,MF,73,1,0,4,0.26,0.08,0,8.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Aleksandar PAVLOVIC,MF,90,0,0,3,0.4,0.33,1,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Leroy SANÉ,FW,90,0,0,3,0.82,0.13,2,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Jamal MUSIALA,MF,64,1,0,3,0.29,0.08,2,8.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Florian WIRTZ,FW,90,0,1,3,0.18,0.46,4,8.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Kai HAVERTZ,FW,90,2,0,4,1.01,0.26,0,8.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Deniz UNDAV,FW,26,1,2,1,0.5,0.34,3,8.8,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,David RAUM,DF,17,0,0,1,0.03,0.07,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Germany,Curacao,Leon GORETZKA,MF,17,0,0,,,0.04,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Eloy ROOM,GK,90,0,0,,,,,4.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Sherel FLORANUS,DF,90,0,0,,,0.01,0,4.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Riechedly BAZOER,DF,90,0,0,,,,0,4.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Armando OBISPO,DF,90,0,0,,,,0,5.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Deveron FONVILLE,DF,90,0,0,,,,0,4.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Livano COMENENCIA,MF,90,1,0,2,0.09,0.05,2,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Leandro BACUNA,MF,90,0,0,2,0.19,0.01,1,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Juninho BACUNA,MF,90,0,0,1,0.02,0.02,0,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Tahith CHONG,MF,83,0,0,1,0.05,0.01,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Jürgen LOCADIA,FW,65,0,0,,,0.03,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Sontje HANSEN,FW,45,0,0,1,0.03,0.01,2,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Jeremy ANTONISSE,FW,45,0,0,,,0.13,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,E,Curacao,Germany,Jearl MARGARITHA,FW,25,0,0,1,0.04,,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/germany-vs-curacao/k77fsyu,ok
+2026-06-15,F,Netherlands,Japan,Bart VERBRUGGEN,GK,90,0,0,,,,,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Denzel DUMFRIES,MF,90,0,0,,,0.17,2,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Jan Paul VAN HECKE,DF,90,0,0,1,0.12,0.06,0,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Virgil VAN DIJK,DF,90,1,0,1,0.06,0.03,0,7.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Micky van DE VEN,DF,90,0,0,1,0.02,0.03,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Ryan GRAVENBERCH,MF,81,0,2,,,0.1,2,8.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Frenkie DE JONG,MF,90,0,0,,,0.04,1,7.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Tijjani REIJNDERS,MF,70,0,0,,,0.13,2,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Crysencio SUMMERVILLE,FW,70,1,0,1,0.02,0.25,0,7.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Donyell MALEN,FW,70,0,0,2,0.21,,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Cody GAKPO,FW,85,0,0,2,0.2,0.13,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Quinten TIMBER,MF,20,0,0,,,0.22,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Teun KOOPMEINERS,MF,20,0,0,2,0.16,0.01,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Netherlands,Japan,Memphis DEPAY,FW,20,0,0,,,0.12,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Zion SUZUKI,GK,90,0,0,,,,,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Tsuyoshi WATANABE,DF,75,0,0,,,0.02,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Shogo TANIGUCHI,DF,90,0,0,,,0.01,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Hiroki ITO,DF,90,0,0,1,0.03,0.01,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Ritsu DOAN,MF,75,0,0,,,0.1,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Kaishu SANO,MF,90,0,0,,,0.01,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Daichi KAMADA,MF,90,1,0,1,0.14,0.12,1,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Keito NAKAMURA,FW,90,1,0,3,0.08,0.04,1,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Takefusa KUBO,FW,75,0,1,1,0.03,0.03,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Daizen MAEDA,FW,66,0,0,,,0.11,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Ayase UEDA,FW,84,0,0,1,0.1,,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Junya ITO,FW,24,0,0,,,0.09,3,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Takehiro TOMIYASU,DF,15,0,0,,,0.01,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Yukinari SUGAWARA,DF,15,0,0,1,0.16,0.03,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,F,Japan,Netherlands,Koki OGAWA,FW,15,0,1,2,0.05,,1,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b,ok
+2026-06-15,E,Ivory Coast,Ecuador,Yahia FOFANA,GK,90,0,0,,,,,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Guéla DOUÉ,DF,89,0,0,,,0.09,2,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Wilfried SINGO,DF,90,0,1,1,0.05,0.06,1,8.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Emmanuel AGBADOU,DF,90,0,0,,,0.01,0,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Ghislain KONAN,DF,90,0,0,1,0.06,0.03,1,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Yan DIOMANDE,FW,90,0,0,2,0.2,0.34,5,8.3,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Franck KESSIÉ,MF,90,0,0,,,0.05,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Seko FOFANA,MF,77,0,0,4,0.27,0.12,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Bazoumana TOURÉ,FW,56,0,0,,,0.01,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Nicolas PÉPÉ,MF,77,0,0,2,0.22,0.06,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Elye WAHI,FW,56,0,0,2,0.49,0.02,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Amad DIALLO,MF,34,1,0,2,0.19,0.15,1,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ivory Coast,Ecuador,Christ Inao OULAÏ,MF,13,0,0,1,0.03,0.01,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Hernán GALINDEZ,GK,90,0,0,,,0.01,,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Alan FRANCO,MF,62,0,0,,,0.01,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Joel ORDÓÑEZ,DF,90,0,0,2,0.2,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Willian PACHO,DF,90,0,0,,,,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,John YEBOAH,FW,62,0,0,3,0.14,0.04,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Moisés CAICEDO,MF,90,0,0,1,0.02,0.44,3,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Pedro VITE,MF,90,0,0,1,0.05,0.49,1,7.3,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Piero HINCAPIÉ,DF,90,0,0,1,0.16,0.01,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Gonzalo PLATA,FW,90,0,0,1,0.05,0.19,3,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Enner VALENCIA,FW,77,0,0,1,0.03,0.03,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Alan MINDA,FW,56,0,0,2,0.37,0.01,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Nilson ANGULO,FW,34,0,0,,,0.03,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,E,Ecuador,Ivory Coast,Kevin RODRÍGUEZ,FW,13,0,0,,,0.01,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/ecuador-vs-ivory-coast/1hl6kp,ok
+2026-06-15,F,Sweden,Tunisia,Kristoffer NORDFELDT,GK,90,0,0,,,,,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Gustaf LAGERBIELKE,DF,90,0,0,,,0.04,1,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Isak HIEN,DF,90,0,0,,,,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Victor Nilsson LINDELÖF,DF,90,0,0,1,0.14,0.01,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Alexander BERNHARDSSON,MF,89,0,0,,,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Jesper KARLSTRÖM,MF,84,0,0,,,,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Yasin AYARI,MF,90,2,0,2,0.07,0.12,1,8.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Gabriel GUDMUNDSSON,DF,65,0,0,,,0.07,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Benjamin NYGREN,MF,65,0,0,,,0.14,1,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Viktor GYÖKERES,FW,90,1,1,5,0.63,0.11,4,8.7,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Alexander ISAK,FW,89,1,2,3,0.32,0.04,2,8.8,2,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Elliot STROUD,MF,25,0,0,,,0.02,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Lucas BERGVALL,MF,25,0,1,1,0.09,,1,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Sweden,Tunisia,Mattias SVANBERG,MF,6,1,0,1,0.09,,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Abdelmouhib CHAMAKH,GK,90,0,0,,,,,1.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Omar REKIK,DF,90,1,0,1,0.03,0.02,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Montassar TALBI,DF,90,0,0,1,0.15,,0,5.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Amine BEN HAMIDA,DF,90,0,0,,,0.03,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Yan VALERY,DF,72,0,0,,,0.02,0,5.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Rani KHEDIRA,MF,83,0,0,1,0.02,,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Ellyes SKHIRI,MF,72,0,0,,,0.02,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Hannibal MEJBRI,MF,90,0,1,1,0.03,0.19,3,8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Ali ABDI,DF,90,0,0,,,0.01,0,4.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Elias SAAD,FW,72,0,0,1,0.03,0.14,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Anis BEN SLIMANE,MF,84,0,0,,,0.02,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Elias ACHOURI,MF,18,0,0,1,0.01,,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-15,F,Tunisia,Sweden,Sebastian TOUNEKTI,FW,18,0,0,,,0.01,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/tunisia-vs-sweden/1x5290,ok
+2026-06-16,H,Spain,Cape Verde,Unai SIMÓN,GK,90,0,0,,,,,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Marcos LLORENTE,DF,90,0,0,,,0.54,3,7.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Pau CUBARSÍ,DF,90,0,0,1,0.03,0.09,1,7.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Aymeric LAPORTE,DF,90,0,0,2,0.07,0.13,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Marc CUCURELLA,DF,90,0,0,2,0.12,0.44,2,7.4,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Fabián RUIZ,MF,71,0,0,5,0.31,0.08,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,RODRI,MF,87,0,0,2,0.11,0.44,3,7.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,PEDRI,MF,90,0,0,2,0.1,1.23,5,8.6,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Ferran TORRES,FW,81,0,0,4,0.66,0.12,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Mikel OYARZABAL,FW,90,0,0,5,0.5,0.05,1,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,GAVI,MF,71,0,0,1,0.05,0.03,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Mikel MERINO,MF,19,0,0,1,0.1,0.16,2,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Lamine YAMAL,FW,19,0,0,2,0.04,0.19,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Spain,Cape Verde,Dani OLMO,MF,9,0,0,,,0.12,1,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,VOZINHA,GK,90,0,0,,,,,9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Steven MOREIRA,DF,90,0,0,1,0.01,,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Roberto LOPES,DF,90,0,0,,,,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Diney BORGES,DF,90,0,0,1,0.13,,0,7.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Sidny Lopes CABRAL,MF,76,0,0,,,,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Kevin PINA,MF,90,0,0,1,0.02,,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Ryan MENDES,FW,90,0,0,1,0.02,,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Laros DUARTE,MF,61,0,0,,,,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Jamiro MONTEIRO,MF,79,0,0,,,,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Jovane CABRAL,FW,61,0,0,1,0.01,,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Dailon LIVRAMENTO,FW,61,0,0,1,0.01,,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Deroy DUARTE,MF,29,0,0,,,,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,H,Cape Verde,Spain,Telmo ARCANJO,FW,11,0,0,,,0.1,2,6.3,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/cape-verde-vs-spain/1bbtuo,ok
+2026-06-16,G,Belgium,Egypt,Thibaut COURTOIS,GK,90,0,0,,,,,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Thomas MEUNIER,DF,90,0,0,1,0.07,0.14,1,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Nathan NGOY,DF,90,0,0,,,0.03,0,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Brandon MECHELE,DF,90,0,0,2,0.33,0.02,0,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Timothy CASTAGNE,DF,56,0,0,,,0.11,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Amadou ONANA,MF,56,0,0,,,0.23,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Youri TIELEMANS,MF,90,0,0,2,0.05,0.45,3,7.5,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Leandro TROSSARD,FW,90,0,0,3,0.2,0.15,3,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Kevin DE BRUYNE,MF,86,0,0,4,0.27,0.12,2,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Jérémy DOKU,FW,86,0,0,1,0.17,0.09,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Charles DE KETELAERE,MF,66,0,0,,,0.24,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Maxim DE CUYPER,DF,34,0,0,,,0.06,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Nicolas RASKIN,MF,34,0,0,,,0.18,1,6.8,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Romelu LUKAKU,FW,24,0,0,2,0.26,0.02,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Hans VANAKEN,MF,4,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Belgium,Egypt,Matias FERNANDEZ-PARDO,FW,4,0,0,,,0.04,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Mostafa Ahmed SHOBEIR,GK,90,0,0,,,,,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Mohamed HANY,DF,90,0,0,2,0.05,0.02,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Yasser IBRAHIM,DF,90,0,0,,,0.04,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Hamdi FATHI,MF,88,0,0,,,0.01,2,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Ahmed Abou EL FOTOUH,DF,88,0,0,,,0.15,1,6.8,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Mohanad LASHEEN,MF,90,0,0,,,0.01,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Marwan ATEYA,MF,90,0,0,1,0.03,0.01,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Mostafa ZIKO,FW,76,0,0,2,0.16,0.01,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Mohamed SALAH,FW,76,0,1,1,0.14,0.05,3,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Emam ASHOUR,MF,71,1,0,2,0.22,0.02,1,7.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Omar MARMOUSH,FW,90,0,0,5,0.49,0.04,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,ZIZO,FW,14,0,0,1,0.02,0.01,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Karim HAFEZ,DF,2,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,G,Egypt,Belgium,Ibrahim ADEL,FW,2,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/belgium-vs-egypt/2u3bhg,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Mohammed AL OWAIS,GK,90,0,0,,,,,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Saud ABDULHAMID,MF,89,0,0,1,0.04,,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Abdulelah AL AMRI,DF,90,1,0,2,0.49,0.18,0,8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Hassan AL TAMBAKTI,DF,90,0,0,,,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Moteb AL-HARBI,DF,89,0,0,,,0.01,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Mohammed Abu AL SHAMAT,MF,81,0,0,,,0.01,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Mohamed KANNO,MF,90,0,0,2,0.11,0.01,0,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Abdullah ALKHAIBARI,MF,90,0,0,1,0.03,,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Salem AL-DAWSARI,FW,90,0,0,1,0.03,0.07,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Firas AL-BURAIKAN,FW,89,0,0,,,0.02,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Musab AL-JUWAYR,MF,63,0,0,,,0.09,1,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Saudi Arabia,Uruguay,Nasser AL-DAWSARI,MF,27,0,0,,,0.01,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Fernando MUSLERA,GK,90,0,0,,,,,5.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Guillermo VARELA,DF,90,0,0,2,0.04,0.11,2,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Sebastián CÁCERES,DF,90,0,0,2,0.13,0.21,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Mathías OLIVERA,DF,90,0,0,1,0.05,0.29,2,7.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Matías VIÑA,DF,45,0,0,,,0.02,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Federico VALVERDE,MF,90,0,0,3,0.07,0.07,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Manuel UGARTE,MF,72,0,0,2,0.03,0.02,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Rodrigo BENTANCUR,MF,90,0,0,1,0.2,0.06,2,8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Maxi ARAÚJO,DF,81,1,0,2,0.24,0.38,5,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Federico VIÑAS,FW,89,0,0,5,0.5,0.07,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Darwin NÚÑEZ,FW,45,0,0,1,0.21,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Juan SANABRIA,DF,45,0,0,3,0.11,0.16,2,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Agustín CANOBBIO,FW,45,0,0,1,0.02,0.1,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Nicolás de LA CRUZ,MF,18,0,0,2,0.15,0.16,4,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,H,Uruguay,Saudi Arabia,Brian RODRÍGUEZ,FW,9,0,0,2,0.04,0.02,1,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/uruguay-vs-saudi-arabia/1izuvb,ok
+2026-06-16,G,Iran,New Zealand,Alireza BEIRANVAND,GK,90,0,0,,,,,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Ramin REZAEIAN,DF,90,1,1,1,0.35,0.33,3,8.6,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Shoja KHALILZADEH,DF,90,0,0,,,,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Ali NEMATI,DF,90,0,0,1,0.08,0.01,2,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Milad MOHAMMADI,DF,90,0,0,,,0.01,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Mohammad MOHEBI,FW,90,1,0,2,0.32,0.03,1,8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Saman GHODDOS,MF,65,0,0,2,0.13,0.01,1,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Saeid EZATOLAHI,MF,90,0,0,2,0.05,0.02,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Aria YOUSEFI,DF,45,0,0,1,0.05,0.04,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Shahriar MOGHANLOU,FW,53,0,0,3,0.2,0.01,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Mehdi TAREMI,FW,80,0,0,2,0.2,0.02,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Mehdi GHAYEDI,FW,45,0,0,1,0.03,0.19,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Ali ALIPOUR,FW,37,0,0,1,0.06,,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Ehsan Haji SAFI,DF,25,0,0,1,0.03,,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,Iran,New Zealand,Amirhossein HOSSEINZADEH,FW,10,0,0,,,0.01,1,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Max CROCOMBE,GK,90,0,0,,,0.01,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Tim PAYNE,DF,78,0,0,,,0.01,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Finn SURMAN,DF,90,0,0,1,0.45,0.01,1,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Michael BOXALL,DF,90,0,0,,,0.02,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Liberato CACACE,MF,68,0,0,1,0.02,0.01,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Joe BELL,MF,90,0,0,,,0.02,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Marko STAMENIC,MF,89,0,0,1,0.04,0.02,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Callum MCCOWATT,MF,68,0,0,2,0.04,0.02,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Sarpreet SINGH,MF,89,0,0,3,0.16,0.09,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Elijah JUST,FW,90,2,0,2,0.31,0.11,1,8.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Chris WOOD,FW,90,0,2,4,0.22,0.09,4,8.2,2,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,G,New Zealand,Iran,Jesse RANDALL,FW,1,0,0,,,0.07,1,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/new-zealand-vs-iran/1ar30l,ok
+2026-06-16,I,France,Senegal,Mike MAIGNAN,GK,90,0,0,,,,,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Jules KOUNDÉ,DF,90,0,0,,,0.02,1,7.4,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Dayot UPAMECANO,DF,90,0,0,,,0.01,1,8.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,William SALIBA,DF,90,0,0,,,,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Theo HERNÁNDEZ,DF,90,0,0,1,0.12,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Aurélien TCHOUAMÉNI,MF,90,0,0,,,0.01,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Adrien RABIOT,MF,90,0,1,,,0.33,2,7.7,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Michael OLISE,FW,90,0,1,2,0.36,0.95,4,8.3,2,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Ousmane DEMBÉLÉ,FW,80,0,0,1,0.03,0.05,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Désiré DOUÉ,FW,87,0,0,2,0.08,0.06,1,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Kylian MBAPPÉ,FW,90,2,0,4,0.76,0.02,0,9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,France,Senegal,Bradley BARCOLA,FW,10,1,0,1,0.43,0.06,0,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Édouard MENDY,GK,90,0,0,,,,,5.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Krépin DIATTA,DF,90,0,0,,,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Kalidou KOULIBALY,DF,90,0,0,,,,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Moussa NIAKHATÉ,DF,90,0,0,,,,0,5.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Malick DIOUF,DF,90,0,0,,,0.03,1,6,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Lamine CAMARA,MF,76,0,0,,,0.01,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Idrissa Gana GUEYE,MF,88,0,0,,,0.01,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Pape GUEYE,MF,83,0,0,,,0.02,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Ismaïla SARR,MF,75,0,0,3,0.27,0.04,1,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Nicolas JACKSON,FW,83,0,0,1,0.13,0.02,2,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Sadio MANÉ,MF,90,0,0,1,0.03,0.02,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Ibrahim MBAYE,FW,15,1,0,1,0.1,,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Senegal,France,Iliman NDIAYE,FW,7,0,1,,,0.01,1,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/senegal-vs-france/1f8fvo,ok
+2026-06-16,I,Iraq,Norway,Jalal HASSAN,GK,90,0,0,,,,,5.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Hussein ALI,DF,73,0,0,1,0.03,,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Zaid TAHSEEN,DF,90,0,0,2,0.12,,0,3.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Akam HASHEM,DF,90,0,0,1,0.03,,0,5.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Merchas DOSKI,DF,90,0,0,,,0.15,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Ibrahim BAYESH,MF,78,0,0,1,0.19,0.05,1,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Zaid ISMAEL,MF,59,0,0,,,0.01,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Amir AL-AMMARI,MF,90,0,1,,,0.3,3,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Ali JASIM,FW,73,0,0,,,0.23,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Ayman HUSSEIN,FW,90,1,0,3,0.2,0.05,1,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Iraq,Norway,Ali AL HAMADI,FW,59,0,0,3,0.23,0.01,1,6.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Ørjan Håskjold NYLAND,GK,90,0,0,,,,,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Julian RYERSON,MF,90,0,0,,,0.36,3,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Kristoffer AJER,DF,90,0,0,,,0.07,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Torbjørn HEGGEM,DF,90,0,0,,,,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,David Møller WOLFE,DF,73,0,1,,,0.59,1,7.3,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Martin ØDEGAARD,MF,81,0,1,1,0.04,0.29,1,7.5,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Sander BERGE,MF,90,0,0,,,0.02,0,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Fredrik AURSNES,MF,73,0,0,,,0.01,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Alexander SØRLOTH,FW,73,0,0,2,0.19,0.01,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Erling HAALAND,FW,90,2,0,5,1.85,0.07,1,9.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Antonio NUSA,FW,73,0,0,,,0.02,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Leo ØSTIGARD,DF,17,1,0,2,0.28,,0,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Kristian THORSTVEDT,MF,17,0,0,2,0.17,0.01,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Andreas SCHJELDERUP,FW,17,0,0,,,,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Oscar BOBB,FW,17,0,0,,,0.05,1,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-16,I,Norway,Iraq,Patrick BERG,MF,9,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/iraq-vs-norway/1oz68o,ok
+2026-06-17,J,Argentina,Algeria,Emiliano MARTÍNEZ,GK,90,0,0,,,0.01,,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Gonzalo MONTIEL,DF,45,0,0,,,,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Cristian ROMERO,DF,80,0,0,,,0.01,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Lisandro MARTÍNEZ,DF,90,0,0,,,,0,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Facundo MEDINA,DF,90,0,0,,,0.01,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Rodrigo DE PAUL,MF,90,0,1,,,0.03,1,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Alexis MAC ALLISTER,MF,90,0,0,2,0.08,0.02,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Enzo FERNÁNDEZ,MF,90,0,0,,,0.06,1,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Thiago ALMADA,MF,55,0,0,1,0.02,0.01,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Lionel MESSI,FW,80,3,0,6,1.05,0.32,2,9.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Lautaro MARTÍNEZ,FW,55,0,0,1,0.12,0.01,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Nahuel MOLINA,DF,45,0,0,,,,1,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Nicolás GONZÁLEZ,MF,35,0,1,,,0.03,1,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Argentina,Algeria,Julián ÁLVAREZ,FW,35,0,0,,,0.02,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Luca ZIDANE,GK,90,0,0,,,,,5.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Rafik BELGHALI,MF,90,0,0,,,0.01,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Aïssa MANDI,DF,90,0,0,,,0.02,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Ramy BENSEBAINI,DF,90,0,0,,,0.02,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Rayan AÏT-NOURI,DF,90,0,0,,,0.01,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Hicham BOUDAOUI,MF,64,0,0,,,0.06,1,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Nabil BENTALEB,MF,82,0,0,,,0.04,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Anis Hadj MOUSSA,FW,64,0,0,1,0.04,0.02,1,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Ibrahim MAZA,MF,81,0,0,1,0.04,0.04,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Farès CHAÏBI,MF,90,0,0,3,0.08,0.07,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Amine GOUIRI,FW,64,0,0,,,0.01,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Houssem AOUAR,MF,26,0,0,1,0.06,0.02,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Mohamed AMOURA,FW,26,0,0,,,0.02,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Riyad MAHREZ,FW,26,0,0,1,0.11,0.03,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Ramiz ZERROUKI,MF,8,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Algeria,Argentina,Adil BOULBINA,FW,9,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/algeria-vs-argentina/1ehtqa,ok
+2026-06-17,J,Austria,Jordan,Alexander SCHLAGER,GK,90,0,0,,,,,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Stefan POSCH,DF,90,0,0,2,0.17,0.01,0,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Philipp LIENHART,DF,90,0,0,,,0.01,0,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,David ALABA,DF,59,0,0,1,0.02,0.01,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Phillipp MWENE,MF,59,0,0,,,0.2,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Nicolas SEIWALD,MF,90,0,0,,,0.07,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Xaver SCHLAGER,MF,59,0,1,,,0.02,1,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Romano SCHMID,MF,83,1,0,1,0.05,0.2,1,7.6,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Konrad LAIMER,DF,90,0,0,1,0.01,0.05,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Marcel SABITZER,MF,90,0,0,1,0.01,0.27,1,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Sasa KALAJDZIC,FW,45,0,0,2,0.12,0.01,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Marko ARNAUTOVIC,FW,45,1,0,2,1.11,0.03,1,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Kevin DANSO,DF,31,0,0,,,0.01,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Carney CHUKWUEMEKA,MF,31,0,0,1,0.2,0.02,0,5.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Paul WANNER,MF,31,0,0,,,0.01,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Austria,Jordan,Patrick WIMMER,FW,7,0,0,,,0.04,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Yazeed Yazeed ABULAILA,GK,90,0,0,,,,,5.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Abdallah NASIB,DF,81,0,0,,,0.01,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Yazan Abu AL-ARAB,DF,90,0,0,,,,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Mo ABUALNADI,DF,72,0,0,,,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Ehsan HADDAD,MF,81,0,0,1,0.02,0.02,2,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Mohannad Abu TAHA,MF,90,0,0,,,0.08,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Odeh FAKHOURI,MF,89,0,0,1,0.04,0.01,2,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Nizar AL RASHDAN,MF,90,0,0,,,0.04,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Noor AL-RAWABDEH,MF,90,0,1,,,0.01,2,7.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Ali Iyad OLWAN,FW,90,1,0,4,0.25,0.02,0,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Mousa TAMARI,MF,88,0,0,4,0.14,0.11,1,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Mahmoud AL MARDI,MF,9,0,0,,,0.01,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-17,J,Jordan,Austria,Ali AL-AZAIZEH,FW,1,0,0,1,0.02,,0,,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/jordan-vs-austria/1my603,ok
+2026-06-18,K,Portugal,DR Congo,Diogo COSTA,GK,90,0,0,,,,,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,João CANCELO,DF,90,0,0,,,0.02,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Tomás ARAÚJO,DF,90,0,0,,,0.01,1,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Renato VEIGA,DF,90,0,0,,,0.02,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Nuno MENDES,DF,72,0,0,,,0.03,0,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,João NEVES,MF,90,1,0,1,0.05,0.09,1,8.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,VITINHA,MF,83,0,0,,,0.06,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Bernardo SILVA,MF,45,0,0,,,0.01,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Bruno FERNANDES,MF,90,0,0,2,0.07,0.54,1,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Pedro NETO,FW,71,0,1,,,0.4,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Cristiano RONALDO,FW,90,0,0,3,0.46,0.05,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Francisco CONCEIÇÃO,MF,45,0,0,1,0.07,0.53,2,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Nélson SEMEDO,DF,18,0,0,,,0.01,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Portugal,DR Congo,Rafael LEÃO,FW,19,0,0,,,0.06,1,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Lionel MPASI-NZAU,GK,90,0,0,,,,,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Chancel MBEMBA,DF,90,0,0,,,0.01,1,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Axel TUANZEBE,DF,90,0,0,,,,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Steve KAPUADI,DF,90,0,0,1,0.19,,1,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Aaron WAN-BISSAKA,DF,85,0,0,,,0.01,0,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Arthur MASUAKU,DF,74,0,1,,,0.33,2,7.6,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Ngal Ayel MUKAU,MF,57,0,0,,,0.07,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Samuel MOUTOUSSAMY,MF,90,0,0,2,0.06,0.01,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Edo KAYEMBE,MF,74,0,0,1,0.03,,1,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Cédric BAKAMBU,FW,85,0,0,2,0.17,0.2,1,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Yoane WISSA,FW,90,1,0,2,0.42,0.02,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,DR Congo,Portugal,Noah SADIKI,MF,33,0,0,,,0.05,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/dr-congo-vs-portugal/1s6g4o,ok
+2026-06-18,K,Uzbekistan,Colombia,Utkir YUSUPOV,GK,90,0,0,,,,,4.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Abdukodir KHUSANOV,DF,90,0,0,,,,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Abdulla ABDULLAEV,MF,90,0,0,,,0.01,0,5.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Rustamjon ASHURMATOV,DF,77,0,0,,,,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Behruzjon KARIMOV,DF,90,0,0,2,0.03,0.01,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Akmal MOZGOVOY,MF,90,0,0,1,0.08,0.02,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Otabek SHUKUROV,MF,90,0,0,,,0.02,1,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Sherzod NASRULLOEV,DF,45,0,0,,,,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Abbosbek FAYZULLAYEV,FW,77,1,0,1,0.98,,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Oston URUNOV,MF,45,0,0,,,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Eldor SHOMURODOV,MF,89,0,0,1,0.04,0.01,0,5.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Dostonbek KHAMDAMOV,MF,45,0,0,2,0.05,0.03,1,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Farrukh SAYFIEV,MF,45,0,0,,,0.03,1,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Jakhongir UROZOV,DF,13,0,0,,,0.01,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Uzbekistan,Colombia,Azizbek AMONOV,MF,13,0,0,1,0.01,0.01,1,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Camilo VARGAS,GK,90,0,0,,,,,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Daniel MUÑOZ,MF,90,1,0,1,0.48,0.01,0,8.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Davinson SÁNCHEZ,DF,90,0,0,1,0.07,0.03,2,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Jhon LUCUMÍ,DF,90,0,0,,,0.01,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Johan MOJICA,DF,90,0,0,1,0.02,0.05,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Gustavo PUERTA,MF,80,0,1,1,0.01,0.08,2,7.8,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Jefferson LERMA,MF,90,0,0,3,0.18,0.03,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Jhon ARIAS,FW,89,0,0,2,0.24,0.39,2,6.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,James RODRÍGUEZ,MF,72,0,0,2,0.09,0.09,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Luis SUÁREZ,FW,80,0,0,,,0.01,1,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Luis DÍAZ,FW,89,1,1,2,0.28,0.65,2,8.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Jaminton CAMPAZ,FW,18,1,0,2,0.25,,0,7.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,K,Colombia,Uzbekistan,Juan HERNÁNDEZ,FW,10,0,1,,,0.13,1,6.7,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9,ok
+2026-06-18,L,England,Croatia,Jordan PICKFORD,GK,90,0,0,,,,,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Reece JAMES,DF,90,0,0,1,0.04,0.01,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Ezri KONSA,DF,90,0,0,2,0.63,,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,John STONES,DF,87,0,0,,,0.01,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Nico O'REILLY,DF,90,0,0,2,0.18,0.06,2,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Elliot ANDERSON,MF,90,0,1,1,0.04,0.02,1,8,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Declan RICE,MF,72,0,1,1,0.04,0.22,4,7.6,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Noni MADUEKE,FW,72,0,0,1,0.08,0.41,2,7.5,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Jude BELLINGHAM,MF,80,1,0,3,0.48,,1,8.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Anthony GORDON,FW,72,0,0,2,0.27,0.01,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Harry KANE,FW,90,2,0,7,1.03,0.04,2,9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Morgan ROGERS,MF,18,0,0,,,0.3,2,7,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Bukayo SAKA,FW,18,0,1,,,0.01,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Marcus RASHFORD,FW,18,1,0,1,0.06,,0,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,England,Croatia,Djed SPENCE,DF,10,0,0,1,0.54,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Dominik LIVAKOVIC,GK,90,0,0,,,,,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Josip SUTALO,DF,90,0,0,1,0.17,0.01,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Luka VUSKOVIC,DF,66,0,0,,,0.01,0,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Josko GVARDIOL,DF,90,0,0,1,0.2,0.01,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Josip STANISIC,DF,90,0,0,,,0.03,1,7.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Luka MODRIC,MF,58,0,0,,,0.01,0,5.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Mario PASALIC,MF,78,0,0,1,0.02,0.42,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Ivan PERISIC,FW,90,0,1,,,0.17,4,7.9,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Petar SUCIC,MF,90,0,1,1,0.01,0.03,1,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Martin BATURINA,FW,78,1,0,1,0.04,0.09,1,7.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Petar MUSA,FW,66,1,0,1,0.14,,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Mateo KOVACIC,MF,32,0,0,1,0.04,0.02,0,6.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Marco PASALIC,MF,24,0,0,1,0.06,0.01,0,6.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Igor MATANOVIC,FW,24,0,0,1,0.01,,0,6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Croatia,England,Andrej KRAMARIC,MF,12,0,0,1,0.01,0.01,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/england-vs-croatia/2viayw,ok
+2026-06-18,L,Ghana,Panama,Lawrence ATI-ZIGI,GK,45,0,0,,,,,7.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Marvin SENAYA,DF,90,0,0,,,0.01,0,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Jonas ADJETEY,DF,90,0,0,2,0.13,0.01,0,7.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Jerome OPOKU,DF,90,0,0,,,0.03,1,7.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Gideon MENSAH,DF,90,0,0,,,0.01,0,7.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Ernest NUAMAH,FW,58,0,0,,,,0,6.1,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Caleb YIRENKYI,MF,90,1,0,2,1,0.01,0,8.2,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Elisha OWUSU,MF,78,0,0,,,0.01,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Antoine SEMENYO,FW,90,0,0,2,0.11,0.01,1,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Kamaldeen SULEMANA,MF,58,0,0,,,0.13,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Jordan AYEW,FW,87,0,0,,,0.15,1,6.9,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Benjamin ASARE,GK,45,0,0,,,0.01,,7.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Abdul FATAWU,FW,32,0,0,1,0.02,0.09,1,6.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Ghana,Panama,Brandon THOMAS-ASANTE,FW,32,0,0,1,0.06,,0,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Orlando MOSQUERA,GK,90,0,0,,,0.21,1,6.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Jiovany RAMOS,DF,90,0,0,2,0.11,0.02,0,7.5,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,José CÓRDOBA,DF,90,0,0,,,,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Andrés ANDRADE,DF,90,0,0,,,0.36,0,7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Amir MURILLO,DF,90,0,0,,,0.05,3,7.6,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Carlos HARVEY,DF,90,0,0,1,0.05,0.03,2,6.2,1,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Yoel BÁRCENAS,MF,90,0,0,2,0.08,0.07,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,César BLACKMAN,DF,89,0,0,2,0.04,0.02,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Cristian MARTÍNEZ,MF,63,0,0,1,0.09,0.01,0,6.3,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Cecilio WATERMAN,FW,63,0,0,1,0.06,0.01,0,5.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,José Luis RODRIGUEZ,FW,74,0,0,,,0.02,0,5.8,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Azarías LONDOÑO,FW,27,0,0,,,0.02,2,6.4,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
+2026-06-18,L,Panama,Ghana,Ismael DÍAZ,FW,16,0,0,2,0.31,0.02,0,6.7,,FotMob/Opta,https://www.fotmob.com/en-GB/matches/panama-vs-ghana/1bjek0,ok
