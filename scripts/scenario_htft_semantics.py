@@ -54,12 +54,49 @@ SCENARIO_HTFT_SEMANTICS: dict[str, list[tuple[str, str, float]]] = {
         ("underdog_holds_ht", "draw_ft", 0.55),
         ("draw_ht", "favorite_wins_ft", 0.35),
     ],
+    "S11_group_state_draw_control": [
+        ("draw_ht", "draw_ft", 1.0),
+        ("underdog_holds_ht", "draw_ft", 0.55),
+        ("draw_ht", "favorite_wins_ft", 0.25),
+    ],
+    "S12_rotation_tempo_drop": [
+        ("draw_ht", "favorite_wins_ft", 0.55),
+        ("draw_ht", "draw_ft", 0.45),
+        ("favorite_leads_ht", "favorite_wins_ft", 0.35),
+    ],
+    "S13_must_win_early_aggression": [
+        ("favorite_leads_ht", "favorite_wins_ft", 0.65),
+        ("underdog_leads_ht", "underdog_wins_ft", 0.55),
+        ("draw_ht", "favorite_wins_ft", 0.45),
+        ("draw_ht", "underdog_wins_ft", 0.45),
+        ("favorite_leads_ht", "underdog_wins_ft", 0.25),
+    ],
+    "S14_buildup_gk_error_chain": [
+        ("favorite_leads_ht", "favorite_wins_ft", 0.65),
+        ("draw_ht", "favorite_wins_ft", 0.45),
+        ("underdog_leads_ht", "underdog_wins_ft", 0.40),
+    ],
+    "S15_weather_travel_pitch_adaptation": [
+        ("draw_ht", "favorite_wins_ft", 0.45),
+        ("draw_ht", "underdog_wins_ft", 0.35),
+        ("favorite_leads_ht", "draw_ft", 0.30),
+        ("underdog_leads_ht", "draw_ft", 0.30),
+    ],
+    "S16_var_penalty_momentum_swing": [
+        ("favorite_leads_ht", "underdog_wins_ft", 0.50),
+        ("draw_ht", "underdog_wins_ft", 0.45),
+        ("underdog_leads_ht", "favorite_wins_ft", 0.40),
+        ("draw_ht", "favorite_wins_ft", 0.40),
+        ("draw_ht", "draw_ft", 0.35),
+    ],
 }
 
 CHAOS_SCENARIO_IDS = {
     "S08_strict_ref_card_penalty_chaos",
+    "S16_var_penalty_momentum_swing",
     "S07_late_chase_open_game",
     "S05_high_line_vs_runner",
+    "S13_must_win_early_aggression",
 }
 
 UPSET_HTFT_IF_HOME_FAV = {"负/胜", "负/负", "负/平", "平/负"}

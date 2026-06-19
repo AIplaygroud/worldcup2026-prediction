@@ -1,4 +1,5 @@
 match_id,home_team,away_team,signal_type,team,minute_bucket,scenario_id,weight_delta,confidence,evidence_grade,single_source_penalty,evidence_summary,sources,use_for_weighting,available_before_kickoff,evidence_usage
-WC2026-C29,Brazil,Haiti,general_observation,Brazil,unknown,S10_tactical_stalemate_mutual_constraint,0.0136,0.6797,A,0.0,WC2026-C29|Brazil|general_observation|unknown,covers_odds|fifa_match_centre|fotmob_r1_brazil,true,true,pre_match_prediction
-WC2026-C29,Brazil,Haiti,low_block_success,Haiti,unknown,S02_low_block_survival,0.0533,0.6662,A,0.0,WC2026-C29|Haiti|low_block_success|unknown,fotmob_r1_haiti|yahoo_sports_preview,true,true,pre_match_prediction
-WC2026-C29,Brazil,Haiti,set_piece_edge,Brazil,unknown,S06_set_piece_breakthrough,0.0219,0.5605,B,0.65,WC2026-C29|Brazil|set_piece_edge|unknown,opta_analyst_brazil,true,true,pre_match_prediction
+WC2026-D32,USA,Australia,general_observation,,unknown,S10_tactical_stalemate_mutual_constraint,0.0072,0.5575,B,0.65,WC2026-D32||general_observation|unknown,fifa_match_centre,true,true,pre_match_prediction
+WC2026-D32,USA,Australia,injury_or_forced_substitution,Australia,unknown,S09_fatigue_travel_second_half_drop,0.0223,0.571,B,0.65,WC2026-D32|Australia|injury_or_forced_substitution|unknown,socceroos_preview,true,true,pre_match_prediction
+WC2026-D32,USA,Australia,transition_threat,Australia,unknown,S05_high_line_vs_runner,0.0406,0.624,B,0.65,WC2026-D32|Australia|transition_threat|unknown,fotmob_r1_australia,true,true,pre_match_prediction
+WC2026-D32,USA,Australia,low_block_success,Australia,unknown,S02_low_block_survival,0.0308,0.592,B,0.65,WC2026-D32|Australia|low_block_success|unknown,opta_analyst_australia,true,true,pre_match_prediction

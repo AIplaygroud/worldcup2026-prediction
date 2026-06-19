@@ -11,6 +11,7 @@ from eventflow_common import (
     EVENTFLOW_DB, read_csv, read_json, write_csv, write_json,
     fnum, snum, top_score_distribution, htft_label, normalize_weights,
 )
+from eventflow_v32_gates import parse_gates_json
 from eventflow_htft import compute_htft_top3, enrich_phase_simulation, summarize_data_quality, count_prematch_evidence
 
 MODE_WEIGHT = {
@@ -72,10 +73,42 @@ def _w(s: Dict[str, str]) -> float:
     return fnum(s, "normalized_weight") or fnum(s, "final_weight") or fnum(s, "weight")
 
 
+def is_prior_only(s: Dict[str, str]) -> bool:
+    tac = fnum(s, "raw_tactical_delta", fnum(s, "tactical_delta"))
+    src = fnum(s, "raw_source_delta", fnum(s, "source_delta"))
+    prob = fnum(s, "raw_probability_context_delta", fnum(s, "probability_context_delta"))
+    ply = fnum(s, "raw_player_delta", fnum(s, "player_delta"))
+    gates = parse_gates_json(snum(s, "weight_gates"))
+    if gates.get("gate_applied"):
+        return tac < 0.02 and src < 0.01 and prob < 0.02
+    return tac < 0.02 and src < 0.01 and prob < 0.02 and ply < 0.01
+
+
+def weight_composition_from_row(s: Dict[str, str]) -> Dict[str, Any]:
+    gates = parse_gates_json(snum(s, "weight_gates"))
+    refs = [x.strip() for x in snum(s, "evidence_refs").split(";") if x.strip()]
+    if refs and "evidence_refs" not in gates:
+        gates["evidence_refs"] = refs
+    return {
+        "raw_base_weight": fnum(s, "raw_base_weight", fnum(s, "base_weight", 0.1)),
+        "raw_tactical_delta": fnum(s, "raw_tactical_delta", fnum(s, "tactical_delta")),
+        "raw_player_delta": fnum(s, "raw_player_delta", fnum(s, "player_delta")),
+        "raw_source_delta": fnum(s, "raw_source_delta", fnum(s, "source_delta")),
+        "raw_probability_context_delta": fnum(s, "raw_probability_context_delta", fnum(s, "probability_context_delta")),
+        "raw_total_score": fnum(s, "raw_total_score") or _w(s),
+        "normalized_weight": _w(s),
+        "gates": gates,
+        "evidence_refs": refs,
+    }
+
+
 def pick_activated(scenarios: List[Dict[str, str]], min_n: int = 3, max_n: int = 6) -> List[Dict[str, str]]:
     ranked = sorted(scenarios, key=_w, reverse=True)
-    n = min(max_n, max(min_n, len(ranked)))
-    return ranked[:n]
+    substantive = [s for s in ranked if not is_prior_only(s)]
+    prior = [s for s in ranked if is_prior_only(s)]
+    pool = substantive + prior
+    n = min(max_n, max(min_n, len(pool)))
+    return pool[:n]
 
 
 def build_activated_payload(activated: List[Dict[str, str]]) -> List[Dict[str, Any]]:
@@ -88,15 +121,7 @@ def build_activated_payload(activated: List[Dict[str, str]]) -> List[Dict[str, A
             "name": snum(s, "scenario_name"),
             "weight": round(_w(s), 4),
             "normalized_weight": round(_w(s), 4),
-            "weight_composition": {
-                "raw_base_weight": fnum(s, "raw_base_weight", fnum(s, "base_weight", 0.10)),
-                "raw_tactical_delta": fnum(s, "raw_tactical_delta", fnum(s, "tactical_delta")),
-                "raw_player_delta": fnum(s, "raw_player_delta", fnum(s, "player_delta")),
-                "raw_source_delta": fnum(s, "raw_source_delta", fnum(s, "source_delta")),
-                "raw_probability_context_delta": fnum(s, "raw_probability_context_delta", fnum(s, "probability_context_delta")),
-                "raw_total_score": raw_total,
-                "normalized_weight": _w(s),
-            },
+            "weight_composition": weight_composition_from_row(s),
             "evidence_summary": snum(s, "evidence_summary") or snum(s, "triggered_by"),
             "affected_score_families": fam,
         })
@@ -233,15 +258,7 @@ def main() -> None:
                 {
                     "scenario_id": snum(s, "scenario_id"),
                     "name": snum(s, "scenario_name"),
-                    "weight_composition": {
-                        "raw_base_weight": fnum(s, "raw_base_weight", fnum(s, "base_weight", 0.1)),
-                        "raw_tactical_delta": fnum(s, "raw_tactical_delta", fnum(s, "tactical_delta")),
-                        "raw_player_delta": fnum(s, "raw_player_delta", fnum(s, "player_delta")),
-                        "raw_source_delta": fnum(s, "raw_source_delta", fnum(s, "source_delta")),
-                        "raw_probability_context_delta": fnum(s, "raw_probability_context_delta", fnum(s, "probability_context_delta")),
-                        "raw_total_score": fnum(s, "raw_total_score", _w(s)),
-                        "normalized_weight": _w(s),
-                    },
+                    "weight_composition": weight_composition_from_row(s),
                 }
                 for s in sorted(all_scenarios, key=_w, reverse=True)
             ],

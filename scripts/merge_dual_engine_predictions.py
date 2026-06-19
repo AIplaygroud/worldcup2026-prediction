@@ -377,6 +377,7 @@ def main() -> None:
         "eventflow_engine": {
             "eventflow_data_degraded": eventflow_degraded,
             "activated_scenarios": activated,
+            "all_scenario_weights": ef_engine.get("all_scenario_weights", []),
             "phase_simulation": ef_engine.get("phase_simulation", {}),
             "top_scores": [snum(r, "score") for r in ev_rows[:3]],
             "half_full_time_top3": htft_top3,

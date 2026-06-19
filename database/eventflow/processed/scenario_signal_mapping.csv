@@ -5,8 +5,8 @@ low_block_success,S02_low_block_survival,+1,0.08,弱队低位压缩上半场
 low_block_failure,S01_favorite_early_break_open,+1,0.08,低位被拉开后强队早球打开比赛
 transition_threat,S05_high_line_vs_runner,+1,0.10,高位防线被速度型前锋冲身后
 set_piece_edge,S06_set_piece_breakthrough,+1,0.06,定位球身高/战术优势破局
-goalkeeper_error,S01_favorite_early_break_open,+1,0.05,门将/防守失误导致局面打开
-card_or_referee_chaos,S08_strict_ref_card_penalty_chaos,+1,0.10,严哨/红牌/点球导致混沌
+goalkeeper_error,S14_buildup_gk_error_chain,+1,0.05,门将/防守失误导致后场出球链断裂
+card_or_referee_chaos,S08_strict_ref_card_penalty_chaos,+1,0.10,严哨/红牌/身体对抗导致混沌
 injury_or_forced_substitution,S09_fatigue_travel_second_half_drop,+1,0.06,被迫换人/体能下滑
 late_game_opening,S07_late_chase_open_game,+1,0.10,末段追分导致开放式尾段
 position_shift,S03_wide_overload_crossfire,+1,0.05,位置偏移/逆足使用制造边路错位
@@ -14,3 +14,14 @@ strong_side_attack,S03_wide_overload_crossfire,+1,0.08,强侧边路持续过载
 tactical_mutual_lock,S10_tactical_stalemate_mutual_constraint,+1,0.08,战术互锁压低比分
 formation_actual,S10_tactical_stalemate_mutual_constraint,+1,0.03,阵型互锁/节奏偏慢
 weak_side_exposure,S03_wide_overload_crossfire,+1,0.06,弱侧防守暴露被持续利用
+group_draw_control,S11_group_state_draw_control,+1,0.08,小组积分形势使球队接受平局或控节奏
+group_table_pressure,S13_must_win_early_aggression,+1,0.08,积分压力迫使球队主动抢分
+rotation_risk,S12_rotation_tempo_drop,+1,0.07,轮换或保护主力导致节奏下降
+starter_rest_signal,S12_rotation_tempo_drop,+1,0.06,首发/核心出场时间管理
+buildup_gk_error,S14_buildup_gk_error_chain,+1,0.08,门将或后场出球失误链
+buildup_press_risk,S14_buildup_gk_error_chain,+1,0.06,后场短传出球被高压针对
+weather_heat_humidity,S15_weather_travel_pitch_adaptation,+1,0.06,高温湿度影响体能和节奏
+travel_fatigue,S15_weather_travel_pitch_adaptation,+1,0.06,旅行/时差/赛程导致适应问题
+pitch_adaptation,S15_weather_travel_pitch_adaptation,+1,0.05,场地条件影响技术执行
+var_penalty_swing,S16_var_penalty_momentum_swing,+1,0.08,VAR或点球改变比赛走势
+box_defending_risk,S16_var_penalty_momentum_swing,+1,0.05,禁区防守动作带来点球风险

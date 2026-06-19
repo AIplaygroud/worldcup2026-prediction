@@ -58,5 +58,65 @@
       "2-1"
     ],
     "probability_data_degraded": false
+  },
+  "WC2026-D32": {
+    "match_id": "WC2026-D32",
+    "home": "USA",
+    "away": "Australia",
+    "lambda_home": 1.581,
+    "lambda_away": 1.3771,
+    "base_lambda_home": 1.3702,
+    "base_lambda_away": 1.3702,
+    "strength_source": "opponent_strength.csv",
+    "xg_source": "USA:wc2026_team_xg_adj.csv; Australia:wc2026_team_xg_adj.csv",
+    "whether_default_used": false,
+    "missing_team_profile_fields": [],
+    "probability_top3_reason": "λ比=1.15，实力接近，Top3分散(1-1(11.8%), 2-1(8.9%), 1-2(7.8%))",
+    "probability_top3": [
+      "1-1",
+      "2-1",
+      "1-2"
+    ],
+    "probability_data_degraded": false
+  },
+  "WC2026-C30": {
+    "match_id": "WC2026-C30",
+    "home": "Scotland",
+    "away": "Morocco",
+    "lambda_home": 0.8177,
+    "lambda_away": 2.4548,
+    "base_lambda_home": 0.8177,
+    "base_lambda_away": 1.5986,
+    "strength_source": "opponent_strength.csv",
+    "xg_source": "Scotland:wc2026_team_xg_adj.csv; Morocco:wc2026_team_xg_adj.csv",
+    "whether_default_used": false,
+    "missing_team_profile_fields": [],
+    "probability_top3_reason": "λ比=0.33，中等差距，Top3=0-2(11.4%), 0-3(9.4%), 1-2(9.3%)",
+    "probability_top3": [
+      "0-2",
+      "0-3",
+      "1-2"
+    ],
+    "probability_data_degraded": false
+  },
+  "WC2026-D31": {
+    "match_id": "WC2026-D31",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "lambda_home": 1.5403,
+    "lambda_away": 1.3615,
+    "base_lambda_home": 1.4127,
+    "base_lambda_away": 1.3572,
+    "strength_source": "opponent_strength.csv",
+    "xg_source": "Turkey:wc2026_team_xg_adj.csv; Paraguay:wc2026_team_xg_adj.csv",
+    "whether_default_used": false,
+    "missing_team_profile_fields": [],
+    "probability_top3_reason": "λ比=1.13，实力接近，Top3分散(1-1(12.0%), 2-1(8.9%), 1-0(7.9%))",
+    "probability_top3": [
+      "1-1",
+      "2-1",
+      "1-0"
+    ],
+    "probability_data_degraded": false
   }
 }

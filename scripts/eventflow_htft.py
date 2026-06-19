@@ -43,19 +43,16 @@ MAPPING_PATH = DB / "competition" / "wc2026_match_id_mapping.csv"
 
 
 EARLY_SCENARIO_IDS = {
-
     "S01_favorite_early_break_open", "S02_low_block_survival", "S03_wide_overload_crossfire",
-
     "S04_press_trap_turnover_goal", "S06_set_piece_breakthrough", "S10_tactical_stalemate_mutual_constraint",
-
+    "S11_group_state_draw_control", "S12_rotation_tempo_drop", "S13_must_win_early_aggression",
+    "S14_buildup_gk_error_chain",
 }
 
 LATE_SCENARIO_IDS = {
-
     "S07_late_chase_open_game", "S08_strict_ref_card_penalty_chaos", "S09_fatigue_travel_second_half_drop",
-
     "S01_favorite_early_break_open", "S05_high_line_vs_runner",
-
+    "S11_group_state_draw_control", "S15_weather_travel_pitch_adaptation", "S16_var_penalty_momentum_swing",
 }
 
 

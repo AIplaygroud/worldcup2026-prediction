@@ -1,6 +1,6 @@
 ﻿match_id,home,away,engine_mode,rank,score,eventflow_score,event_probability,score_family,total_goals_bucket,htft,reason,scenario_ids,data_confidence,generated_at
-WC2026-C29,Brazil,Haiti,balanced,1,3-1,0.080119,0.080119,tail,4球,,强队早球后比赛被打开；边路错位被持续打穿；高压陷阱制造前场失误,S01_favorite_early_break_open;S03_wide_overload_crossfire;S04_press_trap_turnover_goal,0.72,2026-06-19T11:01:36.214025+00:00
-WC2026-C29,Brazil,Haiti,balanced,2,3-0,0.072728,0.072728,normal,3球,,强队早球后比赛被打开,S01_favorite_early_break_open,0.72,2026-06-19T11:01:36.214025+00:00
-WC2026-C29,Brazil,Haiti,balanced,3,2-0,0.072236,0.072236,normal,2球,,强队早球后比赛被打开；高压陷阱制造前场失误；定位球成为破局点,S01_favorite_early_break_open;S04_press_trap_turnover_goal;S06_set_piece_breakthrough,0.72,2026-06-19T11:01:36.214025+00:00
-WC2026-C29,Brazil,Haiti,balanced,4,2-1,0.072158,0.072158,normal,3球,,边路错位被持续打穿；高压陷阱制造前场失误；定位球成为破局点,S03_wide_overload_crossfire;S04_press_trap_turnover_goal;S06_set_piece_breakthrough;S07_late_chase_open_game,0.72,2026-06-19T11:01:36.214025+00:00
-WC2026-C29,Brazil,Haiti,balanced,5,4-1,0.063327,0.063327,tail,5+球,,强队早球后比赛被打开,S01_favorite_early_break_open,0.72,2026-06-19T11:01:36.214025+00:00
+WC2026-D32,USA,Australia,balanced,1,3-1,0.072393,0.072393,tail,4球,,强队早球后比赛被打开；边路错位被持续打穿；高压陷阱制造前场失误,S01_favorite_early_break_open;S03_wide_overload_crossfire;S04_press_trap_turnover_goal,0.75,2026-06-19T12:05:59.721794+00:00
+WC2026-D32,USA,Australia,balanced,2,2-1,0.07181,0.07181,normal,3球,,边路错位被持续打穿；高压陷阱制造前场失误；定位球成为破局点,S03_wide_overload_crossfire;S04_press_trap_turnover_goal;S06_set_piece_breakthrough;S07_late_chase_open_game,0.75,2026-06-19T12:05:59.721794+00:00
+WC2026-D32,USA,Australia,balanced,3,1-2,0.059255,0.059255,normal,3球,,高位防线被速度型前锋反复冲身后；末段追分压上导致开放式尾段,S05_high_line_vs_runner;S07_late_chase_open_game,0.75,2026-06-19T12:05:59.721794+00:00
+WC2026-D32,USA,Australia,balanced,4,2-0,0.058274,0.058274,normal,2球,,强队早球后比赛被打开；高压陷阱制造前场失误；定位球成为破局点,S01_favorite_early_break_open;S04_press_trap_turnover_goal;S06_set_piece_breakthrough,0.75,2026-06-19T12:05:59.721794+00:00
+WC2026-D32,USA,Australia,balanced,5,3-0,0.054373,0.054373,normal,3球,,强队早球后比赛被打开,S01_favorite_early_break_open,0.75,2026-06-19T12:05:59.721794+00:00

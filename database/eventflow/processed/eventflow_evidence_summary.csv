@@ -1,2 +1,3 @@
 match_id,signal_type,team,evidence_grade,confidence,evidence_summary,sources,note
-WC2026-C29,strong_side_attack,Brazil,C,0.4845,WC2026-C29|Brazil|strong_side_attack|unknown,wc2026_r2_strategy,仅进入 evidence_summary，不参与 scenario 加权
+WC2026-D32,pressing_success,USA,C,0.624,WC2026-D32|USA|pressing_success|unknown,fotmob_r1_usa,仅进入 evidence_summary，不参与 scenario 加权
+WC2026-D32,strong_side_attack,USA,C,0.5185,WC2026-D32|USA|strong_side_attack|unknown,yahoo_usa_australia,仅进入 evidence_summary，不参与 scenario 加权

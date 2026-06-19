@@ -30,4 +30,20 @@ Allowed signal_type values:
 - injury_or_forced_substitution
 - late_game_opening
 - tactical_mutual_lock
+- group_draw_control
+- group_table_pressure
+- rotation_risk
+- starter_rest_signal
+- buildup_gk_error
+- buildup_press_risk
+- weather_heat_humidity
+- travel_fatigue
+- pitch_adaptation
+- var_penalty_swing
+- box_defending_risk
 - general_observation
+
+If a source mentions group standings, qualification incentives, must-win pressure, rotation, travel, weather, pitch, VAR, penalty tendency, or build-up errors, do not label it as `general_observation`. Use the most specific `signal_type` above.
+
+- Red card / second yellow / strict physical contact → `card_or_referee_chaos` (S08)
+- VAR / penalty / handball / box defending risk → `var_penalty_swing` or `box_defending_risk` (S16)

@@ -198,7 +198,7 @@
   },
   {
     "scenario_id": "S08_strict_ref_card_penalty_chaos",
-    "name": "严哨/点球/红牌使比赛进入混沌",
+    "name": "严哨/红牌/身体对抗混沌",
     "trigger_features": [
       "strict_referee",
       "card_risk",
@@ -224,7 +224,7 @@
         "3-2"
       ]
     },
-    "notes": "与已有裁判 L10 模块联动，只能在裁判层有信号时触发高权重。"
+    "notes": "红牌/第二黄/严哨/身体对抗混沌；VAR/点球见 S16。与裁判 L10 联动，证据不足时仅 baseline。"
   },
   {
     "scenario_id": "S09_fatigue_travel_second_half_drop",
@@ -282,5 +282,190 @@
       ]
     },
     "notes": "不是双方都弱，而是核心路径互相克制。"
+  },
+  {
+    "scenario_id": "S11_group_state_draw_control",
+    "name": "小组赛积分形势导致接受平局/控节奏",
+    "trigger_features": [
+      "group_standings",
+      "qualification_incentive",
+      "draw_acceptable",
+      "tempo_management"
+    ],
+    "effects": {
+      "home_lambda_delta": -0.08,
+      "away_lambda_delta": -0.08,
+      "variance_delta": -0.10,
+      "under25_delta": 0.12,
+      "htft_bias": [
+        "平/平",
+        "平/胜",
+        "平/负"
+      ],
+      "score_family": [
+        "0-0",
+        "1-1",
+        "1-0",
+        "0-1"
+      ]
+    },
+    "notes": "第2/3轮小组赛中，积分形势使一方或双方可接受平局，节奏变慢、冒险降低。"
+  },
+  {
+    "scenario_id": "S12_rotation_tempo_drop",
+    "name": "轮换/保主力导致强队节奏下降",
+    "trigger_features": [
+      "rotation_risk",
+      "starter_rest",
+      "squad_management",
+      "schedule_density"
+    ],
+    "effects": {
+      "favorite_lambda_delta": -0.10,
+      "underdog_lambda_delta": 0.02,
+      "variance_delta": -0.06,
+      "under25_delta": 0.08,
+      "htft_bias": [
+        "平/胜",
+        "平/平",
+        "胜/胜",
+        "负/负"
+      ],
+      "score_family": [
+        "1-0",
+        "2-0",
+        "1-1",
+        "2-1"
+      ]
+    },
+    "notes": "轮换、保护核心或赛程管理导致压迫和进攻效率下降；需多源证据，不足时仅保留 base_weight。"
+  },
+  {
+    "scenario_id": "S13_must_win_early_aggression",
+    "name": "必须抢分队开局冒进",
+    "trigger_features": [
+      "must_win_context",
+      "group_table_pressure",
+      "early_aggression",
+      "goal_difference_deficit"
+    ],
+    "effects": {
+      "both_lambda_delta_early": 0.08,
+      "variance_delta": 0.14,
+      "over25_delta": 0.10,
+      "btts_delta": 0.08,
+      "htft_bias": [
+        "胜/胜",
+        "负/负",
+        "平/胜",
+        "平/负",
+        "胜/负",
+        "负/胜"
+      ],
+      "score_family": [
+        "2-1",
+        "1-2",
+        "2-2",
+        "3-1",
+        "1-3",
+        "3-2"
+      ]
+    },
+    "notes": "积分压力迫使球队开场提高风险，早段进球或被反击惩罚概率上升。"
+  },
+  {
+    "scenario_id": "S14_buildup_gk_error_chain",
+    "name": "门将/后场出球失误链",
+    "trigger_features": [
+      "buildup_gk_error",
+      "buildup_press_risk",
+      "keeper_distribution_risk",
+      "press_trap_edge"
+    ],
+    "effects": {
+      "pressing_team_lambda_delta": 0.12,
+      "variance_delta": 0.12,
+      "over25_delta": 0.06,
+      "htft_bias": [
+        "胜/胜",
+        "负/负",
+        "平/胜",
+        "平/负"
+      ],
+      "score_family": [
+        "1-0",
+        "0-1",
+        "2-0",
+        "0-2",
+        "2-1",
+        "1-2",
+        "3-1"
+      ]
+    },
+    "notes": "门将或后场出球在高压下连续失误，直接改变比分和比赛状态。"
+  },
+  {
+    "scenario_id": "S15_weather_travel_pitch_adaptation",
+    "name": "极端天气/场地/旅行适应影响节奏",
+    "trigger_features": [
+      "weather_heat_humidity",
+      "travel_fatigue",
+      "pitch_adaptation",
+      "venue_environment"
+    ],
+    "effects": {
+      "fatigued_team_lambda_delta": -0.06,
+      "opponent_second_half_lambda_delta": 0.08,
+      "variance_delta": 0.08,
+      "over15_second_half_delta": 0.10,
+      "htft_bias": [
+        "平/胜",
+        "平/负",
+        "胜/平",
+        "负/平"
+      ],
+      "score_family": [
+        "1-0",
+        "0-1",
+        "2-1",
+        "1-2",
+        "2-0",
+        "0-2"
+      ]
+    },
+    "notes": "天气、旅行、时差、场地条件影响体能和技术执行，常在下半场体现。"
+  },
+  {
+    "scenario_id": "S16_var_penalty_momentum_swing",
+    "name": "VAR/点球/争议判罚改变比赛节奏",
+    "trigger_features": [
+      "var_penalty_swing",
+      "box_defending_risk",
+      "penalty_tendency",
+      "var_intervention"
+    ],
+    "effects": {
+      "variance_delta": 0.16,
+      "score_tail_delta": 0.10,
+      "over25_delta": 0.08,
+      "btts_delta": 0.06,
+      "htft_bias": [
+        "胜/负",
+        "负/胜",
+        "平/胜",
+        "平/负",
+        "胜/平",
+        "负/平"
+      ],
+      "score_family": [
+        "2-1",
+        "1-2",
+        "2-2",
+        "3-1",
+        "1-3",
+        "3-2"
+      ]
+    },
+    "notes": "VAR、点球、争议判罚改变比赛心理和节奏；与 S08（红牌/严哨/身体对抗）拆分。"
   }
 ]

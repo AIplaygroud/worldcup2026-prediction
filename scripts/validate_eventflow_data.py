@@ -1,17 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Validate EventFlow V3.0 data completeness and confidence.
+"""Validate EventFlow V3.0+ data completeness and confidence.
 
 Output:
 - database/eventflow/processed/eventflow_data_quality.csv
 """
 from __future__ import annotations
 
+import json
 from datetime import date
 from pathlib import Path
 from typing import Any, Dict, List
 
 from eventflow_common import DB, EVENTFLOW_DB, read_csv, write_csv, snum, fnum
+
+REQUIRED_SCENARIO_IDS = (
+    "S11_group_state_draw_control",
+    "S12_rotation_tempo_drop",
+    "S13_must_win_early_aggression",
+    "S14_buildup_gk_error_chain",
+    "S15_weather_travel_pitch_adaptation",
+    "S16_var_penalty_momentum_swing",
+)
 
 TABLE_REQUIREMENTS = {
     "player_style/processed/player_foot_position_profile.csv": ["player","team","preferred_foot","primary_position","profile_confidence"],
@@ -49,8 +59,37 @@ def score_table(rel: str, req: List[str]) -> Dict[str, Any]:
     }
 
 
+def validate_scenario_library() -> Dict[str, Any]:
+    path = EVENTFLOW_DB / "scenario_library.json"
+    scenarios = json.loads(path.read_text(encoding="utf-8"))
+    ids = {s.get("scenario_id", "") for s in scenarios}
+    missing = [sid for sid in REQUIRED_SCENARIO_IDS if sid not in ids]
+    incomplete = []
+    for s in scenarios:
+        sid = s.get("scenario_id", "")
+        if sid not in REQUIRED_SCENARIO_IDS:
+            continue
+        effects = s.get("effects", {})
+        for key in ("htft_bias", "score_family"):
+            if not effects.get(key):
+                incomplete.append(f"{sid}:missing_{key}")
+    quality = 1.0 if not missing and not incomplete else max(0.0, 1.0 - 0.1 * (len(missing) + len(incomplete)))
+    return {
+        "dataset": "eventflow",
+        "table_name": "eventflow/processed/scenario_library.json",
+        "rows": len(scenarios),
+        "required_fields_missing": len(missing) + len(incomplete),
+        "stale_rows": 0,
+        "low_confidence_rows": 0,
+        "last_updated": date.today().isoformat(),
+        "quality_score": quality,
+        "notes": "ok" if quality >= 0.75 else f"missing_scenarios={missing} incomplete={incomplete}",
+    }
+
+
 def main() -> None:
     out = [score_table(rel, req) for rel, req in TABLE_REQUIREMENTS.items()]
+    out.append(validate_scenario_library())
     write_csv(EVENTFLOW_DB / "eventflow_data_quality.csv", out)
     for r in out:
         print(f"{r['table_name']}: rows={r['rows']} quality={float(r['quality_score']):.2f} {r['notes']}")

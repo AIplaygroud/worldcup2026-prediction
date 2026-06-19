@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Score EventFlow scenario weights with full weight decomposition per S01–S10."""
+"""Score EventFlow scenario weights with full weight decomposition per S01–S16."""
 from __future__ import annotations
 
 import re
@@ -9,14 +9,29 @@ from datetime import datetime, timezone
 from typing import Any, Dict, List, Tuple
 
 from eventflow_common import (
-    EVENTFLOW_DB, TEAM_DB, PLAYER_DB, DB, read_csv, read_json, write_csv,
+    DB, EVENTFLOW_DB, TEAM_DB, PLAYER_DB, read_csv, read_json, write_csv,
     fnum, snum, normalize_weights,
+)
+from eventflow_v32_gates import (
+    S16_SIGNALS,
+    base_weight_for,
+    buildup_risk_score_specific,
+    cap_s14_tactical,
+    compute_s11_draw_control_score,
+    environment_stress_structured,
+    gates_to_json,
+    has_specific_buildup_evidence,
+    match_fused_signal_types,
+    rotation_risk_gated,
+    should_enable_s13_group_pressure,
 )
 from scenario_htft_semantics import semantic_patterns_for
 
 MAPPING_PATH = EVENTFLOW_DB / "scenario_signal_mapping.csv"
+COMP_DB = DB / "competition"
 
 S08_ID = "S08_strict_ref_card_penalty_chaos"
+S16_ID = "S16_var_penalty_momentum_swing"
 REF_STYLE_MIN_CONF = 0.65
 REF_STRICT_FLOOR = 0.45
 REF_PK_RC_FLOOR = 0.40
@@ -63,7 +78,7 @@ def s08_tactical_delta(
     away_prof: Dict[str, str],
     src_d: float,
 ) -> tuple[float, str]:
-    """S08 only rises with card/ref/VAR evidence — not generic chaos_index alone."""
+    """S08: red card / strict whistle / physical chaos — not VAR/penalty (see S16)."""
     if src_d > 0:
         return min(0.22, 0.08 + src_d * 1.6), "fused_card_or_referee_AB"
 
@@ -71,21 +86,46 @@ def s08_tactical_delta(
     style = _referee_style_row(ref)
     if style and fnum(style, "data_confidence") >= REF_STYLE_MIN_CONF:
         strict = fnum(style, "strictness_index")
-        pk = abs(fnum(style, "penalty_tendency"))
         rc = max(0.0, fnum(style, "red_card_tendency"))
-        if strict >= REF_STRICT_FLOOR or pk >= REF_PK_RC_FLOOR or rc >= REF_PK_RC_FLOOR:
-            bonus = 0.06 + strict * 0.12 + max(pk, rc) * 0.08
-            return min(0.20, bonus), f"referee_style:{ref}"
+        yc = abs(fnum(style, "yc90_z"))
+        if strict >= REF_STRICT_FLOOR or rc >= REF_PK_RC_FLOOR or yc >= 0.5:
+            bonus = 0.06 + strict * 0.12 + max(rc, yc * 0.15) * 0.08
+            return min(0.20, bonus), f"referee_strict_rc:{ref}"
 
     impact = _referee_impact_row(ref)
     if impact and fnum(impact, "impact_index") >= REF_IMPACT_FLOOR:
-        bonus = 0.08 + fnum(impact, "impact_index") * 0.12
-        return min(0.18, bonus), f"referee_impact:{ref}"
+        bonus = 0.08 + fnum(impact, "impact_index") * 0.10
+        return min(0.16, bonus), f"referee_impact:{ref}"
 
     chaos = (fnum(home_prof, "chaos_index") + fnum(away_prof, "chaos_index")) / 2
     if chaos >= 0.55:
         return min(0.06, chaos * 0.08), "high_team_chaos_index_only"
-    return 0.0, "no_ref_card_var_evidence_baseline_only"
+    return 0.0, "no_ref_card_evidence_baseline_only"
+
+
+def s16_tactical_delta(
+    match_id: str,
+    src_d: float,
+    signal_types: set[str],
+) -> tuple[float, str, Dict[str, Any]]:
+    """S16: VAR / penalty — requires referee or fused evidence."""
+    gates: Dict[str, Any] = {"evidence_refs": sorted(signal_types & S16_SIGNALS)}
+    if src_d > 0:
+        return min(0.22, 0.08 + src_d * 1.6), "fused_var_penalty_evidence", gates
+
+    ref = _match_referee_name(match_id)
+    style = _referee_style_row(ref)
+    if style and fnum(style, "data_confidence") >= REF_STYLE_MIN_CONF:
+        pk = abs(fnum(style, "penalty_tendency"))
+        var_z = abs(fnum(style, "var_z"))
+        if pk >= REF_PK_RC_FLOOR or var_z >= 0.30:
+            bonus = 0.06 + pk * 0.12 + var_z * 0.06
+            gates["referee_pk_var"] = ref
+            return min(0.20, bonus), f"referee_pk_var:{ref}", gates
+
+    gates["gate_applied"] = True
+    gates["gate_reason"] = "no_var_penalty_evidence"
+    return 0.0, "no_var_penalty_evidence", gates
 
 
 def count_position_shift(team: str, match_id: str) -> float:
@@ -139,7 +179,12 @@ def fused_adjustments(match_id: str) -> Tuple[Dict[str, float], Dict[str, List[s
     return dict(deltas), dict(evidence), grades
 
 
-def tactical_component(sid: str, m: Dict[str, str], home_prof: Dict[str, str], away_prof: Dict[str, str]) -> float:
+def tactical_component_legacy(
+    sid: str,
+    m: Dict[str, str],
+    home_prof: Dict[str, str],
+    away_prof: Dict[str, str],
+) -> float:
     hb = fnum(m, "home_breakthrough_score")
     ab = fnum(m, "away_breakthrough_score")
     imbalance = fnum(m, "matchup_imbalance_index")
@@ -177,19 +222,14 @@ def tactical_component(sid: str, m: Dict[str, str], home_prof: Dict[str, str], a
     return 0.0
 
 
-def player_component(sid: str, m: Dict[str, str]) -> float:
-    if sid != "S03_wide_overload_crossfire":
-        return 0.0
-    return max(
-        count_position_shift(snum(m, "home"), snum(m, "match_id")),
-        count_position_shift(snum(m, "away"), snum(m, "match_id")),
-    ) * 0.20
-
-
-def probability_context_delta(sid: str, m: Dict[str, str]) -> float:
+def probability_context_delta(sid: str, m: Dict[str, str], s13_enabled: bool = True) -> float:
     imbalance = fnum(m, "matchup_imbalance_index")
     if sid in ("S01_favorite_early_break_open", "S07_late_chase_open_game"):
         return imbalance * 0.05
+    if sid == "S13_must_win_early_aggression" and s13_enabled:
+        return imbalance * 0.05
+    if sid == "S11_group_state_draw_control":
+        return -imbalance * 0.03
     return 0.0
 
 
@@ -239,6 +279,113 @@ def collect_matchups() -> List[Dict[str, str]]:
     return out
 
 
+def score_v32_scenario(
+    sid: str,
+    m: Dict[str, str],
+    hp: Dict[str, str],
+    ap: Dict[str, str],
+    mid: str,
+    home: str,
+    away: str,
+    src_d: float,
+    signal_types: set[str],
+    s08_tac: float,
+    s16_result: tuple[float, str, Dict[str, Any]],
+) -> Tuple[float, float, float, float, str, Dict[str, Any], List[str]]:
+    """Return tac_d, ply_d, prob_d, src_d (possibly zeroed), trigger, gates, evidence_refs."""
+    hpress = fnum(m, "home_press_trap_edge")
+    apress = fnum(m, "away_press_trap_edge")
+    hb = fnum(m, "home_breakthrough_score")
+    ab = fnum(m, "away_breakthrough_score")
+    gates: Dict[str, Any] = {}
+    evidence_refs: List[str] = []
+    trigger = "auto_matchup_features"
+
+    if sid in (
+        "S01_favorite_early_break_open", "S02_low_block_survival", "S03_wide_overload_crossfire",
+        "S04_press_trap_turnover_goal", "S05_high_line_vs_runner", "S06_set_piece_breakthrough",
+        "S07_late_chase_open_game", "S09_fatigue_travel_second_half_drop",
+        "S10_tactical_stalemate_mutual_constraint",
+    ):
+        tac = tactical_component_legacy(sid, m, hp, ap)
+        prob = probability_context_delta(sid, m)
+        return tac, player_component(sid, m), prob, src_d, trigger, gates, evidence_refs
+
+    if sid == S08_ID:
+        return s08_tac, 0.0, 0.0, src_d, "s08_referee_card", gates, evidence_refs
+
+    if sid == "S11_group_state_draw_control":
+        s11_score, s11_detail = compute_s11_draw_control_score(mid, home, away, hb, ab)
+        tac = s11_score * 0.30
+        gates = {"s11_draw_control": s11_detail}
+        prob = probability_context_delta(sid, m)
+        if tac > 0:
+            trigger = "group_standings_draw_control"
+        return tac, 0.0, prob, src_d, trigger, gates, evidence_refs
+
+    if sid == "S12_rotation_tempo_drop":
+        rot_score, rot_gates = rotation_risk_gated(mid, src_d, signal_types)
+        gates = rot_gates
+        evidence_refs = rot_gates.get("evidence_refs", [])
+        if not rot_gates.get("source_backed"):
+            return 0.0, 0.0, 0.0, 0.0, "prior_only_no_rotation_evidence", gates, evidence_refs
+        tac = rot_score * 0.25
+        trigger = "rotation_evidence"
+        return tac, 0.0, 0.0, src_d, trigger, gates, evidence_refs
+
+    if sid == "S13_must_win_early_aggression":
+        s13_ok, s13_meta = should_enable_s13_group_pressure(mid, home, away, signal_types)
+        gates = {"s13_group_pressure_gate": s13_meta}
+        if not s13_ok:
+            gates["gate_applied"] = True
+            gates["gate_reason"] = s13_meta.get("gate_reason", "s13_gate_blocked")
+            return 0.0, 0.0, 0.0, 0.0, "s13_gate_blocked_no_pressure", gates, []
+        from eventflow_v32_gates import compute_group_table_pressure
+        tac = compute_group_table_pressure(mid, home, away) * 0.30
+        prob = probability_context_delta(sid, m, s13_enabled=True)
+        trigger = "group_table_must_win"
+        return tac, 0.0, prob, src_d, trigger, gates, sorted(signal_types & {"group_table_pressure"})
+
+    if sid == "S14_buildup_gk_error_chain":
+        has_spec, refs = has_specific_buildup_evidence(signal_types, hp, ap)
+        evidence_refs = refs
+        raw_tac = buildup_risk_score_specific(hp, ap, hpress, apress, has_spec) * 0.35
+        tac, s14_gates = cap_s14_tactical(raw_tac, has_spec)
+        gates = s14_gates
+        gates["evidence_refs"] = refs
+        trigger = "buildup_gk_evidence" if has_spec else "press_cap_only"
+        return tac, 0.0, 0.0, src_d, trigger, gates, evidence_refs
+
+    if sid == "S15_weather_travel_pitch_adaptation":
+        env_score, refs = environment_stress_structured(mid, signal_types)
+        evidence_refs = refs
+        if env_score <= 0:
+            gates = {"gate_applied": True, "gate_reason": "no_environment_evidence", "evidence_refs": []}
+            return 0.0, 0.0, 0.0, 0.0, "prior_only_no_environment_evidence", gates, []
+        tac = env_score * 0.25
+        gates = {"evidence_refs": refs}
+        trigger = "environment_fused_evidence"
+        return tac, 0.0, 0.0, src_d, trigger, gates, evidence_refs
+
+    if sid == S16_ID:
+        s16_tac, s16_trig, s16_gates = s16_result
+        evidence_refs = s16_gates.get("evidence_refs", [])
+        if s16_tac <= 0 and src_d <= 0:
+            return 0.0, 0.0, 0.0, 0.0, s16_trig, s16_gates, evidence_refs
+        return s16_tac, 0.0, 0.0, src_d, s16_trig, s16_gates, evidence_refs
+
+    return 0.0, 0.0, 0.0, src_d, trigger, gates, evidence_refs
+
+
+def player_component(sid: str, m: Dict[str, str]) -> float:
+    if sid != "S03_wide_overload_crossfire":
+        return 0.0
+    return max(
+        count_position_shift(snum(m, "home"), snum(m, "match_id")),
+        count_position_shift(snum(m, "away"), snum(m, "match_id")),
+    ) * 0.20
+
+
 def main() -> None:
     scenarios = read_json(EVENTFLOW_DB / "scenario_library.json", [])
     scenario_names = {s["scenario_id"]: s["name"] for s in scenarios}
@@ -251,26 +398,34 @@ def main() -> None:
         home, away = snum(m, "home"), snum(m, "away")
         mid = snum(m, "match_id")
         hp, ap = profiles.get(home, {}), profiles.get(away, {})
+        signal_types = match_fused_signal_types(mid)
         fused_delta, fused_evidence, _ = fused_adjustments(mid)
         s08_tac, s08_trigger = s08_tactical_delta(mid, hp, ap, fused_delta.get(S08_ID, 0.0))
+        s16_result = s16_tactical_delta(mid, fused_delta.get(S16_ID, 0.0), signal_types)
         rows: List[Dict[str, Any]] = []
+
         for s in scenarios:
             sid = s["scenario_id"]
-            base_w = 0.10
-            tac_d = tactical_component(sid, m, hp, ap)
+            base_w = base_weight_for(sid)
+            src_d = fused_delta.get(sid, 0.0)
+
+            tac_d, ply_d, prob_d, src_d, trigger, gates, evidence_refs = score_v32_scenario(
+                sid, m, hp, ap, mid, home, away, src_d, signal_types,
+                s08_tac, s16_result,
+            )
+
             if sid == S08_ID:
                 tac_d = s08_tac
-            ply_d = player_component(sid, m)
-            src_d = fused_delta.get(sid, 0.0)
-            prob_d = probability_context_delta(sid, m)
-            raw = max(0.0, base_w + tac_d + ply_d + src_d + prob_d)
+                trigger = s08_trigger
+
             ev_parts = fused_evidence.get(sid, [])
-            if sid == S08_ID:
-                trigger = s08_trigger if s08_tac > 0 or src_d > 0 else s08_trigger
-            elif ev_parts:
+            if ev_parts and trigger == "auto_matchup_features":
                 trigger = "matchup+fused_evidence"
-            else:
-                trigger = "auto_matchup_features"
+
+            raw = max(0.0, base_w + tac_d + ply_d + src_d + prob_d)
+            if evidence_refs and "evidence_refs" not in gates:
+                gates["evidence_refs"] = evidence_refs
+
             rows.append({
                 "match_id": mid,
                 "home": home,
@@ -301,6 +456,8 @@ def main() -> None:
                 "score_family": score_family_for(sid, scenarios),
                 "triggered_by": trigger,
                 "evidence_summary": " | ".join(ev_parts[:3]) if ev_parts else "",
+                "weight_gates": gates_to_json(gates),
+                "evidence_refs": ";".join(evidence_refs),
                 "data_confidence": min(
                     fnum(m, "data_confidence", 0.5),
                     fnum(hp, "data_confidence", 0.5),
@@ -308,6 +465,7 @@ def main() -> None:
                 ),
                 "generated_at": now,
             })
+
         normalize_weights(rows, "weight")
         for r in rows:
             r["normalized_weight"] = r["weight"]

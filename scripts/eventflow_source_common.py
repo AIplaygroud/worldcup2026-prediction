@@ -25,12 +25,58 @@ SIGNAL_KEYWORDS = {
     "transition_threat": ["counter", "break", "transition", "space in behind", "ran behind"],
     "set_piece_edge": ["corner", "free kick", "set-piece", "set piece", "aerial"],
     "goalkeeper_error": ["goalkeeper error", "goalkeeper claim error", "failed goalkeeper", "failed collection", "howler", "spilled", "dropped", "failed to claim"],
-    "card_or_referee_chaos": ["red card", "second yellow", "penalty", "VAR", "sent off"],
+    "card_or_referee_chaos": ["red card", "second yellow", "sent off", "strict referee", "physical contact", "reckless challenge"],
     "injury_or_forced_substitution": ["injury", "forced off", "stretcher", "limped off"],
     "late_game_opening": ["late", "stoppage", "added time", "equaliser", "winner"],
     "position_shift": ["switched", "moved to", "shifted", "inverted", "false nine", "wing-back"],
     "strong_side_attack": ["right flank", "left flank", "wide", "overlap", "underlap"],
     "tactical_mutual_lock": ["cagey", "stalemate", "cancelled", "neutralised", "few chances"],
+    "group_draw_control": [
+        "draw is enough", "point is enough", "control the game",
+        "qualification scenario", "can qualify with a draw",
+        "accept a draw", "manage the result", "late draw control",
+    ],
+    "group_table_pressure": [
+        "must win", "need three points", "cannot afford to lose",
+        "bottom of the group", "goal difference pressure",
+        "qualification pressure",
+    ],
+    "rotation_risk": [
+        "rotate", "rotation", "rest players", "fresh legs",
+        "manage minutes", "squad rotation",
+    ],
+    "starter_rest_signal": [
+        "benched", "rested", "not risked", "limited minutes",
+        "load management",
+    ],
+    "buildup_gk_error": [
+        "goalkeeper error", "poor pass from the goalkeeper",
+        "spilled", "dropped", "failed to claim", "build-up mistake",
+    ],
+    "buildup_press_risk": [
+        "played out from the back", "build-up under pressure",
+        "pressed the goalkeeper", "forced a mistake in build-up",
+    ],
+    "weather_heat_humidity": [
+        "heat", "humidity", "hot conditions", "cooling break",
+        "high temperature",
+    ],
+    "travel_fatigue": [
+        "travel", "long flight", "time zone", "short turnaround",
+        "fatigue", "recovery",
+    ],
+    "pitch_adaptation": [
+        "pitch", "surface", "turf", "grass", "stadium conditions",
+        "ball speed",
+    ],
+    "var_penalty_swing": [
+        "VAR", "penalty", "handball", "spot kick",
+        "penalty check", "reviewed by VAR",
+    ],
+    "box_defending_risk": [
+        "late tackle in the box", "clumsy challenge",
+        "defending inside the box", "contact in the area",
+    ],
 }
 
 @dataclass

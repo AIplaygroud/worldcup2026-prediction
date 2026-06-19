@@ -85,6 +85,47 @@
 | triggered_by | 触发来源 |
 | data_confidence | 数据置信度 |
 
+### V3.2 新增剧本 S11–S16
+
+| scenario_id | 名称 | 主要信号来源 |
+|---|---|---|
+| S11_group_state_draw_control | 小组积分/接受平局/控节奏 | `group_draw_control`、积分榜 R2/R3 |
+| S12_rotation_tempo_drop | 轮换/保主力节奏下降 | `rotation_risk`、`starter_rest_signal` |
+| S13_must_win_early_aggression | 必须抢分开局冒进 | `group_table_pressure`、积分榜 |
+| S14_buildup_gk_error_chain | 门将/后场出球失误链 | `buildup_gk_error`、`buildup_press_risk` |
+| S15_weather_travel_pitch_adaptation | 天气/旅行/场地适应 | `weather_heat_humidity`、`travel_fatigue`、`pitch_adaptation` |
+| S16_var_penalty_momentum_swing | VAR/点球/争议判罚 | `var_penalty_swing`、`box_defending_risk`、裁判层 |
+
+`goalkeeper_error` 信号映射至 S14（不再默认进 S01）。`card_or_referee_chaos` 保留给 S08；VAR/点球类信号映射 S16。
+
+| 字段 | 含义 |
+|---|---|
+| weight_gates | JSON：gate 状态（如 `s13_group_pressure_gate`、`duplicate_press_cap_applied`） |
+| evidence_refs | 分号分隔的证据引用（signal_type 或 `structured_buildup_risk`） |
+
+`weight_composition.gates`（JSON 输出）示例：
+
+```json
+{
+  "specific_buildup_evidence": true,
+  "duplicate_press_cap_applied": false,
+  "evidence_refs": ["buildup_press_risk"]
+}
+```
+
+Gate 触发时写入 `gate_applied: true` 与 `gate_reason`。
+
+### V3.2 新增 signal_type
+
+| signal_type | 映射剧本 |
+|---|---|
+| group_draw_control | S11 |
+| group_table_pressure | S13 |
+| rotation_risk / starter_rest_signal | S12 |
+| buildup_gk_error / buildup_press_risk | S14 |
+| weather_heat_humidity / travel_fatigue / pitch_adaptation | S15 |
+| var_penalty_swing / box_defending_risk | S16 |
+
 ## 6. `dual_engine_predictions.csv`
 
 | 字段 | 含义 |

@@ -1,0 +1,1137 @@
+{
+  "match": "Brazil vs Haiti",
+  "match_id": "WC2026-C29",
+  "fifa_match_id": "29",
+  "mode": "balanced",
+  "score_semantics_note": "normalized_fusion_score 为双引擎加权后再归一化的排序分，不是严格校准概率；raw_probability 来自 V2 Dixon-Coles；eventflow_score 来自事件流剧本叠加分。",
+  "baseline_degraded": false,
+  "eventflow_data_degraded": false,
+  "data_quality": {
+    "real_data_rows": 35,
+    "estimated_data_rows": 2,
+    "missing_layers": 1,
+    "real_data_ratio": 0.946,
+    "estimated_data_ratio": 0.054,
+    "note": "估算数据已降权参与；不可与真实数据同权",
+    "details": [
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      },
+      {
+        "layer": "player",
+        "is_estimated": false,
+        "confidence": 0.82
+      }
+    ]
+  },
+  "probability_engine": {
+    "lambda_home": 2.5855,
+    "lambda_away": 0.8352,
+    "probability_data_degraded": false,
+    "diagnostics": {
+      "match_id": "WC2026-C29",
+      "home": "Brazil",
+      "away": "Haiti",
+      "lambda_home": 2.5855,
+      "lambda_away": 0.8352,
+      "base_lambda_home": 2.4505,
+      "base_lambda_away": 0.8352,
+      "strength_source": "opponent_strength.csv",
+      "xg_source": "Brazil:wc2026_team_xg_adj.csv; Haiti:wc2026_team_xg_adj.csv",
+      "whether_default_used": false,
+      "missing_team_profile_fields": [],
+      "probability_top3_reason": "λ比=3.10，强弱差距大，Top3偏向2-0等一侧比分",
+      "probability_top3": [
+        "2-0",
+        "3-0",
+        "2-1"
+      ],
+      "probability_data_degraded": false
+    },
+    "top_scores": [
+      "2-0",
+      "3-0",
+      "2-1"
+    ],
+    "total_goals": "2/3球优先，防4球"
+  },
+  "eventflow_engine": {
+    "eventflow_data_degraded": false,
+    "activated_scenarios": [
+      {
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "weight": 0.1806,
+        "normalized_weight": 0.1806,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.3691,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0415,
+          "raw_total_score": 0.5105,
+          "normalized_weight": 0.180649,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-0",
+          "3-0",
+          "3-1",
+          "4-1"
+        ]
+      },
+      {
+        "scenario_id": "S13_must_win_early_aggression",
+        "name": "必须抢分队开局冒进",
+        "weight": 0.1314,
+        "normalized_weight": 0.1314,
+        "weight_composition": {
+          "raw_base_weight": 0.06,
+          "raw_tactical_delta": 0.27,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0415,
+          "raw_total_score": 0.3715,
+          "normalized_weight": 0.131441,
+          "gates": {
+            "s13_group_pressure_gate": {
+              "group_table_pressure": 0.9,
+              "source_pressure": false,
+              "gate_applied": false,
+              "gate_reason": ""
+            }
+          },
+          "evidence_refs": []
+        },
+        "evidence_summary": "group_table_must_win",
+        "affected_score_families": [
+          "2-1",
+          "1-2",
+          "2-2",
+          "3-1",
+          "1-3",
+          "3-2"
+        ]
+      },
+      {
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "weight": 0.1014,
+        "normalized_weight": 0.1014,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1867,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2867,
+          "normalized_weight": 0.101437,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-2",
+          "2-2",
+          "2-3",
+          "1-3"
+        ]
+      },
+      {
+        "scenario_id": "S07_late_chase_open_game",
+        "name": "末段追分压上导致开放式尾段",
+        "weight": 0.0944,
+        "normalized_weight": 0.0944,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1253,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0415,
+          "raw_total_score": 0.2668,
+          "normalized_weight": 0.094393,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-1",
+          "1-2",
+          "2-2",
+          "3-2",
+          "2-3"
+        ]
+      },
+      {
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "weight": 0.089,
+        "normalized_weight": 0.089,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1515,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2515,
+          "normalized_weight": 0.088992,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "3-1"
+        ]
+      },
+      {
+        "scenario_id": "S06_set_piece_breakthrough",
+        "name": "定位球成为破局点",
+        "weight": 0.0785,
+        "normalized_weight": 0.0785,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1001,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0219,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.222,
+          "normalized_weight": 0.078548,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "WC2026-C29|Brazil|set_piece_edge|unknown",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "1-1"
+        ]
+      }
+    ],
+    "all_scenario_weights": [
+      {
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.3691,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0415,
+          "raw_total_score": 0.5105,
+          "normalized_weight": 0.180649,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S13_must_win_early_aggression",
+        "name": "必须抢分队开局冒进",
+        "weight_composition": {
+          "raw_base_weight": 0.06,
+          "raw_tactical_delta": 0.27,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0415,
+          "raw_total_score": 0.3715,
+          "normalized_weight": 0.131441,
+          "gates": {
+            "s13_group_pressure_gate": {
+              "group_table_pressure": 0.9,
+              "source_pressure": false,
+              "gate_applied": false,
+              "gate_reason": ""
+            }
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1867,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2867,
+          "normalized_weight": 0.101437,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S07_late_chase_open_game",
+        "name": "末段追分压上导致开放式尾段",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1253,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0415,
+          "raw_total_score": 0.2668,
+          "normalized_weight": 0.094393,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1515,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2515,
+          "normalized_weight": 0.088992,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S06_set_piece_breakthrough",
+        "name": "定位球成为破局点",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1001,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0219,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.222,
+          "normalized_weight": 0.078548,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S03_wide_overload_crossfire",
+        "name": "边路错位被持续打穿",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0901,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1901,
+          "normalized_weight": 0.067271,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S02_low_block_survival",
+        "name": "弱队低位守住上半场，比分压低",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": -0.0224,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0533,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1309,
+          "normalized_weight": 0.046329,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S10_tactical_stalemate_mutual_constraint",
+        "name": "双方战术互相牵制，进入僵持",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0136,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1136,
+          "normalized_weight": 0.040197,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S08_strict_ref_card_penalty_chaos",
+        "name": "严哨/红牌/身体对抗混沌",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1,
+          "normalized_weight": 0.035384,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S09_fatigue_travel_second_half_drop",
+        "name": "旅行/体能导致下半场防守断电",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1,
+          "normalized_weight": 0.035384,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S11_group_state_draw_control",
+        "name": "小组赛积分形势导致接受平局/控节奏",
+        "weight_composition": {
+          "raw_base_weight": 0.09,
+          "raw_tactical_delta": 0.0174,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": -0.0249,
+          "raw_total_score": 0.0825,
+          "normalized_weight": 0.029206,
+          "gates": {
+            "s11_draw_control": {
+              "home_draw_acceptance": 0.48,
+              "away_draw_acceptance": 0.1,
+              "mutual_draw_control": 0.1,
+              "one_side_control": 0.38,
+              "favorite_top_spot_incentive": 0.2254,
+              "composite_score": 0.0581
+            }
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S12_rotation_tempo_drop",
+        "name": "轮换/保主力导致强队节奏下降",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.05,
+          "normalized_weight": 0.017692,
+          "gates": {
+            "gate_applied": true,
+            "gate_reason": "no_rotation_evidence",
+            "evidence_refs": []
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S14_buildup_gk_error_chain",
+        "name": "门将/后场出球失误链",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.05,
+          "normalized_weight": 0.017692,
+          "gates": {
+            "specific_buildup_evidence": false,
+            "duplicate_press_cap_applied": false,
+            "evidence_refs": []
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S15_weather_travel_pitch_adaptation",
+        "name": "极端天气/场地/旅行适应影响节奏",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.05,
+          "normalized_weight": 0.017692,
+          "gates": {
+            "gate_applied": true,
+            "gate_reason": "no_environment_evidence",
+            "evidence_refs": []
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S16_var_penalty_momentum_swing",
+        "name": "VAR/点球/争议判罚改变比赛节奏",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.05,
+          "normalized_weight": 0.017692,
+          "gates": {
+            "evidence_refs": [],
+            "gate_applied": true,
+            "gate_reason": "no_var_penalty_evidence"
+          },
+          "evidence_refs": []
+        }
+      }
+    ],
+    "phase_simulation": {
+      "phase_0_30": {
+        "label": "开场0-30",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "",
+        "scenario_weight": 0.1806,
+        "supporting_scenario_ids": [
+          "S01_favorite_early_break_open",
+          "S13_must_win_early_aggression",
+          "S04_press_trap_turnover_goal"
+        ],
+        "goal_tendency": "偏高"
+      },
+      "phase_31_60": {
+        "label": "中段31-60",
+        "dominant_scenario_id": "S13_must_win_early_aggression",
+        "dominant_scenario_name": "必须抢分队开局冒进",
+        "scenario_weight": 0.1314,
+        "supporting_scenario_ids": [
+          "S01_favorite_early_break_open",
+          "S13_must_win_early_aggression",
+          "S05_high_line_vs_runner"
+        ],
+        "goal_tendency": "中性"
+      },
+      "phase_61_90": {
+        "label": "末段61-90",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "",
+        "scenario_weight": 0.1806,
+        "supporting_scenario_ids": [
+          "S01_favorite_early_break_open",
+          "S05_high_line_vs_runner",
+          "S07_late_chase_open_game"
+        ],
+        "goal_tendency": "偏高"
+      }
+    },
+    "top_scores": [
+      "3-1",
+      "2-1",
+      "3-0"
+    ],
+    "half_full_time_top3": [
+      {
+        "label": "平/胜",
+        "score": 0.4734,
+        "perspective_basis": "语义=draw_ht|favorite_wins_ft；强队=Brazil(主队)；弱队=Haiti；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S02_low_block_survival",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal"
+        ],
+        "why_not_others": "胜/负权重较低(0.306)；负/负权重较低(0.276)；平/平权重较低(0.221)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.203)；弱队低位守住上半场，比分压低(0.049)"
+      },
+      {
+        "label": "胜/胜",
+        "score": 0.3313,
+        "perspective_basis": "语义=favorite_leads_ht|favorite_wins_ft；强队=Brazil(主队)；弱队=Haiti；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal",
+          "S06_set_piece_breakthrough"
+        ],
+        "why_not_others": "胜/负权重较低(0.306)；负/负权重较低(0.276)；平/平权重较低(0.221)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.203)；边路错位被持续打穿(0.072)"
+      },
+      {
+        "label": "平/负",
+        "score": 0.1954,
+        "perspective_basis": "语义=draw_ht|underdog_wins_ft；强队=Brazil(主队)；弱队=Haiti；主队视角映射",
+        "supporting_scenarios": [
+          "S05_high_line_vs_runner",
+          "S07_late_chase_open_game",
+          "S08_strict_ref_card_penalty_chaos",
+          "S13_must_win_early_aggression"
+        ],
+        "why_not_others": "胜/负权重较低(0.306)；负/负权重较低(0.276)；平/平权重较低(0.221)",
+        "explanation": "支撑剧本：高位防线被速度型前锋反复冲身后(0.108)；末段追分压上导致开放式尾段(0.100)"
+      }
+    ],
+    "half_full_time": [
+      "平/胜",
+      "胜/胜",
+      "平/负"
+    ],
+    "total_goals": "2-5球"
+  },
+  "source_fusion": {
+    "evidence_count": 8,
+    "pre_match_evidence_count": 8,
+    "post_match_evidence_count": 0,
+    "excluded_post_match_evidence_count": 0,
+    "uses_pre_match_evidence_only": true,
+    "grade_A_count": 2,
+    "grade_B_count": 1,
+    "grade_C_count": 3,
+    "high_confidence_claims": [
+      {
+        "signal_type": "general_observation",
+        "summary": "WC2026-C29|Brazil|general_observation|unknown",
+        "confidence": 0.6797,
+        "sources": "covers_odds|fifa_match_centre|fotmob_r1_brazil",
+        "evidence_grade": "A",
+        "single_source_penalty": 0.0,
+        "agreement_count": 3,
+        "conflict_count": 0
+      },
+      {
+        "signal_type": "low_block_success",
+        "summary": "WC2026-C29|Haiti|low_block_success|unknown",
+        "confidence": 0.6662,
+        "sources": "fotmob_r1_haiti|yahoo_sports_preview",
+        "evidence_grade": "A",
+        "single_source_penalty": 0.0,
+        "agreement_count": 2,
+        "conflict_count": 0
+      },
+      {
+        "signal_type": "set_piece_edge",
+        "summary": "WC2026-C29|Brazil|set_piece_edge|unknown",
+        "confidence": 0.5605,
+        "sources": "opta_analyst_brazil",
+        "evidence_grade": "B",
+        "single_source_penalty": 0.65,
+        "agreement_count": 1,
+        "conflict_count": 0
+      }
+    ],
+    "summary_only_claims": [
+      {
+        "signal_type": "strong_side_attack",
+        "summary": "WC2026-C29|Brazil|strong_side_attack|unknown",
+        "confidence": 0.4845,
+        "sources": "wc2026_r2_strategy",
+        "evidence_grade": "C",
+        "single_source_penalty": null,
+        "agreement_count": 1,
+        "conflict_count": 0
+      },
+      {
+        "signal_type": "card_or_referee_chaos",
+        "summary": "WC2026-C29||card_or_referee_chaos|unknown",
+        "confidence": 0.4985,
+        "sources": "match_officials_local",
+        "evidence_grade": "C",
+        "single_source_penalty": null,
+        "agreement_count": 1,
+        "conflict_count": 0
+      },
+      {
+        "signal_type": "strong_side_attack",
+        "summary": "WC2026-C29|Brazil|strong_side_attack|unknown",
+        "evidence_grade": "C"
+      }
+    ],
+    "conflicts": [],
+    "conflict_count": 0,
+    "source_summary": [
+      {
+        "source_id": "fifa_match_centre",
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canada-usa-mexico-2026/articles/brazil-haiti-group-c",
+        "signal_type": "general_observation",
+        "summary": "Brazil need win after 1-1 Morocco draw; Haiti bottom after 0-1 Scotland; Group C R2 at Philadelphia.",
+        "confidence": 0.5575,
+        "evidence_usage": "pre_match_prediction",
+        "available_before_kickoff": "true",
+        "evidence_grade": "C"
+      },
+      {
+        "source_id": "yahoo_sports_preview",
+        "source_url": "https://sports.yahoo.com/articles/brazil-vs-haiti-predictions-picks-184300594.html",
+        "signal_type": "low_block_success",
+        "summary": "Haiti expected 4-3-2-1 low block and counter; Brazil 4-2-3-1 with Vinicius Raphinha Igor Thiago to break compact block.",
+        "confidence": 0.5615,
+        "evidence_usage": "pre_match_prediction",
+        "available_before_kickoff": "true",
+        "evidence_grade": "C"
+      },
+      {
+        "source_id": "fotmob_r1_brazil",
+        "source_url": "https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd",
+        "signal_type": "general_observation",
+        "summary": "Brazil R1: 51% possession xG 1.26 vs 1.37; Vinicius scored; balanced press vs Morocco high press.",
+        "confidence": 0.604,
+        "evidence_usage": "pre_match_prediction",
+        "available_before_kickoff": "true",
+        "evidence_grade": "C"
+      },
+      {
+        "source_id": "fotmob_r1_haiti",
+        "source_url": "https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q",
+        "signal_type": "low_block_success",
+        "summary": "Haiti R1: 54% possession but 0 goals xG 1.05; Pierrot 0.65 xG; possession without clear chances.",
+        "confidence": 0.611,
+        "evidence_usage": "pre_match_prediction",
+        "available_before_kickoff": "true",
+        "evidence_grade": "C"
+      },
+      {
+        "source_id": "wc2026_r2_strategy",
+        "source_url": "https://www.roadtrips.com/world-cup/2026-world-cup-packages/schedule/",
+        "signal_type": "strong_side_attack",
+        "summary": "Brazil must win to avoid R3 pressure; stronger attacking intent vs pure rotation mismatch.",
+        "confidence": 0.4845,
+        "evidence_usage": "pre_match_prediction",
+        "available_before_kickoff": "true",
+        "evidence_grade": "C"
+      },
+      {
+        "source_id": "match_officials_local",
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canada-usa-mexico-2026/articles/brazil-haiti-group-c",
+        "signal_type": "card_or_referee_chaos",
+        "summary": "Referee Alejandro Hernandez (ESP) appointed; card profile moderate for WC group stage.",
+        "confidence": 0.4985,
+        "evidence_usage": "pre_match_prediction",
+        "available_before_kickoff": "false",
+        "evidence_grade": "C"
+      },
+      {
+        "source_id": "opta_analyst_brazil",
+        "source_url": "https://theanalyst.com/articles/brazil-world-cup-2026-tactics",
+        "signal_type": "set_piece_edge",
+        "summary": "Brazil wide overload and half-space runs from wingers; set-piece routines with Gabriel Marquinhos aerial threat.",
+        "confidence": 0.5605,
+        "evidence_usage": "pre_match_prediction",
+        "available_before_kickoff": "true",
+        "evidence_grade": "B"
+      },
+      {
+        "source_id": "covers_odds",
+        "source_url": "https://www.covers.com/soccer/brazil-vs-haiti-odds-world-cup-2026",
+        "signal_type": "general_observation",
+        "summary": "Market prices Brazil heavy favorite -800; over 3.5 goals favored vs low-block Haiti.",
+        "confidence": 0.3975,
+        "evidence_usage": "pre_match_prediction",
+        "available_before_kickoff": "true",
+        "evidence_grade": "C"
+      }
+    ],
+    "fused_evidence_rows": 3
+  },
+  "eventflow_process_summary": {
+    "summary": "EventFlow 先将赛前信号映射为 6 个激活剧本，再按 balanced 模式进行比分族加权；当前主线为强队早球后比赛被打开、必须抢分队开局冒进、高位防线被速度型前锋反复冲身后。赛前可用证据 8 条，A/B级主证据 3 条，真实数据占比 95%。",
+    "fusion_weight_note": "最终融合使用 V2概率引擎 50% + EventFlow事件流 50%；本摘要只解释 EventFlow 侧，不改变最终分数。",
+    "evidence_gate": {
+      "uses_pre_match_evidence_only": true,
+      "pre_match_evidence_count": 8,
+      "post_match_evidence_count": 0,
+      "excluded_post_match_evidence_count": 0,
+      "grade_A_count": 2,
+      "grade_B_count": 1,
+      "grade_C_count": 3,
+      "conflict_count": 0
+    },
+    "scenario_activation_path": [
+      {
+        "rank": 1,
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "normalized_weight": 0.1806,
+        "trigger_factors": [
+          "战术对位 +0.369",
+          "V2概率上下文 +0.042",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-0",
+          "3-0",
+          "3-1",
+          "4-1"
+        ],
+        "interpretation": "该剧本主要抬升 2-0、3-0、3-1、4-1 等比分族。"
+      },
+      {
+        "rank": 2,
+        "scenario_id": "S13_must_win_early_aggression",
+        "name": "必须抢分队开局冒进",
+        "normalized_weight": 0.1314,
+        "trigger_factors": [
+          "战术对位 +0.270",
+          "V2概率上下文 +0.042",
+          "基础剧本先验 0.060"
+        ],
+        "evidence_summary": "group_table_must_win",
+        "affected_score_families": [
+          "2-1",
+          "1-2",
+          "2-2",
+          "3-1",
+          "1-3",
+          "3-2"
+        ],
+        "interpretation": "该剧本主要抬升 2-1、1-2、2-2、3-1 等比分族。"
+      },
+      {
+        "rank": 3,
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "normalized_weight": 0.1014,
+        "trigger_factors": [
+          "战术对位 +0.187",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-2",
+          "2-2",
+          "2-3",
+          "1-3"
+        ],
+        "interpretation": "该剧本主要抬升 1-2、2-2、2-3、1-3 等比分族。"
+      },
+      {
+        "rank": 4,
+        "scenario_id": "S07_late_chase_open_game",
+        "name": "末段追分压上导致开放式尾段",
+        "normalized_weight": 0.0944,
+        "trigger_factors": [
+          "战术对位 +0.125",
+          "V2概率上下文 +0.042",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-1",
+          "1-2",
+          "2-2",
+          "3-2",
+          "2-3"
+        ],
+        "interpretation": "该剧本主要抬升 2-1、1-2、2-2、3-2 等比分族。"
+      },
+      {
+        "rank": 5,
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "normalized_weight": 0.089,
+        "trigger_factors": [
+          "战术对位 +0.151",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "3-1"
+        ],
+        "interpretation": "该剧本主要抬升 1-0、2-0、2-1、3-1 等比分族。"
+      },
+      {
+        "rank": 6,
+        "scenario_id": "S06_set_piece_breakthrough",
+        "name": "定位球成为破局点",
+        "normalized_weight": 0.0785,
+        "trigger_factors": [
+          "战术对位 +0.100",
+          "多源赛前证据 +0.022",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "WC2026-C29|Brazil|set_piece_edge|unknown",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "1-1"
+        ],
+        "interpretation": "该剧本主要抬升 1-0、2-0、2-1、1-1 等比分族。"
+      }
+    ],
+    "phase_path": [
+      {
+        "phase": "开场0-30",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "强队早球后比赛被打开",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S13_must_win_early_aggression",
+            "name": "必须抢分队开局冒进"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          }
+        ],
+        "goal_tendency": "偏高",
+        "scenario_weight": 0.1806
+      },
+      {
+        "phase": "中段31-60",
+        "dominant_scenario_id": "S13_must_win_early_aggression",
+        "dominant_scenario_name": "必须抢分队开局冒进",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S13_must_win_early_aggression",
+            "name": "必须抢分队开局冒进"
+          },
+          {
+            "scenario_id": "S05_high_line_vs_runner",
+            "name": "高位防线被速度型前锋反复冲身后"
+          }
+        ],
+        "goal_tendency": "中性",
+        "scenario_weight": 0.1314
+      },
+      {
+        "phase": "末段61-90",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "强队早球后比赛被打开",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S05_high_line_vs_runner",
+            "name": "高位防线被速度型前锋反复冲身后"
+          },
+          {
+            "scenario_id": "S07_late_chase_open_game",
+            "name": "末段追分压上导致开放式尾段"
+          }
+        ],
+        "goal_tendency": "偏高",
+        "scenario_weight": 0.1806
+      }
+    ],
+    "score_translation_path": [
+      {
+        "score": "3-1",
+        "eventflow_score": 0.079,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          },
+          {
+            "scenario_id": "S13_must_win_early_aggression",
+            "name": "必须抢分队开局冒进"
+          }
+        ],
+        "reason": "强队早球后比赛被打开；高压陷阱制造前场失误；必须抢分队开局冒进",
+        "score_family": "tail",
+        "total_goals_bucket": "4球"
+      },
+      {
+        "score": "2-1",
+        "eventflow_score": 0.0719,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          },
+          {
+            "scenario_id": "S06_set_piece_breakthrough",
+            "name": "定位球成为破局点"
+          },
+          {
+            "scenario_id": "S07_late_chase_open_game",
+            "name": "末段追分压上导致开放式尾段"
+          },
+          {
+            "scenario_id": "S13_must_win_early_aggression",
+            "name": "必须抢分队开局冒进"
+          }
+        ],
+        "reason": "高压陷阱制造前场失误；定位球成为破局点；末段追分压上导致开放式尾段",
+        "score_family": "normal",
+        "total_goals_bucket": "3球"
+      },
+      {
+        "score": "3-0",
+        "eventflow_score": 0.0713,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          }
+        ],
+        "reason": "强队早球后比赛被打开",
+        "score_family": "normal",
+        "total_goals_bucket": "3球"
+      }
+    ],
+    "risk_checks": [
+      "若开场无早球、红牌、点球或明确战术错位，开放式/大比分剧本应动态下调。",
+      "若赛前证据不足或多为C级摘要证据，EventFlow只作为排序辅助，不能替代V2校准概率。",
+      "当前估算数据占比 5%，需要在报告中显式披露。"
+    ]
+  },
+  "final_fusion": {
+    "score_ranking": [
+      {
+        "score": "2-0",
+        "rank": 1,
+        "reason": "强队早球后比赛被打开；高压陷阱制造前场失误；定位球成为破局点",
+        "raw_probability": 0.1093,
+        "eventflow_score": 0.067,
+        "normalized_fusion_score": 0.1307,
+        "display_probability": "10.9% (V2 calibrated scoreline prob)",
+        "display_fusion": "13.1% ranking score (not calibrated joint prob)"
+      },
+      {
+        "score": "3-0",
+        "rank": 2,
+        "reason": "强队早球后比赛被打开",
+        "raw_probability": 0.0942,
+        "eventflow_score": 0.0713,
+        "normalized_fusion_score": 0.1226,
+        "display_probability": "9.4% (V2 calibrated scoreline prob)",
+        "display_fusion": "12.3% ranking score (not calibrated joint prob)"
+      },
+      {
+        "score": "2-1",
+        "rank": 3,
+        "reason": "高压陷阱制造前场失误；定位球成为破局点；末段追分压上导致开放式尾段",
+        "raw_probability": 0.0913,
+        "eventflow_score": 0.0719,
+        "normalized_fusion_score": 0.121,
+        "display_probability": "9.1% (V2 calibrated scoreline prob)",
+        "display_fusion": "12.1% ranking score (not calibrated joint prob)"
+      }
+    ],
+    "total_goals": "2/3球优先，防4球",
+    "half_full_time_top3": [
+      {
+        "label": "平/胜",
+        "score": 0.4734,
+        "perspective_basis": "语义=draw_ht|favorite_wins_ft；强队=Brazil(主队)；弱队=Haiti；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S02_low_block_survival",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal"
+        ],
+        "why_not_others": "胜/负权重较低(0.306)；负/负权重较低(0.276)；平/平权重较低(0.221)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.203)；弱队低位守住上半场，比分压低(0.049)"
+      },
+      {
+        "label": "胜/胜",
+        "score": 0.3313,
+        "perspective_basis": "语义=favorite_leads_ht|favorite_wins_ft；强队=Brazil(主队)；弱队=Haiti；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal",
+          "S06_set_piece_breakthrough"
+        ],
+        "why_not_others": "胜/负权重较低(0.306)；负/负权重较低(0.276)；平/平权重较低(0.221)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.203)；边路错位被持续打穿(0.072)"
+      },
+      {
+        "label": "平/负",
+        "score": 0.1954,
+        "perspective_basis": "语义=draw_ht|underdog_wins_ft；强队=Brazil(主队)；弱队=Haiti；主队视角映射",
+        "supporting_scenarios": [
+          "S05_high_line_vs_runner",
+          "S07_late_chase_open_game",
+          "S08_strict_ref_card_penalty_chaos",
+          "S13_must_win_early_aggression"
+        ],
+        "why_not_others": "胜/负权重较低(0.306)；负/负权重较低(0.276)；平/平权重较低(0.221)",
+        "explanation": "支撑剧本：高位防线被速度型前锋反复冲身后(0.108)；末段追分压上导致开放式尾段(0.100)"
+      }
+    ],
+    "half_full_time": [
+      "平/胜",
+      "胜/胜",
+      "平/负"
+    ],
+    "confidence": "中高",
+    "risk_notes": [
+      "normalized_fusion_score 是排序分，不可与赔率隐含概率直接对比",
+      "若上半场无早球，大比分权重下降",
+      "估算数据占比 5%，EventFlow 尾部已降权"
+    ]
+  },
+  "generated_at": "2026-06-19T12:05:55.953103+00:00"
+}
