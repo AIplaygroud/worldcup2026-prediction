@@ -239,7 +239,7 @@ python scripts/run_source_fusion_pipeline.py --match-id <ID> --home <主队> --a
 
 ### D.2 双引擎融合 JSON（V3.0 + V3.1）
 
-当用户要求接口/网站/UI 输出，或明确要求「双引擎 / EventFlow / 融合 JSON」时，使用以下结构（可由 `merge_dual_engine_predictions.py --export-json` 生成，Agent 可在此基础上补充文字分析）：
+当用户要求接口/网站/UI 输出，或明确要求「双引擎 / EventFlow / 融合 JSON」时，使用以下结构（可由 `merge_dual_engine_predictions.py --export-json` 生成，Agent 可在此基础上补充文字分析）。**V3.1 新增 `eventflow_process_summary`**：只读报告层，解释剧本激活→阶段→比分族翻译路径，**不改变** V2 概率或融合排序。
 
 ```json
 {
@@ -270,6 +270,30 @@ python scripts/run_source_fusion_pipeline.py --match-id <ID> --home <主队> --a
     "high_confidence_claims": [],
     "conflicts": [],
     "source_summary": []
+  },
+  "eventflow_process_summary": {
+    "summary": "EventFlow 推理主线一句话摘要",
+    "fusion_weight_note": "V2 50% + EventFlow 50%；本字段仅解释 EventFlow 侧",
+    "evidence_gate": {
+      "uses_pre_match_evidence_only": true,
+      "pre_match_evidence_count": 8,
+      "grade_A_count": 2,
+      "grade_B_count": 1,
+      "grade_C_count": 3
+    },
+    "scenario_activation_path": [
+      {
+        "rank": 1,
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "normalized_weight": 0.235,
+        "trigger_factors": ["战术对位 +0.369", "V2概率上下文 +0.042"],
+        "affected_score_families": ["2-0", "3-0", "3-1"]
+      }
+    ],
+    "phase_path": [],
+    "score_translation_path": [],
+    "risk_checks": []
   },
   "final_fusion": {
     "score_ranking": [

@@ -487,6 +487,260 @@
     ],
     "fused_evidence_rows": 3
   },
+  "eventflow_process_summary": {
+    "summary": "EventFlow 先将赛前信号映射为 6 个激活剧本，再按 balanced 模式进行比分族加权；当前主线为强队早球后比赛被打开、高位防线被速度型前锋反复冲身后、末段追分压上导致开放式尾段。赛前可用证据 8 条，A/B级主证据 3 条，真实数据占比 95%。",
+    "fusion_weight_note": "最终融合使用 V2概率引擎 50% + EventFlow事件流 50%；本摘要只解释 EventFlow 侧，不改变最终分数。",
+    "evidence_gate": {
+      "uses_pre_match_evidence_only": true,
+      "pre_match_evidence_count": 8,
+      "post_match_evidence_count": 0,
+      "excluded_post_match_evidence_count": 0,
+      "grade_A_count": 2,
+      "grade_B_count": 1,
+      "grade_C_count": 3,
+      "conflict_count": 0
+    },
+    "scenario_activation_path": [
+      {
+        "rank": 1,
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "normalized_weight": 0.235,
+        "trigger_factors": [
+          "战术对位 +0.369",
+          "V2概率上下文 +0.042",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-0",
+          "3-0",
+          "3-1",
+          "4-1"
+        ],
+        "interpretation": "该剧本主要抬升 2-0、3-0、3-1、4-1 等比分族。"
+      },
+      {
+        "rank": 2,
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "normalized_weight": 0.132,
+        "trigger_factors": [
+          "战术对位 +0.187",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-2",
+          "2-2",
+          "2-3",
+          "1-3"
+        ],
+        "interpretation": "该剧本主要抬升 1-2、2-2、2-3、1-3 等比分族。"
+      },
+      {
+        "rank": 3,
+        "scenario_id": "S07_late_chase_open_game",
+        "name": "末段追分压上导致开放式尾段",
+        "normalized_weight": 0.1228,
+        "trigger_factors": [
+          "战术对位 +0.125",
+          "V2概率上下文 +0.042",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-1",
+          "1-2",
+          "2-2",
+          "3-2",
+          "2-3"
+        ],
+        "interpretation": "该剧本主要抬升 2-1、1-2、2-2、3-2 等比分族。"
+      },
+      {
+        "rank": 4,
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "normalized_weight": 0.1158,
+        "trigger_factors": [
+          "战术对位 +0.151",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "3-1"
+        ],
+        "interpretation": "该剧本主要抬升 1-0、2-0、2-1、3-1 等比分族。"
+      },
+      {
+        "rank": 5,
+        "scenario_id": "S06_set_piece_breakthrough",
+        "name": "定位球成为破局点",
+        "normalized_weight": 0.1022,
+        "trigger_factors": [
+          "战术对位 +0.100",
+          "多源赛前证据 +0.022",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "WC2026-C29|Brazil|set_piece_edge|unknown",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "1-1"
+        ],
+        "interpretation": "该剧本主要抬升 1-0、2-0、2-1、1-1 等比分族。"
+      },
+      {
+        "rank": 6,
+        "scenario_id": "S03_wide_overload_crossfire",
+        "name": "边路错位被持续打穿",
+        "normalized_weight": 0.0875,
+        "trigger_factors": [
+          "战术对位 +0.090",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-1",
+          "3-1",
+          "3-2"
+        ],
+        "interpretation": "该剧本主要抬升 2-1、3-1、3-2 等比分族。"
+      }
+    ],
+    "phase_path": [
+      {
+        "phase": "开场0-30",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "强队早球后比赛被打开",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          },
+          {
+            "scenario_id": "S06_set_piece_breakthrough",
+            "name": "定位球成为破局点"
+          }
+        ],
+        "goal_tendency": "偏高",
+        "scenario_weight": 0.235
+      },
+      {
+        "phase": "中段31-60",
+        "dominant_scenario_id": "S05_high_line_vs_runner",
+        "dominant_scenario_name": "高位防线被速度型前锋反复冲身后",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S05_high_line_vs_runner",
+            "name": "高位防线被速度型前锋反复冲身后"
+          },
+          {
+            "scenario_id": "S07_late_chase_open_game",
+            "name": "末段追分压上导致开放式尾段"
+          }
+        ],
+        "goal_tendency": "中性",
+        "scenario_weight": 0.132
+      },
+      {
+        "phase": "末段61-90",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "强队早球后比赛被打开",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S05_high_line_vs_runner",
+            "name": "高位防线被速度型前锋反复冲身后"
+          },
+          {
+            "scenario_id": "S07_late_chase_open_game",
+            "name": "末段追分压上导致开放式尾段"
+          }
+        ],
+        "goal_tendency": "偏高",
+        "scenario_weight": 0.235
+      }
+    ],
+    "score_translation_path": [
+      {
+        "score": "3-1",
+        "eventflow_score": 0.0801,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S03_wide_overload_crossfire",
+            "name": "边路错位被持续打穿"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          }
+        ],
+        "reason": "强队早球后比赛被打开；边路错位被持续打穿；高压陷阱制造前场失误",
+        "score_family": "tail",
+        "total_goals_bucket": "4球"
+      },
+      {
+        "score": "3-0",
+        "eventflow_score": 0.0727,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          }
+        ],
+        "reason": "强队早球后比赛被打开",
+        "score_family": "normal",
+        "total_goals_bucket": "3球"
+      },
+      {
+        "score": "2-0",
+        "eventflow_score": 0.0722,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          },
+          {
+            "scenario_id": "S06_set_piece_breakthrough",
+            "name": "定位球成为破局点"
+          }
+        ],
+        "reason": "强队早球后比赛被打开；高压陷阱制造前场失误；定位球成为破局点",
+        "score_family": "normal",
+        "total_goals_bucket": "2球"
+      }
+    ],
+    "risk_checks": [
+      "若开场无早球、红牌、点球或明确战术错位，开放式/大比分剧本应动态下调。",
+      "若赛前证据不足或多为C级摘要证据，EventFlow只作为排序辅助，不能替代V2校准概率。",
+      "当前估算数据占比 5%，需要在报告中显式披露。"
+    ]
+  },
   "final_fusion": {
     "score_ranking": [
       {
@@ -573,5 +827,5 @@
       "估算数据占比 5%，EventFlow 尾部已降权"
     ]
   },
-  "generated_at": "2026-06-19T10:38:25.849587+00:00"
+  "generated_at": "2026-06-19T11:01:36.291613+00:00"
 }

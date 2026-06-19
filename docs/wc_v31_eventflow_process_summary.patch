@@ -1,0 +1,168 @@
+diff --git a/scripts/merge_dual_engine_predictions.py b/scripts/merge_dual_engine_predictions.py
+index f51c5ee..5e45de4 100644
+--- a/scripts/merge_dual_engine_predictions.py
++++ b/scripts/merge_dual_engine_predictions.py
+@@ -132,6 +132,143 @@ def load_source_fusion(match_id: str) -> Dict[str, Any]:
+     }
+ 
+ 
++def _component_label(key: str) -> str:
++    labels = {
++        "raw_base_weight": "基础剧本先验",
++        "raw_tactical_delta": "战术对位",
++        "raw_player_delta": "球员/阵容信号",
++        "raw_source_delta": "多源赛前证据",
++        "raw_probability_context_delta": "V2概率上下文",
++    }
++    return labels.get(key, key)
++
++
++def _nonzero_components(comp: Dict[str, Any]) -> List[str]:
++    keys = [
++        "raw_tactical_delta",
++        "raw_player_delta",
++        "raw_source_delta",
++        "raw_probability_context_delta",
++        "raw_base_weight",
++    ]
++    out: List[str] = []
++    for k in keys:
++        try:
++            v = float(comp.get(k, 0) or 0)
++        except Exception:
++            v = 0.0
++        if abs(v) > 1e-6:
++            out.append(f"{_component_label(k)} {v:+.3f}" if k != "raw_base_weight" else f"{_component_label(k)} {v:.3f}")
++    return out
++
++
++def _scenario_map(activated: List[Dict[str, Any]]) -> Dict[str, str]:
++    return {str(s.get("scenario_id", "")): str(s.get("name", "")) for s in activated}
++
++
++def build_eventflow_process_summary(
++    ef_engine: Dict[str, Any],
++    ev_rows: List[Dict[str, str]],
++    source_fusion: Dict[str, Any],
++    data_quality: Dict[str, Any],
++    mode: str,
++    p_weight: float,
++    e_weight: float,
++    topn: int = 3,
++) -> Dict[str, Any]:
++    """Expose the EventFlow reasoning path in the final dual-engine JSON.
++
++    This is a report layer only: it does not change V2 probabilities, EventFlow
++    scores, or the final fusion ranking.
++    """
++    activated = ef_engine.get("activated_scenarios", []) or []
++    phase_sim = ef_engine.get("phase_simulation", {}) or {}
++    names = _scenario_map(activated)
++
++    scenario_path: List[Dict[str, Any]] = []
++    for i, s in enumerate(activated[:6], 1):
++        comp = s.get("weight_composition", {}) or {}
++        score_families = s.get("affected_score_families", []) or []
++        scenario_path.append({
++            "rank": i,
++            "scenario_id": s.get("scenario_id", ""),
++            "name": s.get("name", ""),
++            "normalized_weight": round(float(s.get("normalized_weight", s.get("weight", 0)) or 0), 4),
++            "trigger_factors": _nonzero_components(comp),
++            "evidence_summary": s.get("evidence_summary", ""),
++            "affected_score_families": score_families,
++            "interpretation": (
++                f"该剧本主要抬升 {'、'.join(score_families[:4])} 等比分族。"
++                if score_families else "该剧本参与事件流排序，但未显式绑定比分族。"
++            ),
++        })
++
++    phase_order = ["phase_0_30", "phase_31_60", "phase_61_90"]
++    phase_path: List[Dict[str, Any]] = []
++    for k in phase_order:
++        ph = phase_sim.get(k, {}) or {}
++        sid = ph.get("dominant_scenario_id", "")
++        supporting = ph.get("supporting_scenario_ids", []) or []
++        phase_path.append({
++            "phase": ph.get("label", k),
++            "dominant_scenario_id": sid,
++            "dominant_scenario_name": ph.get("dominant_scenario_name") or names.get(sid, ""),
++            "supporting_scenarios": [
++                {"scenario_id": x, "name": names.get(x, "")} for x in supporting
++            ],
++            "goal_tendency": ph.get("goal_tendency", ""),
++            "scenario_weight": round(float(ph.get("scenario_weight", 0) or 0), 4),
++        })
++
++    ev_ranked = sorted(ev_rows, key=lambda r: fnum(r, "eventflow_score") or fnum(r, "event_probability"), reverse=True)
++    score_path: List[Dict[str, Any]] = []
++    for r in ev_ranked[:topn]:
++        sids = [x for x in snum(r, "scenario_ids").split(";") if x]
++        score_path.append({
++            "score": snum(r, "score"),
++            "eventflow_score": round(fnum(r, "eventflow_score") or fnum(r, "event_probability"), 4),
++            "linked_scenarios": [{"scenario_id": x, "name": names.get(x, "")} for x in sids],
++            "reason": snum(r, "reason") or "多剧本叠加；概率基准参与",
++            "score_family": snum(r, "score_family"),
++            "total_goals_bucket": snum(r, "total_goals_bucket"),
++        })
++
++    top_names = [x.get("name") for x in scenario_path[:3] if x.get("name")]
++    evidence_text = (
++        f"赛前可用证据 {source_fusion.get('pre_match_evidence_count', 0)} 条，"
++        f"A/B级主证据 {source_fusion.get('grade_A_count', 0) + source_fusion.get('grade_B_count', 0)} 条，"
++        f"真实数据占比 {float(data_quality.get('real_data_ratio', 0) or 0) * 100:.0f}%"
++    )
++    summary = (
++        f"EventFlow 先将赛前信号映射为 {len(activated)} 个激活剧本，"
++        f"再按 {mode} 模式进行比分族加权；当前主线为"
++        f"{'、'.join(top_names) if top_names else '无明确主线'}。{evidence_text}。"
++    )
++
++    return {
++        "summary": summary,
++        "fusion_weight_note": f"最终融合使用 V2概率引擎 {p_weight:.0%} + EventFlow事件流 {e_weight:.0%}；本摘要只解释 EventFlow 侧，不改变最终分数。",
++        "evidence_gate": {
++            "uses_pre_match_evidence_only": source_fusion.get("uses_pre_match_evidence_only", True),
++            "pre_match_evidence_count": source_fusion.get("pre_match_evidence_count", 0),
++            "post_match_evidence_count": source_fusion.get("post_match_evidence_count", 0),
++            "excluded_post_match_evidence_count": source_fusion.get("excluded_post_match_evidence_count", 0),
++            "grade_A_count": source_fusion.get("grade_A_count", 0),
++            "grade_B_count": source_fusion.get("grade_B_count", 0),
++            "grade_C_count": source_fusion.get("grade_C_count", 0),
++            "conflict_count": source_fusion.get("conflict_count", 0),
++        },
++        "scenario_activation_path": scenario_path,
++        "phase_path": phase_path,
++        "score_translation_path": score_path,
++        "risk_checks": [
++            "若开场无早球、红牌、点球或明确战术错位，开放式/大比分剧本应动态下调。",
++            "若赛前证据不足或多为C级摘要证据，EventFlow只作为排序辅助，不能替代V2校准概率。",
++            f"当前估算数据占比 {float(data_quality.get('estimated_data_ratio', 0) or 0) * 100:.0f}%，需要在报告中显式披露。",
++        ],
++    }
++
++
+ def main() -> None:
+     ap = argparse.ArgumentParser()
+     ap.add_argument(
+@@ -213,6 +350,7 @@ def main() -> None:
+     htft_top3 = ef_engine.get("half_full_time_top3", [])
+     top3 = out[:3]
+     dq = summarize_data_quality(mid, home, away)
++    source_fusion = load_source_fusion(mid)
+     baseline_degraded = ev_json.get("baseline_degraded", False)
+     eventflow_degraded = ev_json.get("eventflow_data_degraded", False)
+     v2_diag_path = Path(__file__).resolve().parents[1] / "database" / "eventflow" / "raw" / "v2_engine_diagnostics.json"
+@@ -245,7 +383,10 @@ def main() -> None:
+             "half_full_time": [h.get("label", h) if isinstance(h, dict) else h for h in htft_top3[:3]],
+             "total_goals": ef_engine.get("total_goals", ""),
+         },
+-        "source_fusion": load_source_fusion(mid),
++        "source_fusion": source_fusion,
++        "eventflow_process_summary": build_eventflow_process_summary(
++            ef_engine, ev_rows, source_fusion, dq, args.mode, p_weight, e_weight, topn=3
++        ),
+         "final_fusion": {
+             "score_ranking": [
+                 {
