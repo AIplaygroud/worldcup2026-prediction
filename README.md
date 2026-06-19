@@ -2,17 +2,19 @@
 
 # ⚽ WorldCup-2026-Prediction-Skill
 
-### 绿茵神算 · 2026 FIFA World Cup AI Prediction Engine
+### 2026 FIFA World Cup AI Prediction Engine
 
 **一份 system prompt,把任意大模型驯成专业世界杯预测引擎**
 *Turn any LLM into a deterministic World Cup prediction engine with one prompt.*
 
+> 本仓库的模型 SKILL 搭建参照 [TradingAi666/worldcup2026-prediction-skill](https://github.com/TradingAi666/worldcup2026-prediction-skill)（绿茵神算）的架构与约束设计。
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Skill Version](https://img.shields.io/badge/skill-v2.0-blue.svg?style=flat-square)](skill.md)
-[![Stars](https://img.shields.io/github/stars/TradingAi666/worldcup2026-prediction-skill?style=flat-square&color=yellow)](https://github.com/TradingAi666/worldcup2026-prediction-skill/stargazers)
-[![Forks](https://img.shields.io/github/forks/TradingAi666/worldcup2026-prediction-skill?style=flat-square&color=orange)](https://github.com/TradingAi666/worldcup2026-prediction-skill/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/TradingAi666/worldcup2026-prediction-skill?style=flat-square)](https://github.com/TradingAi666/worldcup2026-prediction-skill/commits/main)
-[![Issues](https://img.shields.io/github/issues/TradingAi666/worldcup2026-prediction-skill?style=flat-square)](https://github.com/TradingAi666/worldcup2026-prediction-skill/issues)
+[![Stars](https://img.shields.io/github/stars/AIplaygroud/worldcup2026-prediction?style=flat-square&color=yellow)](https://github.com/AIplaygroud/worldcup2026-prediction/stargazers)
+[![Forks](https://img.shields.io/github/forks/AIplaygroud/worldcup2026-prediction?style=flat-square&color=orange)](https://github.com/AIplaygroud/worldcup2026-prediction/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/AIplaygroud/worldcup2026-prediction?style=flat-square)](https://github.com/AIplaygroud/worldcup2026-prediction/commits/main)
+[![Issues](https://img.shields.io/github/issues/AIplaygroud/worldcup2026-prediction?style=flat-square)](https://github.com/AIplaygroud/worldcup2026-prediction/issues)
 
 [![Language](https://img.shields.io/badge/lang-中文%20%7C%20English-red.svg?style=flat-square)](#)
 [![Compatible](https://img.shields.io/badge/LLM-DeepSeek%20%7C%20Qwen%20%7C%20GPT%20%7C%20Claude-purple.svg?style=flat-square)](#兼容模型)
@@ -458,8 +460,8 @@ MIT 协议,**可以**。但请注意:
 ### 提交流程
 
 ```bash
-git clone https://github.com/TradingAi666/worldcup2026-prediction-skill.git
-cd worldcup2026-prediction-skill
+git clone https://github.com/AIplaygroud/worldcup2026-prediction.git
+cd worldcup2026-prediction
 git checkout -b feature/your-update
 # 修改 skill.md 或 README.md
 git commit -m "docs: update XX team roster"
@@ -481,7 +483,7 @@ git push origin feature/your-update
 
 ## 📜 License
 
-[MIT License](LICENSE) © 2026 [TradingAi666](https://github.com/TradingAi666)
+[MIT License](LICENSE) © 2026 [AIplaygroud](https://github.com/AIplaygroud)
 
 ```
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -495,9 +497,9 @@ copies of the Software, ...
 
 ## 🙏 致谢
 
+- **[TradingAi666 / 绿茵神算](https://github.com/TradingAi666/worldcup2026-prediction-skill)** — 本仓库 SKILL 架构与约束设计的参照来源
 - **FIFA** — 提供本届赛事赛程与分组信息
 - **DeepSeek / Qwen / OpenAI / Anthropic** — 提供本 Skill 赖以运行的 LLM 能力
-- **柱子哥(TzFilm)社区** — 持续的反馈与共创
 - 所有 ⭐ **本项目的朋友** — 是你们让"提示词也可以开源"这件事被看见
 
 ---
@@ -506,8 +508,8 @@ copies of the Software, ...
 
 **⚽ 让我们拭目以待 · See You at the Pitch ⚽**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=TradingAi666/worldcup2026-prediction-skill&type=Date)](https://star-history.com/#TradingAi666/worldcup2026-prediction-skill&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AIplaygroud/worldcup2026-prediction&type=Date)](https://star-history.com/#AIplaygroud/worldcup2026-prediction&Date)
 
-Made with ⚽ by [@TradingAi666](https://github.com/TradingAi666) · *Open-sourced on the opening day, June 11, 2026.*
+Made with ⚽ by [@AIplaygroud](https://github.com/AIplaygroud)
 
 </div>
