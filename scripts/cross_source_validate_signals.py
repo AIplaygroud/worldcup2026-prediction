@@ -3,13 +3,20 @@ from __future__ import annotations
 import argparse
 from collections import defaultdict
 from pathlib import Path
-from eventflow_source_common import minute_to_bucket, read_csv, stable_id, write_csv
+from eventflow_source_common import (
+    minute_to_bucket,
+    prematch_eligibility,
+    read_csv,
+    stable_id,
+    write_csv,
+)
 
 FIELDS = [
     "claim_id", "match_id", "canonical_signal", "signal_type", "team", "minute_bucket",
     "sources", "agreement_count", "conflict_count", "final_confidence",
     "evidence_grade", "single_source_penalty", "use_for_weighting", "use_for_prediction",
     "available_before_kickoff", "evidence_usage",
+    "evidence_partition", "exclusion_reason", "eligible_for_prematch_summary",
     "source_url", "source_type", "source_authority", "tactical_specificity", "evidence_snippet",
     "conflict_note",
 ]
@@ -60,6 +67,8 @@ def _event_meta(items: list[dict]) -> dict:
         "tactical_specificity": float(first.get("tactical_specificity") or 0.0),
         "evidence_snippet": first.get("evidence_snippet", ""),
         "published_at": first.get("published_at", ""),
+        "kickoff_time": first.get("kickoff_time", ""),
+        "timezone_assumption": first.get("timezone_assumption", ""),
         "available_before_kickoff": first.get("available_before_kickoff", ""),
         "evidence_usage": first.get("evidence_usage", ""),
     }
@@ -72,32 +81,32 @@ def grade_claim(
     avg_authority: float,
     conflict_note: str,
     meta: dict,
-) -> tuple[str, float, bool, bool]:
-    usage = meta.get("evidence_usage", "")
-    has_pub = bool(meta.get("published_at"))
-    avail = str(meta.get("available_before_kickoff", "")).lower() == "true"
-    is_prematch = (
-        usage == "pre_match_prediction"
-        and has_pub
-        and avail
-        and usage not in ("post_match_review", "backtest_only")
-    )
-    if usage in ("post_match_review", "backtest_only"):
-        return "C", 0.0, False, False
-    if not has_pub:
-        return "C", 0.0, False, False
+) -> tuple[str, float, bool, bool, dict]:
+    elig = prematch_eligibility(meta)
+    partition = elig["evidence_partition"]
+    if partition == "excluded_non_prematch":
+        return "C", 0.0, False, False, elig
+
+    is_eligible = partition == "eligible_prematch"
 
     if conflict_note and agreement_count < 2:
-        return "C", 0.0, False, is_prematch
+        elig = dict(elig)
+        elig["evidence_partition"] = "prematch_summary_only"
+        elig["eligible_for_weighting"] = False
+        elig["eligible_for_prediction"] = False
+        elig["eligible_for_prematch_summary"] = True
+        elig["exclusion_reason"] = elig.get("exclusion_reason") or "conflict_without_agreement"
+        return "C", 0.0, False, False, elig
 
-    if agreement_count >= 2 and final_confidence >= 0.60 and is_prematch:
-        return "A", 1.0, True, True
+    if agreement_count >= 2 and final_confidence >= 0.60 and is_eligible:
+        return "A", 1.0, True, True, elig
 
-    if agreement_count == 1 and is_prematch:
+    if agreement_count == 1 and is_eligible:
         src = sources[0] if sources else ""
         auth = meta.get("source_authority") or avg_authority
         tac = meta.get("tactical_specificity") or 0.0
         has_url = bool(meta.get("source_url"))
+        has_pub = bool(meta.get("published_at"))
         has_snippet = bool(meta.get("evidence_snippet"))
         has_type = bool(meta.get("source_type"))
         b_ok = (
@@ -108,15 +117,36 @@ def grade_claim(
             and (src in HIGH_AUTHORITY_SOURCES or auth >= B_GRADE_AUTHORITY_FLOOR)
         )
         if b_ok:
-            return "B", SINGLE_SOURCE_PENALTY, True, True
+            return "B", SINGLE_SOURCE_PENALTY, True, True, elig
         if not has_url or not has_pub:
-            return "C", 0.0, False, False
+            elig = dict(elig)
+            elig["evidence_partition"] = "prematch_summary_only"
+            elig["eligible_for_weighting"] = False
+            elig["eligible_for_prediction"] = False
+            elig["eligible_for_prematch_summary"] = True
+            elig["exclusion_reason"] = "insufficient_source_metadata"
+            return "C", 0.0, False, False, elig
         if final_confidence >= 0.45:
-            return "C", 0.0, False, is_prematch
+            elig = dict(elig)
+            elig["evidence_partition"] = "prematch_summary_only"
+            elig["eligible_for_weighting"] = False
+            elig["eligible_for_prediction"] = False
+            elig["eligible_for_prematch_summary"] = True
+            elig["exclusion_reason"] = "low_confidence_single_source"
+            return "C", 0.0, False, False, elig
 
-    if final_confidence >= 0.45 and is_prematch:
-        return "C", 0.0, False, True
-    return "C", 0.0, False, False
+    if final_confidence >= 0.45 and is_eligible:
+        elig = dict(elig)
+        elig["evidence_partition"] = "prematch_summary_only"
+        elig["eligible_for_weighting"] = False
+        elig["eligible_for_prediction"] = False
+        elig["eligible_for_prematch_summary"] = True
+        elig["exclusion_reason"] = "low_confidence_prematch"
+        return "C", 0.0, False, False, elig
+
+    if partition == "prematch_summary_only":
+        return "C", 0.0, False, False, elig
+    return "C", 0.0, False, False, elig
 
 
 def main() -> None:
@@ -145,7 +175,7 @@ def main() -> None:
         final_confidence = round(min(1.0, avg_raw + agreement_boost), 4)
         mt = f"{first.get('match_id')}|{first.get('team')}"
         conflict_note = conflict_map.get(mt, "")
-        grade, penalty, use_w, use_pred = grade_claim(
+        grade, penalty, use_w, use_pred, elig = grade_claim(
             agreement_count, final_confidence, sources, avg_auth, conflict_note, meta,
         )
         claims.append({
@@ -165,6 +195,9 @@ def main() -> None:
             "use_for_prediction": str(use_pred).lower(),
             "available_before_kickoff": meta.get("available_before_kickoff", ""),
             "evidence_usage": meta.get("evidence_usage", ""),
+            "evidence_partition": elig.get("evidence_partition", ""),
+            "exclusion_reason": elig.get("exclusion_reason", ""),
+            "eligible_for_prematch_summary": str(elig.get("eligible_for_prematch_summary", False)).lower(),
             "source_url": meta.get("source_url", ""),
             "source_type": meta.get("source_type", ""),
             "source_authority": meta.get("source_authority", ""),

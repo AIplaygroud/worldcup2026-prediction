@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""EventFlow prediction engine (V3.0) with HTFT Top 3 and weight traceability."""
+"""EventFlow prediction engine (V3.3) with HTFT Top 3 and weight traceability."""
 from __future__ import annotations
 
 import argparse
@@ -27,6 +27,10 @@ SCORE_FAMILY_BONUS = {
     "3-2": 0.08, "2-3": 0.08, "4-1": 0.09, "1-4": 0.09,
     "4-2": 0.10, "2-4": 0.10, "5-1": 0.11, "1-5": 0.11,
 }
+
+DEGRADED_REASON = (
+    "EventFlow disabled because match-specific scenario rows are unavailable."
+)
 
 
 def parse_score(s: str) -> Tuple[int, int]:
@@ -56,7 +60,7 @@ def total_goals_range(scores: List[str]) -> str:
     return f"{lo}球" if lo == hi else f"{lo}-{hi}球"
 
 
-def scenario_rows(match_id: str, home: str, away: str) -> Tuple[List[Dict[str, str]], bool]:
+def scenario_rows(match_id: str, home: str, away: str) -> Tuple[List[Dict[str, str]], bool, float]:
     rows = read_csv(EVENTFLOW_DB / "eventflow_scenario_weights.csv")
     got = [
         r for r in rows
@@ -64,13 +68,20 @@ def scenario_rows(match_id: str, home: str, away: str) -> Tuple[List[Dict[str, s
         and snum(r, "home") == home and snum(r, "away") == away
     ]
     if got:
-        return got, False
+        fb = max(fnum(r, "fallback_ratio", 0.0) for r in got)
+        return got, False, fb
     fallback = [r for r in rows if snum(r, "home") == home and snum(r, "away") == away]
-    return fallback, len(fallback) == 0
+    return fallback, len(fallback) == 0, 1.0 if len(fallback) == 0 else max(fnum(r, "fallback_ratio", 0.0) for r in fallback)
 
 
 def _w(s: Dict[str, str]) -> float:
-    return fnum(s, "normalized_weight") or fnum(s, "final_weight") or fnum(s, "weight")
+    return (
+        fnum(s, "scenario_ranking_weight")
+        or fnum(s, "normalized_weight")
+        or fnum(s, "final_weight_deprecated")
+        or fnum(s, "final_weight")
+        or fnum(s, "weight")
+    )
 
 
 def is_prior_only(s: Dict[str, str]) -> bool:
@@ -79,7 +90,7 @@ def is_prior_only(s: Dict[str, str]) -> bool:
     prob = fnum(s, "raw_probability_context_delta", fnum(s, "probability_context_delta"))
     ply = fnum(s, "raw_player_delta", fnum(s, "player_delta"))
     gates = parse_gates_json(snum(s, "weight_gates"))
-    if gates.get("gate_applied"):
+    if gates.get("gate_applied") or gates.get("fallback_gate_applied"):
         return tac < 0.02 and src < 0.01 and prob < 0.02
     return tac < 0.02 and src < 0.01 and prob < 0.02 and ply < 0.01
 
@@ -121,6 +132,7 @@ def build_activated_payload(activated: List[Dict[str, str]]) -> List[Dict[str, A
             "name": snum(s, "scenario_name"),
             "weight": round(_w(s), 4),
             "normalized_weight": round(_w(s), 4),
+            "scenario_ranking_weight": round(_w(s), 4),
             "weight_composition": weight_composition_from_row(s),
             "evidence_summary": snum(s, "evidence_summary") or snum(s, "triggered_by"),
             "affected_score_families": fam,
@@ -165,30 +177,38 @@ def event_bonus_for_score(
 
 def generate_candidates(
     lam_home: float, lam_away: float, all_scenarios: List[Dict[str, str]],
-    activated: List[Dict[str, str]], mode: str,
+    activated: List[Dict[str, str]], mode: str, degraded: bool = False,
 ) -> List[Dict[str, Any]]:
     weights = MODE_WEIGHT[mode]
     base = top_score_distribution(lam_home, lam_away, max_goals=6)
     candidates: List[Dict[str, Any]] = []
     for row in base:
         score = row["score"]
-        b, sids, reasons, _ = event_bonus_for_score(score, all_scenarios, activated, weights["tail"])
-        event_score = max(0.0, row["probability"] * weights["prob"] + b * weights["event"])
+        if degraded:
+            event_score = max(0.0, row["probability"] * weights["prob"])
+            reason = "baseline_prior_only; EventFlow degraded"
+            sids: List[str] = []
+        else:
+            b, sids, reasons, _ = event_bonus_for_score(score, all_scenarios, activated, weights["tail"])
+            event_score = max(0.0, row["probability"] * weights["prob"] + b * weights["event"])
+            reason = "；".join(reasons[:3]) if reasons else "多剧本叠加；概率基准参与"
         candidates.append({
             "score": score,
+            "eventflow_ranking_score": event_score,
             "eventflow_score": event_score,
-            "event_probability": event_score,
+            "event_probability_deprecated": event_score,
             "score_family": "tail" if sum(parse_score(score)) >= 4 else "normal",
             "total_goals_bucket": total_bucket(score),
             "htft": "",
-            "reason": "；".join(reasons[:3]) if reasons else "多剧本叠加；概率基准参与",
+            "reason": reason,
             "scenario_ids": ";".join(dict.fromkeys(sids[:6])),
             "data_confidence": min([fnum(s, "data_confidence", 0.55) for s in all_scenarios] or [0.55]),
         })
-    normalize_weights(candidates, "eventflow_score")
+    normalize_weights(candidates, "eventflow_ranking_score")
     for c in candidates:
-        c["event_probability"] = c["eventflow_score"]
-    return sorted(candidates, key=lambda x: x["eventflow_score"], reverse=True)
+        c["eventflow_score"] = c["eventflow_ranking_score"]
+        c["event_probability_deprecated"] = c["eventflow_ranking_score"]
+    return sorted(candidates, key=lambda x: x["eventflow_ranking_score"], reverse=True)
 
 
 def main() -> None:
@@ -203,34 +223,56 @@ def main() -> None:
     ap.add_argument("--export-json", default=str(EVENTFLOW_DB / "eventflow_output.json"))
     args = ap.parse_args()
 
-    all_scenarios, baseline_degraded = scenario_rows(args.match_id, args.home, args.away)
+    all_scenarios, baseline_degraded, fallback_ratio = scenario_rows(args.match_id, args.home, args.away)
+    degradation_reason = ""
+    precision_warning = ""
     if baseline_degraded:
-        print("warning: no scenario rows found; using pure baseline distribution")
+        print("warning: no scenario rows found; EventFlow degraded to baseline distribution")
+        degradation_reason = "missing_scenario_rows"
+        precision_warning = DEGRADED_REASON
         lib = read_json(EVENTFLOW_DB / "scenario_library.json", [])
         all_scenarios = [{
             "match_id": args.match_id, "home": args.home, "away": args.away,
             "scenario_id": s["scenario_id"], "scenario_name": s["name"],
             "base_weight": 0.10, "tactical_delta": 0, "player_delta": 0, "source_delta": 0,
-            "probability_context_delta": 0, "weight": 0.1, "final_weight": 0.1,
+            "probability_context_delta": 0, "weight": 0.1,
+            "scenario_ranking_weight": 0.1, "final_weight_deprecated": 0.1,
             "score_family": ";".join(s.get("effects", {}).get("score_family", [])),
             "htft_bias": ";".join(s.get("effects", {}).get("htft_bias", [])),
             "evidence_summary": "", "data_confidence": "0.45",
+            "is_fallback": "true", "fallback_ratio": "1.0",
+            "triggered_by": "baseline_prior_only",
         } for s in lib]
         normalize_weights(all_scenarios, "weight")
+        fallback_ratio = 1.0
+    elif fallback_ratio >= 0.50:
+        degradation_reason = "fallback_ratio_too_high"
+        precision_warning = "EventFlow degraded: insufficient match-specific tactical evidence."
 
-    activated_raw = pick_activated(all_scenarios)
+    activated_raw = [] if baseline_degraded or fallback_ratio >= 0.50 else pick_activated(all_scenarios)
     activated = build_activated_payload(activated_raw)
-    phase_sim = enrich_phase_simulation(activated, all_scenarios)
+    phase_sim = enrich_phase_simulation(activated, all_scenarios) if activated else {}
     evidence_counts = count_prematch_evidence(args.match_id)
+    if evidence_counts.get("pre_match_evidence_count", 0) == 0 and evidence_counts.get("excluded_post_match_evidence_count", 0) > 0:
+        degradation_reason = degradation_reason or "no_prematch_evidence"
     high_conf = evidence_counts.get("pre_match_evidence_count", 0) >= 2
     htft_top3 = compute_htft_top3(
         all_scenarios, phase_sim, args.lam_home, args.lam_away,
         home=args.home, away=args.away, high_confidence_evidence=high_conf,
         match_id=args.match_id, top_n=3,
-    )
+    ) if activated else []
     data_quality = summarize_data_quality(args.match_id, args.home, args.away)
-    eventflow_degraded = baseline_degraded or data_quality.get("real_data_ratio", 0) < 0.25
-    cand = generate_candidates(args.lam_home, args.lam_away, all_scenarios, activated_raw, args.mode)
+    eventflow_degraded = (
+        baseline_degraded
+        or fallback_ratio >= 0.35
+        or data_quality.get("real_data_ratio", 0) < 0.25
+    )
+    if fallback_ratio >= 0.50:
+        eventflow_degraded = True
+    cand = generate_candidates(
+        args.lam_home, args.lam_away, all_scenarios, activated_raw, args.mode,
+        degraded=eventflow_degraded,
+    )
     now = datetime.now(timezone.utc).isoformat()
 
     out: List[Dict[str, Any]] = []
@@ -241,18 +283,25 @@ def main() -> None:
         })
     write_csv(EVENTFLOW_DB / "eventflow_predictions.csv", out)
 
-    top_scores = [snum(r, "score") for r in out[:5]]
+    top_scores = [snum(r, "score") for r in out[:5]] if not eventflow_degraded else []
     payload = {
         "match": f"{args.home} vs {args.away}",
         "match_id": args.match_id,
         "mode": args.mode,
         "baseline_degraded": baseline_degraded,
         "eventflow_data_degraded": eventflow_degraded,
+        "degradation_reason": degradation_reason,
+        "precision_warning": precision_warning,
+        "fallback_ratio": fallback_ratio,
         "evidence_isolation": evidence_counts,
         "data_quality": data_quality,
         "eventflow_engine": {
             "lambda_home": args.lam_home,
             "lambda_away": args.lam_away,
+            "eventflow_data_degraded": eventflow_degraded,
+            "degradation_reason": degradation_reason,
+            "precision_warning": precision_warning,
+            "fallback_ratio": fallback_ratio,
             "activated_scenarios": activated,
             "all_scenario_weights": [
                 {
@@ -266,22 +315,25 @@ def main() -> None:
             "top_scores": top_scores,
             "half_full_time_top3": htft_top3,
             "half_full_time": [h["label"] for h in htft_top3],
-            "total_goals": total_goals_range(top_scores),
+            "total_goals": total_goals_range(top_scores) if top_scores else "未知",
         },
         "generated_at": now,
     }
     write_json(args.export_json, payload)
 
-    print(f"Activated {len(activated)} scenarios (baseline_degraded={baseline_degraded}):")
+    print(f"Activated {len(activated)} scenarios (baseline_degraded={baseline_degraded}, fallback_ratio={fallback_ratio:.2f}):")
     for a in activated:
         wc = a["weight_composition"]
         print(f"  - {a['scenario_id']} norm={a['weight']:.3f} [raw_total={wc['raw_total_score']:.2f} tac={wc['raw_tactical_delta']:.2f} src={wc['raw_source_delta']:.2f}]")
-    print("半全场 Top3:")
-    for h in htft_top3:
-        print(f"  - {h['label']} score={h['score']:.3f} | {h.get('perspective_basis', '')[:50]}")
+    if htft_top3:
+        print("半全场 Top3:")
+        for h in htft_top3:
+            print(f"  - {h['label']} score={h['score']:.3f} | {h.get('perspective_basis', '')[:50]}")
     for r in out[: args.topn]:
-        print(f"#{r['rank']} {r['score']} eventflow_score={float(r['eventflow_score']):.3f} | {r['reason']}")
+        print(f"#{r['rank']} {r['score']} eventflow_ranking_score={float(r['eventflow_ranking_score']):.3f} | {r['reason']}")
     print(f"数据: 真实={data_quality['real_data_rows']} 估算={data_quality['estimated_data_rows']} ratio={data_quality['real_data_ratio']}")
+    if precision_warning:
+        print(f"precision_warning: {precision_warning}")
     print(f"Wrote {args.export_json}")
 
 

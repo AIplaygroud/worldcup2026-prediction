@@ -17,6 +17,7 @@ from typing import Any, Dict, List, Tuple
 
 
 from eventflow_common import DB, EVENTFLOW_DB, HTFT_LABELS, fnum, read_csv, snum
+from eventflow_source_common import prematch_eligibility
 
 from scenario_htft_semantics import (
 
@@ -237,7 +238,13 @@ def poisson_htft_prior(lam_home: float, lam_away: float, ht_share: float = 0.42)
 
 def _scenario_weight(s: Dict[str, str]) -> float:
 
-    return fnum(s, "normalized_weight") or fnum(s, "final_weight") or fnum(s, "weight")
+    return (
+        fnum(s, "scenario_ranking_weight")
+        or fnum(s, "normalized_weight")
+        or fnum(s, "final_weight_deprecated")
+        or fnum(s, "final_weight")
+        or fnum(s, "weight")
+    )
 
 
 
@@ -657,31 +664,23 @@ def count_prematch_evidence(match_id: str) -> Dict[str, int]:
 
     for e in events:
 
-        usage = snum(e, "evidence_usage")
+        elig = prematch_eligibility(e)
 
-        avail = str(e.get("available_before_kickoff", "")).lower() == "true"
+        partition = elig.get("evidence_partition", "excluded_non_prematch")
 
-        if usage in ("post_match_review", "backtest_only") or (usage and usage != "pre_match_prediction" and not avail):
-
-            post += 1
-
-            if usage != "backtest_only":
-
-                excl += 1
-
-        elif avail or usage == "pre_match_prediction":
+        if partition == "eligible_prematch":
 
             pre += 1
 
-        elif snum(e, "minute"):
+        elif partition == "prematch_summary_only":
+
+            pre += 1
+
+        else:
 
             post += 1
 
             excl += 1
-
-        else:
-
-            pre += 1
 
     return {
 

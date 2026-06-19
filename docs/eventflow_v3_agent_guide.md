@@ -1,4 +1,4 @@
-# WorldCup2026 Prediction Skill V3.0：EventFlow 事件流赛果派 Agent 执行指南
+# WorldCup2026 Prediction Skill V3.3：EventFlow 事件流赛果派 Agent 执行指南
 
 适用项目：`AIplaygroud/worldcup2026-prediction` / `prediction-skill` 体系  
 目标：在现有 V2.0 `xG + 修正层 + Dixon-Coles` 概率派预测链路之外，新增 **EventFlow 事件流推演分支**。  
@@ -8,7 +8,7 @@
 
 ## 0. 版本定位
 
-V3.0 不推翻 `scripts/predict_v2.py`，而是新增一个并行引擎：
+V3.3 不推翻 `scripts/predict_v2.py`（Probability Engine V2.2），而是在 V3.2 双引擎基础上做可靠性修复。
 
 ```text
 Probability Engine：负责 xG、Dixon-Coles、赔率/竞彩规则、稳态比分分布

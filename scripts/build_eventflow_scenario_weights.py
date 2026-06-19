@@ -46,12 +46,23 @@ def _fifa_match_num(match_id: str) -> str:
     return match_id
 
 
-def _match_referee_name(match_id: str) -> str:
+def _match_referee_row(match_id: str) -> Dict[str, str]:
     num = _fifa_match_num(match_id)
     for row in read_csv(DB / "referee" / "processed" / "match_officials.csv"):
         if snum(row, "match_id") == num:
-            return snum(row, "referee")
+            return row
+    return {}
+
+
+def _confirmed_referee_name(match_id: str) -> str:
+    row = _match_referee_row(match_id)
+    if snum(row, "status") == "confirmed":
+        return snum(row, "referee")
     return ""
+
+
+def _match_referee_name(match_id: str) -> str:
+    return _confirmed_referee_name(match_id)
 
 
 def _referee_style_row(name: str) -> Dict[str, str]:
@@ -82,9 +93,9 @@ def s08_tactical_delta(
     if src_d > 0:
         return min(0.22, 0.08 + src_d * 1.6), "fused_card_or_referee_AB"
 
-    ref = _match_referee_name(match_id)
+    ref = _confirmed_referee_name(match_id)
     style = _referee_style_row(ref)
-    if style and fnum(style, "data_confidence") >= REF_STYLE_MIN_CONF:
+    if ref and style and fnum(style, "data_confidence") >= REF_STYLE_MIN_CONF:
         strict = fnum(style, "strictness_index")
         rc = max(0.0, fnum(style, "red_card_tendency"))
         yc = abs(fnum(style, "yc90_z"))
@@ -113,9 +124,9 @@ def s16_tactical_delta(
     if src_d > 0:
         return min(0.22, 0.08 + src_d * 1.6), "fused_var_penalty_evidence", gates
 
-    ref = _match_referee_name(match_id)
+    ref = _confirmed_referee_name(match_id)
     style = _referee_style_row(ref)
-    if style and fnum(style, "data_confidence") >= REF_STYLE_MIN_CONF:
+    if ref and style and fnum(style, "data_confidence") >= REF_STYLE_MIN_CONF:
         pk = abs(fnum(style, "penalty_tendency"))
         var_z = abs(fnum(style, "var_z"))
         if pk >= REF_PK_RC_FLOOR or var_z >= 0.30:
@@ -398,6 +409,8 @@ def main() -> None:
         home, away = snum(m, "home"), snum(m, "away")
         mid = snum(m, "match_id")
         hp, ap = profiles.get(home, {}), profiles.get(away, {})
+        fallback_ratio = fnum(m, "fallback_ratio", 0.0)
+        is_fallback = str(m.get("is_fallback", "")).lower() == "true" or fallback_ratio > 0
         signal_types = match_fused_signal_types(mid)
         fused_delta, fused_evidence, _ = fused_adjustments(mid)
         s08_tac, s08_trigger = s08_tactical_delta(mid, hp, ap, fused_delta.get(S08_ID, 0.0))
@@ -413,6 +426,16 @@ def main() -> None:
                 sid, m, hp, ap, mid, home, away, src_d, signal_types,
                 s08_tac, s16_result,
             )
+
+            if is_fallback or fnum(m, "data_confidence", 0.5) < 0.35:
+                tac_d = 0.0
+                ply_d = 0.0
+                prob_d = min(prob_d, 0.01)
+                if trigger == "auto_matchup_features":
+                    trigger = "fallback_profile_only_no_tactical_claim"
+                gates["fallback_gate_applied"] = True
+                gates["fallback_reason"] = snum(m, "fallback_reason")
+                gates["fallback_ratio"] = fallback_ratio
 
             if sid == S08_ID:
                 tac_d = s08_tac
@@ -445,7 +468,8 @@ def main() -> None:
                 "source_delta": round(src_d, 4),
                 "probability_context_delta": round(prob_d, 4),
                 "weight": raw,
-                "final_weight": 0.0,
+                "final_weight_deprecated": 0.0,
+                "scenario_ranking_weight": 0.0,
                 "home_lambda_delta": 0.0,
                 "away_lambda_delta": 0.0,
                 "variance_delta": 0.0,
@@ -463,13 +487,20 @@ def main() -> None:
                     fnum(hp, "data_confidence", 0.5),
                     fnum(ap, "data_confidence", 0.5),
                 ),
+                "is_fallback": str(is_fallback).lower(),
+                "fallback_reason": snum(m, "fallback_reason"),
+                "fallback_fields": snum(m, "fallback_fields"),
+                "fallback_ratio": fallback_ratio,
+                "fallback_confidence_cap": 0.35 if is_fallback else "",
+                "precision_warning": snum(m, "precision_warning"),
                 "generated_at": now,
             })
 
         normalize_weights(rows, "weight")
         for r in rows:
             r["normalized_weight"] = r["weight"]
-            r["final_weight"] = r["weight"]
+            r["scenario_ranking_weight"] = r["weight"]
+            r["final_weight_deprecated"] = r["weight"]
         out.extend(rows)
 
     write_csv(EVENTFLOW_DB / "eventflow_scenario_weights.csv", out)

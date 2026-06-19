@@ -5,8 +5,101 @@ import hashlib
 import json
 import re
 from dataclasses import dataclass, asdict
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable, List, Dict, Any, Optional
+
+NON_PREMATCH_USAGE = {"post_match_review", "backtest_only", "post_match_commentary"}
+PREMATCH_USAGE = {"pre_match_prediction", "prematch_preview", "official_prematch"}
+
+
+def parse_bool_strict(value: str) -> bool | None:
+    s = str(value or "").strip().lower()
+    if s in {"true", "1", "yes", "y"}:
+        return True
+    if s in {"false", "0", "no", "n"}:
+        return False
+    return None
+
+
+def parse_datetime_utc(value: str, timezone_assumption: str = "") -> datetime | None:
+    """Parse ISO-like timestamps and normalize to UTC.
+
+    V3.3 policy: if timezone is absent, only accept when row has timezone_assumption=UTC.
+    """
+    s = str(value or "").strip()
+    if not s:
+        return None
+    tz_assume = str(timezone_assumption or "").strip().upper()
+    has_tz = bool(re.search(r"(Z|[+-]\d{2}:?\d{2})$", s, re.I))
+    if not has_tz and tz_assume != "UTC":
+        return None
+    normalized = s.replace("Z", "+00:00")
+    if not has_tz:
+        normalized = normalized.replace(" ", "T") + "+00:00"
+    elif " " in normalized and "T" not in normalized:
+        normalized = normalized.replace(" ", "T")
+    try:
+        dt = datetime.fromisoformat(normalized)
+    except ValueError:
+        for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"):
+            try:
+                dt = datetime.strptime(s, fmt)
+                if not has_tz and tz_assume != "UTC":
+                    return None
+                dt = dt.replace(tzinfo=timezone.utc)
+                break
+            except ValueError:
+                dt = None
+        if dt is None:
+            return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
+def _blocked(reason: str, partition: str = "excluded_non_prematch") -> dict:
+    return {
+        "eligible_for_prediction": False,
+        "eligible_for_weighting": False,
+        "eligible_for_prematch_summary": partition == "prematch_summary_only",
+        "exclusion_reason": reason,
+        "evidence_partition": partition,
+    }
+
+
+def prematch_eligibility(row: dict) -> dict:
+    """Return audit-friendly prematch eligibility metadata."""
+    usage = str(row.get("evidence_usage", "")).strip()
+    avail = parse_bool_strict(row.get("available_before_kickoff", ""))
+
+    if usage in NON_PREMATCH_USAGE:
+        return _blocked("usage_non_prematch")
+    if usage and usage not in PREMATCH_USAGE:
+        return _blocked("usage_not_prematch")
+    if avail is not True:
+        return _blocked("available_before_kickoff_not_true")
+
+    published = parse_datetime_utc(
+        row.get("published_at", ""),
+        str(row.get("timezone_assumption", "") or "UTC"),
+    )
+    kickoff = parse_datetime_utc(
+        row.get("kickoff_time", ""),
+        str(row.get("timezone_assumption", "") or "UTC"),
+    )
+    if not published or not kickoff:
+        return _blocked("missing_or_unparseable_time")
+    if published >= kickoff:
+        return _blocked("published_at_not_before_kickoff")
+
+    return {
+        "eligible_for_prediction": True,
+        "eligible_for_weighting": True,
+        "eligible_for_prematch_summary": True,
+        "exclusion_reason": "",
+        "evidence_partition": "eligible_prematch",
+    }
 
 PHASES = [
     (0, 15, "0-15"),

@@ -130,9 +130,10 @@ Gate 触发时写入 `gate_applied: true` 与 `gate_reason`。
 
 | 字段 | 含义 |
 |---|---|
-| probability_engine_prob | 概率派比分概率 |
-| eventflow_prob | 事件流比分权重 |
-| final_weight | 双引擎融合权重 |
+| v2_scoreline_probability | V2 Dixon-Coles 比分概率，可用百分比展示 |
+| eventflow_ranking_score | EventFlow 剧本排序分；不是概率 |
+| fusion_ranking_score | 双引擎融合排序分；不是校准概率，不能与赔率隐含概率直接比较 |
+| scenario_ranking_weight | EventFlow 场景归一化权重；只用于排序和解释 |
 | total_goals_bucket | 总进球桶 |
 | htft | 半全场胜负 |
 | main_reason | 主要事件流原因 |

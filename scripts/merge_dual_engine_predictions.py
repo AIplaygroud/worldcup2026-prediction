@@ -18,9 +18,16 @@ MODE = {
 }
 
 FUSION_SCORE_NOTE = (
-    "normalized_fusion_score 为双引擎加权后再归一化的排序分，不是严格校准概率；"
-    "raw_probability 来自 V2 Dixon-Coles；eventflow_score 来自事件流剧本叠加分。"
+    "fusion_ranking_score is not a calibrated probability; "
+    "v2_scoreline_probability comes from V2 Dixon-Coles; "
+    "eventflow_ranking_score is a non-probabilistic EventFlow ranking score."
 )
+
+DEGRADATION_REASONS_PROB_ONLY = {
+    "missing_scenario_rows",
+    "fallback_ratio_too_high",
+    "no_prematch_evidence",
+}
 
 
 def row_home(r: Dict[str, str]) -> str:
@@ -70,9 +77,13 @@ def load_source_fusion(match_id: str) -> Dict[str, Any]:
     events = filter_rows(read_csv(EVENTFLOW_DB / "source_signal_events.csv"), match_id, "", "")
     claims = filter_rows(read_csv(EVENTFLOW_DB / "source_signal_claims.csv"), match_id, "", "")
     fused = filter_rows(read_csv(EVENTFLOW_DB / "eventflow_fused_evidence.csv"), match_id, "", "")
-    summary_c = read_csv(EVENTFLOW_DB / "eventflow_evidence_summary.csv")
-    summary_c = [r for r in summary_c if not match_id or snum(r, "match_id") == match_id]
+    prematch_summary = read_csv(EVENTFLOW_DB / "eventflow_prematch_evidence_summary.csv")
+    prematch_summary = [r for r in prematch_summary if not match_id or snum(r, "match_id") == match_id]
+    excluded_rows = read_csv(EVENTFLOW_DB / "eventflow_excluded_evidence.csv")
+    excluded_rows = [r for r in excluded_rows if not match_id or snum(r, "match_id") == match_id]
     iso = count_prematch_evidence(match_id)
+
+    from eventflow_source_common import prematch_eligibility
 
     by_grade: Dict[str, List[Dict[str, Any]]] = {"A": [], "B": [], "C": []}
     for c in claims:
@@ -83,6 +94,8 @@ def load_source_fusion(match_id: str) -> Dict[str, Any]:
             "confidence": fnum(c, "final_confidence"),
             "sources": snum(c, "sources"),
             "evidence_grade": g,
+            "evidence_partition": snum(c, "evidence_partition"),
+            "exclusion_reason": snum(c, "exclusion_reason"),
             "single_source_penalty": fnum(c, "single_source_penalty") if snum(c, "single_source_penalty") else None,
             "agreement_count": int(float(snum(c, "agreement_count") or 0)),
             "conflict_count": int(float(snum(c, "conflict_count") or 0)),
@@ -90,8 +103,12 @@ def load_source_fusion(match_id: str) -> Dict[str, Any]:
         by_grade.setdefault(g, []).append(entry)
 
     conflicts = [snum(c, "conflict_note") for c in claims if snum(c, "conflict_note")]
-    source_summary = [
-        {
+
+    def _event_summary(e: Dict[str, str]) -> Dict[str, Any] | None:
+        elig = prematch_eligibility(e)
+        if elig.get("evidence_partition") == "excluded_non_prematch":
+            return None
+        return {
             "source_id": snum(e, "source_id"),
             "source_url": snum(e, "source_url"),
             "signal_type": snum(e, "signal_type"),
@@ -99,6 +116,7 @@ def load_source_fusion(match_id: str) -> Dict[str, Any]:
             "confidence": fnum(e, "raw_confidence"),
             "evidence_usage": snum(e, "evidence_usage"),
             "available_before_kickoff": snum(e, "available_before_kickoff"),
+            "evidence_partition": elig.get("evidence_partition", ""),
             "evidence_grade": next(
                 (
                     snum(c, "evidence_grade")
@@ -109,25 +127,61 @@ def load_source_fusion(match_id: str) -> Dict[str, Any]:
                 "C",
             ),
         }
+
+    prematch_source_summary = [s for s in (_event_summary(e) for e in events) if s]
+    excluded_evidence_summary = [
+        {
+            "source_id": snum(e, "source_id"),
+            "signal_type": snum(e, "signal_type"),
+            "summary": snum(e, "summary"),
+            "evidence_usage": snum(e, "evidence_usage"),
+            "exclusion_reason": prematch_eligibility(e).get("exclusion_reason", ""),
+        }
         for e in events
+        if prematch_eligibility(e).get("evidence_partition") == "excluded_non_prematch"
     ]
+    excluded_evidence_summary.extend([
+        {
+            "signal_type": snum(r, "signal_type"),
+            "summary": snum(r, "evidence_summary"),
+            "exclusion_reason": snum(r, "exclusion_reason"),
+            "evidence_partition": snum(r, "evidence_partition"),
+        }
+        for r in excluded_rows
+    ])
+
+    all_prematch = (
+        iso["excluded_post_match_evidence_count"] == 0
+        and len(prematch_source_summary) == len([e for e in events if prematch_eligibility(e).get("evidence_partition") != "excluded_non_prematch"])
+    )
+    uses_only = iso["excluded_post_match_evidence_count"] == 0 and (
+        len(events) == 0 or all_prematch
+    )
+
     return {
         "evidence_count": len(events),
         "pre_match_evidence_count": iso["pre_match_evidence_count"],
         "post_match_evidence_count": iso["post_match_evidence_count"],
         "excluded_post_match_evidence_count": iso["excluded_post_match_evidence_count"],
-        "uses_pre_match_evidence_only": iso["excluded_post_match_evidence_count"] == 0 or iso["pre_match_evidence_count"] > 0,
+        "uses_pre_match_evidence_only": uses_only,
         "grade_A_count": len(by_grade.get("A", [])),
         "grade_B_count": len(by_grade.get("B", [])),
-        "grade_C_count": len(by_grade.get("C", [])) + len(summary_c),
+        "grade_C_count": len(by_grade.get("C", [])) + len(prematch_summary),
         "high_confidence_claims": by_grade.get("A", []) + by_grade.get("B", []),
         "summary_only_claims": by_grade.get("C", []) + [
-            {"signal_type": snum(r, "signal_type"), "summary": snum(r, "evidence_summary"), "evidence_grade": "C"}
-            for r in summary_c
+            {
+                "signal_type": snum(r, "signal_type"),
+                "summary": snum(r, "evidence_summary"),
+                "evidence_grade": "C",
+                "evidence_partition": snum(r, "evidence_partition"),
+            }
+            for r in prematch_summary
         ],
         "conflicts": conflicts,
         "conflict_count": sum(int(float(snum(c, "conflict_count") or 0)) for c in claims),
-        "source_summary": source_summary,
+        "prematch_source_summary": prematch_source_summary,
+        "excluded_evidence_summary": excluded_evidence_summary,
+        "source_summary_deprecated": prematch_source_summary,
         "fused_evidence_rows": len(fused),
     }
 
@@ -220,13 +274,15 @@ def build_eventflow_process_summary(
             "scenario_weight": round(float(ph.get("scenario_weight", 0) or 0), 4),
         })
 
-    ev_ranked = sorted(ev_rows, key=lambda r: fnum(r, "eventflow_score") or fnum(r, "event_probability"), reverse=True)
+    ev_ranked = sorted(ev_rows, key=lambda r: fnum(r, "eventflow_ranking_score") or fnum(r, "eventflow_score") or fnum(r, "event_probability"), reverse=True)
     score_path: List[Dict[str, Any]] = []
     for r in ev_ranked[:topn]:
         sids = [x for x in snum(r, "scenario_ids").split(";") if x]
         score_path.append({
             "score": snum(r, "score"),
-            "eventflow_score": round(fnum(r, "eventflow_score") or fnum(r, "event_probability"), 4),
+            "eventflow_ranking_score": round(
+                fnum(r, "eventflow_ranking_score") or fnum(r, "eventflow_score") or fnum(r, "event_probability"), 4
+            ),
             "linked_scenarios": [{"scenario_id": x, "name": names.get(x, "")} for x in sids],
             "reason": snum(r, "reason") or "多剧本叠加；概率基准参与",
             "score_family": snum(r, "score_family"),
@@ -296,6 +352,22 @@ def main() -> None:
         print("warning: no probability_engine rows for this match; merge will be EventFlow-only")
 
     p_weight, e_weight = MODE[args.mode]
+    ef_engine_pre = read_json(EVENTFLOW_DB / "eventflow_output.json", {}) or {}
+    ef_engine_state = ef_engine_pre.get("eventflow_engine", {}) or {}
+    eventflow_degraded_pre = bool(
+        ef_engine_pre.get("eventflow_data_degraded", False)
+        or ef_engine_state.get("eventflow_data_degraded", False)
+    )
+    degradation_reason = (
+        ef_engine_pre.get("degradation_reason")
+        or ef_engine_state.get("degradation_reason")
+        or ""
+    )
+    fusion_mode_effective = args.mode
+    if eventflow_degraded_pre and degradation_reason in DEGRADATION_REASONS_PROB_ONLY:
+        p_weight, e_weight = 1.0, 0.0
+        fusion_mode_effective = "probability_only_due_to_eventflow_degradation"
+
     prob_by_score = {snum(r, "score"): fnum(r, "probability") for r in prob_rows}
     ev_by_score = {snum(r, "score"): r for r in ev_rows}
     scores = set(prob_by_score) | set(ev_by_score)
@@ -306,9 +378,13 @@ def main() -> None:
     out: List[Dict[str, Any]] = []
     for score in scores:
         ev = ev_by_score.get(score, {})
-        raw_p = prob_by_score.get(score, 0.0)
-        ef = fnum(ev, "eventflow_score") or fnum(ev, "event_probability")
-        raw_blend = p_weight * raw_p + e_weight * ef
+        v2_prob = prob_by_score.get(score, 0.0)
+        ef_rank = (
+            fnum(ev, "eventflow_ranking_score")
+            or fnum(ev, "eventflow_score")
+            or fnum(ev, "event_probability")
+        )
+        raw_blend = p_weight * v2_prob + e_weight * ef_rank
         out.append({
             "match_id": mid,
             "home": home,
@@ -316,12 +392,15 @@ def main() -> None:
             "mode": args.mode,
             "rank": 0,
             "score": score,
-            "raw_probability": raw_p,
-            "eventflow_score": ef,
-            "probability_engine_prob": raw_p,
-            "eventflow_prob": ef,
-            "final_weight": raw_blend,
-            "normalized_fusion_score": raw_blend,
+            "v2_scoreline_probability": v2_prob,
+            "eventflow_ranking_score": ef_rank,
+            "fusion_ranking_score": raw_blend,
+            "raw_probability": v2_prob,
+            "eventflow_score": ef_rank,
+            "probability_engine_prob": v2_prob,
+            "eventflow_prob": ef_rank,
+            "final_weight_deprecated": raw_blend,
+            "normalized_fusion_score_deprecated": raw_blend,
             "score_family": snum(ev, "score_family"),
             "total_goals_bucket": snum(ev, "total_goals_bucket"),
             "htft": snum(ev, "htft"),
@@ -329,10 +408,11 @@ def main() -> None:
             "risk_note": "若上半场无早球/无红牌/无明确战术错位，事件流大比分权重应下调。",
             "generated_at": datetime.now(timezone.utc).isoformat(),
         })
-    normalize_weights(out, "normalized_fusion_score")
+    normalize_weights(out, "fusion_ranking_score")
     for r in out:
-        r["final_weight"] = r["normalized_fusion_score"]
-    out = sorted(out, key=lambda x: x["normalized_fusion_score"], reverse=True)
+        r["final_weight_deprecated"] = r["fusion_ranking_score"]
+        r["normalized_fusion_score_deprecated"] = r["fusion_ranking_score"]
+    out = sorted(out, key=lambda x: x["fusion_ranking_score"], reverse=True)
     for i, r in enumerate(out, 1):
         r["rank"] = i
 
@@ -340,8 +420,8 @@ def main() -> None:
     write_csv(EVENTFLOW_DB / "dual_engine_predictions.csv", top_csv)
     for r in top_csv:
         print(
-            f"#{r['rank']} {r['score']} fusion={float(r['normalized_fusion_score']):.3f} "
-            f"raw_P={float(r['raw_probability']):.3f} E={float(r['eventflow_score']):.3f}"
+            f"#{r['rank']} {r['score']} fusion_ranking_score={float(r['fusion_ranking_score']):.3f} "
+            f"v2_prob={float(r['v2_scoreline_probability']):.3f} eventflow_rank={float(r['eventflow_ranking_score']):.3f}"
         )
 
     prob_top = sorted(prob_by_score.items(), key=lambda x: -x[1])[:5]
@@ -362,9 +442,16 @@ def main() -> None:
         "match_id": mid,
         "fifa_match_id": snum(resolved, "fifa_match_id"),
         "mode": args.mode,
+        "fusion_mode_effective": fusion_mode_effective,
         "score_semantics_note": FUSION_SCORE_NOTE,
+        "semantics": {
+            "v2_scoreline_probability": "calibrated scoreline probability from V2 Dixon-Coles",
+            "eventflow_ranking_score": "non-probabilistic EventFlow ranking score",
+            "fusion_ranking_score": "normalized ranking score, not a calibrated probability",
+        },
         "baseline_degraded": baseline_degraded,
         "eventflow_data_degraded": eventflow_degraded,
+        "degradation_reason": degradation_reason,
         "data_quality": dq,
         "probability_engine": {
             "lambda_home": lam_home,
@@ -394,16 +481,19 @@ def main() -> None:
                     "score": r["score"],
                     "rank": r["rank"],
                     "reason": r["main_reason"] or "概率派与事件流加权",
-                    "raw_probability": round(float(r["raw_probability"]), 4),
-                    "eventflow_score": round(float(r["eventflow_score"]), 4),
-                    "normalized_fusion_score": round(float(r["normalized_fusion_score"]), 4),
-                    "display_probability": (
-                        f"{float(r['raw_probability'])*100:.1f}% (V2 calibrated scoreline prob)"
-                        if r["raw_probability"] > 0
+                    "v2_scoreline_probability": round(float(r["v2_scoreline_probability"]), 4),
+                    "eventflow_ranking_score": round(float(r["eventflow_ranking_score"]), 4),
+                    "fusion_ranking_score": round(float(r["fusion_ranking_score"]), 4),
+                    "raw_probability_deprecated": round(float(r["v2_scoreline_probability"]), 4),
+                    "eventflow_score_deprecated": round(float(r["eventflow_ranking_score"]), 4),
+                    "normalized_fusion_score_deprecated": round(float(r["fusion_ranking_score"]), 4),
+                    "display_v2_probability": (
+                        f"{float(r['v2_scoreline_probability'])*100:.1f}% (V2 scoreline probability)"
+                        if r["v2_scoreline_probability"] > 0
                         else "ranking score only"
                     ),
-                    "display_fusion": (
-                        f"{float(r['normalized_fusion_score'])*100:.1f}% ranking score (not calibrated joint prob)"
+                    "display_fusion_score": (
+                        f"{float(r['fusion_ranking_score']):.3f} ranking score (not probability)"
                     ),
                 }
                 for r in top3
@@ -413,7 +503,7 @@ def main() -> None:
             "half_full_time": [h.get("label", "") for h in htft_top3[:3]],
             "confidence": confidence_label(prob_rows, len(activated), dq),
             "risk_notes": [
-                "normalized_fusion_score 是排序分，不可与赔率隐含概率直接对比",
+                "fusion_ranking_score 是排序分，不可与赔率隐含概率直接对比",
                 "若上半场无早球，大比分权重下降",
                 f"估算数据占比 {dq.get('estimated_data_ratio', 0)*100:.0f}%，EventFlow 尾部已降权",
             ],

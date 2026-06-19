@@ -1,6 +1,6 @@
 # Referee Decision ΔxG Database
 
-L10 裁判判罚因素模块数据目录（Skill V2.1）。
+L10 裁判判罚因素模块数据目录（Prediction Skill V3.3 · L10 Conservative Gate）。
 
 ## 目录
 
@@ -11,7 +11,7 @@ L10 裁判判罚因素模块数据目录（Skill V2.1）。
 
 | 文件 | 用途 |
 |---|---|
-| `match_officials.csv` | 每场主裁名单与 `status`（confirmed/provisional/unknown） |
+| `match_officials.csv` | 每场主裁名单与 `status`（confirmed/provisional/manual/unknown）；**仅 confirmed 自动进入 λ 修正** |
 | `referee_style_index.csv` | 裁判风格画像（严哨/点球/红牌/流畅度） |
 | `team_ref_profile.csv` | 球队判罚暴露度（造点/吃牌/压迫犯规） |
 | `decision_events.csv` | 赛后判罚事件与 ΔxG |

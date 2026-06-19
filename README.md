@@ -10,7 +10,7 @@
 > 本仓库的模型 SKILL 搭建参照 [TradingAi666/worldcup2026-prediction-skill](https://github.com/TradingAi666/worldcup2026-prediction-skill)（绿茵神算）的架构与约束设计。
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Skill Version](https://img.shields.io/badge/skill-v2.0-blue.svg?style=flat-square)](skill.md)
+[![Skill Version](https://img.shields.io/badge/skill-v3.3-blue.svg?style=flat-square)](skill.md)
 [![Stars](https://img.shields.io/github/stars/AIplaygroud/worldcup2026-prediction?style=flat-square&color=yellow)](https://github.com/AIplaygroud/worldcup2026-prediction/stargazers)
 [![Forks](https://img.shields.io/github/forks/AIplaygroud/worldcup2026-prediction?style=flat-square&color=orange)](https://github.com/AIplaygroud/worldcup2026-prediction/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/AIplaygroud/worldcup2026-prediction?style=flat-square)](https://github.com/AIplaygroud/worldcup2026-prediction/commits/main)
@@ -35,6 +35,19 @@
 
 > *"GUI 是给人手设计的,CLI 是给 AI 设计的。Skill 是给 LLM 用的提示词。"*
 > — 项目作者 · 柱子哥
+
+## V3.3 更新摘要
+
+V3.3 是一次可靠性修复版本，重点不是增加新预测因子，而是修正 V3.2 中可能影响可信度的结构问题：
+
+- Source Fusion 改为严格赛前证据 gate，赛后/回测证据只进入 excluded evidence；
+- 双引擎融合输出统一为 `fusion_ranking_score`，明确不是校准概率；
+- Probability Engine 新增世界杯防守端 `adj_wc_xga` 融合，避免只更新进攻不更新防守；
+- 弱队反击 floor 从固定 0.85 改为动态下限，降低 BTTS/Over 系统性抬高风险；
+- 裁判层只允许 confirmed 主裁自动进入 λ 修正，provisional/manual 默认 report-only；
+- fallback 全链路标注并触发降级，避免缺数据时制造假精确战术结论。
+
+---
 
 ## 📚 目录 · Table of Contents
 

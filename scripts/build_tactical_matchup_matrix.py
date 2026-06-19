@@ -67,6 +67,21 @@ def main() -> None:
         away = snum(fx, "away")
         hp = profiles.get(home, {})
         ap = profiles.get(away, {})
+        missing_home_profile = not bool(hp)
+        missing_away_profile = not bool(ap)
+        fallback_fields = []
+        if missing_home_profile:
+            fallback_fields.append("home_tactical_profile")
+        if missing_away_profile:
+            fallback_fields.append("away_tactical_profile")
+        fallback_ratio = len(fallback_fields) / 2.0
+        confidence = min(
+            fnum(hp, "data_confidence", 0.0 if missing_home_profile else 0.5),
+            fnum(ap, "data_confidence", 0.0 if missing_away_profile else 0.5),
+            fnum(fx, "confidence", 0.55),
+        )
+        if fallback_ratio > 0:
+            confidence = min(confidence, 0.35)
         hb = breakthrough(hp, ap)
         ab = breakthrough(ap, hp)
         hc = control(hp, ap)
@@ -107,7 +122,16 @@ def main() -> None:
             "likely_breakthrough_path_away": path_summary(ap, hp),
             "likely_defensive_survival_path_home": survival_summary(hp, ap),
             "likely_defensive_survival_path_away": survival_summary(ap, hp),
-            "data_confidence": min(fnum(hp, "data_confidence", 0.5), fnum(ap, "data_confidence", 0.5), fnum(fx, "confidence", 0.55)),
+            "data_confidence": confidence,
+            "is_fallback": str(fallback_ratio > 0).lower(),
+            "fallback_reason": ";".join(fallback_fields),
+            "fallback_fields": ";".join(fallback_fields),
+            "fallback_ratio": round(fallback_ratio, 3),
+            "fallback_confidence_cap": 0.35 if fallback_ratio > 0 else "",
+            "precision_warning": (
+                "tactical profile missing; matchup features are fallback-only"
+                if fallback_ratio > 0 else ""
+            ),
         })
     write_csv(TEAM_DB / "tactical_matchup_matrix.csv", out)
     print(f"wrote {len(out)} tactical matchup rows")
