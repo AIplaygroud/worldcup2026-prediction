@@ -1,0 +1,18 @@
+source_id,source_name,source_type,authority_score,default_use,risk_note
+fifa_training_centre,FIFA Training Centre / Match Report Hub,official_technical,1.0,post-match summary and tactical notes,metadata_summary_signals_only
+fifa_match_centre,FIFA Match Centre,official_match,0.95,lineups events official match metadata,metadata_summary_signals_only
+espn_match_commentary,ESPN Match Commentary / Play-by-Play,live_commentary,0.75,minute-by-minute event chronology,metadata_short_snippet_signals_only
+the_guardian_match_report,The Guardian match report and live MBM,professional_media,0.7,match narrative tactical turning points,metadata_short_snippet_signals_only
+world_soccer_talk_previews,World Soccer Talk tactical previews,professional_media,0.7,pre-match tactical preview and team style,metadata_summary_signals_only
+statsbomb_open_data,StatsBomb Open Data,open_event_data,0.95,event and lineup structure reference / historical training,open_data_allowed
+football_data_uk,football-data.co.uk,open_results_odds,0.85,historical results odds totals handicaps,open_data_allowed
+fbref_scouting_reports,FBref Scouting Reports,player_profile,0.65,player percentile style tags,metadata_summary_signals_only
+fotmob_opta,FotMob / Opta match centre,xg_event_data,0.5,R1 xG shots possession lineups,metadata_summary_signals_only
+opta_analyst,Opta Analyst (The Analyst),professional_media,0.7,tactical stats previews post-match,metadata_short_snippet_signals_only
+yahoo_sports_preview,Yahoo Sports WC previews,professional_media,0.7,pre-match predictions lineups,metadata_summary_signals_only
+sports_illustrated_preview,Sports Illustrated WC previews,professional_media,0.7,pre-match lineups injury news,metadata_short_snippet_signals_only
+socceroos_official,Football Australia Socceroos,official_match,0.95,pre-match squad fitness preview,metadata_summary_signals_only
+transfermarkt_profile,Transfermarkt player profiles,player_profile,0.65,preferred foot position club role,metadata_summary_signals_only
+covers_odds,Covers.com odds preview,market_reference,0.5,market line totals handicap,metadata_summary_signals_only
+fifa_squad_pdf,FIFA official squad list PDF,official_match,0.95,squad roster verification,metadata_summary_signals_only
+wc2026_r2_strategy,Local wc2026_r2_strategy_notes.md,competition_context,0.5,R2 advancement incentives,is_estimated_internal

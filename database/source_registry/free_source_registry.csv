@@ -1,0 +1,18 @@
+source_id,source_name,source_type,priority,expected_use,store_policy,notes
+fifa_training_centre,FIFA Training Centre / Match Report Hub,official_technical,1,post-match summary and tactical notes,metadata_summary_signals_only,Highest priority for World Cup match reports and technical summaries.
+fifa_match_centre,FIFA Match Centre,official_match,1,lineups events official match metadata,metadata_summary_signals_only,Use for confirmed score lineups cards substitutions when available.
+espn_match_commentary,ESPN Match Commentary / Play-by-Play,live_commentary,2,minute-by-minute event chronology,metadata_short_snippet_signals_only,Use event times and short evidence snippets.
+the_guardian_match_report,The Guardian match report and live MBM,professional_media,3,match narrative tactical turning points,metadata_short_snippet_signals_only,Use short summarized evidence and avoid storing full article text.
+world_soccer_talk_previews,World Soccer Talk tactical previews,professional_media,4,pre-match tactical preview and team style,metadata_summary_signals_only,Useful before match when official post-match report unavailable.
+statsbomb_open_data,StatsBomb Open Data,open_event_data,1,event and lineup structure reference / historical training,open_data_allowed,Open dataset for historical model training, not necessarily current 2026 matches.
+football_data_uk,football-data.co.uk,open_results_odds,2,historical results odds totals handicaps,open_data_allowed,Useful for odds calibration and backtesting.
+fbref_scouting_reports,FBref Scouting Reports,player_profile,3,player percentile style tags,metadata_summary_signals_only,Use manually exported/allowed summaries and derived player role tags.
+fotmob_opta,FotMob / Opta match centre,xg_event_data,1,R1 xG shots possession lineups,metadata_summary_signals_only,Primary WC2026 R1 structured match data; URLs in wc2026_match_xg.csv.
+opta_analyst,Opta Analyst (The Analyst),professional_media,2,tactical stats previews post-match,metadata_short_snippet_signals_only,Used for USA Paraguay press regains Australia low block etc.
+yahoo_sports_preview,Yahoo Sports WC previews,professional_media,3,pre-match predictions lineups,metadata_summary_signals_only,Pre-match only; not post-match review.
+sports_illustrated_preview,Sports Illustrated WC previews,professional_media,3,pre-match lineups injury news,metadata_short_snippet_signals_only,Injury/lineup signals e.g. Caballero out.
+socceroos_official,Football Australia Socceroos,official_match,2,pre-match squad fitness preview,metadata_summary_signals_only,Official squad availability statements.
+transfermarkt_profile,Transfermarkt player profiles,player_profile,3,preferred foot position club role,metadata_summary_signals_only,Foot/position only; link per player; no full page storage.
+covers_odds,Covers.com odds preview,market_reference,4,market line totals handicap,metadata_summary_signals_only,Weak tactical signal; market context only.
+fifa_squad_pdf,FIFA official squad list PDF,official_match,1,squad roster verification,metadata_summary_signals_only,https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf
+wc2026_r2_strategy,Local wc2026_r2_strategy_notes.md,competition_context,2,R2 advancement incentives,is_estimated_internal,Curated internal doc; is_estimated=true in source_notes when used.

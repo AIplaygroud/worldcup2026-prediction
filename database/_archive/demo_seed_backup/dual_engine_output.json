@@ -1,0 +1,209 @@
+{
+  "match": "Brazil vs Haiti",
+  "match_id": "WC2026-C29",
+  "mode": "balanced",
+  "probability_engine": {
+    "lambda_home": 2.5855,
+    "lambda_away": 0.8352,
+    "top_scores": [
+      "2-0",
+      "3-0",
+      "2-1",
+      "1-0",
+      "3-1"
+    ],
+    "total_goals": "2/3球优先，防4球"
+  },
+  "eventflow_engine": {
+    "activated_scenarios": [
+      {
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "weight": 0.2418,
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-0",
+          "3-0",
+          "3-1",
+          "4-1"
+        ]
+      },
+      {
+        "scenario_id": "S03_wide_overload_crossfire",
+        "name": "边路错位被持续打穿",
+        "weight": 0.159,
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-1",
+          "3-1",
+          "3-2"
+        ]
+      },
+      {
+        "scenario_id": "S06_set_piece_breakthrough",
+        "name": "定位球成为破局点",
+        "weight": 0.1357,
+        "evidence_summary": "WC2026-C29|Brazil|set_piece_edge|unknown",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "1-1"
+        ]
+      },
+      {
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "weight": 0.1301,
+        "evidence_summary": "WC2026-C29|Brazil|pressing_success|0-15",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "3-1"
+        ]
+      },
+      {
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "weight": 0.1233,
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-2",
+          "2-2",
+          "2-3",
+          "1-3"
+        ]
+      },
+      {
+        "scenario_id": "S07_late_chase_open_game",
+        "name": "末段追分压上导致开放式尾段",
+        "weight": 0.1005,
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-1",
+          "1-2",
+          "2-2",
+          "3-2",
+          "2-3"
+        ]
+      }
+    ],
+    "phase_simulation": {
+      "phase_0_30": {
+        "label": "开场0-30",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "强队早球后比赛被打开",
+        "goal_tendency": "偏高"
+      },
+      "phase_31_60": {
+        "label": "中段31-60",
+        "dominant_scenario_id": "S03_wide_overload_crossfire",
+        "dominant_scenario_name": "边路错位被持续打穿",
+        "goal_tendency": "中性"
+      },
+      "phase_61_90": {
+        "label": "末段61-90",
+        "dominant_scenario_id": "S06_set_piece_breakthrough",
+        "dominant_scenario_name": "定位球成为破局点",
+        "goal_tendency": "中性"
+      }
+    },
+    "top_scores": [
+      "3-1",
+      "2-1",
+      "3-0",
+      "2-0",
+      "4-1"
+    ],
+    "half_full_time": [
+      "胜/胜"
+    ],
+    "total_goals": "2-5球"
+  },
+  "source_fusion": {
+    "evidence_count": 4,
+    "high_confidence_claims": [
+      {
+        "signal_type": "pressing_success",
+        "summary": "WC2026-C29|Brazil|pressing_success|0-15",
+        "confidence": 0.7405,
+        "sources": "espn_match_commentary"
+      },
+      {
+        "signal_type": "set_piece_edge",
+        "summary": "WC2026-C29|Brazil|set_piece_edge|unknown",
+        "confidence": 0.535,
+        "sources": "fifa_training_centre"
+      }
+    ],
+    "conflicts": [],
+    "source_summary": [
+      {
+        "source_id": "world_soccer_talk_previews",
+        "source_url": "https://example.com/brazil-haiti-preview",
+        "signal_type": "strong_side_attack",
+        "summary": "Brazil expected to overload left flank with Vinicius inverted inside while Raphinha stays wide right",
+        "confidence": 0.5715
+      },
+      {
+        "source_id": "the_guardian_match_report",
+        "source_url": "https://example.com/haiti-r1",
+        "signal_type": "low_block_success",
+        "summary": "Haiti held a compact 5-4-1 low block for long stretches limiting central progression",
+        "confidence": 0.527
+      },
+      {
+        "source_id": "espn_match_commentary",
+        "source_url": "https://example.com/brazil-r1",
+        "signal_type": "pressing_success",
+        "summary": "Brazil scored early after sustained wide pressure forced Haiti to step out and leave space in behind",
+        "confidence": 0.7405
+      },
+      {
+        "source_id": "fifa_training_centre",
+        "source_url": "https://example.com/brazil-setpiece",
+        "signal_type": "set_piece_edge",
+        "summary": "Brazil showed set piece routines targeting back post with height advantage over Haiti back line",
+        "confidence": 0.535
+      }
+    ],
+    "fused_evidence_rows": 2
+  },
+  "final_fusion": {
+    "score_ranking": [
+      {
+        "score": "2-0",
+        "rank": 1,
+        "reason": "强队早球后比赛被打开；高压陷阱制造前场失误；定位球成为破局点",
+        "probability_engine_prob": 0.1093,
+        "eventflow_prob": 0.0719,
+        "final_weight": 0.1325
+      },
+      {
+        "score": "2-1",
+        "rank": 2,
+        "reason": "边路错位被持续打穿；高压陷阱制造前场失误；定位球成为破局点",
+        "probability_engine_prob": 0.0913,
+        "eventflow_prob": 0.0765,
+        "final_weight": 0.1227
+      },
+      {
+        "score": "3-0",
+        "rank": 3,
+        "reason": "强队早球后比赛被打开",
+        "probability_engine_prob": 0.0942,
+        "eventflow_prob": 0.0725,
+        "final_weight": 0.122
+      }
+    ],
+    "total_goals": "2/3球优先，防4球",
+    "half_full_time": "胜/胜",
+    "confidence": "中高",
+    "risk_notes": [
+      "若上半场无早球，大比分权重下降",
+      "数据不完整时 EventFlow 尾部修正应保守解读"
+    ]
+  },
+  "generated_at": "2026-06-19T09:23:28.368232+00:00"
+}

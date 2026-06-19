@@ -1,0 +1,4 @@
+match_id,home_team,away_team,signal_type,team,minute_bucket,scenario_id,weight_delta,confidence,evidence_grade,single_source_penalty,evidence_summary,sources,use_for_weighting,available_before_kickoff,evidence_usage
+WC2026-C29,Brazil,Haiti,general_observation,Brazil,unknown,S10_tactical_stalemate_mutual_constraint,0.0136,0.6797,A,0.0,WC2026-C29|Brazil|general_observation|unknown,covers_odds|fifa_match_centre|fotmob_r1_brazil,true,true,pre_match_prediction
+WC2026-C29,Brazil,Haiti,low_block_success,Haiti,unknown,S02_low_block_survival,0.0533,0.6662,A,0.0,WC2026-C29|Haiti|low_block_success|unknown,fotmob_r1_haiti|yahoo_sports_preview,true,true,pre_match_prediction
+WC2026-C29,Brazil,Haiti,set_piece_edge,Brazil,unknown,S06_set_piece_breakthrough,0.0219,0.5605,B,0.65,WC2026-C29|Brazil|set_piece_edge|unknown,opta_analyst_brazil,true,true,pre_match_prediction

@@ -1,0 +1,18 @@
+column,type,required,description
+match_id,string,yes,Match identifier used by the World Cup project.
+source_id,string,yes,Source id from free_source_registry.csv.
+source_url,string,yes,URL of source page.
+source_title,string,no,Title of the article/commentary/report.
+published_at,string,no,Publication timestamp when available.
+minute,string,no,Match minute such as 45+2 or 90+6.
+team,string,no,Team involved in the signal.
+player,string,no,Player involved if applicable.
+signal_type,string,yes,Structured signal type such as pressing_broken or position_shift.
+summary,string,yes,Short source-derived summary, not full original text.
+evidence_snippet,string,no,Very short supporting snippet where allowed.
+scenario_tags,string,no,Pipe-separated tags used by EventFlow scenario library.
+source_authority,float,yes,Authority score 0-1.
+timestamp_precision,float,yes,Precision score 0-1.
+tactical_specificity,float,yes,Tactical specificity score 0-1.
+data_consistency,float,yes,Consistency score 0-1.
+raw_confidence,float,yes,Initial confidence before cross-source validation.

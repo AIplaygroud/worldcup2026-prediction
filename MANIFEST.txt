@@ -1,0 +1,52 @@
+WorldCup2026 EventFlow V3 Addon
+Generated: 2026-06-19
+
+Core docs:
+- README.md
+- docs/eventflow_v3_agent_guide.md
+- docs/data_dictionary.md
+- docs/skill_md_patch.md
+
+Scripts:
+- scripts/eventflow_common.py
+- scripts/build_player_foot_position_profile.py
+- scripts/build_worldcup_position_shift.py
+- scripts/build_team_tactical_profile.py
+- scripts/build_tactical_matchup_matrix.py
+- scripts/build_match_timeline_events.py
+- scripts/build_eventflow_scenario_weights.py
+- scripts/predict_eventflow.py
+- scripts/merge_dual_engine_predictions.py
+- scripts/validate_eventflow_data.py
+- scripts/backtest_eventflow.py
+- scripts/update_eventflow_daily.py
+
+Database tables:
+- database/source_registry/processed/source_registry.csv
+- database/player_style/raw/raw_player_master.csv
+- database/player_style/raw/raw_player_league_stats.csv
+- database/player_style/raw/raw_worldcup_lineups_positions.csv
+- database/player_style/processed/player_foot_position_profile.csv
+- database/player_style/processed/player_league_style_profile.csv
+- database/player_style/processed/player_worldcup_position_shift.csv
+- database/team_style/raw/raw_team_phase_metrics.csv
+- database/team_style/raw/raw_match_state_response.csv
+- database/team_style/processed/team_tactical_profile.csv
+- database/team_style/processed/team_match_state_response.csv
+- database/team_style/processed/team_formation_matchups.csv
+- database/team_style/processed/tactical_matchup_matrix.csv
+- database/eventflow/raw/raw_match_commentary_signals.csv
+- database/eventflow/raw/manual_tactical_observations.csv
+- database/eventflow/raw/probability_engine_scores.csv
+- database/eventflow/raw/actual_results.csv
+- database/eventflow/processed/scenario_library.json
+- database/eventflow/processed/match_timeline_events.csv
+- database/eventflow/processed/match_phase_profile.csv
+- database/eventflow/processed/commentary_signals.jsonl
+- database/eventflow/processed/tactical_observations.jsonl
+- database/eventflow/processed/match_state_transitions.csv
+- database/eventflow/processed/eventflow_scenario_weights.csv
+- database/eventflow/processed/eventflow_predictions.csv
+- database/eventflow/processed/dual_engine_predictions.csv
+- database/eventflow/processed/eventflow_backtest.csv
+- database/eventflow/processed/eventflow_data_quality.csv

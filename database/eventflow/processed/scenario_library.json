@@ -1,0 +1,286 @@
+[
+  {
+    "scenario_id": "S01_favorite_early_break_open",
+    "name": "强队早球后比赛被打开",
+    "trigger_features": [
+      "favorite_attack_edge",
+      "opponent_high_line_risk",
+      "early_pressure",
+      "breakthrough_path_clear"
+    ],
+    "effects": {
+      "home_lambda_delta_if_home_fav": 0.18,
+      "away_lambda_delta_if_away_fav": 0.18,
+      "underdog_lambda_delta": 0.06,
+      "variance_delta": 0.16,
+      "over25_delta": 0.12,
+      "btts_delta": 0.04,
+      "htft_bias": [
+        "胜/胜",
+        "负/负"
+      ],
+      "score_family": [
+        "2-0",
+        "3-0",
+        "3-1",
+        "4-1"
+      ]
+    },
+    "notes": "适合强弱分明且强队有明确破阵路径，弱队丢早球后必须压出来。"
+  },
+  {
+    "scenario_id": "S02_low_block_survival",
+    "name": "弱队低位守住上半场，比分压低",
+    "trigger_features": [
+      "low_block_quality",
+      "favorite_low_tempo",
+      "set_piece_not_clear",
+      "central_blocking"
+    ],
+    "effects": {
+      "favorite_lambda_delta": -0.12,
+      "underdog_lambda_delta": -0.04,
+      "variance_delta": -0.1,
+      "under25_delta": 0.12,
+      "htft_bias": [
+        "平/胜",
+        "平/平",
+        "平/负"
+      ],
+      "score_family": [
+        "0-0",
+        "1-0",
+        "1-1",
+        "2-0"
+      ]
+    },
+    "notes": "适合大热一方缺乏边路爆点/定位球，或者弱队第一轮已经证明低位纪律性。"
+  },
+  {
+    "scenario_id": "S03_wide_overload_crossfire",
+    "name": "边路错位被持续打穿",
+    "trigger_features": [
+      "flank_edge",
+      "weak_fullback",
+      "inverted_winger_strong_foot_inside",
+      "overlap_support"
+    ],
+    "effects": {
+      "attacking_side_lambda_delta": 0.14,
+      "opponent_lambda_delta": 0.03,
+      "variance_delta": 0.09,
+      "over25_delta": 0.08,
+      "htft_bias": [
+        "胜/胜",
+        "平/胜",
+        "负/负",
+        "平/负"
+      ],
+      "score_family": [
+        "2-1",
+        "3-1",
+        "3-2"
+      ]
+    },
+    "notes": "特别依赖惯用脚+站位：逆足边锋内切、顺足边锋传中、边后卫套上都要分开看。"
+  },
+  {
+    "scenario_id": "S04_press_trap_turnover_goal",
+    "name": "高压陷阱制造前场失误",
+    "trigger_features": [
+      "pressing_height_edge",
+      "opponent_build_up_fragile",
+      "keeper_distribution_risk"
+    ],
+    "effects": {
+      "pressing_team_lambda_delta": 0.13,
+      "pressed_team_lambda_delta": -0.03,
+      "variance_delta": 0.07,
+      "htft_bias": [
+        "胜/胜",
+        "负/负"
+      ],
+      "score_family": [
+        "1-0",
+        "2-0",
+        "2-1",
+        "3-1"
+      ]
+    },
+    "notes": "适合一方出球中卫/门将脚下抗压不足，另一方高压触发点清晰。"
+  },
+  {
+    "scenario_id": "S05_high_line_vs_runner",
+    "name": "高位防线被速度型前锋反复冲身后",
+    "trigger_features": [
+      "high_line_risk",
+      "pace_forward",
+      "through_ball_supply",
+      "transition_attack"
+    ],
+    "effects": {
+      "runner_team_lambda_delta": 0.16,
+      "highline_team_lambda_delta": 0.04,
+      "variance_delta": 0.14,
+      "btts_delta": 0.07,
+      "htft_bias": [
+        "负/负",
+        "平/负",
+        "胜/负",
+        "胜/胜"
+      ],
+      "score_family": [
+        "1-2",
+        "2-2",
+        "2-3",
+        "1-3"
+      ]
+    },
+    "notes": "适合强队控球但防线身后大，弱队有纵深跑手。"
+  },
+  {
+    "scenario_id": "S06_set_piece_breakthrough",
+    "name": "定位球成为破局点",
+    "trigger_features": [
+      "set_piece_edge",
+      "aerial_mismatch",
+      "opponent_set_piece_defense_weak"
+    ],
+    "effects": {
+      "set_piece_team_lambda_delta": 0.1,
+      "variance_delta": 0.06,
+      "under_or_over_contextual": "neutral",
+      "htft_bias": [
+        "胜/胜",
+        "平/胜",
+        "平/负"
+      ],
+      "score_family": [
+        "1-0",
+        "2-0",
+        "2-1",
+        "1-1"
+      ]
+    },
+    "notes": "适合运动战破阵困难，但身高/脚法/二点球占优。"
+  },
+  {
+    "scenario_id": "S07_late_chase_open_game",
+    "name": "末段追分压上导致开放式尾段",
+    "trigger_features": [
+      "must_win_context",
+      "late_game_aggression",
+      "bench_attack_quality",
+      "opponent_counter_space"
+    ],
+    "effects": {
+      "both_lambda_delta_after_75": 0.12,
+      "variance_delta": 0.18,
+      "over25_delta": 0.12,
+      "btts_delta": 0.1,
+      "htft_bias": [
+        "平/胜",
+        "平/负",
+        "负/平",
+        "胜/平",
+        "负/胜",
+        "胜/负"
+      ],
+      "score_family": [
+        "2-1",
+        "1-2",
+        "2-2",
+        "3-2",
+        "2-3"
+      ]
+    },
+    "notes": "重点用于半全场：上半场平，下半场分胜负或末段互爆。"
+  },
+  {
+    "scenario_id": "S08_strict_ref_card_penalty_chaos",
+    "name": "严哨/点球/红牌使比赛进入混沌",
+    "trigger_features": [
+      "strict_referee",
+      "card_risk",
+      "dribble_edge",
+      "box_touch_edge",
+      "referee_layer_signal"
+    ],
+    "effects": {
+      "variance_delta": 0.2,
+      "over25_delta": 0.1,
+      "score_tail_delta": 0.12,
+      "htft_bias": [
+        "胜/负",
+        "负/胜",
+        "平/胜",
+        "平/负"
+      ],
+      "score_family": [
+        "2-1",
+        "1-2",
+        "3-1",
+        "1-3",
+        "3-2"
+      ]
+    },
+    "notes": "与已有裁判 L10 模块联动，只能在裁判层有信号时触发高权重。"
+  },
+  {
+    "scenario_id": "S09_fatigue_travel_second_half_drop",
+    "name": "旅行/体能导致下半场防守断电",
+    "trigger_features": [
+      "travel_fatigue",
+      "short_rest",
+      "hot_pitch",
+      "thin_bench",
+      "first_round_high_intensity"
+    ],
+    "effects": {
+      "opponent_second_half_lambda_delta": 0.13,
+      "variance_delta": 0.11,
+      "over15_second_half_delta": 0.12,
+      "htft_bias": [
+        "平/胜",
+        "胜/胜",
+        "平/负",
+        "负/负"
+      ],
+      "score_family": [
+        "1-0",
+        "2-0",
+        "2-1",
+        "3-1"
+      ]
+    },
+    "notes": "与环境、草皮、赛程间隔结合，不单独凭感觉触发。"
+  },
+  {
+    "scenario_id": "S10_tactical_stalemate_mutual_constraint",
+    "name": "双方战术互相牵制，进入僵持",
+    "trigger_features": [
+      "mutual_constraint",
+      "no_clear_breakthrough_path",
+      "similar_midfield_density",
+      "low_transition_space"
+    ],
+    "effects": {
+      "home_lambda_delta": -0.1,
+      "away_lambda_delta": -0.1,
+      "variance_delta": -0.12,
+      "under25_delta": 0.15,
+      "htft_bias": [
+        "平/平",
+        "平/胜",
+        "平/负"
+      ],
+      "score_family": [
+        "0-0",
+        "1-0",
+        "0-1",
+        "1-1"
+      ]
+    },
+    "notes": "不是双方都弱，而是核心路径互相克制。"
+  }
+]

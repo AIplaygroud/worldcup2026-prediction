@@ -1,0 +1,491 @@
+{
+  "match": "Argentina vs Austria",
+  "match_id": "WC2026-J43",
+  "fifa_match_id": "43",
+  "mode": "balanced",
+  "score_semantics_note": "normalized_fusion_score 为双引擎加权后再归一化的排序分，不是严格校准概率；raw_probability 来自 V2 Dixon-Coles；eventflow_score 来自事件流剧本叠加分。",
+  "baseline_degraded": false,
+  "eventflow_data_degraded": false,
+  "data_quality": {
+    "real_data_rows": 5,
+    "estimated_data_rows": 2,
+    "missing_layers": 2,
+    "real_data_ratio": 0.714,
+    "estimated_data_ratio": 0.286,
+    "note": "估算数据已降权参与；不可与真实数据同权",
+    "details": [
+      {
+        "layer": "team",
+        "is_estimated": true,
+        "confidence": 0.78
+      },
+      {
+        "layer": "team",
+        "is_estimated": true,
+        "confidence": 0.7
+      },
+      {
+        "layer": "matchup",
+        "is_estimated": false,
+        "confidence": 0.68
+      },
+      {
+        "layer": "source",
+        "is_estimated": false,
+        "confidence": 0.5
+      },
+      {
+        "layer": "source",
+        "is_estimated": false,
+        "confidence": 0.5
+      },
+      {
+        "layer": "source",
+        "is_estimated": false,
+        "confidence": 0.5
+      },
+      {
+        "layer": "source",
+        "is_estimated": false,
+        "confidence": 0.5
+      }
+    ]
+  },
+  "probability_engine": {
+    "lambda_home": 1.8167,
+    "lambda_away": 1.0373,
+    "probability_data_degraded": false,
+    "diagnostics": {
+      "match_id": "WC2026-J43",
+      "home": "Argentina",
+      "away": "Austria",
+      "lambda_home": 1.8167,
+      "lambda_away": 1.0373,
+      "base_lambda_home": 1.759,
+      "base_lambda_away": 0.9559,
+      "strength_source": "opponent_strength.csv",
+      "xg_source": "Argentina:wc2026_team_xg_adj.csv; Austria:wc2026_team_xg_adj.csv",
+      "whether_default_used": false,
+      "missing_team_profile_fields": [],
+      "probability_top3_reason": "λ比=1.75，中等差距，Top3=1-1(11.3%), 1-0(10.0%), 2-1(9.9%)",
+      "probability_top3": [
+        "1-1",
+        "1-0",
+        "2-1"
+      ],
+      "probability_data_degraded": false
+    },
+    "top_scores": [
+      "1-1",
+      "1-0",
+      "2-1"
+    ],
+    "total_goals": "1/3球优先，防4球"
+  },
+  "eventflow_engine": {
+    "eventflow_data_degraded": false,
+    "activated_scenarios": [
+      {
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "weight": 0.2258,
+        "normalized_weight": 0.2258,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.5839,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0738,
+          "raw_total_score": 0.7578,
+          "normalized_weight": 0.225848
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-0",
+          "3-0",
+          "3-1",
+          "4-1"
+        ]
+      },
+      {
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "weight": 0.1301,
+        "normalized_weight": 0.1301,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.2786,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0579,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.4365,
+          "normalized_weight": 0.1301
+        },
+        "evidence_summary": "WC2026-J43|Argentina|pressing_success|unknown | WC2026-J43|Austria|pressing_success|unknown",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "3-1"
+        ]
+      },
+      {
+        "scenario_id": "S06_set_piece_breakthrough",
+        "name": "定位球成为破局点",
+        "weight": 0.1227,
+        "normalized_weight": 0.1227,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.3118,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.4118,
+          "normalized_weight": 0.122726
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "1-1"
+        ]
+      },
+      {
+        "scenario_id": "S07_late_chase_open_game",
+        "name": "末段追分压上导致开放式尾段",
+        "weight": 0.1174,
+        "normalized_weight": 0.1174,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.2201,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0738,
+          "raw_total_score": 0.394,
+          "normalized_weight": 0.117414
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-1",
+          "1-2",
+          "2-2",
+          "3-2",
+          "2-3"
+        ]
+      },
+      {
+        "scenario_id": "S03_wide_overload_crossfire",
+        "name": "边路错位被持续打穿",
+        "weight": 0.1162,
+        "normalized_weight": 0.1162,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.29,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.39,
+          "normalized_weight": 0.116224
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-1",
+          "3-1",
+          "3-2"
+        ]
+      },
+      {
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "weight": 0.1083,
+        "normalized_weight": 0.1083,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.2634,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.3634,
+          "normalized_weight": 0.108299
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-2",
+          "2-2",
+          "2-3",
+          "1-3"
+        ]
+      }
+    ],
+    "phase_simulation": {
+      "phase_0_30": {
+        "label": "开场0-30",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "",
+        "scenario_weight": 0.2258,
+        "supporting_scenario_ids": [
+          "S01_favorite_early_break_open",
+          "S04_press_trap_turnover_goal",
+          "S06_set_piece_breakthrough"
+        ],
+        "goal_tendency": "偏高"
+      },
+      "phase_31_60": {
+        "label": "中段31-60",
+        "dominant_scenario_id": "S04_press_trap_turnover_goal",
+        "dominant_scenario_name": "高压陷阱制造前场失误",
+        "scenario_weight": 0.1301,
+        "supporting_scenario_ids": [
+          "S01_favorite_early_break_open",
+          "S04_press_trap_turnover_goal",
+          "S06_set_piece_breakthrough"
+        ],
+        "goal_tendency": "中性"
+      },
+      "phase_61_90": {
+        "label": "末段61-90",
+        "dominant_scenario_id": "S01_favorite_early_break_open",
+        "dominant_scenario_name": "",
+        "scenario_weight": 0.2258,
+        "supporting_scenario_ids": [
+          "S01_favorite_early_break_open",
+          "S07_late_chase_open_game",
+          "S05_high_line_vs_runner"
+        ],
+        "goal_tendency": "偏高"
+      }
+    },
+    "top_scores": [
+      "2-1",
+      "3-1",
+      "2-0"
+    ],
+    "half_full_time_top3": [
+      {
+        "label": "平/胜",
+        "score": 0.4514,
+        "perspective_basis": "语义=draw_ht|favorite_wins_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S02_low_block_survival",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal"
+        ],
+        "why_not_others": "平/负权重较低(0.357)；胜/负权重较低(0.216)；胜/平权重较低(0.168)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.262)；弱队低位守住上半场，比分压低(0.031)"
+      },
+      {
+        "label": "胜/胜",
+        "score": 0.3134,
+        "perspective_basis": "语义=favorite_leads_ht|favorite_wins_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal",
+          "S06_set_piece_breakthrough"
+        ],
+        "why_not_others": "平/负权重较低(0.357)；胜/负权重较低(0.216)；胜/平权重较低(0.168)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.262)；边路错位被持续打穿(0.125)"
+      },
+      {
+        "label": "平/平",
+        "score": 0.2351,
+        "perspective_basis": "语义=underdog_holds_ht|draw_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S02_low_block_survival",
+          "S06_set_piece_breakthrough",
+          "S07_late_chase_open_game",
+          "S08_strict_ref_card_penalty_chaos"
+        ],
+        "why_not_others": "平/负权重较低(0.357)；胜/负权重较低(0.216)；胜/平权重较低(0.168)",
+        "explanation": "支撑剧本：弱队低位守住上半场，比分压低(0.031)；弱队低位守住上半场，比分压低(0.031)"
+      }
+    ],
+    "half_full_time": [
+      "平/胜",
+      "胜/胜",
+      "平/平"
+    ],
+    "total_goals": "2-5球"
+  },
+  "source_fusion": {
+    "evidence_count": 4,
+    "pre_match_evidence_count": 3,
+    "post_match_evidence_count": 1,
+    "excluded_post_match_evidence_count": 1,
+    "uses_pre_match_evidence_only": true,
+    "grade_A_count": 0,
+    "grade_B_count": 3,
+    "grade_C_count": 1,
+    "high_confidence_claims": [
+      {
+        "signal_type": "pressing_success",
+        "summary": "WC2026-J43|Argentina|pressing_success|unknown",
+        "confidence": 0.582,
+        "sources": "fifa_training_centre",
+        "evidence_grade": "B",
+        "single_source_penalty": 0.65,
+        "agreement_count": 1,
+        "conflict_count": 0
+      },
+      {
+        "signal_type": "pressing_success",
+        "summary": "WC2026-J43|Austria|pressing_success|unknown",
+        "confidence": 0.5315,
+        "sources": "world_soccer_talk_previews",
+        "evidence_grade": "B",
+        "single_source_penalty": 0.65,
+        "agreement_count": 1,
+        "conflict_count": 0
+      },
+      {
+        "signal_type": "general_observation",
+        "summary": "WC2026-J43|Argentina|general_observation|unknown",
+        "confidence": 0.524,
+        "sources": "the_guardian_match_report",
+        "evidence_grade": "B",
+        "single_source_penalty": 0.65,
+        "agreement_count": 1,
+        "conflict_count": 0
+      }
+    ],
+    "summary_only_claims": [
+      {
+        "signal_type": "general_observation",
+        "summary": "WC2026-J43|Argentina|general_observation|61-75",
+        "confidence": 0.7075,
+        "sources": "espn_match_commentary",
+        "evidence_grade": "C",
+        "single_source_penalty": null,
+        "agreement_count": 1,
+        "conflict_count": 0
+      }
+    ],
+    "conflicts": [],
+    "conflict_count": 0,
+    "source_summary": [
+      {
+        "source_id": "fifa_training_centre",
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canada-usa-mexico-2026/articles/argentina-austria-preview",
+        "signal_type": "pressing_success",
+        "summary": "Argentina expected to dominate possession but Austria low block and press trap risk if Argentina slow at back",
+        "confidence": 0.582,
+        "evidence_grade": "B"
+      },
+      {
+        "source_id": "world_soccer_talk_previews",
+        "source_url": "https://worldsoccertalk.com/news/austria-rangnick-press-argentina/",
+        "signal_type": "pressing_success",
+        "summary": "Austria will look to press high and force turnovers against Argentina slow build-up",
+        "confidence": 0.5315,
+        "evidence_grade": "B"
+      },
+      {
+        "source_id": "the_guardian_match_report",
+        "source_url": "https://www.theguardian.com/football/2026/jun/21/argentina-tactical-lock-note",
+        "signal_type": "general_observation",
+        "summary": "Messi expected to drop deep to orchestrate while Alvarez stretches lines creating mutual constraint phases",
+        "confidence": 0.524,
+        "evidence_grade": "B"
+      },
+      {
+        "source_id": "espn_match_commentary",
+        "source_url": "https://www.espn.com/soccer/story/_/id/arg-aut-r1-review",
+        "signal_type": "general_observation",
+        "summary": "Second half opened after Austria tired and stepped higher",
+        "confidence": 0.7075,
+        "evidence_grade": "B"
+      }
+    ],
+    "fused_evidence_rows": 3
+  },
+  "final_fusion": {
+    "score_ranking": [
+      {
+        "score": "2-1",
+        "rank": 1,
+        "reason": "边路错位被持续打穿；高压陷阱制造前场失误；定位球成为破局点",
+        "raw_probability": 0.0986,
+        "eventflow_score": 0.0779,
+        "normalized_fusion_score": 0.1321,
+        "display_probability": "9.9% (V2 calibrated scoreline prob)",
+        "display_fusion": "13.2% ranking score (not calibrated joint prob)"
+      },
+      {
+        "score": "2-0",
+        "rank": 2,
+        "reason": "强队早球后比赛被打开；高压陷阱制造前场失误；定位球成为破局点",
+        "raw_probability": 0.0951,
+        "eventflow_score": 0.0676,
+        "normalized_fusion_score": 0.1218,
+        "display_probability": "9.5% (V2 calibrated scoreline prob)",
+        "display_fusion": "12.2% ranking score (not calibrated joint prob)"
+      },
+      {
+        "score": "3-1",
+        "rank": 3,
+        "reason": "强队早球后比赛被打开；边路错位被持续打穿；高压陷阱制造前场失误",
+        "raw_probability": 0.0597,
+        "eventflow_score": 0.0754,
+        "normalized_fusion_score": 0.1011,
+        "display_probability": "6.0% (V2 calibrated scoreline prob)",
+        "display_fusion": "10.1% ranking score (not calibrated joint prob)"
+      }
+    ],
+    "total_goals": "2/4球优先，防5球",
+    "half_full_time_top3": [
+      {
+        "label": "平/胜",
+        "score": 0.4514,
+        "perspective_basis": "语义=draw_ht|favorite_wins_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S02_low_block_survival",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal"
+        ],
+        "why_not_others": "平/负权重较低(0.357)；胜/负权重较低(0.216)；胜/平权重较低(0.168)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.262)；弱队低位守住上半场，比分压低(0.031)"
+      },
+      {
+        "label": "胜/胜",
+        "score": 0.3134,
+        "perspective_basis": "语义=favorite_leads_ht|favorite_wins_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal",
+          "S06_set_piece_breakthrough"
+        ],
+        "why_not_others": "平/负权重较低(0.357)；胜/负权重较低(0.216)；胜/平权重较低(0.168)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.262)；边路错位被持续打穿(0.125)"
+      },
+      {
+        "label": "平/平",
+        "score": 0.2351,
+        "perspective_basis": "语义=underdog_holds_ht|draw_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S02_low_block_survival",
+          "S06_set_piece_breakthrough",
+          "S07_late_chase_open_game",
+          "S08_strict_ref_card_penalty_chaos"
+        ],
+        "why_not_others": "平/负权重较低(0.357)；胜/负权重较低(0.216)；胜/平权重较低(0.168)",
+        "explanation": "支撑剧本：弱队低位守住上半场，比分压低(0.031)；弱队低位守住上半场，比分压低(0.031)"
+      }
+    ],
+    "half_full_time": [
+      "平/胜",
+      "胜/胜",
+      "平/平"
+    ],
+    "confidence": "中高",
+    "risk_notes": [
+      "normalized_fusion_score 是排序分，不可与赔率隐含概率直接对比",
+      "若上半场无早球，大比分权重下降",
+      "估算数据占比 29%，EventFlow 尾部已降权"
+    ]
+  },
+  "generated_at": "2026-06-19T09:55:14.645721+00:00"
+}

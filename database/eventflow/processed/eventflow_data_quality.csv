@@ -1,0 +1,7 @@
+﻿dataset,table_name,rows,required_fields_missing,stale_rows,low_confidence_rows,last_updated,quality_score,notes
+player_style,player_style/processed/player_foot_position_profile.csv,95,0,0,0,2026-06-19,1,ok
+player_style,player_style/processed/player_worldcup_position_shift.csv,11,0,0,0,2026-06-19,1,ok
+team_style,team_style/processed/team_tactical_profile.csv,8,0,0,0,2026-06-19,1,ok
+team_style,team_style/processed/tactical_matchup_matrix.csv,4,0,0,0,2026-06-19,1,ok
+eventflow,eventflow/processed/eventflow_scenario_weights.csv,40,0,0,0,2026-06-19,1,ok
+eventflow,eventflow/processed/eventflow_predictions.csv,5,5,0,0,2026-06-19,0.833333,ok

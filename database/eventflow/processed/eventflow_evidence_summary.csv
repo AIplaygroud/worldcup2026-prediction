@@ -1,0 +1,2 @@
+match_id,signal_type,team,evidence_grade,confidence,evidence_summary,sources,note
+WC2026-C29,strong_side_attack,Brazil,C,0.4845,WC2026-C29|Brazil|strong_side_attack|unknown,wc2026_r2_strategy,仅进入 evidence_summary，不参与 scenario 加权

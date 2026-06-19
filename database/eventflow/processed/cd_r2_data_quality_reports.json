@@ -1,0 +1,54 @@
+[
+  {
+    "match_id": "WC2026-C29",
+    "real_source_count": 8,
+    "pre_match_source_count": 8,
+    "post_match_source_count": 0,
+    "estimated_field_ratio": 0.077,
+    "player_real_data_ratio": 0.923,
+    "team_real_data_ratio": 0.75,
+    "source_url_missing_count": 0,
+    "example_com_count": 0,
+    "eligible_for_prediction": true,
+    "blocking_issues": []
+  },
+  {
+    "match_id": "WC2026-C30",
+    "real_source_count": 8,
+    "pre_match_source_count": 8,
+    "post_match_source_count": 0,
+    "estimated_field_ratio": 0.043,
+    "player_real_data_ratio": 0.957,
+    "team_real_data_ratio": 0.75,
+    "source_url_missing_count": 0,
+    "example_com_count": 0,
+    "eligible_for_prediction": true,
+    "blocking_issues": []
+  },
+  {
+    "match_id": "WC2026-D31",
+    "real_source_count": 8,
+    "pre_match_source_count": 8,
+    "post_match_source_count": 0,
+    "estimated_field_ratio": 0.0,
+    "player_real_data_ratio": 1.0,
+    "team_real_data_ratio": 0.75,
+    "source_url_missing_count": 0,
+    "example_com_count": 0,
+    "eligible_for_prediction": true,
+    "blocking_issues": []
+  },
+  {
+    "match_id": "WC2026-D32",
+    "real_source_count": 8,
+    "pre_match_source_count": 8,
+    "post_match_source_count": 0,
+    "estimated_field_ratio": 0.045,
+    "player_real_data_ratio": 0.955,
+    "team_real_data_ratio": 0.75,
+    "source_url_missing_count": 0,
+    "example_com_count": 0,
+    "eligible_for_prediction": true,
+    "blocking_issues": []
+  }
+]

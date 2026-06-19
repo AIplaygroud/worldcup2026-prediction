@@ -1,0 +1,12 @@
+column,type,required,description
+match_id,string,yes,Match id.
+home_team,string,yes,Home team.
+away_team,string,yes,Away team.
+signal_type,string,yes,Final signal type.
+team,string,no,Team affected.
+minute_bucket,string,no,Match phase.
+scenario_id,string,no,Scenario library id affected by this signal.
+weight_delta,float,yes,Scenario weight delta.
+confidence,float,yes,Final confidence.
+evidence_summary,string,yes,Short audit summary.
+sources,string,yes,Pipe-separated source ids or URLs.

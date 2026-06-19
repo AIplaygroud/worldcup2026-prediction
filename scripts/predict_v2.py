@@ -32,6 +32,7 @@ import math
 import os
 import sys
 from dataclasses import dataclass, field
+from pathlib import Path
 
 # Windows 终端 UTF-8
 try:
@@ -653,8 +654,12 @@ def predict(ctx: MatchContext, data, verbose=True):
         top_hf = sorted(hf.items(), key=lambda x: -x[1])[:4]
         print("半全场         " + "  ".join(f"{a}/{b} {p*100:.0f}%" for (a, b), p in top_hf))
         print(f"置信度         {confidence(m)}")
+    all_scores = sorted(
+        ((i, j, ft[i][j]) for i in range(len(ft)) for j in range(len(ft)) if ft[i][j] > 1e-8),
+        key=lambda x: -x[2],
+    )
     return dict(lam_h=lam_h, lam_a=lam_a, markets=m, htft=hf, base=(b_h, b_a),
-                referee_factor=ref_factor)
+                referee_factor=ref_factor, ft=ft, all_scores=all_scores)
 
 
 def _referee_style_label(data, referee):
@@ -666,6 +671,138 @@ def _referee_style_label(data, referee):
     strict_txt = "牌尺度略严" if strict > 0.15 else ("牌尺度略松" if strict < -0.15 else "牌尺度中性")
     pen_txt = "点球倾向偏高" if pen > 0.15 else ("点球倾向偏低" if pen < -0.15 else "点球倾向中性")
     return f"{strict_txt}，{pen_txt}"
+
+
+def _score_result_type(h: int, a: int) -> str:
+    if h > a:
+        return "胜"
+    if h < a:
+        return "负"
+    return "平"
+
+
+def _team_xg_sources(team: str, data) -> tuple[str, bool, list[str]]:
+    missing = []
+    xg_src = "team_recent_form.csv"
+    default_used = False
+    if team not in data.get("form", {}):
+        missing.append("team_recent_form")
+        default_used = True
+    if team not in data.get("strength", {}):
+        missing.append("opponent_strength")
+        default_used = True
+    wc_adj = data.get("wc_adj", {}).get(team)
+    wc = data.get("wc", {}).get(team)
+    if wc_adj:
+        xg_src = "wc2026_team_xg_adj.csv"
+    elif wc:
+        xg_src = "wc2026_team_xg.csv"
+    else:
+        missing.append("wc_xg")
+        xg_src = "tier_floor_only"
+        default_used = True
+    if team not in data.get("team_model", {}):
+        missing.append("team_model")
+    return xg_src, default_used, missing
+
+
+def build_v2_diagnostics(result, ctx, data, match_id="") -> dict:
+    b_h, b_a = result["base"]
+    lam_h, lam_a = result["lam_h"], result["lam_a"]
+    m = result["markets"]
+    top3 = m["scores"][:3]
+    h_xg, h_def, h_miss = _team_xg_sources(ctx.home, data)
+    a_xg, a_def, a_miss = _team_xg_sources(ctx.away, data)
+    ratio = lam_h / max(lam_a, 0.01)
+    imbalance = abs(ratio - 1.0)
+    top3_str = ", ".join(f"{i}-{j}({p*100:.1f}%)" for i, j, p in top3)
+    if imbalance >= 0.8:
+        reason = f"λ比={ratio:.2f}，强弱差距大，Top3偏向{top3[0][0]}-{top3[0][1]}等一侧比分"
+    elif imbalance <= 0.35:
+        reason = f"λ比={ratio:.2f}，实力接近，Top3分散({top3_str})"
+    else:
+        reason = f"λ比={ratio:.2f}，中等差距，Top3={top3_str}"
+    degraded = h_def or a_def or ctx.base_override is not None
+    if degraded:
+        reason += "；缺WC xG或档位地板参与，probability_data_degraded=true"
+    return {
+        "match_id": match_id,
+        "home": ctx.home,
+        "away": ctx.away,
+        "lambda_home": round(lam_h, 4),
+        "lambda_away": round(lam_a, 4),
+        "base_lambda_home": round(b_h, 4),
+        "base_lambda_away": round(b_a, 4),
+        "strength_source": "opponent_strength.csv",
+        "xg_source": f"{ctx.home}:{h_xg}; {ctx.away}:{a_xg}",
+        "whether_default_used": h_def or a_def,
+        "missing_team_profile_fields": sorted(set(h_miss + a_miss)),
+        "probability_top3_reason": reason,
+        "probability_top3": [f"{i}-{j}" for i, j, _ in top3],
+        "probability_data_degraded": degraded,
+    }
+
+
+def export_v2_diagnostics(diag: dict, json_path: str) -> None:
+    import json
+    existing = {}
+    if os.path.isfile(json_path):
+        with open(json_path, encoding="utf-8") as f:
+            existing = json.load(f)
+    mid = diag.get("match_id") or f"{diag['home']}_vs_{diag['away']}"
+    existing[mid] = diag
+    os.makedirs(os.path.dirname(os.path.abspath(json_path)), exist_ok=True)
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(existing, f, ensure_ascii=False, indent=2)
+    print(f"Exported V2 diagnostics -> {json_path} [{mid}]")
+
+
+def export_probability_scores(result, ctx, csv_path, match_id=""):
+    """Append V2 score distribution for dual-engine merge; dedupe by match_id or home/away pair."""
+    from datetime import datetime, timezone
+
+    fieldnames = [
+        "match_id", "home_team", "away_team", "lambda_home", "lambda_away",
+        "score", "home_goals", "away_goals", "probability", "total_goals",
+        "result_type", "created_at",
+    ]
+    created_at = datetime.now(timezone.utc).isoformat()
+    lam_h, lam_a = result["lam_h"], result["lam_a"]
+    existing = []
+    if os.path.isfile(csv_path):
+        with open(csv_path, encoding="utf-8-sig") as f:
+            existing = list(csv.DictReader(f))
+    if match_id:
+        existing = [r for r in existing if r.get("match_id") != match_id]
+    else:
+        existing = [
+                    r for r in existing
+                    if not (r.get("home_team") == ctx.home and r.get("away_team") == ctx.away)]
+    new_rows = []
+    for i, j, p in result.get("all_scores", []):
+        if p < 1e-6:
+            continue
+        new_rows.append({
+            "match_id": match_id,
+            "home_team": ctx.home,
+            "away_team": ctx.away,
+            "lambda_home": f"{lam_h:.4f}",
+            "lambda_away": f"{lam_a:.4f}",
+            "score": f"{i}-{j}",
+            "home_goals": str(i),
+            "away_goals": str(j),
+            "probability": f"{p:.6f}",
+            "total_goals": str(i + j),
+            "result_type": _score_result_type(i, j),
+            "created_at": created_at,
+        })
+    os.makedirs(os.path.dirname(os.path.abspath(csv_path)), exist_ok=True)
+    with open(csv_path, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for r in existing + new_rows:
+            w.writerow({k: r.get(k, "") for k in fieldnames})
+    print(f"Exported {len(new_rows)} score rows -> {csv_path}")
 
 
 # ----------------------------------------------------------------------------
@@ -743,6 +880,9 @@ def main():
     ap.add_argument("--no-referee-layer", action="store_true")
     ap.add_argument("--referee-layer", action="store_true",
                     help="显式启用裁判层（默认已启用）")
+    ap.add_argument("--export-score-csv", default="",
+                    help="导出 Dixon-Coles 比分分布 CSV 供双引擎融合")
+    ap.add_argument("--match-id", default="", help="导出 CSV 时使用的比赛 ID")
     args = ap.parse_args()
 
     use_ref = not args.no_referee_layer
@@ -758,7 +898,12 @@ def main():
         if args.referee:
             ctx.referee_known = True
             ctx.referee_confidence = 0.85
-        predict(ctx, data, verbose=True)
+        res = predict(ctx, data, verbose=True)
+        if args.export_score_csv:
+            export_probability_scores(res, ctx, args.export_score_csv, match_id=args.match_id)
+        if args.match_id or (args.home and args.away):
+            diag_path = str(Path(__file__).resolve().parents[1] / "database" / "eventflow" / "raw" / "v2_engine_diagnostics.json")
+            export_v2_diagnostics(build_v2_diagnostics(res, ctx, data, match_id=args.match_id), diag_path)
     else:
         if args.backtest and (args.no_referee_layer or args.referee_layer):
             run_backtest(data, use_referee_layer=use_ref)

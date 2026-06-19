@@ -1,0 +1,12 @@
+match_id,player,team,listed_position,actual_role,side,touches_left,touches_center,touches_right,avg_x,avg_y,minutes,source,source_url,source_title,confidence,is_estimated,data_origin
+WC2026-C7,Vinicius Jr,Brazil,ST,ST,center,,,,,,90,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,FotMob R1 lineup Brazil,0.88,false,wc2026_lineups_r1
+WC2026-C7,Raphinha,Brazil,RW,RW,right,,,,,,90,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,FotMob R1 lineup Brazil,0.88,false,wc2026_lineups_r1
+WC2026-C5,Frantzdy Pierrot,Haiti,ST,ST,center,,,,,,90,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,FotMob R1 lineup Haiti,0.88,false,wc2026_lineups_r1
+WC2026-C5,Wilson Isidor,Haiti,ST,ST,center,,,,,,76,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,FotMob R1 lineup Haiti,0.88,false,wc2026_lineups_r1
+WC2026-C5,Scott McTominay,Scotland,CM,CM,center,,,,,,90,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,FotMob R1 lineup Scotland,0.88,false,wc2026_lineups_r1
+WC2026-C7,Brahim Diaz,Morocco,AM,AM,center,,,,,,65,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,FotMob R1 lineup Morocco,0.88,false,wc2026_lineups_r1
+WC2026-C7,Achraf Hakimi,Morocco,RB,RB,right,,,,,,90,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,FotMob R1 lineup Morocco,0.88,false,wc2026_lineups_r1
+WC2026-D6,Nestory Irankunda,Australia,RW,RW,right,,,,,,90,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,FotMob R1 lineup Australia,0.88,false,wc2026_lineups_r1
+WC2026-D4,Folarin Balogun,USA,ST,ST,center,,,,,,72,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,FotMob R1 lineup USA,0.88,false,wc2026_lineups_r1
+WC2026-D4,Christian Pulisic,USA,LW,LW,left,,,,,,45,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,FotMob R1 lineup USA,0.88,false,wc2026_lineups_r1
+WC2026-D4,Julio Enciso,Paraguay,ST,ST,center,,,,,,90,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,FotMob R1 lineup Paraguay,0.88,false,wc2026_lineups_r1

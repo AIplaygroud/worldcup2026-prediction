@@ -1,0 +1,12 @@
+column,type,required,description
+claim_id,string,yes,Stable hash id of a tactical/event claim.
+match_id,string,yes,Match id.
+canonical_signal,string,yes,Normalized claim text.
+signal_type,string,yes,Signal category.
+team,string,no,Team involved.
+minute_bucket,string,no,Phase: 0-15,16-30,31-45+,46-60,61-75,76-90+.
+sources,string,yes,Pipe-separated source ids supporting the claim.
+agreement_count,int,yes,Number of independent source ids.
+conflict_count,int,yes,Number of contradictory claims.
+final_confidence,float,yes,Final confidence after validation.
+use_for_prediction,bool,yes,Whether EventFlow can use it to change scenario weights.

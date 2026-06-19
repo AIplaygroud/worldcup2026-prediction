@@ -1,0 +1,62 @@
+{
+  "WC2026-C29": {
+    "match_id": "WC2026-C29",
+    "home": "Brazil",
+    "away": "Haiti",
+    "lambda_home": 2.5855,
+    "lambda_away": 0.8352,
+    "base_lambda_home": 2.4505,
+    "base_lambda_away": 0.8352,
+    "strength_source": "opponent_strength.csv",
+    "xg_source": "Brazil:wc2026_team_xg_adj.csv; Haiti:wc2026_team_xg_adj.csv",
+    "whether_default_used": false,
+    "missing_team_profile_fields": [],
+    "probability_top3_reason": "λ比=3.10，强弱差距大，Top3偏向2-0等一侧比分",
+    "probability_top3": [
+      "2-0",
+      "3-0",
+      "2-1"
+    ],
+    "probability_data_degraded": false
+  },
+  "WC2026-L22": {
+    "match_id": "WC2026-L22",
+    "home": "England",
+    "away": "Croatia",
+    "lambda_home": 2.6265,
+    "lambda_away": 0.8219,
+    "base_lambda_home": 2.4538,
+    "base_lambda_away": 0.7331,
+    "strength_source": "opponent_strength.csv",
+    "xg_source": "England:wc2026_team_xg_adj.csv; Croatia:wc2026_team_xg_adj.csv",
+    "whether_default_used": false,
+    "missing_team_profile_fields": [],
+    "probability_top3_reason": "λ比=3.20，强弱差距大，Top3偏向2-0等一侧比分",
+    "probability_top3": [
+      "2-0",
+      "3-0",
+      "2-1"
+    ],
+    "probability_data_degraded": false
+  },
+  "WC2026-J43": {
+    "match_id": "WC2026-J43",
+    "home": "Argentina",
+    "away": "Austria",
+    "lambda_home": 1.8167,
+    "lambda_away": 1.0373,
+    "base_lambda_home": 1.759,
+    "base_lambda_away": 0.9559,
+    "strength_source": "opponent_strength.csv",
+    "xg_source": "Argentina:wc2026_team_xg_adj.csv; Austria:wc2026_team_xg_adj.csv",
+    "whether_default_used": false,
+    "missing_team_profile_fields": [],
+    "probability_top3_reason": "λ比=1.75，中等差距，Top3=1-1(11.3%), 1-0(10.0%), 2-1(9.9%)",
+    "probability_top3": [
+      "1-1",
+      "1-0",
+      "2-1"
+    ],
+    "probability_data_degraded": false
+  }
+}

@@ -82,6 +82,83 @@
 - 本文档基础资料截至 2026 年 6 月初；数据库中**静态汇总表**以文件为准；**伤停、停赛、预计首发等临场情报**必须在每次预测前重新获取（见第五节）
 - 禁止把 `skill.md` 第四节或数据库中的历史伤停描述，当作「今天这场」的出场依据
 
+### V3.0 EventFlow 事件流分支（并行，不替代 V2.0）
+
+在 V2.0 `xG + 多层修正 + Dixon-Coles + 竞彩/赔率约束` **概率派主链路之外**，新增 **EventFlow 事件流赛果派** 作为并行分支。EventFlow **不得**覆盖或替代 V2.0 的 λ 校准、Dixon-Coles 稳态分布与赔率规则；它负责补概率派容易低估的**战术连锁**与大比分尾部。
+
+| 引擎 | 职责 |
+|---|---|
+| **V2.0 概率派** | 稳态 λ、胜平负、基础比分分布、Dixon-Coles、竞彩/赔率约束、L10 裁判小幅修正 |
+| **V3.0 EventFlow** | 战术对弈、惯用脚/位置偏移、阵型克制、破阵/守阵路径、早球/红牌/换人/体能/追分/崩盘、大比分尾部 |
+| **双引擎融合** | 按 safe / balanced / hit_hunting 合并两套 Top 比分，输出最终 Top 3 |
+
+**EventFlow 必查数据**（每场赛前）：
+
+1. `database/player_style/processed/player_foot_position_profile.csv`
+2. `database/player_style/processed/player_league_style_profile.csv`
+3. `database/player_style/processed/player_worldcup_position_shift.csv`
+4. `database/team_style/processed/team_tactical_profile.csv`
+5. `database/team_style/processed/team_match_state_response.csv`
+6. `database/team_style/processed/tactical_matchup_matrix.csv`
+7. `database/eventflow/processed/scenario_library.json`（S01–S10 剧本库）
+8. `database/eventflow/processed/eventflow_scenario_weights.csv`（每场 10 剧本全量权重）
+9. 如存在裁判模块，读取 `database/referee/processed/*` 作为 L10 辅助信号（弱修正，不得单独定方向）
+
+**EventFlow 必须判断**：惯用脚与实际站位是否匹配；世界杯实际位置是否偏离联赛常规位置；双方阵型克制/牵制；主客破阵路径与守阵路径；是否可能进入早球、严哨、红牌、末段追分、崩盘、大比分尾部。
+
+**执行命令**（λ 来自 V2 导出）：
+
+```bash
+python scripts/predict_v2.py --home Brazil --away Haiti --export-score-csv database/eventflow/raw/probability_engine_scores.csv --match-id WC2026-C29
+python scripts/update_eventflow_daily.py
+python scripts/predict_eventflow.py --match-id WC2026-C29 --home Brazil --away Haiti --lam-home <V2λ主> --lam-away <V2λ客> --mode balanced
+python scripts/merge_dual_engine_predictions.py --match-id WC2026-C29 --home Brazil --away Haiti --mode balanced --export-json
+```
+
+### V3.1 Source Fusion 多源证据融合（并行证据层）
+
+V3.1 在 EventFlow 之上增加**多源公开资料结构化证据层**，用于把解说过程、战报、战术文章、复盘、位置变化、教练调整等转为可审计信号。**禁止**把完整原文、付费全文或大段版权文字存入仓库。
+
+每条证据必须结构化存储为：
+
+`source_url + 来源类型 + 时间点 + 证据摘要 + 结构化标签 + 置信度`
+
+**不存**：大段原文、完整文字直播、未经授权的付费报告全文。
+
+**Source Fusion 流水线**：
+
+```bash
+python scripts/run_source_fusion_pipeline.py --match-id <ID> --home <主队> --away <客队>
+```
+
+输出表：`source_signal_events.csv`、`source_signal_claims.csv`、`source_signal_quality.csv`、`eventflow_fused_evidence.csv`。融合证据经 `scenario_signal_mapping.csv` 映射到 S01–S10，由 `build_eventflow_scenario_weights.py` 写入剧本权重。
+
+**证据优先级**：① FIFA 官方 / 技术报告 → ② 多源结构化事件摘要 → ③ 战术预览/复盘 → ④ 球员/球队风格画像 → ⑤ V2.0 概率派输出。单源、无时间戳、情绪化但无战术细节的声明必须降权。
+
+**Agent 提取信号类型**（须映射到 S01–S10）：`pressing_success`、`pressing_broken`、`low_block_success`、`low_block_failure`、`transition_threat`、`set_piece_edge`、`goalkeeper_error`、`card_or_referee_chaos`、`injury_or_forced_substitution`、`late_game_opening`、`position_shift`、`strong_side_attack`、`tactical_mutual_lock`。
+
+### 双引擎融合输出纪律（V3.0 + V3.1 叠加于第二、三节）
+
+凡涉及**比赛预测**（不仅 JSON 模式），Agent 必须**同时**给出以下七类结果，并说明数据置信度与风险：
+
+1. **概率派 Top 比分**（来自 `predict_v2.py` / `probability_engine_scores.csv`）
+2. **EventFlow Top 比分**（来自 `predict_eventflow.py`，须含 3–6 个 `activated_scenarios`，禁止单剧本解释）
+3. **融合后 Top 3 比分**（来自 `merge_dual_engine_predictions.py`，按 `final_weight` 降序）
+4. **总进球数倾向**（概率派 + EventFlow + 融合各给一档，可合并表述）
+5. **半全场胜负**（枚举：胜/胜、胜/平、胜/负、平/胜、平/平、平/负、负/胜、负/平、负/负；从主队视角）
+6. **激活的 3–6 个事件流剧本**（scenario_id、name、weight、evidence_summary、affected_score_families）
+7. **多源证据摘要与置信度**（source_summary、conflicts、high_confidence_claims）
+
+**融合模式**（默认 `balanced`）：
+
+| 模式 | 概率派 | EventFlow | 适用 |
+|---|---|---|---|
+| safe | 65% | 35% | 稳健输出、数据缺口大 |
+| balanced | 50% | 50% | 默认 |
+| hit_hunting | 35% | 65% | 用户明确要求提高赛果命中/大比分覆盖 |
+
+只有在用户明确要求提高赛果命中或覆盖大比分时，使用 `hit_hunting`。EventFlow 在数据置信度低时必须降级为「概率基准 + 弱尾部修正」，并明确标注。
+
 ---
 
 ## 三、输出模式（按用户需求选择）
@@ -156,6 +233,54 @@
     "teamB_delta_xg": -0.01,
     "impact": "低",
     "confidence": "中"
+  }
+}
+```
+
+### D.2 双引擎融合 JSON（V3.0 + V3.1）
+
+当用户要求接口/网站/UI 输出，或明确要求「双引擎 / EventFlow / 融合 JSON」时，使用以下结构（可由 `merge_dual_engine_predictions.py --export-json` 生成，Agent 可在此基础上补充文字分析）：
+
+```json
+{
+  "match": "Brazil vs Haiti",
+  "probability_engine": {
+    "lambda_home": 2.59,
+    "lambda_away": 0.84,
+    "top_scores": ["2-0", "3-0", "2-1"],
+    "total_goals": "2-3球"
+  },
+  "eventflow_engine": {
+    "activated_scenarios": [
+      {
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "weight": 0.18,
+        "evidence_summary": "边路宽度+破低位路径清晰",
+        "affected_score_families": ["2-0", "3-0", "3-1", "4-1"]
+      }
+    ],
+    "phase_simulation": {},
+    "top_scores": ["3-0", "2-0", "3-1"],
+    "half_full_time": ["胜/胜", "平/胜"],
+    "total_goals": "3-4球"
+  },
+  "source_fusion": {
+    "evidence_count": 3,
+    "high_confidence_claims": [],
+    "conflicts": [],
+    "source_summary": []
+  },
+  "final_fusion": {
+    "score_ranking": [
+      {"score": "3-0", "rank": 1, "reason": "实力差距+边路破阵+早球剧本"},
+      {"score": "2-0", "rank": 2, "reason": "概率派稳态主导"},
+      {"score": "3-1", "rank": 3, "reason": "弱队转换风险"}
+    ],
+    "total_goals": "3/4球优先，防5球",
+    "half_full_time": "胜/胜优先，防平/胜",
+    "confidence": "中高",
+    "risk_notes": []
   }
 }
 ```

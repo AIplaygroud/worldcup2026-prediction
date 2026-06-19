@@ -1,0 +1,4 @@
+﻿player_id,player,team,season,minutes,xg,xa,goals,npxg,shots90,touches_box90,key_passes90,through_balls90,progressive_passes90,progressive_carries90,successful_dribbles90,pressures90,tackles90,interceptions90,fouls_committed90,fouls_won90,aerial_won90,crosses90,yellow_cards90,red_cards90,source,confidence
+BR-VIN,Vinicius Jr,Brazil,2025-26,2800,0.42,0.18,18,0.38,3.8,6.2,1.9,0.2,4.5,8.1,4.2,12.0,1.1,0.4,1.8,2.4,0.3,0.8,4,0,manual,0.75
+BR-RAP,Raphinha,Brazil,2025-26,2600,0.35,0.22,16,0.30,3.2,5.1,2.4,0.3,5.0,6.5,2.8,14.0,1.5,0.6,2.0,1.8,0.2,2.5,6,0,manual,0.75
+HT-FRA,Frantzdy Pierrot,Haiti,2025-26,1800,0.28,0.05,12,0.25,2.5,4.0,0.6,0.1,1.2,2.0,0.8,8.0,0.9,0.3,1.5,1.2,2.1,0.4,3,0,manual,0.60
