@@ -1,0 +1,4 @@
+match_id,team,opponent,player,signal_type,status,role,role_group,importance_tier,replacement,replacement_quality,evidence_grade,confirmed,source_count,minutes_expected_delta,lambda_side,eligibility_for_lambda,eventflow_only,exclusion_reason,notes,updated_at
+WC2026-D32,USA,Australia,Christian Pulisic,injury,out,Winger,wide_attacker,core,Ricardo Pepi,high,A,true,2,-80,own_attack,,,,"Confirmed out R2; calf knock from R1 HT sub",2026-06-19
+WC2026-D32,USA,Australia,Christian Pulisic,injury,doubtful,Winger,wide_attacker,core,,unknown,C,false,1,0,none,,,,"Yahoo probable — unconfirmed rumor tier",2026-06-19
+WC2026-D32,Australia,USA,Garang Kuol,lineup_start,starts,Winger,wide_attacker,rotation,,unknown,B,true,1,15,own_attack,,,,"Tactical rotation only; fringe tier — EventFlow path",2026-06-19

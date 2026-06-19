@@ -63,10 +63,10 @@
     "match_id": "WC2026-D32",
     "home": "USA",
     "away": "Australia",
-    "lambda_home": 1.581,
-    "lambda_away": 1.3771,
-    "base_lambda_home": 1.3702,
-    "base_lambda_away": 1.3702,
+    "lambda_home": 1.5424,
+    "lambda_away": 1.2083,
+    "base_lambda_home": 1.581,
+    "base_lambda_away": 1.2083,
     "strength_source": "opponent_strength.csv",
     "xg_source": "USA:wc2026_team_xg_adj.csv; Australia:wc2026_team_xg_adj.csv",
     "whether_default_used": false,
@@ -77,7 +77,787 @@
       "2-1",
       "1-2"
     ],
-    "probability_data_degraded": false
+    "probability_data_degraded": false,
+    "availability_adjustment": {
+      "enabled": true,
+      "signals_used": 1,
+      "signals_excluded": 2,
+      "home_attack_delta_pct": -0.0244,
+      "away_attack_delta_pct": 0.0,
+      "home_defense_delta_pct": 0.0,
+      "away_defense_delta_pct": 0.0,
+      "home_team_raw_pct": -0.0244,
+      "away_team_raw_pct": 0.0,
+      "home_team_capped_pct": -0.0244,
+      "away_team_capped_pct": 0.0,
+      "match_total_lambda_change_pct": -0.0139,
+      "match_cap_applied": false,
+      "excluded_signals": 2,
+      "adjustment_audit_file": "database/eventflow/processed/realtime_availability_adjustments.csv",
+      "included_signals": [
+        "Christian Pulisic"
+      ],
+      "excluded_availability_signals": [
+        {
+          "player": "Christian Pulisic",
+          "signal_type": "injury",
+          "reason": "unconfirmed",
+          "exclusion_reason": "unconfirmed",
+          "eventflow_only": true,
+          "eventflow_usage_mode": "eventflow_only_probability_proxy"
+        },
+        {
+          "player": "Garang Kuol",
+          "signal_type": "lineup_start",
+          "reason": "rotation_player_not_eligible_for_lambda",
+          "exclusion_reason": "rotation_player_not_eligible_for_lambda",
+          "eventflow_only": true,
+          "eventflow_usage_mode": "eventflow_only_probability_proxy"
+        }
+      ]
+    },
+    "adjusted_lambda": {
+      "home": 1.5424,
+      "away": 1.2083
+    },
+    "probabilities_from": "adjusted_lambda",
+    "realtime_availability_signals": [
+      {
+        "match_id": "WC2026-D32",
+        "team": "USA",
+        "opponent": "Australia",
+        "player": "Christian Pulisic",
+        "signal_type": "injury",
+        "status": "out",
+        "role": "Winger",
+        "role_group": "wide_attacker",
+        "importance_tier": "core",
+        "replacement": "Ricardo Pepi",
+        "replacement_quality": "high",
+        "evidence_grade": "A",
+        "confirmed": "true",
+        "source_count": "2",
+        "minutes_expected_delta": "-80",
+        "lambda_side": "own_attack",
+        "eligibility_for_lambda": true,
+        "eventflow_only": false,
+        "exclusion_reason": "",
+        "notes": "Confirmed out R2; calf knock from R1 HT sub",
+        "updated_at": "2026-06-19",
+        "raw_adjustment_pct": -0.0244,
+        "base_role_adjustment_pct": -0.055,
+        "replacement_multiplier": 0.5,
+        "evidence_multiplier": 1.0,
+        "minutes_multiplier": 0.8889,
+        "single_signal_capped_pct": -0.0244,
+        "final_adjustment_pct": -0.0244,
+        "included_for_lambda": true,
+        "eventflow_usage_mode": "tactical_path_only",
+        "eventflow_also_uses_signal": true,
+        "attack_delta_pct": -0.024444444444444442,
+        "opponent_attack_delta_pct": 0.0,
+        "team_total_raw_pct": -0.0244,
+        "team_total_capped_pct": -0.0244,
+        "match_total_lambda_change_pct": -0.0139,
+        "base_lambda_before": 1.581,
+        "adjusted_lambda_after": 1.5424
+      },
+      {
+        "match_id": "WC2026-D32",
+        "team": "USA",
+        "opponent": "Australia",
+        "player": "Christian Pulisic",
+        "signal_type": "injury",
+        "status": "doubtful",
+        "role": "Winger",
+        "role_group": "wide_attacker",
+        "importance_tier": "core",
+        "replacement": "",
+        "replacement_quality": "unknown",
+        "evidence_grade": "C",
+        "confirmed": "false",
+        "source_count": "1",
+        "minutes_expected_delta": "0",
+        "lambda_side": "none",
+        "eligibility_for_lambda": false,
+        "eventflow_only": true,
+        "exclusion_reason": "unconfirmed",
+        "notes": "Yahoo probable — unconfirmed rumor tier",
+        "updated_at": "2026-06-19",
+        "attack_delta_pct": 0.0,
+        "opponent_attack_delta_pct": 0.0,
+        "raw_adjustment_pct": 0.0,
+        "single_signal_capped_pct": 0.0,
+        "final_adjustment_pct": 0.0,
+        "included_for_lambda": false,
+        "eventflow_usage_mode": "eventflow_only_probability_proxy",
+        "eventflow_also_uses_signal": true
+      },
+      {
+        "match_id": "WC2026-D32",
+        "team": "Australia",
+        "opponent": "USA",
+        "player": "Garang Kuol",
+        "signal_type": "lineup_start",
+        "status": "starts",
+        "role": "Winger",
+        "role_group": "wide_attacker",
+        "importance_tier": "rotation",
+        "replacement": "",
+        "replacement_quality": "unknown",
+        "evidence_grade": "B",
+        "confirmed": "true",
+        "source_count": "1",
+        "minutes_expected_delta": "15",
+        "lambda_side": "own_attack",
+        "eligibility_for_lambda": false,
+        "eventflow_only": true,
+        "exclusion_reason": "rotation_player_not_eligible_for_lambda",
+        "notes": "Tactical rotation only; fringe tier — EventFlow path",
+        "updated_at": "2026-06-19",
+        "attack_delta_pct": 0.0,
+        "opponent_attack_delta_pct": 0.0,
+        "raw_adjustment_pct": 0.0,
+        "single_signal_capped_pct": 0.0,
+        "final_adjustment_pct": 0.0,
+        "included_for_lambda": false,
+        "eventflow_usage_mode": "eventflow_only_probability_proxy",
+        "eventflow_also_uses_signal": true
+      }
+    ],
+    "included_lambda_adjustments": [
+      {
+        "match_id": "WC2026-D32",
+        "team": "USA",
+        "opponent": "Australia",
+        "player": "Christian Pulisic",
+        "signal_type": "injury",
+        "status": "out",
+        "role": "Winger",
+        "role_group": "wide_attacker",
+        "importance_tier": "core",
+        "replacement": "Ricardo Pepi",
+        "replacement_quality": "high",
+        "evidence_grade": "A",
+        "confirmed": "true",
+        "source_count": "2",
+        "minutes_expected_delta": "-80",
+        "lambda_side": "own_attack",
+        "eligibility_for_lambda": true,
+        "eventflow_only": false,
+        "exclusion_reason": "",
+        "notes": "Confirmed out R2; calf knock from R1 HT sub",
+        "updated_at": "2026-06-19",
+        "raw_adjustment_pct": -0.0244,
+        "base_role_adjustment_pct": -0.055,
+        "replacement_multiplier": 0.5,
+        "evidence_multiplier": 1.0,
+        "minutes_multiplier": 0.8889,
+        "single_signal_capped_pct": -0.0244,
+        "final_adjustment_pct": -0.0244,
+        "included_for_lambda": true,
+        "eventflow_usage_mode": "tactical_path_only",
+        "eventflow_also_uses_signal": true,
+        "attack_delta_pct": -0.024444444444444442,
+        "opponent_attack_delta_pct": 0.0,
+        "team_total_raw_pct": -0.0244,
+        "team_total_capped_pct": -0.0244,
+        "match_total_lambda_change_pct": -0.0139,
+        "base_lambda_before": 1.581,
+        "adjusted_lambda_after": 1.5424
+      }
+    ],
+    "excluded_signals_and_reasons": [
+      {
+        "match_id": "WC2026-D32",
+        "team": "USA",
+        "opponent": "Australia",
+        "player": "Christian Pulisic",
+        "signal_type": "injury",
+        "status": "doubtful",
+        "role": "Winger",
+        "role_group": "wide_attacker",
+        "importance_tier": "core",
+        "replacement": "",
+        "replacement_quality": "unknown",
+        "evidence_grade": "C",
+        "confirmed": "false",
+        "source_count": "1",
+        "minutes_expected_delta": "0",
+        "lambda_side": "none",
+        "eligibility_for_lambda": false,
+        "eventflow_only": true,
+        "exclusion_reason": "unconfirmed",
+        "notes": "Yahoo probable — unconfirmed rumor tier",
+        "updated_at": "2026-06-19",
+        "attack_delta_pct": 0.0,
+        "opponent_attack_delta_pct": 0.0,
+        "raw_adjustment_pct": 0.0,
+        "single_signal_capped_pct": 0.0,
+        "final_adjustment_pct": 0.0,
+        "included_for_lambda": false,
+        "eventflow_usage_mode": "eventflow_only_probability_proxy",
+        "eventflow_also_uses_signal": true
+      },
+      {
+        "match_id": "WC2026-D32",
+        "team": "Australia",
+        "opponent": "USA",
+        "player": "Garang Kuol",
+        "signal_type": "lineup_start",
+        "status": "starts",
+        "role": "Winger",
+        "role_group": "wide_attacker",
+        "importance_tier": "rotation",
+        "replacement": "",
+        "replacement_quality": "unknown",
+        "evidence_grade": "B",
+        "confirmed": "true",
+        "source_count": "1",
+        "minutes_expected_delta": "15",
+        "lambda_side": "own_attack",
+        "eligibility_for_lambda": false,
+        "eventflow_only": true,
+        "exclusion_reason": "rotation_player_not_eligible_for_lambda",
+        "notes": "Tactical rotation only; fringe tier — EventFlow path",
+        "updated_at": "2026-06-19",
+        "attack_delta_pct": 0.0,
+        "opponent_attack_delta_pct": 0.0,
+        "raw_adjustment_pct": 0.0,
+        "single_signal_capped_pct": 0.0,
+        "final_adjustment_pct": 0.0,
+        "included_for_lambda": false,
+        "eventflow_usage_mode": "eventflow_only_probability_proxy",
+        "eventflow_also_uses_signal": true
+      }
+    ],
+    "base_probability_snapshot": {
+      "home_win": 0.4547,
+      "draw": 0.259,
+      "away_win": 0.2863,
+      "over25": 0.528,
+      "btts": 0.5623,
+      "top_scores": [
+        "1-1",
+        "2-1",
+        "1-0",
+        "2-0",
+        "1-2"
+      ]
+    },
+    "adjusted_probability": {
+      "home_win": 0.445,
+      "draw": 0.2621,
+      "away_win": 0.293,
+      "over25": 0.5187,
+      "btts": 0.5567,
+      "top_scores": [
+        "1-1",
+        "1-0",
+        "2-1",
+        "2-0",
+        "1-2"
+      ]
+    },
+    "scoreline_probability_grid": [
+      {
+        "home_goals": 1,
+        "away_goals": 1,
+        "score": "1-1",
+        "probability": 0.124417
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 0,
+        "score": "1-0",
+        "probability": 0.093177
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 1,
+        "score": "2-1",
+        "probability": 0.091818
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 0,
+        "score": "2-0",
+        "probability": 0.07599
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 2,
+        "score": "1-2",
+        "probability": 0.071929
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 1,
+        "score": "0-1",
+        "probability": 0.071833
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 0,
+        "score": "0-0",
+        "probability": 0.069241
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 2,
+        "score": "2-2",
+        "probability": 0.055472
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 1,
+        "score": "3-1",
+        "probability": 0.047207
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 2,
+        "score": "0-2",
+        "probability": 0.046635
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 0,
+        "score": "3-0",
+        "probability": 0.039069
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 3,
+        "score": "1-3",
+        "probability": 0.028971
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 2,
+        "score": "3-2",
+        "probability": 0.02852
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 3,
+        "score": "2-3",
+        "probability": 0.022342
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 3,
+        "score": "0-3",
+        "probability": 0.018783
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 1,
+        "score": "4-1",
+        "probability": 0.018203
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 0,
+        "score": "4-0",
+        "probability": 0.015065
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 3,
+        "score": "3-3",
+        "probability": 0.011487
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 2,
+        "score": "4-2",
+        "probability": 0.010997
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 4,
+        "score": "1-4",
+        "probability": 0.008751
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 4,
+        "score": "2-4",
+        "probability": 0.006749
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 4,
+        "score": "0-4",
+        "probability": 0.005674
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 1,
+        "score": "5-1",
+        "probability": 0.005615
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 0,
+        "score": "5-0",
+        "probability": 0.004647
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 3,
+        "score": "4-3",
+        "probability": 0.004429
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 4,
+        "score": "3-4",
+        "probability": 0.00347
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 2,
+        "score": "5-2",
+        "probability": 0.003392
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 5,
+        "score": "1-5",
+        "probability": 0.002115
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 5,
+        "score": "2-5",
+        "probability": 0.001631
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 1,
+        "score": "6-1",
+        "probability": 0.001443
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 5,
+        "score": "0-5",
+        "probability": 0.001371
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 3,
+        "score": "5-3",
+        "probability": 0.001366
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 4,
+        "score": "4-4",
+        "probability": 0.001338
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 0,
+        "score": "6-0",
+        "probability": 0.001195
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 2,
+        "score": "6-2",
+        "probability": 0.000872
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 5,
+        "score": "3-5",
+        "probability": 0.000839
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 6,
+        "score": "1-6",
+        "probability": 0.000426
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 4,
+        "score": "5-4",
+        "probability": 0.000413
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 3,
+        "score": "6-3",
+        "probability": 0.000351
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 6,
+        "score": "2-6",
+        "probability": 0.000328
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 5,
+        "score": "4-5",
+        "probability": 0.000323
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 1,
+        "score": "7-1",
+        "probability": 0.000318
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 6,
+        "score": "0-6",
+        "probability": 0.000276
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 0,
+        "score": "7-0",
+        "probability": 0.000263
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 2,
+        "score": "7-2",
+        "probability": 0.000192
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 6,
+        "score": "3-6",
+        "probability": 0.000169
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 4,
+        "score": "6-4",
+        "probability": 0.000106
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 5,
+        "score": "5-5",
+        "probability": 0.0001
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 3,
+        "score": "7-3",
+        "probability": 7.7e-05
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 7,
+        "score": "1-7",
+        "probability": 7.4e-05
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 6,
+        "score": "4-6",
+        "probability": 6.5e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 1,
+        "score": "8-1",
+        "probability": 6.1e-05
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 7,
+        "score": "2-7",
+        "probability": 5.7e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 0,
+        "score": "8-0",
+        "probability": 5e-05
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 7,
+        "score": "0-7",
+        "probability": 4.8e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 2,
+        "score": "8-2",
+        "probability": 3.7e-05
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 7,
+        "score": "3-7",
+        "probability": 2.9e-05
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 5,
+        "score": "6-5",
+        "probability": 2.6e-05
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 4,
+        "score": "7-4",
+        "probability": 2.3e-05
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 6,
+        "score": "5-6",
+        "probability": 2e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 3,
+        "score": "8-3",
+        "probability": 1.5e-05
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 8,
+        "score": "1-8",
+        "probability": 1.1e-05
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 7,
+        "score": "4-7",
+        "probability": 1.1e-05
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 1,
+        "score": "9-1",
+        "probability": 1e-05
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 8,
+        "score": "2-8",
+        "probability": 8e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 0,
+        "score": "9-0",
+        "probability": 8e-06
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 8,
+        "score": "0-8",
+        "probability": 7e-06
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 5,
+        "score": "7-5",
+        "probability": 6e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 2,
+        "score": "9-2",
+        "probability": 6e-06
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 6,
+        "score": "6-6",
+        "probability": 5e-06
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 8,
+        "score": "3-8",
+        "probability": 4e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 4,
+        "score": "8-4",
+        "probability": 4e-06
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 7,
+        "score": "5-7",
+        "probability": 3e-06
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 8,
+        "score": "4-8",
+        "probability": 2e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 3,
+        "score": "9-3",
+        "probability": 2e-06
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 9,
+        "score": "1-9",
+        "probability": 1e-06
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 9,
+        "score": "2-9",
+        "probability": 1e-06
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 6,
+        "score": "7-6",
+        "probability": 1e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 5,
+        "score": "8-5",
+        "probability": 1e-06
+      }
+    ],
+    "realtime_signal_usage": [
+      {
+        "player": "Christian Pulisic",
+        "included_for_lambda": true,
+        "eventflow_usage_mode": "tactical_path_only",
+        "eventflow_also_uses_signal": true,
+        "exclusion_reason": ""
+      },
+      {
+        "player": "Christian Pulisic",
+        "included_for_lambda": false,
+        "eventflow_usage_mode": "eventflow_only_probability_proxy",
+        "eventflow_also_uses_signal": true,
+        "exclusion_reason": "unconfirmed"
+      },
+      {
+        "player": "Garang Kuol",
+        "included_for_lambda": false,
+        "eventflow_usage_mode": "eventflow_only_probability_proxy",
+        "eventflow_also_uses_signal": true,
+        "exclusion_reason": "rotation_player_not_eligible_for_lambda"
+      }
+    ]
   },
   "WC2026-C30": {
     "match_id": "WC2026-C30",

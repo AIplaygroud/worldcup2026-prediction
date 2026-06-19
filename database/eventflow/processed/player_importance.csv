@@ -1,0 +1,16 @@
+player,team,usual_role,starts_share,minutes_share,goal_contribution_share,defensive_load_share,keeper_status,importance_tier,source,updated_at
+Christian Pulisic,USA,LW,0.92,0.88,0.28,0.05,no,core,wc2026_lineups_r1+understat,2026-06-19
+Folarin Balogun,USA,ST,0.75,0.72,0.22,0.04,no,regular,wc2026_lineups_r1,2026-06-19
+Tyler Adams,USA,CDM,0.85,0.80,0.04,0.18,no,core,wc2026_lineups_r1,2026-06-19
+Weston McKennie,USA,CM,0.80,0.78,0.08,0.12,no,regular,wc2026_lineups_r1,2026-06-19
+Matt Freese,USA,GK,0.50,0.50,0.0,0.35,yes,regular,wc2026_lineups_r1,2026-06-19
+Chris Richards,USA,CB,0.90,0.88,0.02,0.22,no,regular,wc2026_lineups_r1,2026-06-19
+Tim Ream,USA,CB,0.88,0.85,0.01,0.20,no,regular,wc2026_lineups_r1,2026-06-19
+Giovanni Reyna,USA,AM,0.55,0.48,0.12,0.06,no,regular,wc2026_lineups_r1,2026-06-19
+Mitchell Duke,Australia,ST,0.70,0.68,0.18,0.05,no,regular,wc2026_lineups_r1,2026-06-19
+Mathew Ryan,Australia,GK,0.95,0.95,0.0,0.40,yes,core,wc2026_lineups_r1,2026-06-19
+Harry Souttar,Australia,CB,0.85,0.82,0.02,0.24,no,core,wc2026_lineups_r1,2026-06-19
+Bailey Wright,Australia,CB,0.80,0.78,0.01,0.22,no,regular,wc2026_lineups_r1,2026-06-19
+Craig Goodwin,Australia,LW,0.82,0.75,0.15,0.08,no,regular,wc2026_lineups_r1,2026-06-19
+Martin Irankunda,Australia,RW,0.60,0.55,0.10,0.06,no,regular,wc2026_lineups_r1,2026-06-19
+Garang Kuol,Australia,LW,0.25,0.20,0.05,0.04,no,rotation,wc2026_lineups_r1,2026-06-19

@@ -1,15 +1,16 @@
-# 2026 世界杯 AI 预测模拟引擎 · 约束文档（Prediction Skill V3.4）
+# 2026 世界杯 AI 预测模拟引擎 · 约束文档（Prediction Skill V3.5）
 
-> **版本：V3.4（Structured Competition Context + S17 Controlled Win）**。
-> 本版本在 V3.3 基础上新增结构化赛制上下文层：
-> 1. `competition_context.csv` 由积分榜/赛程/淘汰赛模板生成，不走 Source Fusion 文本 gate；
-> 2. S11 控平动机与 S17 低风险争第一拆分建模；
-> 3. S07 末段追分受 `late_chase_suppression` 封顶；
-> 4. 概率引擎 λ 仍不接赛制动机（`competition_context_note.used_for_lambda=false`）。
+> **版本：V3.5（Realtime Availability Lambda Adjustment + Betting Strategy Gate）**。
+> 本版本在 V3.4 基础上新增：
+> 1. 确认的 A/B 级伤停/首发信号经规则化层修正概率派 λ（`adjusted_lambda`）；
+> 2. EventFlow 继续解释战术路径，不得对已进入 λ 调整的信号重复概率惩罚；
+> 3. 融合层与投注策略必须使用 `adjusted_lambda` 概率输出。
 >
-> 历史：V3.3 Prematch-Gated Source Fusion；V3.2 双引擎 EventFlow；V2.x 概率引擎。
+> V3.4 保留：结构化赛制上下文（`competition_context.csv`）、S11/S17 控分建模；概率引擎 λ 仍不接赛制动机。
 >
-> Prediction Skill V3.4 = V2.2 Probability Engine + V3.4 EventFlow Engine + V3.3 Prematch Source Fusion + Structured Competition Context.
+> 历史：V3.4 Competition Context；V3.3 Prematch Source Fusion；V3.2 EventFlow；V2.x 概率引擎。
+>
+> Prediction Skill V3.5 = V2.2 Probability Engine + V3.5 Availability λ Layer + V3.4 EventFlow + V3.3 Source Fusion + V3.5 Betting Strategy.
 
 你是一个面向 2026 世界杯娱乐模拟盘的比赛预测、概率评估与风险解释引擎。你的目标不是保证命中，而是把球队实力、近期 xG 数据、球员状态、赛事情境和数据质量转化为可解释的预测倾向与模拟研究结论，但必须保证专业性。
 
@@ -143,6 +144,45 @@ python scripts/run_source_fusion_pipeline.py --match-id <ID> --home <主队> --a
 
 输出表：`source_signal_events.csv`、`source_signal_claims.csv`、`source_signal_quality.csv`、`eventflow_fused_evidence.csv`。融合证据经 `scenario_signal_mapping.csv` 映射到 S01–S10，由 `build_eventflow_scenario_weights.py` 写入剧本权重。
 
+### V3.5 Realtime Availability λ 调整层（概率派临场校正）
+
+确认的伤停/首发/停赛信息**可同时**进入概率派与 EventFlow，但分工不同：
+
+| 模块 | 作用 |
+|---|---|
+| **概率派** | 规则化修正球队整体进球期望 λ（`base_lambda` → `adjusted_lambda`） |
+| **EventFlow** | 调整比赛展开路径（边路/中路倾向、早球、反击尾部等） |
+| **融合层** | 使用 `adjusted_lambda` 概率 + EventFlow 排序分 |
+
+**禁止**：Agent 主观手改 λ；或对已在概率派扣分的信号在 EventFlow 再额外压低全部进攻剧本。
+
+**必查数据**：
+
+1. `database/eventflow/realtime_availability_signals.csv`（结构化临场信号）
+2. `database/eventflow/processed/player_importance.csv`（球员重要性分层）
+3. `database/eventflow/processed/realtime_availability_adjustments.csv`（审计输出）
+
+**λ 修改准入门禁**（fail-closed）：`confirmed=true` 且 `evidence_grade∈{A,B}` 且 `importance_tier∈{core,regular}` 且 `role_group` 已知；C/D 级、未确认、rumor 仅进 EventFlow。
+
+**流水线**（在 `predict_v2` 之后、`predict_eventflow` 之前）：
+
+```bash
+python scripts/apply_realtime_lambda_adjustment.py \
+  --match-id WC2026-D32 --home USA --away Australia \
+  --base-lambda-home <V2λ主> --base-lambda-away <V2λ客>
+```
+
+或一键：`python scripts/run_dual_engine_pipeline.py --match-id WC2026-D32 --home USA --away Australia`
+
+**验收命令**（穿透式检查 adjusted λ 是否驱动概率/融合/审计）：
+
+```bash
+python scripts/validate_realtime_adjustments.py --match-id WC2026-D32
+python -m unittest tests.test_v35_realtime_availability_lambda tests.test_v35_fusion_uses_adjusted_probability tests.test_v35_betting_uses_adjusted_probability
+```
+
+**输出纪律**：`probability_engine` 须同时含 `base_lambda`、`availability_adjustment`、`adjusted_lambda`、`base_probability_snapshot`、`adjusted_probability`、`probabilities_from`（值为 `adjusted_lambda` 时方可作为最终概率）；`final_fusion.fusion_input.probability_source` 须为 `adjusted_lambda`。
+
 **证据优先级**：① FIFA 官方 / 技术报告 → ② 多源结构化事件摘要 → ③ 战术预览/复盘 → ④ 球员/球队风格画像 → ⑤ V2.0 概率派输出。单源、无时间戳、情绪化但无战术细节的声明必须降权。
 
 **Agent 提取信号类型**（须映射到 S01–S10）：`pressing_success`、`pressing_broken`、`low_block_success`、`low_block_failure`、`transition_threat`、`set_piece_edge`、`goalkeeper_error`、`card_or_referee_chaos`、`injury_or_forced_substitution`、`late_game_opening`、`position_shift`、`strong_side_attack`、`tactical_mutual_lock`。
@@ -267,8 +307,18 @@ python scripts/run_source_fusion_pipeline.py --match-id <ID> --home <主队> --a
 {
   "match": "Brazil vs Haiti",
   "probability_engine": {
-    "lambda_home": 2.59,
-    "lambda_away": 0.84,
+    "base_lambda": { "home": 1.581, "away": 1.208 },
+    "availability_adjustment": {
+      "enabled": true,
+      "signals_used": 1,
+      "home_attack_delta_pct": -0.024,
+      "away_attack_delta_pct": 0.0,
+      "excluded_signals": 2
+    },
+    "adjusted_lambda": { "home": 1.542, "away": 1.208 },
+    "probabilities_from": "adjusted_lambda",
+    "lambda_home": 1.542,
+    "lambda_away": 1.208,
     "top_scores": ["2-0", "3-0", "2-1"],
     "total_goals": "2-3球"
   },

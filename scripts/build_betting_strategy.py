@@ -249,7 +249,11 @@ def load_scoreline_grid(match_payload: Dict[str, Any]) -> List[Dict[str, Any]]:
     if grid:
         return grid
     match_id = match_payload.get("match_id", "")
+    prob_from = pe.get("probabilities_from", "base_lambda")
     rows = [r for r in read_csv(PROB_SCORES_CSV) if snum(r, "match_id") == match_id]
+    if not rows and prob_from == "adjusted_lambda":
+        # probability_engine_scores.csv is rewritten by apply_realtime_lambda_adjustment
+        pass
     out = []
     for r in rows:
         out.append({
@@ -819,7 +823,17 @@ def build_strategy(
         "odds_last_update": "match_odds_summary.csv",
         "semantics_note": SEMANTICS_NOTE,
         "value_proxy_note": VALUE_PROXY_NOTE,
+        "probability_source": "adjusted_probability",
+        "market_gate_applied": True,
     }
+    for mf in match_files:
+        payload = read_json(mf, {})
+        pe = payload.get("probability_engine", {})
+        if pe.get("probabilities_from") == "adjusted_lambda":
+            meta["probability_source"] = "adjusted_probability"
+            break
+        if pe.get("probabilities_from") == "base_lambda":
+            meta["probability_source"] = "base_probability"
     result = StrategyResult(
         meta=meta,
         availability_audit=audit,

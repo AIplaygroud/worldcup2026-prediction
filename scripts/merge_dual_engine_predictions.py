@@ -372,8 +372,40 @@ def main() -> None:
     ev_by_score = {snum(r, "score"): r for r in ev_rows}
     scores = set(prob_by_score) | set(ev_by_score)
 
+    v2_diag_path = Path(__file__).resolve().parents[1] / "database" / "eventflow" / "raw" / "v2_engine_diagnostics.json"
+    v2_diag_all = read_json(v2_diag_path, {}) or {}
+    v2_diag = v2_diag_all.get(mid, {})
+
     lam_home = fnum(prob_rows[0], "lambda_home") if prob_rows else fnum(ev_json.get("eventflow_engine", {}), "lambda_home")
     lam_away = fnum(prob_rows[0], "lambda_away") if prob_rows else fnum(ev_json.get("eventflow_engine", {}), "lambda_away")
+    base_lam_home = fnum(v2_diag, "base_lambda_home") or lam_home
+    base_lam_away = fnum(v2_diag, "base_lambda_away") or lam_away
+    availability = v2_diag.get("availability_adjustment") or {}
+    probabilities_from = v2_diag.get("probabilities_from", "base_lambda")
+    adj_block = {
+        "base_lambda": {"home": round(base_lam_home, 4), "away": round(base_lam_away, 4)},
+        "availability_adjustment": availability,
+        "adjusted_lambda": {
+            "home": round(lam_home, 4),
+            "away": round(lam_away, 4),
+        },
+        "probabilities_from": probabilities_from,
+        "base_probability_snapshot": v2_diag.get("base_probability_snapshot", {}),
+        "adjusted_probability": v2_diag.get("adjusted_probability", {}),
+        "excluded_availability_signals": v2_diag.get("excluded_signals_and_reasons", []),
+    }
+    fusion_penetration_ok = True
+    if availability.get("enabled") and v2_diag.get("base_probability_snapshot"):
+        base_top = v2_diag["base_probability_snapshot"].get("top_scores", [])
+        adj_top = v2_diag.get("adjusted_probability", {}).get("top_scores", [])
+        base_hw = v2_diag["base_probability_snapshot"].get("home_win")
+        adj_hw = v2_diag.get("adjusted_probability", {}).get("home_win")
+        if base_hw == adj_hw and base_top == adj_top:
+            fusion_penetration_ok = False
+            print(
+                "WARNING: availability adjustment enabled but probability snapshots unchanged — "
+                "fusion may not reflect adjusted_lambda"
+            )
 
     out: List[Dict[str, Any]] = []
     for score in scores:
@@ -433,9 +465,6 @@ def main() -> None:
     source_fusion = load_source_fusion(mid)
     baseline_degraded = ev_json.get("baseline_degraded", False)
     eventflow_degraded = ev_json.get("eventflow_data_degraded", False)
-    v2_diag_path = Path(__file__).resolve().parents[1] / "database" / "eventflow" / "raw" / "v2_engine_diagnostics.json"
-    v2_diag_all = read_json(v2_diag_path, {}) or {}
-    v2_diag = v2_diag_all.get(mid, {})
 
     payload = {
         "match": f"{home} vs {away}",
@@ -456,6 +485,8 @@ def main() -> None:
         "probability_engine": {
             "lambda_home": lam_home,
             "lambda_away": lam_away,
+            **adj_block,
+            "scoreline_probability_grid": v2_diag.get("scoreline_probability_grid", []),
             "probability_data_degraded": v2_diag.get("probability_data_degraded", False),
             "diagnostics": v2_diag,
             "top_scores": [s for s, _ in prob_top[:3]],
@@ -463,6 +494,7 @@ def main() -> None:
         },
         "eventflow_engine": {
             "eventflow_data_degraded": eventflow_degraded,
+            "realtime_signal_usage": v2_diag.get("realtime_signal_usage", []),
             "activated_scenarios": activated,
             "all_scenario_weights": ef_engine.get("all_scenario_weights", []),
             "phase_simulation": ef_engine.get("phase_simulation", {}),
@@ -476,6 +508,14 @@ def main() -> None:
             ef_engine, ev_rows, source_fusion, dq, args.mode, p_weight, e_weight, topn=3
         ),
         "final_fusion": {
+            "fusion_input": {
+                "probability_source": probabilities_from,
+                "eventflow_source": "prematch_realtime_eventflow",
+                "availability_adjustment_applied": bool(availability.get("enabled")),
+                "probability_file": str(Path(args.baseline)),
+                "eventflow_file": str(EVENTFLOW_DB / "eventflow_predictions.csv"),
+                "fusion_penetration_ok": fusion_penetration_ok,
+            },
             "score_ranking": [
                 {
                     "score": r["score"],

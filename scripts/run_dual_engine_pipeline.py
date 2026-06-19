@@ -57,6 +57,9 @@ def main() -> None:
                     help="Override source notes; default uses per-match file if exists")
     ap.add_argument("--export-json", default="database/eventflow/processed/dual_engine_output.json")
     ap.add_argument("--skip-build", action="store_true", help="Skip daily build (use existing tables)")
+    ap.add_argument("--use-realtime-availability", default="true",
+                    choices=["true", "false"],
+                    help="Apply V3.5 realtime availability λ adjustment after predict_v2")
     args = ap.parse_args()
 
     steps: list = []
@@ -99,6 +102,21 @@ def main() -> None:
         lam_h = float(prob_rows[0].get("lambda_home", 1.5))
         lam_a = float(prob_rows[0].get("lambda_away", 1.0))
         log(f"Using λ {lam_h:.2f} / {lam_a:.2f} from V2 export", steps)
+
+        if args.use_realtime_availability == "true":
+            run_cmd([py, str(SCRIPTS / "apply_realtime_lambda_adjustment.py"),
+                     "--match-id", mid, "--home", home, "--away", away,
+                     "--base-lambda-home", str(lam_h), "--base-lambda-away", str(lam_a),
+                     "--prob-csv", prob_csv], steps)
+
+            from eventflow_common import read_csv as _read_csv
+            prob_rows_adj = [r for r in _read_csv(ROOT / prob_csv) if r.get("match_id") == mid]
+            if prob_rows_adj:
+                lam_h = float(prob_rows_adj[0].get("lambda_home", lam_h))
+                lam_a = float(prob_rows_adj[0].get("lambda_away", lam_a))
+                log(f"Post-availability λ {lam_h:.2f} / {lam_a:.2f}", steps)
+        else:
+            log("Skipping realtime availability adjustment (--use-realtime-availability false)", steps)
 
         run_cmd([py, str(SCRIPTS / "predict_eventflow.py"),
                  "--match-id", mid, "--home", home, "--away", away,
