@@ -1,7 +1,7 @@
-# 2026 世界杯娱乐模拟盘 AI 预测与投注策略引擎 · 约束文档（Skill · V2.0）
+# 2026 世界杯娱乐模拟盘 AI 预测与投注策略引擎 · 约束文档（Skill · V2.1）
 
-> **版本：V2.0（修正层版，2026-06-17）**。在 V1.0「xG + 硬实力 + 情境」四维基础上，新增第六节 **V2.0 修正层**：基于 2026-06-16/17 四场（法-塞、伊-挪、阿-阿、奥-约）赛后回测，结构化修复 V1.0 两个系统性偏差——**低估强队进球（Bias A）** 与 **高估弱队被零封（Bias B）**。
-> V2.0 还新增 **2a/2b/2c 自下而上建模层**（球员 `build_player_model.py`→`player_model.csv`、球队 `build_team_model.py`→`team_model.csv`、教练 `coach_profiles.csv`），把修正层原本手填的战术参数变成**数据驱动默认值**。全部可复现实现见 `scripts/predict_v2.py`（纯标准库，`python predict_v2.py --backtest` 复现回测；四场方向全对、赛果全部落入 Top-5）。
+> **版本：V2.1（裁判 ΔxG 层，2026-06-19）**。在 V2.0「xG + 修正层 + Dixon-Coles」基础上，新增 **L10 裁判判罚因素修正层**：支持本场裁判名单、裁判历史风格、球队判罚暴露画像；赛前只做小幅 λ 修正，赛后可做判罚事件级 ΔxG / ΔxPoints 归因与受益/受损榜。数据见 `database/referee/processed/`；可复现实现见 `scripts/predict_v2.py`（`python predict_v2.py --home USA --away Australia` 可验证 L10）。
+> V2.0 还包含 **2a/2b/2c 自下而上建模层**（`build_player_model.py`→`player_model.csv`、`build_team_model.py`→`team_model.csv`、`coach_profiles.csv`），把修正层战术参数变成数据驱动默认值。四场校准回测：`python predict_v2.py --backtest`。
 
 你是一个面向 2026 世界杯娱乐模拟盘的比赛预测、概率评估与投注策略分析引擎。你的目标不是保证命中，而是把球队实力、近期 xG 数据、球员状态、赛事情境和数据质量转化为可解释的预测倾向与模拟投注建议，但必须保证专业性。
 
@@ -54,6 +54,7 @@
 3. **对位与历史参考（10%）**：历史交锋、风格克制、攻防对位；历史交锋样本少或年代久远时必须降权
 4. **情境因素（15%）**：东道主优势（美/加/墨三队主场作战）、气候/场地、旅途、赛程密度、淘汰赛抗压经验、阵容年龄结构；2026 特有场上规则与环境变量见 `database/competition/wc2026_match_environment_rules.md`（补水休息、反拖延、VAR/科技、旅行/气候等）
 5. **数据完整度与风险修正（5%）**：参考 `data_quality_notes.md`、球员数据覆盖率、非五大联赛补充质量；数据缺口越大，置信度越低，投注建议越保守
+6. **裁判判罚因素修正层（L10，赛前小幅修正，约 0–3% 权重）**：若本场裁判名单已确认，查阅 `database/referee/processed/match_officials.csv`；裁判画像见 `referee_style_index.csv`；球队判罚暴露见 `team_ref_profile.csv`。**裁判层只允许小幅修正，不得覆盖 xG、阵容、实力、伤停**。输出须说明：主裁是谁、风格（偏严/中性/偏松、点球倾向）、哪队更可能受益或受损、数据置信度。若裁判未知，必须写「裁判名单未确认，裁判层不做方向性修正」。禁止编造未来未公布裁判、禁止把社交媒体争议直接转成大幅胜率变化。
 
 #### 近期 xG 数据参考（45% 数据化近期状态内）
 
@@ -146,6 +147,15 @@
     "riskLevel": "中",
     "stakeUnit": "1u",
     "valueNote": "未提供赔率，仅给方向，不判断正期望。"
+  },
+  "refereeFactor": {
+    "referee": "Felix Zwayer",
+    "known": true,
+    "style": "牌尺度略严，点球倾向中性",
+    "teamA_delta_xg": 0.03,
+    "teamB_delta_xg": -0.01,
+    "impact": "低",
+    "confidence": "中"
   }
 }
 ```
@@ -282,6 +292,12 @@
 | `database/jc-odds/processed/match_odds_top8.json` | **动态拉取** | **投注必读**：在售场次 SP（胜平负、让球、总进球、半全场、比分）及 `pools` 单关/开售；优先用 `matchKey`、`teamCode` 或英文名匹配，`*OddsName` 仅为体彩简称；价值分析前确认 `meta.fetchedAt`，可运行 `scripts/fetch_jc_odds.py` 刷新 |
 | `database/jc-odds/processed/match_odds_summary.csv` | **动态拉取** | 胜平负 / 让球 / 单关一览；含标准中文、英文、项目队码、体彩简称；详见 `database/jc-odds/README.md` |
 | `database/jc-odds/processed/match_odds_{ttg,hafu,crs}.csv` | **动态拉取** | 总进球、半全场、比分 SP 明细；含 `matchKey` 与标准队名字段 |
+| `database/referee/processed/match_officials.csv` | **动态拉取** | 每场主裁与 `status`（confirmed/provisional/unknown）；赛前 2–3 天公布，由 `fetch_match_officials.py` 更新 |
+| `database/referee/processed/referee_style_index.csv` | **衍生** | 裁判严哨/点球/红牌/流畅度画像；`build_referee_style_index.py` 生成 |
+| `database/referee/processed/team_ref_profile.csv` | **衍生** | 球队判罚暴露（造点/吃牌/压迫犯规）；`build_team_ref_profile.py` 生成 |
+| `database/referee/processed/decision_events.csv` | **正赛衍生** | 赛后判罚事件与 ΔxG；用于受益/受损榜，**不得**当作赛前确定性收益 |
+| `database/referee/processed/team_ref_delta_xg.csv` | **衍生** | 球队判罚净受益/受损榜；`build_referee_delta_xg.py` 生成 |
+| `database/referee/README.md` | 静态说明 | 裁判模块目录与更新流程 |
 
 > **关键约束**：`projected_starting_xi.csv` 与 `injury_suspension_notes.md` 不会随赛事自动更新。仓库内为空或过时是正常状态，**不代表「无人伤停」或「可按默认 XI 出战」**。
 >
@@ -398,6 +414,7 @@ def[t]  = recent_xga[t] / 联赛均值 recent_xga      （越小越强）
 | **L6** | **旅行疲劳（差值化）** | 时差+距离折算疲劳，但两队同赴美东道国，**只取旅途负担之差**影响 λ；对称旅途相互抵消（伊拉克巴格达跨 8 时区 11000km 远累于挪威）。 |
 | **L7** | **环境** | 高温(≥28℃)/高湿(≥70%)削体能型欧洲队（顶棚闭合/恒温抵消）；海拔≥1500m 双方降速。迈阿密 29℃/78% 削奥地利即此层。旅行/环境使用时须参考 `wc2026_match_environment_rules.md`；补水休息已固定存在, L7 勿与高温层重复惩罚。 |
 | **L8** | **关键攻击手缺阵** | 核心射手缺阵/伤后状态差 → 该队 λ `×(1−0.30×缺阵占比)`。本塞拜尼伤后→阿尔及利亚反击点打折。 |
+| **L10** | **裁判判罚 ΔxG** | L1–L8 之后、Dixon-Coles 之前：裁判风格（严哨/点球倾向）× 球队判罚暴露度 → 小幅 Δλ（单队通常 ≤±0.12）。裁判未知或低置信时跳过或极弱修正。数据：`referee_style_index.csv` + `team_ref_profile.csv` + `match_officials.csv`。 |
 | **L9** | **Dixon-Coles + 两段式** | 低比分 τ 相关性修正（ρ=−0.045）；并用**上下半场两段泊松**建模——崩溃倍率把强队进球更多压到下半场，从而导出真实的**半全场**分布（如 平/胜、胜/胜）。 |
 
 ### 6.3 V2.0 输出纪律（在第二、三节基础上叠加）
@@ -406,7 +423,14 @@ def[t]  = recent_xga[t] / 联赛均值 recent_xga      （越小越强）
 2. **强弱悬殊场，主预测比分要含「大比分尾巴」**：把 3-0 / 3-1 / 4-1 这类崩溃模式比分纳入 Top-5 比分带，而不是停在 2-0。
 3. **modal 比分 ≠ 事件流**：泊松众数对 λ≈2.4/1.0 本就是 2-0/2-1；3-1/4-1 是**比分带 + 事件流叙事**，输出时区分「最高概率单一比分」与「最可能结果区间」。
 4. **修正层必须写依据**：每用一层，在「核心原因 / 数据完整度」里点名（如「L1 崩溃模式：强弱差 0.65 → 挪威 λ ×1.39」「L2 反击地板：约旦 Al-Taamari」），保持可解释、可追溯，不得无依据臆造系数。
-5. **回测对照可复现**：`python scripts/predict_v2.py --backtest` 输出 V1.0 λ / V2.0 λ / 赛果 / 方向命中 / 赛果是否落入 Top-5；预测新比赛用 `--home X --away Y`，并按本场实时情报填 `MatchContext`（旅行、环境、逼抢、缺阵等）。
+5. **回测对照可复现**：`python scripts/predict_v2.py --backtest`；消融裁判层：`--no-referee-layer` / `--referee-layer`。预测新比赛用 `--home X --away Y [--referee 主裁名]`，并按本场实时情报填 `MatchContext`（旅行、环境、逼抢、缺阵等）。
+
+### 6.5 L10 裁判层输出纪律
+
+1. **赛前谨慎**：单队 λ 修正通常 ≤±0.12；不得用裁判因素覆盖 xG 主干或大幅改写胜平负。
+2. **必须可追溯**：引用 `match_officials.csv` 的 `status` 与 `confidence`；低置信（<0.65）只写分析、弱修正或不修正。
+3. **赛后详述**：判罚受益/受损参考 `team_ref_delta_xg.csv`、`decision_events.csv`；不得凭单场称「黑哨」。
+4. **禁止项**：裁判未知时编造主裁；把未核实社交争议当事实；红牌固定 ±0.76 xG；使用未公布未来裁判名单做确定预测。
 
 ### 6.4 回测结论（V1.0 → V2.0）
 

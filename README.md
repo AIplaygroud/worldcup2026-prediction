@@ -419,7 +419,6 @@ export async function predict(teamA: string, teamB: string, stage = "小组赛")
 
 MIT 协议,**可以**。但请注意:
 - 仅限娱乐与球迷讨论场景
-- **严禁**用于任何投注、博彩、赔率、下注业务(Skill 自身已内置红线拒绝)
 - 如果做了酷的东西,欢迎在 Issues / PR 里分享一下
 </details>
 
@@ -474,7 +473,6 @@ git push origin feature/your-update
 ## ⚠️ 声明
 
 - 🎯 本项目**仅供娱乐与球迷讨论**
-- 🚫 Skill 内置红线 — 拒绝输出任何**投注、赔率、下注建议**
 - 🧠 预测结果**不构成任何参考依据**,请理性看球
 - ⚖️ 所有球队、球员、教练信息均为公开资料,不涉及隐私
 - 🌍 仅供 **2026 FIFA World Cup** 一届使用,赛后将归档

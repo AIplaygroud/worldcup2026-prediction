@@ -1,0 +1,32 @@
+match_id,date,stage,group,home,away,venue,referee,referee_country,ar1,ar2,fourth_official,var,avar,svar,status,source,source_url,fetched_at,confidence
+1,2026-06-11,group,A,Mexico,South Africa,Estadio Azteca,Wilton Sampaio,BRA,,,,,,,confirmed,Reuters,,2026-06-19T00:00:00Z,0.95
+3,2026-06-13,group,B,Canada,Bosnia and Herzegovina,BMO Field,Facundo Tello,ARG,,,,,,,confirmed,Media,,2026-06-19T00:00:00Z,0.85
+4,2026-06-13,group,D,USA,Paraguay,SoFi Stadium,Danny Makkelie,NED,,,,,,,confirmed,Media,,2026-06-19T00:00:00Z,0.85
+7,2026-06-14,group,C,Brazil,Morocco,MetLife Stadium,Slavko Vinčić,SVN,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+8,2026-06-14,group,B,Qatar,Switzerland,Levi's Stadium,Said Martinez,HON,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+5,2026-06-14,group,C,Haiti,Scotland,Gillette Stadium,Mustapha Ghorbal,ALG,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+6,2026-06-14,group,D,Australia,Turkey,BC Place,Jesus Valenzuela,VEN,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+10,2026-06-15,group,E,Germany,Curacao,NRG Stadium,Jalal Jayed,KSA,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+11,2026-06-15,group,F,Netherlands,Japan,AT&T Stadium,Ismail Elfath,USA,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+9,2026-06-15,group,E,Ivory Coast,Ecuador,Lincoln Financial Field,François Letexier,FRA,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+12,2026-06-15,group,F,Sweden,Tunisia,Estadio BBVA,Yael Falcon,ISR,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+14,2026-06-16,group,H,Spain,Cape Verde,Mercedes-Benz Stadium,Adham Makhadmeh,JOR,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+16,2026-06-16,group,G,Belgium,Egypt,Lumen Field,Ramon Abatti,BRA,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+13,2026-06-16,group,H,Saudi Arabia,Uruguay,Hard Rock Stadium,Maurizio Mariani,ITA,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+15,2026-06-16,group,G,Iran,New Zealand,SoFi Stadium,Cesar Ramos,MEX,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+17,2026-06-16,group,I,France,Senegal,MetLife Stadium,Alireza Faghani,IRN,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+18,2026-06-16,group,I,Iraq,Norway,Gillette Stadium,Pierre Atcho,GAB,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+19,2026-06-17,group,J,Argentina,Algeria,Arrowhead Stadium,Szymon Marciniak,POL,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+20,2026-06-17,group,J,Austria,Jordan,Levi's Stadium,Dahane Beida,MTN,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+23,2026-06-18,group,K,Portugal,DR Congo,NRG Stadium,Abdulrahman Al-Jassim,QAT,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+22,2026-06-18,group,L,England,Croatia,AT&T Stadium,Clément Turpin,FRA,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+21,2026-06-18,group,L,Ghana,Panama,BMO Field,Glenn Nyberg,SWE,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+24,2026-06-18,group,K,Uzbekistan,Colombia,Estadio Azteca,Anthony Taylor,ENG,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+25,2026-06-18,group,A,Czechia,South Africa,Mercedes-Benz Stadium,Tori Penso,USA,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+26,2026-06-18,group,B,Switzerland,Bosnia and Herzegovina,SoFi Stadium,João Pinheiro,POR,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+27,2026-06-18,group,B,Canada,Qatar,BC Place,Christian Garay,CHI,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+28,2026-06-18,group,A,Mexico,South Korea,Estadio Akron,Gustavo Tejera,URU,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+32,2026-06-19,group,D,USA,Australia,Lumen Field,Felix Zwayer,GER,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+30,2026-06-19,group,C,Scotland,Morocco,Gillette Stadium,Ilgiz Tantashev,UZB,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+29,2026-06-19,group,C,Brazil,Haiti,Lincoln Financial Field,Alejandro Hernández Hernández,ESP,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85
+31,2026-06-19,group,D,Turkey,Paraguay,Levi's Stadium,Ivan Barton,SLV,,,,,,,confirmed,RefereeingWorld,,2026-06-19T00:00:00Z,0.85

@@ -1,0 +1,5 @@
+dataset,rows,last_updated,confidence,notes
+match_officials,31,2026-06-19,0.82,R1+R2 MD1 seed from RefereeingWorld/Reuters
+referee_style_index,31,2026-06-19,0.65,MVP: history for 13 refs + global mean for others
+team_ref_profile,48,2026-06-19,0.60,MVP: fair play R1 + team_model pressing
+decision_events,8,2026-06-19,0.72,Manual seed key R1/R2 events

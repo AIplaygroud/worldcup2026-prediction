@@ -1,0 +1,9 @@
+event_id,match_id,date,minute,stoppage,team_for,team_against,player_for,player_against,referee,event_type,decision,after_var,score_before,score_after,direct_xg_delta,lambda_delta_for,lambda_delta_against,xpoints_delta_for,xpoints_delta_against,controversy_level,confidence,source
+1_045_red,1,2026-06-11,45,0,Mexico,South Africa,,,Wilton Sampaio,red_card,direct red,false,0-0,0-0,0.00,0.00,0.00,0.00,0.00,medium,0.80,Reuters
+1_072_red,1,2026-06-11,72,0,South Africa,Mexico,,,Wilton Sampaio,red_card,direct red,false,1-0,1-0,0.00,0.00,0.00,0.00,0.00,medium,0.80,Reuters
+1_088_red,1,2026-06-11,88,0,South Africa,Mexico,,,Wilton Sampaio,red_card,direct red,false,1-0,1-0,0.00,0.00,0.00,0.00,0.00,high,0.75,Reuters
+4_067_var,4,2026-06-13,67,0,USA,Paraguay,,,Danny Makkelie,mistaken_identity,VAR overturn,false,1-0,1-0,0.00,0.00,0.00,0.00,0.00,medium,0.70,Media
+22_055_pen,22,2026-06-18,55,0,England,Croatia,,,Clément Turpin,penalty_awarded,retaken penalty,true,0-0,1-0,0.76,0.00,0.00,0.55,-0.55,medium,0.75,Media
+25_083_pen,25,2026-06-18,83,0,South Africa,Czechia,,,Tori Penso,penalty_awarded,handball penalty,true,0-1,1-1,0.76,0.00,0.00,0.90,-0.90,medium,0.75,Reuters
+27_038_red,27,2026-06-18,38,0,Canada,Qatar,,,Christian Garay,red_card,second yellow upgraded,true,0-0,0-0,0.00,0.00,0.00,0.00,0.00,medium,0.72,Media
+26_060_red,26,2026-06-18,60,0,Bosnia and Herzegovina,Switzerland,,,João Pinheiro,red_card,direct red,false,0-2,0-2,0.00,0.00,0.00,0.00,0.00,low,0.70,Media

@@ -1,0 +1,3 @@
+player,team,position,matches,fouls_won90,fouls_committed90,yellow_cards90,red_cards90,penalties_won,penalties_conceded,dribbles90,touches_box90,ref_draw_index,card_risk_index,data_confidence
+Harry Kane,England,FW,1,1.2,0.3,0.00,0.00,1,0,2.1,5.5,0.65,0.05,0.70
+Lionel Messi,Argentina,FW,1,1.5,0.2,0.00,0.00,0,0,3.2,6.0,0.72,0.05,0.70

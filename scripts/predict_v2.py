@@ -1,32 +1,27 @@
 # -*- coding: utf-8 -*-
 """
-WorldCup-2026 Prediction Engine — V2.0 (修正层版)
-=================================================
+WorldCup-2026 Prediction Engine — V2.1 (裁判 ΔxG 层)
+====================================================
 
-V1.0 (skill.md) = LLM 判断 + 内联 Dixon-Coles。赛后回测（2026-06-16/17 四场）暴露两个
-系统性偏差：
+V2.1 在 V2.0 修正层之上新增 L10 裁判判罚因素层（赛前小幅 λ 修正）。
 
-  Bias A  强队进球被低估   —— 缺「崩溃模式 / 后期失血」层，弱队后段体能崩点会多丢球。
-  Bias B  弱队被零封被高估 —— λ_away 被手工压到 0.6~0.8，但世界杯级弱队普遍能靠反击/
-          定位球打进 1 球（4 场里 3 场弱队破门，V1.0「双方进球否」基本全错）。
-
-V2.0 把「别人 V5.0」里真正起作用的修正层结构化、可复现地叠加到一个 xG 基准 λ 之上：
-
-  L0  xG 基准      recent_xg / recent_xga（按对手防守泄漏率调整）+ 档位地板（修正 Bias A 的 Argentina 型低估）
-  L1  崩溃模式      强弱差越大，favorite 后段 λ 越高（修正 Bias A）
-  L2  反击地板      underdog λ 设地板，世界杯级球队不轻易被零封（修正 Bias B）
-  L3  封堵补偿      对手摆大巴 → 削 favorite λ（对冲 L1，防止过热）
+  L0  xG 基准      recent_xg / recent_xga + 档位地板
+  L1  崩溃模式      强弱差越大，favorite 后段 λ 越高
+  L2  反击地板      underdog λ 设地板
+  L3  封堵补偿      对手摆大巴 → 削 favorite λ
   L4  高位逼抢      逼抢强 × 对手后场出球弱 → favorite λ 上浮
   L5  教练适应      临场调整系数差 → 后段 λ 微调
   L6  旅行疲劳      时差 + 距离 → 双方 λ 折损
-  L7  环境          高温/高湿/海拔/顶棚 → 体能型/速度型球队 λ 调整
+  L7  环境          高温/高湿/海拔/顶棚 → λ 调整
   L8  关键缺阵      核心攻击手缺阵 → λ 折损
-  L9  Dixon-Coles  低比分 τ 相关性修正 + 两段式（上下半场）建模导出半全场
+  L10 裁判 ΔxG     裁判风格 × 球队判罚暴露 → 小幅 λ 修正（L1–L8 之后、DC 之前）
+  L9  Dixon-Coles  低比分 τ 相关性修正 + 两段式半全场
 
-回测命令：  python predict_v2.py            （默认跑 4 场回测对照）
-新比赛：    python predict_v2.py --home France --away Senegal
+回测：  python predict_v2.py --backtest
+        python predict_v2.py --backtest --no-referee-layer
+新比赛：python predict_v2.py --home USA --away Australia [--referee "Felix Zwayer"]
 
-依赖：仅标准库（csv, math, argparse）。数据取自 ../database/xGdatabase/processed/。
+依赖：标准库。数据：xGdatabase/processed/ + referee/processed/。
 """
 
 from __future__ import annotations
@@ -46,6 +41,8 @@ except Exception:
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(HERE, "..", "database", "xGdatabase", "processed")
+REF_DB = os.path.join(HERE, "..", "database", "referee", "processed")
+REFEREE_LAYER_ALPHA = 0.55
 
 # ----------------------------------------------------------------------------
 # 标定常数（由四场赛后回测拟合，见文件末 BACKTEST）
@@ -95,6 +92,25 @@ def _load_csv(name):
         return list(csv.DictReader(f))
 
 
+def _load_csv_ref(name):
+    path = os.path.join(REF_DB, name)
+    with open(path, encoding="utf-8-sig") as f:
+        return list(csv.DictReader(f))
+
+
+def znum(row, key, default=0.0):
+    if not row:
+        return default
+    try:
+        return float(row.get(key, default))
+    except (TypeError, ValueError):
+        return default
+
+
+def clip(x, lo, hi):
+    return max(lo, min(hi, x))
+
+
 def load_data():
     form = {r["team"]: r for r in _load_csv("team_recent_form.csv")}
     strength = {r["team"]: r for r in _load_csv("opponent_strength.csv")}
@@ -125,8 +141,26 @@ def load_data():
         tm = {r["team"]: r for r in _load_csv("team_model.csv")}   # 2b（含 2a/2c 聚合）
     except FileNotFoundError:
         pass
+    referee_style = {}
+    try:
+        referee_style = {r["referee"]: r for r in _load_csv_ref("referee_style_index.csv")}
+    except FileNotFoundError:
+        pass
+    team_ref = {}
+    try:
+        team_ref = {r["team"]: r for r in _load_csv_ref("team_ref_profile.csv")}
+    except FileNotFoundError:
+        pass
+    match_officials = {}
+    try:
+        for r in _load_csv_ref("match_officials.csv"):
+            match_officials[(r["home"], r["away"])] = r
+    except FileNotFoundError:
+        pass
+
     return dict(form=form, strength=strength, wc=wc, wc_adj=wc_adj, team_model=tm,
-                league_xg=league_xg, league_xga=league_xga)
+                league_xg=league_xg, league_xga=league_xga,
+                referee_style=referee_style, team_ref=team_ref, match_officials=match_officials)
 
 
 # ----------------------------------------------------------------------------
@@ -166,6 +200,11 @@ class MatchContext:
     # 可选：直接给定 V1.0 基准 λ（回测对照用）
     base_override: tuple | None = None
     note: str = ""
+    # L10 裁判层
+    referee: str = ""
+    referee_known: bool = False
+    referee_confidence: float = 0.0
+    use_referee_layer: bool = True
 
 
 # ----------------------------------------------------------------------------
@@ -364,6 +403,107 @@ def apply_layers(lam_h, lam_a, ctx: MatchContext, data):
 
 
 # ----------------------------------------------------------------------------
+# L10 裁判判罚 ΔxG 层
+# ----------------------------------------------------------------------------
+def resolve_referee(ctx: MatchContext, data):
+    if ctx.referee:
+        ctx.referee_known = True
+        if ctx.referee_confidence <= 0:
+            ctx.referee_confidence = 0.85
+        return ctx
+
+    mo = data.get("match_officials", {})
+    row = mo.get((ctx.home, ctx.away)) or mo.get((ctx.away, ctx.home))
+    if row and row.get("referee"):
+        ctx.referee = row["referee"]
+        ctx.referee_known = row.get("status", "unknown") in ("confirmed", "provisional", "manual")
+        ctx.referee_confidence = znum(row, "confidence", 0.7)
+    return ctx
+
+
+def apply_referee_layer(lam_h, lam_a, ctx: MatchContext, data):
+    log = []
+    meta = dict(dxg_h=0.0, dxg_a=0.0, conf=0.0, applied=False)
+    if not ctx.use_referee_layer:
+        return lam_h, lam_a, log, meta
+
+    resolve_referee(ctx, data)
+
+    if not ctx.referee_known or not ctx.referee:
+        log.append("L10 裁判层 裁判未知 → 不做方向性修正")
+        return lam_h, lam_a, log, meta
+
+    ref = data.get("referee_style", {}).get(ctx.referee)
+    home = data.get("team_ref", {}).get(ctx.home)
+    away = data.get("team_ref", {}).get(ctx.away)
+
+    if not ref or not home or not away:
+        log.append(f"L10 裁判层 {ctx.referee} 数据不足 → 跳过")
+        return lam_h, lam_a, log, meta
+
+    ref_conf = znum(ref, "data_confidence", 0.5)
+    match_conf = ctx.referee_confidence or 0.7
+    home_conf = znum(home, "data_confidence", 0.5)
+    away_conf = znum(away, "data_confidence", 0.5)
+    conf = min(ref_conf, match_conf, home_conf, away_conf)
+    meta["conf"] = conf
+
+    if conf < 0.35:
+        log.append(f"L10 裁判层 {ctx.referee} 置信度过低({conf:.2f}) → 跳过")
+        return lam_h, lam_a, log, meta
+
+    strict = znum(ref, "strictness_index")
+    pen = znum(ref, "penalty_tendency")
+
+    home_pen_draw = (
+        0.35 * znum(home, "box_touches90_z")
+        + 0.25 * znum(home, "dribbles90_z")
+        + 0.20 * znum(home, "penalties_for90_z")
+        + 0.20 * znum(away, "penalties_against90_z")
+    )
+    away_pen_draw = (
+        0.35 * znum(away, "box_touches90_z")
+        + 0.25 * znum(away, "dribbles90_z")
+        + 0.20 * znum(away, "penalties_for90_z")
+        + 0.20 * znum(home, "penalties_against90_z")
+    )
+
+    home_card_risk = (
+        0.35 * znum(home, "yellow_cards90_z")
+        + 0.25 * znum(home, "pressing_foul_risk_z")
+        + 0.20 * znum(home, "red_cards90_z")
+        + 0.20 * znum(away, "dribbles90_z")
+    )
+    away_card_risk = (
+        0.35 * znum(away, "yellow_cards90_z")
+        + 0.25 * znum(away, "pressing_foul_risk_z")
+        + 0.20 * znum(away, "red_cards90_z")
+        + 0.20 * znum(home, "dribbles90_z")
+    )
+
+    penalty_dxg_h = 0.76 * pen * home_pen_draw * 0.08
+    penalty_dxg_a = 0.76 * pen * away_pen_draw * 0.08
+    card_dxg_h = -0.06 * strict * home_card_risk + 0.04 * strict * away_card_risk
+    card_dxg_a = -0.06 * strict * away_card_risk + 0.04 * strict * home_card_risk
+
+    raw_h = penalty_dxg_h + card_dxg_h
+    raw_a = penalty_dxg_a + card_dxg_a
+
+    max_shift = 0.12 * conf
+    dxg_h = clip(raw_h * REFEREE_LAYER_ALPHA * conf, -max_shift, max_shift)
+    dxg_a = clip(raw_a * REFEREE_LAYER_ALPHA * conf, -max_shift, max_shift)
+    meta.update(dxg_h=dxg_h, dxg_a=dxg_a, applied=True)
+
+    lam_h2 = max(0.20, lam_h + dxg_h)
+    lam_a2 = max(0.20, lam_a + dxg_a)
+
+    log.append(
+        f"L10 裁判层 {ctx.referee}: 主队 Δλ {dxg_h:+.3f}, 客队 Δλ {dxg_a:+.3f}, conf={conf:.2f}"
+    )
+    return lam_h2, lam_a2, log, meta
+
+
+# ----------------------------------------------------------------------------
 # Dixon-Coles 两段式比分矩阵
 # ----------------------------------------------------------------------------
 def pois(k, lam):
@@ -469,10 +609,27 @@ def predict(ctx: MatchContext, data, verbose=True):
     resolve_context(ctx, data)        # None 字段 → 2a/2b/2c 模型默认值
     b_h, b_a, _ = base_lambdas(ctx, data)
     lam_h, lam_a, cm_h, cm_a, log = apply_layers(b_h, b_a, ctx, data)
+    lam_h, lam_a, ref_log, ref_meta = apply_referee_layer(lam_h, lam_a, ctx, data)
+    log.extend(ref_log)
     ft, h1, h2 = build_ft(lam_h, lam_a, cm_h, cm_a)
     m = markets(ft)
     hf = htft(h1, h2)
     top_score = m["scores"][0]
+
+    mag = abs(ref_meta["dxg_h"]) + abs(ref_meta["dxg_a"])
+    ref_factor = dict(
+        referee=ctx.referee or "",
+        known=bool(ctx.referee_known and ctx.referee),
+        style=_referee_style_label(data, ctx.referee) if ctx.referee else "裁判名单未确认",
+        teamA_delta_xg=round(ref_meta["dxg_h"], 3),
+        teamB_delta_xg=round(ref_meta["dxg_a"], 3),
+        impact="高" if mag >= 0.08 else ("中" if mag >= 0.04 else "低"),
+        confidence="高" if ref_meta["conf"] >= 0.8 else (
+            "中" if ref_meta["conf"] >= 0.65 else "低"
+        ),
+    )
+    if not ctx.referee_known or not ctx.referee:
+        ref_factor["style"] = "裁判名单未确认，裁判层不做方向性修正"
 
     if verbose:
         print(f"\n{'='*64}\n⚽ {ctx.home} (主) vs {ctx.away} (客)   [{ '中立' if ctx.neutral else '非中立'}]")
@@ -484,7 +641,7 @@ def predict(ctx: MatchContext, data, verbose=True):
         for line in log:
             print(f"   {line}")
         print(f"{'-'*64}")
-        print(f"V2.0 最终 λ    {ctx.home} {lam_h:.2f} | {ctx.away} {lam_a:.2f}")
+        print(f"V2.1 最终 λ    {ctx.home} {lam_h:.2f} | {ctx.away} {lam_a:.2f}")
         print(f"胜平负         主 {m['pH']*100:.0f}% / 平 {m['pD']*100:.0f}% / 客 {m['pA']*100:.0f}%")
         print(f"主预测比分     {top_score[0]}-{top_score[1]}  ({top_score[2]*100:.0f}%)")
         alt = "  ".join(f"{i}-{j} {p*100:.0f}%" for i, j, p in m["scores"][1:5])
@@ -496,7 +653,19 @@ def predict(ctx: MatchContext, data, verbose=True):
         top_hf = sorted(hf.items(), key=lambda x: -x[1])[:4]
         print("半全场         " + "  ".join(f"{a}/{b} {p*100:.0f}%" for (a, b), p in top_hf))
         print(f"置信度         {confidence(m)}")
-    return dict(lam_h=lam_h, lam_a=lam_a, markets=m, htft=hf, base=(b_h, b_a))
+    return dict(lam_h=lam_h, lam_a=lam_a, markets=m, htft=hf, base=(b_h, b_a),
+                referee_factor=ref_factor)
+
+
+def _referee_style_label(data, referee):
+    ref = data.get("referee_style", {}).get(referee, {})
+    if not ref:
+        return "风格数据不足"
+    strict = znum(ref, "strictness_index")
+    pen = znum(ref, "penalty_tendency")
+    strict_txt = "牌尺度略严" if strict > 0.15 else ("牌尺度略松" if strict < -0.15 else "牌尺度中性")
+    pen_txt = "点球倾向偏高" if pen > 0.15 else ("点球倾向偏低" if pen < -0.15 else "点球倾向中性")
+    return f"{strict_txt}，{pen_txt}"
 
 
 # ----------------------------------------------------------------------------
@@ -521,13 +690,15 @@ BACKTEST = [
 ]
 
 
-def run_backtest(data):
+def run_backtest(data, use_referee_layer=True):
     print("\n" + "#" * 64)
-    print("#  V2.0 赛后回测对照  —  V1.0 主模型  vs  V2.0  vs  赛果")
+    tag = "V2.1" if use_referee_layer else "V2.1-no-ref"
+    print(f"#  {tag} 赛后回测对照  —  V1.0 主模型  vs  V2.1  vs  赛果")
     print("#" * 64)
     rows = []
     for bt in BACKTEST:
-        ctx = MatchContext(home=bt["home"], away=bt["away"], **bt["ctx"])
+        ctx = MatchContext(home=bt["home"], away=bt["away"],
+                           use_referee_layer=use_referee_layer, **bt["ctx"])
         # 1) V1.0 基准（仅 Poisson，无修正层）
         ft1, _, _ = build_ft(bt["v1"][0], bt["v1"][1], 1.0, 1.0)
         m1 = markets(ft1)
@@ -549,33 +720,53 @@ def run_backtest(data):
                      f"{res['lam_h']:.1f}/{res['lam_a']:.1f}",
                      f"{s2[0]}-{s2[1]}", bt["actual"], dir_ok, band_ok))
     print("\n" + "=" * 70)
-    print("汇总：  场次        V1.0 λ     V2.0 λ     V2.0modal 赛果   方向 赛果∈top5")
+    print("汇总：  场次        V1.0 λ     V2.1 λ     V2.1modal 赛果   方向 赛果∈top5")
     for r in rows:
         print(f"        {r[0]:<11}{r[1]:<11}{r[2]:<11}{r[3]:<10}{r[4]:<7}{r[5]:<5}{r[6]}")
     print("=" * 70)
     print("说明：modal=最高概率「单一比分」(2.4/0.9 的泊松众数本就是 2-0/2-1，非 3-1)。")
     print("      关键看 λ/xG 与方向：V2.0 的 λ 已贴合赛果级别(法 2.4≈参考 2.45)，")
     print("      4 场方向全对，赛果比分多数落入 top-5 比分带。")
-    print("结论：V2.0 用『崩溃模式抬强队(修 Bias A) + 反击地板托弱队(修 Bias B)』，")
-    print("      把 V1.0 偏保守的 λ 整体拉到赛果级别，双方进球概率也回归现实。")
+    print("结论：V2.1 在 V2.0 基础上叠加 L10 裁判层；回测四场无裁判指派，应与 baseline 一致。")
 
 
 def main():
-    ap = argparse.ArgumentParser(description="WorldCup-2026 V2.0 预测引擎")
+    ap = argparse.ArgumentParser(description="WorldCup-2026 V2.1 预测引擎")
     ap.add_argument("--home")
     ap.add_argument("--away")
     ap.add_argument("--neutral", action="store_true", default=True)
     ap.add_argument("--host", default="", choices=["", "home", "away"])
+    ap.add_argument("--referee", default="", help="本场主裁（覆盖 match_officials.csv）")
     ap.add_argument("--backtest", action="store_true")
+    ap.add_argument("--backtest-r2-md2", action="store_true",
+                    help="R2 前四场赛前回测（数据截止=开赛日前一天）")
+    ap.add_argument("--no-referee-layer", action="store_true")
+    ap.add_argument("--referee-layer", action="store_true",
+                    help="显式启用裁判层（默认已启用）")
     args = ap.parse_args()
 
+    use_ref = not args.no_referee_layer
     data = load_data()
+    if args.backtest_r2_md2:
+        import backtest_r2_prematch
+        backtest_r2_prematch.main()
+        return
     if args.home and args.away and not args.backtest:
         ctx = MatchContext(home=args.home, away=args.away,
-                           neutral=(args.host == ""), host_side=args.host)
+                           neutral=(args.host == ""), host_side=args.host,
+                           referee=args.referee, use_referee_layer=use_ref)
+        if args.referee:
+            ctx.referee_known = True
+            ctx.referee_confidence = 0.85
         predict(ctx, data, verbose=True)
     else:
-        run_backtest(data)
+        if args.backtest and (args.no_referee_layer or args.referee_layer):
+            run_backtest(data, use_referee_layer=use_ref)
+            if args.no_referee_layer:
+                print("\n--- 对照：启用裁判层 ---")
+            run_backtest(data, use_referee_layer=True)
+        else:
+            run_backtest(data, use_referee_layer=use_ref)
 
 
 if __name__ == "__main__":
