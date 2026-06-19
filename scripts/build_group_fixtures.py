@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "database" / "competition" / "wc2026_group_fixtures.csv"
 ASSIGN = ROOT / "database" / "competition" / "group_assignments.csv"
 MATCH_XG = ROOT / "database" / "xGdatabase" / "processed" / "wc2026_match_xg.csv"
-LAST_VERIFIED = "2026-06-18"
+LAST_VERIFIED = "2026-06-19"
 SOURCE = "FIFA/Roadtrips schedule cross-checked with FotMob R1"
 
 # FIFA match numbers 1–72; pairings from official draw schedule (Roadtrips/FIFA).

@@ -1,49 +1,49 @@
 group,rank,team_en,team_zh,played,won,drawn,lost,goals_for,goals_against,goal_difference,points,status,notes,last_updated
-A,1,Mexico,墨西哥,1,1,0,0,2,0,2,3,provisional,,2026-06-18
-A,2,South Korea,韩国,1,1,0,0,2,1,1,3,provisional,,2026-06-18
-A,3,Czechia,捷克,1,0,0,1,1,2,-1,0,provisional,,2026-06-18
-A,4,South Africa,南非,1,0,0,1,0,2,-2,0,provisional,,2026-06-18
-B,2,Canada,加拿大,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 2nd in four-way tie: fair-play -2; ahead of Qatar on FIFA ranking (30 vs 56).,2026-06-18
-B,4,Bosnia and Herzegovina,波黑,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 4th in four-way tie: fair-play -3 after MD1.,2026-06-18
-B,3,Qatar,卡塔尔,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 3rd in four-way tie: fair-play -2; behind Canada on FIFA ranking.,2026-06-18
-B,1,Switzerland,瑞士,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 1st in four-way tie on 1pt: best fair-play score (-1) after MD1.,2026-06-18
-C,1,Scotland,苏格兰,1,1,0,0,1,0,1,3,provisional,,2026-06-18
-C,3,Brazil,巴西,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 3rd behind Morocco on fair-play after MD1.,2026-06-18
-C,2,Morocco,摩洛哥,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 2nd ahead of Brazil on fair-play (0 vs -2) after MD1.,2026-06-18
-C,4,Haiti,海地,1,0,0,1,0,1,-1,0,provisional,,2026-06-18
-D,1,USA,美国,1,1,0,0,4,1,3,3,provisional,,2026-06-18
-D,2,Australia,澳大利亚,1,1,0,0,2,0,2,3,provisional,,2026-06-18
-D,3,Turkey,土耳其,1,0,0,1,0,2,-2,0,provisional,,2026-06-18
-D,4,Paraguay,巴拉圭,1,0,0,1,1,4,-3,0,provisional,,2026-06-18
-E,1,Germany,德国,1,1,0,0,7,1,6,3,provisional,,2026-06-18
-E,2,Ivory Coast,科特迪瓦,1,1,0,0,1,0,1,3,provisional,,2026-06-18
-E,3,Ecuador,厄瓜多尔,1,0,0,1,0,1,-1,0,provisional,,2026-06-18
-E,4,Curacao,库拉索,1,0,0,1,1,7,-6,0,provisional,,2026-06-18
-F,1,Sweden,瑞典,1,1,0,0,5,1,4,3,provisional,,2026-06-18
-F,3,Netherlands,荷兰,1,0,1,0,2,2,0,1,provisional_fair_play,Provisional 3rd behind Japan on fair-play after MD1.,2026-06-18
-F,2,Japan,日本,1,0,1,0,2,2,0,1,provisional_fair_play,Provisional 2nd ahead of Netherlands on fair-play (0 vs -3) after MD1.,2026-06-18
-F,4,Tunisia,突尼斯,1,0,0,1,1,5,-4,0,provisional,,2026-06-18
-G,2,Iran,伊朗,1,0,1,0,2,2,0,1,provisional_fair_play,Provisional 2nd: fair-play -1 after MD1.,2026-06-18
-G,1,New Zealand,新西兰,1,0,1,0,2,2,0,1,provisional_fair_play,Provisional 1st in four-way tie: best fair-play score (0) after MD1.,2026-06-18
-G,3,Belgium,比利时,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 3rd: fair-play -2; ahead of Egypt on FIFA ranking (9 vs 29).,2026-06-18
-G,4,Egypt,埃及,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 4th: fair-play -2; behind Belgium on FIFA ranking.,2026-06-18
-H,2,Saudi Arabia,沙特,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 2nd: fair-play -1; ahead of Spain/Cape Verde on FIFA ranking.,2026-06-18
-H,1,Uruguay,乌拉圭,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 1st in four-way tie: best fair-play score (0) after MD1.,2026-06-18
-H,3,Spain,西班牙,1,0,1,0,0,0,0,1,provisional_fair_play,Provisional 3rd: fair-play -1; ahead of Cape Verde on FIFA ranking.,2026-06-18
-H,4,Cape Verde,佛得角,1,0,1,0,0,0,0,1,provisional_fair_play,Provisional 4th: fair-play -1; lowest FIFA rank among -1 trio.,2026-06-18
-I,1,Norway,挪威,1,1,0,0,4,1,3,3,provisional,,2026-06-18
-I,2,France,法国,1,1,0,0,3,1,2,3,provisional,,2026-06-18
-I,3,Senegal,塞内加尔,1,0,0,1,1,3,-2,0,provisional,,2026-06-18
-I,4,Iraq,伊拉克,1,0,0,1,1,4,-3,0,provisional,,2026-06-18
-J,1,Argentina,阿根廷,1,1,0,0,3,0,3,3,provisional,,2026-06-18
-J,2,Austria,奥地利,1,1,0,0,3,1,2,3,provisional,,2026-06-18
-J,3,Jordan,约旦,1,0,0,1,1,3,-2,0,provisional,,2026-06-18
-J,4,Algeria,阿尔及利亚,1,0,0,1,0,3,-3,0,provisional,,2026-06-18
-K,1,Colombia,哥伦比亚,1,1,0,0,3,1,2,3,provisional,,2026-06-18
-K,3,Portugal,葡萄牙,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 3rd behind DR Congo on fair-play after MD1.,2026-06-18
-K,2,DR Congo,刚果金,1,0,1,0,1,1,0,1,provisional_fair_play,Provisional 2nd ahead of Portugal on fair-play (-1 vs -3) after MD1.,2026-06-18
-K,4,Uzbekistan,乌兹别克斯坦,1,0,0,1,1,3,-2,0,provisional,,2026-06-18
-L,1,England,英格兰,1,1,0,0,4,2,2,3,provisional,,2026-06-18
-L,2,Ghana,加纳,1,1,0,0,1,0,1,3,provisional,,2026-06-18
-L,3,Panama,巴拿马,1,0,0,1,0,1,-1,0,provisional,,2026-06-18
-L,4,Croatia,克罗地亚,1,0,0,1,2,4,-2,0,provisional,,2026-06-18
+A,1,Mexico,墨西哥,2,2,0,0,3,0,3,6,provisional,Knockout stage confirmed after R2 (group leader on 6pts).,2026-06-19
+A,2,South Korea,韩国,2,1,0,1,2,2,0,3,provisional,,2026-06-19
+A,3,Czechia,捷克,2,0,1,1,2,3,-1,1,provisional,,2026-06-19
+A,4,South Africa,南非,2,0,1,1,1,3,-2,1,provisional,,2026-06-19
+B,1,Canada,加拿大,2,1,1,0,7,1,6,4,provisional,Group B leader after R2; ahead of Switzerland on overall goal difference.,2026-06-19
+B,2,Switzerland,瑞士,2,1,1,0,5,2,3,4,provisional,,2026-06-19
+B,3,Bosnia and Herzegovina,波黑,2,0,1,1,2,5,-3,1,provisional,,2026-06-19
+B,4,Qatar,卡塔尔,2,0,1,1,1,7,-6,1,provisional,,2026-06-19
+C,1,Scotland,苏格兰,1,1,0,0,1,0,1,3,provisional,,2026-06-19
+C,2,Morocco,摩洛哥,1,0,1,0,1,1,0,1,provisional,,2026-06-19
+C,3,Brazil,巴西,1,0,1,0,1,1,0,1,provisional,,2026-06-19
+C,4,Haiti,海地,1,0,0,1,0,1,-1,0,provisional,,2026-06-19
+D,1,USA,美国,1,1,0,0,4,1,3,3,provisional,,2026-06-19
+D,2,Australia,澳大利亚,1,1,0,0,2,0,2,3,provisional,,2026-06-19
+D,3,Turkey,土耳其,1,0,0,1,0,2,-2,0,provisional,,2026-06-19
+D,4,Paraguay,巴拉圭,1,0,0,1,1,4,-3,0,provisional,,2026-06-19
+E,1,Germany,德国,1,1,0,0,7,1,6,3,provisional,,2026-06-19
+E,2,Ivory Coast,科特迪瓦,1,1,0,0,1,0,1,3,provisional,,2026-06-19
+E,3,Ecuador,厄瓜多尔,1,0,0,1,0,1,-1,0,provisional,,2026-06-19
+E,4,Curacao,库拉索,1,0,0,1,1,7,-6,0,provisional,,2026-06-19
+F,1,Sweden,瑞典,1,1,0,0,5,1,4,3,provisional,,2026-06-19
+F,2,Japan,日本,1,0,1,0,2,2,0,1,provisional,,2026-06-19
+F,3,Netherlands,荷兰,1,0,1,0,2,2,0,1,provisional,,2026-06-19
+F,4,Tunisia,突尼斯,1,0,0,1,1,5,-4,0,provisional,,2026-06-19
+G,1,New Zealand,新西兰,1,0,1,0,2,2,0,1,provisional,,2026-06-19
+G,2,Iran,伊朗,1,0,1,0,2,2,0,1,provisional,,2026-06-19
+G,3,Belgium,比利时,1,0,1,0,1,1,0,1,provisional,Fair-play tie (-2); ahead on FIFA ranking (9).,2026-06-19
+G,4,Egypt,埃及,1,0,1,0,1,1,0,1,provisional,,2026-06-19
+H,1,Uruguay,乌拉圭,1,0,1,0,1,1,0,1,provisional,,2026-06-19
+H,2,Saudi Arabia,沙特,1,0,1,0,1,1,0,1,provisional,Fair-play tie (-1); ahead on FIFA ranking (57).,2026-06-19
+H,3,Spain,西班牙,1,0,1,0,0,0,0,1,provisional,Fair-play tie (-1); ahead on FIFA ranking (8).,2026-06-19
+H,4,Cape Verde,佛得角,1,0,1,0,0,0,0,1,provisional,,2026-06-19
+I,1,Norway,挪威,1,1,0,0,4,1,3,3,provisional,,2026-06-19
+I,2,France,法国,1,1,0,0,3,1,2,3,provisional,,2026-06-19
+I,3,Senegal,塞内加尔,1,0,0,1,1,3,-2,0,provisional,,2026-06-19
+I,4,Iraq,伊拉克,1,0,0,1,1,4,-3,0,provisional,,2026-06-19
+J,1,Argentina,阿根廷,1,1,0,0,3,0,3,3,provisional,,2026-06-19
+J,2,Austria,奥地利,1,1,0,0,3,1,2,3,provisional,,2026-06-19
+J,3,Jordan,约旦,1,0,0,1,1,3,-2,0,provisional,,2026-06-19
+J,4,Algeria,阿尔及利亚,1,0,0,1,0,3,-3,0,provisional,,2026-06-19
+K,1,Colombia,哥伦比亚,1,1,0,0,3,1,2,3,provisional,,2026-06-19
+K,2,DR Congo,刚果金,1,0,1,0,1,1,0,1,provisional,,2026-06-19
+K,3,Portugal,葡萄牙,1,0,1,0,1,1,0,1,provisional,,2026-06-19
+K,4,Uzbekistan,乌兹别克斯坦,1,0,0,1,1,3,-2,0,provisional,,2026-06-19
+L,1,England,英格兰,1,1,0,0,4,2,2,3,provisional,,2026-06-19
+L,2,Ghana,加纳,1,1,0,0,1,0,1,3,provisional,,2026-06-19
+L,3,Panama,巴拿马,1,0,0,1,0,1,-1,0,provisional,,2026-06-19
+L,4,Croatia,克罗地亚,1,0,0,1,2,4,-2,0,provisional,,2026-06-19
