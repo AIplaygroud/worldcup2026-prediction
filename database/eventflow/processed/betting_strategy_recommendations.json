@@ -1,0 +1,1080 @@
+{
+  "meta": {
+    "mode": "balanced",
+    "generated_at": "2026-06-19T14:23:03.483332+00:00",
+    "odds_last_update": "match_odds_summary.csv",
+    "semantics_note": "V2 probability is probabilistic; EventFlow and fusion are ranking/support scores.",
+    "value_proxy_note": "value_proxy 仅用于排序，不构成保证收益或真实 EV。"
+  },
+  "availability_audit": [
+    {
+      "match_key": "周五029",
+      "match": "美国 vs 澳大利亚",
+      "had": "可单关",
+      "hhad": "仅过关",
+      "ttg": "可单关",
+      "hafu": "可单关",
+      "crs": "可单关",
+      "note": "",
+      "had_available": true,
+      "hhad_available": true,
+      "ttg_available": true,
+      "hafu_available": true,
+      "crs_available": true,
+      "had_single": true,
+      "hhad_single": false,
+      "ttg_single": true,
+      "hafu_single": true,
+      "crs_single": true
+    },
+    {
+      "match_key": "周五030",
+      "match": "苏格兰 vs 摩洛哥",
+      "had": "可单关",
+      "hhad": "仅过关",
+      "ttg": "可单关",
+      "hafu": "可单关",
+      "crs": "可单关",
+      "note": "",
+      "had_available": true,
+      "hhad_available": true,
+      "ttg_available": true,
+      "hafu_available": true,
+      "crs_available": true,
+      "had_single": true,
+      "hhad_single": false,
+      "ttg_single": true,
+      "hafu_single": true,
+      "crs_single": true
+    },
+    {
+      "match_key": "周五031",
+      "match": "巴西 vs 海地",
+      "had": "未开售",
+      "hhad": "仅过关",
+      "ttg": "可单关",
+      "hafu": "可单关",
+      "crs": "可单关",
+      "note": "HAD 市场未开售，禁止推荐胜平负",
+      "had_available": false,
+      "hhad_available": true,
+      "ttg_available": true,
+      "hafu_available": true,
+      "crs_available": true,
+      "had_single": false,
+      "hhad_single": false,
+      "ttg_single": true,
+      "hafu_single": true,
+      "crs_single": true
+    },
+    {
+      "match_key": "周五032",
+      "match": "土耳其 vs 巴拉圭",
+      "had": "仅过关",
+      "hhad": "仅过关",
+      "ttg": "可单关",
+      "hafu": "可单关",
+      "crs": "可单关",
+      "note": "",
+      "had_available": true,
+      "hhad_available": true,
+      "ttg_available": true,
+      "hafu_available": true,
+      "crs_available": true,
+      "had_single": false,
+      "hhad_single": false,
+      "ttg_single": true,
+      "hafu_single": true,
+      "crs_single": true
+    }
+  ],
+  "candidate_pool": [
+    {
+      "match_id": "WC2026-C29",
+      "match": "美国 vs 澳大利亚",
+      "market": "TTG",
+      "selection": "总进球2/3/4",
+      "sp": 3.3,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.5992,
+      "eventflow_alignment": 0.6284,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.9775,
+      "strategy_score_conservative": 0.8426,
+      "strategy_score_balanced": 0.8433,
+      "strategy_score_aggressive": 0.8509,
+      "supporting_scores": [
+        "2-0",
+        "2-1",
+        "3-0"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S13",
+        "S05"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选2-0；EventFlow开放；概率派支持2-0",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C29",
+      "match": "美国 vs 澳大利亚",
+      "market": "HAD",
+      "selection": "美国胜",
+      "sp": 1.44,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.7467,
+      "eventflow_alignment": 0.1756,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.0752,
+      "strategy_score_conservative": 0.8938,
+      "strategy_score_balanced": 0.7877,
+      "strategy_score_aggressive": 0.699,
+      "supporting_scores": [
+        "2-0",
+        "2-1",
+        "3-0"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S13",
+        "S05"
+      ],
+      "risk_note": "",
+      "reason": "融合首选2-0；EventFlow开放；概率派支持2-0",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C29",
+      "match": "美国 vs 澳大利亚",
+      "market": "TTG",
+      "selection": "总进球2/3",
+      "sp": 3.3,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.4127,
+      "eventflow_alignment": 0.6619,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.3618,
+      "strategy_score_conservative": 0.681,
+      "strategy_score_balanced": 0.72,
+      "strategy_score_aggressive": 0.7367,
+      "supporting_scores": [
+        "2-0",
+        "2-1",
+        "3-0"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S13",
+        "S05"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选2-0；EventFlow开放；概率派支持2-0",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C29",
+      "match": "美国 vs 澳大利亚",
+      "market": "CRS",
+      "selection": "比分2-0/3-0/2-1",
+      "sp": 5.5,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.2948,
+      "eventflow_alignment": 0.7026,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.6214,
+      "strategy_score_conservative": 0.5967,
+      "strategy_score_balanced": 0.6776,
+      "strategy_score_aggressive": 0.7328,
+      "supporting_scores": [
+        "2-0",
+        "3-0",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S13",
+        "S05"
+      ],
+      "risk_note": "",
+      "reason": "融合首选2-0；EventFlow开放；概率派支持2-0",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C29",
+      "match": "美国 vs 澳大利亚",
+      "market": "HHAD",
+      "selection": "美国(-1)让胜",
+      "sp": 2.53,
+      "single_allowed": false,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.5345,
+      "eventflow_alignment": 0.0511,
+      "fusion_alignment": 0.6767,
+      "value_proxy": 1.3524,
+      "strategy_score_conservative": 0.6368,
+      "strategy_score_balanced": 0.5656,
+      "strategy_score_aggressive": 0.5269,
+      "supporting_scores": [
+        "2-0",
+        "3-0"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S13",
+        "S05"
+      ],
+      "risk_note": "",
+      "reason": "融合首选2-0；EventFlow开放；概率派支持2-0",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C29",
+      "match": "美国 vs 澳大利亚",
+      "market": "CRS",
+      "selection": "比分2-0/3-0",
+      "sp": 7.0,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.2035,
+      "eventflow_alignment": 0.7026,
+      "fusion_alignment": 0.6767,
+      "value_proxy": 1.4246,
+      "strategy_score_conservative": 0.4377,
+      "strategy_score_balanced": 0.5221,
+      "strategy_score_aggressive": 0.586,
+      "supporting_scores": [
+        "2-0",
+        "3-0"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S13",
+        "S05"
+      ],
+      "risk_note": "",
+      "reason": "融合首选2-0；EventFlow开放；概率派支持2-0",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "aggressive"
+    },
+    {
+      "match_id": "WC2026-C30",
+      "match": "苏格兰 vs 摩洛哥",
+      "market": "TTG",
+      "selection": "总进球2/3/4",
+      "sp": 3.15,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.6092,
+      "eventflow_alignment": 0.6499,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.9191,
+      "strategy_score_conservative": 0.8499,
+      "strategy_score_balanced": 0.832,
+      "strategy_score_aggressive": 0.8074,
+      "supporting_scores": [
+        "0-2",
+        "0-3",
+        "1-2"
+      ],
+      "supporting_scenarios": [
+        "S10",
+        "S04",
+        "S01"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选0-2；EventFlow开放；概率派支持0-2",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C30",
+      "match": "苏格兰 vs 摩洛哥",
+      "market": "TTG",
+      "selection": "总进球2/3",
+      "sp": 3.15,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.428,
+      "eventflow_alignment": 0.7117,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.3482,
+      "strategy_score_conservative": 0.6969,
+      "strategy_score_balanced": 0.7248,
+      "strategy_score_aggressive": 0.7202,
+      "supporting_scores": [
+        "0-2",
+        "0-3",
+        "1-2"
+      ],
+      "supporting_scenarios": [
+        "S10",
+        "S04",
+        "S01"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选0-2；EventFlow开放；概率派支持0-2",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C30",
+      "match": "苏格兰 vs 摩洛哥",
+      "market": "CRS",
+      "selection": "比分0-2/1-2/0-3",
+      "sp": 5.75,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.3012,
+      "eventflow_alignment": 0.3908,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.7319,
+      "strategy_score_conservative": 0.5674,
+      "strategy_score_balanced": 0.6047,
+      "strategy_score_aggressive": 0.6238,
+      "supporting_scores": [
+        "0-2",
+        "1-2",
+        "0-3"
+      ],
+      "supporting_scenarios": [
+        "S10",
+        "S04",
+        "S01"
+      ],
+      "risk_note": "",
+      "reason": "融合首选0-2；EventFlow开放；概率派支持0-2",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C30",
+      "match": "苏格兰 vs 摩洛哥",
+      "market": "HHAD",
+      "selection": "苏格兰(1)让负",
+      "sp": 2.7,
+      "single_allowed": false,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.5096,
+      "eventflow_alignment": 0.0213,
+      "fusion_alignment": 0.6771,
+      "value_proxy": 1.376,
+      "strategy_score_conservative": 0.6148,
+      "strategy_score_balanced": 0.5355,
+      "strategy_score_aggressive": 0.4807,
+      "supporting_scores": [
+        "0-2",
+        "0-3"
+      ],
+      "supporting_scenarios": [
+        "S10",
+        "S04",
+        "S01"
+      ],
+      "risk_note": "",
+      "reason": "融合首选0-2；EventFlow开放；概率派支持0-2",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-C30",
+      "match": "苏格兰 vs 摩洛哥",
+      "market": "CRS",
+      "selection": "比分0-2/1-2",
+      "sp": 5.75,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.2077,
+      "eventflow_alignment": 0.3362,
+      "fusion_alignment": 0.6777,
+      "value_proxy": 1.1943,
+      "strategy_score_conservative": 0.3949,
+      "strategy_score_balanced": 0.4267,
+      "strategy_score_aggressive": 0.4433,
+      "supporting_scores": [
+        "0-2",
+        "1-2"
+      ],
+      "supporting_scenarios": [
+        "S10",
+        "S04",
+        "S01"
+      ],
+      "risk_note": "",
+      "reason": "融合首选0-2；EventFlow开放；概率派支持0-2",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "balanced"
+    },
+    {
+      "match_id": "WC2026-C30",
+      "match": "苏格兰 vs 摩洛哥",
+      "market": "TTG",
+      "selection": "总进球2",
+      "sp": 3.15,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.2065,
+      "eventflow_alignment": 0.6082,
+      "fusion_alignment": 0.3548,
+      "value_proxy": 0.6505,
+      "strategy_score_conservative": 0.3308,
+      "strategy_score_balanced": 0.3643,
+      "strategy_score_aggressive": 0.3754,
+      "supporting_scores": [
+        "0-2"
+      ],
+      "supporting_scenarios": [
+        "S10",
+        "S04",
+        "S01"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选0-2；概率派支持0-2",
+      "fusion_topn_limited": true,
+      "conflict_count": 1,
+      "tier": "balanced"
+    },
+    {
+      "match_id": "WC2026-D31",
+      "match": "巴西 vs 海地",
+      "market": "TTG",
+      "selection": "总进球2/3/4",
+      "sp": 4.0,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.6224,
+      "eventflow_alignment": 0.6392,
+      "fusion_alignment": 1.0,
+      "value_proxy": 2.4895,
+      "strategy_score_conservative": 0.7948,
+      "strategy_score_balanced": 0.7628,
+      "strategy_score_aggressive": 0.6988,
+      "supporting_scores": [
+        "2-0",
+        "1-2",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S07"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选2-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-D31",
+      "match": "巴西 vs 海地",
+      "market": "TTG",
+      "selection": "总进球2/3",
+      "sp": 4.1,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.4601,
+      "eventflow_alignment": 0.6734,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.8864,
+      "strategy_score_conservative": 0.6726,
+      "strategy_score_balanced": 0.6824,
+      "strategy_score_aggressive": 0.6456,
+      "supporting_scores": [
+        "2-0",
+        "1-2",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S07"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选2-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-D31",
+      "match": "巴西 vs 海地",
+      "market": "HHAD",
+      "selection": "巴西(-2)让负",
+      "sp": 3.6,
+      "single_allowed": false,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.7938,
+      "eventflow_alignment": 0.0646,
+      "fusion_alignment": 0.7136,
+      "value_proxy": 2.8576,
+      "strategy_score_conservative": 0.7972,
+      "strategy_score_balanced": 0.6517,
+      "strategy_score_aggressive": 0.5297,
+      "supporting_scores": [
+        "1-2",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S07"
+      ],
+      "risk_note": "",
+      "reason": "EventFlow开放；概率派Top为1-1，玩法转向总进球/比分/半全场",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-D31",
+      "match": "巴西 vs 海地",
+      "market": "CRS",
+      "selection": "比分2-1/1-2/2-0",
+      "sp": 7.2,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.2323,
+      "eventflow_alignment": 0.7188,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.6724,
+      "strategy_score_conservative": 0.5036,
+      "strategy_score_balanced": 0.5745,
+      "strategy_score_aggressive": 0.5813,
+      "supporting_scores": [
+        "2-1",
+        "1-2",
+        "2-0"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S07"
+      ],
+      "risk_note": "",
+      "reason": "融合首选2-1；EventFlow开放；概率派Top为1-1，玩法转向总进球/比分/半全场",
+      "fusion_topn_limited": true,
+      "conflict_count": 1,
+      "tier": "aggressive"
+    },
+    {
+      "match_id": "WC2026-D31",
+      "match": "巴西 vs 海地",
+      "market": "TTG",
+      "selection": "总进球3/4",
+      "sp": 4.0,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.3859,
+      "eventflow_alignment": 0.4792,
+      "fusion_alignment": 0.7136,
+      "value_proxy": 1.5438,
+      "strategy_score_conservative": 0.5239,
+      "strategy_score_balanced": 0.5172,
+      "strategy_score_aggressive": 0.4818,
+      "supporting_scores": [
+        "1-2",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S07"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选2-1；EventFlow开放；概率派Top为1-1，玩法转向总进球/比分/半全场",
+      "fusion_topn_limited": true,
+      "conflict_count": 1,
+      "tier": "balanced"
+    },
+    {
+      "match_id": "WC2026-D31",
+      "match": "巴西 vs 海地",
+      "market": "CRS",
+      "selection": "比分2-1/1-2",
+      "sp": 14.5,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.1671,
+      "eventflow_alignment": 0.7188,
+      "fusion_alignment": 0.7136,
+      "value_proxy": 2.4233,
+      "strategy_score_conservative": 0.3858,
+      "strategy_score_balanced": 0.4622,
+      "strategy_score_aggressive": 0.4878,
+      "supporting_scores": [
+        "2-1",
+        "1-2"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S07"
+      ],
+      "risk_note": "",
+      "reason": "融合首选2-1；EventFlow开放；概率派Top为1-1，玩法转向总进球/比分/半全场",
+      "fusion_topn_limited": true,
+      "conflict_count": 1,
+      "tier": "balanced"
+    },
+    {
+      "match_id": "WC2026-D32",
+      "match": "土耳其 vs 巴拉圭",
+      "market": "TTG",
+      "selection": "总进球2/3/4",
+      "sp": 3.2,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.6219,
+      "eventflow_alignment": 0.6957,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.9899,
+      "strategy_score_conservative": 0.9658,
+      "strategy_score_balanced": 0.9316,
+      "strategy_score_aggressive": 0.9088,
+      "supporting_scores": [
+        "2-0",
+        "1-2",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选2-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-D32",
+      "match": "土耳其 vs 巴拉圭",
+      "market": "TTG",
+      "selection": "总进球2/3",
+      "sp": 3.2,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.4562,
+      "eventflow_alignment": 0.7722,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.4599,
+      "strategy_score_conservative": 0.8007,
+      "strategy_score_balanced": 0.8153,
+      "strategy_score_aggressive": 0.8119,
+      "supporting_scores": [
+        "2-0",
+        "1-2",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选2-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-D32",
+      "match": "土耳其 vs 巴拉圭",
+      "market": "TTG",
+      "selection": "总进球3/4",
+      "sp": 3.7,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.3896,
+      "eventflow_alignment": 0.6362,
+      "fusion_alignment": 0.7065,
+      "value_proxy": 1.4416,
+      "strategy_score_conservative": 0.6489,
+      "strategy_score_balanced": 0.6563,
+      "strategy_score_aggressive": 0.6613,
+      "supporting_scores": [
+        "1-2",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选2-1；EventFlow开放；概率派Top为1-1，玩法转向总进球/比分/半全场",
+      "fusion_topn_limited": true,
+      "conflict_count": 1,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-D32",
+      "match": "土耳其 vs 巴拉圭",
+      "market": "CRS",
+      "selection": "比分2-1/1-2/2-0",
+      "sp": 5.6,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.2321,
+      "eventflow_alignment": 0.7143,
+      "fusion_alignment": 1.0,
+      "value_proxy": 1.2996,
+      "strategy_score_conservative": 0.5743,
+      "strategy_score_balanced": 0.6517,
+      "strategy_score_aggressive": 0.6921,
+      "supporting_scores": [
+        "2-1",
+        "1-2",
+        "2-0"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "risk_note": "",
+      "reason": "融合首选2-1；EventFlow开放；概率派Top为1-1，玩法转向总进球/比分/半全场",
+      "fusion_topn_limited": true,
+      "conflict_count": 1,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-D32",
+      "match": "土耳其 vs 巴拉圭",
+      "market": "HAD",
+      "selection": "土耳其胜",
+      "sp": 1.73,
+      "single_allowed": false,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.4182,
+      "eventflow_alignment": 0.1786,
+      "fusion_alignment": 0.6712,
+      "value_proxy": 0.7234,
+      "strategy_score_conservative": 0.6053,
+      "strategy_score_balanced": 0.5392,
+      "strategy_score_aggressive": 0.4811,
+      "supporting_scores": [
+        "2-0",
+        "2-1"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "risk_note": "",
+      "reason": "融合首选2-1；EventFlow开放；概率派Top为1-1，玩法转向总进球/比分/半全场",
+      "fusion_topn_limited": true,
+      "conflict_count": 1,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-D32",
+      "match": "土耳其 vs 巴拉圭",
+      "market": "HHAD",
+      "selection": "土耳其(-1)让负",
+      "sp": 1.83,
+      "single_allowed": false,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.5818,
+      "eventflow_alignment": 0.0641,
+      "fusion_alignment": 0.3288,
+      "value_proxy": 1.0647,
+      "strategy_score_conservative": 0.6745,
+      "strategy_score_balanced": 0.535,
+      "strategy_score_aggressive": 0.4474,
+      "supporting_scores": [
+        "1-2"
+      ],
+      "supporting_scenarios": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "risk_note": "",
+      "reason": "EventFlow开放；概率派Top为1-1，玩法转向总进球/比分/半全场",
+      "fusion_topn_limited": true,
+      "conflict_count": 1,
+      "tier": "safe"
+    }
+  ],
+  "filtered_out": [
+    {
+      "match": "巴西 vs 海地",
+      "market": "HAD",
+      "selection": "胜平负",
+      "reason": "HAD 市场未开售，不可购买"
+    }
+  ],
+  "recommended_combos": [
+    {
+      "tier": "稳健收益型",
+      "combo_type": "三串一",
+      "label": "美国美国胜 × 苏格兰总进球2/3/4 × 巴西巴西(-2)让负",
+      "legs": [
+        {
+          "match": "美国 vs 澳大利亚",
+          "selection": "美国胜",
+          "market": "HAD",
+          "sp": 1.44,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.7467
+        },
+        {
+          "match": "苏格兰 vs 摩洛哥",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.15,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6092
+        },
+        {
+          "match": "巴西 vs 海地",
+          "selection": "巴西(-2)让负",
+          "market": "HHAD",
+          "sp": 3.6,
+          "single_allowed": false,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.7938
+        }
+      ],
+      "combo_probability": 0.2246,
+      "sp_display": "SP约52.25",
+      "combo_score": 0.5426,
+      "rationale": "概率派聚合×融合支持×EventFlow路径；非仅看胜负方向",
+      "risk_note": "关注数据缺口与临场变化",
+      "all_parlay_ok": true,
+      "all_single_ok": false
+    },
+    {
+      "tier": "稳健收益型",
+      "combo_type": "三串四",
+      "label": "美国美国胜 × 苏格兰总进球2/3/4 × 巴西巴西(-2)让负（三串四展开）",
+      "legs": [
+        {
+          "match": "美国 vs 澳大利亚",
+          "selection": "美国胜",
+          "market": "HAD",
+          "sp": 1.44,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.7467
+        },
+        {
+          "match": "苏格兰 vs 摩洛哥",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.15,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6092
+        },
+        {
+          "match": "巴西 vs 海地",
+          "selection": "巴西(-2)让负",
+          "market": "HHAD",
+          "sp": 3.6,
+          "single_allowed": false,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.7938
+        }
+      ],
+      "combo_probability": 0.2246,
+      "sp_display": "含3个二串一+1个三串一；SP区间见各关",
+      "combo_score": 0.5155,
+      "rationale": "三串四：三个二串一 + 一个三串一；每关仅选一场一玩法",
+      "risk_note": "关注数据缺口与临场变化",
+      "all_parlay_ok": true,
+      "all_single_ok": false
+    },
+    {
+      "tier": "均衡进取型",
+      "combo_type": "三串一",
+      "label": "美国总进球2/3/4 × 苏格兰总进球2/3/4 × 巴西总进球2/3/4",
+      "legs": [
+        {
+          "match": "美国 vs 澳大利亚",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.3,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.5992
+        },
+        {
+          "match": "苏格兰 vs 摩洛哥",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.15,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6092
+        },
+        {
+          "match": "巴西 vs 海地",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 4.0,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6224
+        }
+      ],
+      "combo_probability": 0.1413,
+      "sp_display": "SP约133.06",
+      "combo_score": 0.5616,
+      "rationale": "概率派聚合×融合支持×EventFlow路径；非仅看胜负方向",
+      "risk_note": "关注数据缺口与临场变化",
+      "all_parlay_ok": true,
+      "all_single_ok": true
+    },
+    {
+      "tier": "均衡进取型",
+      "combo_type": "三串四",
+      "label": "美国总进球2/3/4 × 苏格兰总进球2/3/4 × 巴西总进球2/3/4（三串四展开）",
+      "legs": [
+        {
+          "match": "美国 vs 澳大利亚",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.3,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.5992
+        },
+        {
+          "match": "苏格兰 vs 摩洛哥",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.15,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6092
+        },
+        {
+          "match": "巴西 vs 海地",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 4.0,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6224
+        }
+      ],
+      "combo_probability": 0.1413,
+      "sp_display": "含3个二串一+1个三串一；SP区间见各关",
+      "combo_score": 0.5335,
+      "rationale": "三串四：三个二串一 + 一个三串一；每关仅选一场一玩法",
+      "risk_note": "关注数据缺口与临场变化",
+      "all_parlay_ok": true,
+      "all_single_ok": false
+    },
+    {
+      "tier": "高收益小注型",
+      "combo_type": "三串一",
+      "label": "美国总进球2/3/4 × 苏格兰总进球2/3/4 × 巴西总进球2/3/4",
+      "legs": [
+        {
+          "match": "美国 vs 澳大利亚",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.3,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.5992
+        },
+        {
+          "match": "苏格兰 vs 摩洛哥",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.15,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6092
+        },
+        {
+          "match": "巴西 vs 海地",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 4.0,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6224
+        }
+      ],
+      "combo_probability": 0.1413,
+      "sp_display": "SP约133.06",
+      "combo_score": 0.5616,
+      "rationale": "概率派聚合×融合支持×EventFlow路径；非仅看胜负方向",
+      "risk_note": "概率低、小注、非保证收益；概率低、小注、非保证收益",
+      "all_parlay_ok": true,
+      "all_single_ok": true
+    },
+    {
+      "tier": "高收益小注型",
+      "combo_type": "三串四",
+      "label": "美国总进球2/3/4 × 苏格兰总进球2/3/4 × 巴西总进球2/3/4（三串四展开）",
+      "legs": [
+        {
+          "match": "美国 vs 澳大利亚",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.3,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.5992
+        },
+        {
+          "match": "苏格兰 vs 摩洛哥",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 3.15,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6092
+        },
+        {
+          "match": "巴西 vs 海地",
+          "selection": "总进球2/3/4",
+          "market": "TTG",
+          "sp": 4.0,
+          "single_allowed": true,
+          "parlay_allowed": true,
+          "v2_model_probability": 0.6224
+        }
+      ],
+      "combo_probability": 0.1413,
+      "sp_display": "含3个二串一+1个三串一；SP区间见各关",
+      "combo_score": 0.5335,
+      "rationale": "三串四：三个二串一 + 一个三串一；每关仅选一场一玩法",
+      "risk_note": "概率低、小注、非保证收益；概率低、小注、非保证收益",
+      "all_parlay_ok": true,
+      "all_single_ok": false
+    }
+  ]
+}

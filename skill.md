@@ -190,14 +190,26 @@ python scripts/run_source_fusion_pipeline.py --match-id <ID> --home <主队> --a
 
 适用于用户询问"怎么买、怎么下注、策略"。
 
-**必须先读取**：`reference/jingcai-football-simulation-rules.md` + `database/jc-odds/processed/match_odds_top8.json`（或先刷新赔率表）。
+**V3.5 必须先执行**（不得跳过）：
+
+1. 读取最新 `database/jc-odds/processed/match_odds_*.csv` 与每场 `dual_engine_output_*.json`。
+2. 运行或等价执行 `python scripts/build_betting_strategy.py`（可售门禁 + 候选评分 + 组合分层）。
+3. 报告**开头**输出可售性审计表；`未开售` / SP 为空的玩法不得进入推荐。
+4. 候选玩法须同时参考：V2 比分概率（概率聚合）、EventFlow 剧本/比分族（路径支持）、融合排序（玩法优先级）；**不得**仅按概率派胜负方向选玩法。
+5. 若概率派与 EventFlow 分歧，优先用融合结果决定玩法类型（总进球 / 比分包 / 半全场等）。
+6. 组合分稳健、均衡、进取三层；单关保底仅 `single_allowed=true`；不得把融合分写成概率；不得写大2.5/小2.5（竞彩为离散总进球 0–7+）。
+
+**必须先读取**：`reference/jingcai-football-simulation-rules.md` + `database/jc-odds/processed/match_odds_summary.csv`（或 `build_betting_strategy.py` 输出 / `match_odds_top8.json`）。
 
 建议包含：
-- 策略方向：胜平负、让球、总进球、半全场、比分等模拟盘方向（玩法定义见规则文件）
-- 风险等级：低 / 中 / 高
-- 价值判断：引用赔率表 SP 计算隐含概率，对照预测概率判断是否有价值；注明玩法是否可单关
-- 仓位建议：使用娱乐模拟单位，例如 0.5u / 1u / 2u；不建议超过 2u
-- 放弃条件：赔率过低、盘口过深、玩法未开售、仅过关但用户要单关、用户要求单场串关（二串一等，规则不允许）、阵容信息不明、数据缺口过大时应建议观望
+- 可售性审计表（HAD/HHAD/TTG/HAFU/CRS 可单关或仅过关）
+- 候选玩法池：SP、V2 概率、融合支持、EventFlow 支持（**不是**融合概率）
+- 策略方向：胜平负、让球、总进球、半全场、比分等（玩法定义见规则文件）
+- 串关：二串一、三串一、三串三、三串四；同场仅一关（可复式）
+- 风险等级：低 / 中 / 高；高收益组合须注明「概率低、小注、非保证收益」
+- 价值判断：`value_proxy` 仅作排序参考，不构成保证收益
+- 仓位建议：娱乐模拟单位 0.5u / 1u / 2u
+- 放弃条件：赔率过低、盘口过深、玩法未开售、仅过关但用户要单关、数据缺口过大时应观望
 
 ### C. 预测 + 投注
 
