@@ -467,5 +467,33 @@
       ]
     },
     "notes": "VAR、点球、争议判罚改变比赛心理和节奏；与 S08（红牌/严哨/身体对抗）拆分。"
+  },
+  {
+    "scenario_id": "S17_group_top_spot_controlled_win",
+    "name": "小组第一路径驱动的低风险争胜",
+    "trigger_features": [
+      "group_top_spot_incentive",
+      "bracket_path_advantage",
+      "host_reputation_pressure",
+      "controlled_win"
+    ],
+    "effects": {
+      "home_lambda_delta": 0.04,
+      "away_lambda_delta": -0.02,
+      "variance_delta": -0.06,
+      "under25_delta": 0.06,
+      "htft_bias": [
+        "平/胜",
+        "胜/胜",
+        "平/平"
+      ],
+      "score_family": [
+        "1-0",
+        "2-0",
+        "2-1",
+        "1-1"
+      ]
+    },
+    "notes": "小组第一或更优淘汰赛路径带来争胜动机，但风险偏好受控；不等同于必须抢分或大比分开放。"
   }
 ]

@@ -18,6 +18,7 @@ from typing import Any, Dict, List, Tuple
 
 from eventflow_common import DB, EVENTFLOW_DB, HTFT_LABELS, fnum, read_csv, snum
 from eventflow_source_common import prematch_eligibility
+from eventflow_v32_gates import competition_context_for
 
 from scenario_htft_semantics import (
 
@@ -47,7 +48,7 @@ EARLY_SCENARIO_IDS = {
     "S01_favorite_early_break_open", "S02_low_block_survival", "S03_wide_overload_crossfire",
     "S04_press_trap_turnover_goal", "S06_set_piece_breakthrough", "S10_tactical_stalemate_mutual_constraint",
     "S11_group_state_draw_control", "S12_rotation_tempo_drop", "S13_must_win_early_aggression",
-    "S14_buildup_gk_error_chain",
+    "S14_buildup_gk_error_chain", "S17_group_top_spot_controlled_win",
 }
 
 LATE_SCENARIO_IDS = {
@@ -492,7 +493,40 @@ def compute_htft_top3(
 
 
 
-def enrich_phase_simulation(activated: List[Dict[str, Any]], all_scenarios: List[Dict[str, str]]) -> Dict[str, Any]:
+def _competition_strategy_block(match_id: str) -> Dict[str, str]:
+    ctx = competition_context_for(match_id) if match_id else {}
+    if not ctx:
+        return {
+            "early_phase": "tactical baseline",
+            "middle_phase": "tactical baseline",
+            "late_if_level": "standard late-game risk",
+            "late_if_trailing": "trailing side may increase chase risk",
+        }
+    mutual = fnum(ctx, "mutual_draw_acceptance")
+    max_cw = max(fnum(ctx, "home_controlled_win_incentive"), fnum(ctx, "away_controlled_win_incentive"))
+    max_mw = max(fnum(ctx, "home_must_win_pressure"), fnum(ctx, "away_must_win_pressure"))
+    home = snum(ctx, "home")
+    is_host = home in {"USA", "Mexico", "Canada"}
+    early = "favorite/host controlled initiative" if max_cw > 0.35 or is_host else "balanced opening"
+    middle = "balanced risk; draw still acceptable" if mutual >= 0.5 else "competitive middle phase"
+    late_level = "risk-downshift / draw-control increases" if mutual >= 0.5 else "standard tempo"
+    late_trail = "only trailing side increases chase risk" if max_mw < 0.5 else "must-win side increases chase risk"
+    return {
+        "early_phase": early,
+        "middle_phase": middle,
+        "late_if_level": late_level,
+        "late_if_trailing": late_trail,
+    }
+
+
+
+
+
+def enrich_phase_simulation(
+    activated: List[Dict[str, Any]],
+    all_scenarios: List[Dict[str, str]],
+    match_id: str = "",
+) -> Dict[str, Any]:
 
     early_pool = [s for s in all_scenarios if snum(s, "scenario_id") in EARLY_SCENARIO_IDS]
 
@@ -567,6 +601,8 @@ def enrich_phase_simulation(activated: List[Dict[str, Any]], all_scenarios: List
         "phase_31_60": phase_block("中段31-60", mid, all_scenarios),
 
         "phase_61_90": phase_block("末段61-90", late or {}, late_pool),
+
+        "competition_strategy": _competition_strategy_block(match_id),
 
     }
 

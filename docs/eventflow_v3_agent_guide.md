@@ -153,14 +153,17 @@ EventFlow V3.2 使用 **deterministic eventflow inference**（确定性事件流
 
 | 剧本 | 触发条件 | Gate / 约束 |
 |---|---|---|
-| S11 | R2/R3 积分榜；`home_draw_acceptance` / `away_draw_acceptance` / `mutual_draw_control`；强队争第一则下调 | 无积分形势则不激活 |
+| S11 | R2/R3 结构化 `competition_context.csv`；`mutual_draw_acceptance` + `late_draw_control_index` | R1 不激活；不再用 top_spot 扣分压低 S11 |
 | S12 | `rotation_risk` / `starter_rest_signal` fused 证据 | 无证据 → prior only，不进入 activated |
 | S13 | 0 分/净胜球压力/R3 出线压力/`group_table_pressure` | **group pressure gate**：无积分压力则 tac/src/prob 全零 |
 | S14 | `buildup_gk_error` / `buildup_press_risk` / `goalkeeper_error` / 结构化 build-up risk | 无专项证据 → tactical cap ≤0.25；general press 归 S04 |
 | S15 | `weather_heat_humidity` / `travel_fatigue` / `pitch_adaptation` fused 证据 | 无证据 → 不主观推断天气 |
 | S16 | 裁判 penalty/VAR 倾向 + `var_penalty_swing` / `box_defending_risk` | 与 S08 分流：S08=红牌/严哨，S16=VAR/点球 |
+| S17 | R2/R3 `controlled_win_incentive`（争第一但控风险） | 来自 `competition_context.csv`；score family 限 1-0/2-0/2-1/1-1 |
 
-**Base prior（V3.2）**：S01–S10 保持 0.10；S11=0.09；S12/S14/S15/S16=0.05；S13=0.06。
+**Base prior（V3.4）**：S01–S10 保持 0.10；S11=0.09；S12/S14/S15/S16=0.05；S13=0.06；**S17=0.06**。
+
+**V3.4 构建顺序**：`build_group_standings.py` → `build_competition_context.py` → `build_eventflow_scenario_weights.py`。
 
 ---
 

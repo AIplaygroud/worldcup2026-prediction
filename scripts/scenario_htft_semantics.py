@@ -59,6 +59,11 @@ SCENARIO_HTFT_SEMANTICS: dict[str, list[tuple[str, str, float]]] = {
         ("underdog_holds_ht", "draw_ft", 0.55),
         ("draw_ht", "favorite_wins_ft", 0.25),
     ],
+    "S17_group_top_spot_controlled_win": [
+        ("draw_ht", "favorite_wins_ft", 1.0),
+        ("favorite_leads_ht", "favorite_wins_ft", 0.75),
+        ("draw_ht", "draw_ft", 0.45),
+    ],
     "S12_rotation_tempo_drop": [
         ("draw_ht", "favorite_wins_ft", 0.55),
         ("draw_ht", "draw_ft", 0.45),

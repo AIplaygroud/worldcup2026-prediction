@@ -18,6 +18,7 @@ SCENARIO_BASE_WEIGHT: Dict[str, float] = {
     "S14_buildup_gk_error_chain": 0.05,
     "S15_weather_travel_pitch_adaptation": 0.05,
     "S16_var_penalty_momentum_swing": 0.05,
+    "S17_group_top_spot_controlled_win": 0.06,
 }
 DEFAULT_BASE_WEIGHT = 0.10
 
@@ -41,6 +42,13 @@ def base_weight_for(sid: str) -> float:
 def _match_mapping_row(match_id: str) -> Dict[str, str]:
     for row in read_csv(COMP_DB / "wc2026_match_id_mapping.csv"):
         if snum(row, "internal_match_id") == match_id:
+            return row
+    return {}
+
+
+def competition_context_for(match_id: str) -> Dict[str, str]:
+    for row in read_csv(COMP_DB / "competition_context.csv"):
+        if snum(row, "match_id") == match_id:
             return row
     return {}
 
@@ -191,6 +199,70 @@ def compute_s11_draw_control_score(
         "composite_score": round(score, 4),
     })
     return score, detail
+
+
+def compute_s11_draw_control_from_context(match_id: str) -> Tuple[float, Dict[str, Any]]:
+    ctx = competition_context_for(match_id)
+    if not ctx:
+        return 0.0, {"context_used": False, "gate_reason": "missing_competition_context"}
+
+    mutual = fnum(ctx, "mutual_draw_acceptance")
+    late_draw = fnum(ctx, "late_draw_control_index")
+    max_must_win = max(fnum(ctx, "home_must_win_pressure"), fnum(ctx, "away_must_win_pressure"))
+
+    score = mutual * 0.55 + late_draw * 0.25 - max_must_win * 0.20
+    score = max(0.0, min(1.0, score))
+
+    return score, {
+        "context_used": True,
+        "home_draw_acceptance": round(fnum(ctx, "home_draw_acceptance"), 4),
+        "away_draw_acceptance": round(fnum(ctx, "away_draw_acceptance"), 4),
+        "mutual_draw_acceptance": round(mutual, 4),
+        "late_draw_control_index": round(late_draw, 4),
+        "max_must_win_pressure": round(max_must_win, 4),
+        "composite_score": round(score, 4),
+        "context_reason": snum(ctx, "context_reason"),
+    }
+
+
+def compute_s17_top_spot_controlled_win_score(
+    match_id: str, home: str, away: str,
+) -> Tuple[float, Dict[str, Any]]:
+    ctx = competition_context_for(match_id)
+    if not ctx:
+        return 0.0, {"context_used": False, "gate_reason": "missing_competition_context"}
+
+    h = fnum(ctx, "home_controlled_win_incentive")
+    a = fnum(ctx, "away_controlled_win_incentive")
+    mutual_draw = fnum(ctx, "mutual_draw_acceptance")
+    max_must_win = max(fnum(ctx, "home_must_win_pressure"), fnum(ctx, "away_must_win_pressure"))
+
+    score = max(h, a) * 0.65 + mutual_draw * 0.15 - max_must_win * 0.15
+    score = max(0.0, min(1.0, score))
+    leading_side = "home" if h >= a else "away"
+
+    return score, {
+        "context_used": True,
+        "home_controlled_win_incentive": round(h, 4),
+        "away_controlled_win_incentive": round(a, 4),
+        "leading_side": leading_side,
+        "mutual_draw_acceptance": round(mutual_draw, 4),
+        "max_must_win_pressure": round(max_must_win, 4),
+        "composite_score": round(score, 4),
+        "context_reason": snum(ctx, "context_reason"),
+    }
+
+
+def late_chase_suppression_for(match_id: str) -> Tuple[float, Dict[str, Any]]:
+    ctx = competition_context_for(match_id)
+    if not ctx:
+        return 0.0, {"context_used": False}
+    sup = fnum(ctx, "late_chase_suppression")
+    return sup, {
+        "context_used": True,
+        "late_chase_suppression": round(sup, 4),
+        "late_draw_control_index": round(fnum(ctx, "late_draw_control_index"), 4),
+    }
 
 
 def has_structured_buildup_risk(home_prof: Dict[str, str], away_prof: Dict[str, str]) -> bool:

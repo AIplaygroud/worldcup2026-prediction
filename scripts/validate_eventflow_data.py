@@ -21,6 +21,7 @@ REQUIRED_SCENARIO_IDS = (
     "S14_buildup_gk_error_chain",
     "S15_weather_travel_pitch_adaptation",
     "S16_var_penalty_momentum_swing",
+    "S17_group_top_spot_controlled_win",
 )
 
 TABLE_REQUIREMENTS = {

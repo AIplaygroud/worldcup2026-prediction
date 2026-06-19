@@ -1,0 +1,30 @@
+field,type,description
+match_id,string,"Internal match ID, e.g. WC2026-D32"
+group,string,Group letter
+round,int,Group stage round 1/2/3
+home,string,Home team English name
+away,string,Away team English name
+home_points,int,Pre-match points
+away_points,int,Pre-match points
+home_rank,int,Pre-match group rank
+away_rank,int,Pre-match group rank
+home_goal_difference,int,Pre-match goal difference
+away_goal_difference,int,Pre-match goal difference
+home_draw_acceptance,float,Home draw acceptance 0-1
+away_draw_acceptance,float,Away draw acceptance 0-1
+mutual_draw_acceptance,float,Mutual draw acceptance 0-1
+home_must_win_pressure,float,Home must-win pressure 0-1
+away_must_win_pressure,float,Away must-win pressure 0-1
+home_top_spot_incentive,float,Home top-spot incentive 0-1
+away_top_spot_incentive,float,Away top-spot incentive 0-1
+home_controlled_win_incentive,float,Home controlled-win incentive 0-1
+away_controlled_win_incentive,float,Away controlled-win incentive 0-1
+late_draw_control_index,float,Late draw control if level after 60' 0-1
+late_chase_suppression,float,S07 late-chase suppression cap 0-1
+first_place_slot,string,"Knockout slot for group winner, e.g. 1D"
+second_place_slot,string,"Knockout slot for runner-up, e.g. 2D"
+third_place_candidate_slots,string,Possible R32 slots if third qualifies
+bracket_path_known,bool,Whether knockout path is reliably known from template
+context_quality,string,Structured data quality A/B/C
+context_reason,string,Short traceable explanation
+last_updated,string,ISO date of build

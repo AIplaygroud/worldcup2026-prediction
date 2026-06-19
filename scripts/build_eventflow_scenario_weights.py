@@ -17,10 +17,12 @@ from eventflow_v32_gates import (
     base_weight_for,
     buildup_risk_score_specific,
     cap_s14_tactical,
-    compute_s11_draw_control_score,
+    compute_s11_draw_control_from_context,
+    compute_s17_top_spot_controlled_win_score,
     environment_stress_structured,
     gates_to_json,
     has_specific_buildup_evidence,
+    late_chase_suppression_for,
     match_fused_signal_types,
     rotation_risk_gated,
     should_enable_s13_group_pressure,
@@ -315,23 +317,43 @@ def score_v32_scenario(
     if sid in (
         "S01_favorite_early_break_open", "S02_low_block_survival", "S03_wide_overload_crossfire",
         "S04_press_trap_turnover_goal", "S05_high_line_vs_runner", "S06_set_piece_breakthrough",
-        "S07_late_chase_open_game", "S09_fatigue_travel_second_half_drop",
+        "S09_fatigue_travel_second_half_drop",
         "S10_tactical_stalemate_mutual_constraint",
     ):
         tac = tactical_component_legacy(sid, m, hp, ap)
         prob = probability_context_delta(sid, m)
         return tac, player_component(sid, m), prob, src_d, trigger, gates, evidence_refs
 
+    if sid == "S07_late_chase_open_game":
+        tac = tactical_component_legacy(sid, m, hp, ap)
+        prob = probability_context_delta(sid, m)
+        suppression, sup_detail = late_chase_suppression_for(mid)
+        if suppression > 0:
+            tac *= (1.0 - suppression)
+            prob *= (1.0 - suppression)
+            gates = {"competition_late_chase_cap": sup_detail}
+            trigger = "auto_matchup_features+capped_by_competition_context"
+        return tac, player_component(sid, m), prob, src_d, trigger, gates, evidence_refs
+
     if sid == S08_ID:
         return s08_tac, 0.0, 0.0, src_d, "s08_referee_card", gates, evidence_refs
 
     if sid == "S11_group_state_draw_control":
-        s11_score, s11_detail = compute_s11_draw_control_score(mid, home, away, hb, ab)
+        s11_score, s11_detail = compute_s11_draw_control_from_context(mid)
         tac = s11_score * 0.30
         gates = {"s11_draw_control": s11_detail}
-        prob = probability_context_delta(sid, m)
+        prob = 0.0
         if tac > 0:
-            trigger = "group_standings_draw_control"
+            trigger = "structured_competition_context_draw_control"
+        return tac, 0.0, prob, src_d, trigger, gates, evidence_refs
+
+    if sid == "S17_group_top_spot_controlled_win":
+        s17_score, s17_detail = compute_s17_top_spot_controlled_win_score(mid, home, away)
+        tac = s17_score * 0.26
+        gates = {"s17_top_spot_controlled_win": s17_detail}
+        prob = 0.0
+        if tac > 0:
+            trigger = "structured_competition_context_top_spot"
         return tac, 0.0, prob, src_d, trigger, gates, evidence_refs
 
     if sid == "S12_rotation_tempo_drop":

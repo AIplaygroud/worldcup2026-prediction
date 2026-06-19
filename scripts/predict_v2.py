@@ -860,6 +860,10 @@ def build_v2_diagnostics(result, ctx, data, match_id="") -> dict:
         "raw_deff_away": result.get("base_info", {}).get("raw_deff_a"),
         "blended_deff_home": result.get("base_info", {}).get("blended_deff_home"),
         "blended_deff_away": result.get("base_info", {}).get("blended_deff_away"),
+        "competition_context_note": {
+            "used_for_lambda": False,
+            "reason": "Probability engine remains ability/xG based; group strategy is handled by EventFlow.",
+        },
     }
 
 

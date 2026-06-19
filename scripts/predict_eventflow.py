@@ -11,7 +11,7 @@ from eventflow_common import (
     EVENTFLOW_DB, read_csv, read_json, write_csv, write_json,
     fnum, snum, top_score_distribution, htft_label, normalize_weights,
 )
-from eventflow_v32_gates import parse_gates_json
+from eventflow_v32_gates import parse_gates_json, competition_context_for
 from eventflow_htft import compute_htft_top3, enrich_phase_simulation, summarize_data_quality, count_prematch_evidence
 
 MODE_WEIGHT = {
@@ -158,6 +158,8 @@ def event_bonus_for_score(
         fam = [x.strip() for x in snum(s, "score_family").split(";") if x.strip()]
         if score in fam:
             bonus += weight * 0.22 * tail_strength
+            if sid == "S11_group_state_draw_control" and score == "1-1":
+                bonus += weight * 0.06 * tail_strength
             if sid in activated_ids:
                 scenario_ids.append(sid)
                 reasons.append(snum(s, "scenario_name"))
@@ -251,7 +253,7 @@ def main() -> None:
 
     activated_raw = [] if baseline_degraded or fallback_ratio >= 0.50 else pick_activated(all_scenarios)
     activated = build_activated_payload(activated_raw)
-    phase_sim = enrich_phase_simulation(activated, all_scenarios) if activated else {}
+    phase_sim = enrich_phase_simulation(activated, all_scenarios, args.match_id) if activated else {}
     evidence_counts = count_prematch_evidence(args.match_id)
     if evidence_counts.get("pre_match_evidence_count", 0) == 0 and evidence_counts.get("excluded_post_match_evidence_count", 0) > 0:
         degradation_reason = degradation_reason or "no_prematch_evidence"
@@ -284,6 +286,12 @@ def main() -> None:
     write_csv(EVENTFLOW_DB / "eventflow_predictions.csv", out)
 
     top_scores = [snum(r, "score") for r in out[:5]] if not eventflow_degraded else []
+    comp_ctx = competition_context_for(args.match_id) if args.match_id else {}
+    eventflow_process_summary = {
+        "structured_competition_context_used": bool(comp_ctx),
+        "competition_context_quality": snum(comp_ctx, "context_quality"),
+        "competition_context_reason": snum(comp_ctx, "context_reason"),
+    }
     payload = {
         "match": f"{args.home} vs {args.away}",
         "match_id": args.match_id,
@@ -295,9 +303,11 @@ def main() -> None:
         "fallback_ratio": fallback_ratio,
         "evidence_isolation": evidence_counts,
         "data_quality": data_quality,
+        "eventflow_process_summary": eventflow_process_summary,
         "eventflow_engine": {
             "lambda_home": args.lam_home,
             "lambda_away": args.lam_away,
+            "competition_context": comp_ctx,
             "eventflow_data_degraded": eventflow_degraded,
             "degradation_reason": degradation_reason,
             "precision_warning": precision_warning,

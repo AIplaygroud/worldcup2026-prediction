@@ -126,6 +126,22 @@ Gate 触发时写入 `gate_applied: true` 与 `gate_reason`。
 | weather_heat_humidity / travel_fatigue / pitch_adaptation | S15 |
 | var_penalty_swing / box_defending_risk | S16 |
 
+### V3.4 Structured Competition Context
+
+| 文件 | 说明 |
+|---|---|
+| `database/competition/competition_context.csv` | 每场赛前结构化赛制上下文（积分/出线/路径动机） |
+| `database/competition/competition_context_schema.csv` | 字段定义 |
+
+构建：`python scripts/build_competition_context.py`（依赖 `group_standings.csv`、`wc2026_match_id_mapping.csv`、赛果 xG 表）。
+
+| scenario_id | 名称 | 数据来源 |
+|---|---|---|
+| S11_group_state_draw_control | 接受平局/控节奏 | `competition_context.csv`（不再用 matchup 扣分压低） |
+| S17_group_top_spot_controlled_win | 低风险争小组第一 | `competition_context.csv` 的 `controlled_win_incentive` |
+
+S07 末段追分在 `mutual_draw_acceptance` 高时由 `late_chase_suppression` 封顶。概率引擎 λ 不接入赛制动机（见 `competition_context_note`）。
+
 ## 6. `dual_engine_predictions.csv`
 
 | 字段 | 含义 |

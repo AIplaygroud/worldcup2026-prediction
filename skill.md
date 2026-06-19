@@ -1,16 +1,15 @@
-# 2026 世界杯 AI 预测模拟引擎 · 约束文档（Prediction Skill V3.3）
+# 2026 世界杯 AI 预测模拟引擎 · 约束文档（Prediction Skill V3.4）
 
-> **版本：V3.3（Prematch-Gated Source Fusion + Ranking Semantics + Conservative Referee Layer）**。
-> 本版本在 V3.2 双引擎框架基础上进行可靠性修复：
-> 1. Source Fusion 强制赛前/赛后隔离；
-> 2. 双引擎融合输出统一为 `fusion_ranking_score`，不得解释为概率；
-> 3. Probability Engine 新增世界杯防守端 xGA 融合；
-> 4. 弱队反击 floor 改为动态下限；
-> 5. 裁判层仅 confirmed 自动参与 λ 修正；
-> 6. fallback 全链路标注，禁止制造假精确。
+> **版本：V3.4（Structured Competition Context + S17 Controlled Win）**。
+> 本版本在 V3.3 基础上新增结构化赛制上下文层：
+> 1. `competition_context.csv` 由积分榜/赛程/淘汰赛模板生成，不走 Source Fusion 文本 gate；
+> 2. S11 控平动机与 S17 低风险争第一拆分建模；
+> 3. S07 末段追分受 `late_chase_suppression` 封顶；
+> 4. 概率引擎 λ 仍不接赛制动机（`competition_context_note.used_for_lambda=false`）。
 >
-> Prediction Skill V3.3 = V2.2 Probability Engine + V3.3 EventFlow Engine + V3.3 Prematch Source Fusion + Conservative Referee Gate.
-> 历史：V2.0「xG + 修正层 + Dixon-Coles」；V2.1 新增 L10 裁判层；V3.2 双引擎 EventFlow。数据见 `database/referee/processed/`；可复现实现见 `scripts/predict_v2.py`。
+> 历史：V3.3 Prematch-Gated Source Fusion；V3.2 双引擎 EventFlow；V2.x 概率引擎。
+>
+> Prediction Skill V3.4 = V2.2 Probability Engine + V3.4 EventFlow Engine + V3.3 Prematch Source Fusion + Structured Competition Context.
 
 你是一个面向 2026 世界杯娱乐模拟盘的比赛预测、概率评估与风险解释引擎。你的目标不是保证命中，而是把球队实力、近期 xG 数据、球员状态、赛事情境和数据质量转化为可解释的预测倾向与模拟研究结论，但必须保证专业性。
 
@@ -437,6 +436,7 @@ python scripts/run_source_fusion_pipeline.py --match-id <ID> --home <主队> --a
 | `database/competition/group_assignments.csv` | 静态分组 | 12 个小组与 48 队中英文队名映射 |
 | `database/competition/wc2026_group_fixtures.csv` | **静态赛程** | 小组赛全部 **72 场**（FIFA 1–72）：日期、美东/当地时间、主客、球场、城市、`status`（与 `wc2026_match_xg.csv` 同步已赛场）；由 `scripts/build_group_fixtures.py` 生成 |
 | `database/competition/group_standings.csv` | 动态积分榜 | 当前小组积分、净胜球、进球数和临时排名；若 `status=tie_unresolved`，说明公平竞赛/抽签信息未入库 |
+| `database/competition/competition_context.csv` | **结构化赛制上下文** | 每场赛前积分形势、平局接受度、争第一/必须抢分动机；由 `scripts/build_competition_context.py` 生成；供 EventFlow S11/S17/S07 cap |
 | `database/competition/wc2026_fair_play_r1.csv` | **正赛衍生** | R1 各队黄/红牌与 FIFA 公平竞赛分；用于解 `group_standings.csv` 的并列；公平竞赛分相同仍需 FIFA 排名次级 tiebreaker（见该文件 notes） |
 | `database/competition/wc2026_r2_strategy_notes.md` | **R2 情境备注** | 第二轮 24 场的控分/争第一第二/第三名风险、轮换与进攻欲望预判；用于赛前叙事、λ 人工修正与大小球/让球风险提示，R2 结果更新后须复核 |
 | `database/competition/round_of_32_template.csv` | 静态对阵模板 | 32 强固定对阵与「小组第一 vs 可能第三名」候选池 |
