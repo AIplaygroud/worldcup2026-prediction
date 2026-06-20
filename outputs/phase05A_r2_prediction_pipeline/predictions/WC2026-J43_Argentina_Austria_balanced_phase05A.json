@@ -1,0 +1,2790 @@
+{
+  "match": "Argentina vs Austria",
+  "match_id": "WC2026-J43",
+  "fifa_match_id": "43",
+  "mode": "balanced",
+  "fusion_mode_effective": "balanced",
+  "score_semantics_note": "fusion_ranking_score is not a calibrated probability; v2_scoreline_probability comes from V2 Dixon-Coles; eventflow_ranking_score is a non-probabilistic EventFlow ranking score.",
+  "semantics": {
+    "v2_scoreline_probability": "calibrated scoreline probability from V2 Dixon-Coles",
+    "eventflow_ranking_score": "non-probabilistic EventFlow ranking score",
+    "fusion_ranking_score": "normalized ranking score, not a calibrated probability"
+  },
+  "baseline_degraded": false,
+  "eventflow_data_degraded": false,
+  "degradation_reason": "",
+  "data_quality": {
+    "real_data_rows": 1,
+    "estimated_data_rows": 2,
+    "missing_layers": 3,
+    "real_data_ratio": 0.333,
+    "estimated_data_ratio": 0.667,
+    "note": "估算数据已降权参与；不可与真实数据同权",
+    "details": [
+      {
+        "layer": "team",
+        "is_estimated": true,
+        "confidence": 0.76
+      },
+      {
+        "layer": "team",
+        "is_estimated": true,
+        "confidence": 0.76
+      },
+      {
+        "layer": "matchup",
+        "is_estimated": false,
+        "confidence": 0.7
+      }
+    ]
+  },
+  "probability_engine": {
+    "lambda_home": 1.4684,
+    "lambda_away": 0.8299,
+    "base_lambda": {
+      "home": 1.4684,
+      "away": 0.8299
+    },
+    "availability_adjustment": {
+      "enabled": false,
+      "signals_used": 0,
+      "signals_excluded": 0,
+      "home_attack_delta_pct": 0.0,
+      "away_attack_delta_pct": 0.0,
+      "home_defense_delta_pct": 0.0,
+      "away_defense_delta_pct": 0.0,
+      "home_team_raw_pct": 0.0,
+      "away_team_raw_pct": 0.0,
+      "home_team_capped_pct": 0.0,
+      "away_team_capped_pct": 0.0,
+      "match_total_lambda_change_pct": 0.0,
+      "match_cap_applied": false,
+      "excluded_signals": 0,
+      "adjustment_audit_file": "database/eventflow/processed/realtime_availability_adjustments.csv",
+      "included_signals": [],
+      "excluded_availability_signals": []
+    },
+    "adjusted_lambda": {
+      "home": 1.4684,
+      "away": 0.8299
+    },
+    "probabilities_from": "v36_realized",
+    "base_probability_snapshot": {
+      "home_win": 0.5166,
+      "draw": 0.2766,
+      "away_win": 0.2069,
+      "over25": 0.4035,
+      "btts": 0.4395,
+      "top_scores": [
+        "1-0",
+        "1-1",
+        "2-0",
+        "0-0",
+        "2-1"
+      ]
+    },
+    "adjusted_probability": {
+      "home_win": 0.5166,
+      "draw": 0.2766,
+      "away_win": 0.2069,
+      "over25": 0.4035,
+      "btts": 0.4395,
+      "top_scores": [
+        "1-0",
+        "1-1",
+        "2-0",
+        "0-0",
+        "2-1"
+      ]
+    },
+    "excluded_availability_signals": [],
+    "scoreline_probability_grid": [
+      {
+        "home_goals": 1,
+        "away_goals": 0,
+        "score": "1-0",
+        "probability": 0.141969
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 1,
+        "score": "1-1",
+        "probability": 0.127894
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 0,
+        "score": "2-0",
+        "probability": 0.108275
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 0,
+        "score": "0-0",
+        "probability": 0.105943
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 1,
+        "score": "2-1",
+        "probability": 0.089855
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 1,
+        "score": "0-1",
+        "probability": 0.077841
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 0,
+        "score": "3-0",
+        "probability": 0.052996
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 2,
+        "score": "1-2",
+        "probability": 0.050783
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 1,
+        "score": "3-1",
+        "probability": 0.04398
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 2,
+        "score": "2-2",
+        "probability": 0.037284
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 2,
+        "score": "0-2",
+        "probability": 0.034584
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 0,
+        "score": "4-0",
+        "probability": 0.019455
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 2,
+        "score": "3-2",
+        "probability": 0.018249
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 1,
+        "score": "4-1",
+        "probability": 0.016145
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 3,
+        "score": "1-3",
+        "probability": 0.014048
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 3,
+        "score": "2-3",
+        "probability": 0.010314
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 3,
+        "score": "0-3",
+        "probability": 0.009567
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 2,
+        "score": "4-2",
+        "probability": 0.006699
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 0,
+        "score": "5-0",
+        "probability": 0.005713
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 3,
+        "score": "3-3",
+        "probability": 0.005048
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 1,
+        "score": "5-1",
+        "probability": 0.004741
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 4,
+        "score": "1-4",
+        "probability": 0.002914
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 4,
+        "score": "2-4",
+        "probability": 0.00214
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 4,
+        "score": "0-4",
+        "probability": 0.001985
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 2,
+        "score": "5-2",
+        "probability": 0.001967
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 3,
+        "score": "4-3",
+        "probability": 0.001853
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 0,
+        "score": "6-0",
+        "probability": 0.001398
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 1,
+        "score": "6-1",
+        "probability": 0.00116
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 4,
+        "score": "3-4",
+        "probability": 0.001047
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 3,
+        "score": "5-3",
+        "probability": 0.000544
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 5,
+        "score": "1-5",
+        "probability": 0.000484
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 2,
+        "score": "6-2",
+        "probability": 0.000481
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 4,
+        "score": "4-4",
+        "probability": 0.000384
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 5,
+        "score": "2-5",
+        "probability": 0.000355
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 5,
+        "score": "0-5",
+        "probability": 0.000329
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 0,
+        "score": "7-0",
+        "probability": 0.000293
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 1,
+        "score": "7-1",
+        "probability": 0.000243
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 5,
+        "score": "3-5",
+        "probability": 0.000174
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 3,
+        "score": "6-3",
+        "probability": 0.000133
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 4,
+        "score": "5-4",
+        "probability": 0.000113
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 2,
+        "score": "7-2",
+        "probability": 0.000101
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 6,
+        "score": "1-6",
+        "probability": 6.7e-05
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 5,
+        "score": "4-5",
+        "probability": 6.4e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 0,
+        "score": "8-0",
+        "probability": 5.3e-05
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 6,
+        "score": "2-6",
+        "probability": 4.9e-05
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 6,
+        "score": "0-6",
+        "probability": 4.6e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 1,
+        "score": "8-1",
+        "probability": 4.4e-05
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 3,
+        "score": "7-3",
+        "probability": 2.8e-05
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 4,
+        "score": "6-4",
+        "probability": 2.8e-05
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 6,
+        "score": "3-6",
+        "probability": 2.4e-05
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 5,
+        "score": "5-5",
+        "probability": 1.9e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 2,
+        "score": "8-2",
+        "probability": 1.8e-05
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 6,
+        "score": "4-6",
+        "probability": 9e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 0,
+        "score": "9-0",
+        "probability": 8e-06
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 7,
+        "score": "1-7",
+        "probability": 8e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 1,
+        "score": "9-1",
+        "probability": 7e-06
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 7,
+        "score": "2-7",
+        "probability": 6e-06
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 4,
+        "score": "7-4",
+        "probability": 6e-06
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 7,
+        "score": "0-7",
+        "probability": 5e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 3,
+        "score": "8-3",
+        "probability": 5e-06
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 5,
+        "score": "6-5",
+        "probability": 5e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 2,
+        "score": "9-2",
+        "probability": 3e-06
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 7,
+        "score": "3-7",
+        "probability": 3e-06
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 6,
+        "score": "5-6",
+        "probability": 3e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 4,
+        "score": "8-4",
+        "probability": 1e-06
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 7,
+        "score": "4-7",
+        "probability": 1e-06
+      }
+    ],
+    "realized_probability": {
+      "home_win": 0.5166,
+      "draw": 0.2766,
+      "away_win": 0.2069,
+      "over25": 0.4035,
+      "over35": 0.2003,
+      "btts": 0.4395,
+      "top_scores": [
+        "1-0",
+        "1-1",
+        "2-0",
+        "0-0",
+        "2-1"
+      ]
+    },
+    "v36_realization_layer": {
+      "data_quality_score": 0.27,
+      "calibration_strength": "none",
+      "diagnostics_only": true,
+      "btts_gate": {
+        "direction": "none",
+        "delta_pct": 0.0,
+        "reason": [
+          "shot_quality_unavailable_no_box_xg_split",
+          "lineup_function_default_only",
+          "data_quality_capped_without_chance_quality",
+          "data_quality_below_threshold_no_calibration"
+        ]
+      },
+      "total_goals_tail": {
+        "four_plus_tail_delta": 0.0,
+        "boosted_families": [],
+        "penalized_families": []
+      },
+      "scoreline_family_adjustment": {},
+      "top_scores_before": [
+        "1-0",
+        "1-1",
+        "2-0",
+        "0-0",
+        "2-1"
+      ],
+      "top_scores_after": [
+        "1-0",
+        "1-1",
+        "2-0",
+        "0-0",
+        "2-1"
+      ],
+      "conditional_branches": [
+        {
+          "branch_id": "underdog_early_goal",
+          "status": "conditional_prematch",
+          "trigger": "若弱势方先入球",
+          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
+          "active": false
+        }
+      ]
+    },
+    "scenario_realization": {
+      "enabled": true,
+      "data_quality_score": 0.27,
+      "calibration_strength": "none",
+      "diagnostics_only": true,
+      "favorite_side": "home",
+      "favorite_leads_early_likelihood": 0.133159,
+      "underdog_leads_early_likelihood": 0.09907319999999999,
+      "favorite_game_management_likelihood": 0.48280000000000006,
+      "underdog_btts_conversion_likelihood": 0.28612899999999997,
+      "low_block_survival_likelihood": 0.36120199999999997,
+      "chance_quality_score": 0.37,
+      "shot_volume_quality_gap": 0.128577,
+      "lead_throttle_score": 0.12070000000000002,
+      "scoreline_family_boost": [
+        "favorite_clean_win_low",
+        "favorite_clean_win_mid",
+        "draw_low",
+        "underdog_low_win"
+      ],
+      "scoreline_family_penalty": [
+        "favorite_btts_win",
+        "favorite_big_win",
+        "chaos_high"
+      ],
+      "conditional_branches": [
+        {
+          "branch_id": "underdog_early_goal",
+          "status": "conditional_prematch",
+          "trigger": "若弱势方先入球",
+          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
+          "active": false
+        }
+      ],
+      "team_style_home": {
+        "team_scoring_style": "low_output",
+        "chance_conversion_style": "average",
+        "game_management_style": "balanced",
+        "low_score_win_tendency": 0.807,
+        "btts_allowed_tendency": 0.297,
+        "late_throttle_tendency": 0.4
+      },
+      "team_style_away": {
+        "team_scoring_style": "medium",
+        "chance_conversion_style": "average",
+        "game_management_style": "aggressive",
+        "low_score_win_tendency": 0.6536,
+        "btts_allowed_tendency": 0.45,
+        "late_throttle_tendency": 0.4
+      },
+      "lineup_function": {
+        "Argentina": {
+          "has_real_lineup_signals": false,
+          "pace_outlet_starting": false,
+          "pace_outlet_benched": false,
+          "central_target_starting": false,
+          "creator_starting": false,
+          "set_piece_height_advantage": false,
+          "wide_overload_available": false,
+          "counterattack_exit_quality": 0.35,
+          "press_resistance_quality": 0.750407
+        },
+        "Austria": {
+          "has_real_lineup_signals": false,
+          "pace_outlet_starting": false,
+          "pace_outlet_benched": false,
+          "central_target_starting": false,
+          "creator_starting": false,
+          "set_piece_height_advantage": false,
+          "wide_overload_available": false,
+          "counterattack_exit_quality": 0.35,
+          "press_resistance_quality": 0.633545
+        }
+      },
+      "data_quality": {
+        "xg_available": true,
+        "shot_quality_available": false,
+        "chance_quality_available": false,
+        "lineup_function_available": false,
+        "lineup_default_only": true,
+        "game_state_model_available": false,
+        "team_style_baseline_available": false,
+        "market_total_goals_available": false,
+        "data_quality_score": 0.27,
+        "calibration_strength": "none",
+        "source_reliability": 0.3,
+        "diagnostics_only": true,
+        "warnings": [
+          "shot_quality_unavailable_no_box_xg_split",
+          "lineup_function_default_only",
+          "data_quality_capped_without_chance_quality",
+          "data_quality_below_threshold_no_calibration"
+        ]
+      },
+      "audit_file": "database\\eventflow\\processed\\scenario_realization_features.csv"
+    },
+    "btts_conversion_gate": {
+      "enabled": true,
+      "threat_presence": true,
+      "conversion_supported": false,
+      "conversion_supported_by_quality": false,
+      "adjustment_direction": "none",
+      "adjustment_strength": "none",
+      "calibration_strength": "none",
+      "btts_factor_delta_pct": 0.0,
+      "btts_delta_pct": 0.0,
+      "up_signals_count": 0,
+      "down_signals_count": 4,
+      "up_reasons": [],
+      "down_reasons": [
+        "chance_quality_unavailable",
+        "favorite_lead_management_likely",
+        "underdog_threat_present_but_conversion_low",
+        "counterattack_exit_quality_low"
+      ],
+      "reasons": [
+        "shot_quality_unavailable_no_box_xg_split",
+        "lineup_function_default_only",
+        "data_quality_capped_without_chance_quality",
+        "data_quality_below_threshold_no_calibration"
+      ],
+      "diagnostics_only": true,
+      "btts_before": 0.4395,
+      "btts_after": 0.4395,
+      "btts_probability_point_delta": 0.0
+    },
+    "total_goals_tail_calibration": {
+      "enabled": true,
+      "four_plus_tail_delta": 0.0,
+      "family_deltas": {},
+      "boosted_families": [],
+      "penalized_families": [],
+      "reasons": [
+        "shot_quality_unavailable_no_box_xg_split",
+        "lineup_function_default_only",
+        "data_quality_capped_without_chance_quality",
+        "data_quality_below_threshold_no_calibration"
+      ],
+      "diagnostics_only": true
+    },
+    "probability_data_degraded": false,
+    "diagnostics": {
+      "match_id": "WC2026-J43",
+      "home": "Argentina",
+      "away": "Austria",
+      "lambda_home": 1.4684,
+      "lambda_away": 0.8299,
+      "base_lambda_home": 1.4684,
+      "base_lambda_away": 0.8299,
+      "strength_source": "opponent_strength.csv",
+      "xg_source": "Argentina:wc2026_team_xg_adj.csv; Austria:wc2026_team_xg_adj.csv",
+      "whether_default_used": false,
+      "missing_team_profile_fields": [],
+      "probability_top3_reason": "λ比=1.77，中等差距，Top3=1-0(14.2%), 1-1(12.8%), 2-0(10.8%)",
+      "probability_top3": [
+        "1-0",
+        "1-1",
+        "2-0"
+      ],
+      "probability_data_degraded": false,
+      "wc_def_blend_applied_home": true,
+      "wc_def_blend_applied_away": true,
+      "raw_deff_home": 0.732525988640017,
+      "raw_deff_away": 0.9331475726074374,
+      "blended_deff_home": 0.5860207909120135,
+      "blended_deff_away": 0.7542293736699479,
+      "competition_context_note": {
+        "used_for_lambda": false,
+        "reason": "Probability engine remains ability/xG based; group strategy is handled by EventFlow."
+      },
+      "availability_adjustment": {
+        "enabled": false,
+        "signals_used": 0,
+        "signals_excluded": 0,
+        "home_attack_delta_pct": 0.0,
+        "away_attack_delta_pct": 0.0,
+        "home_defense_delta_pct": 0.0,
+        "away_defense_delta_pct": 0.0,
+        "home_team_raw_pct": 0.0,
+        "away_team_raw_pct": 0.0,
+        "home_team_capped_pct": 0.0,
+        "away_team_capped_pct": 0.0,
+        "match_total_lambda_change_pct": 0.0,
+        "match_cap_applied": false,
+        "excluded_signals": 0,
+        "adjustment_audit_file": "database/eventflow/processed/realtime_availability_adjustments.csv",
+        "included_signals": [],
+        "excluded_availability_signals": []
+      },
+      "adjusted_lambda": {
+        "home": 1.4684,
+        "away": 0.8299
+      },
+      "probabilities_from": "v36_realized",
+      "base_probability_snapshot": {
+        "home_win": 0.5166,
+        "draw": 0.2766,
+        "away_win": 0.2069,
+        "over25": 0.4035,
+        "btts": 0.4395,
+        "top_scores": [
+          "1-0",
+          "1-1",
+          "2-0",
+          "0-0",
+          "2-1"
+        ]
+      },
+      "adjusted_probability": {
+        "home_win": 0.5166,
+        "draw": 0.2766,
+        "away_win": 0.2069,
+        "over25": 0.4035,
+        "btts": 0.4395,
+        "top_scores": [
+          "1-0",
+          "1-1",
+          "2-0",
+          "0-0",
+          "2-1"
+        ]
+      },
+      "scoreline_probability_grid": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "score": "1-0",
+          "probability": 0.141969
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "score": "1-1",
+          "probability": 0.127894
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "score": "2-0",
+          "probability": 0.108275
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "score": "0-0",
+          "probability": 0.105943
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "score": "2-1",
+          "probability": 0.089855
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "score": "0-1",
+          "probability": 0.077841
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "score": "3-0",
+          "probability": 0.052996
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "score": "1-2",
+          "probability": 0.050783
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 1,
+          "score": "3-1",
+          "probability": 0.04398
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 2,
+          "score": "2-2",
+          "probability": 0.037284
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "score": "0-2",
+          "probability": 0.034584
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "score": "4-0",
+          "probability": 0.019455
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 2,
+          "score": "3-2",
+          "probability": 0.018249
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 1,
+          "score": "4-1",
+          "probability": 0.016145
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 3,
+          "score": "1-3",
+          "probability": 0.014048
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 3,
+          "score": "2-3",
+          "probability": 0.010314
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "score": "0-3",
+          "probability": 0.009567
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 2,
+          "score": "4-2",
+          "probability": 0.006699
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "score": "5-0",
+          "probability": 0.005713
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 3,
+          "score": "3-3",
+          "probability": 0.005048
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 1,
+          "score": "5-1",
+          "probability": 0.004741
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 4,
+          "score": "1-4",
+          "probability": 0.002914
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 4,
+          "score": "2-4",
+          "probability": 0.00214
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 4,
+          "score": "0-4",
+          "probability": 0.001985
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 2,
+          "score": "5-2",
+          "probability": 0.001967
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 3,
+          "score": "4-3",
+          "probability": 0.001853
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 0,
+          "score": "6-0",
+          "probability": 0.001398
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 1,
+          "score": "6-1",
+          "probability": 0.00116
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 4,
+          "score": "3-4",
+          "probability": 0.001047
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 3,
+          "score": "5-3",
+          "probability": 0.000544
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 5,
+          "score": "1-5",
+          "probability": 0.000484
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 2,
+          "score": "6-2",
+          "probability": 0.000481
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 4,
+          "score": "4-4",
+          "probability": 0.000384
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 5,
+          "score": "2-5",
+          "probability": 0.000355
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 5,
+          "score": "0-5",
+          "probability": 0.000329
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 0,
+          "score": "7-0",
+          "probability": 0.000293
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 1,
+          "score": "7-1",
+          "probability": 0.000243
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 5,
+          "score": "3-5",
+          "probability": 0.000174
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 3,
+          "score": "6-3",
+          "probability": 0.000133
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 4,
+          "score": "5-4",
+          "probability": 0.000113
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 2,
+          "score": "7-2",
+          "probability": 0.000101
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 6,
+          "score": "1-6",
+          "probability": 6.7e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 5,
+          "score": "4-5",
+          "probability": 6.4e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 0,
+          "score": "8-0",
+          "probability": 5.3e-05
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 6,
+          "score": "2-6",
+          "probability": 4.9e-05
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 6,
+          "score": "0-6",
+          "probability": 4.6e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 1,
+          "score": "8-1",
+          "probability": 4.4e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 3,
+          "score": "7-3",
+          "probability": 2.8e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 4,
+          "score": "6-4",
+          "probability": 2.8e-05
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 6,
+          "score": "3-6",
+          "probability": 2.4e-05
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 5,
+          "score": "5-5",
+          "probability": 1.9e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 2,
+          "score": "8-2",
+          "probability": 1.8e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 6,
+          "score": "4-6",
+          "probability": 9e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 0,
+          "score": "9-0",
+          "probability": 8e-06
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 7,
+          "score": "1-7",
+          "probability": 8e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 1,
+          "score": "9-1",
+          "probability": 7e-06
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 7,
+          "score": "2-7",
+          "probability": 6e-06
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 4,
+          "score": "7-4",
+          "probability": 6e-06
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 7,
+          "score": "0-7",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 3,
+          "score": "8-3",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 5,
+          "score": "6-5",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 2,
+          "score": "9-2",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 7,
+          "score": "3-7",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 6,
+          "score": "5-6",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 4,
+          "score": "8-4",
+          "probability": 1e-06
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 7,
+          "score": "4-7",
+          "probability": 1e-06
+        }
+      ],
+      "realtime_availability_signals": [],
+      "realtime_signal_usage": [],
+      "included_lambda_adjustments": [],
+      "excluded_signals_and_reasons": [],
+      "v35_baseline_probability": {
+        "home_win": 0.5166,
+        "draw": 0.2766,
+        "away_win": 0.2069,
+        "over25": 0.4035,
+        "over35": 0.2003,
+        "btts": 0.4395,
+        "top_scores": [
+          "1-0",
+          "1-1",
+          "2-0",
+          "0-0",
+          "2-1"
+        ]
+      },
+      "v35_baseline_scoreline_grid": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "score": "1-0",
+          "probability": 0.141969
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "score": "1-1",
+          "probability": 0.127894
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "score": "2-0",
+          "probability": 0.108275
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "score": "0-0",
+          "probability": 0.105943
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "score": "2-1",
+          "probability": 0.089855
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "score": "0-1",
+          "probability": 0.077841
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "score": "3-0",
+          "probability": 0.052996
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "score": "1-2",
+          "probability": 0.050783
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 1,
+          "score": "3-1",
+          "probability": 0.04398
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 2,
+          "score": "2-2",
+          "probability": 0.037284
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "score": "0-2",
+          "probability": 0.034584
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "score": "4-0",
+          "probability": 0.019455
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 2,
+          "score": "3-2",
+          "probability": 0.018249
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 1,
+          "score": "4-1",
+          "probability": 0.016145
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 3,
+          "score": "1-3",
+          "probability": 0.014048
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 3,
+          "score": "2-3",
+          "probability": 0.010314
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "score": "0-3",
+          "probability": 0.009567
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 2,
+          "score": "4-2",
+          "probability": 0.006699
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "score": "5-0",
+          "probability": 0.005713
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 3,
+          "score": "3-3",
+          "probability": 0.005048
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 1,
+          "score": "5-1",
+          "probability": 0.004741
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 4,
+          "score": "1-4",
+          "probability": 0.002914
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 4,
+          "score": "2-4",
+          "probability": 0.00214
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 4,
+          "score": "0-4",
+          "probability": 0.001985
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 2,
+          "score": "5-2",
+          "probability": 0.001967
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 3,
+          "score": "4-3",
+          "probability": 0.001853
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 0,
+          "score": "6-0",
+          "probability": 0.001398
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 1,
+          "score": "6-1",
+          "probability": 0.00116
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 4,
+          "score": "3-4",
+          "probability": 0.001047
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 3,
+          "score": "5-3",
+          "probability": 0.000544
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 5,
+          "score": "1-5",
+          "probability": 0.000484
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 2,
+          "score": "6-2",
+          "probability": 0.000481
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 4,
+          "score": "4-4",
+          "probability": 0.000384
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 5,
+          "score": "2-5",
+          "probability": 0.000355
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 5,
+          "score": "0-5",
+          "probability": 0.000329
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 0,
+          "score": "7-0",
+          "probability": 0.000293
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 1,
+          "score": "7-1",
+          "probability": 0.000243
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 5,
+          "score": "3-5",
+          "probability": 0.000174
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 3,
+          "score": "6-3",
+          "probability": 0.000133
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 4,
+          "score": "5-4",
+          "probability": 0.000113
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 2,
+          "score": "7-2",
+          "probability": 0.000101
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 6,
+          "score": "1-6",
+          "probability": 6.7e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 5,
+          "score": "4-5",
+          "probability": 6.4e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 0,
+          "score": "8-0",
+          "probability": 5.3e-05
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 6,
+          "score": "2-6",
+          "probability": 4.9e-05
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 6,
+          "score": "0-6",
+          "probability": 4.6e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 1,
+          "score": "8-1",
+          "probability": 4.4e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 3,
+          "score": "7-3",
+          "probability": 2.8e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 4,
+          "score": "6-4",
+          "probability": 2.8e-05
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 6,
+          "score": "3-6",
+          "probability": 2.4e-05
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 5,
+          "score": "5-5",
+          "probability": 1.9e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 2,
+          "score": "8-2",
+          "probability": 1.8e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 6,
+          "score": "4-6",
+          "probability": 9e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 0,
+          "score": "9-0",
+          "probability": 8e-06
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 7,
+          "score": "1-7",
+          "probability": 8e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 1,
+          "score": "9-1",
+          "probability": 7e-06
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 7,
+          "score": "2-7",
+          "probability": 6e-06
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 4,
+          "score": "7-4",
+          "probability": 6e-06
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 7,
+          "score": "0-7",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 3,
+          "score": "8-3",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 5,
+          "score": "6-5",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 2,
+          "score": "9-2",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 7,
+          "score": "3-7",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 6,
+          "score": "5-6",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 4,
+          "score": "8-4",
+          "probability": 1e-06
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 7,
+          "score": "4-7",
+          "probability": 1e-06
+        }
+      ],
+      "probabilities_from_pre_v36": "base_lambda",
+      "scenario_realization": {
+        "enabled": true,
+        "data_quality_score": 0.27,
+        "calibration_strength": "none",
+        "diagnostics_only": true,
+        "favorite_side": "home",
+        "favorite_leads_early_likelihood": 0.133159,
+        "underdog_leads_early_likelihood": 0.09907319999999999,
+        "favorite_game_management_likelihood": 0.48280000000000006,
+        "underdog_btts_conversion_likelihood": 0.28612899999999997,
+        "low_block_survival_likelihood": 0.36120199999999997,
+        "chance_quality_score": 0.37,
+        "shot_volume_quality_gap": 0.128577,
+        "lead_throttle_score": 0.12070000000000002,
+        "scoreline_family_boost": [
+          "favorite_clean_win_low",
+          "favorite_clean_win_mid",
+          "draw_low",
+          "underdog_low_win"
+        ],
+        "scoreline_family_penalty": [
+          "favorite_btts_win",
+          "favorite_big_win",
+          "chaos_high"
+        ],
+        "conditional_branches": [
+          {
+            "branch_id": "underdog_early_goal",
+            "status": "conditional_prematch",
+            "trigger": "若弱势方先入球",
+            "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
+            "active": false
+          }
+        ],
+        "team_style_home": {
+          "team_scoring_style": "low_output",
+          "chance_conversion_style": "average",
+          "game_management_style": "balanced",
+          "low_score_win_tendency": 0.807,
+          "btts_allowed_tendency": 0.297,
+          "late_throttle_tendency": 0.4
+        },
+        "team_style_away": {
+          "team_scoring_style": "medium",
+          "chance_conversion_style": "average",
+          "game_management_style": "aggressive",
+          "low_score_win_tendency": 0.6536,
+          "btts_allowed_tendency": 0.45,
+          "late_throttle_tendency": 0.4
+        },
+        "lineup_function": {
+          "Argentina": {
+            "has_real_lineup_signals": false,
+            "pace_outlet_starting": false,
+            "pace_outlet_benched": false,
+            "central_target_starting": false,
+            "creator_starting": false,
+            "set_piece_height_advantage": false,
+            "wide_overload_available": false,
+            "counterattack_exit_quality": 0.35,
+            "press_resistance_quality": 0.750407
+          },
+          "Austria": {
+            "has_real_lineup_signals": false,
+            "pace_outlet_starting": false,
+            "pace_outlet_benched": false,
+            "central_target_starting": false,
+            "creator_starting": false,
+            "set_piece_height_advantage": false,
+            "wide_overload_available": false,
+            "counterattack_exit_quality": 0.35,
+            "press_resistance_quality": 0.633545
+          }
+        },
+        "data_quality": {
+          "xg_available": true,
+          "shot_quality_available": false,
+          "chance_quality_available": false,
+          "lineup_function_available": false,
+          "lineup_default_only": true,
+          "game_state_model_available": false,
+          "team_style_baseline_available": false,
+          "market_total_goals_available": false,
+          "data_quality_score": 0.27,
+          "calibration_strength": "none",
+          "source_reliability": 0.3,
+          "diagnostics_only": true,
+          "warnings": [
+            "shot_quality_unavailable_no_box_xg_split",
+            "lineup_function_default_only",
+            "data_quality_capped_without_chance_quality",
+            "data_quality_below_threshold_no_calibration"
+          ]
+        },
+        "audit_file": "database\\eventflow\\processed\\scenario_realization_features.csv"
+      },
+      "btts_conversion_gate": {
+        "enabled": true,
+        "threat_presence": true,
+        "conversion_supported": false,
+        "conversion_supported_by_quality": false,
+        "adjustment_direction": "none",
+        "adjustment_strength": "none",
+        "calibration_strength": "none",
+        "btts_factor_delta_pct": 0.0,
+        "btts_delta_pct": 0.0,
+        "up_signals_count": 0,
+        "down_signals_count": 4,
+        "up_reasons": [],
+        "down_reasons": [
+          "chance_quality_unavailable",
+          "favorite_lead_management_likely",
+          "underdog_threat_present_but_conversion_low",
+          "counterattack_exit_quality_low"
+        ],
+        "reasons": [
+          "shot_quality_unavailable_no_box_xg_split",
+          "lineup_function_default_only",
+          "data_quality_capped_without_chance_quality",
+          "data_quality_below_threshold_no_calibration"
+        ],
+        "diagnostics_only": true,
+        "btts_before": 0.4395,
+        "btts_after": 0.4395,
+        "btts_probability_point_delta": 0.0
+      },
+      "total_goals_tail_calibration": {
+        "enabled": true,
+        "four_plus_tail_delta": 0.0,
+        "family_deltas": {},
+        "boosted_families": [],
+        "penalized_families": [],
+        "reasons": [
+          "shot_quality_unavailable_no_box_xg_split",
+          "lineup_function_default_only",
+          "data_quality_capped_without_chance_quality",
+          "data_quality_below_threshold_no_calibration"
+        ],
+        "diagnostics_only": true
+      },
+      "v36_realization_layer": {
+        "data_quality_score": 0.27,
+        "calibration_strength": "none",
+        "diagnostics_only": true,
+        "btts_gate": {
+          "direction": "none",
+          "delta_pct": 0.0,
+          "reason": [
+            "shot_quality_unavailable_no_box_xg_split",
+            "lineup_function_default_only",
+            "data_quality_capped_without_chance_quality",
+            "data_quality_below_threshold_no_calibration"
+          ]
+        },
+        "total_goals_tail": {
+          "four_plus_tail_delta": 0.0,
+          "boosted_families": [],
+          "penalized_families": []
+        },
+        "scoreline_family_adjustment": {},
+        "top_scores_before": [
+          "1-0",
+          "1-1",
+          "2-0",
+          "0-0",
+          "2-1"
+        ],
+        "top_scores_after": [
+          "1-0",
+          "1-1",
+          "2-0",
+          "0-0",
+          "2-1"
+        ],
+        "conditional_branches": [
+          {
+            "branch_id": "underdog_early_goal",
+            "status": "conditional_prematch",
+            "trigger": "若弱势方先入球",
+            "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
+            "active": false
+          }
+        ]
+      },
+      "realized_probability": {
+        "home_win": 0.5166,
+        "draw": 0.2766,
+        "away_win": 0.2069,
+        "over25": 0.4035,
+        "over35": 0.2003,
+        "btts": 0.4395,
+        "top_scores": [
+          "1-0",
+          "1-1",
+          "2-0",
+          "0-0",
+          "2-1"
+        ]
+      }
+    },
+    "top_scores": [
+      "1-0",
+      "1-1",
+      "2-0",
+      "0-0",
+      "2-1"
+    ],
+    "total_goals": "0/3球优先，防4球"
+  },
+  "eventflow_engine": {
+    "eventflow_data_degraded": false,
+    "realtime_signal_usage": [],
+    "activated_scenarios": [
+      {
+        "scenario_id": "S02_low_block_survival",
+        "name": "弱队低位守住上半场，比分压低",
+        "weight": 0.1651,
+        "normalized_weight": 0.1651,
+        "scenario_ranking_weight": 0.1651,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.3263,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.4263,
+          "normalized_weight": 0.165122,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "0-0",
+          "1-0",
+          "1-1",
+          "2-0"
+        ]
+      },
+      {
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "weight": 0.1387,
+        "normalized_weight": 0.1387,
+        "scenario_ranking_weight": 0.1387,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.2582,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.3582,
+          "normalized_weight": 0.138734,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "3-1"
+        ]
+      },
+      {
+        "scenario_id": "S11_group_state_draw_control",
+        "name": "小组赛积分形势导致接受平局/控节奏",
+        "weight": 0.1111,
+        "normalized_weight": 0.1111,
+        "scenario_ranking_weight": 0.1111,
+        "weight_composition": {
+          "raw_base_weight": 0.09,
+          "raw_tactical_delta": 0.1968,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2868,
+          "normalized_weight": 0.111086,
+          "gates": {
+            "s11_draw_control": {
+              "context_used": true,
+              "home_draw_acceptance": 0.82,
+              "away_draw_acceptance": 0.82,
+              "mutual_draw_acceptance": 0.82,
+              "late_draw_control_index": 0.82,
+              "max_must_win_pressure": 0.0,
+              "composite_score": 0.656,
+              "context_reason": "R2 group leaders both on 3/3 pts; draw protects qualification margin; top spot path incentive exists."
+            }
+          },
+          "evidence_refs": []
+        },
+        "evidence_summary": "structured_competition_context_draw_control",
+        "affected_score_families": [
+          "0-0",
+          "1-1",
+          "1-0",
+          "0-1"
+        ]
+      },
+      {
+        "scenario_id": "S10_tactical_stalemate_mutual_constraint",
+        "name": "双方战术互相牵制，进入僵持",
+        "weight": 0.0963,
+        "normalized_weight": 0.0963,
+        "scenario_ranking_weight": 0.0963,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1485,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2485,
+          "normalized_weight": 0.096258,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "0-0",
+          "1-0",
+          "0-1",
+          "1-1"
+        ]
+      },
+      {
+        "scenario_id": "S17_group_top_spot_controlled_win",
+        "name": "小组第一路径驱动的低风险争胜",
+        "weight": 0.0775,
+        "normalized_weight": 0.0775,
+        "scenario_ranking_weight": 0.0775,
+        "weight_composition": {
+          "raw_base_weight": 0.06,
+          "raw_tactical_delta": 0.1401,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2001,
+          "normalized_weight": 0.07752,
+          "gates": {
+            "s17_top_spot_controlled_win": {
+              "context_used": true,
+              "home_controlled_win_incentive": 0.64,
+              "away_controlled_win_incentive": 0.535,
+              "leading_side": "home",
+              "mutual_draw_acceptance": 0.82,
+              "max_must_win_pressure": 0.0,
+              "composite_score": 0.539,
+              "context_reason": "R2 group leaders both on 3/3 pts; draw protects qualification margin; top spot path incentive exists."
+            }
+          },
+          "evidence_refs": []
+        },
+        "evidence_summary": "structured_competition_context_top_spot",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "1-1"
+        ]
+      },
+      {
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "weight": 0.0638,
+        "normalized_weight": 0.0638,
+        "scenario_ranking_weight": 0.0638,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0552,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0095,
+          "raw_total_score": 0.1647,
+          "normalized_weight": 0.063792,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-0",
+          "3-0",
+          "3-1",
+          "4-1"
+        ]
+      }
+    ],
+    "all_scenario_weights": [
+      {
+        "scenario_id": "S02_low_block_survival",
+        "name": "弱队低位守住上半场，比分压低",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.3263,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.4263,
+          "normalized_weight": 0.165122,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.2582,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.3582,
+          "normalized_weight": 0.138734,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S11_group_state_draw_control",
+        "name": "小组赛积分形势导致接受平局/控节奏",
+        "weight_composition": {
+          "raw_base_weight": 0.09,
+          "raw_tactical_delta": 0.1968,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2868,
+          "normalized_weight": 0.111086,
+          "gates": {
+            "s11_draw_control": {
+              "context_used": true,
+              "home_draw_acceptance": 0.82,
+              "away_draw_acceptance": 0.82,
+              "mutual_draw_acceptance": 0.82,
+              "late_draw_control_index": 0.82,
+              "max_must_win_pressure": 0.0,
+              "composite_score": 0.656,
+              "context_reason": "R2 group leaders both on 3/3 pts; draw protects qualification margin; top spot path incentive exists."
+            }
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S10_tactical_stalemate_mutual_constraint",
+        "name": "双方战术互相牵制，进入僵持",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1485,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2485,
+          "normalized_weight": 0.096258,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S17_group_top_spot_controlled_win",
+        "name": "小组第一路径驱动的低风险争胜",
+        "weight_composition": {
+          "raw_base_weight": 0.06,
+          "raw_tactical_delta": 0.1401,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2001,
+          "normalized_weight": 0.07752,
+          "gates": {
+            "s17_top_spot_controlled_win": {
+              "context_used": true,
+              "home_controlled_win_incentive": 0.64,
+              "away_controlled_win_incentive": 0.535,
+              "leading_side": "home",
+              "mutual_draw_acceptance": 0.82,
+              "max_must_win_pressure": 0.0,
+              "composite_score": 0.539,
+              "context_reason": "R2 group leaders both on 3/3 pts; draw protects qualification margin; top spot path incentive exists."
+            }
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0552,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0095,
+          "raw_total_score": 0.1647,
+          "normalized_weight": 0.063792,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S07_late_chase_open_game",
+        "name": "末段追分压上导致开放式尾段",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0312,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.006,
+          "raw_total_score": 0.1371,
+          "normalized_weight": 0.053119,
+          "gates": {
+            "competition_late_chase_cap": {
+              "context_used": true,
+              "late_chase_suppression": 0.369,
+              "late_draw_control_index": 0.82
+            }
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S03_wide_overload_crossfire",
+        "name": "边路错位被持续打穿",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1,
+          "normalized_weight": 0.038733,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1,
+          "normalized_weight": 0.038733,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S06_set_piece_breakthrough",
+        "name": "定位球成为破局点",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1,
+          "normalized_weight": 0.038733,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S08_strict_ref_card_penalty_chaos",
+        "name": "严哨/红牌/身体对抗混沌",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1,
+          "normalized_weight": 0.038733,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S09_fatigue_travel_second_half_drop",
+        "name": "旅行/体能导致下半场防守断电",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.1,
+          "normalized_weight": 0.038733,
+          "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S13_must_win_early_aggression",
+        "name": "必须抢分队开局冒进",
+        "weight_composition": {
+          "raw_base_weight": 0.06,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.06,
+          "normalized_weight": 0.02324,
+          "gates": {
+            "s13_group_pressure_gate": {
+              "group_table_pressure": 0.0,
+              "source_pressure": false,
+              "gate_applied": true,
+              "gate_reason": "no_group_or_source_must_win_pressure"
+            },
+            "gate_applied": true,
+            "gate_reason": "no_group_or_source_must_win_pressure"
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S12_rotation_tempo_drop",
+        "name": "轮换/保主力导致强队节奏下降",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.05,
+          "normalized_weight": 0.019366,
+          "gates": {
+            "gate_applied": true,
+            "gate_reason": "no_rotation_evidence",
+            "evidence_refs": []
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S14_buildup_gk_error_chain",
+        "name": "门将/后场出球失误链",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.05,
+          "normalized_weight": 0.019366,
+          "gates": {
+            "specific_buildup_evidence": false,
+            "duplicate_press_cap_applied": false,
+            "evidence_refs": []
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S15_weather_travel_pitch_adaptation",
+        "name": "极端天气/场地/旅行适应影响节奏",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.05,
+          "normalized_weight": 0.019366,
+          "gates": {
+            "gate_applied": true,
+            "gate_reason": "no_environment_evidence",
+            "evidence_refs": []
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S16_var_penalty_momentum_swing",
+        "name": "VAR/点球/争议判罚改变比赛节奏",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.0,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.05,
+          "normalized_weight": 0.019366,
+          "gates": {
+            "evidence_refs": [],
+            "gate_applied": true,
+            "gate_reason": "no_var_penalty_evidence"
+          },
+          "evidence_refs": []
+        }
+      }
+    ],
+    "phase_simulation": {
+      "phase_0_30": {
+        "label": "开场0-30",
+        "dominant_scenario_id": "S02_low_block_survival",
+        "dominant_scenario_name": "",
+        "scenario_weight": 0.1651,
+        "supporting_scenario_ids": [
+          "S02_low_block_survival",
+          "S04_press_trap_turnover_goal",
+          "S11_group_state_draw_control"
+        ],
+        "goal_tendency": "偏高"
+      },
+      "phase_31_60": {
+        "label": "中段31-60",
+        "dominant_scenario_id": "S04_press_trap_turnover_goal",
+        "dominant_scenario_name": "高压陷阱制造前场失误",
+        "scenario_weight": 0.1387,
+        "supporting_scenario_ids": [
+          "S02_low_block_survival",
+          "S04_press_trap_turnover_goal",
+          "S11_group_state_draw_control"
+        ],
+        "goal_tendency": "中性"
+      },
+      "phase_61_90": {
+        "label": "末段61-90",
+        "dominant_scenario_id": "S11_group_state_draw_control",
+        "dominant_scenario_name": "",
+        "scenario_weight": 0.1111,
+        "supporting_scenario_ids": [
+          "S11_group_state_draw_control",
+          "S01_favorite_early_break_open",
+          "S07_late_chase_open_game"
+        ],
+        "goal_tendency": "中性"
+      },
+      "competition_strategy": {
+        "early_phase": "favorite/host controlled initiative",
+        "middle_phase": "balanced risk; draw still acceptable",
+        "late_if_level": "risk-downshift / draw-control increases",
+        "late_if_trailing": "only trailing side increases chase risk"
+      }
+    },
+    "top_scores": [
+      "1-0",
+      "1-1",
+      "2-0"
+    ],
+    "half_full_time_top3": [
+      {
+        "label": "平/平",
+        "score": 0.4236,
+        "perspective_basis": "语义=draw_ht|draw_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S02_low_block_survival",
+          "S06_set_piece_breakthrough",
+          "S07_late_chase_open_game",
+          "S08_strict_ref_card_penalty_chaos"
+        ],
+        "why_not_others": "平/负权重较低(0.219)；胜/负权重较低(0.127)；胜/平权重较低(0.124)",
+        "explanation": "支撑剧本：弱队低位守住上半场，比分压低(0.175)；弱队低位守住上半场，比分压低(0.175)"
+      },
+      {
+        "label": "平/胜",
+        "score": 0.39,
+        "perspective_basis": "语义=draw_ht|favorite_wins_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S02_low_block_survival",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal"
+        ],
+        "why_not_others": "平/负权重较低(0.219)；胜/负权重较低(0.127)；胜/平权重较低(0.124)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.070)；弱队低位守住上半场，比分压低(0.175)"
+      },
+      {
+        "label": "胜/胜",
+        "score": 0.1864,
+        "perspective_basis": "语义=favorite_leads_ht|favorite_wins_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal",
+          "S06_set_piece_breakthrough"
+        ],
+        "why_not_others": "平/负权重较低(0.219)；胜/负权重较低(0.127)；胜/平权重较低(0.124)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.070)；边路错位被持续打穿(0.041)"
+      }
+    ],
+    "half_full_time": [
+      "平/平",
+      "平/胜",
+      "胜/胜"
+    ],
+    "total_goals": "1-4球"
+  },
+  "source_fusion": {
+    "evidence_count": 0,
+    "pre_match_evidence_count": 0,
+    "post_match_evidence_count": 0,
+    "excluded_post_match_evidence_count": 0,
+    "uses_pre_match_evidence_only": true,
+    "grade_A_count": 0,
+    "grade_B_count": 0,
+    "grade_C_count": 0,
+    "high_confidence_claims": [],
+    "summary_only_claims": [],
+    "conflicts": [],
+    "conflict_count": 0,
+    "prematch_source_summary": [],
+    "excluded_evidence_summary": [],
+    "source_summary_deprecated": [],
+    "fused_evidence_rows": 0
+  },
+  "eventflow_process_summary": {
+    "summary": "EventFlow 先将赛前信号映射为 6 个激活剧本，再按 balanced 模式进行比分族加权；当前主线为弱队低位守住上半场，比分压低、高压陷阱制造前场失误、小组赛积分形势导致接受平局/控节奏。赛前可用证据 0 条，A/B级主证据 0 条，真实数据占比 33%。",
+    "fusion_weight_note": "最终融合使用 V2概率引擎 50% + EventFlow事件流 50%；本摘要只解释 EventFlow 侧，不改变最终分数。",
+    "evidence_gate": {
+      "uses_pre_match_evidence_only": true,
+      "pre_match_evidence_count": 0,
+      "post_match_evidence_count": 0,
+      "excluded_post_match_evidence_count": 0,
+      "grade_A_count": 0,
+      "grade_B_count": 0,
+      "grade_C_count": 0,
+      "conflict_count": 0
+    },
+    "scenario_activation_path": [
+      {
+        "rank": 1,
+        "scenario_id": "S02_low_block_survival",
+        "name": "弱队低位守住上半场，比分压低",
+        "normalized_weight": 0.1651,
+        "trigger_factors": [
+          "战术对位 +0.326",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "0-0",
+          "1-0",
+          "1-1",
+          "2-0"
+        ],
+        "interpretation": "该剧本主要抬升 0-0、1-0、1-1、2-0 等比分族。"
+      },
+      {
+        "rank": 2,
+        "scenario_id": "S04_press_trap_turnover_goal",
+        "name": "高压陷阱制造前场失误",
+        "normalized_weight": 0.1387,
+        "trigger_factors": [
+          "战术对位 +0.258",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "3-1"
+        ],
+        "interpretation": "该剧本主要抬升 1-0、2-0、2-1、3-1 等比分族。"
+      },
+      {
+        "rank": 3,
+        "scenario_id": "S11_group_state_draw_control",
+        "name": "小组赛积分形势导致接受平局/控节奏",
+        "normalized_weight": 0.1111,
+        "trigger_factors": [
+          "战术对位 +0.197",
+          "基础剧本先验 0.090"
+        ],
+        "evidence_summary": "structured_competition_context_draw_control",
+        "affected_score_families": [
+          "0-0",
+          "1-1",
+          "1-0",
+          "0-1"
+        ],
+        "interpretation": "该剧本主要抬升 0-0、1-1、1-0、0-1 等比分族。"
+      },
+      {
+        "rank": 4,
+        "scenario_id": "S10_tactical_stalemate_mutual_constraint",
+        "name": "双方战术互相牵制，进入僵持",
+        "normalized_weight": 0.0963,
+        "trigger_factors": [
+          "战术对位 +0.148",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "0-0",
+          "1-0",
+          "0-1",
+          "1-1"
+        ],
+        "interpretation": "该剧本主要抬升 0-0、1-0、0-1、1-1 等比分族。"
+      },
+      {
+        "rank": 5,
+        "scenario_id": "S17_group_top_spot_controlled_win",
+        "name": "小组第一路径驱动的低风险争胜",
+        "normalized_weight": 0.0775,
+        "trigger_factors": [
+          "战术对位 +0.140",
+          "基础剧本先验 0.060"
+        ],
+        "evidence_summary": "structured_competition_context_top_spot",
+        "affected_score_families": [
+          "1-0",
+          "2-0",
+          "2-1",
+          "1-1"
+        ],
+        "interpretation": "该剧本主要抬升 1-0、2-0、2-1、1-1 等比分族。"
+      },
+      {
+        "rank": 6,
+        "scenario_id": "S01_favorite_early_break_open",
+        "name": "强队早球后比赛被打开",
+        "normalized_weight": 0.0638,
+        "trigger_factors": [
+          "战术对位 +0.055",
+          "V2概率上下文 +0.009",
+          "基础剧本先验 0.100"
+        ],
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "2-0",
+          "3-0",
+          "3-1",
+          "4-1"
+        ],
+        "interpretation": "该剧本主要抬升 2-0、3-0、3-1、4-1 等比分族。"
+      }
+    ],
+    "phase_path": [
+      {
+        "phase": "开场0-30",
+        "dominant_scenario_id": "S02_low_block_survival",
+        "dominant_scenario_name": "弱队低位守住上半场，比分压低",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S02_low_block_survival",
+            "name": "弱队低位守住上半场，比分压低"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          },
+          {
+            "scenario_id": "S11_group_state_draw_control",
+            "name": "小组赛积分形势导致接受平局/控节奏"
+          }
+        ],
+        "goal_tendency": "偏高",
+        "scenario_weight": 0.1651
+      },
+      {
+        "phase": "中段31-60",
+        "dominant_scenario_id": "S04_press_trap_turnover_goal",
+        "dominant_scenario_name": "高压陷阱制造前场失误",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S02_low_block_survival",
+            "name": "弱队低位守住上半场，比分压低"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          },
+          {
+            "scenario_id": "S11_group_state_draw_control",
+            "name": "小组赛积分形势导致接受平局/控节奏"
+          }
+        ],
+        "goal_tendency": "中性",
+        "scenario_weight": 0.1387
+      },
+      {
+        "phase": "末段61-90",
+        "dominant_scenario_id": "S11_group_state_draw_control",
+        "dominant_scenario_name": "小组赛积分形势导致接受平局/控节奏",
+        "supporting_scenarios": [
+          {
+            "scenario_id": "S11_group_state_draw_control",
+            "name": "小组赛积分形势导致接受平局/控节奏"
+          },
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S07_late_chase_open_game",
+            "name": ""
+          }
+        ],
+        "goal_tendency": "中性",
+        "scenario_weight": 0.1111
+      }
+    ],
+    "score_translation_path": [
+      {
+        "score": "1-0",
+        "eventflow_ranking_score": 0.0971,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S02_low_block_survival",
+            "name": "弱队低位守住上半场，比分压低"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          },
+          {
+            "scenario_id": "S10_tactical_stalemate_mutual_constraint",
+            "name": "双方战术互相牵制，进入僵持"
+          },
+          {
+            "scenario_id": "S11_group_state_draw_control",
+            "name": "小组赛积分形势导致接受平局/控节奏"
+          },
+          {
+            "scenario_id": "S17_group_top_spot_controlled_win",
+            "name": "小组第一路径驱动的低风险争胜"
+          }
+        ],
+        "reason": "弱队低位守住上半场，比分压低；高压陷阱制造前场失误；双方战术互相牵制，进入僵持",
+        "score_family": "normal",
+        "total_goals_bucket": "0-1球"
+      },
+      {
+        "score": "1-1",
+        "eventflow_ranking_score": 0.0825,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S02_low_block_survival",
+            "name": "弱队低位守住上半场，比分压低"
+          },
+          {
+            "scenario_id": "S10_tactical_stalemate_mutual_constraint",
+            "name": "双方战术互相牵制，进入僵持"
+          },
+          {
+            "scenario_id": "S11_group_state_draw_control",
+            "name": "小组赛积分形势导致接受平局/控节奏"
+          },
+          {
+            "scenario_id": "S17_group_top_spot_controlled_win",
+            "name": "小组第一路径驱动的低风险争胜"
+          }
+        ],
+        "reason": "弱队低位守住上半场，比分压低；双方战术互相牵制，进入僵持；小组赛积分形势导致接受平局/控节奏",
+        "score_family": "normal",
+        "total_goals_bucket": "2球"
+      },
+      {
+        "score": "2-0",
+        "eventflow_ranking_score": 0.0825,
+        "linked_scenarios": [
+          {
+            "scenario_id": "S01_favorite_early_break_open",
+            "name": "强队早球后比赛被打开"
+          },
+          {
+            "scenario_id": "S02_low_block_survival",
+            "name": "弱队低位守住上半场，比分压低"
+          },
+          {
+            "scenario_id": "S04_press_trap_turnover_goal",
+            "name": "高压陷阱制造前场失误"
+          },
+          {
+            "scenario_id": "S17_group_top_spot_controlled_win",
+            "name": "小组第一路径驱动的低风险争胜"
+          }
+        ],
+        "reason": "强队早球后比赛被打开；弱队低位守住上半场，比分压低；高压陷阱制造前场失误",
+        "score_family": "normal",
+        "total_goals_bucket": "2球"
+      }
+    ],
+    "risk_checks": [
+      "若开场无早球、红牌、点球或明确战术错位，开放式/大比分剧本应动态下调。",
+      "若赛前证据不足或多为C级摘要证据，EventFlow只作为排序辅助，不能替代V2校准概率。",
+      "当前估算数据占比 67%，需要在报告中显式披露。"
+    ]
+  },
+  "final_fusion": {
+    "fusion_input": {
+      "probability_source": "v36_realized",
+      "eventflow_source": "prematch_realtime_eventflow",
+      "availability_adjustment_applied": false,
+      "v36_realization_applied": true,
+      "v36_calibration_strength": "none",
+      "probability_file": "E:\\WORLDCUP2026\\prediction-skill\\database\\eventflow\\raw\\probability_engine_scores.csv",
+      "eventflow_file": "E:\\WORLDCUP2026\\prediction-skill\\database\\eventflow\\processed\\eventflow_predictions.csv",
+      "fusion_penetration_ok": true
+    },
+    "score_ranking": [
+      {
+        "score": "1-0",
+        "rank": 1,
+        "reason": "弱队低位守住上半场，比分压低；高压陷阱制造前场失误；双方战术互相牵制，进入僵持",
+        "v2_scoreline_probability": 0.142,
+        "eventflow_ranking_score": 0.0971,
+        "fusion_ranking_score": 0.1728,
+        "raw_probability_deprecated": 0.142,
+        "eventflow_score_deprecated": 0.0971,
+        "normalized_fusion_score_deprecated": 0.1728,
+        "display_v2_probability": "14.2% (V2 scoreline probability)",
+        "display_fusion_score": "0.173 ranking score (not probability)"
+      },
+      {
+        "score": "1-1",
+        "rank": 2,
+        "reason": "弱队低位守住上半场，比分压低；双方战术互相牵制，进入僵持；小组赛积分形势导致接受平局/控节奏",
+        "v2_scoreline_probability": 0.1279,
+        "eventflow_ranking_score": 0.0825,
+        "fusion_ranking_score": 0.152,
+        "raw_probability_deprecated": 0.1279,
+        "eventflow_score_deprecated": 0.0825,
+        "normalized_fusion_score_deprecated": 0.152,
+        "display_v2_probability": "12.8% (V2 scoreline probability)",
+        "display_fusion_score": "0.152 ranking score (not probability)"
+      },
+      {
+        "score": "2-0",
+        "rank": 3,
+        "reason": "强队早球后比赛被打开；弱队低位守住上半场，比分压低；高压陷阱制造前场失误",
+        "v2_scoreline_probability": 0.1083,
+        "eventflow_ranking_score": 0.0825,
+        "fusion_ranking_score": 0.1378,
+        "raw_probability_deprecated": 0.1083,
+        "eventflow_score_deprecated": 0.0825,
+        "normalized_fusion_score_deprecated": 0.1378,
+        "display_v2_probability": "10.8% (V2 scoreline probability)",
+        "display_fusion_score": "0.138 ranking score (not probability)"
+      }
+    ],
+    "total_goals": "1/2球优先，防3球",
+    "half_full_time_top3": [
+      {
+        "label": "平/平",
+        "score": 0.4236,
+        "perspective_basis": "语义=draw_ht|draw_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S02_low_block_survival",
+          "S06_set_piece_breakthrough",
+          "S07_late_chase_open_game",
+          "S08_strict_ref_card_penalty_chaos"
+        ],
+        "why_not_others": "平/负权重较低(0.219)；胜/负权重较低(0.127)；胜/平权重较低(0.124)",
+        "explanation": "支撑剧本：弱队低位守住上半场，比分压低(0.175)；弱队低位守住上半场，比分压低(0.175)"
+      },
+      {
+        "label": "平/胜",
+        "score": 0.39,
+        "perspective_basis": "语义=draw_ht|favorite_wins_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S02_low_block_survival",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal"
+        ],
+        "why_not_others": "平/负权重较低(0.219)；胜/负权重较低(0.127)；胜/平权重较低(0.124)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.070)；弱队低位守住上半场，比分压低(0.175)"
+      },
+      {
+        "label": "胜/胜",
+        "score": 0.1864,
+        "perspective_basis": "语义=favorite_leads_ht|favorite_wins_ft；强队=Argentina(主队)；弱队=Austria；主队视角映射",
+        "supporting_scenarios": [
+          "S01_favorite_early_break_open",
+          "S03_wide_overload_crossfire",
+          "S04_press_trap_turnover_goal",
+          "S06_set_piece_breakthrough"
+        ],
+        "why_not_others": "平/负权重较低(0.219)；胜/负权重较低(0.127)；胜/平权重较低(0.124)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.070)；边路错位被持续打穿(0.041)"
+      }
+    ],
+    "half_full_time": [
+      "平/平",
+      "平/胜",
+      "胜/胜"
+    ],
+    "confidence": "中",
+    "risk_notes": [
+      "fusion_ranking_score 是排序分，不可与赔率隐含概率直接对比",
+      "若上半场无早球，大比分权重下降",
+      "估算数据占比 67%，EventFlow 尾部已降权"
+    ]
+  },
+  "generated_at": "2026-06-20T10:23:10.838344+00:00"
+}

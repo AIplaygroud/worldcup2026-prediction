@@ -1,3 +1,1 @@
 match_id,signal_type,team,evidence_grade,confidence,evidence_summary,sources,note,evidence_partition,exclusion_reason
-WC2026-D31,late_game_opening,Turkey,C,0.509,WC2026-D31|Turkey|late_game_opening|unknown,shekicks_preview,仅进入 prematch evidence summary，不参与 scenario 加权,prematch_summary_only,low_confidence_single_source
-WC2026-D31,general_observation,Turkey,C,0.3875,WC2026-D31|Turkey|general_observation|unknown,covers_odds,赛前证据已融合,eligible_prematch,

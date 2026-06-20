@@ -1,0 +1,9 @@
+team,period,matches,formation_base,possession_pct,ppda,high_turnovers90,direct_attacks90,fast_breaks90,passes_per_sequence,field_tilt_pct,deep_completions90,box_entries90,crosses90,cutbacks90,set_piece_xg90,xg90,xga90,shots90,shots_against90,source,source_url,source_title,updated_at,confidence,is_estimated
+Brazil,WC2026-R1,1,4-4-2,51,11.0,,,,,51,,,,,,1.26,1.37,12,14,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,Brazil vs Morocco R1,2026-06-19,0.88,false
+Haiti,WC2026-R1,1,4-4-2,54,13.5,,,,,54,,,,,,1.05,1.05,15,9,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,Haiti vs Scotland R1,2026-06-19,0.88,false
+Scotland,WC2026-R1,1,4-4-2,46,12.5,,,,,46,,,,,,1.05,1.05,9,15,FotMob/Opta,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,Scotland vs Haiti R1,2026-06-19,0.88,false
+Morocco,WC2026-R1,1,4-2-3-1,49,9.5,,,,,49,,,,,,1.37,1.26,14,12,FotMob/Opta,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,Morocco vs Brazil R1,2026-06-19,0.88,false
+Turkey,WC2026-R1,1,4-2-3-1,72,8.0,,,,,72,,,,,,1.36,1.18,30,9,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,Turkey vs Australia R1,2026-06-19,0.88,false
+Australia,WC2026-R1,1,4-2-3-1,28,14.0,,,,,28,,,,,,1.18,1.36,9,30,FotMob/Opta,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,Australia vs Turkey R1,2026-06-19,0.88,false
+USA,WC2026-R1,1,4-1-2-3,65,7.5,5.9,,,,65,,,,,,1.42,0.54,16,9,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,USA vs Paraguay R1,2026-06-19,0.88,false
+Paraguay,WC2026-R1,1,4-4-2,35,15.0,,,,,35,,,,,,0.54,1.42,9,16,FotMob/Opta,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,Paraguay vs USA R1,2026-06-19,0.88,false

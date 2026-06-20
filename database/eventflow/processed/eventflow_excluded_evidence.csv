@@ -1,2 +1,1 @@
 match_id,signal_type,team,evidence_grade,confidence,evidence_summary,sources,note,evidence_partition,exclusion_reason,evidence_usage,available_before_kickoff
-WC2026-D31,card_or_referee_chaos,,C,0.4985,WC2026-D31||card_or_referee_chaos|unknown,match_officials_local,赛前证据已融合,excluded_non_prematch,available_before_kickoff_not_true,pre_match_prediction,false

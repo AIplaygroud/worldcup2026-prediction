@@ -1,0 +1,25 @@
+﻿match_id,group,round,date,home,away,in_candidate,is_existing_preserved,is_new_generated,home_profile_found,away_profile_found,formation_matchup_found,confidence,is_fallback,team_profile_degraded
+WC2026-A25,A,2,2026-06-18,Czechia,South Africa,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-B26,B,2,2026-06-18,Switzerland,Bosnia and Herzegovina,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-B27,B,2,2026-06-18,Canada,Qatar,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-A28,A,2,2026-06-18,Mexico,South Korea,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-C29,C,2,2026-06-19,Brazil,Haiti,yes,yes,no,yes,yes,yes,0.72,false,false
+WC2026-C30,C,2,2026-06-19,Scotland,Morocco,yes,yes,no,yes,yes,yes,0.7,false,false
+WC2026-D31,D,2,2026-06-19,Turkey,Paraguay,yes,yes,no,yes,yes,yes,0.72,false,false
+WC2026-D32,D,2,2026-06-19,USA,Australia,yes,yes,no,yes,yes,yes,0.75,false,false
+WC2026-E33,E,2,2026-06-20,Germany,Ivory Coast,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-E34,E,2,2026-06-20,Ecuador,Curacao,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-F35,F,2,2026-06-20,Netherlands,Sweden,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-F36,F,2,2026-06-20,Tunisia,Japan,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-H37,H,2,2026-06-21,Uruguay,Cape Verde,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-H38,H,2,2026-06-21,Spain,Saudi Arabia,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-G39,G,2,2026-06-21,Belgium,Iran,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-G40,G,2,2026-06-21,New Zealand,Egypt,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-I41,I,2,2026-06-22,Norway,Senegal,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-I42,I,2,2026-06-22,France,Iraq,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-J43,J,2,2026-06-22,Argentina,Austria,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-J44,J,2,2026-06-22,Jordan,Algeria,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-L45,L,2,2026-06-23,England,Ghana,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-L46,L,2,2026-06-23,Panama,Croatia,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-K47,K,2,2026-06-23,Portugal,Uzbekistan,yes,no,yes,yes,yes,yes,0.7,false,false
+WC2026-K48,K,2,2026-06-23,Colombia,DR Congo,yes,no,yes,yes,yes,yes,0.7,false,false

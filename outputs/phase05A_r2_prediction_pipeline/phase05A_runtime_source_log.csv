@@ -1,0 +1,33 @@
+﻿match_id,source_type,source_title,source_url,source_time,used_layer,confidence,notes
+WC2026-C29,official_match,FIFA WC26 Group C Brazil vs Haiti,https://www.fifa.com/en/tournaments/mens/worldcup/canada-usa-mexico-2026/articles/brazil-haiti-group-c,2026-06-18 12:00,source_notes,0.82,from existing source_notes file
+WC2026-C29,professional_media,Brazil vs Haiti predictions June 19,https://sports.yahoo.com/articles/brazil-vs-haiti-predictions-picks-184300594.html,2026-06-19 10:00,source_notes,0.71,from existing source_notes file
+WC2026-C29,xg_event_data,FotMob Brazil 1-1 Morocco R1,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-14 22:00,source_notes,0.85,from existing source_notes file
+WC2026-C29,xg_event_data,FotMob Haiti 0-1 Scotland R1,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-14 23:30,source_notes,0.83,from existing source_notes file
+WC2026-C29,competition_context,WC2026 R2 strategy notes match 29 (local: wc2026_r2_strategy_notes.md),https://www.roadtrips.com/world-cup/2026-world-cup-packages/schedule/,2026-06-18 08:00,source_notes,0.68,from existing source_notes file
+WC2026-C29,official_match,Referee Alejandro Hernandez (ESP) - local match_officials.csv,https://www.fifa.com/en/tournaments/mens/worldcup/canada-usa-mexico-2026/articles/brazil-haiti-group-c,,source_notes,0.72,from existing source_notes file
+WC2026-C29,professional_media,Opta Analyst Brazil WC26 tactics,https://theanalyst.com/articles/brazil-world-cup-2026-tactics,2026-06-17 14:00,source_notes,0.74,from existing source_notes file
+WC2026-C29,market_reference,Covers Brazil Haiti odds,https://www.covers.com/soccer/brazil-vs-haiti-odds-world-cup-2026,2026-06-19 08:00,source_notes,0.58,from existing source_notes file
+WC2026-C30,official_match,FIFA Scotland vs Morocco,https://www.fifa.com/en/tournaments/mens/worldcup/canada-usa-mexico-2026/articles/scotland-morocco-group-c,2026-06-18 12:00,source_notes,0.82,from existing source_notes file
+WC2026-C30,professional_media,Scotland vs Morocco preview,https://sports.yahoo.com/articles/scotland-vs-morocco-picks-predictions-140309697.html,2026-06-19 09:00,source_notes,0.7,from existing source_notes file
+WC2026-C30,professional_media,Covers Morocco Scotland preview,https://www.covers.com/world-cup/morocco-vs-scotland-prediction-picks-odds-friday-6-19-2026,2026-06-19 08:00,source_notes,0.69,from existing source_notes file
+WC2026-C30,xg_event_data,FotMob Morocco 1-1 Brazil,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd,2026-06-14 22:00,source_notes,0.84,from existing source_notes file
+WC2026-C30,xg_event_data,FotMob Scotland 1-0 Haiti,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q,2026-06-14 23:30,source_notes,0.82,from existing source_notes file
+WC2026-C30,official_match,FIFA Match Preview Scotland Morocco,https://www.youtube.com/watch?v=2az_yvJ3lXY,2026-06-19 07:00,source_notes,0.75,from existing source_notes file
+WC2026-C30,official_match,Referee Ilgiz Tantashev (UZB) - local match_officials.csv,https://www.fifa.com/en/tournaments/mens/worldcup/canada-usa-mexico-2026/articles/scotland-morocco-group-c,,source_notes,0.72,from existing source_notes file
+WC2026-C30,competition_context,R2 strategy match 30 (local: wc2026_r2_strategy_notes.md),https://www.roadtrips.com/world-cup/2026-world-cup-packages/schedule/,,source_notes,0.66,from existing source_notes file
+WC2026-D31,official_match,FIFA Turkey vs Paraguay MD2,https://www.fifa.com/en/match-centre/match/17/285023/289273/400021461,2026-06-18 12:00,source_notes,0.82,from existing source_notes file
+WC2026-D31,professional_media,SI Turkiye vs Paraguay preview,https://www.si.com/soccer/turkiye-vs-paraguay-world-cup-preview-predictions-lineups-6-19-26,2026-06-19 10:00,source_notes,0.76,from existing source_notes file
+WC2026-D31,xg_event_data,FotMob Turkey 0-2 Australia,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-14 23:00,source_notes,0.84,from existing source_notes file
+WC2026-D31,xg_event_data,FotMob Paraguay 1-4 USA,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-13 22:00,source_notes,0.84,from existing source_notes file
+WC2026-D31,professional_media,Opta USA Paraguay stats,https://theanalyst.com/articles/usa-paraguay-best-stats-world-cup-2026-balogun-ream-pulisic,2026-06-14 10:00,source_notes,0.78,from existing source_notes file
+WC2026-D31,professional_media,Turkey Paraguay predictions,https://shekicks.net/turkey-v-paraguay-predictions/,2026-06-19 09:00,source_notes,0.67,from existing source_notes file
+WC2026-D31,official_match,Referee Ivan Barton (SLV) - local match_officials.csv,https://www.fifa.com/en/match-centre/match/17/285023/289273/400021461,,source_notes,0.72,from existing source_notes file
+WC2026-D31,market_reference,Turkey Paraguay odds,https://www.covers.com/soccer/turkey-vs-paraguay-odds-world-cup-2026,2026-06-19 08:00,source_notes,0.56,from existing source_notes file
+WC2026-D32,official_match,FIFA USA vs Australia MD2,https://www.fifa.com/en/match-centre/match/17/285023/289273/400021462,2026-06-18 12:00,source_notes,0.82,from existing source_notes file
+WC2026-D32,official_match,Socceroos USA preview,https://socceroos.com.au/match/usa-v-australia-fifa-world-cuptm-2026-20-06-2026/22278774,2026-06-19 02:00,source_notes,0.79,from existing source_notes file
+WC2026-D32,xg_event_data,FotMob USA 4-1 Paraguay,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j,2026-06-13 22:00,source_notes,0.85,from existing source_notes file
+WC2026-D32,xg_event_data,FotMob Australia 2-0 Turkey,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk,2026-06-14 23:00,source_notes,0.84,from existing source_notes file
+WC2026-D32,professional_media,Opta Australia Turkey stats,https://theanalyst.com/articles/australia-vs-turkiye-stats-world-cup-2026,2026-06-15 10:00,source_notes,0.78,from existing source_notes file
+WC2026-D32,competition_context,R2 strategy match 32 (local: wc2026_r2_strategy_notes.md),https://www.roadtrips.com/world-cup/2026-world-cup-packages/schedule/,,source_notes,0.66,from existing source_notes file
+WC2026-D32,official_match,Referee Felix Zwayer (GER) - local match_officials.csv,https://www.fifa.com/en/match-centre/match/17/285023/289273/400021462,,source_notes,0.72,from existing source_notes file
+WC2026-D32,professional_media,USA Australia preview,https://sports.yahoo.com/articles/usa-vs-australia-predictions-picks-120000000.html,2026-06-19 07:00,source_notes,0.7,from existing source_notes file

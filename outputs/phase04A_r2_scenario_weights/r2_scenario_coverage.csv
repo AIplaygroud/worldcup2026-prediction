@@ -1,0 +1,25 @@
+﻿match_id,group,round,home,away,scenario_count,has_all_S01_S17,is_existing_preserved,is_new_generated,row_count,min_weight,max_weight,sum_weight,data_confidence_min,quality_flag_count
+WC2026-A25,A,2,Czechia,South Africa,17,yes,no,yes,17,0.016075,0.148189,0.999999,0.7000,0
+WC2026-B26,B,2,Switzerland,Bosnia and Herzegovina,17,yes,no,yes,17,0.008286,0.374001,0.999998,0.7000,0
+WC2026-B27,B,2,Canada,Qatar,17,yes,no,yes,17,0.000000,0.238386,1.000000,0.7000,0
+WC2026-A28,A,2,Mexico,South Korea,17,yes,no,yes,17,0.018005,0.179550,0.999999,0.7000,0
+WC2026-C29,C,2,Brazil,Haiti,17,yes,yes,no,17,0.017851,0.182266,1.000001,0.7200,0
+WC2026-C30,C,2,Scotland,Morocco,17,yes,yes,no,17,0.024541,0.116960,1.000002,0.7000,0
+WC2026-D31,D,2,Turkey,Paraguay,17,yes,yes,no,17,0.001662,0.214134,1.000002,0.7200,0
+WC2026-D32,D,2,USA,Australia,17,yes,yes,no,17,0.000000,0.258235,1.000002,0.7500,0
+WC2026-E33,E,2,Germany,Ivory Coast,17,yes,no,yes,17,0.018341,0.162530,0.999998,0.7000,0
+WC2026-E34,E,2,Ecuador,Curacao,17,yes,no,yes,17,0.000000,0.223922,0.999999,0.7000,0
+WC2026-F35,F,2,Netherlands,Sweden,17,yes,no,yes,17,0.022790,0.203313,0.999997,0.7000,0
+WC2026-F36,F,2,Tunisia,Japan,17,yes,no,yes,17,0.023988,0.163612,0.999999,0.7000,0
+WC2026-H37,H,2,Uruguay,Cape Verde,17,yes,no,yes,17,0.000000,0.270764,0.999997,0.7000,0
+WC2026-H38,H,2,Spain,Saudi Arabia,17,yes,no,yes,17,0.000000,0.284528,1.000001,0.7000,0
+WC2026-G39,G,2,Belgium,Iran,17,yes,no,yes,17,0.022530,0.173327,1.000000,0.7000,0
+WC2026-G40,G,2,New Zealand,Egypt,17,yes,no,yes,17,0.020812,0.124644,0.999999,0.7000,0
+WC2026-I41,I,2,Norway,Senegal,17,yes,no,yes,17,0.017162,0.172312,0.999999,0.7000,0
+WC2026-I42,I,2,France,Iraq,17,yes,no,yes,17,0.004284,0.233589,0.999998,0.7000,0
+WC2026-J43,J,2,Argentina,Austria,17,yes,no,yes,17,0.019366,0.165122,1.000000,0.7000,0
+WC2026-J44,J,2,Jordan,Algeria,17,yes,no,yes,17,0.021244,0.167679,1.000000,0.7000,0
+WC2026-L45,L,2,England,Ghana,17,yes,no,yes,17,0.021896,0.125597,0.999997,0.7000,0
+WC2026-L46,L,2,Panama,Croatia,17,yes,no,yes,17,0.000000,0.215447,0.999999,0.7000,0
+WC2026-K47,K,2,Portugal,Uzbekistan,17,yes,no,yes,17,0.007507,0.268572,1.000001,0.7000,0
+WC2026-K48,K,2,Colombia,DR Congo,17,yes,no,yes,17,0.022624,0.161536,0.999998,0.7000,0
