@@ -1,7 +1,0 @@
-﻿player_id,player,team,club,age,height_cm,primary_position,secondary_positions,preferred_foot,source,source_url,updated_at,confidence
-BR-VIN,Vinicius Jr,Brazil,Real Madrid,25,176,LW,RW;ST,right,manual,https://example.com/brazil-squad,2026-06-19,0.75
-BR-RAP,Raphinha,Brazil,Barcelona,28,176,RW,LW,left,manual,https://example.com/brazil-squad,2026-06-19,0.75
-BR-ROD,Rodrygo,Brazil,Real Madrid,24,174,RW,LW;AM,left,manual,https://example.com/brazil-squad,2026-06-19,0.72
-BR-END,Endrick,Brazil,Real Madrid,19,173,ST,CF,right,manual,https://example.com/brazil-squad,2026-06-19,0.65
-HT-FRA,Frantzdy Pierrot,Haiti,SK Slavia Prague,28,190,ST,CF,right,manual,https://example.com/haiti-squad,2026-06-19,0.60
-HT-DER,Derrick Etienne Jr,Haiti,Atlanta United,28,178,LW,RW,right,manual,https://example.com/haiti-squad,2026-06-19,0.58

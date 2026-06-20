@@ -929,7 +929,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build V3.5 betting strategy from dual-engine outputs + jc-odds.")
     parser.add_argument(
         "--match-outputs",
-        default=str(EVENTFLOW_DB / "dual_engine_output_*_balanced_v32.json"),
+        default=str(EVENTFLOW_DB / "dual_engine_output_*_balanced_v36.json"),
         help="Glob of dual_engine_output JSON files",
     )
     parser.add_argument("--odds-summary", default=str(ODDS_DB / "match_odds_summary.csv"))

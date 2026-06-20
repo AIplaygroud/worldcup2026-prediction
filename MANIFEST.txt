@@ -5,8 +5,6 @@ Core docs:
 - README.md
 - docs/eventflow_v3_agent_guide.md
 - docs/data_dictionary.md
-- docs/skill_md_patch.md
-
 Scripts:
 - scripts/eventflow_common.py
 - scripts/build_player_foot_position_profile.py

@@ -9,7 +9,7 @@ sys.path.insert(0, str(SCRIPTS))
 from build_betting_strategy import build_strategy  # noqa: E402
 
 ODDS = ROOT / "database" / "jc-odds" / "processed"
-MATCH_GLOB = str(ROOT / "database" / "eventflow" / "processed" / "dual_engine_output_*_balanced_v32.json")
+MATCH_GLOB = str(ROOT / "database" / "eventflow" / "processed" / "dual_engine_output_*_balanced_v36.json")
 
 
 class TestV35BettingStrategyOutputSemantics(unittest.TestCase):

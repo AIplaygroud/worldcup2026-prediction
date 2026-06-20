@@ -1,4 +1,0 @@
-﻿match_id,date,home,away,home_shape,away_shape,home_in_possession_shape,away_in_possession_shape,home_press_shape,away_press_shape,home_low_block_shape,away_low_block_shape,home_key_zones,away_key_zones,source,source_url,confidence
-WC2026-C29,2026-06-19,Brazil,Haiti,4-2-3-1,5-4-1,2-3-5,5-4-1,4-2-3-1,5-4-1,4-4-2,5-4-1,左路宽度+肋部内切,低位五后卫压缩中路,manual_preview,https://example.com/brazil-haiti-preview,0.68
-WC2026-L22,2026-06-18,England,Croatia,4-3-3,4-3-3,3-2-5,3-2-5,4-1-4-1,4-5-1,4-4-2,4-4-2,右路萨卡+贝林肋部,莫德里奇控球+中场绞杀,manual_preview,https://example.com/eng-cro-preview,0.70
-WC2026-J43,2026-06-22,Argentina,Austria,4-3-3,4-2-3-1,2-3-5,4-4-2,4-3-3,5-4-1,4-4-2,5-4-1,梅西组织+阿尔瓦雷斯跑位,朗尼克高位逼抢+低位转换,manual_preview,https://example.com/arg-aut-preview,0.68
