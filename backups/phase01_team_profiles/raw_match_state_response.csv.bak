@@ -1,9 +1,0 @@
-team,period,state,minutes,xg_for90,goals_for,xg_against90,goals_against,direct_attacks90,possession_pct,pressing_intensity,substitution_aggression,confidence,source_url
-Brazil,WC2026-R1,level,90,1.26,1,1.37,1,,51,0.55,0.7,0.88,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd
-Haiti,WC2026-R1,trailing,90,1.05,0,1.05,1,,54,0.35,0.5,0.88,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q
-Scotland,WC2026-R1,leading,90,1.05,1,1.05,0,,46,0.45,0.4,0.88,https://www.fotmob.com/en-GB/matches/haiti-vs-scotland/1q0g2q
-Morocco,WC2026-R1,level,90,1.37,1,1.26,1,,49,0.65,0.55,0.88,https://www.fotmob.com/en-GB/matches/morocco-vs-brazil/1qr4gd
-Turkey,WC2026-R1,trailing,90,1.36,0,1.18,2,,72,0.6,0.65,0.88,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk
-Australia,WC2026-R1,leading,90,1.18,2,1.36,0,,28,0.4,0.35,0.88,https://www.fotmob.com/en-GB/matches/turkiye-vs-australia/1gr3uk
-USA,WC2026-R1,leading,90,1.42,4,0.54,1,,65,0.75,0.6,0.88,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j
-Paraguay,WC2026-R1,trailing,90,0.54,1,1.42,4,,35,0.35,0.55,0.88,https://www.fotmob.com/en-GB/matches/usa-vs-paraguay/1hr85j

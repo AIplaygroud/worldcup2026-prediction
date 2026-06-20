@@ -1,0 +1,33 @@
+slot,round32_match,entrant_type,source_group,opponent_slot,next_match,notes
+2A,73,runner_up,A,2B,,Runner-up Group A vs Runner-up Group B
+2B,73,runner_up,B,2A,,Runner-up Group A vs Runner-up Group B
+1E,74,winner_vs_third,E,3rd,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+3rd,74,runner_up,,1E,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+1F,75,winner,F,2C,,Winner Group F vs Runner-up Group C
+2C,75,runner_up,C,1F,,Winner Group F vs Runner-up Group C
+1C,76,winner,C,2F,,Winner Group C vs Runner-up Group F
+2F,76,runner_up,F,1C,,Winner Group C vs Runner-up Group F
+1I,77,winner_vs_third,I,3rd,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+3rd,77,runner_up,,1I,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+2E,78,runner_up,E,2I,,Runner-up Group E vs Runner-up Group I
+2I,78,runner_up,I,2E,,Runner-up Group E vs Runner-up Group I
+1A,79,winner_vs_third,A,3rd,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+3rd,79,runner_up,,1A,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+1L,80,winner_vs_third,L,3rd,,If 3L qualifies it can only face 1K; if 3K qualifies it can only face 1L
+3rd,80,runner_up,,1L,,If 3L qualifies it can only face 1K; if 3K qualifies it can only face 1L
+1D,81,winner_vs_third,D,3rd,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+3rd,81,runner_up,,1D,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+1G,82,winner_vs_third,G,3rd,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+3rd,82,runner_up,,1G,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+2K,83,runner_up,K,2L,,Runner-up Group K vs Runner-up Group L
+2L,83,runner_up,L,2K,,Runner-up Group K vs Runner-up Group L
+1H,84,winner,H,2J,,Winner Group H vs Runner-up Group J
+2J,84,runner_up,J,1H,,Winner Group H vs Runner-up Group J
+1B,85,winner_vs_third,B,3rd,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+3rd,85,runner_up,,1B,,Actual third-placed group resolved by Annex C once 8 qualifiers are known
+1J,86,winner,J,2H,,Winner Group J vs Runner-up Group H
+2H,86,runner_up,H,1J,,Winner Group J vs Runner-up Group H
+1K,87,winner_vs_third,K,3rd,,If 3K qualifies it can only face 1L; if 3L qualifies it can only face 1K
+3rd,87,runner_up,,1K,,If 3K qualifies it can only face 1L; if 3L qualifies it can only face 1K
+2D,88,runner_up,D,2G,,Runner-up Group D vs Runner-up Group G
+2G,88,runner_up,G,2D,,Runner-up Group D vs Runner-up Group G
