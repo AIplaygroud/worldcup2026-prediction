@@ -1,20 +1,23 @@
 {
-  "match": "USA vs Australia",
-  "match_id": "WC2026-D32",
+  "match": "Turkey vs Paraguay",
+  "match_id": "WC2026-D31",
   "mode": "balanced",
   "baseline_degraded": false,
   "eventflow_data_degraded": false,
+  "degradation_reason": "",
+  "precision_warning": "",
+  "fallback_ratio": 0.0,
   "evidence_isolation": {
-    "pre_match_evidence_count": 8,
-    "post_match_evidence_count": 0,
-    "excluded_post_match_evidence_count": 0
+    "pre_match_evidence_count": 7,
+    "post_match_evidence_count": 1,
+    "excluded_post_match_evidence_count": 1
   },
   "data_quality": {
-    "real_data_rows": 32,
-    "estimated_data_rows": 1,
+    "real_data_rows": 35,
+    "estimated_data_rows": 0,
     "missing_layers": 1,
-    "real_data_ratio": 0.97,
-    "estimated_data_ratio": 0.03,
+    "real_data_ratio": 1.0,
+    "estimated_data_ratio": 0.0,
     "note": "估算数据已降权参与；不可与真实数据同权",
     "details": [
       {
@@ -79,27 +82,68 @@
       }
     ]
   },
+  "eventflow_process_summary": {
+    "structured_competition_context_used": true,
+    "competition_context_quality": "A",
+    "competition_context_reason": "R2 Turkey vs Paraguay: low draw acceptance; must-win pressure dominant."
+  },
   "eventflow_engine": {
-    "lambda_home": 1.581,
-    "lambda_away": 1.3771,
+    "lambda_home": 1.8479,
+    "lambda_away": 1.3615,
+    "competition_context": {
+      "match_id": "WC2026-D31",
+      "group": "D",
+      "round": "2",
+      "home": "Turkey",
+      "away": "Paraguay",
+      "home_points": "0",
+      "away_points": "0",
+      "home_rank": "3",
+      "away_rank": "4",
+      "home_goal_difference": "-2",
+      "away_goal_difference": "-3",
+      "home_draw_acceptance": "0.1000",
+      "away_draw_acceptance": "0.1000",
+      "mutual_draw_acceptance": "0.1000",
+      "home_must_win_pressure": "0.9000",
+      "away_must_win_pressure": "0.9000",
+      "home_top_spot_incentive": "0.0000",
+      "away_top_spot_incentive": "0.0000",
+      "home_controlled_win_incentive": "0.0000",
+      "away_controlled_win_incentive": "0.0000",
+      "late_draw_control_index": "0.0505",
+      "late_chase_suppression": "0.0227",
+      "first_place_slot": "1D",
+      "second_place_slot": "2D",
+      "third_place_candidate_slots": "3D candidate for 1E; 3D candidate for 1I; 3D candidate for 1K",
+      "bracket_path_known": "true",
+      "context_quality": "A",
+      "context_reason": "R2 Turkey vs Paraguay: low draw acceptance; must-win pressure dominant.",
+      "last_updated": "2026-06-19"
+    },
+    "eventflow_data_degraded": false,
+    "degradation_reason": "",
+    "precision_warning": "",
+    "fallback_ratio": 0.0,
     "activated_scenarios": [
       {
         "scenario_id": "S01_favorite_early_break_open",
         "name": "强队早球后比赛被打开",
-        "weight": 0.2668,
-        "normalized_weight": 0.2668,
+        "weight": 0.2141,
+        "normalized_weight": 0.2141,
+        "scenario_ranking_weight": 0.2141,
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 1.1682,
+          "raw_tactical_delta": 0.63,
           "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0,
-          "raw_probability_context_delta": 0.1379,
-          "raw_total_score": 1.4061,
-          "normalized_weight": 0.266758,
+          "raw_source_delta": 0.0319,
+          "raw_probability_context_delta": 0.0659,
+          "raw_total_score": 0.8278,
+          "normalized_weight": 0.214134,
           "gates": {},
           "evidence_refs": []
         },
-        "evidence_summary": "auto_matchup_features",
+        "evidence_summary": "WC2026-D31|Turkey|low_block_failure|unknown",
         "affected_score_families": [
           "2-0",
           "3-0",
@@ -110,20 +154,21 @@
       {
         "scenario_id": "S04_press_trap_turnover_goal",
         "name": "高压陷阱制造前场失误",
-        "weight": 0.1499,
-        "normalized_weight": 0.1499,
+        "weight": 0.147,
+        "normalized_weight": 0.147,
+        "scenario_ranking_weight": 0.147,
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.6902,
+          "raw_tactical_delta": 0.4374,
           "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0,
+          "raw_source_delta": 0.0308,
           "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.7902,
-          "normalized_weight": 0.149917,
+          "raw_total_score": 0.5682,
+          "normalized_weight": 0.146969,
           "gates": {},
           "evidence_refs": []
         },
-        "evidence_summary": "auto_matchup_features",
+        "evidence_summary": "WC2026-D31|USA|pressing_success|unknown",
         "affected_score_families": [
           "1-0",
           "2-0",
@@ -132,46 +177,29 @@
         ]
       },
       {
-        "scenario_id": "S05_high_line_vs_runner",
-        "name": "高位防线被速度型前锋反复冲身后",
-        "weight": 0.1385,
-        "normalized_weight": 0.1385,
-        "weight_composition": {
-          "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.5896,
-          "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0406,
-          "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.7302,
-          "normalized_weight": 0.138527,
-          "gates": {},
-          "evidence_refs": []
-        },
-        "evidence_summary": "WC2026-D32|Australia|transition_threat|unknown",
-        "affected_score_families": [
-          "1-2",
-          "2-2",
-          "2-3",
-          "1-3"
-        ]
-      },
-      {
         "scenario_id": "S07_late_chase_open_game",
         "name": "末段追分压上导致开放式尾段",
-        "weight": 0.1179,
-        "normalized_weight": 0.1179,
+        "weight": 0.1026,
+        "normalized_weight": 0.1026,
+        "scenario_ranking_weight": 0.1026,
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.3833,
+          "raw_tactical_delta": 0.2038,
           "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0,
-          "raw_probability_context_delta": 0.1379,
-          "raw_total_score": 0.6212,
-          "normalized_weight": 0.117863,
-          "gates": {},
+          "raw_source_delta": 0.0284,
+          "raw_probability_context_delta": 0.0644,
+          "raw_total_score": 0.3966,
+          "normalized_weight": 0.102597,
+          "gates": {
+            "competition_late_chase_cap": {
+              "context_used": true,
+              "late_chase_suppression": 0.0227,
+              "late_draw_control_index": 0.0505
+            }
+          },
           "evidence_refs": []
         },
-        "evidence_summary": "auto_matchup_features",
+        "evidence_summary": "WC2026-D31|Paraguay|pressing_broken|unknown",
         "affected_score_families": [
           "2-1",
           "1-2",
@@ -181,18 +209,78 @@
         ]
       },
       {
-        "scenario_id": "S06_set_piece_breakthrough",
-        "name": "定位球成为破局点",
-        "weight": 0.0861,
-        "normalized_weight": 0.0861,
+        "scenario_id": "S13_must_win_early_aggression",
+        "name": "必须抢分队开局冒进",
+        "weight": 0.1024,
+        "normalized_weight": 0.1024,
+        "scenario_ranking_weight": 0.1024,
+        "weight_composition": {
+          "raw_base_weight": 0.06,
+          "raw_tactical_delta": 0.27,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0659,
+          "raw_total_score": 0.3959,
+          "normalized_weight": 0.102413,
+          "gates": {
+            "s13_group_pressure_gate": {
+              "group_table_pressure": 0.9,
+              "source_pressure": false,
+              "gate_applied": false,
+              "gate_reason": ""
+            }
+          },
+          "evidence_refs": []
+        },
+        "evidence_summary": "group_table_must_win",
+        "affected_score_families": [
+          "2-1",
+          "1-2",
+          "2-2",
+          "3-1",
+          "1-3",
+          "3-2"
+        ]
+      },
+      {
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "weight": 0.0778,
+        "normalized_weight": 0.0778,
+        "scenario_ranking_weight": 0.0778,
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.3538,
+          "raw_tactical_delta": 0.2008,
           "raw_player_delta": 0.0,
           "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.4538,
-          "normalized_weight": 0.086091,
+          "raw_total_score": 0.3008,
+          "normalized_weight": 0.077818,
+          "gates": {},
+          "evidence_refs": []
+        },
+        "evidence_summary": "auto_matchup_features",
+        "affected_score_families": [
+          "1-2",
+          "2-2",
+          "2-3",
+          "1-3"
+        ]
+      },
+      {
+        "scenario_id": "S06_set_piece_breakthrough",
+        "name": "定位球成为破局点",
+        "weight": 0.0664,
+        "normalized_weight": 0.0664,
+        "scenario_ranking_weight": 0.0664,
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.1565,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2565,
+          "normalized_weight": 0.066356,
           "gates": {},
           "evidence_refs": []
         },
@@ -203,29 +291,6 @@
           "2-1",
           "1-1"
         ]
-      },
-      {
-        "scenario_id": "S03_wide_overload_crossfire",
-        "name": "边路错位被持续打穿",
-        "weight": 0.0794,
-        "normalized_weight": 0.0794,
-        "weight_composition": {
-          "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.3184,
-          "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0,
-          "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.4184,
-          "normalized_weight": 0.079379,
-          "gates": {},
-          "evidence_refs": []
-        },
-        "evidence_summary": "auto_matchup_features",
-        "affected_score_families": [
-          "2-1",
-          "3-1",
-          "3-2"
-        ]
       }
     ],
     "all_scenario_weights": [
@@ -234,12 +299,12 @@
         "name": "强队早球后比赛被打开",
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 1.1682,
+          "raw_tactical_delta": 0.63,
           "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0,
-          "raw_probability_context_delta": 0.1379,
-          "raw_total_score": 1.4061,
-          "normalized_weight": 0.266758,
+          "raw_source_delta": 0.0319,
+          "raw_probability_context_delta": 0.0659,
+          "raw_total_score": 0.8278,
+          "normalized_weight": 0.214134,
           "gates": {},
           "evidence_refs": []
         }
@@ -249,27 +314,12 @@
         "name": "高压陷阱制造前场失误",
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.6902,
+          "raw_tactical_delta": 0.4374,
           "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0,
+          "raw_source_delta": 0.0308,
           "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.7902,
-          "normalized_weight": 0.149917,
-          "gates": {},
-          "evidence_refs": []
-        }
-      },
-      {
-        "scenario_id": "S05_high_line_vs_runner",
-        "name": "高位防线被速度型前锋反复冲身后",
-        "weight_composition": {
-          "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.5896,
-          "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0406,
-          "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.7302,
-          "normalized_weight": 0.138527,
+          "raw_total_score": 0.5682,
+          "normalized_weight": 0.146969,
           "gates": {},
           "evidence_refs": []
         }
@@ -279,12 +329,55 @@
         "name": "末段追分压上导致开放式尾段",
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.3833,
+          "raw_tactical_delta": 0.2038,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0284,
+          "raw_probability_context_delta": 0.0644,
+          "raw_total_score": 0.3966,
+          "normalized_weight": 0.102597,
+          "gates": {
+            "competition_late_chase_cap": {
+              "context_used": true,
+              "late_chase_suppression": 0.0227,
+              "late_draw_control_index": 0.0505
+            }
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S13_must_win_early_aggression",
+        "name": "必须抢分队开局冒进",
+        "weight_composition": {
+          "raw_base_weight": 0.06,
+          "raw_tactical_delta": 0.27,
           "raw_player_delta": 0.0,
           "raw_source_delta": 0.0,
-          "raw_probability_context_delta": 0.1379,
-          "raw_total_score": 0.6212,
-          "normalized_weight": 0.117863,
+          "raw_probability_context_delta": 0.0659,
+          "raw_total_score": 0.3959,
+          "normalized_weight": 0.102413,
+          "gates": {
+            "s13_group_pressure_gate": {
+              "group_table_pressure": 0.9,
+              "source_pressure": false,
+              "gate_applied": false,
+              "gate_reason": ""
+            }
+          },
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S05_high_line_vs_runner",
+        "name": "高位防线被速度型前锋反复冲身后",
+        "weight_composition": {
+          "raw_base_weight": 0.1,
+          "raw_tactical_delta": 0.2008,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.3008,
+          "normalized_weight": 0.077818,
           "gates": {},
           "evidence_refs": []
         }
@@ -294,12 +387,12 @@
         "name": "定位球成为破局点",
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.3538,
+          "raw_tactical_delta": 0.1565,
           "raw_player_delta": 0.0,
           "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.4538,
-          "normalized_weight": 0.086091,
+          "raw_total_score": 0.2565,
+          "normalized_weight": 0.066356,
           "gates": {},
           "evidence_refs": []
         }
@@ -309,13 +402,31 @@
         "name": "边路错位被持续打穿",
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.3184,
+          "raw_tactical_delta": 0.1409,
           "raw_player_delta": 0.0,
           "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.4184,
-          "normalized_weight": 0.079379,
+          "raw_total_score": 0.2409,
+          "normalized_weight": 0.062307,
           "gates": {},
+          "evidence_refs": []
+        }
+      },
+      {
+        "scenario_id": "S16_var_penalty_momentum_swing",
+        "name": "VAR/点球/争议判罚改变比赛节奏",
+        "weight_composition": {
+          "raw_base_weight": 0.05,
+          "raw_tactical_delta": 0.1584,
+          "raw_player_delta": 0.0,
+          "raw_source_delta": 0.0,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.2084,
+          "normalized_weight": 0.053908,
+          "gates": {
+            "evidence_refs": [],
+            "referee_pk_var": "Ivan Barton"
+          },
           "evidence_refs": []
         }
       },
@@ -324,12 +435,12 @@
         "name": "严哨/红牌/身体对抗混沌",
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": 0.1968,
+          "raw_tactical_delta": 0.0349,
           "raw_player_delta": 0.0,
           "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.2968,
-          "normalized_weight": 0.056309,
+          "raw_total_score": 0.1349,
+          "normalized_weight": 0.034901,
           "gates": {},
           "evidence_refs": []
         }
@@ -341,10 +452,10 @@
           "raw_base_weight": 0.1,
           "raw_tactical_delta": 0.0,
           "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0223,
+          "raw_source_delta": 0.0222,
           "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.1223,
-          "normalized_weight": 0.023197,
+          "raw_total_score": 0.1222,
+          "normalized_weight": 0.031603,
           "gates": {},
           "evidence_refs": []
         }
@@ -359,7 +470,7 @@
           "raw_source_delta": 0.0072,
           "raw_probability_context_delta": 0.0,
           "raw_total_score": 0.1072,
-          "normalized_weight": 0.020338,
+          "normalized_weight": 0.02773,
           "gates": {},
           "evidence_refs": []
         }
@@ -369,28 +480,30 @@
         "name": "小组赛积分形势导致接受平局/控节奏",
         "weight_composition": {
           "raw_base_weight": 0.09,
-          "raw_tactical_delta": 0.0575,
+          "raw_tactical_delta": 0.0,
           "raw_player_delta": 0.0,
           "raw_source_delta": 0.0,
-          "raw_probability_context_delta": -0.0827,
-          "raw_total_score": 0.0648,
-          "normalized_weight": 0.012293,
+          "raw_probability_context_delta": 0.0,
+          "raw_total_score": 0.09,
+          "normalized_weight": 0.023281,
           "gates": {
             "s11_draw_control": {
-              "home_draw_acceptance": 0.82,
-              "away_draw_acceptance": 0.82,
-              "mutual_draw_control": 0.82,
-              "one_side_control": 0.0,
-              "favorite_top_spot_incentive": 0.9523,
-              "composite_score": 0.1918
+              "context_used": true,
+              "home_draw_acceptance": 0.1,
+              "away_draw_acceptance": 0.1,
+              "mutual_draw_acceptance": 0.1,
+              "late_draw_control_index": 0.0505,
+              "max_must_win_pressure": 0.9,
+              "composite_score": 0.0,
+              "context_reason": "R2 Turkey vs Paraguay: low draw acceptance; must-win pressure dominant."
             }
           },
           "evidence_refs": []
         }
       },
       {
-        "scenario_id": "S13_must_win_early_aggression",
-        "name": "必须抢分队开局冒进",
+        "scenario_id": "S17_group_top_spot_controlled_win",
+        "name": "小组第一路径驱动的低风险争胜",
         "weight_composition": {
           "raw_base_weight": 0.06,
           "raw_tactical_delta": 0.0,
@@ -398,16 +511,18 @@
           "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
           "raw_total_score": 0.06,
-          "normalized_weight": 0.011383,
+          "normalized_weight": 0.015521,
           "gates": {
-            "s13_group_pressure_gate": {
-              "group_table_pressure": 0.0,
-              "source_pressure": false,
-              "gate_applied": true,
-              "gate_reason": "no_group_or_source_must_win_pressure"
-            },
-            "gate_applied": true,
-            "gate_reason": "no_group_or_source_must_win_pressure"
+            "s17_top_spot_controlled_win": {
+              "context_used": true,
+              "home_controlled_win_incentive": 0.0,
+              "away_controlled_win_incentive": 0.0,
+              "leading_side": "home",
+              "mutual_draw_acceptance": 0.1,
+              "max_must_win_pressure": 0.9,
+              "composite_score": 0.0,
+              "context_reason": "R2 Turkey vs Paraguay: low draw acceptance; must-win pressure dominant."
+            }
           },
           "evidence_refs": []
         }
@@ -422,7 +537,7 @@
           "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
           "raw_total_score": 0.05,
-          "normalized_weight": 0.009486,
+          "normalized_weight": 0.012934,
           "gates": {
             "gate_applied": true,
             "gate_reason": "no_rotation_evidence",
@@ -441,7 +556,7 @@
           "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
           "raw_total_score": 0.05,
-          "normalized_weight": 0.009486,
+          "normalized_weight": 0.012934,
           "gates": {
             "specific_buildup_evidence": false,
             "duplicate_press_cap_applied": false,
@@ -460,7 +575,7 @@
           "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
           "raw_total_score": 0.05,
-          "normalized_weight": 0.009486,
+          "normalized_weight": 0.012934,
           "gates": {
             "gate_applied": true,
             "gate_reason": "no_environment_evidence",
@@ -470,35 +585,16 @@
         }
       },
       {
-        "scenario_id": "S16_var_penalty_momentum_swing",
-        "name": "VAR/点球/争议判罚改变比赛节奏",
-        "weight_composition": {
-          "raw_base_weight": 0.05,
-          "raw_tactical_delta": 0.0,
-          "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0,
-          "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.05,
-          "normalized_weight": 0.009486,
-          "gates": {
-            "evidence_refs": [],
-            "gate_applied": true,
-            "gate_reason": "no_var_penalty_evidence"
-          },
-          "evidence_refs": []
-        }
-      },
-      {
         "scenario_id": "S02_low_block_survival",
         "name": "弱队低位守住上半场，比分压低",
         "weight_composition": {
           "raw_base_weight": 0.1,
-          "raw_tactical_delta": -0.1636,
+          "raw_tactical_delta": -0.0936,
           "raw_player_delta": 0.0,
-          "raw_source_delta": 0.0308,
+          "raw_source_delta": 0.0,
           "raw_probability_context_delta": 0.0,
-          "raw_total_score": 0.0,
-          "normalized_weight": 0.0,
+          "raw_total_score": 0.0064,
+          "normalized_weight": 0.001662,
           "gates": {},
           "evidence_refs": []
         }
@@ -509,11 +605,11 @@
         "label": "开场0-30",
         "dominant_scenario_id": "S01_favorite_early_break_open",
         "dominant_scenario_name": "",
-        "scenario_weight": 0.2668,
+        "scenario_weight": 0.2141,
         "supporting_scenario_ids": [
           "S01_favorite_early_break_open",
           "S04_press_trap_turnover_goal",
-          "S06_set_piece_breakthrough"
+          "S13_must_win_early_aggression"
         ],
         "goal_tendency": "偏高"
       },
@@ -521,11 +617,11 @@
         "label": "中段31-60",
         "dominant_scenario_id": "S04_press_trap_turnover_goal",
         "dominant_scenario_name": "高压陷阱制造前场失误",
-        "scenario_weight": 0.1499,
+        "scenario_weight": 0.147,
         "supporting_scenario_ids": [
           "S01_favorite_early_break_open",
           "S04_press_trap_turnover_goal",
-          "S05_high_line_vs_runner"
+          "S07_late_chase_open_game"
         ],
         "goal_tendency": "偏高"
       },
@@ -533,13 +629,19 @@
         "label": "末段61-90",
         "dominant_scenario_id": "S01_favorite_early_break_open",
         "dominant_scenario_name": "",
-        "scenario_weight": 0.2668,
+        "scenario_weight": 0.2141,
         "supporting_scenario_ids": [
           "S01_favorite_early_break_open",
-          "S05_high_line_vs_runner",
-          "S07_late_chase_open_game"
+          "S07_late_chase_open_game",
+          "S05_high_line_vs_runner"
         ],
         "goal_tendency": "偏高"
+      },
+      "competition_strategy": {
+        "early_phase": "balanced opening",
+        "middle_phase": "competitive middle phase",
+        "late_if_level": "standard tempo",
+        "late_if_trailing": "must-win side increases chase risk"
       }
     },
     "top_scores": [
@@ -552,42 +654,42 @@
     "half_full_time_top3": [
       {
         "label": "平/胜",
-        "score": 0.4631,
-        "perspective_basis": "语义=draw_ht|favorite_wins_ft；强队=USA(主队)；弱队=Australia；主队视角映射",
+        "score": 0.4609,
+        "perspective_basis": "语义=draw_ht|favorite_wins_ft；强队=Turkey(主队)；弱队=Paraguay；主队视角映射",
         "supporting_scenarios": [
           "S01_favorite_early_break_open",
           "S02_low_block_survival",
           "S03_wide_overload_crossfire",
           "S04_press_trap_turnover_goal"
         ],
-        "why_not_others": "平/负权重较低(0.400)；胜/负权重较低(0.241)；负/负权重较低(0.212)",
-        "explanation": "支撑剧本：强队早球后比赛被打开(0.317)；弱队低位守住上半场，比分压低(0.000)"
+        "why_not_others": "平/负权重较低(0.434)；胜/负权重较低(0.294)；负/负权重较低(0.239)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.246)；弱队低位守住上半场，比分压低(0.002)"
       },
       {
         "label": "胜/胜",
-        "score": 0.3366,
-        "perspective_basis": "语义=favorite_leads_ht|favorite_wins_ft；强队=USA(主队)；弱队=Australia；主队视角映射",
+        "score": 0.3253,
+        "perspective_basis": "语义=favorite_leads_ht|favorite_wins_ft；强队=Turkey(主队)；弱队=Paraguay；主队视角映射",
         "supporting_scenarios": [
           "S01_favorite_early_break_open",
           "S03_wide_overload_crossfire",
           "S04_press_trap_turnover_goal",
           "S06_set_piece_breakthrough"
         ],
-        "why_not_others": "平/负权重较低(0.400)；胜/负权重较低(0.241)；负/负权重较低(0.212)",
-        "explanation": "支撑剧本：强队早球后比赛被打开(0.317)；边路错位被持续打穿(0.087)"
+        "why_not_others": "平/负权重较低(0.434)；胜/负权重较低(0.294)；负/负权重较低(0.239)",
+        "explanation": "支撑剧本：强队早球后比赛被打开(0.246)；边路错位被持续打穿(0.067)"
       },
       {
         "label": "平/平",
-        "score": 0.2003,
-        "perspective_basis": "语义=draw_ht|draw_ft；强队=USA(主队)；弱队=Australia；主队视角映射",
+        "score": 0.2139,
+        "perspective_basis": "语义=draw_ht|draw_ft；强队=Turkey(主队)；弱队=Paraguay；主队视角映射",
         "supporting_scenarios": [
           "S02_low_block_survival",
           "S06_set_piece_breakthrough",
           "S07_late_chase_open_game",
           "S08_strict_ref_card_penalty_chaos"
         ],
-        "why_not_others": "平/负权重较低(0.400)；胜/负权重较低(0.241)；负/负权重较低(0.212)",
-        "explanation": "支撑剧本：弱队低位守住上半场，比分压低(0.000)；弱队低位守住上半场，比分压低(0.000)"
+        "why_not_others": "平/负权重较低(0.434)；胜/负权重较低(0.294)；负/负权重较低(0.239)",
+        "explanation": "支撑剧本：弱队低位守住上半场，比分压低(0.002)；弱队低位守住上半场，比分压低(0.002)"
       }
     ],
     "half_full_time": [
@@ -597,5 +699,5 @@
     ],
     "total_goals": "2-4球"
   },
-  "generated_at": "2026-06-19T12:05:59.721794+00:00"
+  "generated_at": "2026-06-20T08:09:40.314221+00:00"
 }

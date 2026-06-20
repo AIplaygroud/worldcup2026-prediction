@@ -250,6 +250,9 @@ def load_scoreline_grid(match_payload: Dict[str, Any]) -> List[Dict[str, Any]]:
         return grid
     match_id = match_payload.get("match_id", "")
     prob_from = pe.get("probabilities_from", "base_lambda")
+    diag = pe.get("diagnostics", {}) or {}
+    if prob_from == "v36_realized" and diag.get("scoreline_probability_grid"):
+        return diag["scoreline_probability_grid"]
     rows = [r for r in read_csv(PROB_SCORES_CSV) if snum(r, "match_id") == match_id]
     if not rows and prob_from == "adjusted_lambda":
         # probability_engine_scores.csv is rewritten by apply_realtime_lambda_adjustment

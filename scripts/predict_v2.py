@@ -874,6 +874,11 @@ def export_v2_diagnostics(diag: dict, json_path: str) -> None:
         with open(json_path, encoding="utf-8") as f:
             existing = json.load(f)
     mid = diag.get("match_id") or f"{diag['home']}_vs_{diag['away']}"
+    try:
+        from scenario_realization_common import clear_v36_diagnostics_keys
+        diag = clear_v36_diagnostics_keys(dict(diag))
+    except ImportError:
+        pass
     existing[mid] = diag
     os.makedirs(os.path.dirname(os.path.abspath(json_path)), exist_ok=True)
     with open(json_path, "w", encoding="utf-8") as f:

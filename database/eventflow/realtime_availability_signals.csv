@@ -2,3 +2,5 @@ match_id,team,opponent,player,signal_type,status,role,role_group,importance_tier
 WC2026-D32,USA,Australia,Christian Pulisic,injury,out,Winger,wide_attacker,core,Ricardo Pepi,high,A,true,2,-80,own_attack,,,,"Confirmed out R2; calf knock from R1 HT sub",2026-06-19
 WC2026-D32,USA,Australia,Christian Pulisic,injury,doubtful,Winger,wide_attacker,core,,unknown,C,false,1,0,none,,,,"Yahoo probable — unconfirmed rumor tier",2026-06-19
 WC2026-D32,Australia,USA,Garang Kuol,lineup_start,starts,Winger,wide_attacker,rotation,,unknown,B,true,1,15,own_attack,,,,"Tactical rotation only; fringe tier — EventFlow path",2026-06-19
+WC2026-D32,Australia,USA,Nestory Irankunda,lineup_start,benched,Winger,wide_attacker,regular,,unknown,A,true,2,0,own_attack,,,,"R2 bench; primary speed outlet not starting",2026-06-20
+WC2026-D32,Australia,USA,Connor Metcalfe,lineup_start,benched,Midfielder,creator,regular,,unknown,A,true,2,0,own_attack,,,,"R2 bench; reduces first-half transition link",2026-06-20

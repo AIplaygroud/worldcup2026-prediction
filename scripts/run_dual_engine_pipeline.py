@@ -60,6 +60,9 @@ def main() -> None:
     ap.add_argument("--use-realtime-availability", default="true",
                     choices=["true", "false"],
                     help="Apply V3.5 realtime availability λ adjustment after predict_v2")
+    ap.add_argument("--use-v36-realization", default="true",
+                    choices=["true", "false"],
+                    help="Apply V3.6 scenario realization, BTTS gate, tail calibration after EventFlow")
     args = ap.parse_args()
 
     steps: list = []
@@ -123,9 +126,35 @@ def main() -> None:
                  "--lam-home", str(lam_h), "--lam-away", str(lam_a),
                  "--mode", args.mode], steps)
 
+        if args.use_v36_realization == "true":
+            run_cmd([py, str(SCRIPTS / "apply_scenario_realization_layer.py"),
+                     "--match-id", mid, "--home", home, "--away", away,
+                     "--lam-home", str(lam_h), "--lam-away", str(lam_a)], steps)
+            run_cmd([py, str(SCRIPTS / "apply_btts_conversion_gate.py"),
+                     "--match-id", mid, "--home", home, "--away", away,
+                     "--lam-home", str(lam_h), "--lam-away", str(lam_a),
+                     "--prob-csv", prob_csv], steps)
+            run_cmd([py, str(SCRIPTS / "apply_total_goals_tail_calibration.py"),
+                     "--match-id", mid, "--home", home, "--away", away,
+                     "--lam-home", str(lam_h), "--lam-away", str(lam_a),
+                     "--prob-csv", prob_csv], steps)
+            run_cmd([py, str(SCRIPTS / "validate_v36_realization_calibration.py"),
+                     "--match-id", mid], steps)
+            log("V3.6 realization layer applied", steps)
+        else:
+            log("Skipping V3.6 realization (--use-v36-realization false)", steps)
+
         run_cmd([py, str(SCRIPTS / "merge_dual_engine_predictions.py"),
                  "--match-id", mid, "--home", home, "--away", away,
                  "--mode", args.mode, "--export-json", args.export_json], steps)
+
+        if args.use_v36_realization == "true":
+            sys.path.insert(0, str(SCRIPTS))
+            from scenario_realization_common import sync_v36_diagnostics_from_merge_json
+            export_path = ROOT / args.export_json
+            if export_path.exists():
+                sync_v36_diagnostics_from_merge_json(export_path)
+                log(f"Synced V3.6 diagnostics from {args.export_json}", steps)
 
         log(f"Pipeline complete -> {args.export_json}", steps)
         append_log(steps, mid, home, away, args.mode, args.export_json)

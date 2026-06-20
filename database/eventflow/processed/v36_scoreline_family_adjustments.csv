@@ -1,0 +1,5 @@
+﻿match_id,home,away,family,delta,reason,generated_at
+WC2026-D32,USA,Australia,favorite_clean_win_low,0.06,shot_volume_quality_split,2026-06-20T08:09:05.712316+00:00
+WC2026-D32,USA,Australia,favorite_clean_win_mid,0.06,shot_volume_quality_split,2026-06-20T08:09:05.712316+00:00
+WC2026-D32,USA,Australia,favorite_btts_win,-0.06,shot_volume_quality_split,2026-06-20T08:09:05.712316+00:00
+WC2026-D32,USA,Australia,favorite_big_win,-0.06,shot_volume_quality_split,2026-06-20T08:09:05.712316+00:00

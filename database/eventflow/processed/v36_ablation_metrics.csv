@@ -1,0 +1,3 @@
+﻿version,n,one_x_two_accuracy,top1_scoreline_hit_rate,top3_scoreline_hit_rate,btts_log_loss,btts_brier,over25_log_loss,over35_log_loss,total_goals_bucket_log_loss,mean_actual_score_probability
+v35_baseline,4,0.75,0.0,0.25,0.804721,0.305145,0.783117,0.497802,1.648855,0.077673
+full_v36,4,0.75,0.0,0.5,0.799529,0.302552,0.778781,0.495994,1.645031,0.078808

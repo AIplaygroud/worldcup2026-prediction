@@ -348,6 +348,27 @@ def main() -> None:
     ev_rows = filter_rows(read_csv(EVENTFLOW_DB / "eventflow_predictions.csv"), mid, home, away)
     ev_json = read_json(EVENTFLOW_DB / "eventflow_output.json", {}) or {}
 
+    v2_diag_path = Path(__file__).resolve().parents[1] / "database" / "eventflow" / "raw" / "v2_engine_diagnostics.json"
+    v2_diag_all = read_json(v2_diag_path, {}) or {}
+    v2_diag = v2_diag_all.get(mid, {})
+    probabilities_from = v2_diag.get("probabilities_from", "base_lambda")
+    realized_snap = v2_diag.get("realized_probability", {})
+    v36_layer = v2_diag.get("v36_realization_layer", {})
+    scoreline_grid = v2_diag.get("scoreline_probability_grid", [])
+    if probabilities_from == "v36_realized" and scoreline_grid:
+        prob_rows = [
+            {
+                "score": snum(g, "score"),
+                "probability": str(fnum(g, "probability")),
+                "match_id": mid,
+                "home_team": home,
+                "away_team": away,
+                "lambda_home": str(fnum(prob_rows[0], "lambda_home")) if prob_rows else "",
+                "lambda_away": str(fnum(prob_rows[0], "lambda_away")) if prob_rows else "",
+            }
+            for g in scoreline_grid
+        ]
+
     if not prob_rows:
         print("warning: no probability_engine rows for this match; merge will be EventFlow-only")
 
@@ -372,16 +393,11 @@ def main() -> None:
     ev_by_score = {snum(r, "score"): r for r in ev_rows}
     scores = set(prob_by_score) | set(ev_by_score)
 
-    v2_diag_path = Path(__file__).resolve().parents[1] / "database" / "eventflow" / "raw" / "v2_engine_diagnostics.json"
-    v2_diag_all = read_json(v2_diag_path, {}) or {}
-    v2_diag = v2_diag_all.get(mid, {})
-
     lam_home = fnum(prob_rows[0], "lambda_home") if prob_rows else fnum(ev_json.get("eventflow_engine", {}), "lambda_home")
     lam_away = fnum(prob_rows[0], "lambda_away") if prob_rows else fnum(ev_json.get("eventflow_engine", {}), "lambda_away")
     base_lam_home = fnum(v2_diag, "base_lambda_home") or lam_home
     base_lam_away = fnum(v2_diag, "base_lambda_away") or lam_away
     availability = v2_diag.get("availability_adjustment") or {}
-    probabilities_from = v2_diag.get("probabilities_from", "base_lambda")
     adj_block = {
         "base_lambda": {"home": round(base_lam_home, 4), "away": round(base_lam_away, 4)},
         "availability_adjustment": availability,
@@ -486,11 +502,18 @@ def main() -> None:
             "lambda_home": lam_home,
             "lambda_away": lam_away,
             **adj_block,
-            "scoreline_probability_grid": v2_diag.get("scoreline_probability_grid", []),
+            "scoreline_probability_grid": scoreline_grid or v2_diag.get("scoreline_probability_grid", []),
+            "realized_probability": realized_snap,
+            "v36_realization_layer": v36_layer,
+            "scenario_realization": v2_diag.get("scenario_realization", {}),
+            "btts_conversion_gate": v2_diag.get("btts_conversion_gate", {}),
+            "total_goals_tail_calibration": v2_diag.get("total_goals_tail_calibration", {}),
             "probability_data_degraded": v2_diag.get("probability_data_degraded", False),
             "diagnostics": v2_diag,
-            "top_scores": [s for s, _ in prob_top[:3]],
-            "total_goals": total_goals_fusion([s for s, _ in prob_top[:3]]),
+            "top_scores": realized_snap.get("top_scores") or [s for s, _ in prob_top[:3]],
+            "total_goals": total_goals_fusion(
+                realized_snap.get("top_scores") or [s for s, _ in prob_top[:3]],
+            ),
         },
         "eventflow_engine": {
             "eventflow_data_degraded": eventflow_degraded,
@@ -512,6 +535,8 @@ def main() -> None:
                 "probability_source": probabilities_from,
                 "eventflow_source": "prematch_realtime_eventflow",
                 "availability_adjustment_applied": bool(availability.get("enabled")),
+                "v36_realization_applied": bool(v36_layer),
+                "v36_calibration_strength": v36_layer.get("calibration_strength", ""),
                 "probability_file": str(Path(args.baseline)),
                 "eventflow_file": str(EVENTFLOW_DB / "eventflow_predictions.csv"),
                 "fusion_penetration_ok": fusion_penetration_ok,

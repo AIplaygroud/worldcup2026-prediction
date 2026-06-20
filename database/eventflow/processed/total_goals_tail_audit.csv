@@ -1,0 +1,5 @@
+﻿match_id,home,away,data_quality_score,calibration_strength,four_plus_tail_delta,boosted_families,penalized_families,over35_before,over35_after,top_scores_before,top_scores_after,reasons,diagnostics_only,generated_at
+WC2026-D32,USA,Australia,0.55,medium,-0.06,favorite_clean_win_low;favorite_clean_win_mid,favorite_btts_win;favorite_big_win,0.2831,0.2779,1-1;1-0;2-1;2-0;0-1,1-1;1-0;2-0;2-1;0-1,shot_volume_quality_split,False,2026-06-20T08:09:05.712316+00:00
+WC2026-C29,Brazil,Haiti,0.4625,weak,0,,,0.4398,0.4398,2-0;3-0;2-1;1-0;3-1,2-0;3-0;2-1;1-0;3-1,,False,2026-06-20T08:09:13.333193+00:00
+WC2026-C30,Scotland,Morocco,0.4625,weak,0,,,0.4421,0.4421,0-2;1-2;0-3;0-1;1-1,0-2;1-2;0-3;0-1;1-1,,False,2026-06-20T08:09:14.649879+00:00
+WC2026-D31,Turkey,Paraguay,0.4625,weak,0,,,0.3906,0.3906,1-1;2-1;1-0;2-0;1-2,1-1;2-1;1-0;2-0;1-2,,False,2026-06-20T08:09:40.585630+00:00
