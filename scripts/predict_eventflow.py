@@ -289,6 +289,7 @@ def main() -> None:
     comp_ctx = competition_context_for(args.match_id) if args.match_id else {}
     eventflow_process_summary = {
         "structured_competition_context_used": bool(comp_ctx),
+        "runtime_incentive_used": snum(comp_ctx, "runtime_incentive_used") == "true",
         "competition_context_quality": snum(comp_ctx, "context_quality"),
         "competition_context_reason": snum(comp_ctx, "context_reason"),
     }

@@ -13,8 +13,10 @@ from group_state_common import (
     FIXTURES,
     MAPPING,
     classify_path_state,
+    kickoff_utc_from_mapping_row,
     remaining_group_matches,
 )
+from competition_state_engine import evaluate_team_state
 
 V37_DB = ROOT / "database" / "v37"
 V37_RAW = V37_DB / "raw"
@@ -34,6 +36,7 @@ JC_ODDS_SUMMARY = ROOT / "database" / "jc-odds" / "processed" / "match_odds_summ
 AVAILABILITY_SIGNALS = ROOT / "database" / "eventflow" / "realtime_availability_signals.csv"
 LIVE_STANDINGS = ROOT / "database" / "competition" / "live_group_standings.csv"
 ADVANCEMENT_PATH = ROOT / "database" / "competition" / "advancement_path_snapshot.csv"
+RUNTIME_INCENTIVE = ROOT / "database" / "competition" / "runtime" / "match_incentive_runtime_R2.csv"
 
 JC_CODE_TO_TEAM = {
     "CUR": "Curacao",
@@ -244,6 +247,9 @@ def ensure_v37_dirs() -> None:
 
 
 def kickoff_from_mapping(row: Mapping[str, str]) -> datetime:
+    ko = kickoff_utc_from_mapping_row(dict(row))
+    if ko is not None:
+        return ko
     kt = snum(row, "kickoff_time")
     if not kt:
         return datetime.max.replace(tzinfo=timezone.utc)
@@ -368,12 +374,24 @@ def path_detail_for_team(
     group: str,
     standings: list[dict[str, Any]],
     cutoff: datetime,
+    round_num: int = 0,
 ) -> dict[str, Any]:
-    row = next((r for r in standings if r["team"] == team and r["group"] == group), None)
+    return evaluate_team_state(team, group, standings, cutoff, round_num=round_num)
+
+
+def runtime_incentive_for(match_id: str) -> dict[str, str]:
+    row = next(
+        (r for r in read_csv(RUNTIME_INCENTIVE) if snum(r, "match_id") == match_id),
+        {},
+    )
     if not row:
-        return classify_path_state(team, group, 4, standings, remaining_group_matches(cutoff))
-    remaining = remaining_group_matches(cutoff)
-    return classify_path_state(team, group, int(row["rank"]), standings, remaining.get(group, []))
+        return {}
+    try:
+        as_of = datetime.fromisoformat(snum(row, "as_of_utc").replace("Z", "+00:00"))
+        kickoff = datetime.fromisoformat(snum(row, "kickoff_utc").replace("Z", "+00:00"))
+    except ValueError:
+        return {}
+    return row if as_of < kickoff else {}
 
 
 def compute_data_quality_score(flags: Mapping[str, bool]) -> float:

@@ -107,14 +107,14 @@ WC2026-A53,Czechia,2,0.925,1.84,10.5,3.67,2,1,1.5,0.5,pre_match_rolling,wc2026_m
 WC2026-A53,Mexico,2,0.97,0.38,12,4.2,2,1.5,0,3,pre_match_rolling,wc2026_match_xg_rolling,ok
 WC2026-A54,South Africa,2,0.725,1.24,10,3.5,0.5,0.5,1.5,0.5,pre_match_rolling,wc2026_match_xg_rolling,ok
 WC2026-A54,South Korea,2,1.495,0.655,12,4.2,3.5,1,1,1.5,pre_match_rolling,wc2026_match_xg_rolling,ok
-WC2026-E55,Curacao,1,0.41,4.22,8,2.8,0,1,7,0,pre_match_rolling,wc2026_match_xg_rolling,ok
-WC2026-E55,Ivory Coast,1,1.52,1.01,15,5.25,2,1,0,3,pre_match_rolling,wc2026_match_xg_rolling,ok
-WC2026-E56,Ecuador,1,1.01,1.52,12,4.2,1,0,1,0,pre_match_rolling,wc2026_match_xg_rolling,ok
-WC2026-E56,Germany,1,4.22,0.41,26,9.1,6,7,1,3,pre_match_rolling,wc2026_match_xg_rolling,ok
-WC2026-F57,Japan,1,0.59,0.78,10,3.5,0,2,2,1,pre_match_rolling,wc2026_match_xg_rolling,ok
-WC2026-F57,Sweden,1,1.33,0.28,13,4.55,4,5,1,3,pre_match_rolling,wc2026_match_xg_rolling,ok
-WC2026-F58,Tunisia,1,0.28,1.33,6,2.1,0,1,5,0,pre_match_rolling,wc2026_match_xg_rolling,ok
-WC2026-F58,Netherlands,1,0.78,0.59,10,3.5,0,2,2,1,pre_match_rolling,wc2026_match_xg_rolling,ok
+WC2026-E55,Curacao,2,0.205,2.11,4,1.4,0,0.5,3.5,0.5,pre_match_rolling,wc2026_match_xg_rolling,ok
+WC2026-E55,Ivory Coast,2,0.76,0.505,7.5,2.62,1,1,1,1.5,pre_match_rolling,wc2026_match_xg_rolling,ok
+WC2026-E56,Ecuador,2,0.505,0.76,6,2.1,0.5,0,0.5,0.5,pre_match_rolling,wc2026_match_xg_rolling,ok
+WC2026-E56,Germany,2,2.11,0.205,13,4.55,3,4.5,1,3,pre_match_rolling,wc2026_match_xg_rolling,ok
+WC2026-F57,Japan,2,0.295,0.39,5,1.75,0,3,1,2,pre_match_rolling,wc2026_match_xg_rolling,ok
+WC2026-F57,Sweden,2,0.665,0.14,6.5,2.27,2,3,3,1.5,pre_match_rolling,wc2026_match_xg_rolling,ok
+WC2026-F58,Tunisia,2,0.14,0.665,3,1.05,0,0.5,4.5,0,pre_match_rolling,wc2026_match_xg_rolling,ok
+WC2026-F58,Netherlands,2,0.39,0.295,5,1.75,0,3.5,1.5,2,pre_match_rolling,wc2026_match_xg_rolling,ok
 WC2026-D59,Turkey,2,1.765,0.75,31,10.85,1,0,1.5,0,pre_match_rolling,wc2026_match_xg_rolling,ok
 WC2026-D59,USA,2,1.25,0.445,13,4.55,2,3,0.5,3,pre_match_rolling,wc2026_match_xg_rolling,ok
 WC2026-D60,Paraguay,2,0.43,1.795,8,2.8,0.5,1,2,1.5,pre_match_rolling,wc2026_match_xg_rolling,ok

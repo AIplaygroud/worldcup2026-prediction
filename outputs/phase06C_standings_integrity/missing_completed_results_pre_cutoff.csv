@@ -1,0 +1,5 @@
+snapshot_id,source_cutoff_time,match_id,fifa_match_id,group,round,home_team,away_team,kickoff_utc,fixture_status,reason
+standings-update-20260621,2026-06-21T12:00:00Z,WC2026-E33,33,E,2,Germany,Ivory Coast,2026-06-20T16:00:00Z,scheduled,no_xg_row
+standings-update-20260621,2026-06-21T12:00:00Z,WC2026-E34,34,E,2,Ecuador,Curacao,2026-06-20T20:00:00Z,scheduled,no_xg_row
+standings-update-20260621,2026-06-21T12:00:00Z,WC2026-F35,35,F,2,Netherlands,Sweden,2026-06-20T13:00:00Z,scheduled,no_xg_row
+standings-update-20260621,2026-06-21T12:00:00Z,WC2026-F36,36,F,2,Tunisia,Japan,2026-06-20T22:00:00Z,scheduled,no_xg_row

@@ -19,6 +19,7 @@ from v37_common import (
     load_tactical_index,
     load_tier_index,
     path_detail_for_team,
+    runtime_incentive_for,
     snum,
     standings_at_cutoff,
 )
@@ -37,6 +38,9 @@ GPI_FIELDS = [
     "win_necessity", "draw_utility", "loss_damage", "first_place_incentive",
     "second_place_safety", "third_place_safety", "opponent_path_risk",
     "group_pressure_index", "pressure_type",
+    "state_reason_code",
+    "p_finish_1", "p_finish_2", "p_finish_3", "p_finish_4",
+    "p_top2", "p_best8_third", "p_advance",
 ]
 
 ACG_FIELDS = [
@@ -72,6 +76,14 @@ UNIVERSAL_FIELDS = [
 REALIZATION_FIELDS = [
     "match_id", "home_team", "away_team",
     "group_pressure_home", "group_pressure_away", "pressure_type_home", "pressure_type_away",
+    "state_reason_code_home", "state_reason_code_away",
+    "runtime_incentive_used",
+    "home_route_preference_label", "away_route_preference_label",
+    "home_first_place_utility", "away_first_place_utility",
+    "home_second_place_utility", "away_second_place_utility",
+    "home_draw_acceptance_modifier", "away_draw_acceptance_modifier",
+    "home_late_push_modifier", "away_late_push_modifier",
+    "home_rotation_modifier", "away_rotation_modifier",
     "draw_utility_home", "draw_utility_away",
     "attack_conversion_home", "attack_conversion_away",
     "must_win_no_convert_home", "must_win_no_convert_away",
@@ -94,12 +106,14 @@ def _index_by(rows: list[dict], *keys: str) -> dict[tuple, dict]:
     return out
 
 
-def _path_state(team: str, group: str, kickoff_utc: str) -> str:
+def _path_state(team: str, group: str, kickoff_utc: str, round_num: int = 0) -> str:
     from datetime import datetime, timezone
+    from group_state_common import pre_kickoff_cutoff
 
     kickoff = datetime.fromisoformat(kickoff_utc.replace("Z", "+00:00"))
-    standings = standings_at_cutoff(kickoff)
-    detail = path_detail_for_team(team, group, standings, kickoff)
+    cutoff = pre_kickoff_cutoff(kickoff)
+    standings = standings_at_cutoff(cutoff)
+    detail = path_detail_for_team(team, group, standings, cutoff, round_num=round_num)
     return snum(detail, "path_state")
 
 
@@ -156,10 +170,10 @@ def build_features(match_filter: str = "") -> dict[str, int]:
         }
 
         gpi_h = compute_group_pressure(
-            mid, home, away, st_h, _path_state(home, m["group"], m["kickoff_utc"])
+            mid, home, away, st_h, _path_state(home, m["group"], m["kickoff_utc"], int(m["round"]))
         )
         gpi_a = compute_group_pressure(
-            mid, away, home, st_a, _path_state(away, m["group"], m["kickoff_utc"])
+            mid, away, home, st_a, _path_state(away, m["group"], m["kickoff_utc"], int(m["round"]))
         )
         gpi_rows.extend([gpi_h, gpi_a])
 
@@ -191,9 +205,24 @@ def build_features(match_filter: str = "") -> dict[str, int]:
         univ = compute_universal_features(m, rec_h, rec_a, tiers, models, flags)
         universal_rows.append(univ)
 
-        realization_rows.append(
-            merge_realization_row(m, gpi_h, gpi_a, acg_h, acg_a, egci, lbkg, univ)
-        )
+        realization = merge_realization_row(m, gpi_h, gpi_a, acg_h, acg_a, egci, lbkg, univ)
+        runtime = runtime_incentive_for(mid)
+        realization.update({
+            "runtime_incentive_used": str(bool(runtime)).lower(),
+            "home_route_preference_label": snum(runtime, "home_route_preference_label"),
+            "away_route_preference_label": snum(runtime, "away_route_preference_label"),
+            "home_first_place_utility": snum(runtime, "home_first_place_utility"),
+            "away_first_place_utility": snum(runtime, "away_first_place_utility"),
+            "home_second_place_utility": snum(runtime, "home_second_place_utility"),
+            "away_second_place_utility": snum(runtime, "away_second_place_utility"),
+            "home_draw_acceptance_modifier": snum(runtime, "home_draw_acceptance_modifier"),
+            "away_draw_acceptance_modifier": snum(runtime, "away_draw_acceptance_modifier"),
+            "home_late_push_modifier": snum(runtime, "home_late_push_modifier"),
+            "away_late_push_modifier": snum(runtime, "away_late_push_modifier"),
+            "home_rotation_modifier": snum(runtime, "home_rotation_modifier"),
+            "away_rotation_modifier": snum(runtime, "away_rotation_modifier"),
+        })
+        realization_rows.append(realization)
 
         dq_low = univ["data_quality_grade"] in ("low", "degraded")
         odds_value_rows.extend(

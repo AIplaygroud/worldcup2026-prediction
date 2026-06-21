@@ -22,6 +22,9 @@ TABLE_FIELDS = {
         "wins_before", "draws_before", "losses_before", "gf_before", "ga_before", "gd_before",
         "rank_before", "remaining_matches", "remaining_opponents", "can_qualify_if_win",
         "can_qualify_if_draw", "elimination_risk_if_loss", "draw_utility", "win_necessity",
+        "round_before", "path_state", "state_reason_code",
+        "p_finish_1", "p_finish_2", "p_finish_3", "p_finish_4",
+        "p_top2", "p_best8_third", "p_advance",
     ],
     "match_events": [
         "match_id", "event_id", "minute", "stoppage_minute", "team", "event_type", "player",

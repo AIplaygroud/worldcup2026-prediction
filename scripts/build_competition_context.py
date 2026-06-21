@@ -9,6 +9,14 @@ from datetime import date
 from pathlib import Path
 from typing import Dict, List, Tuple
 
+from competition_state_engine import (
+    controlled_win_incentive,
+    evaluate_match_state,
+    must_win_pressure,
+    top_spot_incentive,
+)
+from group_state_common import kickoff_utc_from_mapping_row
+
 ROOT = Path(__file__).resolve().parents[1]
 COMP = ROOT / "database" / "competition"
 MATCH_XG = ROOT / "database" / "xGdatabase" / "processed" / "wc2026_match_xg.csv"
@@ -25,6 +33,8 @@ FIELDS = [
     "home_must_win_pressure", "away_must_win_pressure",
     "home_top_spot_incentive", "away_top_spot_incentive",
     "home_controlled_win_incentive", "away_controlled_win_incentive",
+    "home_path_state", "away_path_state",
+    "home_state_reason_code", "away_state_reason_code",
     "late_draw_control_index", "late_chase_suppression",
     "first_place_slot", "second_place_slot", "third_place_candidate_slots",
     "bracket_path_known", "context_quality", "context_reason", "last_updated",
@@ -51,6 +61,10 @@ SCHEMA_ROWS = [
     ("away_top_spot_incentive", "float", "Away top-spot incentive 0-1"),
     ("home_controlled_win_incentive", "float", "Home controlled-win incentive 0-1"),
     ("away_controlled_win_incentive", "float", "Away controlled-win incentive 0-1"),
+    ("home_path_state", "string", "Canonical home advancement state"),
+    ("away_path_state", "string", "Canonical away advancement state"),
+    ("home_state_reason_code", "string", "Canonical home state reason code"),
+    ("away_state_reason_code", "string", "Canonical away state reason code"),
     ("late_draw_control_index", "float", "Late draw control if level after 60' 0-1"),
     ("late_chase_suppression", "float", "S07 late-chase suppression cap 0-1"),
     ("first_place_slot", "string", "Knockout slot for group winner, e.g. 1D"),
@@ -254,10 +268,7 @@ def context_quality_for(round_no: int, stats: Dict[str, Dict[str, int]], home: s
 
 def main() -> None:
     mappings = read_csv(COMP / "wc2026_match_id_mapping.csv")
-    fixtures = read_csv(COMP / "wc2026_group_fixtures.csv")
     template_rows = read_csv(COMP / "round_of_32_template.csv")
-    group_teams = load_group_teams()
-    results = load_completed_results()
     today = date.today().isoformat()
     rows: List[Dict[str, str]] = []
 
@@ -266,30 +277,28 @@ def main() -> None:
         grp = m["group"]
         rnd = int(m["round"])
         home, away = m["home_team"], m["away_team"]
-        teams = group_teams.get(grp, [])
-        stats = prematch_stats(grp, rnd, teams, results, fixtures)
-        ranks = rank_teams(stats)
-
-        hp = stats[home]["points"] if home in stats else 0
-        ap = stats[away]["points"] if away in stats else 0
-        hgd = stats[home]["gf"] - stats[home]["ga"] if home in stats else 0
-        agd = stats[away]["gf"] - stats[away]["ga"] if away in stats else 0
-        hr = ranks.get(home, 4)
-        ar = ranks.get(away, 4)
-
+        kickoff = kickoff_utc_from_mapping_row(m)
+        if kickoff is None:
+            continue
+        state = evaluate_match_state(home, away, grp, kickoff, round_num=rnd)
+        hs, aws = state["home"], state["away"]
+        hp, ap = int(hs["points"]), int(aws["points"])
+        hgd, agd = int(hs["gd"]), int(aws["gd"])
+        hr, ar = int(hs["current_rank"]), int(aws["current_rank"])
+        # Preserve the EventFlow V3.4 calibration scale while sourcing the
+        # state and reason codes exclusively from the canonical engine.
         home_draw = compute_draw_acceptance(hp, ap, rnd)
         away_draw = compute_draw_acceptance(ap, hp, rnd)
         mutual = min(home_draw, away_draw)
-        home_mw = compute_must_win_pressure(hp, hgd, rnd)
-        away_mw = compute_must_win_pressure(ap, agd, rnd)
-        home_top = compute_top_spot_incentive(hp, hr, hgd, rnd, home in HOST_NATIONS)
-        away_top = compute_top_spot_incentive(ap, ar, agd, rnd, away in HOST_NATIONS)
-        home_cw = compute_controlled_win_incentive(home_top, home_draw, home_mw)
-        away_cw = compute_controlled_win_incentive(away_top, away_draw, away_mw)
-        max_mw = max(home_mw, away_mw)
-        late_draw = compute_late_draw_control(mutual, max_mw)
+        home_mw = must_win_pressure(hs)
+        away_mw = must_win_pressure(aws)
+        home_top = min(1.0, top_spot_incentive(hs) + (0.12 if home in HOST_NATIONS else 0.0))
+        away_top = min(1.0, top_spot_incentive(aws) + (0.12 if away in HOST_NATIONS else 0.0))
+        home_cw = 0.0 if rnd < 2 else controlled_win_incentive({**hs, "p_finish_1": home_top})
+        away_cw = 0.0 if rnd < 2 else controlled_win_incentive({**aws, "p_finish_1": away_top})
+        late_draw = compute_late_draw_control(mutual, max(home_mw, away_mw))
         late_chase = compute_late_chase_suppression(late_draw)
-        quality = context_quality_for(rnd, stats, home, away)
+        quality = "B" if rnd < 2 else ("A" if min(int(hs.get("remaining_matches", 0)), int(aws.get("remaining_matches", 0))) >= 1 else "B")
         reason = build_context_reason(rnd, home, away, hp, ap, home_draw, away_draw, home_top)
 
         rows.append({
@@ -313,6 +322,10 @@ def main() -> None:
             "away_top_spot_incentive": f"{away_top:.4f}",
             "home_controlled_win_incentive": f"{home_cw:.4f}",
             "away_controlled_win_incentive": f"{away_cw:.4f}",
+            "home_path_state": hs["path_state"],
+            "away_path_state": aws["path_state"],
+            "home_state_reason_code": hs["state_reason_code"],
+            "away_state_reason_code": aws["state_reason_code"],
             "late_draw_control_index": f"{late_draw:.4f}",
             "late_chase_suppression": f"{late_chase:.4f}",
             "first_place_slot": f"1{grp}",

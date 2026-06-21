@@ -2,11 +2,38 @@
 """Shared helpers for Phase 06 group state / advancement path / bracket route."""
 from __future__ import annotations
 
+import copy
 import csv
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from itertools import product
 from pathlib import Path
 from typing import Any
+
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:  # pragma: no cover
+    ZoneInfo = None  # type: ignore[misc, assignment]
+
+# June 2026: US/Canada daylight, Mexico no DST (standard -6).
+CITY_UTC_OFFSET_HOURS: dict[str, int] = {
+    "Atlanta": -4,
+    "Boston": -4,
+    "Miami": -4,
+    "Philadelphia": -4,
+    "New York/New Jersey": -4,
+    "Kansas City": -5,
+    "Dallas": -5,
+    "Houston": -5,
+    "Los Angeles": -7,
+    "Seattle": -7,
+    "San Francisco Bay Area": -7,
+    "Mexico City": -6,
+    "Guadalajara": -6,
+    "Monterrey": -6,
+    "Toronto": -4,
+    "Vancouver": -7,
+}
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "database"
@@ -39,6 +66,25 @@ TIER_SCORE = {
     "solid_knockout": 0.55,
     "outsider": 0.35,
     "longshot": 0.20,
+}
+
+CITY_TZ: dict[str, str] = {
+    "Atlanta": "America/New_York",
+    "Boston": "America/New_York",
+    "Miami": "America/New_York",
+    "Philadelphia": "America/New_York",
+    "New York/New Jersey": "America/New_York",
+    "Kansas City": "America/Chicago",
+    "Dallas": "America/Chicago",
+    "Houston": "America/Chicago",
+    "Los Angeles": "America/Los_Angeles",
+    "Seattle": "America/Los_Angeles",
+    "San Francisco Bay Area": "America/Los_Angeles",
+    "Mexico City": "America/Mexico_City",
+    "Guadalajara": "America/Mexico_City",
+    "Monterrey": "America/Monterrey",
+    "Toronto": "America/Toronto",
+    "Vancouver": "America/Vancouver",
 }
 
 R32_OPPONENT_SLOT = {
@@ -94,34 +140,81 @@ def parse_cutoff(value: str) -> datetime:
     return dt.astimezone(timezone.utc)
 
 
+def _local_to_utc_with_offset(naive: datetime, offset_hours: int) -> datetime:
+    """Local wall time -> UTC using fixed offset (west of UTC: offset is negative)."""
+    return (naive - timedelta(hours=offset_hours)).replace(tzinfo=timezone.utc)
+
+
+def local_kickoff_to_utc(date_s: str, time_s: str, city: str) -> datetime:
+    """Convert stadium-local kickoff to UTC. kickoff_local / kickoff_et are display-only."""
+    city = city.strip()
+    hour, minute = (int(x) for x in time_s.strip().split(":"))
+    day = datetime.strptime(date_s.strip(), "%Y-%m-%d").date()
+    if hour == 24:
+        day = day + timedelta(days=1)
+        hour = 0
+    naive = datetime(day.year, day.month, day.day, hour, minute)
+    if ZoneInfo is not None:
+        tz_name = CITY_TZ.get(city, "America/New_York")
+        try:
+            local = naive.replace(tzinfo=ZoneInfo(tz_name))
+            return local.astimezone(timezone.utc)
+        except Exception:
+            pass
+    offset = CITY_UTC_OFFSET_HOURS.get(city, -4)
+    return _local_to_utc_with_offset(naive, offset)
+
+
+def kickoff_utc_from_fixture_row(row: dict[str, str]) -> datetime | None:
+    date_s = row.get("match_date", "").strip()
+    kick = row.get("kickoff_local", "").strip()
+    city = row.get("city", "").strip()
+    if not date_s or not kick:
+        return None
+    try:
+        return local_kickoff_to_utc(date_s, kick, city)
+    except (ValueError, KeyError):
+        return None
+
+
+def kickoff_utc_from_mapping_row(row: dict[str, str]) -> datetime | None:
+    raw = row.get("kickoff_utc", "").strip()
+    if raw:
+        return parse_cutoff(raw if "T" in raw else raw.replace(" ", "T") + "Z")
+    fid = row.get("fifa_match_id", "").strip()
+    if fid:
+        for fix in read_csv(FIXTURES):
+            if fix.get("fifa_match_id") == fid:
+                return kickoff_utc_from_fixture_row(fix)
+    kt = row.get("kickoff_time", "").strip()
+    if not kt:
+        return None
+    try:
+        date_s, time_s = kt.split(" ", 1)
+        return local_kickoff_to_utc(date_s, time_s, "Atlanta")
+    except ValueError:
+        return None
+
+
+def pre_kickoff_cutoff(kickoff: datetime, epsilon_seconds: int = 60) -> datetime:
+    return kickoff.astimezone(timezone.utc) - timedelta(seconds=epsilon_seconds)
+
+
 def kickoff_utc(fifa_id: str, mapping_rows: list[dict[str, str]]) -> datetime | None:
     for row in mapping_rows:
-        if row.get("fifa_match_id") == fifa_id or row.get("internal_match_id", "").endswith(fifa_id):
-            pass
-    for row in mapping_rows:
         if row.get("fifa_match_id") == str(fifa_id):
-            kt = row.get("kickoff_time", "").strip()
-            if not kt:
-                return None
-            dt = datetime.strptime(kt, "%Y-%m-%d %H:%M")
-            return dt.replace(tzinfo=timezone.utc)
+            return kickoff_utc_from_mapping_row(row)
     return None
 
 
 def load_fixture_kickoffs() -> dict[str, datetime]:
-    """fifa_match_id -> UTC kickoff (fixtures use ET; treat as UTC for cutoff consistency)."""
+    """fifa_match_id -> UTC kickoff derived from stadium-local time + city timezone."""
     out: dict[str, datetime] = {}
     for row in read_csv(FIXTURES):
         fid = row.get("fifa_match_id", "").strip()
-        date_s = row.get("match_date", "").strip()
-        kick = row.get("kickoff_et", row.get("kickoff_local", "")).strip()
-        if not fid or not date_s or not kick:
-            continue
-        try:
-            dt = datetime.strptime(f"{date_s} {kick}", "%Y-%m-%d %H:%M")
-            out[fid] = dt.replace(tzinfo=timezone.utc)
-        except ValueError:
-            continue
+        ko = kickoff_utc_from_fixture_row(row)
+        if fid and ko is not None:
+            out[fid] = ko
     return out
 
 
@@ -241,7 +334,9 @@ def load_completed_matches(cutoff: datetime) -> tuple[list[dict[str, str]], int]
         date_s = row.get("match_date", "")
         matched_ko = None
         for fid, ko in kickoffs.items():
-            if ko.date().isoformat() == date_s and _teams_match_row(row, fid):
+            # Team pairing is the stable key. UTC dates can differ from the
+            # local fixture/xG date for evening kickoffs.
+            if _teams_match_row(row, fid):
                 matched_ko = ko
                 break
         if matched_ko is None:
@@ -363,12 +458,106 @@ def enumerate_points_bounds(
     return pts, pts + 3 * rem
 
 
+def _build_group_stats_from_matches(
+    groups: dict[str, list[str]],
+    matches: list[dict[str, str]],
+) -> dict[str, dict[str, dict[str, Any]]]:
+    group_stats: dict[str, dict[str, dict[str, Any]]] = {
+        g: {t: init_stats(t) for t in teams} for g, teams in groups.items()
+    }
+    for m in matches:
+        g = m["group"]
+        home, away = m["home_team"], m["away_team"]
+        hs, as_ = int(m["home_score"]), int(m["away_score"])
+        if home in group_stats.get(g, {}) and away in group_stats.get(g, {}):
+            apply_result(group_stats[g][home], hs, as_, away)
+            apply_result(group_stats[g][away], as_, hs, home)
+    return group_stats
+
+
+def _remaining_fixture_pairs(
+    group: str,
+    remaining: list[dict[str, str]],
+) -> list[tuple[str, str]]:
+    return [
+        (m["home_team"], m["away_team"])
+        for m in remaining
+        if m.get("group") == group
+    ]
+
+
+def enumerate_finish_rank_counts(
+    teams: list[str],
+    group_stats: dict[str, dict[str, Any]],
+    remaining_pairs: list[tuple[str, str]],
+    fair_play: dict[str, int],
+) -> tuple[dict[str, dict[int, int]], int]:
+    """Return per-team finish-rank counts across all remaining-result scenarios."""
+    rank_counts: dict[str, dict[int, int]] = {t: {1: 0, 2: 0, 3: 0, 4: 0} for t in teams}
+    if not remaining_pairs:
+        ranked = rank_group(teams, group_stats, fair_play)
+        for team, _, rank in ranked:
+            rank_counts[team][rank] = 1
+        return rank_counts, 1
+
+    outcomes = [(1, 0), (1, 1), (0, 1)]
+    total = 0
+    for combo in product(outcomes, repeat=len(remaining_pairs)):
+        stats = copy.deepcopy(group_stats)
+        for (home, away), (hg, ag) in zip(remaining_pairs, combo):
+            apply_result(stats[home], hg, ag, away)
+            apply_result(stats[away], ag, hg, home)
+        ranked = rank_group(teams, stats, fair_play)
+        total += 1
+        for team, _, rank in ranked:
+            rank_counts[team][rank] += 1
+    return rank_counts, total
+
+
+def scenario_probabilities(
+    team: str,
+    rank_counts: dict[int, int],
+    total: int,
+) -> dict[str, float]:
+    if total <= 0:
+        return {
+            "p_finish_1": 0.25, "p_finish_2": 0.25, "p_finish_3": 0.25, "p_finish_4": 0.25,
+            "p_top2": 0.5, "p_advance": 0.5,
+        }
+    p1 = rank_counts.get(1, 0) / total
+    p2 = rank_counts.get(2, 0) / total
+    p3 = rank_counts.get(3, 0) / total
+    p4 = rank_counts.get(4, 0) / total
+    return {
+        "p_finish_1": round(p1, 4),
+        "p_finish_2": round(p2, 4),
+        "p_finish_3": round(p3, 4),
+        "p_finish_4": round(p4, 4),
+        "p_top2": round(p1 + p2, 4),
+        "p_advance": round(p1 + p2 + p3, 4),
+    }
+
+
+def build_group_stats_at_cutoff(
+    cutoff: datetime,
+) -> dict[str, dict[str, dict[str, Any]]]:
+    groups = load_groups()
+    matches, _ = load_completed_matches(cutoff)
+    return _build_group_stats_from_matches(groups, matches)
+
+
 def classify_path_state(
     team: str,
     group: str,
     rank: int,
     standings: list[dict[str, Any]],
     remaining: list[dict[str, str]],
+    *,
+    round_num: int = 0,
+    cutoff: datetime | None = None,
+    group_stats: dict[str, dict[str, Any]] | None = None,
+    fair_play: dict[str, int] | None = None,
+    teams_in_group: list[str] | None = None,
 ) -> dict[str, Any]:
     row = next(r for r in standings if r["team"] == team and r["group"] == group)
     pts, gd_val, gf = row["points"], row["gd"], row["gf"]
@@ -376,40 +565,114 @@ def classify_path_state(
     rem = [m for m in remaining if m["home_team"] == team or m["away_team"] == team]
     min_pts, max_pts = enumerate_points_bounds(team, group, standings, remaining)
 
+    if played == 0 or round_num == 1:
+        return {
+            "current_rank": rank,
+            "points": pts,
+            "gd": gd_val,
+            "gf": gf,
+            "remaining_matches": len(rem),
+            "can_finish_top1": True,
+            "can_finish_top2": True,
+            "can_finish_top3": True,
+            "can_be_eliminated": True,
+            "clinched_top2": False,
+            "clinched_any_path": False,
+            "eliminated": False,
+            "third_place_viability": "bubble",
+            "path_state": "opening_round",
+            "path_confidence": 0.55,
+            "draw_acceptance": 0.30,
+            "rotation_risk": 0.10,
+            "goal_diff_chase": 0.0,
+            "qualification_secure_prob": 0.25,
+            "p_finish_1": 0.25,
+            "p_finish_2": 0.25,
+            "p_finish_3": 0.25,
+            "p_finish_4": 0.25,
+            "p_top2": 0.5,
+            "p_advance": 0.5,
+            "state_reason_code": "R1_OPENING_BASELINE",
+            "state_reason_codes": "R1_OPENING_BASELINE",
+        }
+
+    fp = fair_play if fair_play is not None else load_fair_play()
+    teams = teams_in_group or [r["team"] for r in standings if r["group"] == group]
+    rem_pairs = _remaining_fixture_pairs(group, remaining)
+    if group_stats is None:
+        if cutoff is not None:
+            all_stats = build_group_stats_at_cutoff(cutoff)
+            group_stats = all_stats.get(group, {})
+        else:
+            groups_all = load_groups()
+            group_stats = {t: init_stats(t) for t in teams}
+            for st in standings:
+                if st["group"] != group:
+                    continue
+                t = st["team"]
+                group_stats[t]["played"] = st["played"]
+                group_stats[t]["wins"] = st.get("wins", st.get("won", 0))
+                group_stats[t]["draws"] = st.get("draws", st.get("drawn", 0))
+                group_stats[t]["losses"] = st.get("losses", st.get("lost", 0))
+                group_stats[t]["gf"] = st["gf"]
+                group_stats[t]["ga"] = st["ga"]
+                group_stats[t]["points"] = st["points"]
+
+    rank_counts, total = enumerate_finish_rank_counts(
+        teams, {t: group_stats[t] for t in teams if t in group_stats}, rem_pairs, fp,
+    )
+    probs = scenario_probabilities(team, rank_counts[team], total)
+    rc = rank_counts[team]
+
+    can_finish_top1 = rc.get(1, 0) > 0
+    can_finish_top2 = (rc.get(1, 0) + rc.get(2, 0)) > 0
+    can_finish_top3 = (rc.get(1, 0) + rc.get(2, 0) + rc.get(3, 0)) > 0
+    clinched_top2 = total > 0 and (rc.get(3, 0) + rc.get(4, 0)) == 0
+    eliminated = total > 0 and (rc.get(1, 0) + rc.get(2, 0) + rc.get(3, 0)) == 0
+    can_be_eliminated = rc.get(4, 0) > 0
+
     group_rows = [r for r in standings if r["group"] == group]
-    leader_pts = max(r["points"] for r in group_rows)
     second_pts = sorted({r["points"] for r in group_rows}, reverse=True)
     second_best = second_pts[1] if len(second_pts) > 1 else 0
 
-    clinched_top2 = pts >= 6 or (pts >= 4 and max_pts >= 4 and min_pts > second_best and played >= 2)
-    eliminated = max_pts < 3 and rank == 4
-    can_finish_top1 = max_pts >= leader_pts or max_pts >= pts + 3 * len(rem)
-    can_finish_top2 = max_pts >= 3
-    can_finish_top3 = max_pts >= 1 or rank <= 3
-    can_be_eliminated = min_pts < 3 and rank >= 3
-
     if eliminated:
         path_state = "eliminated"
+        reason = "ELIMINATED_ALL_SCENARIOS"
     elif clinched_top2 and pts >= 6:
-        path_state = "clinched_top2" if pts >= 6 and min_pts >= 6 else "near_clinched"
+        path_state = "clinched_top2"
+        reason = "CLINCHED_TOP2_ENUM"
+    elif clinched_top2:
+        path_state = "near_clinched"
+        reason = "CLINCHED_TOP2_ENUM"
     elif pts >= 6:
         path_state = "near_clinched"
+        reason = "SIX_POINTS_NOT_CLINCHED"
+    elif pts >= 4 and not clinched_top2:
+        path_state = "top_slot_chase" if rank <= 2 else "control_destiny"
+        reason = "FOUR_POINTS_NOT_CLINCHED"
     elif pts >= 4:
         path_state = "top_slot_chase" if rank <= 2 else "control_destiny"
+        reason = "TOP_SLOT_CHASE"
     elif pts == 3:
         if rank == 2:
             path_state = "must_not_lose"
+            reason = "R2_THREE_POINTS_DRAW_TO_FOUR"
         elif rank == 3:
             path_state = "third_place_bubble"
+            reason = "R3_BEST_THIRD_GD_CHASE"
         else:
             path_state = "control_destiny"
+            reason = "CONTROL_DESTINY"
     elif pts <= 1:
         path_state = "must_win_big" if pts == 0 and gd_val <= -3 else "must_win"
+        reason = "R2_ZERO_POINTS_SURVIVAL" if pts == 0 else "MUST_WIN_SURVIVAL"
     else:
         path_state = "open_group" if played <= 1 else "control_destiny"
+        reason = "OPEN_GROUP"
 
     if played == 1 and pts == 1 and len([r for r in group_rows if r["points"] == 1]) >= 3:
         path_state = "open_group"
+        reason = "OPEN_GROUP_TIED_ON_ONE"
 
     third_viability = "bubble"
     if rank == 3:
@@ -424,6 +687,8 @@ def classify_path_state(
     if path_state in ("clinched_top2", "near_clinched"):
         draw_acceptance = 0.75
         rotation_risk = 0.55
+        if clinched_top2 and probs["p_top2"] >= 0.99:
+            reason = "QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED"
     elif path_state == "top_slot_chase":
         draw_acceptance = 0.55
     elif path_state == "must_not_lose":
@@ -435,7 +700,9 @@ def classify_path_state(
         draw_acceptance = 0.1
         goal_diff_chase = 0.7 if path_state == "must_win_big" else 0.35
 
-    qual_prob = estimate_qualification_prob(pts, rank, gd_val, len(rem), clinched_top2, eliminated)
+    qual_prob = probs["p_advance"] if not eliminated else 0.05
+    if clinched_top2:
+        qual_prob = max(qual_prob, 0.95)
 
     return {
         "current_rank": rank,
@@ -448,7 +715,7 @@ def classify_path_state(
         "can_finish_top3": can_finish_top3,
         "can_be_eliminated": can_be_eliminated,
         "clinched_top2": clinched_top2,
-        "clinched_any_path": clinched_top2 or (rank == 3 and pts >= 3),
+        "clinched_any_path": clinched_top2 or (rank == 3 and pts >= 3 and probs["p_advance"] >= 0.9),
         "eliminated": eliminated,
         "third_place_viability": third_viability,
         "path_state": path_state,
@@ -457,6 +724,14 @@ def classify_path_state(
         "rotation_risk": round(rotation_risk, 3),
         "goal_diff_chase": round(goal_diff_chase, 3),
         "qualification_secure_prob": round(qual_prob, 3),
+        "p_finish_1": probs["p_finish_1"],
+        "p_finish_2": probs["p_finish_2"],
+        "p_finish_3": probs["p_finish_3"],
+        "p_finish_4": probs["p_finish_4"],
+        "p_top2": probs["p_top2"],
+        "p_advance": probs["p_advance"],
+        "state_reason_code": reason,
+        "state_reason_codes": reason,
     }
 
 

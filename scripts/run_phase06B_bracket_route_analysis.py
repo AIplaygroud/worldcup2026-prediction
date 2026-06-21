@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from group_state_common import (
+    R32_OPPONENT_SLOT,
     ROOT,
     classify_path_state,
     parse_cutoff,
@@ -17,6 +18,7 @@ from group_state_common import (
     route_score_for_position,
     write_csv,
 )
+from annex_c_route_engine import annex_scenario_weights, expected_route_for_slot
 from validate_completed_results_coverage import run_coverage_validation
 
 OUT_DIR = ROOT / "outputs" / "phase06B_bracket_route"
@@ -35,16 +37,34 @@ BRACKET_FIELDS = [
     "current_gd", "current_gf", "qualification_secure_prob", "possible_finish_positions",
     "route_if_first", "route_if_second", "route_if_third",
     "route_score_first", "route_score_second", "route_score_third",
+    "expected_route_difficulty_first", "expected_route_difficulty_second",
+    "route_uncertainty", "annex_scenarios_covered",
     "best_route_position", "route_preference_delta",
     "route_avoidance_applicable", "route_avoidance_strength",
     "primary_route_reason", "uncertainty_level", "source", "source_url", "notes",
 ]
 
 RUNTIME_INCENTIVE_FIELDS = [
-    "snapshot_id", "match_id", "home", "away", "home_path_state", "away_path_state",
+    "snapshot_id", "match_id", "as_of_utc", "kickoff_utc",
+    "home", "away", "home_path_state", "away_path_state",
+    "home_state_reason_code", "away_state_reason_code",
     "route_pressure_label", "route_preference_label", "first_place_incentive",
     "second_place_acceptance", "third_place_risk", "draw_acceptance_modifier",
     "late_push_modifier", "rotation_modifier", "route_explanation",
+    "home_route_preference_label", "away_route_preference_label",
+    "home_first_place_utility", "away_first_place_utility",
+    "home_second_place_utility", "away_second_place_utility",
+    "home_route_utility_first", "away_route_utility_first",
+    "home_route_utility_second", "away_route_utility_second",
+    "home_route_preference_delta", "away_route_preference_delta",
+    "home_expected_route_difficulty_first", "away_expected_route_difficulty_first",
+    "home_expected_route_difficulty_second", "away_expected_route_difficulty_second",
+    "home_route_uncertainty", "away_route_uncertainty",
+    "home_annex_scenarios_covered", "away_annex_scenarios_covered",
+    "home_third_place_risk", "away_third_place_risk",
+    "home_draw_acceptance_modifier", "away_draw_acceptance_modifier",
+    "home_late_push_modifier", "away_late_push_modifier",
+    "home_rotation_modifier", "away_rotation_modifier",
     "home_route_avoidance_applicable", "away_route_avoidance_applicable",
     "home_route_strength", "away_route_strength",
 ]
@@ -82,23 +102,39 @@ def analyze_team_route(
     standings: list[dict],
     path_info: dict,
     generated_at: str,
+    team_states: dict[str, dict],
+    annex_scenarios: list[dict],
 ) -> dict:
     row = next(r for r in standings if r["team"] == team and r["group"] == group)
     rank, pts, gd_val, gf = row["rank"], row["points"], row["gd"], row["gf"]
-    qual = path_info.get("qualification_secure_prob", 0.45)
+    qual = float(path_info.get("p_advance") or path_info.get("qualification_secure_prob", 0.45))
 
     r1_slot = route_label(group, 1)
     r2_slot = route_label(group, 2)
     r3_slot = f"3rd_{group}"
 
-    s1, o1, t1, u1 = route_score_for_position(r1_slot, standings)
-    s2, o2, t2, u2 = route_score_for_position(r2_slot, standings)
+    opp1 = R32_OPPONENT_SLOT.get(r1_slot, ("unknown", []))[0]
+    opp2 = R32_OPPONENT_SLOT.get(r2_slot, ("unknown", []))[0]
+    route1 = expected_route_for_slot(
+        r1_slot if opp1 == "3rd" else opp1, team_states, annex_scenarios,
+    )
+    route2 = expected_route_for_slot(
+        r2_slot if opp2 == "3rd" else opp2, team_states, annex_scenarios,
+    )
+    s1, o1, t1, u1 = (
+        route1["difficulty"], route1["opponent_label"], opp1, route1["uncertainty"],
+    )
+    s2, o2, t2, u2 = (
+        route2["difficulty"], route2["opponent_label"], opp2, route2["uncertainty"],
+    )
     s3 = round(0.55 * 0.58 + 0.25 * 0.50 + 0.10 * 0.45 + 0.05 * 0.20 + 0.05 * 0.35, 4)
     o3 = "best_third_pool"
     t3 = "3rd"
     u3 = 0.35
 
-    scores = {"first": s1, "second": s2, "third": s3}
+    # Route optimization only compares secure top-two paths. Finishing third
+    # is an advancement fallback, never a route-avoidance target.
+    scores = {"first": s1, "second": s2}
     best = min(scores, key=scores.get)
     current_target = "first" if rank == 1 else ("second" if rank == 2 else "third")
     delta = round(scores.get(current_target, s2) - scores[best], 4)
@@ -128,8 +164,8 @@ def analyze_team_route(
         strength = "none"
         reason = "advancement_pressure_overrides_route"
 
-    if strength == "strong":
-        strength = "medium"
+    if applicable and strength in ("medium", "strong"):
+        strength = "weak"
 
     possible = []
     if path_info.get("can_finish_top1"):
@@ -156,6 +192,13 @@ def analyze_team_route(
         "route_score_first": s1,
         "route_score_second": s2,
         "route_score_third": s3,
+        "expected_route_difficulty_first": s1,
+        "expected_route_difficulty_second": s2,
+        "route_uncertainty": round(max(u1, u2), 4),
+        "annex_scenarios_covered": max(
+            int(route1["annex_scenarios_covered"]),
+            int(route2["annex_scenarios_covered"]),
+        ),
         "best_route_position": best,
         "route_preference_delta": delta,
         "route_avoidance_applicable": str(applicable).lower(),
@@ -169,7 +212,9 @@ def analyze_team_route(
 
 
 def route_preference_label(team_route: dict, path_state: str) -> str:
-    if team_route["route_avoidance_applicable"] != "true":
+    if not team_route:
+        return "must_chase_first" if "must_win" in path_state else "route_data_missing"
+    if team_route.get("route_avoidance_applicable") != "true":
         if "must_win" in path_state:
             return "must_chase_first"
         return "route_avoidance_blocked_by_qualification_need"
@@ -216,6 +261,7 @@ def build_runtime_incentive(
             if ab.get("best_route_position") == "second":
                 a_draw_mod = 0.04
                 a_late_mod = -0.08
+                a_rot_mod = 0.05
 
         if "must_win" in m["home_path_state"]:
             h_late_mod += 0.06
@@ -232,31 +278,78 @@ def build_runtime_incentive(
 
         h_route_app = "false" if not route_allowed or group_local_only else hb.get("route_avoidance_applicable", "false")
         a_route_app = "false" if not route_allowed or group_local_only else ab.get("route_avoidance_applicable", "false")
+        h_route_strength = "none" if not route_allowed or group_local_only else hb.get("route_avoidance_strength", "none")
+        a_route_strength = "none" if not route_allowed or group_local_only else ab.get("route_avoidance_strength", "none")
+        h_first_utility = round(1.0 - float(hb.get("route_score_first", 0.5)), 3)
+        a_first_utility = round(1.0 - float(ab.get("route_score_first", 0.5)), 3)
+        h_second_utility = round(1.0 - float(hb.get("route_score_second", 0.5)), 3)
+        a_second_utility = round(1.0 - float(ab.get("route_score_second", 0.5)), 3)
+        h_third_risk = (
+            round(max(0.0, 1.0 - float(hb.get("qualification_secure_prob", 0.0))), 3)
+            if route_allowed and not group_local_only else 0.0
+        )
+        a_third_risk = (
+            round(max(0.0, 1.0 - float(ab.get("qualification_secure_prob", 0.0))), 3)
+            if route_allowed and not group_local_only else 0.0
+        )
 
         out.append({
             "snapshot_id": snap,
             "match_id": m["match_id"],
+            "as_of_utc": m.get("as_of_utc", ""),
+            "kickoff_utc": m.get("kickoff_utc", ""),
             "home": home,
             "away": away,
             "home_path_state": m["home_path_state"],
             "away_path_state": m["away_path_state"],
+            "home_state_reason_code": m.get("home_state_reason_code", ""),
+            "away_state_reason_code": m.get("away_state_reason_code", ""),
             "route_pressure_label": pressure,
             "route_preference_label": f"{home}:{h_label}; {away}:{a_label}",
-            "first_place_incentive": round(1.0 - float(hb.get("route_score_first", 0.5)), 3),
-            "second_place_acceptance": round(float(hb.get("route_score_second", 0.5)), 3),
-            "third_place_risk": 0.65 if route_allowed else 0.0,
-            "draw_acceptance_modifier": round(max(h_draw_mod, a_draw_mod), 3),
-            "late_push_modifier": round(h_late_mod if abs(h_late_mod) >= abs(a_late_mod) else a_late_mod, 3),
-            "rotation_modifier": round(max(h_rot_mod, a_rot_mod), 3),
+            # Deprecated match-level compatibility fields use symmetric aggregation.
+            "first_place_incentive": round((h_first_utility + a_first_utility) / 2.0, 3),
+            "second_place_acceptance": round((h_second_utility + a_second_utility) / 2.0, 3),
+            "third_place_risk": round((h_third_risk + a_third_risk) / 2.0, 3),
+            "draw_acceptance_modifier": round((h_draw_mod + a_draw_mod) / 2.0, 3),
+            "late_push_modifier": round((h_late_mod + a_late_mod) / 2.0, 3),
+            "rotation_modifier": round((h_rot_mod + a_rot_mod) / 2.0, 3),
             "route_explanation": (
                 f"{home} qual={hb.get('qualification_secure_prob','?')} route_delta={hb.get('route_preference_delta','?')}; "
                 f"{away} qual={ab.get('qualification_secure_prob','?')} route_delta={ab.get('route_preference_delta','?')}"
                 + ("; integrity_guard=route_disabled" if not route_allowed else "")
             ),
+            "home_route_preference_label": h_label,
+            "away_route_preference_label": a_label,
+            "home_first_place_utility": h_first_utility,
+            "away_first_place_utility": a_first_utility,
+            "home_second_place_utility": h_second_utility,
+            "away_second_place_utility": a_second_utility,
+            "home_route_utility_first": h_first_utility,
+            "away_route_utility_first": a_first_utility,
+            "home_route_utility_second": h_second_utility,
+            "away_route_utility_second": a_second_utility,
+            "home_route_preference_delta": hb.get("route_preference_delta", 0.0),
+            "away_route_preference_delta": ab.get("route_preference_delta", 0.0),
+            "home_expected_route_difficulty_first": hb.get("expected_route_difficulty_first", 0.5),
+            "away_expected_route_difficulty_first": ab.get("expected_route_difficulty_first", 0.5),
+            "home_expected_route_difficulty_second": hb.get("expected_route_difficulty_second", 0.5),
+            "away_expected_route_difficulty_second": ab.get("expected_route_difficulty_second", 0.5),
+            "home_route_uncertainty": hb.get("route_uncertainty", 0.35),
+            "away_route_uncertainty": ab.get("route_uncertainty", 0.35),
+            "home_annex_scenarios_covered": hb.get("annex_scenarios_covered", 0),
+            "away_annex_scenarios_covered": ab.get("annex_scenarios_covered", 0),
+            "home_third_place_risk": h_third_risk,
+            "away_third_place_risk": a_third_risk,
+            "home_draw_acceptance_modifier": round(h_draw_mod, 3),
+            "away_draw_acceptance_modifier": round(a_draw_mod, 3),
+            "home_late_push_modifier": round(h_late_mod, 3),
+            "away_late_push_modifier": round(a_late_mod, 3),
+            "home_rotation_modifier": round(h_rot_mod, 3),
+            "away_rotation_modifier": round(a_rot_mod, 3),
             "home_route_avoidance_applicable": h_route_app,
             "away_route_avoidance_applicable": a_route_app,
-            "home_route_strength": "none" if not route_allowed else hb.get("route_avoidance_strength", "none"),
-            "away_route_strength": "none" if not route_allowed else ab.get("route_avoidance_strength", "none"),
+            "home_route_strength": h_route_strength,
+            "away_route_strength": a_route_strength,
         })
     return out
 
@@ -471,17 +564,23 @@ def main() -> None:
         run_phase06_scripts(snap, cutoff)
 
     standings_raw = read_csv(PHASE06_DIR / "live_group_standings.csv")
+    snapshot_standings = [r for r in standings_raw if r.get("snapshot_id") == snap]
+    if snapshot_standings:
+        standings_raw = snapshot_standings
     standings = [
         {"group": r["group"], "rank": int(r["rank"]), "team": r["team"],
          "points": int(r["points"]), "gd": int(r["gd"]), "gf": int(r["gf"]),
          "played": int(r["played"])}
-        for r in standings_raw if r.get("snapshot_id") == snap
+        for r in standings_raw
     ]
     third = [r for r in read_csv(PHASE06_DIR / "third_place_rankings.csv") if r.get("snapshot_id") == snap]
     if not cross_group_allowed:
         for t in third:
             t["third_place_status"] = f"provisional_cross_group_blocked_{t.get('third_place_status', '')}"
-    paths = [r for r in read_csv(PHASE06_DIR / "advancement_path_snapshot.csv") if r.get("snapshot_id") == snap]
+    path_source = PHASE06_DIR / "advancement_path_snapshot.csv"
+    if not path_source.exists():
+        path_source = ROOT / "database" / "competition" / "advancement_path_snapshot.csv"
+    paths = [r for r in read_csv(path_source) if r.get("snapshot_id") == snap]
     incentives = read_csv(PHASE06_DIR / "match_incentive_features_runtime.csv")
     incentives = [r for r in incentives if r.get("snapshot_id") == snap]
 
@@ -491,8 +590,13 @@ def main() -> None:
         info = classify_path_state(
             p["team"], p["group"], int(p["current_rank"]), standings,
             remaining.get(p["group"], []),
+            round_num=2,
+            cutoff=cutoff_dt,
         )
-        path_details[p["team"]] = {**p, **info}
+        path_details[p["team"]] = {**info, **p}
+        path_details[p["team"]]["group"] = p["group"]
+
+    annex_scenarios = annex_scenario_weights(path_details)
 
     knockout = build_knockout_slots()
     write_csv(RUNTIME_DIR / "knockout_route_slots.csv", KNOCKOUT_FIELDS, knockout)
@@ -502,6 +606,7 @@ def main() -> None:
         team = p["team"]
         row = analyze_team_route(
             team, p["group"], standings, path_details[team], generated_at,
+            path_details, annex_scenarios,
         )
         if not route_allowed:
             row["route_avoidance_applicable"] = "false"

@@ -24,7 +24,16 @@ from v37_common import (
 )
 
 
-def pressure_type_from_gpi(gpi: float, draw_utility: float, path_state: str) -> str:
+def pressure_type_from_gpi(
+    gpi: float,
+    draw_utility: float,
+    path_state: str,
+    round_num: int = 0,
+) -> str:
+    if path_state in ("opening_round", "baseline_opening"):
+        return "prefer_win" if gpi >= 0.40 else "low_pressure"
+    if round_num == 1:
+        return "prefer_win" if gpi >= 0.45 else "low_pressure"
     if "must_win" in path_state:
         return "must_win"
     if gpi >= 0.65:
@@ -52,14 +61,22 @@ def compute_group_pressure(
     w = V37_WEIGHTS["group_pressure"]
     win_necessity = fnum(standing_row, "win_necessity", 0.35)
     draw_utility = fnum(standing_row, "draw_utility", 0.3)
-    loss_damage = clip(0.0 if bnum(standing_row, "can_qualify_if_draw", True) else 0.65, 0.0, 1.0)
+    p_advance = fnum(standing_row, "p_advance", -1.0)
+    loss_damage = (
+        clip(1.0 - p_advance, 0.0, 1.0)
+        if p_advance >= 0
+        else clip(0.0 if bnum(standing_row, "can_qualify_if_draw", True) else 0.65, 0.0, 1.0)
+    )
     if bnum(standing_row, "elimination_risk_if_loss"):
         loss_damage = clip(loss_damage + 0.25, 0.0, 1.0)
 
     rank = int(fnum(standing_row, "rank_before", 4))
-    first_place_incentive = clip(0.55 if rank == 1 else 0.35 if rank == 2 else 0.15, 0.0, 1.0)
-    second_place_safety = clip(1.0 if rank <= 2 else 0.4, 0.0, 1.0)
-    third_place_safety = clip(0.7 if rank == 3 else 0.3, 0.0, 1.0)
+    first_place_incentive = clip(
+        fnum(standing_row, "p_finish_1", 0.55 if rank == 1 else 0.35 if rank == 2 else 0.15),
+        0.0, 1.0,
+    )
+    second_place_safety = clip(fnum(standing_row, "p_top2", 1.0 if rank <= 2 else 0.4), 0.0, 1.0)
+    third_place_safety = clip(fnum(standing_row, "p_best8_third", 0.7 if rank == 3 else 0.3), 0.0, 1.0)
     opponent_path_risk = 0.45
 
     gpi = clip(
@@ -69,7 +86,10 @@ def compute_group_pressure(
         - abs(w["draw_utility_negative"]) * draw_utility,
         0.0, 1.0,
     )
-    ptype = pressure_type_from_gpi(gpi, draw_utility, path_state or snum(standing_row, "path_state"))
+    ptype = pressure_type_from_gpi(
+        gpi, draw_utility, path_state or snum(standing_row, "path_state"),
+        round_num=int(fnum(standing_row, "round_before", 0)),
+    )
 
     return {
         "match_id": match_id,
@@ -87,6 +107,14 @@ def compute_group_pressure(
         "opponent_path_risk": round(opponent_path_risk, 4),
         "group_pressure_index": round(gpi, 4),
         "pressure_type": ptype,
+        "state_reason_code": snum(standing_row, "state_reason_code"),
+        "p_finish_1": round(fnum(standing_row, "p_finish_1"), 4),
+        "p_finish_2": round(fnum(standing_row, "p_finish_2"), 4),
+        "p_finish_3": round(fnum(standing_row, "p_finish_3"), 4),
+        "p_finish_4": round(fnum(standing_row, "p_finish_4"), 4),
+        "p_top2": round(fnum(standing_row, "p_top2"), 4),
+        "p_best8_third": round(fnum(standing_row, "p_best8_third"), 4),
+        "p_advance": round(fnum(standing_row, "p_advance"), 4),
     }
 
 
@@ -433,6 +461,8 @@ def merge_realization_row(
         "group_pressure_away": gpi_a["group_pressure_index"],
         "pressure_type_home": gpi_h["pressure_type"],
         "pressure_type_away": gpi_a["pressure_type"],
+        "state_reason_code_home": gpi_h.get("state_reason_code", ""),
+        "state_reason_code_away": gpi_a.get("state_reason_code", ""),
         "draw_utility_home": gpi_h["draw_utility"],
         "draw_utility_away": gpi_a["draw_utility"],
         "attack_conversion_home": acg_h["attack_conversion_gate"],

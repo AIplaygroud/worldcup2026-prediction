@@ -14,6 +14,7 @@ from group_state_common import (
     MAPPING,
     MATCH_XG,
     ROOT,
+    kickoff_utc_from_mapping_row,
     load_fixture_kickoffs,
     parse_cutoff,
     read_csv,
@@ -57,6 +58,10 @@ def _fixture_kickoff(fifa_id: str, mapping_by_fifa: dict[str, dict], kickoffs: d
     if fifa_id in kickoffs:
         return kickoffs[fifa_id]
     row = mapping_by_fifa.get(fifa_id)
+    if row:
+        ko = kickoff_utc_from_mapping_row(row)
+        if ko is not None:
+            return ko
     if not row:
         return None
     kt = row.get("kickoff_time", "").strip()

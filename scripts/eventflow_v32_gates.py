@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from typing import Any, Dict, List, Set, Tuple
 
 from eventflow_common import DB, EVENTFLOW_DB, fnum, read_csv, snum
@@ -47,10 +48,55 @@ def _match_mapping_row(match_id: str) -> Dict[str, str]:
 
 
 def competition_context_for(match_id: str) -> Dict[str, str]:
+    context: Dict[str, str] = {}
     for row in read_csv(COMP_DB / "competition_context.csv"):
         if snum(row, "match_id") == match_id:
-            return row
-    return {}
+            context = dict(row)
+            break
+    if not context:
+        return {}
+
+    runtime = next(
+        (
+            r for r in read_csv(COMP_DB / "runtime" / "match_incentive_runtime_R2.csv")
+            if snum(r, "match_id") == match_id
+        ),
+        None,
+    )
+    if not runtime:
+        context["runtime_incentive_used"] = "false"
+        return context
+    try:
+        runtime_as_of = datetime.fromisoformat(snum(runtime, "as_of_utc").replace("Z", "+00:00"))
+        runtime_kickoff = datetime.fromisoformat(snum(runtime, "kickoff_utc").replace("Z", "+00:00"))
+    except ValueError:
+        context["runtime_incentive_used"] = "false"
+        return context
+    if runtime_as_of >= runtime_kickoff:
+        context["runtime_incentive_used"] = "false"
+        return context
+
+    context.update(runtime)
+    context["runtime_incentive_used"] = "true"
+    home_draw = max(
+        0.0,
+        min(1.0, fnum(context, "home_draw_acceptance") + fnum(runtime, "home_draw_acceptance_modifier")),
+    )
+    away_draw = max(
+        0.0,
+        min(1.0, fnum(context, "away_draw_acceptance") + fnum(runtime, "away_draw_acceptance_modifier")),
+    )
+    mutual = min(home_draw, away_draw)
+    directional_late = (
+        fnum(runtime, "home_late_push_modifier") + fnum(runtime, "away_late_push_modifier")
+    ) / 2.0
+    late_draw = max(0.0, min(1.0, fnum(context, "late_draw_control_index") - directional_late))
+    context["home_draw_acceptance"] = f"{home_draw:.4f}"
+    context["away_draw_acceptance"] = f"{away_draw:.4f}"
+    context["mutual_draw_acceptance"] = f"{mutual:.4f}"
+    context["late_draw_control_index"] = f"{late_draw:.4f}"
+    context["late_chase_suppression"] = f"{min(0.55, late_draw * 0.45):.4f}"
+    return context
 
 
 def _standings_for_team(team: str, group: str) -> Dict[str, str]:
@@ -79,6 +125,12 @@ def match_fused_signal_types(match_id: str) -> Set[str]:
 
 def compute_group_table_pressure(match_id: str, home: str, away: str) -> float:
     """0–1 must-win pressure from standings only (no probability context)."""
+    context = competition_context_for(match_id)
+    if context:
+        return max(
+            fnum(context, "home_must_win_pressure"),
+            fnum(context, "away_must_win_pressure"),
+        )
     m = _match_mapping_row(match_id)
     grp = snum(m, "group")
     rnd = int(fnum(m, "round", 0))

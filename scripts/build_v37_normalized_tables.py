@@ -10,7 +10,8 @@ from pathlib import Path
 from typing import Any, Optional
 
 from eventflow_common import read_csv, write_csv
-from group_state_common import build_standings, remaining_group_matches
+from group_state_common import build_standings, pre_kickoff_cutoff, remaining_group_matches
+from annex_c_route_engine import annex_scenario_weights, best8_third_probabilities
 from v37_common import (
     AVAILABILITY_SIGNALS,
     FEATURE_TABLES,
@@ -38,6 +39,10 @@ STANDINGS_FIELDS = [
     "wins_before", "draws_before", "losses_before", "gf_before", "ga_before", "gd_before",
     "rank_before", "remaining_matches", "remaining_opponents", "can_qualify_if_win",
     "can_qualify_if_draw", "elimination_risk_if_loss", "draw_utility", "win_necessity",
+    "round_before", "path_state",
+    "state_reason_code",
+    "p_finish_1", "p_finish_2", "p_finish_3", "p_finish_4",
+    "p_top2", "p_best8_third", "p_advance",
 ]
 
 LINEUP_FIELDS = [
@@ -137,9 +142,32 @@ def build_standings_snapshots(matches: list[dict[str, Any]]) -> list[dict[str, A
     rows: list[dict[str, Any]] = []
     for m in matches:
         kickoff = datetime.fromisoformat(m["kickoff_utc"].replace("Z", "+00:00"))
+        cutoff = pre_kickoff_cutoff(kickoff)
         snap_id = f"V37_PRE_{m['match_id']}"
-        standings, _, _ = build_standings(kickoff)
-        remaining = remaining_group_matches(kickoff)
+        standings, _, _ = build_standings(cutoff)
+        remaining = remaining_group_matches(cutoff)
+        all_details: dict[str, dict[str, Any]] = {
+            standing["team"]: {
+                "group": standing["group"],
+                "points": standing["points"],
+                "gd": standing["gd"],
+                "p_finish_1": 1.0 if int(standing["rank"]) == 1 else 0.0,
+                "p_finish_2": 1.0 if int(standing["rank"]) == 2 else 0.0,
+                "p_finish_3": 1.0 if int(standing["rank"]) == 3 else 0.0,
+                "p_finish_4": 1.0 if int(standing["rank"]) == 4 else 0.0,
+            }
+            for standing in standings
+        }
+        from v37_common import path_detail_for_team
+        for standing in standings:
+            if standing["team"] not in (m["home_team"], m["away_team"]):
+                continue
+            detail = path_detail_for_team(
+                standing["team"], standing["group"], standings, cutoff, round_num=int(m["round"]),
+            )
+            all_details[standing["team"]] = {**detail, "group": standing["group"]}
+        annex_scenarios = annex_scenario_weights(all_details)
+        p_best8 = best8_third_probabilities(all_details, annex_scenarios)
         group = m["group"]
         rem_list = remaining.get(group, [])
         rem_opponents: list[str] = []
@@ -155,11 +183,10 @@ def build_standings_snapshots(matches: list[dict[str, Any]]) -> list[dict[str, A
             st = next((r for r in standings if r["team"] == team and r["group"] == group), None)
             if not st:
                 continue
-            from v37_common import path_detail_for_team
-
-            detail = path_detail_for_team(team, group, standings, kickoff)
+            detail = all_details[team]
             win_nec = clip_win_necessity(detail)
             draw_util = float(detail.get("draw_acceptance", 0.3))
+            p_advance = min(1.0, float(detail.get("p_top2", 0.0)) + p_best8.get(team, 0.0))
             rows.append({
                 "snapshot_id": snap_id,
                 "match_id": m["match_id"],
@@ -181,6 +208,16 @@ def build_standings_snapshots(matches: list[dict[str, Any]]) -> list[dict[str, A
                 "elimination_risk_if_loss": str(detail.get("can_be_eliminated", False)).lower(),
                 "draw_utility": round(draw_util, 4),
                 "win_necessity": round(win_nec, 4),
+                "round_before": m["round"],
+                "path_state": detail.get("path_state", ""),
+                "state_reason_code": detail.get("state_reason_code", detail.get("state_reason_codes", "")),
+                "p_finish_1": detail.get("p_finish_1", 0.0),
+                "p_finish_2": detail.get("p_finish_2", 0.0),
+                "p_finish_3": detail.get("p_finish_3", 0.0),
+                "p_finish_4": detail.get("p_finish_4", 0.0),
+                "p_top2": detail.get("p_top2", 0.0),
+                "p_best8_third": p_best8.get(team, 0.0),
+                "p_advance": round(p_advance, 4),
             })
     return rows
 
@@ -188,7 +225,9 @@ def build_standings_snapshots(matches: list[dict[str, Any]]) -> list[dict[str, A
 def clip_win_necessity(detail: dict[str, Any]) -> float:
     state = detail.get("path_state", "")
     base = 0.25
-    if "must_win" in state:
+    if state in ("opening_round", "baseline_opening"):
+        base = 0.28
+    elif "must_win" in state:
         base = 0.75 if state == "must_win_big" else 0.68
     elif state in ("third_place_bubble", "control_destiny"):
         base = 0.55
@@ -244,7 +283,17 @@ def build_lineups_and_availability(match_filter: str = "") -> tuple[list[dict], 
             "source": "realtime_availability_signals",
             "updated_at": snum(sig, "updated_at"),
         })
-    return lineups, avail
+    deduped_avail: list[dict] = []
+    seen_avail: set[tuple[str, str, str, str]] = set()
+    for row in avail:
+        key = (
+            row["match_id"], row["team"], row["player"], row["signal_type"],
+        )
+        if key in seen_avail:
+            continue
+        seen_avail.add(key)
+        deduped_avail.append(row)
+    return lineups, deduped_avail
 
 
 def build_match_stats_pre(match_filter: str = "") -> tuple[list[dict], list[dict]]:
@@ -252,14 +301,22 @@ def build_match_stats_pre(match_filter: str = "") -> tuple[list[dict], list[dict
     stats_rows: list[dict] = []
     team_recent_rows: list[dict] = []
     xg_all = read_csv(MATCH_XG)
+    fixture_kickoffs = {
+        (m["home_team"], m["away_team"]): kickoff_from_mapping(m)
+        for m in load_mapping()
+    }
 
     for m in load_mapping(match_filter):
         mid = m["internal_match_id"]
         kickoff = kickoff_from_mapping(m)
+        cutoff = pre_kickoff_cutoff(kickoff)
         for team, side in ((m["home_team"], "home"), (m["away_team"], "away")):
             prior = [
                 r for r in xg_all
-                if _kickoff_date(r) < kickoff.date()
+                if fixture_kickoffs.get(
+                    (r["home_team"], r["away_team"]),
+                    datetime.combine(_kickoff_date(r), datetime.min.time(), tzinfo=timezone.utc),
+                ) < cutoff
                 and team in (r["home_team"], r["away_team"])
             ]
             agg = _aggregate_team_xg(team, prior)
@@ -382,6 +439,9 @@ def _aggregate_team_xg(team: str, rows: list[dict[str, str]]) -> dict[str, float
 
 def build_odds_snapshots(match_filter: str = "") -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
+    existing = read_csv(NORMALIZED_TABLES["odds_snapshots"])
+    if match_filter:
+        existing = [r for r in existing if r.get("match_id") == match_filter]
     odds_all = read_csv(JC_ODDS_SUMMARY)
     fetched = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -422,6 +482,42 @@ def build_odds_snapshots(match_filter: str = "") -> list[dict[str, Any]]:
         add_row("hhad", "draw", snum(odds, "hhad_draw"), handicap=line, single=snum(odds, "hhad_single"))
         add_row("hhad", "away", snum(odds, "hhad_away"), handicap=line, single=snum(odds, "hhad_single"))
 
+    seen = {
+        (
+            r.get("match_id", ""),
+            r.get("market", ""),
+            r.get("selection", ""),
+            r.get("provider", ""),
+            r.get("fetched_at_utc", ""),
+            r.get("is_opening", ""),
+            r.get("is_closing", ""),
+        )
+        for r in rows
+    }
+    current_local = {
+        (r.get("match_id", ""), r.get("market", ""), r.get("selection", ""), r.get("provider", ""))
+        for r in rows
+        if r.get("provider") == "local_jc_odds"
+    }
+    for row in existing:
+        local_identity = (
+            row.get("match_id", ""), row.get("market", ""),
+            row.get("selection", ""), row.get("provider", ""),
+        )
+        if row.get("provider") == "local_jc_odds" and local_identity in current_local:
+            continue
+        key = (
+            row.get("match_id", ""),
+            row.get("market", ""),
+            row.get("selection", ""),
+            row.get("provider", ""),
+            row.get("fetched_at_utc", ""),
+            row.get("is_opening", ""),
+            row.get("is_closing", ""),
+        )
+        if key not in seen:
+            rows.append(row)
+            seen.add(key)
     return rows
 
 

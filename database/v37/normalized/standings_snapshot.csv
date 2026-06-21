@@ -1,145 +1,145 @@
-﻿snapshot_id,match_id,group,team,points_before,played_before,wins_before,draws_before,losses_before,gf_before,ga_before,gd_before,rank_before,remaining_matches,remaining_opponents,can_qualify_if_win,can_qualify_if_draw,elimination_risk_if_loss,draw_utility,win_necessity
-V37_PRE_WC2026-A1,WC2026-A1,A,Mexico,0,0,0,0,0,0,0,0,3,3,Czechia;South Korea,true,true,true,0.1,0.7325
-V37_PRE_WC2026-A1,WC2026-A1,A,South Africa,0,0,0,0,0,0,0,0,4,3,Czechia;South Korea,true,true,true,0.1,0.7325
-V37_PRE_WC2026-A2,WC2026-A2,A,South Korea,0,0,0,0,0,0,0,0,3,3,Mexico;South Africa,true,true,true,0.1,0.7325
-V37_PRE_WC2026-A2,WC2026-A2,A,Czechia,0,0,0,0,0,0,0,0,2,3,Mexico;South Africa,true,true,false,0.1,0.7325
-V37_PRE_WC2026-B3,WC2026-B3,B,Canada,0,0,0,0,0,0,0,0,2,3,Qatar;Switzerland,true,true,false,0.1,0.7325
-V37_PRE_WC2026-B3,WC2026-B3,B,Bosnia and Herzegovina,0,0,0,0,0,0,0,0,4,3,Qatar;Switzerland,true,true,true,0.1,0.7325
-V37_PRE_WC2026-D4,WC2026-D4,D,USA,0,0,0,0,0,0,0,0,1,3,Australia;Turkey,true,true,false,0.1,0.7325
-V37_PRE_WC2026-D4,WC2026-D4,D,Paraguay,0,0,0,0,0,0,0,0,3,3,Australia;Turkey,true,true,true,0.1,0.7325
-V37_PRE_WC2026-C5,WC2026-C5,C,Haiti,0,0,0,0,0,0,0,0,3,3,Brazil;Morocco,true,true,true,0.1,0.7325
-V37_PRE_WC2026-C5,WC2026-C5,C,Scotland,0,0,0,0,0,0,0,0,4,3,Brazil;Morocco,true,true,true,0.1,0.7325
-V37_PRE_WC2026-D6,WC2026-D6,D,Australia,3,1,1,0,0,2,0,2,2,2,Paraguay;USA,true,true,false,0.45,0.42
-V37_PRE_WC2026-D6,WC2026-D6,D,Turkey,0,1,0,0,1,0,2,-2,3,2,Paraguay;USA,true,true,true,0.1,0.7325
-V37_PRE_WC2026-C7,WC2026-C7,C,Brazil,0,0,0,0,0,0,0,0,3,3,Haiti;Scotland,true,true,true,0.1,0.7325
-V37_PRE_WC2026-C7,WC2026-C7,C,Morocco,0,0,0,0,0,0,0,0,1,3,Haiti;Scotland,true,true,false,0.1,0.7325
-V37_PRE_WC2026-B8,WC2026-B8,B,Qatar,0,0,0,0,0,0,0,0,4,3,Bosnia and Herzegovina;Canada,true,true,true,0.1,0.7325
-V37_PRE_WC2026-B8,WC2026-B8,B,Switzerland,0,0,0,0,0,0,0,0,3,3,Bosnia and Herzegovina;Canada,true,true,true,0.1,0.7325
-V37_PRE_WC2026-E9,WC2026-E9,E,Ivory Coast,0,0,0,0,0,0,0,0,3,3,Curacao;Germany,true,true,true,0.1,0.7325
-V37_PRE_WC2026-E9,WC2026-E9,E,Ecuador,0,0,0,0,0,0,0,0,2,3,Curacao;Germany,true,true,false,0.1,0.7325
-V37_PRE_WC2026-E10,WC2026-E10,E,Germany,0,0,0,0,0,0,0,0,1,3,Ecuador;Ivory Coast,true,true,false,0.1,0.7325
-V37_PRE_WC2026-E10,WC2026-E10,E,Curacao,0,0,0,0,0,0,0,0,4,3,Ecuador;Ivory Coast,true,true,true,0.1,0.7325
-V37_PRE_WC2026-F11,WC2026-F11,F,Netherlands,0,0,0,0,0,0,0,0,4,3,Sweden;Tunisia,true,true,true,0.1,0.7325
-V37_PRE_WC2026-F11,WC2026-F11,F,Japan,0,0,0,0,0,0,0,0,1,2,Sweden;Tunisia,true,true,false,0.1,0.7325
-V37_PRE_WC2026-F12,WC2026-F12,F,Sweden,0,0,0,0,0,0,0,0,3,3,Japan;Netherlands,true,true,true,0.1,0.7325
-V37_PRE_WC2026-F12,WC2026-F12,F,Tunisia,0,0,0,0,0,0,0,0,4,2,Japan;Netherlands,true,true,true,0.1,0.7325
-V37_PRE_WC2026-H13,WC2026-H13,H,Saudi Arabia,0,0,0,0,0,0,0,0,4,3,Cape Verde;Spain,true,true,true,0.1,0.7325
-V37_PRE_WC2026-H13,WC2026-H13,H,Uruguay,0,0,0,0,0,0,0,0,3,3,Cape Verde;Spain,true,true,true,0.1,0.7325
-V37_PRE_WC2026-H14,WC2026-H14,H,Spain,0,0,0,0,0,0,0,0,2,3,Saudi Arabia;Uruguay,true,true,false,0.1,0.7325
-V37_PRE_WC2026-H14,WC2026-H14,H,Cape Verde,0,0,0,0,0,0,0,0,4,3,Saudi Arabia;Uruguay,true,true,true,0.1,0.7325
-V37_PRE_WC2026-G15,WC2026-G15,G,Iran,0,0,0,0,0,0,0,0,4,3,Belgium;Egypt,true,true,true,0.1,0.7325
-V37_PRE_WC2026-G15,WC2026-G15,G,New Zealand,0,0,0,0,0,0,0,0,3,3,Belgium;Egypt,true,true,true,0.1,0.7325
-V37_PRE_WC2026-G16,WC2026-G16,G,Belgium,0,0,0,0,0,0,0,0,3,3,Iran;New Zealand,true,true,true,0.1,0.7325
-V37_PRE_WC2026-G16,WC2026-G16,G,Egypt,0,0,0,0,0,0,0,0,4,3,Iran;New Zealand,true,true,true,0.1,0.7325
-V37_PRE_WC2026-I17,WC2026-I17,I,France,0,0,0,0,0,0,0,0,1,3,Iraq;Norway,true,true,false,0.1,0.7325
-V37_PRE_WC2026-I17,WC2026-I17,I,Senegal,0,0,0,0,0,0,0,0,2,3,Iraq;Norway,true,true,false,0.1,0.7325
-V37_PRE_WC2026-I18,WC2026-I18,I,Iraq,0,0,0,0,0,0,0,0,3,3,France;Senegal,true,true,true,0.1,0.7325
-V37_PRE_WC2026-I18,WC2026-I18,I,Norway,0,0,0,0,0,0,0,0,2,3,France;Senegal,true,true,false,0.1,0.7325
-V37_PRE_WC2026-J19,WC2026-J19,J,Argentina,0,0,0,0,0,0,0,0,2,3,Austria;Jordan,true,true,false,0.1,0.7325
-V37_PRE_WC2026-J19,WC2026-J19,J,Algeria,0,0,0,0,0,0,0,0,3,3,Austria;Jordan,true,true,true,0.1,0.7325
-V37_PRE_WC2026-J20,WC2026-J20,J,Austria,3,1,1,0,0,3,1,2,1,2,Algeria;Argentina,true,true,false,0.3,0.55
-V37_PRE_WC2026-J20,WC2026-J20,J,Jordan,0,1,0,0,1,1,3,-2,4,2,Algeria;Argentina,true,true,true,0.1,0.7325
-V37_PRE_WC2026-L21,WC2026-L21,L,Ghana,0,0,0,0,0,0,0,0,3,3,Croatia;England,true,true,true,0.1,0.7325
-V37_PRE_WC2026-L21,WC2026-L21,L,Panama,0,0,0,0,0,0,0,0,2,3,Croatia;England,true,true,false,0.1,0.7325
-V37_PRE_WC2026-L22,WC2026-L22,L,England,0,0,0,0,0,0,0,0,1,3,Ghana;Panama,true,true,false,0.1,0.7325
-V37_PRE_WC2026-L22,WC2026-L22,L,Croatia,0,0,0,0,0,0,0,0,2,3,Ghana;Panama,true,true,false,0.1,0.7325
-V37_PRE_WC2026-K23,WC2026-K23,K,Portugal,0,0,0,0,0,0,0,0,4,3,Colombia;Uzbekistan,true,true,true,0.1,0.7325
-V37_PRE_WC2026-K23,WC2026-K23,K,DR Congo,0,0,0,0,0,0,0,0,3,3,Colombia;Uzbekistan,true,true,true,0.1,0.7325
-V37_PRE_WC2026-K24,WC2026-K24,K,Uzbekistan,0,0,0,0,0,0,0,0,4,3,DR Congo;Portugal,true,true,true,0.1,0.7325
-V37_PRE_WC2026-K24,WC2026-K24,K,Colombia,0,0,0,0,0,0,0,0,3,3,DR Congo;Portugal,true,true,true,0.1,0.7325
-V37_PRE_WC2026-A25,WC2026-A25,A,Czechia,0,1,0,0,1,1,2,-1,3,2,Mexico;South Korea,true,true,true,0.1,0.7325
-V37_PRE_WC2026-A25,WC2026-A25,A,South Africa,0,1,0,0,1,0,2,-2,4,2,Mexico;South Korea,true,true,true,0.1,0.7325
-V37_PRE_WC2026-B26,WC2026-B26,B,Switzerland,1,1,0,1,0,1,1,0,1,2,Canada;Qatar,true,true,false,0.3,0.35
-V37_PRE_WC2026-B26,WC2026-B26,B,Bosnia and Herzegovina,1,1,0,1,0,1,1,0,4,2,Canada;Qatar,true,true,true,0.3,0.35
-V37_PRE_WC2026-B27,WC2026-B27,B,Canada,1,1,0,1,0,1,1,0,2,2,Bosnia and Herzegovina;Switzerland,true,true,false,0.3,0.35
-V37_PRE_WC2026-B27,WC2026-B27,B,Qatar,1,1,0,1,0,1,1,0,3,2,Bosnia and Herzegovina;Switzerland,true,true,true,0.3,0.35
-V37_PRE_WC2026-A28,WC2026-A28,A,Mexico,3,1,1,0,0,2,0,2,1,2,Czechia;South Africa,true,true,false,0.3,0.55
-V37_PRE_WC2026-A28,WC2026-A28,A,South Korea,3,1,1,0,0,2,1,1,2,2,Czechia;South Africa,true,true,false,0.45,0.42
-V37_PRE_WC2026-C29,WC2026-C29,C,Brazil,1,1,0,1,0,1,1,0,3,2,Morocco;Scotland,true,true,true,0.1,0.7325
-V37_PRE_WC2026-C29,WC2026-C29,C,Haiti,0,1,0,0,1,0,1,-1,4,2,Morocco;Scotland,true,true,true,0.1,0.7325
-V37_PRE_WC2026-C30,WC2026-C30,C,Scotland,3,1,1,0,0,1,0,1,1,2,Brazil;Haiti,true,true,false,0.3,0.55
-V37_PRE_WC2026-C30,WC2026-C30,C,Morocco,1,1,0,1,0,1,1,0,2,2,Brazil;Haiti,true,true,false,0.1,0.7325
-V37_PRE_WC2026-D31,WC2026-D31,D,Turkey,0,1,0,0,1,0,2,-2,3,2,Australia;USA,true,true,true,0.1,0.7325
-V37_PRE_WC2026-D31,WC2026-D31,D,Paraguay,0,1,0,0,1,1,4,-3,4,2,Australia;USA,true,true,true,0.1,0.855
-V37_PRE_WC2026-D32,WC2026-D32,D,USA,3,1,1,0,0,4,1,3,1,2,Paraguay;Turkey,true,true,false,0.3,0.55
-V37_PRE_WC2026-D32,WC2026-D32,D,Australia,3,1,1,0,0,2,0,2,2,2,Paraguay;Turkey,true,true,false,0.45,0.42
-V37_PRE_WC2026-E33,WC2026-E33,E,Germany,3,1,1,0,0,7,1,6,1,2,Curacao;Ecuador,true,true,false,0.3,0.55
-V37_PRE_WC2026-E33,WC2026-E33,E,Ivory Coast,3,1,1,0,0,1,0,1,2,2,Curacao;Ecuador,true,true,false,0.45,0.42
-V37_PRE_WC2026-E34,WC2026-E34,E,Ecuador,0,1,0,0,1,0,1,-1,3,2,Germany;Ivory Coast,true,true,true,0.1,0.7325
-V37_PRE_WC2026-E34,WC2026-E34,E,Curacao,0,1,0,0,1,1,7,-6,4,2,Germany;Ivory Coast,true,true,true,0.1,0.855
-V37_PRE_WC2026-F35,WC2026-F35,F,Netherlands,1,1,0,1,0,2,2,0,3,2,Japan;Tunisia,true,true,true,0.1,0.7325
-V37_PRE_WC2026-F35,WC2026-F35,F,Sweden,3,1,1,0,0,5,1,4,1,2,Japan;Tunisia,true,true,false,0.3,0.55
-V37_PRE_WC2026-F36,WC2026-F36,F,Tunisia,0,1,0,0,1,1,5,-4,4,1,Netherlands;Sweden,true,true,true,0.1,0.855
-V37_PRE_WC2026-F36,WC2026-F36,F,Japan,1,1,0,1,0,2,2,0,2,1,Netherlands;Sweden,true,true,false,0.1,0.7325
-V37_PRE_WC2026-H37,WC2026-H37,H,Uruguay,1,1,0,1,0,1,1,0,1,2,Saudi Arabia;Spain,true,true,false,0.3,0.35
-V37_PRE_WC2026-H37,WC2026-H37,H,Cape Verde,1,1,0,1,0,0,0,0,4,2,Saudi Arabia;Spain,true,true,true,0.3,0.35
-V37_PRE_WC2026-H38,WC2026-H38,H,Spain,1,1,0,1,0,0,0,0,3,2,Cape Verde;Uruguay,true,true,true,0.3,0.35
-V37_PRE_WC2026-H38,WC2026-H38,H,Saudi Arabia,1,1,0,1,0,1,1,0,2,2,Cape Verde;Uruguay,true,true,false,0.3,0.35
-V37_PRE_WC2026-G39,WC2026-G39,G,Belgium,1,1,0,1,0,1,1,0,3,2,Egypt;New Zealand,true,true,true,0.3,0.35
-V37_PRE_WC2026-G39,WC2026-G39,G,Iran,1,1,0,1,0,2,2,0,2,2,Egypt;New Zealand,true,true,false,0.3,0.35
-V37_PRE_WC2026-G40,WC2026-G40,G,New Zealand,1,1,0,1,0,2,2,0,1,2,Belgium;Iran,true,true,false,0.3,0.35
-V37_PRE_WC2026-G40,WC2026-G40,G,Egypt,1,1,0,1,0,1,1,0,4,2,Belgium;Iran,true,true,true,0.3,0.35
-V37_PRE_WC2026-I41,WC2026-I41,I,Norway,3,1,1,0,0,4,1,3,1,2,France;Iraq,true,true,false,0.3,0.55
-V37_PRE_WC2026-I41,WC2026-I41,I,Senegal,0,1,0,0,1,1,3,-2,3,2,France;Iraq,true,true,true,0.1,0.7325
-V37_PRE_WC2026-I42,WC2026-I42,I,France,3,1,1,0,0,3,1,2,2,2,Norway;Senegal,true,true,false,0.45,0.42
-V37_PRE_WC2026-I42,WC2026-I42,I,Iraq,0,1,0,0,1,1,4,-3,4,2,Norway;Senegal,true,true,true,0.1,0.855
-V37_PRE_WC2026-J43,WC2026-J43,J,Argentina,3,1,1,0,0,3,0,3,1,2,Algeria;Jordan,true,true,false,0.3,0.55
-V37_PRE_WC2026-J43,WC2026-J43,J,Austria,3,1,1,0,0,3,1,2,2,2,Algeria;Jordan,true,true,false,0.45,0.42
-V37_PRE_WC2026-J44,WC2026-J44,J,Jordan,0,1,0,0,1,1,3,-2,3,2,Argentina;Austria,true,true,true,0.1,0.7325
-V37_PRE_WC2026-J44,WC2026-J44,J,Algeria,0,1,0,0,1,0,3,-3,4,2,Argentina;Austria,true,true,true,0.1,0.855
-V37_PRE_WC2026-L45,WC2026-L45,L,England,3,1,1,0,0,4,2,2,1,2,Croatia;Panama,true,true,false,0.3,0.55
-V37_PRE_WC2026-L45,WC2026-L45,L,Ghana,3,1,1,0,0,1,0,1,2,2,Croatia;Panama,true,true,false,0.45,0.42
-V37_PRE_WC2026-L46,WC2026-L46,L,Panama,0,1,0,0,1,0,1,-1,3,2,England;Ghana,true,true,true,0.1,0.7325
-V37_PRE_WC2026-L46,WC2026-L46,L,Croatia,0,1,0,0,1,2,4,-2,4,2,England;Ghana,true,true,true,0.1,0.7325
-V37_PRE_WC2026-K47,WC2026-K47,K,Portugal,1,1,0,1,0,1,1,0,3,2,Colombia;DR Congo,true,true,true,0.1,0.7325
-V37_PRE_WC2026-K47,WC2026-K47,K,Uzbekistan,0,1,0,0,1,1,3,-2,4,2,Colombia;DR Congo,true,true,true,0.1,0.7325
-V37_PRE_WC2026-K48,WC2026-K48,K,Colombia,3,1,1,0,0,3,1,2,1,2,Portugal;Uzbekistan,true,true,false,0.3,0.55
-V37_PRE_WC2026-K48,WC2026-K48,K,DR Congo,1,1,0,1,0,1,1,0,2,2,Portugal;Uzbekistan,true,true,false,0.1,0.7325
-V37_PRE_WC2026-C49,WC2026-C49,C,Scotland,3,2,1,0,1,1,1,0,3,1,,true,true,false,0.25,0.5875
-V37_PRE_WC2026-C49,WC2026-C49,C,Brazil,4,2,1,1,0,4,1,3,1,1,,true,true,false,0.55,0.5
-V37_PRE_WC2026-C50,WC2026-C50,C,Morocco,4,2,1,1,0,2,1,1,2,1,,true,true,false,0.55,0.5
-V37_PRE_WC2026-C50,WC2026-C50,C,Haiti,0,2,0,0,2,0,4,-4,4,1,,true,true,true,0.1,0.855
-V37_PRE_WC2026-B51,WC2026-B51,B,Switzerland,4,2,1,1,0,5,2,3,2,1,,true,true,false,0.55,0.5
-V37_PRE_WC2026-B51,WC2026-B51,B,Canada,4,2,1,1,0,7,1,6,1,1,,true,true,false,0.55,0.5
-V37_PRE_WC2026-B52,WC2026-B52,B,Bosnia and Herzegovina,1,2,0,1,1,2,5,-3,3,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-B52,WC2026-B52,B,Qatar,1,2,0,1,1,1,7,-6,4,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-A53,WC2026-A53,A,Czechia,1,2,0,1,1,2,3,-1,3,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-A53,WC2026-A53,A,Mexico,6,2,2,0,0,3,0,3,1,1,,true,true,false,0.75,0.15
-V37_PRE_WC2026-A54,WC2026-A54,A,South Africa,1,2,0,1,1,1,3,-2,4,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-A54,WC2026-A54,A,South Korea,3,2,1,0,1,2,2,0,2,1,,true,true,false,0.45,0.42
-V37_PRE_WC2026-E55,WC2026-E55,E,Curacao,0,1,0,0,1,1,7,-6,4,1,,true,true,true,0.1,0.855
-V37_PRE_WC2026-E55,WC2026-E55,E,Ivory Coast,3,1,1,0,0,1,0,1,2,1,,true,true,false,0.45,0.42
-V37_PRE_WC2026-E56,WC2026-E56,E,Ecuador,0,1,0,0,1,0,1,-1,3,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-E56,WC2026-E56,E,Germany,3,1,1,0,0,7,1,6,1,1,,true,true,false,0.3,0.55
-V37_PRE_WC2026-F57,WC2026-F57,F,Japan,1,1,0,1,0,2,2,0,2,1,,true,true,false,0.1,0.7325
-V37_PRE_WC2026-F57,WC2026-F57,F,Sweden,3,1,1,0,0,5,1,4,1,1,,true,true,false,0.3,0.55
-V37_PRE_WC2026-F58,WC2026-F58,F,Tunisia,0,1,0,0,1,1,5,-4,4,1,,true,true,true,0.1,0.855
-V37_PRE_WC2026-F58,WC2026-F58,F,Netherlands,1,1,0,1,0,2,2,0,3,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-D59,WC2026-D59,D,Turkey,0,2,0,0,2,0,3,-3,4,1,,true,true,true,0.1,0.855
-V37_PRE_WC2026-D59,WC2026-D59,D,USA,6,2,2,0,0,6,1,5,1,1,,true,true,false,0.75,0.15
-V37_PRE_WC2026-D60,WC2026-D60,D,Paraguay,3,2,1,0,1,2,4,-2,3,1,,true,true,false,0.25,0.625
-V37_PRE_WC2026-D60,WC2026-D60,D,Australia,3,2,1,0,1,2,2,0,2,1,,true,true,false,0.45,0.42
-V37_PRE_WC2026-I61,WC2026-I61,I,Norway,3,1,1,0,0,4,1,3,1,1,,true,true,false,0.3,0.55
-V37_PRE_WC2026-I61,WC2026-I61,I,France,3,1,1,0,0,3,1,2,2,1,,true,true,false,0.45,0.42
-V37_PRE_WC2026-I62,WC2026-I62,I,Senegal,0,1,0,0,1,1,3,-2,3,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-I62,WC2026-I62,I,Iraq,0,1,0,0,1,1,4,-3,4,1,,true,true,true,0.1,0.855
-V37_PRE_WC2026-G63,WC2026-G63,G,Egypt,1,1,0,1,0,1,1,0,4,1,,true,true,true,0.3,0.35
-V37_PRE_WC2026-G63,WC2026-G63,G,Iran,1,1,0,1,0,2,2,0,2,1,,true,true,false,0.3,0.35
-V37_PRE_WC2026-G64,WC2026-G64,G,New Zealand,1,1,0,1,0,2,2,0,1,1,,true,true,false,0.3,0.35
-V37_PRE_WC2026-G64,WC2026-G64,G,Belgium,1,1,0,1,0,1,1,0,3,1,,true,true,true,0.3,0.35
-V37_PRE_WC2026-H65,WC2026-H65,H,Cape Verde,1,1,0,1,0,0,0,0,4,1,,true,true,true,0.3,0.35
-V37_PRE_WC2026-H65,WC2026-H65,H,Saudi Arabia,1,1,0,1,0,1,1,0,2,1,,true,true,false,0.3,0.35
-V37_PRE_WC2026-H66,WC2026-H66,H,Uruguay,1,1,0,1,0,1,1,0,1,1,,true,true,false,0.3,0.35
-V37_PRE_WC2026-H66,WC2026-H66,H,Spain,1,1,0,1,0,0,0,0,3,1,,true,true,true,0.3,0.35
-V37_PRE_WC2026-L67,WC2026-L67,L,Panama,0,1,0,0,1,0,1,-1,3,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-L67,WC2026-L67,L,England,3,1,1,0,0,4,2,2,1,1,,true,true,false,0.3,0.55
-V37_PRE_WC2026-L68,WC2026-L68,L,Croatia,0,1,0,0,1,2,4,-2,4,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-L68,WC2026-L68,L,Ghana,3,1,1,0,0,1,0,1,2,1,,true,true,false,0.45,0.42
-V37_PRE_WC2026-J69,WC2026-J69,J,Algeria,0,1,0,0,1,0,3,-3,4,1,,true,true,true,0.1,0.855
-V37_PRE_WC2026-J69,WC2026-J69,J,Austria,3,1,1,0,0,3,1,2,2,1,,true,true,false,0.45,0.42
-V37_PRE_WC2026-J70,WC2026-J70,J,Jordan,0,1,0,0,1,1,3,-2,3,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-J70,WC2026-J70,J,Argentina,3,1,1,0,0,3,0,3,1,1,,true,true,false,0.3,0.55
-V37_PRE_WC2026-K71,WC2026-K71,K,Colombia,3,1,1,0,0,3,1,2,1,1,,true,true,false,0.3,0.55
-V37_PRE_WC2026-K71,WC2026-K71,K,Portugal,1,1,0,1,0,1,1,0,3,1,,true,true,true,0.1,0.7325
-V37_PRE_WC2026-K72,WC2026-K72,K,DR Congo,1,1,0,1,0,1,1,0,2,1,,true,true,false,0.1,0.7325
-V37_PRE_WC2026-K72,WC2026-K72,K,Uzbekistan,0,1,0,0,1,1,3,-2,4,1,,true,true,true,0.1,0.7325
+﻿snapshot_id,match_id,group,team,points_before,played_before,wins_before,draws_before,losses_before,gf_before,ga_before,gd_before,rank_before,remaining_matches,remaining_opponents,can_qualify_if_win,can_qualify_if_draw,elimination_risk_if_loss,draw_utility,win_necessity,round_before,path_state,state_reason_code,p_finish_1,p_finish_2,p_finish_3,p_finish_4,p_top2,p_best8_third,p_advance
+V37_PRE_WC2026-A1,WC2026-A1,A,Mexico,0,0,0,0,0,0,0,0,3,3,Czechia;South Korea,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1667,0.6667
+V37_PRE_WC2026-A1,WC2026-A1,A,South Africa,0,0,0,0,0,0,0,0,4,3,Czechia;South Korea,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1667,0.6667
+V37_PRE_WC2026-A2,WC2026-A2,A,South Korea,0,0,0,0,0,0,0,0,3,3,Mexico;South Africa,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1667,0.6667
+V37_PRE_WC2026-A2,WC2026-A2,A,Czechia,0,0,0,0,0,0,0,0,2,3,Mexico;South Africa,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1667,0.6667
+V37_PRE_WC2026-B3,WC2026-B3,B,Canada,0,0,0,0,0,0,0,0,2,3,Qatar;Switzerland,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1673,0.6673
+V37_PRE_WC2026-B3,WC2026-B3,B,Bosnia and Herzegovina,0,0,0,0,0,0,0,0,4,3,Qatar;Switzerland,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1673,0.6673
+V37_PRE_WC2026-D4,WC2026-D4,D,USA,0,0,0,0,0,0,0,0,1,3,Australia;Turkey,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1673,0.6673
+V37_PRE_WC2026-D4,WC2026-D4,D,Paraguay,0,0,0,0,0,0,0,0,3,3,Australia;Turkey,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1673,0.6673
+V37_PRE_WC2026-C5,WC2026-C5,C,Haiti,0,0,0,0,0,0,0,0,3,3,Brazil;Morocco,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1656,0.6656
+V37_PRE_WC2026-C5,WC2026-C5,C,Scotland,0,0,0,0,0,0,0,0,4,3,Brazil;Morocco,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1656,0.6656
+V37_PRE_WC2026-D6,WC2026-D6,D,Australia,0,0,0,0,0,0,0,0,2,3,Paraguay;USA,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.164,0.664
+V37_PRE_WC2026-D6,WC2026-D6,D,Turkey,0,0,0,0,0,0,0,0,3,3,Paraguay;USA,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.164,0.664
+V37_PRE_WC2026-C7,WC2026-C7,C,Brazil,0,0,0,0,0,0,0,0,3,3,Haiti;Scotland,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1656,0.6656
+V37_PRE_WC2026-C7,WC2026-C7,C,Morocco,0,0,0,0,0,0,0,0,1,3,Haiti;Scotland,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1656,0.6656
+V37_PRE_WC2026-B8,WC2026-B8,B,Qatar,0,0,0,0,0,0,0,0,4,3,Bosnia and Herzegovina;Canada,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1673,0.6673
+V37_PRE_WC2026-B8,WC2026-B8,B,Switzerland,0,0,0,0,0,0,0,0,3,3,Bosnia and Herzegovina;Canada,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1673,0.6673
+V37_PRE_WC2026-E9,WC2026-E9,E,Ivory Coast,0,0,0,0,0,0,0,0,3,3,Curacao;Germany,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1653,0.6653
+V37_PRE_WC2026-E9,WC2026-E9,E,Ecuador,0,0,0,0,0,0,0,0,2,3,Curacao;Germany,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1653,0.6653
+V37_PRE_WC2026-E10,WC2026-E10,E,Germany,0,0,0,0,0,0,0,0,1,3,Ecuador;Ivory Coast,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1653,0.6653
+V37_PRE_WC2026-E10,WC2026-E10,E,Curacao,0,0,0,0,0,0,0,0,4,3,Ecuador;Ivory Coast,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1653,0.6653
+V37_PRE_WC2026-F11,WC2026-F11,F,Netherlands,0,0,0,0,0,0,0,0,4,3,Sweden;Tunisia,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1653,0.6653
+V37_PRE_WC2026-F11,WC2026-F11,F,Japan,0,0,0,0,0,0,0,0,1,3,Sweden;Tunisia,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1653,0.6653
+V37_PRE_WC2026-F12,WC2026-F12,F,Sweden,0,0,0,0,0,0,0,0,3,3,Japan;Netherlands,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1659,0.6659
+V37_PRE_WC2026-F12,WC2026-F12,F,Tunisia,0,0,0,0,0,0,0,0,4,3,Japan;Netherlands,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1659,0.6659
+V37_PRE_WC2026-H13,WC2026-H13,H,Saudi Arabia,0,0,0,0,0,0,0,0,4,3,Cape Verde;Spain,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-H13,WC2026-H13,H,Uruguay,0,0,0,0,0,0,0,0,3,3,Cape Verde;Spain,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-H14,WC2026-H14,H,Spain,0,0,0,0,0,0,0,0,2,3,Saudi Arabia;Uruguay,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-H14,WC2026-H14,H,Cape Verde,0,0,0,0,0,0,0,0,4,3,Saudi Arabia;Uruguay,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-G15,WC2026-G15,G,Iran,0,0,0,0,0,0,0,0,4,3,Belgium;Egypt,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1638,0.6638
+V37_PRE_WC2026-G15,WC2026-G15,G,New Zealand,0,0,0,0,0,0,0,0,3,3,Belgium;Egypt,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1638,0.6638
+V37_PRE_WC2026-G16,WC2026-G16,G,Belgium,0,0,0,0,0,0,0,0,3,3,Iran;New Zealand,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-G16,WC2026-G16,G,Egypt,0,0,0,0,0,0,0,0,4,3,Iran;New Zealand,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-I17,WC2026-I17,I,France,0,0,0,0,0,0,0,0,1,3,Iraq;Norway,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-I17,WC2026-I17,I,Senegal,0,0,0,0,0,0,0,0,2,3,Iraq;Norway,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-I18,WC2026-I18,I,Iraq,0,0,0,0,0,0,0,0,3,3,France;Senegal,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-I18,WC2026-I18,I,Norway,0,0,0,0,0,0,0,0,2,3,France;Senegal,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1642,0.6642
+V37_PRE_WC2026-J19,WC2026-J19,J,Argentina,0,0,0,0,0,0,0,0,1,3,Austria;Jordan,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1621,0.6621
+V37_PRE_WC2026-J19,WC2026-J19,J,Algeria,0,0,0,0,0,0,0,0,3,3,Austria;Jordan,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1621,0.6621
+V37_PRE_WC2026-J20,WC2026-J20,J,Austria,0,0,0,0,0,0,0,0,2,3,Algeria;Argentina,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1621,0.6621
+V37_PRE_WC2026-J20,WC2026-J20,J,Jordan,0,0,0,0,0,0,0,0,3,3,Algeria;Argentina,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1621,0.6621
+V37_PRE_WC2026-L21,WC2026-L21,L,Ghana,0,0,0,0,0,0,0,0,3,3,Croatia;England,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1632,0.6632
+V37_PRE_WC2026-L21,WC2026-L21,L,Panama,0,0,0,0,0,0,0,0,2,3,Croatia;England,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1632,0.6632
+V37_PRE_WC2026-L22,WC2026-L22,L,England,0,0,0,0,0,0,0,0,1,3,Ghana;Panama,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1615,0.6615
+V37_PRE_WC2026-L22,WC2026-L22,L,Croatia,0,0,0,0,0,0,0,0,2,3,Ghana;Panama,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1615,0.6615
+V37_PRE_WC2026-K23,WC2026-K23,K,Portugal,0,0,0,0,0,0,0,0,4,3,Colombia;Uzbekistan,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1615,0.6615
+V37_PRE_WC2026-K23,WC2026-K23,K,DR Congo,0,0,0,0,0,0,0,0,3,3,Colombia;Uzbekistan,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1615,0.6615
+V37_PRE_WC2026-K24,WC2026-K24,K,Uzbekistan,0,0,0,0,0,0,0,0,4,3,DR Congo;Portugal,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1638,0.6638
+V37_PRE_WC2026-K24,WC2026-K24,K,Colombia,0,0,0,0,0,0,0,0,3,3,DR Congo;Portugal,true,true,true,0.3,0.28,1,opening_round,R1_OPENING_BASELINE,0.25,0.25,0.25,0.25,0.5,0.1638,0.6638
+V37_PRE_WC2026-A25,WC2026-A25,A,Czechia,0,1,0,0,1,1,2,-1,3,2,Mexico;South Korea,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0.0247,0.1358,0.4321,0.4074,0.1605,0.2646,0.4251
+V37_PRE_WC2026-A25,WC2026-A25,A,South Africa,0,1,0,0,1,0,2,-2,4,2,Mexico;South Korea,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0.0247,0.1111,0.2963,0.5679,0.1358,0.1814,0.3172
+V37_PRE_WC2026-B26,WC2026-B26,B,Switzerland,1,1,0,1,0,1,1,0,1,2,Canada;Qatar,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.3457,0.2099,0.2716,0.1728,0.5556,0.1976,0.7532
+V37_PRE_WC2026-B26,WC2026-B26,B,Bosnia and Herzegovina,1,1,0,1,0,1,1,0,4,2,Canada;Qatar,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.1728,0.2716,0.2099,0.3457,0.4444,0.1527,0.5971
+V37_PRE_WC2026-B27,WC2026-B27,B,Canada,1,1,0,1,0,1,1,0,2,2,Bosnia and Herzegovina;Switzerland,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.2222,0.2593,0.4074,0.1111,0.4815,0.2963,0.7778
+V37_PRE_WC2026-B27,WC2026-B27,B,Qatar,1,1,0,1,0,1,1,0,3,2,Bosnia and Herzegovina;Switzerland,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.1111,0.3704,0.2963,0.2222,0.4815,0.2155,0.697
+V37_PRE_WC2026-A28,WC2026-A28,A,Mexico,3,1,1,0,0,2,0,2,1,2,Czechia;South Africa,true,true,true,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.5926,0.2963,0.0741,0.037,0.8889,0.0546,0.9435
+V37_PRE_WC2026-A28,WC2026-A28,A,South Korea,3,1,1,0,0,2,1,1,2,2,Czechia;South Africa,true,true,true,0.45,0.42,2,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0.4074,0.4815,0.0741,0.037,0.8889,0.0546,0.9435
+V37_PRE_WC2026-C29,WC2026-C29,C,Brazil,1,1,0,1,0,1,1,0,3,2,Morocco;Scotland,true,true,true,0.1,0.7325,2,must_win,MUST_WIN_SURVIVAL,0.1481,0.2222,0.2963,0.3333,0.3704,0.2056,0.576
+V37_PRE_WC2026-C29,WC2026-C29,C,Haiti,0,1,0,0,1,0,1,-1,4,2,Morocco;Scotland,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0.0741,0.1852,0.1852,0.5556,0.2593,0.1285,0.3878
+V37_PRE_WC2026-C30,WC2026-C30,C,Scotland,3,1,1,0,0,1,0,1,1,2,Brazil;Haiti,true,true,true,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.5185,0.2346,0.2099,0.037,0.7531,0.1574,0.9105
+V37_PRE_WC2026-C30,WC2026-C30,C,Morocco,1,1,0,1,0,1,1,0,2,2,Brazil;Haiti,true,true,true,0.1,0.7325,2,must_win,MUST_WIN_SURVIVAL,0.2469,0.2716,0.284,0.1975,0.5185,0.213,0.7315
+V37_PRE_WC2026-D31,WC2026-D31,D,Turkey,0,1,0,0,1,0,2,-2,3,2,Australia;USA,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0,0.1481,0.4444,0.4074,0.1481,0.2503,0.3984
+V37_PRE_WC2026-D31,WC2026-D31,D,Paraguay,0,1,0,0,1,1,4,-3,4,2,Australia;USA,true,true,true,0.1,0.855,2,must_win_big,R2_ZERO_POINTS_SURVIVAL,0,0.1852,0.2593,0.5556,0.1852,0.1461,0.3313
+V37_PRE_WC2026-D32,WC2026-D32,D,USA,3,1,1,0,0,4,1,3,1,2,Paraguay;Turkey,true,true,true,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.5556,0.3086,0.1235,0.0123,0.8642,0.0825,0.9467
+V37_PRE_WC2026-D32,WC2026-D32,D,Australia,3,1,1,0,0,2,0,2,2,2,Paraguay;Turkey,true,true,true,0.45,0.42,2,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0.3951,0.4444,0.1481,0.0123,0.8395,0.099,0.9385
+V37_PRE_WC2026-E33,WC2026-E33,E,Germany,3,1,1,0,0,7,1,6,1,2,Curacao;Ecuador,true,true,true,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.5556,0.3086,0.1235,0.0123,0.8642,0.082,0.9462
+V37_PRE_WC2026-E33,WC2026-E33,E,Ivory Coast,3,1,1,0,0,1,0,1,2,2,Curacao;Ecuador,true,true,true,0.45,0.42,2,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0.3951,0.4444,0.1481,0.0123,0.8395,0.0983,0.9378
+V37_PRE_WC2026-E34,WC2026-E34,E,Ecuador,0,1,0,0,1,0,1,-1,3,2,Germany;Ivory Coast,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0,0.1481,0.4444,0.4074,0.1481,0.2347,0.3828
+V37_PRE_WC2026-E34,WC2026-E34,E,Curacao,0,1,0,0,1,1,7,-6,4,2,Germany;Ivory Coast,true,true,true,0.1,0.855,2,must_win_big,R2_ZERO_POINTS_SURVIVAL,0,0.1852,0.2593,0.5556,0.1852,0.1369,0.3221
+V37_PRE_WC2026-F35,WC2026-F35,F,Netherlands,1,1,0,1,0,2,2,0,3,2,Japan;Tunisia,true,true,true,0.1,0.7325,2,must_win,MUST_WIN_SURVIVAL,0.1481,0.284,0.321,0.2469,0.4321,0.2439,0.676
+V37_PRE_WC2026-F35,WC2026-F35,F,Sweden,3,1,1,0,0,5,1,4,1,2,Japan;Tunisia,true,true,true,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.6049,0.2346,0.1235,0.037,0.8395,0.0938,0.9333
+V37_PRE_WC2026-F36,WC2026-F36,F,Tunisia,0,1,0,0,1,1,5,-4,4,2,Netherlands;Sweden,true,true,true,0.1,0.855,2,must_win_big,R2_ZERO_POINTS_SURVIVAL,0.0741,0.037,0.2963,0.5926,0.1111,0.1793,0.2904
+V37_PRE_WC2026-F36,WC2026-F36,F,Japan,1,1,0,1,0,2,2,0,3,2,Netherlands;Sweden,true,true,true,0.1,0.7325,2,must_win,MUST_WIN_SURVIVAL,0.1481,0.2593,0.2963,0.2963,0.4074,0.1793,0.5867
+V37_PRE_WC2026-H37,WC2026-H37,H,Uruguay,1,1,0,1,0,1,1,0,1,2,Saudi Arabia;Spain,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.3704,0.2593,0.1481,0.2222,0.6296,0.1013,0.7309
+V37_PRE_WC2026-H37,WC2026-H37,H,Cape Verde,1,1,0,1,0,0,0,0,4,2,Saudi Arabia;Spain,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.2963,0.2593,0.1852,0.2593,0.5556,0.1267,0.6823
+V37_PRE_WC2026-H38,WC2026-H38,H,Spain,1,1,0,1,0,0,0,0,3,2,Cape Verde;Uruguay,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.2346,0.1852,0.3333,0.2469,0.4198,0.228,0.6478
+V37_PRE_WC2026-H38,WC2026-H38,H,Saudi Arabia,1,1,0,1,0,1,1,0,2,2,Cape Verde;Uruguay,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.2469,0.3333,0.1852,0.2346,0.5802,0.1267,0.7069
+V37_PRE_WC2026-G39,WC2026-G39,G,Belgium,1,1,0,1,0,1,1,0,3,2,Egypt;New Zealand,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.2346,0.1852,0.3333,0.2469,0.4198,0.228,0.6478
+V37_PRE_WC2026-G39,WC2026-G39,G,Iran,1,1,0,1,0,2,2,0,2,2,Egypt;New Zealand,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.2469,0.3333,0.1852,0.2346,0.5802,0.1267,0.7069
+V37_PRE_WC2026-G40,WC2026-G40,G,New Zealand,1,1,0,1,0,2,2,0,1,2,Belgium;Iran,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.3704,0.2593,0.1481,0.2222,0.6296,0.1013,0.7309
+V37_PRE_WC2026-G40,WC2026-G40,G,Egypt,1,1,0,1,0,1,1,0,4,2,Belgium;Iran,true,true,true,0.3,0.35,2,open_group,OPEN_GROUP_TIED_ON_ONE,0.2963,0.2593,0.1852,0.2593,0.5556,0.1267,0.6823
+V37_PRE_WC2026-I41,WC2026-I41,I,Norway,3,1,1,0,0,4,1,3,1,2,France;Iraq,true,true,false,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.7407,0.1852,0.0741,0,0.9259,0.0439,0.9698
+V37_PRE_WC2026-I41,WC2026-I41,I,Senegal,0,1,0,0,1,1,3,-2,3,2,France;Iraq,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0.037,0.1852,0.4444,0.3333,0.2222,0.2632,0.4854
+V37_PRE_WC2026-I42,WC2026-I42,I,France,3,1,1,0,0,3,1,2,2,2,Norway;Senegal,true,true,true,0.45,0.42,2,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0.3951,0.4444,0.1481,0.0123,0.8395,0.0839,0.9234
+V37_PRE_WC2026-I42,WC2026-I42,I,Iraq,0,1,0,0,1,1,4,-3,4,2,Norway;Senegal,true,true,true,0.1,0.855,2,must_win_big,R2_ZERO_POINTS_SURVIVAL,0.0247,0.1111,0.2963,0.5679,0.1358,0.1679,0.3037
+V37_PRE_WC2026-J43,WC2026-J43,J,Argentina,3,1,1,0,0,3,0,3,1,2,Algeria;Jordan,true,true,true,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.5556,0.3086,0.1235,0.0123,0.8642,0.0762,0.9404
+V37_PRE_WC2026-J43,WC2026-J43,J,Austria,3,1,1,0,0,3,1,2,2,2,Algeria;Jordan,true,true,true,0.45,0.42,2,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0.3951,0.4444,0.1481,0.0123,0.8395,0.0914,0.9309
+V37_PRE_WC2026-J44,WC2026-J44,J,Jordan,0,1,0,0,1,1,3,-2,3,2,Argentina;Austria,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0.1111,0.1481,0.3333,0.4074,0.2593,0.1731,0.4324
+V37_PRE_WC2026-J44,WC2026-J44,J,Algeria,0,1,0,0,1,0,3,-3,4,2,Argentina;Austria,true,true,true,0.1,0.855,2,must_win_big,R2_ZERO_POINTS_SURVIVAL,0.0741,0.1852,0.1852,0.5556,0.2593,0.0962,0.3555
+V37_PRE_WC2026-L45,WC2026-L45,L,England,3,1,1,0,0,4,2,2,1,2,Croatia;Panama,true,true,true,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.5556,0.3086,0.1235,0.0123,0.8642,0.0784,0.9426
+V37_PRE_WC2026-L45,WC2026-L45,L,Ghana,3,1,1,0,0,1,0,1,2,2,Croatia;Panama,true,true,true,0.45,0.42,2,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0.3951,0.4444,0.1481,0.0123,0.8395,0.094,0.9335
+V37_PRE_WC2026-L46,WC2026-L46,L,Panama,0,1,0,0,1,0,1,-1,3,2,England;Ghana,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0.1111,0.1481,0.3333,0.4074,0.2593,0.1846,0.4439
+V37_PRE_WC2026-L46,WC2026-L46,L,Croatia,0,1,0,0,1,2,4,-2,4,2,England;Ghana,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0.0741,0.1852,0.1852,0.5556,0.2593,0.1026,0.3619
+V37_PRE_WC2026-K47,WC2026-K47,K,Portugal,1,1,0,1,0,1,1,0,3,2,Colombia;DR Congo,true,true,true,0.1,0.7325,2,must_win,MUST_WIN_SURVIVAL,0.1481,0.284,0.321,0.2469,0.4321,0.201,0.6331
+V37_PRE_WC2026-K47,WC2026-K47,K,Uzbekistan,0,1,0,0,1,1,3,-2,4,2,Colombia;DR Congo,true,true,true,0.1,0.7325,2,must_win,R2_ZERO_POINTS_SURVIVAL,0.0494,0.1605,0.2716,0.5185,0.2099,0.1701,0.38
+V37_PRE_WC2026-K48,WC2026-K48,K,Colombia,3,1,1,0,0,3,1,2,1,2,Portugal;Uzbekistan,true,true,false,0.3,0.55,2,control_destiny,CONTROL_DESTINY,0.7407,0.1481,0.1111,0,0.8889,0.0777,0.9666
+V37_PRE_WC2026-K48,WC2026-K48,K,DR Congo,1,1,0,1,0,1,1,0,2,2,Portugal;Uzbekistan,true,true,true,0.1,0.7325,2,must_win,MUST_WIN_SURVIVAL,0.2222,0.4074,0.1852,0.1852,0.6296,0.1296,0.7592
+V37_PRE_WC2026-C49,WC2026-C49,C,Scotland,3,2,1,0,1,1,1,0,3,1,,true,true,false,0.25,0.5875,3,third_place_bubble,R3_BEST_THIRD_GD_CHASE,0.2222,0.1111,0.6667,0,0.3333,0.5572,0.8905
+V37_PRE_WC2026-C49,WC2026-C49,C,Brazil,4,2,1,1,0,4,1,3,1,1,,true,true,false,0.55,0.5,3,top_slot_chase,FOUR_POINTS_NOT_CLINCHED,0.5556,0.2222,0.2222,0,0.7778,0.1857,0.9635
+V37_PRE_WC2026-C50,WC2026-C50,C,Morocco,4,2,1,1,0,2,1,1,2,1,,true,true,false,0.55,0.5,3,top_slot_chase,FOUR_POINTS_NOT_CLINCHED,0.2222,0.6667,0.1111,0,0.8889,0.091,0.9799
+V37_PRE_WC2026-C50,WC2026-C50,C,Haiti,0,2,0,0,2,0,4,-4,4,1,,false,false,true,0.3,0.25,3,eliminated,ELIMINATED_ALL_SCENARIOS,0,0,0,1,0,0,0
+V37_PRE_WC2026-B51,WC2026-B51,B,Switzerland,4,2,1,1,0,5,2,3,2,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.3333,0.6667,0,0,1,0,1
+V37_PRE_WC2026-B51,WC2026-B51,B,Canada,4,2,1,1,0,7,1,6,1,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.6667,0.3333,0,0,1,0,1
+V37_PRE_WC2026-B52,WC2026-B52,B,Bosnia and Herzegovina,1,2,0,1,1,2,5,-3,3,1,,false,true,true,0.1,0.7325,3,must_win,MUST_WIN_SURVIVAL,0,0,0.6667,0.3333,0,0.3827,0.3827
+V37_PRE_WC2026-B52,WC2026-B52,B,Qatar,1,2,0,1,1,1,7,-6,4,1,,false,true,true,0.1,0.7325,3,must_win,MUST_WIN_SURVIVAL,0,0,0.3333,0.6667,0,0.1913,0.1913
+V37_PRE_WC2026-A53,WC2026-A53,A,Czechia,1,2,0,1,1,2,3,-1,3,1,,true,true,true,0.1,0.7325,3,must_win,MUST_WIN_SURVIVAL,0,0.1111,0.5556,0.3333,0.1111,0.3659,0.477
+V37_PRE_WC2026-A53,WC2026-A53,A,Mexico,6,2,2,0,0,3,0,3,1,1,,true,true,false,0.75,0.15,3,clinched_top2,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,1,0,0,0,1,0,1
+V37_PRE_WC2026-A54,WC2026-A54,A,South Africa,1,2,0,1,1,1,3,-2,4,1,,true,true,true,0.1,0.7325,3,must_win,MUST_WIN_SURVIVAL,0,0.2222,0.2222,0.5556,0.2222,0.1514,0.3736
+V37_PRE_WC2026-A54,WC2026-A54,A,South Korea,3,2,1,0,1,2,2,0,2,1,,true,true,true,0.45,0.42,3,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0,0.6667,0.2222,0.1111,0.6667,0.1514,0.8181
+V37_PRE_WC2026-E55,WC2026-E55,E,Curacao,1,2,0,1,1,1,7,-6,4,1,,true,true,true,0.1,0.7325,3,must_win,MUST_WIN_SURVIVAL,0,0.2222,0.2222,0.5556,0.2222,0.1483,0.3705
+V37_PRE_WC2026-E55,WC2026-E55,E,Ivory Coast,3,2,1,0,1,2,2,0,2,1,,true,true,true,0.45,0.42,3,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0,0.6667,0.2222,0.1111,0.6667,0.1483,0.815
+V37_PRE_WC2026-E56,WC2026-E56,E,Ecuador,1,2,0,1,1,0,1,-1,3,1,,true,true,true,0.1,0.7325,3,must_win,MUST_WIN_SURVIVAL,0,0.1111,0.5556,0.3333,0.1111,0.3659,0.477
+V37_PRE_WC2026-E56,WC2026-E56,E,Germany,6,2,2,0,0,9,2,7,1,1,,true,true,false,0.75,0.15,3,clinched_top2,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,1,0,0,0,1,0,1
+V37_PRE_WC2026-F57,WC2026-F57,F,Japan,4,2,1,1,0,6,2,4,2,1,,true,true,false,0.55,0.5,3,top_slot_chase,FOUR_POINTS_NOT_CLINCHED,0.3333,0.3333,0.3333,0,0.6667,0.2825,0.9492
+V37_PRE_WC2026-F57,WC2026-F57,F,Sweden,3,2,1,0,1,6,6,0,3,1,,true,true,false,0.25,0.5875,3,third_place_bubble,R3_BEST_THIRD_GD_CHASE,0.2222,0.1111,0.6667,0,0.3333,0.5651,0.8984
+V37_PRE_WC2026-F58,WC2026-F58,F,Tunisia,0,2,0,0,2,1,9,-8,4,1,,false,false,true,0.3,0.25,3,eliminated,ELIMINATED_ALL_SCENARIOS,0,0,0,1,0,0,0
+V37_PRE_WC2026-F58,WC2026-F58,F,Netherlands,4,2,1,1,0,7,3,4,1,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.4444,0.5556,0,0,1,0,1
+V37_PRE_WC2026-D59,WC2026-D59,D,Turkey,0,2,0,0,2,0,3,-3,4,1,,false,true,true,0.1,0.855,3,must_win_big,R2_ZERO_POINTS_SURVIVAL,0,0,0.1111,0.8889,0,0.0843,0.0843
+V37_PRE_WC2026-D59,WC2026-D59,D,USA,6,2,2,0,0,6,1,5,1,1,,true,true,false,0.75,0.15,3,clinched_top2,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,1,0,0,0,1,0,1
+V37_PRE_WC2026-D60,WC2026-D60,D,Paraguay,3,2,1,0,1,2,4,-2,3,1,,true,true,true,0.25,0.625,3,third_place_bubble,R3_BEST_THIRD_GD_CHASE,0,0.3333,0.5556,0.1111,0.3333,0.4392,0.7725
+V37_PRE_WC2026-D60,WC2026-D60,D,Australia,3,2,1,0,1,2,2,0,2,1,,true,true,false,0.45,0.42,3,must_not_lose,R2_THREE_POINTS_DRAW_TO_FOUR,0,0.6667,0.3333,0,0.6667,0.2635,0.9302
+V37_PRE_WC2026-I61,WC2026-I61,I,Norway,3,1,1,0,0,4,1,3,1,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.6667,0.3333,0,0,1,0,1
+V37_PRE_WC2026-I61,WC2026-I61,I,France,3,1,1,0,0,3,1,2,2,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.3333,0.6667,0,0,1,0,1
+V37_PRE_WC2026-I62,WC2026-I62,I,Senegal,0,1,0,0,1,1,3,-2,3,1,,false,true,true,0.1,0.7325,3,must_win,R2_ZERO_POINTS_SURVIVAL,0,0,0.6667,0.3333,0,0.3467,0.3467
+V37_PRE_WC2026-I62,WC2026-I62,I,Iraq,0,1,0,0,1,1,4,-3,4,1,,false,true,true,0.1,0.855,3,must_win_big,R2_ZERO_POINTS_SURVIVAL,0,0,0.3333,0.6667,0,0.1733,0.1733
+V37_PRE_WC2026-G63,WC2026-G63,G,Egypt,1,1,0,1,0,1,1,0,4,1,,true,true,true,0.3,0.35,3,open_group,OPEN_GROUP_TIED_ON_ONE,0.1111,0.2222,0.2222,0.4444,0.3333,0.152,0.4853
+V37_PRE_WC2026-G63,WC2026-G63,G,Iran,1,1,0,1,0,2,2,0,2,1,,true,true,true,0.3,0.35,3,open_group,OPEN_GROUP_TIED_ON_ONE,0.2222,0.4444,0.1111,0.2222,0.6667,0.076,0.7427
+V37_PRE_WC2026-G64,WC2026-G64,G,New Zealand,1,1,0,1,0,2,2,0,1,1,,true,true,true,0.3,0.35,3,open_group,OPEN_GROUP_TIED_ON_ONE,0.4444,0.2222,0.2222,0.1111,0.6667,0.152,0.8187
+V37_PRE_WC2026-G64,WC2026-G64,G,Belgium,1,1,0,1,0,1,1,0,3,1,,true,true,true,0.3,0.35,3,open_group,OPEN_GROUP_TIED_ON_ONE,0.2222,0.1111,0.4444,0.2222,0.3333,0.3039,0.6372
+V37_PRE_WC2026-H65,WC2026-H65,H,Cape Verde,1,1,0,1,0,0,0,0,4,1,,true,true,true,0.3,0.35,3,open_group,OPEN_GROUP_TIED_ON_ONE,0.1111,0.2222,0.2222,0.4444,0.3333,0.152,0.4853
+V37_PRE_WC2026-H65,WC2026-H65,H,Saudi Arabia,1,1,0,1,0,1,1,0,2,1,,true,true,true,0.3,0.35,3,open_group,OPEN_GROUP_TIED_ON_ONE,0.2222,0.4444,0.1111,0.2222,0.6667,0.076,0.7427
+V37_PRE_WC2026-H66,WC2026-H66,H,Uruguay,1,1,0,1,0,1,1,0,1,1,,true,true,true,0.3,0.35,3,open_group,OPEN_GROUP_TIED_ON_ONE,0.4444,0.2222,0.2222,0.1111,0.6667,0.152,0.8187
+V37_PRE_WC2026-H66,WC2026-H66,H,Spain,1,1,0,1,0,0,0,0,3,1,,true,true,true,0.3,0.35,3,open_group,OPEN_GROUP_TIED_ON_ONE,0.2222,0.1111,0.4444,0.2222,0.3333,0.3039,0.6372
+V37_PRE_WC2026-L67,WC2026-L67,L,Panama,0,1,0,0,1,0,1,-1,3,1,,false,true,true,0.1,0.7325,3,must_win,R2_ZERO_POINTS_SURVIVAL,0,0,0.6667,0.3333,0,0.3763,0.3763
+V37_PRE_WC2026-L67,WC2026-L67,L,England,3,1,1,0,0,4,2,2,1,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.6667,0.3333,0,0,1,0,1
+V37_PRE_WC2026-L68,WC2026-L68,L,Croatia,0,1,0,0,1,2,4,-2,4,1,,false,true,true,0.1,0.7325,3,must_win,R2_ZERO_POINTS_SURVIVAL,0,0,0.3333,0.6667,0,0.1857,0.1857
+V37_PRE_WC2026-L68,WC2026-L68,L,Ghana,3,1,1,0,0,1,0,1,2,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.3333,0.6667,0,0,1,0,1
+V37_PRE_WC2026-J69,WC2026-J69,J,Algeria,0,1,0,0,1,0,3,-3,4,1,,false,true,true,0.1,0.855,3,must_win_big,R2_ZERO_POINTS_SURVIVAL,0,0,0.3333,0.6667,0,0.1742,0.1742
+V37_PRE_WC2026-J69,WC2026-J69,J,Austria,3,1,1,0,0,3,1,2,2,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.3333,0.6667,0,0,1,0,1
+V37_PRE_WC2026-J70,WC2026-J70,J,Jordan,0,1,0,0,1,1,3,-2,3,1,,false,true,true,0.1,0.7325,3,must_win,R2_ZERO_POINTS_SURVIVAL,0,0,0.6667,0.3333,0,0.3538,0.3538
+V37_PRE_WC2026-J70,WC2026-J70,J,Argentina,3,1,1,0,0,3,0,3,1,1,,true,true,false,0.75,0.15,3,near_clinched,QUALIFICATION_SECURE_ROUTE_OPT_ALLOWED,0.6667,0.3333,0,0,1,0,1
+V37_PRE_WC2026-K71,WC2026-K71,K,Colombia,3,1,1,0,0,3,1,2,1,1,,true,true,false,0.3,0.55,3,control_destiny,CONTROL_DESTINY,0.6667,0.2222,0.1111,0,0.8889,0.0793,0.9682
+V37_PRE_WC2026-K71,WC2026-K71,K,Portugal,1,1,0,1,0,1,1,0,3,1,,true,true,true,0.1,0.7325,3,must_win,MUST_WIN_SURVIVAL,0.2222,0.1111,0.5556,0.1111,0.3333,0.3968,0.7301
+V37_PRE_WC2026-K72,WC2026-K72,K,DR Congo,1,1,0,1,0,1,1,0,2,1,,true,true,true,0.1,0.7325,3,must_win,MUST_WIN_SURVIVAL,0.1111,0.4444,0.2222,0.2222,0.5556,0.1498,0.7054
+V37_PRE_WC2026-K72,WC2026-K72,K,Uzbekistan,0,1,0,0,1,1,3,-2,4,1,,true,true,true,0.1,0.7325,3,must_win,R2_ZERO_POINTS_SURVIVAL,0,0.2222,0.1111,0.6667,0.2222,0.0749,0.2971

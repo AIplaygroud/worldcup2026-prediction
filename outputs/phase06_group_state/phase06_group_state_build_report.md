@@ -34,13 +34,13 @@
 ## Match incentive summary (R2)
 
 - `WC2026-A25` Czechia vs South Africa: must_win / must_win
-- `WC2026-B26` Switzerland vs Bosnia and Herzegovina: top_slot_chase / must_win
-- `WC2026-B27` Canada vs Qatar: top_slot_chase / must_win
-- `WC2026-A28` Mexico vs South Korea: clinched_top2 / must_not_lose
-- `WC2026-C29` Brazil vs Haiti: top_slot_chase / must_win_big
-- `WC2026-C30` Scotland vs Morocco: third_place_bubble / top_slot_chase
-- `WC2026-D31` Turkey vs Paraguay: must_win_big / third_place_bubble
-- `WC2026-D32` USA vs Australia: clinched_top2 / must_not_lose
+- `WC2026-B26` Switzerland vs Bosnia and Herzegovina: open_group / open_group
+- `WC2026-B27` Canada vs Qatar: open_group / open_group
+- `WC2026-A28` Mexico vs South Korea: control_destiny / must_not_lose
+- `WC2026-C29` Brazil vs Haiti: must_win / must_win
+- `WC2026-C30` Scotland vs Morocco: control_destiny / must_win
+- `WC2026-D31` Turkey vs Paraguay: must_win / must_win_big
+- `WC2026-D32` USA vs Australia: control_destiny / must_not_lose
 - `WC2026-E33` Germany vs Ivory Coast: control_destiny / must_not_lose
 - `WC2026-E34` Ecuador vs Curacao: must_win / must_win_big
 - `WC2026-F35` Netherlands vs Sweden: must_win / control_destiny

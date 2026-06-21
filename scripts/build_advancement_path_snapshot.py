@@ -14,6 +14,8 @@ from group_state_common import (
     remaining_group_matches,
     write_csv,
 )
+from competition_state_engine import evaluate_team_state
+from annex_c_route_engine import annex_scenario_weights, best8_third_probabilities
 
 OUT_PHASE = ROOT / "outputs" / "phase06_group_state"
 OUT_DB = ROOT / "database" / "competition"
@@ -23,6 +25,9 @@ PATH_FIELDS = [
     "remaining_matches", "can_finish_top1", "can_finish_top2", "can_finish_top3",
     "can_be_eliminated", "clinched_top2", "clinched_any_path", "eliminated",
     "third_place_viability", "path_confidence", "path_state", "path_notes",
+    "state_reason_code",
+    "p_finish_1", "p_finish_2", "p_finish_3", "p_finish_4",
+    "p_top2", "p_best8_third", "p_advance",
 ]
 
 
@@ -54,10 +59,24 @@ def main() -> None:
     ]
     remaining = remaining_group_matches(cutoff)
 
+    details: dict[str, dict] = {}
+    for r in standings:
+        team, group = r["team"], r["group"]
+        details[team] = {
+            **evaluate_team_state(
+            team, group, standings, cutoff, remaining=remaining,
+            ),
+            "group": group,
+        }
+
+    annex_scenarios = annex_scenario_weights(details)
+    p_best8 = best8_third_probabilities(details, annex_scenarios)
+
     out: list[dict] = []
     for r in standings:
         team, group = r["team"], r["group"]
-        info = classify_path_state(team, group, r["rank"], standings, remaining.get(group, []))
+        info = details[team]
+        p_advance = min(1.0, float(info["p_top2"]) + p_best8.get(team, 0.0))
         notes = (
             f"{info['path_state']}; qual_secure={info.get('qualification_secure_prob', 0):.2f}; "
             f"rem={info['remaining_matches']}"
@@ -82,6 +101,14 @@ def main() -> None:
             "path_confidence": info["path_confidence"],
             "path_state": info["path_state"],
             "path_notes": notes,
+            "state_reason_code": info["state_reason_code"],
+            "p_finish_1": info["p_finish_1"],
+            "p_finish_2": info["p_finish_2"],
+            "p_finish_3": info["p_finish_3"],
+            "p_finish_4": info["p_finish_4"],
+            "p_top2": info["p_top2"],
+            "p_best8_third": p_best8.get(team, 0.0),
+            "p_advance": round(p_advance, 4),
         })
 
     write_csv(args.out_dir / "advancement_path_snapshot.csv", PATH_FIELDS, out)

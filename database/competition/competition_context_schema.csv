@@ -19,6 +19,10 @@ home_top_spot_incentive,float,Home top-spot incentive 0-1
 away_top_spot_incentive,float,Away top-spot incentive 0-1
 home_controlled_win_incentive,float,Home controlled-win incentive 0-1
 away_controlled_win_incentive,float,Away controlled-win incentive 0-1
+home_path_state,string,Canonical home advancement state
+away_path_state,string,Canonical away advancement state
+home_state_reason_code,string,Canonical home state reason code
+away_state_reason_code,string,Canonical away state reason code
 late_draw_control_index,float,Late draw control if level after 60' 0-1
 late_chase_suppression,float,S07 late-chase suppression cap 0-1
 first_place_slot,string,"Knockout slot for group winner, e.g. 1D"

@@ -1,0 +1,13 @@
+snapshot_id,source_cutoff_time,group,expected_completed,matched,missing,ambiguous,coverage_pct,affected
+standings-update-20260621,2026-06-21T12:00:00Z,A,4,4,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,B,4,4,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,C,4,4,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,D,4,4,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,E,4,2,2,0,50.0,true
+standings-update-20260621,2026-06-21T12:00:00Z,F,4,2,2,0,50.0,true
+standings-update-20260621,2026-06-21T12:00:00Z,G,2,2,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,H,2,2,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,I,2,2,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,J,2,2,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,K,2,2,0,0,100.0,false
+standings-update-20260621,2026-06-21T12:00:00Z,L,2,2,0,0,100.0,false

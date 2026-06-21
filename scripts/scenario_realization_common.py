@@ -1101,6 +1101,11 @@ V37_NEUTRAL: Dict[str, Any] = {
     "cold_guard_active": False,
     "deep_handicap_contra_flag": False,
     "active_flags": [],
+    "runtime_incentive_used": False,
+    "home_route_preference_label": "",
+    "away_route_preference_label": "",
+    "home_late_push_modifier": 0.0,
+    "away_late_push_modifier": 0.0,
     "phase1_egci_enabled": False,
     "fallback_reason": "missing_v37_features",
 }
@@ -1152,6 +1157,11 @@ def load_v37_features(match_id: str) -> Dict[str, Any]:
         "cold_guard_active": _v37_bool(row.get("cold_guard_active")),
         "deep_handicap_contra_flag": _v37_bool(row.get("deep_handicap_contra_flag")),
         "active_flags": flags,
+        "runtime_incentive_used": _v37_bool(row.get("runtime_incentive_used")),
+        "home_route_preference_label": snum(row, "home_route_preference_label"),
+        "away_route_preference_label": snum(row, "away_route_preference_label"),
+        "home_late_push_modifier": fnum(row, "home_late_push_modifier", 0.0),
+        "away_late_push_modifier": fnum(row, "away_late_push_modifier", 0.0),
         "phase1_egci_enabled": False,
         "fallback_reason": "",
     })

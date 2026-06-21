@@ -1,2 +1,2 @@
 snapshot_id,source_cutoff_time,expected_completed_matches,local_result_rows_matched,missing_completed_results,ambiguous_completed_results,missing_groups,affected_groups,snapshot_status,formal_prediction_allowed,cross_group_third_ranking_allowed,route_avoidance_allowed,notes
-WC2026_GROUP_20260620_PRE_F35,2026-06-20T12:00:00Z,32,32,0,0,,,complete,true,true,true,All pre-cutoff fixtures have matched local result rows.
+standings-update-20260621,2026-06-21T12:00:00Z,36,32,4,0,E|F,E|F,partial_stale,partial_only,false,false,"Partial standings allowed via --allow-partial-standings; missing=4, ambiguous=0; affected=E,F"
