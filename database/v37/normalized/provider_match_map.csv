@@ -1,0 +1,74 @@
+﻿internal_match_id,fifa_match_id,provider,provider_match_id,provider_home,provider_away,internal_home,internal_away,kickoff_utc,match_confidence,status,reason
+WC2026-A1,1,local,1,Mexico,South Africa,Mexico,South Africa,2026-06-11T13:00:00Z,1.0000,finished,local_normalized
+WC2026-A2,2,local,2,South Korea,Czechia,South Korea,Czechia,2026-06-12T20:00:00Z,1.0000,finished,local_normalized
+WC2026-B3,3,local,3,Canada,Bosnia and Herzegovina,Canada,Bosnia and Herzegovina,2026-06-13T15:00:00Z,1.0000,finished,local_normalized
+WC2026-D4,4,local,4,United States,Paraguay,United States,Paraguay,2026-06-13T18:00:00Z,1.0000,finished,local_normalized
+WC2026-C5,5,local,5,Haiti,Scotland,Haiti,Scotland,2026-06-14T21:00:00Z,1.0000,finished,local_normalized
+WC2026-D6,6,local,6,Australia,Turkey,Australia,Turkey,2026-06-14T21:00:00Z,1.0000,finished,local_normalized
+WC2026-C7,7,local,7,Brazil,Morocco,Brazil,Morocco,2026-06-14T18:00:00Z,1.0000,finished,local_normalized
+WC2026-B8,8,local,8,Qatar,Switzerland,Qatar,Switzerland,2026-06-14T12:00:00Z,1.0000,finished,local_normalized
+WC2026-E9,9,local,9,Ivory Coast,Ecuador,Ivory Coast,Ecuador,2026-06-15T19:00:00Z,1.0000,finished,local_normalized
+WC2026-E10,10,local,10,Germany,Curacao,Germany,Curacao,2026-06-15T12:00:00Z,1.0000,finished,local_normalized
+WC2026-F11,11,local,11,Netherlands,Japan,Netherlands,Japan,2026-06-15T15:00:00Z,1.0000,finished,local_normalized
+WC2026-F12,12,local,12,Sweden,Tunisia,Sweden,Tunisia,2026-06-15T20:00:00Z,1.0000,finished,local_normalized
+WC2026-H13,13,local,13,Saudi Arabia,Uruguay,Saudi Arabia,Uruguay,2026-06-16T18:00:00Z,1.0000,finished,local_normalized
+WC2026-H14,14,local,14,Spain,Cape Verde,Spain,Cape Verde,2026-06-16T12:00:00Z,1.0000,finished,local_normalized
+WC2026-G15,15,local,15,Iran,New Zealand,Iran,New Zealand,2026-06-16T18:00:00Z,1.0000,finished,local_normalized
+WC2026-G16,16,local,16,Belgium,Egypt,Belgium,Egypt,2026-06-16T12:00:00Z,1.0000,finished,local_normalized
+WC2026-I17,17,local,17,France,Senegal,France,Senegal,2026-06-16T15:00:00Z,1.0000,finished,local_normalized
+WC2026-I18,18,local,18,Iraq,Norway,Iraq,Norway,2026-06-16T18:00:00Z,1.0000,finished,local_normalized
+WC2026-J19,19,local,19,Argentina,Algeria,Argentina,Algeria,2026-06-17T20:00:00Z,1.0000,finished,local_normalized
+WC2026-J20,20,local,20,Austria,Jordan,Austria,Jordan,2026-06-17T21:00:00Z,1.0000,finished,local_normalized
+WC2026-L21,21,local,21,Ghana,Panama,Ghana,Panama,2026-06-18T19:00:00Z,1.0000,finished,local_normalized
+WC2026-L22,22,local,22,England,Croatia,England,Croatia,2026-06-18T15:00:00Z,1.0000,finished,local_normalized
+WC2026-K23,23,local,23,Portugal,DR Congo,Portugal,DR Congo,2026-06-18T12:00:00Z,1.0000,finished,local_normalized
+WC2026-K24,24,local,24,Uzbekistan,Colombia,Uzbekistan,Colombia,2026-06-18T20:00:00Z,1.0000,finished,local_normalized
+WC2026-A25,25,local,25,Czechia,South Africa,Czechia,South Africa,2026-06-18T12:00:00Z,1.0000,finished,local_normalized
+WC2026-B26,26,local,26,Switzerland,Bosnia and Herzegovina,Switzerland,Bosnia and Herzegovina,2026-06-18T12:00:00Z,1.0000,finished,local_normalized
+WC2026-B27,27,local,27,Canada,Qatar,Canada,Qatar,2026-06-18T15:00:00Z,1.0000,finished,local_normalized
+WC2026-A28,28,local,28,Mexico,South Korea,Mexico,South Korea,2026-06-18T19:00:00Z,1.0000,finished,local_normalized
+WC2026-C29,29,local,29,Brazil,Haiti,Brazil,Haiti,2026-06-19T21:00:00Z,1.0000,finished,local_normalized
+WC2026-C30,30,local,30,Scotland,Morocco,Scotland,Morocco,2026-06-19T18:00:00Z,1.0000,finished,local_normalized
+WC2026-D31,31,local,31,Turkey,Paraguay,Turkey,Paraguay,2026-06-19T20:00:00Z,1.0000,finished,local_normalized
+WC2026-D32,32,local,32,United States,Australia,United States,Australia,2026-06-19T12:00:00Z,1.0000,finished,local_normalized
+WC2026-E33,33,local,33,Germany,Ivory Coast,Germany,Ivory Coast,2026-06-20T16:00:00Z,1.0000,scheduled,local_normalized
+WC2026-E34,34,local,34,Ecuador,Curacao,Ecuador,Curacao,2026-06-20T19:00:00Z,1.0000,scheduled,local_normalized
+WC2026-F35,35,local,35,Netherlands,Sweden,Netherlands,Sweden,2026-06-20T12:00:00Z,1.0000,scheduled,local_normalized
+WC2026-F36,36,local,36,Tunisia,Japan,Tunisia,Japan,2026-06-20T22:00:00Z,1.0000,scheduled,local_normalized
+WC2026-H37,37,local,37,Uruguay,Cape Verde,Uruguay,Cape Verde,2026-06-21T18:00:00Z,1.0000,scheduled,local_normalized
+WC2026-H38,38,local,38,Spain,Saudi Arabia,Spain,Saudi Arabia,2026-06-21T12:00:00Z,1.0000,scheduled,local_normalized
+WC2026-G39,39,local,39,Belgium,Iran,Belgium,Iran,2026-06-21T12:00:00Z,1.0000,scheduled,local_normalized
+WC2026-G40,40,local,40,New Zealand,Egypt,New Zealand,Egypt,2026-06-21T18:00:00Z,1.0000,scheduled,local_normalized
+WC2026-I41,41,local,41,Norway,Senegal,Norway,Senegal,2026-06-22T20:00:00Z,1.0000,scheduled,local_normalized
+WC2026-I42,42,local,42,France,Iraq,France,Iraq,2026-06-22T17:00:00Z,1.0000,scheduled,local_normalized
+WC2026-J43,43,local,43,Argentina,Austria,Argentina,Austria,2026-06-22T12:00:00Z,1.0000,scheduled,local_normalized
+WC2026-J44,44,local,44,Jordan,Algeria,Jordan,Algeria,2026-06-22T20:00:00Z,1.0000,scheduled,local_normalized
+WC2026-L45,45,local,45,England,Ghana,England,Ghana,2026-06-23T16:00:00Z,1.0000,scheduled,local_normalized
+WC2026-L46,46,local,46,Panama,Croatia,Panama,Croatia,2026-06-23T19:00:00Z,1.0000,scheduled,local_normalized
+WC2026-K47,47,local,47,Portugal,Uzbekistan,Portugal,Uzbekistan,2026-06-23T12:00:00Z,1.0000,scheduled,local_normalized
+WC2026-K48,48,local,48,Colombia,DR Congo,Colombia,DR Congo,2026-06-23T20:00:00Z,1.0000,scheduled,local_normalized
+WC2026-C49,49,local,49,Scotland,Brazil,Scotland,Brazil,2026-06-24T18:00:00Z,1.0000,scheduled,local_normalized
+WC2026-C50,50,local,50,Morocco,Haiti,Morocco,Haiti,2026-06-24T18:00:00Z,1.0000,scheduled,local_normalized
+WC2026-B51,51,local,51,Switzerland,Canada,Switzerland,Canada,2026-06-24T12:00:00Z,1.0000,scheduled,local_normalized
+WC2026-B52,52,local,52,Bosnia and Herzegovina,Qatar,Bosnia and Herzegovina,Qatar,2026-06-24T12:00:00Z,1.0000,scheduled,local_normalized
+WC2026-A53,53,local,53,Czechia,Mexico,Czechia,Mexico,2026-06-24T19:00:00Z,1.0000,scheduled,local_normalized
+WC2026-A54,54,local,54,South Africa,South Korea,South Africa,South Korea,2026-06-24T19:00:00Z,1.0000,scheduled,local_normalized
+WC2026-E55,55,local,55,Curacao,Ivory Coast,Curacao,Ivory Coast,2026-06-25T16:00:00Z,1.0000,scheduled,local_normalized
+WC2026-E56,56,local,56,Ecuador,Germany,Ecuador,Germany,2026-06-25T16:00:00Z,1.0000,scheduled,local_normalized
+WC2026-F57,57,local,57,Japan,Sweden,Japan,Sweden,2026-06-25T18:00:00Z,1.0000,scheduled,local_normalized
+WC2026-F58,58,local,58,Tunisia,Netherlands,Tunisia,Netherlands,2026-06-25T18:00:00Z,1.0000,scheduled,local_normalized
+WC2026-D59,59,local,59,Turkey,United States,Turkey,United States,2026-06-25T19:00:00Z,1.0000,scheduled,local_normalized
+WC2026-D60,60,local,60,Paraguay,Australia,Paraguay,Australia,2026-06-25T19:00:00Z,1.0000,scheduled,local_normalized
+WC2026-I61,61,local,61,Norway,France,Norway,France,2026-06-26T15:00:00Z,1.0000,scheduled,local_normalized
+WC2026-I62,62,local,62,Senegal,Iraq,Senegal,Iraq,2026-06-26T15:00:00Z,1.0000,scheduled,local_normalized
+WC2026-G63,63,local,63,Egypt,Iran,Egypt,Iran,2026-06-26T20:00:00Z,1.0000,scheduled,local_normalized
+WC2026-G64,64,local,64,New Zealand,Belgium,New Zealand,Belgium,2026-06-26T20:00:00Z,1.0000,scheduled,local_normalized
+WC2026-H65,65,local,65,Cape Verde,Saudi Arabia,Cape Verde,Saudi Arabia,2026-06-26T19:00:00Z,1.0000,scheduled,local_normalized
+WC2026-H66,66,local,66,Uruguay,Spain,Uruguay,Spain,2026-06-26T18:00:00Z,1.0000,scheduled,local_normalized
+WC2026-L67,67,local,67,Panama,England,Panama,England,2026-06-27T17:00:00Z,1.0000,scheduled,local_normalized
+WC2026-L68,68,local,68,Croatia,Ghana,Croatia,Ghana,2026-06-27T17:00:00Z,1.0000,scheduled,local_normalized
+WC2026-J69,69,local,69,Algeria,Austria,Algeria,Austria,2026-06-27T21:00:00Z,1.0000,scheduled,local_normalized
+WC2026-J70,70,local,70,Jordan,Argentina,Jordan,Argentina,2026-06-27T21:00:00Z,1.0000,scheduled,local_normalized
+WC2026-K71,71,local,71,Colombia,Portugal,Colombia,Portugal,2026-06-27T19:30:00Z,1.0000,scheduled,local_normalized
+WC2026-K72,72,local,72,DR Congo,Uzbekistan,DR Congo,Uzbekistan,2026-06-27T19:30:00Z,1.0000,scheduled,local_normalized
+WC2026-F35,35,thestatsapi,WC2026-F35,Netherlands,Sweden,Netherlands,Sweden,2026-06-20T12:00:00Z,1.0000,scheduled,team_kickoff_exact

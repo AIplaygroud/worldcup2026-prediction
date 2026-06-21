@@ -1,0 +1,52 @@
+﻿match_id,source,competition,home_team,away_team,actual_scoreline,is_large_score,baseline_actual_rank,rerank_actual_rank,rank_improvement,baseline_top3,rerank_top3,baseline_top5,rerank_top5,tail_boost_level,tail_false_positive,cold_guard_active,must_win_no_convert,deep_handicap_contra,guard_violation,five_goal_top3_violation
+WC2026-A1,finished_wc2026,WC2026,Mexico,South Africa,2-0,false,2,2,0,1-0;2-0;0-0,1-0;2-0;0-0,1-0;2-0;0-0;3-0;4-0,1-0;2-0;0-0;3-0;4-0,none,true,true,false,true,false,false
+WC2026-A2,finished_wc2026,WC2026,South Korea,Czechia,2-1,false,3,3,0,2-0;1-0;2-1,2-0;1-0;2-1,2-0;1-0;2-1;3-0;1-1,2-0;1-0;2-1;3-0;1-1,none,true,false,false,false,false,false
+WC2026-B3,finished_wc2026,WC2026,Canada,Bosnia and Herzegovina,1-1,false,2,2,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+WC2026-D4,finished_wc2026,WC2026,USA,Paraguay,4-1,true,13,13,0,1-0;2-0;0-0,1-0;2-0;0-0,1-0;2-0;0-0;1-1;2-1,1-0;2-0;0-0;1-1;2-1,none,false,false,false,false,false,false
+WC2026-C5,finished_wc2026,WC2026,Haiti,Scotland,0-1,false,2,2,0,1-1;0-1;1-0,1-1;0-1;1-0,1-1;0-1;1-0;0-0;1-2,1-1;0-1;1-0;0-0;1-2,none,false,false,false,false,false,false
+WC2026-D6,finished_wc2026,WC2026,Australia,Turkey,2-0,false,8,8,0,1-1;0-1;1-0,1-1;0-1;1-0,1-1;0-1;1-0;1-2;0-0,1-1;0-1;1-0;1-2;0-0,none,false,false,false,false,false,false
+WC2026-C7,finished_wc2026,WC2026,Brazil,Morocco,1-1,false,1,1,0,1-1;0-1;1-0,1-1;0-1;1-0,1-1;0-1;1-0;1-2;2-1,1-1;0-1;1-0;1-2;2-1,none,false,false,false,false,false,false
+WC2026-B8,finished_wc2026,WC2026,Qatar,Switzerland,1-1,false,9,9,0,0-3;0-2;0-4,0-3;0-2;0-4,0-3;0-2;0-4;1-3;0-1,0-3;0-2;0-4;1-3;0-1,none,true,true,false,true,false,false
+WC2026-E9,finished_wc2026,WC2026,Ivory Coast,Ecuador,1-0,false,2,2,0,1-1;1-0;2-1,1-1;1-0;2-1,1-1;1-0;2-1;2-0;0-1,1-1;1-0;2-1;2-0;0-1,none,false,false,false,false,false,false
+WC2026-E10,finished_wc2026,WC2026,Germany,Curacao,7-1,true,999,999,0,4-0;3-0;5-0,4-0;3-0;2-0,4-0;3-0;5-0;2-0;4-1,4-0;3-0;2-0;4-1;3-1,none,false,true,false,true,false,false
+WC2026-F11,finished_wc2026,WC2026,Netherlands,Japan,2-2,false,10,10,0,0-0;1-0;0-1,0-0;1-0;0-1,0-0;1-0;0-1;1-1;2-0,0-0;1-0;0-1;1-1;2-0,none,false,false,false,false,false,false
+WC2026-F12,finished_wc2026,WC2026,Sweden,Tunisia,5-1,true,16,16,0,1-0;0-0;2-0,1-0;0-0;2-0,1-0;0-0;2-0;3-0;1-1,1-0;0-0;2-0;3-0;1-1,none,false,true,false,true,false,false
+WC2026-H13,finished_wc2026,WC2026,Saudi Arabia,Uruguay,1-1,false,3,3,0,0-1;0-2;1-1,0-1;0-2;1-1,0-1;0-2;1-1;0-0;1-2,0-1;0-2;1-1;0-0;1-2,none,false,false,false,true,false,false
+WC2026-H14,finished_wc2026,WC2026,Spain,Cape Verde,0-0,false,4,4,0,2-0;1-0;3-0,2-0;1-0;3-0,2-0;1-0;3-0;0-0;4-0,2-0;1-0;3-0;0-0;4-0,none,true,true,false,true,false,false
+WC2026-G15,finished_wc2026,WC2026,Iran,New Zealand,2-2,false,8,8,0,1-1;1-0;2-1,1-1;1-0;2-1,1-1;1-0;2-1;0-1;1-2,1-1;1-0;2-1;0-1;1-2,none,false,false,false,false,false,false
+WC2026-G16,finished_wc2026,WC2026,Belgium,Egypt,1-1,false,1,1,0,1-1;1-0;0-1,1-1;1-0;0-1,1-1;1-0;0-1;0-0;2-1,1-1;1-0;0-1;0-0;2-1,none,false,false,false,false,false,false
+WC2026-I17,finished_wc2026,WC2026,France,Senegal,3-1,true,8,8,0,1-0;2-0;0-0,1-0;2-0;0-0,1-0;2-0;0-0;3-0;1-1,1-0;2-0;0-0;3-0;1-1,none,false,true,false,true,false,false
+WC2026-I18,finished_wc2026,WC2026,Iraq,Norway,1-4,true,8,8,0,0-2;0-3;1-2,0-2;0-3;1-2,0-2;0-3;1-2;0-1;1-3,0-2;0-3;1-2;0-1;1-3,none,false,false,false,true,false,false
+WC2026-J19,finished_wc2026,WC2026,Argentina,Algeria,3-0,true,5,5,0,1-0;0-0;2-0,1-0;0-0;2-0,1-0;0-0;2-0;1-1;3-0,1-0;0-0;2-0;1-1;3-0,none,false,true,false,true,false,false
+WC2026-J20,finished_wc2026,WC2026,Austria,Jordan,3-1,true,8,8,0,1-0;2-0;0-0,1-0;2-0;0-0,1-0;2-0;0-0;3-0;1-1,1-0;2-0;0-0;3-0;1-1,none,false,true,false,true,false,false
+WC2026-L21,finished_wc2026,WC2026,Ghana,Panama,1-0,false,1,1,0,1-0;0-0;1-1,1-0;0-0;1-1,1-0;0-0;1-1;2-0;0-1,1-0;0-0;1-1;2-0;0-1,none,false,false,false,false,false,false
+WC2026-L22,finished_wc2026,WC2026,England,Croatia,4-2,true,13,13,0,3-0;2-0;4-0,3-0;2-0;4-0,3-0;2-0;4-0;3-1;2-1,3-0;2-0;4-0;3-1;2-1,none,false,true,false,true,false,false
+WC2026-K23,finished_wc2026,WC2026,Portugal,DR Congo,1-1,false,4,4,0,0-0;0-1;1-0,0-0;0-1;1-0,0-0;0-1;1-0;1-1;0-2,0-0;0-1;1-0;1-1;0-2,none,false,false,false,false,false,false
+WC2026-K24,finished_wc2026,WC2026,Uzbekistan,Colombia,1-3,true,9,9,0,1-1;0-1;1-2,1-1;0-1;1-2,1-1;0-1;1-2;0-2;1-0,1-1;0-1;1-2;0-2;1-0,none,false,false,false,false,false,false
+WC2026-A25,finished_wc2026,WC2026,Czechia,South Africa,1-1,false,1,1,0,1-1;0-1;1-0,1-1;0-1;1-0,1-1;0-1;1-0;0-0;1-2,1-1;0-1;1-0;0-0;1-2,none,false,false,false,false,false,false
+WC2026-B26,finished_wc2026,WC2026,Switzerland,Bosnia and Herzegovina,4-1,true,11,11,0,2-0;1-0;3-0,2-0;1-0;3-0,2-0;1-0;3-0;0-0;4-0,2-0;1-0;3-0;0-0;4-0,none,false,true,false,true,false,false
+WC2026-B27,finished_wc2026,WC2026,Canada,Qatar,6-0,true,999,999,0,4-0;5-0;3-0,4-0;3-0;2-0,4-0;5-0;3-0;2-0;1-0,4-0;3-0;2-0;1-0;4-1,none,false,true,false,true,false,false
+WC2026-A28,finished_wc2026,WC2026,Mexico,South Korea,1-0,false,3,3,0,0-0;0-1;1-0,0-0;0-1;1-0,0-0;0-1;1-0;1-1;0-2,0-0;0-1;1-0;1-1;0-2,none,false,false,false,false,false,false
+WC2026-C29,finished_wc2026,WC2026,Brazil,Haiti,3-0,true,4,4,0,1-0;2-0;0-0,1-0;2-0;0-0,1-0;2-0;0-0;3-0;1-1,1-0;2-0;0-0;3-0;1-1,none,false,false,false,true,false,false
+WC2026-C30,finished_wc2026,WC2026,Scotland,Morocco,0-1,false,2,2,0,0-0;0-1;1-0,0-0;0-1;1-0,0-0;0-1;1-0;1-1;0-2,0-0;0-1;1-0;1-1;0-2,none,false,false,false,false,false,false
+WC2026-D31,finished_wc2026,WC2026,Turkey,Paraguay,0-1,false,10,10,0,2-0;1-0;3-0,2-0;1-0;3-0,2-0;1-0;3-0;0-0;4-0,2-0;1-0;3-0;0-0;4-0,none,true,true,false,true,false,false
+WC2026-D32,finished_wc2026,WC2026,USA,Australia,2-0,false,3,3,0,1-0;0-0;2-0,1-0;0-0;2-0,1-0;0-0;2-0;1-1;0-1,1-0;0-0;2-0;1-1;0-1,none,false,false,false,false,false,false
+SB-3753768,statsbomb_open,FIFA World Cup,Spain,Netherlands,1-5,true,28,28,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3753823,statsbomb_open,FIFA World Cup,Germany,Portugal,4-0,true,16,16,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3753890,statsbomb_open,FIFA World Cup,England,Uruguay,1-2,false,7,7,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3753934,statsbomb_open,FIFA World Cup,France,Nigeria,2-0,false,5,5,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3754108,statsbomb_open,FIFA World Cup,Colombia,Greece,3-0,true,10,10,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3754155,statsbomb_open,FIFA World Cup,Belgium,Algeria,2-1,false,6,6,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3754201,statsbomb_open,FIFA World Cup,Brazil,Germany,1-7,true,999,999,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3754245,statsbomb_open,FIFA World Cup,Netherlands,Brazil,3-0,true,10,10,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3788741,statsbomb_open,FIFA Women's World Cup,United States,Thailand,13-0,true,999,999,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3788788,statsbomb_open,FIFA Women's World Cup,England,Japan,2-0,false,5,5,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3869620,statsbomb_open,Copa America,Uruguay,Japan,4-3,true,25,25,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3869685,statsbomb_open,Copa America,Brazil,Argentina,2-0,false,5,5,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3929844,statsbomb_open,FIFA World Cup,Spain,Costa Rica,7-0,true,999,999,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3929991,statsbomb_open,FIFA World Cup,Portugal,Switzerland,6-1,true,999,999,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3930102,statsbomb_open,FIFA World Cup,France,Morocco,2-0,false,5,5,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3930158,statsbomb_open,FIFA World Cup,Argentina,France,3-3,true,18,18,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3999012,statsbomb_open,UEFA Euro,France,Albania,2-0,false,5,5,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3999088,statsbomb_open,UEFA Euro,Hungary,Portugal,3-3,true,18,18,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false
+SB-3999147,statsbomb_open,UEFA Euro,England,Iceland,1-2,false,7,7,0,1-0;1-1;0-0,1-0;1-1;0-0,1-0;1-1;0-0;0-1;2-0,1-0;1-1;0-0;0-1;2-0,none,false,false,false,false,false,false

@@ -1,0 +1,13 @@
+{
+  "gate_attribution": {
+    "gate_count": 7,
+    "top_blocking_gates": [
+      "acg_threshold",
+      "egci_quality",
+      "egci_threshold",
+      "underdog_fragility",
+      "cold_guard"
+    ],
+    "total_blocked_cases": 205
+  }
+}

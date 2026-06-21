@@ -1,0 +1,20 @@
+[
+  {
+    "match_id": "WC2026-F35",
+    "market": "had",
+    "selection": "home",
+    "sp": "1.48",
+    "provider": "thestatsapi",
+    "fetched_at_utc": "2026-06-20T08:00:00Z",
+    "is_opening": "true"
+  },
+  {
+    "match_id": "WC2026-F35",
+    "market": "had",
+    "selection": "home",
+    "sp": "1.42",
+    "provider": "thestatsapi",
+    "fetched_at_utc": "2026-06-20T11:30:00Z",
+    "is_closing": "true"
+  }
+]

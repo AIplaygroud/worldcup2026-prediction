@@ -1,0 +1,35 @@
+[
+  {
+    "match_id": "WC2026-F35",
+    "minute": "12",
+    "team": "Netherlands",
+    "event_type": "goal",
+    "player": "Cody Gakpo",
+    "score_home_after": "1",
+    "score_away_after": "0",
+    "source": "thestatsapi",
+    "confirmed": "true"
+  },
+  {
+    "match_id": "WC2026-F35",
+    "minute": "23",
+    "team": "Netherlands",
+    "event_type": "goal",
+    "player": "Memphis Depay",
+    "score_home_after": "2",
+    "score_away_after": "0",
+    "source": "thestatsapi",
+    "confirmed": "true"
+  },
+  {
+    "match_id": "WC2026-F35",
+    "minute": "67",
+    "team": "Sweden",
+    "event_type": "goal",
+    "player": "Viktor Gyokeres",
+    "score_home_after": "2",
+    "score_away_after": "1",
+    "source": "thestatsapi",
+    "confirmed": "true"
+  }
+]

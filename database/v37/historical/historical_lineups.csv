@@ -1,0 +1,5 @@
+﻿historical_match_id,team,player_name,lineup_status,position,is_starter,confirmed,source
+SB-3754201,Germany,Neuer,starter,GK,true,true,statsbomb_open
+SB-3754201,Germany,Muller,starter,FW,true,true,statsbomb_open
+SB-3754201,Brazil,Julio Cesar,starter,GK,true,true,statsbomb_open
+SB-3754201,Brazil,David Luiz,starter,DF,true,true,statsbomb_open

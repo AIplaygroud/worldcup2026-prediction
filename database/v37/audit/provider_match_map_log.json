@@ -1,0 +1,9 @@
+{
+  "built_at": "2026-06-21T09:19:25.420962+00:00",
+  "rows": 73,
+  "audit_skipped": 0,
+  "providers": [
+    "local",
+    "thestatsapi"
+  ]
+}

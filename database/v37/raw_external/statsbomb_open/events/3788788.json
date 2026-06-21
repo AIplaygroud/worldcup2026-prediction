@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "minute": 10,
+    "second": 0,
+    "team_name": "England",
+    "player_name": "Player",
+    "type": "Shot",
+    "subtype": "Goal",
+    "shot_outcome": "Goal"
+  },
+  {
+    "id": 2,
+    "minute": 22,
+    "second": 0,
+    "team_name": "England",
+    "player_name": "Player",
+    "type": "Shot",
+    "subtype": "Goal",
+    "shot_outcome": "Goal"
+  }
+]

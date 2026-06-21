@@ -1,0 +1,101 @@
+{
+  "version": "v37_p4_1_tail_diagnostics_clean",
+  "diagnostic_cleanup_version": "v37_p4_1_cleanup",
+  "system_version": "v3.7-p4.1-tail-diagnostics-clean",
+  "generated_at": "2026-06-21T10:23:46.600005+00:00",
+  "diagnostics_complete": true,
+  "diagnostic_semantics_clean": true,
+  "missed_case_filter_valid": true,
+  "large_score_labeling_valid": true,
+  "ranking_semantics_valid": true,
+  "gate_attribution_rates_valid": true,
+  "safety_pass": true,
+  "performance_pass": false,
+  "rerank_only_allowed": false,
+  "rerank_default_allowed": false,
+  "sample_status": {
+    "sample_size": 51,
+    "large_score_cases": 23,
+    "real_or_partial_event_timeline_cases": 19,
+    "target_sample_size": 50
+  },
+  "missed_large_score_analysis": {
+    "missed_count": 21,
+    "missed_count_cleaned": 21,
+    "top_primary_miss_reasons": [
+      [
+        "acg_quality_insufficient",
+        11
+      ],
+      [
+        "guard_suppressed",
+        8
+      ],
+      [
+        "egci_quality_insufficient",
+        2
+      ]
+    ],
+    "candidate_pool_coverage_rate": 0.6522
+  },
+  "cleanup_summary": {
+    "safety_demotion_rule_enabled_count": 51,
+    "safety_demotion_applied_count": 2,
+    "ranking_mutation_applied_count": 2,
+    "top_overblocking_gates": [
+      "acg_quality",
+      "cold_guard",
+      "deep_handicap_contra"
+    ]
+  },
+  "gate_attribution": {
+    "top_blocking_gates": [
+      "acg_threshold",
+      "egci_quality",
+      "egci_threshold",
+      "underdog_fragility",
+      "cold_guard"
+    ],
+    "potential_overblocking_gates": [
+      "acg_quality",
+      "cold_guard",
+      "deep_handicap_contra"
+    ]
+  },
+  "performance_metrics": {
+    "large_score_top5_recall_delta": 0.0,
+    "avg_rank_improvement": 0.0,
+    "candidate_pool_coverage_rate": 0.6522,
+    "missed_large_score_count": 21,
+    "guard_suppression_rate": 0.0
+  },
+  "recommendations": [
+    "improve_egci_v2_real_coverage",
+    "review_guard_attribution_not_threshold_tuning"
+  ],
+  "decision": {
+    "allowed_modes": [
+      "audit_only"
+    ],
+    "reason": "performance_not_yet_improved",
+    "next_action": "expand_sample_and_review_gate_attribution",
+    "no_lambda_mutation": true,
+    "no_v2_probability_mutation": true,
+    "no_adjusted_probability_mutation": true,
+    "no_auto_betting": true
+  },
+  "signal_summary": {
+    "gate_attribution": {
+      "gate_count": 7,
+      "top_blocking_gates": [
+        "acg_threshold",
+        "egci_quality",
+        "egci_threshold",
+        "underdog_fragility",
+        "cold_guard"
+      ],
+      "total_blocked_cases": 205
+    }
+  },
+  "dedup_errors": []
+}

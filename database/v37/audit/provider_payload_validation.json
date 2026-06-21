@@ -1,0 +1,15 @@
+{
+  "results": [
+    {
+      "provider": "thestatsapi",
+      "checked": 1,
+      "errors": [],
+      "warnings": [],
+      "error_count": 0,
+      "warning_count": 0,
+      "ok": true
+    }
+  ],
+  "ok": true,
+  "error_count": 0
+}

@@ -8,12 +8,6 @@ WC2026-E33,hhad,away,2.65,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,fals
 WC2026-E34,hhad,home,1.85,-2,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
 WC2026-E34,hhad,draw,4.00,-2,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
 WC2026-E34,hhad,away,2.95,-2,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
-WC2026-F35,had,home,1.53,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
-WC2026-F35,had,draw,3.83,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
-WC2026-F35,had,away,4.65,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
-WC2026-F35,hhad,home,2.75,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
-WC2026-F35,hhad,draw,3.23,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
-WC2026-F35,hhad,away,2.19,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
 WC2026-F36,had,home,6.55,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
 WC2026-F36,had,draw,4.05,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
 WC2026-F36,had,away,1.37,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
@@ -35,3 +29,11 @@ WC2026-G39,had,away,7.30,,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,f
 WC2026-G39,hhad,home,2.04,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
 WC2026-G39,hhad,draw,3.50,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
 WC2026-G39,hhad,away,2.83,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
+WC2026-F35,had,home,1.53,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
+WC2026-F35,had,draw,3.83,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
+WC2026-F35,had,away,4.65,,,true,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
+WC2026-F35,hhad,home,2.75,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
+WC2026-F35,hhad,draw,3.23,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
+WC2026-F35,hhad,away,2.19,-1,,false,open,local_jc_odds,2026-06-21T07:57:20Z,false,false
+WC2026-F35,had,home,1.48,,,,,thestatsapi,2026-06-20T08:00:00Z,true,
+WC2026-F35,had,home,1.42,,,,,thestatsapi,2026-06-20T11:30:00Z,,true

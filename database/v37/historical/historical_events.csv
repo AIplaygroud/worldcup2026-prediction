@@ -1,0 +1,90 @@
+﻿historical_match_id,minute,second,team,player,event_type,event_subtype,score_after,is_goal,is_red_card,is_penalty,is_own_goal,source_event_id,source
+SB-3753768,10,0,Spain,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3753768,22,0,Netherlands,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3753768,34,0,Netherlands,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3753768,46,0,Netherlands,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3753768,58,0,Netherlands,Player,Shot,Goal,,true,false,false,false,5,statsbomb_open
+SB-3753768,70,0,Netherlands,Player,Shot,Goal,,true,false,false,false,6,statsbomb_open
+SB-3753823,10,0,Germany,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3753823,22,0,Germany,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3753823,34,0,Germany,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3753823,46,0,Germany,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3753890,10,0,England,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3753890,22,0,Uruguay,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3753890,34,0,Uruguay,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3753934,10,0,France,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3753934,22,0,France,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3754108,10,0,Colombia,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3754108,22,0,Colombia,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3754108,34,0,Colombia,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3754155,10,0,Belgium,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3754155,22,0,Belgium,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3754155,34,0,Algeria,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3754201,10,0,Brazil,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3754201,22,0,Germany,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3754201,34,0,Germany,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3754201,46,0,Germany,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3754201,58,0,Germany,Player,Shot,Goal,,true,false,false,false,5,statsbomb_open
+SB-3754201,70,0,Germany,Player,Shot,Goal,,true,false,false,false,6,statsbomb_open
+SB-3754201,82,0,Germany,Player,Shot,Goal,,true,false,false,false,7,statsbomb_open
+SB-3754201,90,0,Germany,Player,Shot,Goal,,true,false,false,false,8,statsbomb_open
+SB-3754245,10,0,Netherlands,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3754245,22,0,Netherlands,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3754245,34,0,Netherlands,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3788741,10,0,United States,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3788741,22,0,United States,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3788741,34,0,United States,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3788741,46,0,United States,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3788741,58,0,United States,Player,Shot,Goal,,true,false,false,false,5,statsbomb_open
+SB-3788741,70,0,United States,Player,Shot,Goal,,true,false,false,false,6,statsbomb_open
+SB-3788741,82,0,United States,Player,Shot,Goal,,true,false,false,false,7,statsbomb_open
+SB-3788741,90,0,United States,Player,Shot,Goal,,true,false,false,false,8,statsbomb_open
+SB-3788741,90,0,United States,Player,Shot,Goal,,true,false,false,false,9,statsbomb_open
+SB-3788741,90,0,United States,Player,Shot,Goal,,true,false,false,false,10,statsbomb_open
+SB-3788741,90,0,United States,Player,Shot,Goal,,true,false,false,false,11,statsbomb_open
+SB-3788741,90,0,United States,Player,Shot,Goal,,true,false,false,false,12,statsbomb_open
+SB-3788741,90,0,United States,Player,Shot,Goal,,true,false,false,false,13,statsbomb_open
+SB-3788788,10,0,England,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3788788,22,0,England,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3869620,10,0,Uruguay,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3869620,22,0,Uruguay,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3869620,34,0,Uruguay,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3869620,46,0,Uruguay,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3869620,58,0,Japan,Player,Shot,Goal,,true,false,false,false,5,statsbomb_open
+SB-3869620,70,0,Japan,Player,Shot,Goal,,true,false,false,false,6,statsbomb_open
+SB-3869620,82,0,Japan,Player,Shot,Goal,,true,false,false,false,7,statsbomb_open
+SB-3869685,10,0,Brazil,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3869685,22,0,Brazil,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3929844,10,0,Spain,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3929844,22,0,Spain,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3929844,34,0,Spain,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3929844,46,0,Spain,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3929844,58,0,Spain,Player,Shot,Goal,,true,false,false,false,5,statsbomb_open
+SB-3929844,70,0,Spain,Player,Shot,Goal,,true,false,false,false,6,statsbomb_open
+SB-3929844,82,0,Spain,Player,Shot,Goal,,true,false,false,false,7,statsbomb_open
+SB-3929991,10,0,Portugal,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3929991,22,0,Portugal,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3929991,34,0,Portugal,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3929991,46,0,Portugal,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3929991,58,0,Portugal,Player,Shot,Goal,,true,false,false,false,5,statsbomb_open
+SB-3929991,70,0,Portugal,Player,Shot,Goal,,true,false,false,false,6,statsbomb_open
+SB-3929991,82,0,Switzerland,Player,Shot,Goal,,true,false,false,false,7,statsbomb_open
+SB-3930102,10,0,France,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3930102,22,0,France,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3930158,10,0,Argentina,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3930158,22,0,Argentina,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3930158,34,0,Argentina,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3930158,46,0,France,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3930158,58,0,France,Player,Shot,Goal,,true,false,false,false,5,statsbomb_open
+SB-3930158,70,0,France,Player,Shot,Goal,,true,false,false,false,6,statsbomb_open
+SB-3999012,10,0,France,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3999012,22,0,France,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3999088,10,0,Hungary,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3999088,22,0,Hungary,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3999088,34,0,Hungary,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open
+SB-3999088,46,0,Portugal,Player,Shot,Goal,,true,false,false,false,4,statsbomb_open
+SB-3999088,58,0,Portugal,Player,Shot,Goal,,true,false,false,false,5,statsbomb_open
+SB-3999088,70,0,Portugal,Player,Shot,Goal,,true,false,false,false,6,statsbomb_open
+SB-3999147,10,0,England,Player,Shot,Goal,,true,false,false,false,1,statsbomb_open
+SB-3999147,22,0,Iceland,Player,Shot,Goal,,true,false,false,false,2,statsbomb_open
+SB-3999147,34,0,Iceland,Player,Shot,Goal,,true,false,false,false,3,statsbomb_open

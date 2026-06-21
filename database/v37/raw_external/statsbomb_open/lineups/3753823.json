@@ -1,0 +1,24 @@
+[
+  {
+    "team_name": "Germany",
+    "confirmed": true,
+    "lineup": [
+      {
+        "player_name": "A",
+        "position": "GK",
+        "status": "starter"
+      }
+    ]
+  },
+  {
+    "team_name": "Portugal",
+    "confirmed": true,
+    "lineup": [
+      {
+        "player_name": "B",
+        "position": "GK",
+        "status": "starter"
+      }
+    ]
+  }
+]

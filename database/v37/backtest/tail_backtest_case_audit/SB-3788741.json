@@ -1,0 +1,262 @@
+{
+  "tail_layer_version": "v37_p4_1",
+  "match_id": "SB-3788741",
+  "mode": "rerank_only",
+  "no_lambda_mutation": true,
+  "no_v2_probability_mutation": true,
+  "lambda_unchanged": {
+    "home": 1.3,
+    "away": 1.0
+  },
+  "eligibility": {
+    "data_quality_ok": true,
+    "eventflow_ok": true,
+    "egci_real_ok": true,
+    "acg_ok": false,
+    "underdog_fragility_ok": true,
+    "chase_pressure_ok": false,
+    "guard_suppression": false
+  },
+  "block_reasons": [
+    "acg_v2_quality_not_real_or_partial",
+    "favorite_acg_below_mild"
+  ],
+  "candidate_tail_scorelines": [],
+  "tail_scoreline_buckets": {
+    "favorite_clean_blowout": [
+      "0-3",
+      "0-4",
+      "3-0",
+      "4-0"
+    ],
+    "favorite_btts_blowout": [
+      "1-3",
+      "1-4",
+      "2-4",
+      "3-1",
+      "4-1",
+      "4-2"
+    ],
+    "open_game_high_total": [
+      "2-3",
+      "2-4",
+      "3-2",
+      "3-3",
+      "3-4",
+      "4-2",
+      "4-3"
+    ],
+    "extreme_tail_warning": [
+      "0-5",
+      "0-6",
+      "0-7",
+      "1-5",
+      "1-6",
+      "1-7",
+      "2-5",
+      "5-0",
+      "5-1",
+      "5-2",
+      "6-0",
+      "6-1",
+      "7-0",
+      "7-1"
+    ]
+  },
+  "forbidden_top3_scorelines": [
+    "0-5",
+    "0-6",
+    "0-7",
+    "1-5",
+    "1-6",
+    "1-7",
+    "2-5",
+    "5-0",
+    "5-1",
+    "5-2",
+    "6-0",
+    "6-1",
+    "7-0",
+    "7-1"
+  ],
+  "scoreline_before": [
+    {
+      "score": "1-0",
+      "rank": 1,
+      "fusion_ranking_score": 0.130336
+    },
+    {
+      "score": "1-1",
+      "rank": 2,
+      "fusion_ranking_score": 0.130336
+    },
+    {
+      "score": "0-0",
+      "rank": 3,
+      "fusion_ranking_score": 0.100259
+    },
+    {
+      "score": "0-1",
+      "rank": 4,
+      "fusion_ranking_score": 0.100259
+    },
+    {
+      "score": "2-0",
+      "rank": 5,
+      "fusion_ranking_score": 0.084719
+    },
+    {
+      "score": "2-1",
+      "rank": 6,
+      "fusion_ranking_score": 0.084719
+    },
+    {
+      "score": "1-2",
+      "rank": 7,
+      "fusion_ranking_score": 0.065168
+    },
+    {
+      "score": "0-2",
+      "rank": 8,
+      "fusion_ranking_score": 0.050129
+    },
+    {
+      "score": "2-2",
+      "rank": 9,
+      "fusion_ranking_score": 0.042359
+    },
+    {
+      "score": "3-0",
+      "rank": 10,
+      "fusion_ranking_score": 0.036711
+    }
+  ],
+  "scoreline_after": [
+    {
+      "score": "1-0",
+      "rank": 1,
+      "fusion_ranking_score": 0.130336
+    },
+    {
+      "score": "1-1",
+      "rank": 2,
+      "fusion_ranking_score": 0.130336
+    },
+    {
+      "score": "0-0",
+      "rank": 3,
+      "fusion_ranking_score": 0.100259
+    },
+    {
+      "score": "0-1",
+      "rank": 4,
+      "fusion_ranking_score": 0.100259
+    },
+    {
+      "score": "2-0",
+      "rank": 5,
+      "fusion_ranking_score": 0.084719
+    },
+    {
+      "score": "2-1",
+      "rank": 6,
+      "fusion_ranking_score": 0.084719
+    },
+    {
+      "score": "1-2",
+      "rank": 7,
+      "fusion_ranking_score": 0.065168
+    },
+    {
+      "score": "0-2",
+      "rank": 8,
+      "fusion_ranking_score": 0.050129
+    },
+    {
+      "score": "2-2",
+      "rank": 9,
+      "fusion_ranking_score": 0.042359
+    },
+    {
+      "score": "3-0",
+      "rank": 10,
+      "fusion_ranking_score": 0.036711
+    }
+  ],
+  "tail_signal_score": 0.839,
+  "tail_signal_components": {
+    "egci": 1,
+    "acg": 0.6944,
+    "fragility": 1,
+    "chase_pressure": 0.7692,
+    "open_game": 1,
+    "guard_penalty": 0
+  },
+  "delta_summary": {
+    "ranking_changed": false,
+    "boosted_scores": [],
+    "suppressed_scores": [],
+    "max_boost_applied": 0.12
+  },
+  "context": {
+    "favorite_acg": 0.5,
+    "favorite_acg_v1": 0.5,
+    "acg_v2_quality": "proxy",
+    "egci": 1.0,
+    "egci_v2_quality": "real",
+    "data_quality_score": 0.8,
+    "underdog_fragility": 0.7,
+    "underdog_chase_pressure": 0.5,
+    "confirmed_event_timeline": true
+  },
+  "evaluation": {
+    "tail_boost_level": "none",
+    "eligible_for_rerank": false,
+    "block_reasons": [
+      "acg_v2_quality_not_real_or_partial",
+      "favorite_acg_below_mild"
+    ],
+    "trigger_reasons": [],
+    "guard_suppression": false
+  },
+  "v37_large_score_tail": {
+    "enabled": true,
+    "mode": "rerank_only",
+    "tail_boost_level": "none",
+    "tail_boost_applied": false,
+    "safety_demotion_rule_enabled": true,
+    "safety_demotion_applied": false,
+    "ranking_mutation_applied": false,
+    "ranking_mutation_reason": "none",
+    "ranking_mutation_allowed": true,
+    "top3_before": [
+      "1-0",
+      "1-1",
+      "0-0"
+    ],
+    "top3_after": [
+      "1-0",
+      "1-1",
+      "0-0"
+    ],
+    "five_plus_in_top3_before": [],
+    "five_plus_in_top3_after": [],
+    "boosted_scores": [],
+    "suppressed_scores": [],
+    "reason": [
+      "acg_v2_quality_not_real_or_partial",
+      "favorite_acg_below_mild"
+    ],
+    "no_lambda_mutation": true,
+    "no_v2_probability_mutation": true,
+    "tail_signal_score": 0.839,
+    "tail_signal_components": {
+      "egci": 1,
+      "acg": 0.6944,
+      "fragility": 1,
+      "chase_pressure": 0.7692,
+      "open_game": 1,
+      "guard_penalty": 0
+    }
+  }
+}

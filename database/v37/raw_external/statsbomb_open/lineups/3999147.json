@@ -1,0 +1,24 @@
+[
+  {
+    "team_name": "England",
+    "confirmed": true,
+    "lineup": [
+      {
+        "player_name": "A",
+        "position": "GK",
+        "status": "starter"
+      }
+    ]
+  },
+  {
+    "team_name": "Iceland",
+    "confirmed": true,
+    "lineup": [
+      {
+        "player_name": "B",
+        "position": "GK",
+        "status": "starter"
+      }
+    ]
+  }
+]

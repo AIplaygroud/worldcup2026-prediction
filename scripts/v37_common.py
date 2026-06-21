@@ -18,6 +18,8 @@ from group_state_common import (
 
 V37_DB = ROOT / "database" / "v37"
 V37_RAW = V37_DB / "raw"
+V37_RAW_EXTERNAL = V37_DB / "raw_external"
+V37_PROVIDER_CACHE = V37_DB / "provider_cache"
 V37_NORMALIZED = V37_DB / "normalized"
 V37_FEATURES = V37_DB / "features"
 V37_AUDIT = V37_DB / "audit"
@@ -109,6 +111,7 @@ NORMALIZED_TABLES = {
     "match_stats": V37_NORMALIZED / "match_stats.csv",
     "team_recent_stats": V37_NORMALIZED / "team_recent_stats.csv",
     "odds_snapshots": V37_NORMALIZED / "odds_snapshots.csv",
+    "provider_match_map": V37_NORMALIZED / "provider_match_map.csv",
 }
 
 FEATURE_TABLES = {
@@ -119,7 +122,77 @@ FEATURE_TABLES = {
     "low_block_keeper": V37_FEATURES / "low_block_keeper_features.csv",
     "odds_value": V37_FEATURES / "odds_value_features.csv",
     "realization": V37_FEATURES / "v37_realization_features.csv",
+    "large_score_tail": V37_FEATURES / "large_score_tail_features.csv",
+    "egci_v2": V37_FEATURES / "egci_v2_features.csv",
+    "acg_v2": V37_FEATURES / "acg_v2_features.csv",
+    "market_movement": V37_FEATURES / "market_movement_features.csv",
 }
+
+V37_TAIL_THRESHOLDS = {
+    "min_data_quality": 0.65,
+    "acg_mild": 0.58,
+    "acg_medium": 0.65,
+    "acg_strong": 0.72,
+    "egci_mild": 0.58,
+    "egci_medium": 0.65,
+    "egci_strong": 0.72,
+    "fragility_mild": 0.50,
+    "fragility_medium": 0.62,
+    "fragility_strong": 0.70,
+    "chase_medium": 0.55,
+    "chase_strong": 0.65,
+    "max_tail_boost_default": 0.12,
+    "provider_match_confidence_min": 0.60,
+}
+
+TAIL_LAYER_VERSION = "v37_p4_1"
+
+V37_VERSION = "v3.7-p4.1-tail-diagnostics-clean"
+
+V37_HISTORICAL = V37_DB / "historical"
+V37_BACKTEST = V37_DB / "backtest"
+V37_DIAGNOSTICS = V37_DB / "diagnostics"
+
+DIAGNOSTICS_TABLES = {
+    "tail_signal_dir": V37_DIAGNOSTICS / "tail_signal",
+    "missed_cases": V37_DIAGNOSTICS / "tail_signal" / "missed_large_score_cases.csv",
+    "gate_attribution": V37_DIAGNOSTICS / "tail_signal" / "tail_gate_attribution.csv",
+    "candidate_coverage": V37_DIAGNOSTICS / "tail_signal" / "tail_candidate_coverage.csv",
+    "ranking_mutation": V37_DIAGNOSTICS / "tail_signal" / "ranking_mutation_audit.csv",
+    "signal_summary": V37_DIAGNOSTICS / "tail_signal" / "tail_signal_quality_summary.json",
+    "signal_report_md": V37_AUDIT / "v37_p4_1_tail_signal_improvement_report.md",
+}
+
+HISTORICAL_TABLES = {
+    "matches": V37_HISTORICAL / "historical_matches.csv",
+    "events": V37_HISTORICAL / "historical_events.csv",
+    "lineups": V37_HISTORICAL / "historical_lineups.csv",
+    "match_stats": V37_HISTORICAL / "historical_match_stats.csv",
+    "odds": V37_HISTORICAL / "historical_odds.csv",
+    "feature_snapshot": V37_HISTORICAL / "historical_feature_snapshot.csv",
+    "tail_backtest_cases": V37_HISTORICAL / "historical_tail_backtest_cases.csv",
+}
+
+BACKTEST_TABLES = {
+    "results": V37_BACKTEST / "tail_backtest_results.csv",
+    "summary": V37_BACKTEST / "tail_backtest_summary.json",
+    "case_audit_dir": V37_BACKTEST / "tail_backtest_case_audit",
+}
+
+# P4.1 rerank opt-in thresholds
+P4_RERANK_THRESHOLDS = {
+    "large_score_top5_recall_improvement_min": 0.08,
+    "tail_false_positive_increase_max": 0.05,
+    "brier_worsen_max": 0.01,
+    "min_sample_size_performance": 20,
+    "min_large_score_cases": 5,
+    "min_sample_size_default": 50,
+    "min_large_score_cases_default": 12,
+}
+
+# Provider enrichment confidence tiers
+PROVIDER_CONFIDENCE_ENRICH_MIN = 0.60
+PROVIDER_CONFIDENCE_FULL = 0.80
 
 
 def clip(v: float, lo: float = 0.0, hi: float = 1.0) -> float:
@@ -152,8 +225,22 @@ def bnum(row: Mapping[str, Any], key: str, default: bool = False) -> bool:
 
 
 def ensure_v37_dirs() -> None:
-    for d in (V37_RAW, V37_NORMALIZED, V37_FEATURES, V37_AUDIT):
+    for d in (
+        V37_RAW,
+        V37_RAW_EXTERNAL,
+        V37_PROVIDER_CACHE,
+        V37_NORMALIZED,
+        V37_FEATURES,
+        V37_AUDIT,
+        V37_HISTORICAL,
+        V37_BACKTEST,
+        V37_DIAGNOSTICS,
+        DIAGNOSTICS_TABLES["tail_signal_dir"],
+        BACKTEST_TABLES["case_audit_dir"],
+    ):
         d.mkdir(parents=True, exist_ok=True)
+    for provider in ("thestatsapi", "sportmonks", "apifootball", "statsbomb_open", "local"):
+        (V37_RAW_EXTERNAL / provider).mkdir(parents=True, exist_ok=True)
 
 
 def kickoff_from_mapping(row: Mapping[str, str]) -> datetime:

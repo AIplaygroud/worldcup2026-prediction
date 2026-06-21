@@ -1,0 +1,22 @@
+{
+  "run_id": "20260621_thestatsapi_dryrun",
+  "provider": "thestatsapi",
+  "dry_run": true,
+  "tables": {
+    "match_events": {
+      "fill_missing": 3
+    },
+    "lineups": {
+      "fill_missing": 2
+    },
+    "match_stats": {
+      "fill_missing": 2
+    },
+    "odds_snapshots": {
+      "fill_missing": 2
+    }
+  },
+  "error_count": 0,
+  "warning_count": 0,
+  "safe_to_apply": false
+}

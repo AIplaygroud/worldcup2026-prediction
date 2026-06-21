@@ -1,0 +1,24 @@
+[
+  {
+    "match_id": "WC2026-F35",
+    "team": "Netherlands",
+    "data_timing": "prematch",
+    "shots": "14",
+    "shots_on_target": "6",
+    "xg": "2.15",
+    "big_chances": "4",
+    "source": "thestatsapi",
+    "quality_flag": "real"
+  },
+  {
+    "match_id": "WC2026-F35",
+    "team": "Sweden",
+    "data_timing": "prematch",
+    "shots": "8",
+    "shots_on_target": "2",
+    "xg": "0.85",
+    "big_chances": "1",
+    "source": "thestatsapi",
+    "quality_flag": "real"
+  }
+]

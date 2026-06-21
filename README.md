@@ -506,6 +506,45 @@ copies of the Software, ...
 
 ---
 
+## V3.7-P4 Historical Tail Calibration
+
+**English:** This stage evaluates whether the large-score tail layer improves scoreline ranking using labeled historical matches and event timelines. It does not mutate lambda, V2 probabilities, adjusted probabilities, or betting outputs. Rerank remains audit-only unless calibration thresholds allow opt-in `rerank_only`.
+
+**中文：** V3.7-P4 历史大比分尾部校准 — 本阶段使用历史带标签比赛和事件时间线评估大比分尾部层是否真正提升比分排序。该阶段不修改 λ、不修改 V2 概率、不修改 adjusted_probability、不生成投注推荐。只有回测满足阈值后，`rerank_only` 才允许作为 opt-in 使用，默认仍保持 `audit_only`。
+
+```bash
+python scripts/build_v37_historical_matches.py --sources statsbomb_open,finished_wc2026 --output database/v37/historical/historical_matches.csv
+python scripts/build_v37_historical_events.py --source statsbomb_open --output database/v37/historical/historical_events.csv
+python scripts/build_v37_historical_lineups.py --source statsbomb_open --output database/v37/historical/historical_lineups.csv
+python scripts/build_v37_historical_match_stats.py --output database/v37/historical/historical_match_stats.csv
+python scripts/build_v37_historical_feature_snapshot.py --matches database/v37/historical/historical_matches.csv --events database/v37/historical/historical_events.csv --lineups database/v37/historical/historical_lineups.csv --stats database/v37/historical/historical_match_stats.csv --output database/v37/historical/historical_feature_snapshot.csv
+python scripts/build_v37_tail_backtest_cases.py --snapshot database/v37/historical/historical_feature_snapshot.csv --output database/v37/historical/historical_tail_backtest_cases.csv
+python scripts/backtest_v37_tail_layer.py --cases database/v37/historical/historical_tail_backtest_cases.csv --output database/v37/backtest/tail_backtest_results.csv --summary database/v37/backtest/tail_backtest_summary.json
+python scripts/report_v37_p4_tail_calibration.py --backtest database/v37/backtest/tail_backtest_results.csv --summary database/v37/backtest/tail_backtest_summary.json --output-json database/v37/audit/v37_p4_tail_calibration_report.json --output-md database/v37/audit/v37_p4_tail_calibration_report.md
+```
+
+## V3.7-P4.1 Tail Signal Improvement
+
+**English:** P4.1 does not enable `rerank_only`. It diagnoses why the P4 historical calibration did not improve large-score recall. It outputs missed large-score cases, gate attribution, candidate coverage, ranking mutation semantics, and sample expansion requirements. The system remains audit_only by default.
+
+**中文：** V3.7-P4.1 大比分尾部信号改进 — P4.1 不启用 rerank_only，而是诊断 P4 历史回测为什么没有提升大比分召回。该阶段输出 missed large-score cases、gate attribution、candidate coverage、ranking mutation semantics 和样本扩充要求。系统默认仍保持 audit_only。
+
+```bash
+python scripts/seed_statsbomb_historical_cache.py
+python scripts/analyze_v37_missed_large_scores.py
+python scripts/analyze_v37_tail_gate_attribution.py
+python scripts/analyze_v37_tail_candidate_coverage.py
+python scripts/report_v37_p4_1_tail_signal_improvement.py --ci
+```
+
+## V3.7-P4.1 Tail Diagnostics Cleanup
+
+**English:** This cleanup clarifies the diagnostic semantics of the P4.1 tail signal pipeline. It ensures `missed_large_score_cases` contains only true large-score labels, fixes large-score classification for 3-goal margin and open high-total scorelines, separates `safety_demotion_rule_enabled` from `safety_demotion_applied`, and corrects gate attribution false/true block rates. This release does not enable `rerank_only`. The tail layer remains `audit_only` by default.
+
+**中文：** V3.7-P4.1 大比分尾部诊断语义清理（已完成） — 本阶段清理 P4.1 诊断产物语义，确保 `missed_large_score_cases` 只包含真实大比分，修正 3 球差和开放高总进球比分的标签，拆分 `safety_demotion_rule_enabled` 与 `safety_demotion_applied`，并修正 gate attribution 中 false/true block rate 的定义。本阶段不启用 rerank_only，大比分尾部层默认仍保持 audit_only。
+
+---
+
 ## 🙏 致谢
 
 - **[TradingAi666 / 绿茵神算](https://github.com/TradingAi666/worldcup2026-prediction-skill)** — 本仓库 SKILL 架构与约束设计的参照来源

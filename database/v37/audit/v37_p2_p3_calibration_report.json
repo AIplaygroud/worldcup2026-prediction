@@ -1,0 +1,45 @@
+{
+  "version": "v3.7-p4-historical-tail-calibration",
+  "tail_layer_version": "v37_p2_2",
+  "generated_at": "2026-06-21T09:38:43.303493+00:00",
+  "safety_pass": false,
+  "performance_pass": false,
+  "rerank_only_allowed": false,
+  "rerank_default_allowed": false,
+  "safety_details": {
+    "e34_no_boost": true,
+    "cold_guard_suppression": true,
+    "five_goal_top3_blocked": false,
+    "normalized_dedup_clean": true,
+    "tail_false_positive_ok": false
+  },
+  "performance_details": {
+    "sufficient_historical_sample": true,
+    "large_score_top5_recall_ok": false,
+    "brier_not_worsened": true
+  },
+  "backtest_metrics": {
+    "sample_size": 33,
+    "large_score_cases": 15,
+    "non_large_score_cases": 18,
+    "baseline_large_score_top5_recall": 0.1333,
+    "rerank_large_score_top5_recall": 0.1333,
+    "large_score_top5_recall_delta": 0.0,
+    "tail_false_positive_rate": 0.2778,
+    "tail_false_positive_delta": 0.0,
+    "avg_rank_improvement": 0.0,
+    "cold_guard_false_boost_count": 0,
+    "must_win_no_convert_false_boost_count": 0,
+    "deep_handicap_false_boost_count": 0,
+    "five_goal_top3_violation_count": 2,
+    "generated_at": "2026-06-21T09:38:43.288457+00:00"
+  },
+  "historical_matches_with_scores": 33,
+  "egci_v2_quality_distribution": {
+    "proxy": 32,
+    "missing": 39,
+    "real": 1
+  },
+  "dedup_errors": [],
+  "default_tail_mode": "audit_only"
+}

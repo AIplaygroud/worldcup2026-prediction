@@ -1,6 +1,5 @@
 ﻿match_id,team,player,signal_type,status,role_group,importance_tier,evidence_grade,confirmed,source,updated_at
 WC2026-D32,USA,Christian Pulisic,injury,out,wide_attacker,core,A,true,realtime_availability_signals,2026-06-19
-WC2026-D32,USA,Christian Pulisic,injury,doubtful,wide_attacker,core,C,false,realtime_availability_signals,2026-06-19
 WC2026-D32,Australia,Garang Kuol,lineup_start,starts,wide_attacker,rotation,B,true,realtime_availability_signals,2026-06-19
 WC2026-D32,Australia,Nestory Irankunda,lineup_start,benched,wide_attacker,regular,A,true,realtime_availability_signals,2026-06-20
 WC2026-D32,Australia,Connor Metcalfe,lineup_start,benched,creator,regular,A,true,realtime_availability_signals,2026-06-20

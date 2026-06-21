@@ -31,3 +31,6 @@ WC2026-C29,WC2026-C29_ft,90,,,fulltime,,,3,0,,,,wc2026_match_xg,true
 WC2026-C30,WC2026-C30_ft,90,,,fulltime,,,0,1,,,,wc2026_match_xg,true
 WC2026-D31,WC2026-D31_ft,90,,,fulltime,,,0,1,,,,wc2026_match_xg,true
 WC2026-D32,WC2026-D32_ft,90,,,fulltime,,,2,0,,,,wc2026_match_xg,true
+WC2026-F35,wc2026-f35_12_netherlands_goal_cody gakpo,12,,Netherlands,goal,Cody Gakpo,,1,0,,,,thestatsapi,true
+WC2026-F35,wc2026-f35_23_netherlands_goal_memphis depay,23,,Netherlands,goal,Memphis Depay,,2,0,,,,thestatsapi,true
+WC2026-F35,wc2026-f35_67_sweden_goal_viktor gyokeres,67,,Sweden,goal,Viktor Gyokeres,,2,1,,,,thestatsapi,true

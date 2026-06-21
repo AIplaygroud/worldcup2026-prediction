@@ -1,0 +1,40 @@
+{
+  "version": "v37_p4_tail_calibration",
+  "system_version": "v3.7-p4.1-tail-signal-improvement",
+  "tail_layer_version": "v37_p4_1",
+  "generated_at": "2026-06-21T09:58:57.724753+00:00",
+  "safety_pass": true,
+  "performance_pass": false,
+  "rerank_only_allowed": false,
+  "rerank_default_allowed": false,
+  "sample_status": {
+    "sample_size": 51,
+    "large_score_cases": 25,
+    "minimum_for_performance": 20,
+    "minimum_for_default": 50
+  },
+  "performance": {
+    "baseline_large_score_top5_recall": 0.08,
+    "rerank_large_score_top5_recall": 0.08,
+    "large_score_top5_recall_delta": 0.0,
+    "tail_false_positive_delta": 0.0,
+    "avg_rank_improvement": -0.098
+  },
+  "guard_safety": {
+    "cold_guard_false_boost_count": 0,
+    "must_win_no_convert_false_boost_count": 0,
+    "deep_handicap_false_boost_count": 0,
+    "five_goal_top3_violation_count": 0
+  },
+  "decision": {
+    "reason": "performance_thresholds_not_met",
+    "allowed_modes": [
+      "audit_only"
+    ],
+    "no_lambda_mutation": true,
+    "no_v2_probability_mutation": true,
+    "no_adjusted_probability_mutation": true,
+    "no_auto_betting": true
+  },
+  "dedup_errors": []
+}

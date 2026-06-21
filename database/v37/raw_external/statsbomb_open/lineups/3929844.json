@@ -1,0 +1,24 @@
+[
+  {
+    "team_name": "Spain",
+    "confirmed": true,
+    "lineup": [
+      {
+        "player_name": "A",
+        "position": "GK",
+        "status": "starter"
+      }
+    ]
+  },
+  {
+    "team_name": "Costa Rica",
+    "confirmed": true,
+    "lineup": [
+      {
+        "player_name": "B",
+        "position": "GK",
+        "status": "starter"
+      }
+    ]
+  }
+]

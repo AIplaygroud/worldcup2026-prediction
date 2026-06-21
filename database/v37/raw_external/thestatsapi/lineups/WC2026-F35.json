@@ -1,0 +1,24 @@
+[
+  {
+    "match_id": "WC2026-F35",
+    "team": "Netherlands",
+    "player_name": "Cody Gakpo",
+    "is_starter": "true",
+    "position": "Forward",
+    "role_group": "wide_attacker",
+    "lineup_status": "confirmed",
+    "source": "thestatsapi",
+    "confirmed_at_utc": "2026-06-20T10:00:00Z"
+  },
+  {
+    "match_id": "WC2026-F35",
+    "team": "Netherlands",
+    "player_name": "Memphis Depay",
+    "is_starter": "true",
+    "position": "Forward",
+    "role_group": "striker",
+    "lineup_status": "confirmed",
+    "source": "thestatsapi",
+    "confirmed_at_utc": "2026-06-20T10:00:00Z"
+  }
+]

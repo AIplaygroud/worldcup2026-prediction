@@ -1,0 +1,52 @@
+﻿match_id,historical_match_id,source,competition,home_team,away_team,actual_scoreline,is_large_score,lambda_home,lambda_away,data_quality_score,egci_v2,egci_v2_quality,acg_favorite,acg_v2_quality,underdog_fragility,chase_pressure,cold_guard_active,must_win_no_convert,deep_handicap_contra,eventflow_degraded,confirmed_event_timeline,eligible_for_tail_backtest
+WC2026-A1,WC2026-A1,finished_wc2026,WC2026,Mexico,South Africa,2-0,false,1.46,0.07,0.75,0.4,proxy,0.2281,real,0.28,0.2,true,false,true,false,false,true
+WC2026-A2,WC2026-A2,finished_wc2026,WC2026,South Korea,Czechia,2-1,false,2.3,0.83,0.75,0.4,proxy,0.2964,real,0.28,0.2,false,false,false,false,false,true
+WC2026-B3,WC2026-B3,finished_wc2026,WC2026,Canada,Bosnia and Herzegovina,1-1,false,1.23,0.96,0.75,0.4,proxy,0.2365,real,0.28,0.2,false,false,false,false,false,true
+WC2026-D4,WC2026-D4,finished_wc2026,WC2026,USA,Paraguay,4-1,true,1.42,0.54,0.75,0.4,proxy,0.15,real,0.28,0.2,false,false,false,false,false,true
+WC2026-C5,WC2026-C5,finished_wc2026,WC2026,Haiti,Scotland,0-1,false,1.05,1.05,0.75,0.4,proxy,0.2917,real,0.28,0.2,false,false,false,false,false,true
+WC2026-D6,WC2026-D6,finished_wc2026,WC2026,Australia,Turkey,2-0,false,1.18,1.36,0.75,0.4,proxy,0.1133,real,0.28,0.2,false,false,false,false,false,true
+WC2026-C7,WC2026-C7,finished_wc2026,WC2026,Brazil,Morocco,1-1,false,1.26,1.37,0.75,0.4,proxy,0.2625,real,0.28,0.2,false,false,false,false,false,true
+WC2026-B8,WC2026-B8,finished_wc2026,WC2026,Qatar,Switzerland,1-1,false,0.6,3.2,0.75,0.4,proxy,0.3077,real,0.28,0.2,true,false,true,false,false,true
+WC2026-E9,WC2026-E9,finished_wc2026,WC2026,Ivory Coast,Ecuador,1-0,false,1.52,1.01,0.75,0.4,proxy,0.2104,real,0.28,0.2,false,false,false,false,false,true
+WC2026-E10,WC2026-E10,finished_wc2026,WC2026,Germany,Curacao,7-1,true,4.22,0.41,0.75,0.4,proxy,0.4058,real,0.28,0.2,true,false,true,false,false,true
+WC2026-F11,WC2026-F11,finished_wc2026,WC2026,Netherlands,Japan,2-2,false,0.78,0.59,0.75,0.4,proxy,0.195,real,0.28,0.2,false,false,false,false,false,true
+WC2026-F12,WC2026-F12,finished_wc2026,WC2026,Sweden,Tunisia,5-1,true,1.33,0.28,0.75,0.4,proxy,0.2558,real,0.28,0.2,true,false,true,false,false,true
+WC2026-H13,WC2026-H13,finished_wc2026,WC2026,Saudi Arabia,Uruguay,1-1,false,0.66,1.72,0.75,0.4,proxy,0.1593,real,0.28,0.2,false,false,true,false,false,true
+WC2026-H14,WC2026-H14,finished_wc2026,WC2026,Spain,Cape Verde,0-0,false,2.1,0.2,0.75,0.4,proxy,0.1944,real,0.28,0.2,true,false,true,false,false,true
+WC2026-G15,WC2026-G15,finished_wc2026,WC2026,Iran,New Zealand,2-2,false,1.5,1.24,0.75,0.4,proxy,0.2206,real,0.28,0.2,false,false,false,false,false,true
+WC2026-G16,WC2026-G16,finished_wc2026,WC2026,Belgium,Egypt,1-1,false,1.35,1.08,0.75,0.4,proxy,0.225,real,0.28,0.2,false,false,false,false,false,true
+WC2026-I17,WC2026-I17,finished_wc2026,WC2026,France,Senegal,3-1,true,1.79,0.53,0.75,0.4,proxy,0.4068,real,0.28,0.2,true,false,true,false,false,true
+WC2026-I18,WC2026-I18,finished_wc2026,WC2026,Iraq,Norway,1-4,true,0.8,2.52,0.75,0.4,proxy,0.525,real,0.28,0.2,false,false,true,false,false,true
+WC2026-J19,WC2026-J19,finished_wc2026,WC2026,Argentina,Algeria,3-0,true,1.26,0.32,0.75,0.4,proxy,0.315,real,0.28,0.2,true,false,true,false,false,true
+WC2026-J20,WC2026-J20,finished_wc2026,WC2026,Austria,Jordan,3-1,true,1.69,0.46,0.75,0.4,proxy,0.3841,real,0.28,0.2,true,false,true,false,false,true
+WC2026-L21,WC2026-L21,finished_wc2026,WC2026,Ghana,Panama,1-0,false,1.31,0.75,0.75,0.4,proxy,0.4094,real,0.28,0.2,false,false,false,false,false,true
+WC2026-L22,WC2026-L22,finished_wc2026,WC2026,England,Croatia,4-2,true,3.2,0.7,0.75,0.4,proxy,0.3636,real,0.28,0.2,true,false,true,false,false,true
+WC2026-K23,WC2026-K23,finished_wc2026,WC2026,Portugal,DR Congo,1-1,false,0.65,0.87,0.75,0.4,proxy,0.2321,real,0.28,0.2,false,false,false,false,false,true
+WC2026-K24,WC2026-K24,finished_wc2026,WC2026,Uzbekistan,Colombia,1-3,true,1.16,1.62,0.75,0.4,proxy,0.27,real,0.28,0.2,false,false,false,false,false,true
+WC2026-A25,WC2026-A25,finished_wc2026,WC2026,Czechia,South Africa,1-1,false,1.02,1.38,0.75,0.4,proxy,0.1821,real,0.28,0.2,false,false,false,false,false,true
+WC2026-B26,WC2026-B26,finished_wc2026,WC2026,Switzerland,Bosnia and Herzegovina,4-1,true,2.06,0.23,0.75,0.4,proxy,0.3962,real,0.28,0.2,true,false,true,false,false,true
+WC2026-B27,WC2026-B27,finished_wc2026,WC2026,Canada,Qatar,6-0,true,4.6,0.22,0.75,0.4,proxy,0.3594,real,0.28,0.2,true,false,true,false,false,true
+WC2026-A28,WC2026-A28,finished_wc2026,WC2026,Mexico,South Korea,1-0,false,0.48,0.69,0.75,0.4,proxy,0.15,real,0.28,0.2,false,false,false,false,false,true
+WC2026-C29,WC2026-C29,finished_wc2026,WC2026,Brazil,Haiti,3-0,true,1.75,0.23,0.75,0.4,proxy,0.5469,real,0.28,0.2,false,false,true,false,false,true
+WC2026-C30,WC2026-C30,finished_wc2026,WC2026,Scotland,Morocco,0-1,false,0.51,0.99,0.75,0.4,proxy,0.2063,real,0.28,0.2,false,false,false,false,false,true
+WC2026-D31,WC2026-D31,finished_wc2026,WC2026,Turkey,Paraguay,0-1,false,2.17,0.32,0.75,0.4,proxy,0.1695,real,0.28,0.2,true,false,true,false,false,true
+WC2026-D32,WC2026-D32,finished_wc2026,WC2026,USA,Australia,2-0,false,1.08,0.35,0.75,0.4,proxy,0.175,real,0.28,0.2,false,false,false,false,false,true
+SB-3753768,SB-3753768,statsbomb_open,FIFA World Cup,Spain,Netherlands,1-5,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3753823,SB-3753823,statsbomb_open,FIFA World Cup,Germany,Portugal,4-0,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3753890,SB-3753890,statsbomb_open,FIFA World Cup,England,Uruguay,1-2,false,1.3,1.0,0.8,0.93,real,0.5,proxy,0.651,0.465,false,false,false,false,true,true
+SB-3753934,SB-3753934,statsbomb_open,FIFA World Cup,France,Nigeria,2-0,false,1.3,1.0,0.8,0.85,real,0.5,proxy,0.595,0.425,false,false,false,false,true,true
+SB-3754108,SB-3754108,statsbomb_open,FIFA World Cup,Colombia,Greece,3-0,true,1.3,1.0,0.8,0.93,real,0.5,proxy,0.651,0.465,false,false,false,false,true,true
+SB-3754155,SB-3754155,statsbomb_open,FIFA World Cup,Belgium,Algeria,2-1,false,1.3,1.0,0.8,0.93,real,0.5,proxy,0.651,0.465,false,false,false,false,true,true
+SB-3754201,SB-3754201,statsbomb_open,FIFA World Cup,Brazil,Germany,1-7,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3754245,SB-3754245,statsbomb_open,FIFA World Cup,Netherlands,Brazil,3-0,true,1.3,1.0,0.8,0.93,real,0.5,proxy,0.651,0.465,false,false,false,false,true,true
+SB-3788741,SB-3788741,statsbomb_open,FIFA Women's World Cup,United States,Thailand,13-0,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3788788,SB-3788788,statsbomb_open,FIFA Women's World Cup,England,Japan,2-0,false,1.3,1.0,0.8,0.85,real,0.5,proxy,0.595,0.425,false,false,false,false,true,true
+SB-3869620,SB-3869620,statsbomb_open,Copa America,Uruguay,Japan,4-3,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3869685,SB-3869685,statsbomb_open,Copa America,Brazil,Argentina,2-0,false,1.3,1.0,0.8,0.85,real,0.5,proxy,0.595,0.425,false,false,false,false,true,true
+SB-3929844,SB-3929844,statsbomb_open,FIFA World Cup,Spain,Costa Rica,7-0,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3929991,SB-3929991,statsbomb_open,FIFA World Cup,Portugal,Switzerland,6-1,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3930102,SB-3930102,statsbomb_open,FIFA World Cup,France,Morocco,2-0,false,1.3,1.0,0.8,0.85,real,0.5,proxy,0.595,0.425,false,false,false,false,true,true
+SB-3930158,SB-3930158,statsbomb_open,FIFA World Cup,Argentina,France,3-3,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3999012,SB-3999012,statsbomb_open,UEFA Euro,France,Albania,2-0,false,1.3,1.0,0.8,0.85,real,0.5,proxy,0.595,0.425,false,false,false,false,true,true
+SB-3999088,SB-3999088,statsbomb_open,UEFA Euro,Hungary,Portugal,3-3,true,1.3,1.0,0.8,1.0,real,0.5,proxy,0.7,0.5,false,false,false,false,true,true
+SB-3999147,SB-3999147,statsbomb_open,UEFA Euro,England,Iceland,1-2,false,1.3,1.0,0.8,0.93,real,0.5,proxy,0.651,0.465,false,false,false,false,true,true

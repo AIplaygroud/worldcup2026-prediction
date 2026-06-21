@@ -1,0 +1,65 @@
+﻿historical_match_id,team,xg,shots,shots_on_target,big_chances,possession,corners,box_entries,source,quality
+WC2026-A1,Mexico,1.46,16,,,,,,wc2026_xg,ok
+WC2026-A1,South Africa,0.07,3,,,,,,wc2026_xg,ok
+WC2026-A2,South Korea,2.30,15,,,,,,wc2026_xg,ok
+WC2026-A2,Czechia,0.83,7,,,,,,wc2026_xg,ok
+WC2026-B3,Canada,1.23,13,,,,,,wc2026_xg,ok
+WC2026-B3,Bosnia and Herzegovina,0.96,8,,,,,,wc2026_xg,ok
+WC2026-D4,USA,1.42,16,,,,,,wc2026_xg,ok
+WC2026-D4,Paraguay,0.54,9,,,,,,wc2026_xg,ok
+WC2026-B8,Qatar,0.60,6,,,,,,wc2026_xg,ok
+WC2026-B8,Switzerland,3.20,26,,,,,,wc2026_xg,ok
+WC2026-C7,Brazil,1.26,12,,,,,,wc2026_xg,ok
+WC2026-C7,Morocco,1.37,14,,,,,,wc2026_xg,ok
+WC2026-C5,Haiti,1.05,15,,,,,,wc2026_xg,ok
+WC2026-C5,Scotland,1.05,9,,,,,,wc2026_xg,ok
+WC2026-D6,Australia,1.18,9,,,,,,wc2026_xg,ok
+WC2026-D6,Turkey,1.36,30,,,,,,wc2026_xg,ok
+WC2026-E10,Germany,4.22,26,,,,,,wc2026_xg,ok
+WC2026-E10,Curacao,0.41,8,,,,,,wc2026_xg,ok
+WC2026-F11,Netherlands,0.78,10,,,,,,wc2026_xg,ok
+WC2026-F11,Japan,0.59,10,,,,,,wc2026_xg,ok
+WC2026-E9,Ivory Coast,1.52,15,,,,,,wc2026_xg,ok
+WC2026-E9,Ecuador,1.01,12,,,,,,wc2026_xg,ok
+WC2026-F12,Sweden,1.33,13,,,,,,wc2026_xg,ok
+WC2026-F12,Tunisia,0.28,6,,,,,,wc2026_xg,ok
+WC2026-H14,Spain,2.10,27,,,,,,wc2026_xg,ok
+WC2026-H14,Cape Verde,0.20,6,,,,,,wc2026_xg,ok
+WC2026-G16,Belgium,1.35,15,,,,,,wc2026_xg,ok
+WC2026-G16,Egypt,1.08,14,,,,,,wc2026_xg,ok
+WC2026-H13,Saudi Arabia,0.66,7,,,,,,wc2026_xg,ok
+WC2026-H13,Uruguay,1.72,27,,,,,,wc2026_xg,ok
+WC2026-G15,Iran,1.50,17,,,,,,wc2026_xg,ok
+WC2026-G15,New Zealand,1.24,14,,,,,,wc2026_xg,ok
+WC2026-I17,France,1.79,11,,,,,,wc2026_xg,ok
+WC2026-I17,Senegal,0.53,6,,,,,,wc2026_xg,ok
+WC2026-I18,Iraq,0.80,11,,,,,,wc2026_xg,ok
+WC2026-I18,Norway,2.52,12,,,,,,wc2026_xg,ok
+WC2026-J19,Argentina,1.26,10,,,,,,wc2026_xg,ok
+WC2026-J19,Algeria,0.32,7,,,,,,wc2026_xg,ok
+WC2026-J20,Austria,1.69,11,,,,,,wc2026_xg,ok
+WC2026-J20,Jordan,0.46,11,,,,,,wc2026_xg,ok
+WC2026-K23,Portugal,0.65,7,,,,,,wc2026_xg,ok
+WC2026-K23,DR Congo,0.87,8,,,,,,wc2026_xg,ok
+WC2026-K24,Uzbekistan,1.16,8,,,,,,wc2026_xg,home_away_aligned
+WC2026-K24,Colombia,1.62,15,,,,,,wc2026_xg,home_away_aligned
+WC2026-L22,England,3.20,22,,,,,,wc2026_xg,ok
+WC2026-L22,Croatia,0.70,10,,,,,,wc2026_xg,ok
+WC2026-L21,Ghana,1.31,8,,,,,,wc2026_xg,ok
+WC2026-L21,Panama,0.75,11,,,,,,wc2026_xg,ok
+WC2026-A25,Czechia,1.02,14,,,,,,wc2026_xg,ok
+WC2026-A25,South Africa,1.38,17,,,,,,wc2026_xg,ok
+WC2026-B26,Switzerland,2.06,13,,,,,,wc2026_xg,ok
+WC2026-B26,Bosnia and Herzegovina,0.23,5,,,,,,wc2026_xg,ok
+WC2026-B27,Canada,4.60,32,,,,,,wc2026_xg,ok
+WC2026-B27,Qatar,0.22,2,,,,,,wc2026_xg,ok
+WC2026-A28,Mexico,0.48,8,,,,,,wc2026_xg,ok
+WC2026-A28,South Korea,0.69,9,,,,,,wc2026_xg,ok
+WC2026-C29,Brazil,1.75,8,,,,,,wc2026_xg,full_metric_backfilled
+WC2026-C29,Haiti,0.23,7,,,,,,wc2026_xg,full_metric_backfilled
+WC2026-C30,Scotland,0.51,6,,,,,,wc2026_xg,full_metric_backfilled
+WC2026-C30,Morocco,0.99,12,,,,,,wc2026_xg,full_metric_backfilled
+WC2026-D31,Turkey,2.17,32,,,,,,wc2026_xg,full_metric_backfilled
+WC2026-D31,Paraguay,0.32,7,,,,,,wc2026_xg,full_metric_backfilled
+WC2026-D32,USA,1.08,10,,,,,,wc2026_xg,full_metric_backfilled
+WC2026-D32,Australia,0.35,5,,,,,,wc2026_xg,full_metric_backfilled

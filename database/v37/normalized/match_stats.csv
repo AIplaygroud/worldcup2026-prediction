@@ -131,8 +131,6 @@ WC2026-E33,Germany,pre_match_rolling,26,9.1,4.22,6,,,,,,2.8,,,,wc2026_match_xg_r
 WC2026-E33,Ivory Coast,pre_match_rolling,15,5.25,1.52,2,,,,,,4.2,,,,wc2026_match_xg_rolling,ok
 WC2026-E34,Ecuador,pre_match_rolling,12,4.2,1.01,1,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
 WC2026-E34,Curacao,pre_match_rolling,8,2.8,0.41,0,,,,,,9.1,,,,wc2026_match_xg_rolling,ok
-WC2026-F35,Netherlands,pre_match_rolling,10,3.5,0.78,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
-WC2026-F35,Sweden,pre_match_rolling,13,4.55,1.33,4,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
 WC2026-F36,Tunisia,pre_match_rolling,6,2.1,0.28,0,,,,,,4.55,,,,wc2026_match_xg_rolling,ok
 WC2026-F36,Japan,pre_match_rolling,10,3.5,0.59,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
 WC2026-H37,Uruguay,pre_match_rolling,27,9.45,1.72,2,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
@@ -207,3 +205,7 @@ WC2026-K71,Colombia,pre_match_rolling,15,5.25,1.62,1,,,,,,2.8,,,,wc2026_match_xg
 WC2026-K71,Portugal,pre_match_rolling,7,2.45,0.65,0,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
 WC2026-K72,DR Congo,pre_match_rolling,8,2.8,0.87,1,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
 WC2026-K72,Uzbekistan,pre_match_rolling,8,2.8,1.16,4,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-F35,Netherlands,pre_match_rolling,10,3.5,0.78,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-F35,Sweden,pre_match_rolling,13,4.55,1.33,4,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-F35,Netherlands,prematch,14,6,2.15,4,,,,,,,,,,thestatsapi,real
+WC2026-F35,Sweden,prematch,8,2,0.85,1,,,,,,,,,,thestatsapi,real

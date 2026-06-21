@@ -1,0 +1,44 @@
+{
+  "match_id": "WC2026-F35",
+  "mode": "audit_only",
+  "no_lambda_mutation": true,
+  "lambda_unchanged": {
+    "home": 2.2939,
+    "away": 0.8654
+  },
+  "context": {
+    "favorite_acg": 0.3407,
+    "egci": 0.4467,
+    "data_quality_score": 0.65,
+    "underdog_fragility": 0.65,
+    "underdog_chase_pressure": 0.2675
+  },
+  "evaluation": {
+    "tail_boost_level": "none",
+    "eligible_for_rerank": false,
+    "block_reasons": [
+      "must_win_no_convert_favorite",
+      "eventflow_degraded_egci_proxy",
+      "favorite_acg_below_mild",
+      "egci_below_mild",
+      "guard_suppression_enabled"
+    ],
+    "trigger_reasons": []
+  },
+  "v37_large_score_tail": {
+    "enabled": true,
+    "mode": "audit_only",
+    "tail_boost_level": "none",
+    "boosted_scores": [],
+    "suppressed_scores": [],
+    "reason": [
+      "must_win_no_convert_favorite",
+      "eventflow_degraded_egci_proxy",
+      "favorite_acg_below_mild",
+      "egci_below_mild",
+      "guard_suppression_enabled"
+    ],
+    "no_lambda_mutation": true
+  },
+  "score_adjustments": []
+}

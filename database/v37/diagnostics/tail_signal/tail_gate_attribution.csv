@@ -1,0 +1,8 @@
+﻿gate_name,blocked_count,blocked_large_score_count,blocked_non_large_score_count,false_block_rate,true_block_rate,avg_actual_total_goals,interpretation,examples
+acg_quality,19,11,8,0.5789,0.4211,4.68,potential_overblocking_large_scores,SB-3753768;SB-3753823;SB-3753890
+acg_threshold,51,23,28,0.451,0.549,3.63,mixed,WC2026-A1;WC2026-A2;WC2026-B3
+cold_guard,24,16,8,0.6667,0.3333,3.92,potential_overblocking_large_scores,WC2026-A1;WC2026-A1;WC2026-B8
+deep_handicap_contra,15,10,5,0.6667,0.3333,3.8,potential_overblocking_large_scores,WC2026-A1;WC2026-B8;WC2026-E10
+egci_quality,32,12,20,0.375,0.625,3.0,mixed,WC2026-A1;WC2026-A2;WC2026-B3
+egci_threshold,32,12,20,0.375,0.625,3.0,mixed,WC2026-A1;WC2026-A2;WC2026-B3
+underdog_fragility,32,12,20,0.375,0.625,3.0,mixed,WC2026-A1;WC2026-A2;WC2026-B3
