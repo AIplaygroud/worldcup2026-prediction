@@ -1,0 +1,209 @@
+﻿match_id,team,data_timing,shots,shots_on_target,xg,big_chances,corners,passes,pass_accuracy,possession,saves,sot_faced,goals_prevented,ppda,field_tilt,source,quality_flag
+WC2026-A1,Mexico,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-A1,South Africa,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-A1,Mexico,post_match_final,16,,1.46,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-A1,South Africa,post_match_final,3,,0.07,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-A2,South Korea,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-A2,Czechia,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-A2,South Korea,post_match_final,15,,2.3,4,,,,,,,,,,FotMob/Opta,ok
+WC2026-A2,Czechia,post_match_final,7,,0.83,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-B3,Canada,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-B3,Bosnia and Herzegovina,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-B3,Canada,post_match_final,13,,1.23,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-B3,Bosnia and Herzegovina,post_match_final,8,,0.96,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-D4,USA,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-D4,Paraguay,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-D4,USA,post_match_final,16,,1.42,4,,,,,,,,,,FotMob/Opta,ok
+WC2026-D4,Paraguay,post_match_final,9,,0.54,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-C5,Haiti,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-C5,Scotland,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-C5,Haiti,post_match_final,15,,1.05,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-C5,Scotland,post_match_final,9,,1.05,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-D6,Australia,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-D6,Turkey,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-D6,Australia,post_match_final,9,,1.18,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-D6,Turkey,post_match_final,30,,1.36,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-C7,Brazil,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-C7,Morocco,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-C7,Brazil,post_match_final,12,,1.26,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-C7,Morocco,post_match_final,14,,1.37,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-B8,Qatar,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-B8,Switzerland,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-B8,Qatar,post_match_final,6,,0.6,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-B8,Switzerland,post_match_final,26,,3.2,6,,,,,,,,,,FotMob/Opta,ok
+WC2026-E9,Ivory Coast,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-E9,Ecuador,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-E9,Ivory Coast,post_match_final,15,,1.52,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-E9,Ecuador,post_match_final,12,,1.01,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-E10,Germany,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-E10,Curacao,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-E10,Germany,post_match_final,26,,4.22,6,,,,,,,,,,FotMob/Opta,ok
+WC2026-E10,Curacao,post_match_final,8,,0.41,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-F11,Netherlands,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-F11,Japan,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-F11,Netherlands,post_match_final,10,,0.78,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-F11,Japan,post_match_final,10,,0.59,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-F12,Sweden,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-F12,Tunisia,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-F12,Sweden,post_match_final,13,,1.33,4,,,,,,,,,,FotMob/Opta,ok
+WC2026-F12,Tunisia,post_match_final,6,,0.28,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-H13,Saudi Arabia,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-H13,Uruguay,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-H13,Saudi Arabia,post_match_final,7,,0.66,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-H13,Uruguay,post_match_final,27,,1.72,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-H14,Spain,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-H14,Cape Verde,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-H14,Spain,post_match_final,27,,2.1,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-H14,Cape Verde,post_match_final,6,,0.2,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-G15,Iran,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-G15,New Zealand,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-G15,Iran,post_match_final,17,,1.5,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-G15,New Zealand,post_match_final,14,,1.24,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-G16,Belgium,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-G16,Egypt,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-G16,Belgium,post_match_final,15,,1.35,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-G16,Egypt,post_match_final,14,,1.08,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-I17,France,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-I17,Senegal,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-I17,France,post_match_final,11,,1.79,4,,,,,,,,,,FotMob/Opta,ok
+WC2026-I17,Senegal,post_match_final,6,,0.53,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-I18,Iraq,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-I18,Norway,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-I18,Iraq,post_match_final,11,,0.8,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-I18,Norway,post_match_final,12,,2.52,5,,,,,,,,,,FotMob/Opta,ok
+WC2026-J19,Argentina,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-J19,Algeria,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-J19,Argentina,post_match_final,10,,1.26,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-J19,Algeria,post_match_final,7,,0.32,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-J20,Austria,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-J20,Jordan,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-J20,Austria,post_match_final,11,,1.69,4,,,,,,,,,,FotMob/Opta,ok
+WC2026-J20,Jordan,post_match_final,11,,0.46,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-L21,Ghana,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-L21,Panama,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-L21,Ghana,post_match_final,8,,1.31,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-L21,Panama,post_match_final,11,,0.75,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-L22,England,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-L22,Croatia,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-L22,England,post_match_final,22,,3.2,7,,,,,,,,,,FotMob/Opta,ok
+WC2026-L22,Croatia,post_match_final,10,,0.7,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-K23,Portugal,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-K23,DR Congo,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-K23,Portugal,post_match_final,7,,0.65,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-K23,DR Congo,post_match_final,8,,0.87,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-K24,Uzbekistan,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-K24,Colombia,pre_match_rolling,12,4,1,1.5,,,,,,4,,,,wc2026_match_xg_rolling,proxy
+WC2026-K24,Uzbekistan,post_match_final,8,,1.16,4,,,,,,,,,,FotMob/Opta,home_away_aligned
+WC2026-K24,Colombia,post_match_final,15,,1.62,1,,,,,,,,,,FotMob/Opta,home_away_aligned
+WC2026-A25,Czechia,pre_match_rolling,7,2.45,0.83,1,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-A25,South Africa,pre_match_rolling,3,1.05,0.07,0,,,,,,5.6,,,,wc2026_match_xg_rolling,ok
+WC2026-A25,Czechia,post_match_final,14,,1.02,3,,,,,,,,,,FotMob/Opta,ok
+WC2026-A25,South Africa,post_match_final,17,,1.38,1,,,,,,,,,,FotMob/Opta,ok
+WC2026-B26,Switzerland,pre_match_rolling,26,9.1,3.2,6,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-B26,Bosnia and Herzegovina,pre_match_rolling,8,2.8,0.96,2,,,,,,4.55,,,,wc2026_match_xg_rolling,ok
+WC2026-B26,Switzerland,post_match_final,13,,2.06,4,,,,,,,,,,FotMob/Opta,ok
+WC2026-B26,Bosnia and Herzegovina,post_match_final,5,,0.23,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-B27,Canada,pre_match_rolling,13,4.55,1.23,2,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-B27,Qatar,pre_match_rolling,6,2.1,0.6,1,,,,,,9.1,,,,wc2026_match_xg_rolling,ok
+WC2026-B27,Canada,post_match_final,32,,4.6,6,,,,,,,,,,FotMob/Opta,ok
+WC2026-B27,Qatar,post_match_final,2,,0.22,0,,,,,,,,,,FotMob/Opta,ok
+WC2026-A28,Mexico,pre_match_rolling,16,5.6,1.46,2,,,,,,1.05,,,,wc2026_match_xg_rolling,ok
+WC2026-A28,South Korea,pre_match_rolling,15,5.25,2.3,4,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
+WC2026-A28,Mexico,post_match_final,8,,0.48,2,,,,,,,,,,FotMob/Opta,ok
+WC2026-A28,South Korea,post_match_final,9,,0.69,3,,,,,,,,,,FotMob/Opta,ok
+WC2026-C29,Brazil,pre_match_rolling,12,4.2,1.26,1,,,,,,4.9,,,,wc2026_match_xg_rolling,ok
+WC2026-C29,Haiti,pre_match_rolling,15,5.25,1.05,1,,,,,,3.15,,,,wc2026_match_xg_rolling,ok
+WC2026-C29,Brazil,post_match_final,8,,1.75,,,,,,,,,,,FotMob/Opta,full_metric_backfilled
+WC2026-C29,Haiti,post_match_final,7,,0.23,,,,,,,,,,,FotMob/Opta,full_metric_backfilled
+WC2026-C30,Scotland,pre_match_rolling,9,3.15,1.05,2,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-C30,Morocco,pre_match_rolling,14,4.9,1.37,2,,,,,,4.2,,,,wc2026_match_xg_rolling,ok
+WC2026-C30,Scotland,post_match_final,6,,0.51,,,,,,,,,,,FotMob/Opta,full_metric_backfilled
+WC2026-C30,Morocco,post_match_final,12,,0.99,,,,,,,,,,,FotMob/Opta,full_metric_backfilled
+WC2026-D31,Turkey,pre_match_rolling,30,10.5,1.36,2,,,,,,3.15,,,,wc2026_match_xg_rolling,ok
+WC2026-D31,Paraguay,pre_match_rolling,9,3.15,0.54,1,,,,,,5.6,,,,wc2026_match_xg_rolling,ok
+WC2026-D31,Turkey,post_match_final,32,,2.17,,,,,,,,,,,FotMob/Opta,full_metric_backfilled
+WC2026-D31,Paraguay,post_match_final,7,,0.32,,,,,,,,,,,FotMob/Opta,full_metric_backfilled
+WC2026-D32,USA,pre_match_rolling,16,5.6,1.42,4,,,,,,3.15,,,,wc2026_match_xg_rolling,ok
+WC2026-D32,Australia,pre_match_rolling,9,3.15,1.18,1,,,,,,10.5,,,,wc2026_match_xg_rolling,ok
+WC2026-D32,USA,post_match_final,10,,1.08,,,,,,,,,,,FotMob/Opta,full_metric_backfilled
+WC2026-D32,Australia,post_match_final,5,,0.35,,,,,,,,,,,FotMob/Opta,full_metric_backfilled
+WC2026-E33,Germany,pre_match_rolling,26,9.1,4.22,6,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-E33,Ivory Coast,pre_match_rolling,15,5.25,1.52,2,,,,,,4.2,,,,wc2026_match_xg_rolling,ok
+WC2026-E34,Ecuador,pre_match_rolling,12,4.2,1.01,1,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-E34,Curacao,pre_match_rolling,8,2.8,0.41,0,,,,,,9.1,,,,wc2026_match_xg_rolling,ok
+WC2026-F35,Netherlands,pre_match_rolling,10,3.5,0.78,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-F35,Sweden,pre_match_rolling,13,4.55,1.33,4,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-F36,Tunisia,pre_match_rolling,6,2.1,0.28,0,,,,,,4.55,,,,wc2026_match_xg_rolling,ok
+WC2026-F36,Japan,pre_match_rolling,10,3.5,0.59,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-H37,Uruguay,pre_match_rolling,27,9.45,1.72,2,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
+WC2026-H37,Cape Verde,pre_match_rolling,6,2.1,0.2,1,,,,,,9.45,,,,wc2026_match_xg_rolling,ok
+WC2026-H38,Spain,pre_match_rolling,27,9.45,2.1,2,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-H38,Saudi Arabia,pre_match_rolling,7,2.45,0.66,1,,,,,,9.45,,,,wc2026_match_xg_rolling,ok
+WC2026-G39,Belgium,pre_match_rolling,15,5.25,1.35,2,,,,,,4.9,,,,wc2026_match_xg_rolling,ok
+WC2026-G39,Iran,pre_match_rolling,17,5.95,1.5,2,,,,,,4.9,,,,wc2026_match_xg_rolling,ok
+WC2026-G40,New Zealand,pre_match_rolling,14,4.9,1.24,2,,,,,,5.95,,,,wc2026_match_xg_rolling,ok
+WC2026-G40,Egypt,pre_match_rolling,14,4.9,1.08,2,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-I41,Norway,pre_match_rolling,12,4.2,2.52,5,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-I41,Senegal,pre_match_rolling,6,2.1,0.53,2,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-I42,France,pre_match_rolling,11,3.85,1.79,4,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-I42,Iraq,pre_match_rolling,11,3.85,0.8,1,,,,,,4.2,,,,wc2026_match_xg_rolling,ok
+WC2026-J43,Argentina,pre_match_rolling,10,3.5,1.26,1,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
+WC2026-J43,Austria,pre_match_rolling,11,3.85,1.69,4,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-J44,Jordan,pre_match_rolling,11,3.85,0.46,0,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-J44,Algeria,pre_match_rolling,7,2.45,0.32,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-L45,England,pre_match_rolling,22,7.7,3.2,7,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-L45,Ghana,pre_match_rolling,8,2.8,1.31,1,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-L46,Panama,pre_match_rolling,11,3.85,0.75,2,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-L46,Croatia,pre_match_rolling,10,3.5,0.7,2,,,,,,7.7,,,,wc2026_match_xg_rolling,ok
+WC2026-K47,Portugal,pre_match_rolling,7,2.45,0.65,0,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-K47,Uzbekistan,pre_match_rolling,8,2.8,1.16,4,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-K48,Colombia,pre_match_rolling,15,5.25,1.62,1,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-K48,DR Congo,pre_match_rolling,8,2.8,0.87,1,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
+WC2026-C49,Scotland,pre_match_rolling,7.5,2.62,0.78,1,,,,,,4.72,,,,wc2026_match_xg_rolling,ok
+WC2026-C49,Brazil,pre_match_rolling,10,3.5,1.505,0.5,,,,,,3.67,,,,wc2026_match_xg_rolling,ok
+WC2026-C50,Morocco,pre_match_rolling,13,4.55,1.18,1,,,,,,3.15,,,,wc2026_match_xg_rolling,ok
+WC2026-C50,Haiti,pre_match_rolling,11,3.85,0.64,0.5,,,,,,2.97,,,,wc2026_match_xg_rolling,ok
+WC2026-B51,Switzerland,pre_match_rolling,19.5,6.82,2.63,5,,,,,,1.92,,,,wc2026_match_xg_rolling,ok
+WC2026-B51,Canada,pre_match_rolling,22.5,7.88,2.915,4,,,,,,1.75,,,,wc2026_match_xg_rolling,ok
+WC2026-B52,Bosnia and Herzegovina,pre_match_rolling,6.5,2.27,0.595,1,,,,,,4.55,,,,wc2026_match_xg_rolling,ok
+WC2026-B52,Qatar,pre_match_rolling,4,1.4,0.41,0.5,,,,,,10.15,,,,wc2026_match_xg_rolling,ok
+WC2026-A53,Czechia,pre_match_rolling,10.5,3.67,0.925,2,,,,,,5.6,,,,wc2026_match_xg_rolling,ok
+WC2026-A53,Mexico,pre_match_rolling,12,4.2,0.97,2,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-A54,South Africa,pre_match_rolling,10,3.5,0.725,0.5,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-A54,South Korea,pre_match_rolling,12,4.2,1.495,3.5,,,,,,2.62,,,,wc2026_match_xg_rolling,ok
+WC2026-E55,Curacao,pre_match_rolling,8,2.8,0.41,0,,,,,,9.1,,,,wc2026_match_xg_rolling,ok
+WC2026-E55,Ivory Coast,pre_match_rolling,15,5.25,1.52,2,,,,,,4.2,,,,wc2026_match_xg_rolling,ok
+WC2026-E56,Ecuador,pre_match_rolling,12,4.2,1.01,1,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-E56,Germany,pre_match_rolling,26,9.1,4.22,6,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-F57,Japan,pre_match_rolling,10,3.5,0.59,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-F57,Sweden,pre_match_rolling,13,4.55,1.33,4,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-F58,Tunisia,pre_match_rolling,6,2.1,0.28,0,,,,,,4.55,,,,wc2026_match_xg_rolling,ok
+WC2026-F58,Netherlands,pre_match_rolling,10,3.5,0.78,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-D59,Turkey,pre_match_rolling,31,10.85,1.765,1,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-D59,USA,pre_match_rolling,13,4.55,1.25,2,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
+WC2026-D60,Paraguay,pre_match_rolling,8,2.8,0.43,0.5,,,,,,8.4,,,,wc2026_match_xg_rolling,ok
+WC2026-D60,Australia,pre_match_rolling,7,2.45,0.765,0.5,,,,,,7,,,,wc2026_match_xg_rolling,ok
+WC2026-I61,Norway,pre_match_rolling,12,4.2,2.52,5,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-I61,France,pre_match_rolling,11,3.85,1.79,4,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-I62,Senegal,pre_match_rolling,6,2.1,0.53,2,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-I62,Iraq,pre_match_rolling,11,3.85,0.8,1,,,,,,4.2,,,,wc2026_match_xg_rolling,ok
+WC2026-G63,Egypt,pre_match_rolling,14,4.9,1.08,2,,,,,,5.25,,,,wc2026_match_xg_rolling,ok
+WC2026-G63,Iran,pre_match_rolling,17,5.95,1.5,2,,,,,,4.9,,,,wc2026_match_xg_rolling,ok
+WC2026-G64,New Zealand,pre_match_rolling,14,4.9,1.24,2,,,,,,5.95,,,,wc2026_match_xg_rolling,ok
+WC2026-G64,Belgium,pre_match_rolling,15,5.25,1.35,2,,,,,,4.9,,,,wc2026_match_xg_rolling,ok
+WC2026-H65,Cape Verde,pre_match_rolling,6,2.1,0.2,1,,,,,,9.45,,,,wc2026_match_xg_rolling,ok
+WC2026-H65,Saudi Arabia,pre_match_rolling,7,2.45,0.66,1,,,,,,9.45,,,,wc2026_match_xg_rolling,ok
+WC2026-H66,Uruguay,pre_match_rolling,27,9.45,1.72,2,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
+WC2026-H66,Spain,pre_match_rolling,27,9.45,2.1,2,,,,,,2.1,,,,wc2026_match_xg_rolling,ok
+WC2026-L67,Panama,pre_match_rolling,11,3.85,0.75,2,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-L67,England,pre_match_rolling,22,7.7,3.2,7,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-L68,Croatia,pre_match_rolling,10,3.5,0.7,2,,,,,,7.7,,,,wc2026_match_xg_rolling,ok
+WC2026-L68,Ghana,pre_match_rolling,8,2.8,1.31,1,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-J69,Algeria,pre_match_rolling,7,2.45,0.32,0,,,,,,3.5,,,,wc2026_match_xg_rolling,ok
+WC2026-J69,Austria,pre_match_rolling,11,3.85,1.69,4,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-J70,Jordan,pre_match_rolling,11,3.85,0.46,0,,,,,,3.85,,,,wc2026_match_xg_rolling,ok
+WC2026-J70,Argentina,pre_match_rolling,10,3.5,1.26,1,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
+WC2026-K71,Colombia,pre_match_rolling,15,5.25,1.62,1,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-K71,Portugal,pre_match_rolling,7,2.45,0.65,0,,,,,,2.8,,,,wc2026_match_xg_rolling,ok
+WC2026-K72,DR Congo,pre_match_rolling,8,2.8,0.87,1,,,,,,2.45,,,,wc2026_match_xg_rolling,ok
+WC2026-K72,Uzbekistan,pre_match_rolling,8,2.8,1.16,4,,,,,,5.25,,,,wc2026_match_xg_rolling,ok

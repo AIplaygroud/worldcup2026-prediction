@@ -21,6 +21,7 @@ class TestV35BettingStrategyOutputSemantics(unittest.TestCase):
             ODDS / "match_odds_hafu.csv",
             ODDS / "match_odds_crs.csv",
             mode="balanced",
+            emit_recommendations=True,
         ).to_markdown()
         self.assertNotIn("fusion概率", text)
         self.assertNotIn("融合概率", text)

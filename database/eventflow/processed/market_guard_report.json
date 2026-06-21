@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "mode": "balanced",
+    "generated_at": "2026-06-21T07:58:51.414998+00:00",
+    "odds_last_update": "match_odds_summary.csv",
+    "semantics_note": "V2 probability is probabilistic; EventFlow and fusion are ranking/support scores.",
+    "value_proxy_note": "value_proxy 仅用于排序，不构成保证收益或真实 EV。",
+    "probability_source": "adjusted_probability",
+    "market_gate_applied": true,
+    "v37_betting_guards": true,
+    "emit_recommendations": false,
+    "report_type": "market_guard",
+    "v37_betting_audit": [
+      {
+        "match_id": "WC2026-E34",
+        "match": "Ecuador vs Curacao",
+        "applied": true,
+        "risk_flags": [
+          "boost_hhad_underdog_plus",
+          "penalize_favorite_deep_handicap"
+        ],
+        "phase1_egci_enabled": false
+      }
+    ]
+  },
+  "availability_audit": [
+    {
+      "match_key": "周六035",
+      "match": "厄瓜多尔 vs 库拉索",
+      "had": "未开售",
+      "hhad": "仅过关",
+      "ttg": "可单关",
+      "hafu": "可单关",
+      "crs": "可单关",
+      "note": "HAD 市场未开售，禁止推荐胜平负",
+      "had_available": false,
+      "hhad_available": true,
+      "ttg_available": true,
+      "hafu_available": true,
+      "crs_available": true,
+      "had_single": false,
+      "hhad_single": false,
+      "ttg_single": true,
+      "hafu_single": true,
+      "crs_single": true
+    }
+  ],
+  "market_guard_items": [
+    {
+      "match_id": "WC2026-E34",
+      "match": "厄瓜多尔 vs 库拉索",
+      "market": "HHAD",
+      "selection": "厄瓜多尔(-2)让负",
+      "sp": 2.95,
+      "single_allowed": false,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.7149,
+      "eventflow_alignment": 0.0169,
+      "fusion_alignment": 1.0,
+      "value_proxy": 2.1089,
+      "strategy_score_conservative": 0.9686880000000001,
+      "strategy_score_balanced": 0.839155,
+      "strategy_score_aggressive": 0.6677000000000001,
+      "supporting_scores": [
+        "1-0",
+        "1-1",
+        "2-1"
+      ],
+      "supporting_scenarios": [],
+      "risk_note": "V3.7 deep_handicap_contra boost",
+      "reason": "多引擎综合支持",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-E34",
+      "match": "厄瓜多尔 vs 库拉索",
+      "market": "CRS",
+      "selection": "比分1-1/2-1/1-0",
+      "sp": 7.7,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.3108,
+      "eventflow_alignment": 0.5,
+      "fusion_alignment": 1.0,
+      "value_proxy": 2.393,
+      "strategy_score_conservative": 0.5754,
+      "strategy_score_balanced": 0.6036,
+      "strategy_score_aggressive": 0.5934,
+      "supporting_scores": [
+        "1-1",
+        "2-1",
+        "1-0"
+      ],
+      "supporting_scenarios": [],
+      "risk_note": "",
+      "reason": "融合首选1-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-E34",
+      "match": "厄瓜多尔 vs 库拉索",
+      "market": "TTG",
+      "selection": "总进球2/3/4",
+      "sp": 3.5,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.6221,
+      "eventflow_alignment": 0.0833,
+      "fusion_alignment": 0.6897,
+      "value_proxy": 2.1773,
+      "strategy_score_conservative": 0.7164,
+      "strategy_score_balanced": 0.5988,
+      "strategy_score_aggressive": 0.4997,
+      "supporting_scores": [
+        "1-1",
+        "2-1"
+      ],
+      "supporting_scenarios": [],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选1-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-E34",
+      "match": "厄瓜多尔 vs 库拉索",
+      "market": "TTG",
+      "selection": "总进球2/3",
+      "sp": 3.5,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.4639,
+      "eventflow_alignment": 0.1429,
+      "fusion_alignment": 0.6897,
+      "value_proxy": 1.6237,
+      "strategy_score_conservative": 0.586,
+      "strategy_score_balanced": 0.5152,
+      "strategy_score_aggressive": 0.4454,
+      "supporting_scores": [
+        "1-1",
+        "2-1"
+      ],
+      "supporting_scenarios": [],
+      "risk_note": "若上半场无早球，高总进球尾部需下调",
+      "reason": "融合首选1-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "safe"
+    },
+    {
+      "match_id": "WC2026-E34",
+      "match": "厄瓜多尔 vs 库拉索",
+      "market": "CRS",
+      "selection": "比分1-1/2-1",
+      "sp": 10.5,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.2143,
+      "eventflow_alignment": 0.5,
+      "fusion_alignment": 0.6897,
+      "value_proxy": 2.2507,
+      "strategy_score_conservative": 0.4159,
+      "strategy_score_balanced": 0.4546,
+      "strategy_score_aggressive": 0.4629,
+      "supporting_scores": [
+        "1-1",
+        "2-1"
+      ],
+      "supporting_scenarios": [],
+      "risk_note": "",
+      "reason": "融合首选1-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "balanced"
+    },
+    {
+      "match_id": "WC2026-E34",
+      "match": "厄瓜多尔 vs 库拉索",
+      "market": "CRS",
+      "selection": "比分1-1",
+      "sp": 16.0,
+      "single_allowed": true,
+      "parlay_allowed": true,
+      "v2_model_probability": 0.1172,
+      "eventflow_alignment": 0.5,
+      "fusion_alignment": 0.3772,
+      "value_proxy": 1.8759,
+      "strategy_score_conservative": 0.2538,
+      "strategy_score_balanced": 0.3018,
+      "strategy_score_aggressive": 0.3258,
+      "supporting_scores": [
+        "1-1"
+      ],
+      "supporting_scenarios": [],
+      "risk_note": "",
+      "reason": "融合首选1-1；EventFlow开放；概率派支持1-1",
+      "fusion_topn_limited": true,
+      "conflict_count": 0,
+      "tier": "balanced"
+    }
+  ],
+  "filtered_out": [
+    {
+      "match": "厄瓜多尔 vs 库拉索",
+      "market": "HAD",
+      "selection": "胜平负",
+      "reason": "HAD 市场未开售，不可购买"
+    }
+  ],
+  "recommended_combos": [],
+  "v37_betting_audit": [
+    {
+      "match_id": "WC2026-E34",
+      "match": "Ecuador vs Curacao",
+      "applied": true,
+      "risk_flags": [
+        "boost_hhad_underdog_plus",
+        "penalize_favorite_deep_handicap"
+      ],
+      "phase1_egci_enabled": false
+    }
+  ]
+}

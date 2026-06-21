@@ -1,0 +1,73 @@
+﻿match_id,favorite,underdog,favorite_early_goal_profile,pressing_start_intensity,underdog_fragility_score,underdog_chase_pressure,transition_mismatch_score,bench_attacking_depth,game_management_tendency,early_goal_cascade_index,cascade_tail_active
+WC2026-A1,Mexico,South Africa,0.6,0.5,0.65,0.3921,0.5,0.806,0.5,0.4512,false
+WC2026-A2,Czechia,South Korea,0.595,0.48,0.65,0.3921,0.5,0.769,0.5,0.444,false
+WC2026-B3,Canada,Bosnia and Herzegovina,0.68,0.82,0.65,0.3921,0.5,0.841,0.5,0.5272,false
+WC2026-D4,Paraguay,USA,0.58,0.42,0.65,0.4096,0.5,0.818,0.5,0.4364,false
+WC2026-C5,Scotland,Haiti,0.6125,0.55,0.5687,0.3921,0.229,0.809,0.5,0.4049,false
+WC2026-D6,Turkey,Australia,0.63,0.62,1,0.124,0.9913,0.835,0.5,0.5795,false
+WC2026-C7,Brazil,Morocco,0.6125,0.55,0.7276,0.4096,0.5478,0.809,0.5,0.4873,false
+WC2026-B8,Switzerland,Qatar,0.605,0.52,0.65,0.3921,0.5,0.766,0.5,0.453,false
+WC2026-E9,Ecuador,Ivory Coast,0.6,0.5,0.65,0.3921,0.5,0.8,0.5,0.4507,false
+WC2026-E10,Germany,Curacao,0.68,0.82,0.65,0.3921,0.5,0.829,0.5,0.5264,false
+WC2026-F11,Netherlands,Japan,0.62,0.58,0.65,0.4096,0.5,0.764,0.5,0.4694,false
+WC2026-F12,Sweden,Tunisia,0.6125,0.55,0.65,0.3921,0.5,0.898,0.5,0.4691,false
+WC2026-H13,Uruguay,Saudi Arabia,0.7125,0.95,0.65,0.3921,0.5,0.801,0.5,0.5543,false
+WC2026-H14,Spain,Cape Verde,0.645,0.68,0.65,0.3921,0.5,0.809,0.5,0.4928,false
+WC2026-G15,Iran,New Zealand,0.5875,0.45,0.65,0.3921,0.5,0.861,0.5,0.4435,false
+WC2026-G16,Belgium,Egypt,0.605,0.52,0.65,0.3921,0.5,0.793,0.5,0.4548,false
+WC2026-I17,France,Senegal,0.6125,0.55,0.65,0.3696,0.5,0.858,0.5,0.4627,false
+WC2026-I18,Norway,Iraq,0.6375,0.65,0.65,0.3921,0.5,0.797,0.5,0.485,false
+WC2026-J19,Argentina,Algeria,0.63,0.62,0.65,0.3921,0.5,0.777,0.5,0.4767,false
+WC2026-J20,Austria,Jordan,0.705,0.92,0.65,0.3921,0.5,0.784,0.5,0.5462,false
+WC2026-L21,Ghana,Panama,0.5875,0.45,0.65,0.3696,0.5,0.814,0.5,0.4366,false
+WC2026-L22,England,Croatia,0.67,0.78,0.65,0.3696,0.5,0.816,0.5,0.5127,false
+WC2026-K23,Portugal,DR Congo,0.63,0.62,0.65,0.3921,0.5,0.814,0.5,0.4793,false
+WC2026-K24,Colombia,Uzbekistan,0.62,0.58,0.65,0.3921,0.5,0.806,0.5,0.4696,false
+WC2026-A25,Czechia,South Africa,0.595,0.48,0.65,0.3921,0.5,0.769,0.5,0.444,false
+WC2026-B26,Switzerland,Bosnia and Herzegovina,0.605,0.52,0.65,0.16,0.5,0.766,0.5,0.4158,false
+WC2026-B27,Canada,Qatar,0.68,0.82,0.65,0.16,0.5,0.841,0.5,0.4901,false
+WC2026-A28,Mexico,South Korea,0.6,0.5,0.65,0.124,0.5,0.806,0.5,0.4083,false
+WC2026-C29,Brazil,Haiti,0.6125,0.55,0.5687,0.3921,0.229,0.809,0.5,0.4049,false
+WC2026-C30,Morocco,Scotland,0.655,0.72,0.6198,0.2675,0.3993,0.828,0.5,0.4618,false
+WC2026-D31,Turkey,Paraguay,0.63,0.62,0.9084,0.4472,0.6674,0.835,0.5,0.5629,false
+WC2026-D32,Australia,USA,0.5875,0.45,0.65,0.2675,0.5,0.773,0.5,0.4174,false
+WC2026-E33,Germany,Ivory Coast,0.68,0.82,0.65,0.124,0.5,0.829,0.5,0.4835,false
+WC2026-E34,Ecuador,Curacao,0.6,0.5,0.65,0.4472,0.5,0.8,0.5,0.4596,false
+WC2026-F35,Netherlands,Sweden,0.62,0.58,0.65,0.2675,0.5,0.764,0.5,0.4467,false
+WC2026-F36,Japan,Tunisia,0.645,0.68,0.65,0.4472,0.5,0.859,0.5,0.5051,false
+WC2026-H37,Uruguay,Cape Verde,0.7125,0.95,0.65,0.16,0.5,0.801,0.5,0.5172,false
+WC2026-H38,Spain,Saudi Arabia,0.645,0.68,0.65,0.1375,0.5,0.809,0.5,0.452,false
+WC2026-G39,Belgium,Iran,0.605,0.52,0.65,0.1375,0.5,0.793,0.5,0.4141,false
+WC2026-G40,Egypt,New Zealand,0.58,0.42,0.65,0.1775,0.5,0.808,0.5,0.3986,false
+WC2026-I41,Senegal,Norway,0.62,0.58,0.65,0.2675,0.5,0.776,0.5,0.4475,false
+WC2026-I42,France,Iraq,0.6125,0.55,0.65,0.4472,0.5,0.858,0.5,0.4751,false
+WC2026-J43,Argentina,Austria,0.63,0.62,0.65,0.124,0.5,0.777,0.5,0.4338,false
+WC2026-J44,Algeria,Jordan,0.6125,0.55,0.65,0.3921,0.5,0.882,0.5,0.468,false
+WC2026-L45,England,Ghana,0.67,0.78,0.65,0.124,0.5,0.816,0.5,0.4734,false
+WC2026-L46,Croatia,Panama,0.595,0.48,0.65,0.3921,0.5,0.822,0.5,0.4477,false
+WC2026-K47,Portugal,Uzbekistan,0.63,0.62,0.65,0.3921,0.5,0.814,0.5,0.4793,false
+WC2026-K48,Colombia,DR Congo,0.62,0.58,0.65,0.3696,0.5,0.806,0.5,0.466,false
+WC2026-C49,Brazil,Scotland,0.6125,0.55,0.6198,0.2194,0.3993,0.809,0.5,0.4137,false
+WC2026-C50,Morocco,Haiti,0.655,0.72,0.5687,0.4472,0.229,0.828,0.5,0.4541,false
+WC2026-B51,Switzerland,Canada,0.605,0.52,0.65,0.17,0.5,0.766,0.5,0.4174,false
+WC2026-B52,Bosnia and Herzegovina,Qatar,0.58,0.42,0.65,0.3921,0.5,0.79,0.5,0.4316,false
+WC2026-A53,Czechia,Mexico,0.595,0.48,0.65,0,0.5,0.769,0.5,0.3812,false
+WC2026-A54,South Korea,South Africa,0.6125,0.55,0.65,0.3921,0.5,0.815,0.5,0.4633,false
+WC2026-E55,Ivory Coast,Curacao,0.63,0.62,0.65,0.4472,0.5,0.75,0.5,0.4837,false
+WC2026-E56,Germany,Ecuador,0.68,0.82,0.65,0.3921,0.5,0.829,0.5,0.5264,false
+WC2026-F57,Japan,Sweden,0.645,0.68,0.65,0.2675,0.5,0.859,0.5,0.4763,false
+WC2026-F58,Netherlands,Tunisia,0.62,0.58,0.65,0.4472,0.5,0.764,0.5,0.4754,false
+WC2026-D59,Turkey,USA,0.63,0.62,0.65,0,0.5,0.835,0.5,0.418,false
+WC2026-D60,Paraguay,Australia,0.58,0.42,1,0.124,0.9913,0.818,0.5,0.5323,false
+WC2026-I61,France,Norway,0.6125,0.55,0.65,0.2675,0.5,0.858,0.5,0.4464,false
+WC2026-I62,Senegal,Iraq,0.62,0.58,0.65,0.4472,0.5,0.776,0.5,0.4763,false
+WC2026-G63,Iran,Egypt,0.5875,0.45,0.65,0.16,0.5,0.861,0.5,0.4064,false
+WC2026-G64,Belgium,New Zealand,0.605,0.52,0.65,0.1775,0.5,0.793,0.5,0.4205,false
+WC2026-H65,Saudi Arabia,Cape Verde,0.595,0.48,0.65,0.16,0.5,0.864,0.5,0.4135,false
+WC2026-H66,Spain,Uruguay,0.645,0.68,0.65,0.1775,0.5,0.809,0.5,0.4584,false
+WC2026-L67,England,Panama,0.67,0.78,0.65,0.3921,0.5,0.816,0.5,0.5163,false
+WC2026-L68,Croatia,Ghana,0.595,0.48,0.65,0.124,0.5,0.822,0.5,0.4048,false
+WC2026-J69,Austria,Algeria,0.705,0.92,0.65,0.4472,0.5,0.784,0.5,0.555,false
+WC2026-J70,Argentina,Jordan,0.63,0.62,0.65,0.3921,0.5,0.777,0.5,0.4767,false
+WC2026-K71,Portugal,Colombia,0.63,0.62,0.65,0.2675,0.5,0.814,0.5,0.4594,false
+WC2026-K72,DR Congo,Uzbekistan,0.5875,0.45,0.65,0.3921,0.5,0.768,0.5,0.437,false

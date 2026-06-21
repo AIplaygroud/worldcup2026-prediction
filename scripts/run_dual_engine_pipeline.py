@@ -63,6 +63,8 @@ def main() -> None:
     ap.add_argument("--use-v36-realization", default="true",
                     choices=["true", "false"],
                     help="Apply V3.6 scenario realization, BTTS gate, tail calibration after EventFlow")
+    ap.add_argument("--use-v37", default="false", choices=["true", "false"],
+                    help="Enable V3.7 phase-1 guards in fusion/betting (no λ change)")
     args = ap.parse_args()
 
     steps: list = []
@@ -144,9 +146,19 @@ def main() -> None:
         else:
             log("Skipping V3.6 realization (--use-v36-realization false)", steps)
 
-        run_cmd([py, str(SCRIPTS / "merge_dual_engine_predictions.py"),
-                 "--match-id", mid, "--home", home, "--away", away,
-                 "--mode", args.mode, "--export-json", args.export_json], steps)
+        if args.use_v37 == "true":
+            run_cmd([py, str(SCRIPTS / "build_v37_normalized_tables.py")], steps)
+            run_cmd([py, str(SCRIPTS / "build_v37_features.py")], steps)
+            run_cmd([py, str(SCRIPTS / "apply_v37_realization_guards.py"), "--all-matches"], steps)
+            log("V3.7 phase-1 guards built (audit only, no λ change)", steps)
+
+        merge_cmd = [py, str(SCRIPTS / "merge_dual_engine_predictions.py"),
+                     "--match-id", mid, "--home", home, "--away", away,
+                     "--mode", args.mode, "--export-json", args.export_json,
+                     "--fail-on-htft-mismatch"]
+        if args.use_v37 == "true":
+            merge_cmd.extend(["--use-v37", "--use-v37-cold-reserve"])
+        run_cmd(merge_cmd, steps)
 
         if args.use_v36_realization == "true":
             sys.path.insert(0, str(SCRIPTS))

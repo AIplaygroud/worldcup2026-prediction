@@ -998,39 +998,31 @@
       "calibration_strength": "weak",
       "diagnostics_only": false,
       "favorite_side": "home",
-      "favorite_leads_early_likelihood": 0.21143650000000003,
-      "underdog_leads_early_likelihood": 0.030655199999999997,
-      "favorite_game_management_likelihood": 0.33028,
-      "underdog_btts_conversion_likelihood": 0.295159,
-      "low_block_survival_likelihood": 0.235892,
+      "favorite_leads_early_likelihood": 0.22018349999999998,
+      "underdog_leads_early_likelihood": 0.027185400000000002,
+      "favorite_game_management_likelihood": 0.28936000000000006,
+      "underdog_btts_conversion_likelihood": 0.2914904,
+      "low_block_survival_likelihood": 0.243819,
       "chance_quality_score": 0.37,
       "shot_volume_quality_gap": 0.0,
-      "lead_throttle_score": 0.08257,
+      "lead_throttle_score": 0.07234000000000002,
       "scoreline_family_boost": [],
       "scoreline_family_penalty": [],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ],
+      "conditional_branches": [],
       "team_style_home": {
         "team_scoring_style": "medium",
         "chance_conversion_style": "average",
         "game_management_style": "balanced",
-        "low_score_win_tendency": 0.4257,
-        "btts_allowed_tendency": 0.5715,
+        "low_score_win_tendency": 0.3234,
+        "btts_allowed_tendency": 0.6931,
         "late_throttle_tendency": 0.4
       },
       "team_style_away": {
         "team_scoring_style": "low_output",
         "chance_conversion_style": "average",
         "game_management_style": "conservative",
-        "low_score_win_tendency": 0.616,
-        "btts_allowed_tendency": 0.4227,
+        "low_score_win_tendency": 0.6617,
+        "btts_allowed_tendency": 0.3922,
         "late_throttle_tendency": 0.7
       },
       "lineup_function": {
@@ -1043,7 +1035,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.4396733
+          "press_resistance_quality": 0.4066637
         },
         "Haiti": {
           "has_real_lineup_signals": false,
@@ -1054,7 +1046,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.6207875
+          "press_resistance_quality": 0.662588
         }
       },
       "data_quality": {
@@ -1607,15 +1599,7 @@
         "1-0",
         "3-1"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ]
+      "conditional_branches": []
     },
     "realized_probability": {
       "home_win": 0.7495,
@@ -1630,6 +1614,452 @@
         "2-1",
         "1-0",
         "3-1"
+      ],
+      "scoreline_probability_grid": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "score": "2-0",
+          "probability": 0.112959
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "score": "3-0",
+          "probability": 0.097353
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "score": "2-1",
+          "probability": 0.088555
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "score": "1-0",
+          "probability": 0.084093
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 1,
+          "score": "3-1",
+          "probability": 0.076321
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "score": "1-1",
+          "probability": 0.071583
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "score": "4-0",
+          "probability": 0.062928
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 1,
+          "score": "4-1",
+          "probability": 0.049332
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "score": "0-0",
+          "probability": 0.037078
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 2,
+          "score": "2-2",
+          "probability": 0.03698
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "score": "5-0",
+          "probability": 0.032541
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 2,
+          "score": "3-2",
+          "probability": 0.031871
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "score": "1-2",
+          "probability": 0.028605
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 1,
+          "score": "5-1",
+          "probability": 0.02551
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "score": "0-1",
+          "probability": 0.024941
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 2,
+          "score": "4-2",
+          "probability": 0.020601
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 0,
+          "score": "6-0",
+          "probability": 0.014022
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "score": "0-2",
+          "probability": 0.011787
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 1,
+          "score": "6-1",
+          "probability": 0.010993
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 2,
+          "score": "5-2",
+          "probability": 0.010654
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 3,
+          "score": "2-3",
+          "probability": 0.010296
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 3,
+          "score": "3-3",
+          "probability": 0.008873
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 3,
+          "score": "1-3",
+          "probability": 0.007964
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 3,
+          "score": "4-3",
+          "probability": 0.005736
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 0,
+          "score": "7-0",
+          "probability": 0.005179
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 2,
+          "score": "6-2",
+          "probability": 0.004591
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 1,
+          "score": "7-1",
+          "probability": 0.00406
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "score": "0-3",
+          "probability": 0.003281
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 3,
+          "score": "5-3",
+          "probability": 0.002966
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 4,
+          "score": "2-4",
+          "probability": 0.00215
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 4,
+          "score": "3-4",
+          "probability": 0.001853
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 2,
+          "score": "7-2",
+          "probability": 0.001696
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 4,
+          "score": "1-4",
+          "probability": 0.001663
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 0,
+          "score": "8-0",
+          "probability": 0.001661
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 1,
+          "score": "8-1",
+          "probability": 0.001302
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 3,
+          "score": "6-3",
+          "probability": 0.001278
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 4,
+          "score": "4-4",
+          "probability": 0.001198
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 4,
+          "score": "0-4",
+          "probability": 0.000685
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 4,
+          "score": "5-4",
+          "probability": 0.000619
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 2,
+          "score": "8-2",
+          "probability": 0.000544
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 3,
+          "score": "7-3",
+          "probability": 0.000472
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 0,
+          "score": "9-0",
+          "probability": 0.000462
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 1,
+          "score": "9-1",
+          "probability": 0.000362
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 5,
+          "score": "2-5",
+          "probability": 0.000359
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 5,
+          "score": "3-5",
+          "probability": 0.000309
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 5,
+          "score": "1-5",
+          "probability": 0.000277
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 4,
+          "score": "6-4",
+          "probability": 0.000267
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 5,
+          "score": "4-5",
+          "probability": 0.0002
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 3,
+          "score": "8-3",
+          "probability": 0.000151
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 2,
+          "score": "9-2",
+          "probability": 0.000151
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 5,
+          "score": "0-5",
+          "probability": 0.000115
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 5,
+          "score": "5-5",
+          "probability": 0.000104
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 4,
+          "score": "7-4",
+          "probability": 9.9e-05
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 6,
+          "score": "2-6",
+          "probability": 5e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 5,
+          "score": "6-5",
+          "probability": 4.5e-05
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 6,
+          "score": "3-6",
+          "probability": 4.3e-05
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 3,
+          "score": "9-3",
+          "probability": 4.2e-05
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 6,
+          "score": "1-6",
+          "probability": 3.9e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 4,
+          "score": "8-4",
+          "probability": 3.2e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 6,
+          "score": "4-6",
+          "probability": 2.8e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 5,
+          "score": "7-5",
+          "probability": 1.6e-05
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 6,
+          "score": "0-6",
+          "probability": 1.6e-05
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 6,
+          "score": "5-6",
+          "probability": 1.5e-05
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 4,
+          "score": "9-4",
+          "probability": 9e-06
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 6,
+          "score": "6-6",
+          "probability": 6e-06
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 7,
+          "score": "2-7",
+          "probability": 6e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 5,
+          "score": "8-5",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 7,
+          "score": "3-7",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 7,
+          "score": "1-7",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 7,
+          "score": "4-7",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 6,
+          "score": "7-6",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 7,
+          "score": "0-7",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 7,
+          "score": "5-7",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 5,
+          "score": "9-5",
+          "probability": 2e-06
+        }
       ]
     }
   },
@@ -2871,295 +3301,295 @@
         "home_goals": 1,
         "away_goals": 1,
         "score": "1-1",
-        "probability": 0.117852
+        "probability": 0.11646
       },
       {
         "home_goals": 1,
         "away_goals": 0,
         "score": "1-0",
-        "probability": 0.104431
+        "probability": 0.105764
       },
       {
         "home_goals": 2,
         "away_goals": 0,
         "score": "2-0",
-        "probability": 0.085168
+        "probability": 0.086254
       },
       {
         "home_goals": 2,
         "away_goals": 1,
         "score": "2-1",
-        "probability": 0.081755
+        "probability": 0.080789
       },
       {
         "home_goals": 0,
         "away_goals": 1,
         "score": "0-1",
-        "probability": 0.075952
+        "probability": 0.076921
       },
       {
         "home_goals": 0,
         "away_goals": 0,
         "score": "0-0",
-        "probability": 0.073212
+        "probability": 0.074146
       },
       {
         "home_goals": 1,
         "away_goals": 2,
         "score": "1-2",
-        "probability": 0.068133
+        "probability": 0.067328
       },
       {
         "home_goals": 2,
         "away_goals": 2,
         "score": "2-2",
-        "probability": 0.052545
+        "probability": 0.051925
       },
       {
         "home_goals": 0,
         "away_goals": 2,
         "score": "0-2",
-        "probability": 0.049309
+        "probability": 0.049938
       },
       {
         "home_goals": 3,
         "away_goals": 0,
         "score": "3-0",
-        "probability": 0.043788
+        "probability": 0.044346
       },
       {
         "home_goals": 3,
         "away_goals": 1,
         "score": "3-1",
-        "probability": 0.042033
+        "probability": 0.041537
       },
       {
         "home_goals": 1,
         "away_goals": 3,
         "score": "1-3",
-        "probability": 0.027442
+        "probability": 0.027118
       },
       {
         "home_goals": 3,
         "away_goals": 2,
         "score": "3-2",
-        "probability": 0.027016
+        "probability": 0.026696
       },
       {
         "home_goals": 2,
         "away_goals": 3,
         "score": "2-3",
-        "probability": 0.021163
+        "probability": 0.020913
       },
       {
         "home_goals": 0,
         "away_goals": 3,
         "score": "0-3",
-        "probability": 0.01986
+        "probability": 0.020113
       },
       {
         "home_goals": 4,
         "away_goals": 1,
         "score": "4-1",
-        "probability": 0.017242
+        "probability": 0.017039
       },
       {
         "home_goals": 4,
         "away_goals": 0,
         "score": "4-0",
-        "probability": 0.014973
+        "probability": 0.015164
       },
       {
         "home_goals": 3,
         "away_goals": 3,
         "score": "3-3",
-        "probability": 0.010881
+        "probability": 0.010753
       },
       {
         "home_goals": 4,
         "away_goals": 2,
         "score": "4-2",
-        "probability": 0.010417
+        "probability": 0.010293
       },
       {
         "home_goals": 1,
         "away_goals": 4,
         "score": "1-4",
-        "probability": 0.008289
+        "probability": 0.008191
       },
       {
         "home_goals": 2,
         "away_goals": 4,
         "score": "2-4",
-        "probability": 0.006393
+        "probability": 0.006317
       },
       {
         "home_goals": 0,
         "away_goals": 4,
         "score": "0-4",
-        "probability": 0.005999
+        "probability": 0.006076
       },
       {
         "home_goals": 5,
         "away_goals": 1,
         "score": "5-1",
-        "probability": 0.005319
+        "probability": 0.005256
       },
       {
         "home_goals": 5,
         "away_goals": 0,
         "score": "5-0",
-        "probability": 0.004619
+        "probability": 0.004677
       },
       {
         "home_goals": 4,
         "away_goals": 3,
         "score": "4-3",
-        "probability": 0.004195
+        "probability": 0.004145
       },
       {
         "home_goals": 3,
         "away_goals": 4,
         "score": "3-4",
-        "probability": 0.003287
+        "probability": 0.003248
       },
       {
         "home_goals": 5,
         "away_goals": 2,
         "score": "5-2",
-        "probability": 0.003213
+        "probability": 0.003175
       },
       {
         "home_goals": 1,
         "away_goals": 5,
         "score": "1-5",
-        "probability": 0.002003
+        "probability": 0.00198
       },
       {
         "home_goals": 2,
         "away_goals": 5,
         "score": "2-5",
-        "probability": 0.001545
+        "probability": 0.001527
       },
       {
         "home_goals": 0,
         "away_goals": 5,
         "score": "0-5",
-        "probability": 0.001449
+        "probability": 0.001468
       },
       {
         "home_goals": 6,
         "away_goals": 1,
         "score": "6-1",
-        "probability": 0.001367
+        "probability": 0.00135
       },
       {
         "home_goals": 5,
         "away_goals": 3,
         "score": "5-3",
-        "probability": 0.001294
+        "probability": 0.001279
       },
       {
         "home_goals": 4,
         "away_goals": 4,
         "score": "4-4",
-        "probability": 0.001267
+        "probability": 0.001253
       },
       {
         "home_goals": 6,
         "away_goals": 0,
         "score": "6-0",
-        "probability": 0.001188
+        "probability": 0.001203
       },
       {
         "home_goals": 6,
         "away_goals": 2,
         "score": "6-2",
-        "probability": 0.000826
+        "probability": 0.000817
       },
       {
         "home_goals": 3,
         "away_goals": 5,
         "score": "3-5",
-        "probability": 0.000795
+        "probability": 0.000786
       },
       {
         "home_goals": 1,
         "away_goals": 6,
         "score": "1-6",
-        "probability": 0.000403
+        "probability": 0.000398
       },
       {
         "home_goals": 5,
         "away_goals": 4,
         "score": "5-4",
-        "probability": 0.000391
+        "probability": 0.000386
       },
       {
         "home_goals": 6,
         "away_goals": 3,
         "score": "6-3",
-        "probability": 0.000333
+        "probability": 0.000329
       },
       {
         "home_goals": 2,
         "away_goals": 6,
         "score": "2-6",
-        "probability": 0.000311
+        "probability": 0.000307
       },
       {
         "home_goals": 4,
         "away_goals": 5,
         "score": "4-5",
-        "probability": 0.000306
+        "probability": 0.000303
       },
       {
         "home_goals": 7,
         "away_goals": 1,
         "score": "7-1",
-        "probability": 0.000301
+        "probability": 0.000298
       },
       {
         "home_goals": 0,
         "away_goals": 6,
         "score": "0-6",
-        "probability": 0.000292
+        "probability": 0.000296
       },
       {
         "home_goals": 7,
         "away_goals": 0,
         "score": "7-0",
-        "probability": 0.000261
+        "probability": 0.000265
       },
       {
         "home_goals": 7,
         "away_goals": 2,
         "score": "7-2",
-        "probability": 0.000182
+        "probability": 0.000179
       },
       {
         "home_goals": 3,
         "away_goals": 6,
         "score": "3-6",
-        "probability": 0.00016
+        "probability": 0.000158
       },
       {
         "home_goals": 6,
         "away_goals": 4,
         "score": "6-4",
-        "probability": 0.000101
+        "probability": 0.0001
       },
       {
         "home_goals": 5,
         "away_goals": 5,
         "score": "5-5",
-        "probability": 9.5e-05
+        "probability": 9.4e-05
       },
       {
         "home_goals": 7,
         "away_goals": 3,
         "score": "7-3",
-        "probability": 7.3e-05
+        "probability": 7.2e-05
       },
       {
         "home_goals": 1,
@@ -3171,13 +3601,13 @@
         "home_goals": 4,
         "away_goals": 6,
         "score": "4-6",
-        "probability": 6.2e-05
+        "probability": 6.1e-05
       },
       {
         "home_goals": 8,
         "away_goals": 1,
         "score": "8-1",
-        "probability": 5.8e-05
+        "probability": 5.7e-05
       },
       {
         "home_goals": 2,
@@ -3189,13 +3619,13 @@
         "home_goals": 0,
         "away_goals": 7,
         "score": "0-7",
-        "probability": 5.1e-05
+        "probability": 5.2e-05
       },
       {
         "home_goals": 8,
         "away_goals": 0,
         "score": "8-0",
-        "probability": 5e-05
+        "probability": 5.1e-05
       },
       {
         "home_goals": 8,
@@ -3207,13 +3637,13 @@
         "home_goals": 3,
         "away_goals": 7,
         "score": "3-7",
-        "probability": 2.8e-05
+        "probability": 2.7e-05
       },
       {
         "home_goals": 6,
         "away_goals": 5,
         "score": "6-5",
-        "probability": 2.5e-05
+        "probability": 2.4e-05
       },
       {
         "home_goals": 7,
@@ -3249,7 +3679,13 @@
         "home_goals": 9,
         "away_goals": 1,
         "score": "9-1",
-        "probability": 1e-05
+        "probability": 9e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 0,
+        "score": "9-0",
+        "probability": 8e-06
       },
       {
         "home_goals": 2,
@@ -3258,16 +3694,10 @@
         "probability": 8e-06
       },
       {
-        "home_goals": 9,
-        "away_goals": 0,
-        "score": "9-0",
-        "probability": 7e-06
-      },
-      {
         "home_goals": 0,
         "away_goals": 8,
         "score": "0-8",
-        "probability": 7e-06
+        "probability": 8e-06
       },
       {
         "home_goals": 7,
@@ -4211,14 +4641,14 @@
       "calibration_strength": "medium",
       "diagnostics_only": false,
       "favorite_side": "home",
-      "favorite_leads_early_likelihood": 0.32467,
+      "favorite_leads_early_likelihood": 0.326598,
       "underdog_leads_early_likelihood": 0.0,
-      "favorite_game_management_likelihood": 0.39116000000000006,
-      "underdog_btts_conversion_likelihood": 0.5607396,
-      "low_block_survival_likelihood": 0.02691,
+      "favorite_game_management_likelihood": 0.50156,
+      "underdog_btts_conversion_likelihood": 0.5813274,
+      "low_block_survival_likelihood": 0.01041,
       "chance_quality_score": 0.33999999999999997,
-      "shot_volume_quality_gap": 0.0,
-      "lead_throttle_score": 0.12699791720000003,
+      "shot_volume_quality_gap": 0.39982800000000007,
+      "lead_throttle_score": 0.16380849288,
       "scoreline_family_boost": [
         "favorite_clean_win_low",
         "favorite_clean_win_mid"
@@ -4227,29 +4657,21 @@
         "favorite_btts_win",
         "favorite_big_win"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ],
+      "conditional_branches": [],
       "team_style_home": {
         "team_scoring_style": "high_output",
         "chance_conversion_style": "clinical",
         "game_management_style": "aggressive",
-        "low_score_win_tendency": 0.5779,
-        "btts_allowed_tendency": 0.6376,
+        "low_score_win_tendency": 0.8539,
+        "btts_allowed_tendency": 0.401,
         "late_throttle_tendency": 0.4
       },
       "team_style_away": {
         "team_scoring_style": "medium",
         "chance_conversion_style": "average",
         "game_management_style": "conservative",
-        "low_score_win_tendency": 0.0897,
-        "btts_allowed_tendency": 0.7835,
+        "low_score_win_tendency": 0.0347,
+        "btts_allowed_tendency": 0.8645,
         "late_throttle_tendency": 0.7
       },
       "lineup_function": {
@@ -4262,7 +4684,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.04999999999999999,
-          "press_resistance_quality": 0.4148894
+          "press_resistance_quality": 0.7573334
         },
         "Australia": {
           "has_real_lineup_signals": true,
@@ -4273,7 +4695,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.2,
-          "press_resistance_quality": 0.22334180000000003
+          "press_resistance_quality": 0.2052002
         }
       },
       "data_quality": {
@@ -4304,27 +4726,31 @@
       "adjustment_direction": "down",
       "adjustment_strength": "medium",
       "calibration_strength": "medium",
-      "btts_factor_delta_pct": -0.049,
-      "btts_delta_pct": -0.049,
+      "btts_factor_delta_pct": -0.06,
+      "btts_delta_pct": -0.06,
       "up_signals_count": 0,
-      "down_signals_count": 4,
+      "down_signals_count": 7,
       "up_reasons": [],
       "down_reasons": [
         "chance_quality_unavailable",
+        "chance_quality_low",
         "underdog_speed_outlet_benched",
+        "favorite_lead_management_likely",
         "underdog_threat_present_but_conversion_low",
-        "counterattack_exit_quality_low"
+        "counterattack_exit_quality_low",
+        "first_half_counterattack_exit_reduced"
       ],
       "reasons": [
         "chance_quality_unavailable",
+        "chance_quality_low",
         "underdog_speed_outlet_benched",
-        "underdog_threat_present_but_conversion_low",
-        "counterattack_exit_quality_low"
+        "favorite_lead_management_likely",
+        "underdog_threat_present_but_conversion_low"
       ],
       "diagnostics_only": false,
       "btts_before": 0.5567,
-      "btts_after": 0.5294,
-      "btts_probability_point_delta": -0.0273
+      "btts_after": 0.5233,
+      "btts_probability_point_delta": -0.0334
     },
     "post_btts_gate_snapshot": {
       "btts": 0.5294,
@@ -4829,7 +5255,9 @@
         "favorite_btts_win",
         "favorite_big_win"
       ],
-      "reasons": [],
+      "reasons": [
+        "shot_volume_quality_split"
+      ],
       "diagnostics_only": false
     },
     "v36_realization_layer": {
@@ -4838,12 +5266,13 @@
       "diagnostics_only": false,
       "btts_gate": {
         "direction": "down",
-        "delta_pct": -0.049,
+        "delta_pct": -0.06,
         "reason": [
           "chance_quality_unavailable",
+          "chance_quality_low",
           "underdog_speed_outlet_benched",
-          "underdog_threat_present_but_conversion_low",
-          "counterattack_exit_quality_low"
+          "favorite_lead_management_likely",
+          "underdog_threat_present_but_conversion_low"
         ]
       },
       "total_goals_tail": {
@@ -4877,23 +5306,15 @@
         "2-1",
         "0-1"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ]
+      "conditional_branches": []
     },
     "realized_probability": {
-      "home_win": 0.4507,
-      "draw": 0.2559,
-      "away_win": 0.2934,
-      "over25": 0.4941,
-      "over35": 0.2805,
-      "btts": 0.5194,
+      "home_win": 0.4517,
+      "draw": 0.2546,
+      "away_win": 0.2937,
+      "over25": 0.4905,
+      "over35": 0.2779,
+      "btts": 0.5133,
       "top_scores": [
         "1-1",
         "1-0",
@@ -5974,39 +6395,31 @@
       "calibration_strength": "weak",
       "diagnostics_only": false,
       "favorite_side": "away",
-      "favorite_leads_early_likelihood": 0.12603599999999998,
-      "underdog_leads_early_likelihood": 0.0334314,
-      "favorite_game_management_likelihood": 0.3514400000000001,
-      "underdog_btts_conversion_likelihood": 0.2971772,
-      "low_block_survival_likelihood": 0.201459,
+      "favorite_leads_early_likelihood": 0.1292975,
+      "underdog_leads_early_likelihood": 0.037725,
+      "favorite_game_management_likelihood": 0.32780000000000004,
+      "underdog_btts_conversion_likelihood": 0.2896708,
+      "low_block_survival_likelihood": 0.226495,
       "chance_quality_score": 0.37,
       "shot_volume_quality_gap": 0.0,
-      "lead_throttle_score": 0.08786000000000002,
+      "lead_throttle_score": 0.08195000000000001,
       "scoreline_family_boost": [],
       "scoreline_family_penalty": [],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ],
+      "conditional_branches": [],
       "team_style_home": {
-        "team_scoring_style": "medium",
-        "chance_conversion_style": "average",
-        "game_management_style": "balanced",
-        "low_score_win_tendency": 0.4858,
-        "btts_allowed_tendency": 0.5095,
-        "late_throttle_tendency": 0.4
-      },
-      "team_style_away": {
         "team_scoring_style": "low_output",
         "chance_conversion_style": "average",
-        "game_management_style": "aggressive",
-        "low_score_win_tendency": 0.4786,
-        "btts_allowed_tendency": 0.5536,
+        "game_management_style": "conservative",
+        "low_score_win_tendency": 0.5454,
+        "btts_allowed_tendency": 0.4697,
+        "late_throttle_tendency": 0.7
+      },
+      "team_style_away": {
+        "team_scoring_style": "medium",
+        "chance_conversion_style": "clinical",
+        "game_management_style": "balanced",
+        "low_score_win_tendency": 0.4195,
+        "btts_allowed_tendency": 0.6372,
         "late_throttle_tendency": 0.4
       },
       "lineup_function": {
@@ -6019,7 +6432,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.5022128
+          "press_resistance_quality": 0.5604449
         },
         "Morocco": {
           "has_real_lineup_signals": false,
@@ -6030,7 +6443,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.4657913
+          "press_resistance_quality": 0.47132
         }
       },
       "data_quality": {
@@ -6065,15 +6478,17 @@
       "btts_factor_delta_pct": -0.03,
       "btts_delta_pct": -0.03,
       "up_signals_count": 0,
-      "down_signals_count": 3,
+      "down_signals_count": 4,
       "up_reasons": [],
       "down_reasons": [
         "chance_quality_unavailable",
+        "underdog_low_output_style",
         "underdog_threat_present_but_conversion_low",
         "counterattack_exit_quality_low"
       ],
       "reasons": [
         "chance_quality_unavailable",
+        "underdog_low_output_style",
         "underdog_threat_present_but_conversion_low",
         "counterattack_exit_quality_low"
       ],
@@ -6592,6 +7007,7 @@
         "delta_pct": -0.03,
         "reason": [
           "chance_quality_unavailable",
+          "underdog_low_output_style",
           "underdog_threat_present_but_conversion_low",
           "counterattack_exit_quality_low"
         ]
@@ -6616,15 +7032,7 @@
         "0-1",
         "1-1"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ]
+      "conditional_branches": []
     },
     "realized_probability": {
       "home_win": 0.1283,
@@ -6639,6 +7047,488 @@
         "0-3",
         "0-1",
         "1-1"
+      ],
+      "scoreline_probability_grid": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "score": "0-2",
+          "probability": 0.100969
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "score": "1-2",
+          "probability": 0.092349
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "score": "0-3",
+          "probability": 0.082619
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "score": "0-1",
+          "probability": 0.07863
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "score": "1-1",
+          "probability": 0.078625
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 3,
+          "score": "1-3",
+          "probability": 0.075567
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 4,
+          "score": "0-4",
+          "probability": 0.050704
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 4,
+          "score": "1-4",
+          "probability": 0.046376
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 2,
+          "score": "2-2",
+          "probability": 0.045306
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "score": "0-0",
+          "probability": 0.037143
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 3,
+          "score": "2-3",
+          "probability": 0.037072
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "score": "2-1",
+          "probability": 0.036912
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "score": "1-0",
+          "probability": 0.029248
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 5,
+          "score": "0-5",
+          "probability": 0.024894
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 5,
+          "score": "1-5",
+          "probability": 0.022769
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 4,
+          "score": "2-4",
+          "probability": 0.022751
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "score": "2-0",
+          "probability": 0.016131
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 2,
+          "score": "3-2",
+          "probability": 0.014818
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 3,
+          "score": "3-3",
+          "probability": 0.012125
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 1,
+          "score": "3-1",
+          "probability": 0.012073
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 5,
+          "score": "2-5",
+          "probability": 0.011171
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 6,
+          "score": "0-6",
+          "probability": 0.010185
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 6,
+          "score": "1-6",
+          "probability": 0.009316
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 4,
+          "score": "3-4",
+          "probability": 0.007441
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "score": "3-0",
+          "probability": 0.005276
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 6,
+          "score": "2-6",
+          "probability": 0.00457
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 5,
+          "score": "3-5",
+          "probability": 0.003653
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 2,
+          "score": "4-2",
+          "probability": 0.003635
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 7,
+          "score": "0-7",
+          "probability": 0.003571
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 7,
+          "score": "1-7",
+          "probability": 0.003267
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 3,
+          "score": "4-3",
+          "probability": 0.002974
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 1,
+          "score": "4-1",
+          "probability": 0.002961
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 4,
+          "score": "4-4",
+          "probability": 0.001826
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 7,
+          "score": "2-7",
+          "probability": 0.001602
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 6,
+          "score": "3-6",
+          "probability": 0.001495
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "score": "4-0",
+          "probability": 0.001294
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 8,
+          "score": "0-8",
+          "probability": 0.001082
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 8,
+          "score": "1-8",
+          "probability": 0.00099
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 5,
+          "score": "4-5",
+          "probability": 0.000896
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 2,
+          "score": "5-2",
+          "probability": 0.000713
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 3,
+          "score": "5-3",
+          "probability": 0.000584
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 1,
+          "score": "5-1",
+          "probability": 0.000581
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 7,
+          "score": "3-7",
+          "probability": 0.000524
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 8,
+          "score": "2-8",
+          "probability": 0.000486
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 6,
+          "score": "4-6",
+          "probability": 0.000367
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 4,
+          "score": "5-4",
+          "probability": 0.000358
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 9,
+          "score": "0-9",
+          "probability": 0.000282
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 9,
+          "score": "1-9",
+          "probability": 0.000258
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "score": "5-0",
+          "probability": 0.000254
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 5,
+          "score": "5-5",
+          "probability": 0.000176
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 8,
+          "score": "3-8",
+          "probability": 0.000159
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 7,
+          "score": "4-7",
+          "probability": 0.000129
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 9,
+          "score": "2-9",
+          "probability": 0.000126
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 2,
+          "score": "6-2",
+          "probability": 0.000116
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 3,
+          "score": "6-3",
+          "probability": 9.5e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 1,
+          "score": "6-1",
+          "probability": 9.5e-05
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 6,
+          "score": "5-6",
+          "probability": 7.2e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 4,
+          "score": "6-4",
+          "probability": 5.8e-05
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 9,
+          "score": "3-9",
+          "probability": 4.2e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 0,
+          "score": "6-0",
+          "probability": 4.2e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 8,
+          "score": "4-8",
+          "probability": 3.9e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 5,
+          "score": "6-5",
+          "probability": 2.9e-05
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 7,
+          "score": "5-7",
+          "probability": 2.5e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 2,
+          "score": "7-2",
+          "probability": 1.6e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 3,
+          "score": "7-3",
+          "probability": 1.4e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 1,
+          "score": "7-1",
+          "probability": 1.4e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 6,
+          "score": "6-6",
+          "probability": 1.2e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 9,
+          "score": "4-9",
+          "probability": 1e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 4,
+          "score": "7-4",
+          "probability": 8e-06
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 8,
+          "score": "5-8",
+          "probability": 8e-06
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 0,
+          "score": "7-0",
+          "probability": 6e-06
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 7,
+          "score": "6-7",
+          "probability": 4e-06
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 5,
+          "score": "7-5",
+          "probability": 4e-06
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 9,
+          "score": "5-9",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 2,
+          "score": "8-2",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 6,
+          "score": "7-6",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 3,
+          "score": "8-3",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 1,
+          "score": "8-1",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 8,
+          "score": "6-8",
+          "probability": 1e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 4,
+          "score": "8-4",
+          "probability": 1e-06
+        }
       ]
     }
   },
@@ -7797,14 +8687,14 @@
       "calibration_strength": "weak",
       "diagnostics_only": false,
       "favorite_side": "home",
-      "favorite_leads_early_likelihood": 0.2835625,
-      "underdog_leads_early_likelihood": 0.001047,
-      "favorite_game_management_likelihood": 0.37956000000000006,
-      "underdog_btts_conversion_likelihood": 0.3620948,
-      "low_block_survival_likelihood": 0.11499499999999999,
+      "favorite_leads_early_likelihood": 0.2876185,
+      "underdog_leads_early_likelihood": 0.0009972,
+      "favorite_game_management_likelihood": 0.37236,
+      "underdog_btts_conversion_likelihood": 0.39486499999999997,
+      "low_block_survival_likelihood": 0.081312,
       "chance_quality_score": 0.37,
       "shot_volume_quality_gap": 0.0,
-      "lead_throttle_score": 0.10762898250000001,
+      "lead_throttle_score": 0.10709762466,
       "scoreline_family_boost": [],
       "scoreline_family_penalty": [],
       "conditional_branches": [
@@ -7820,16 +8710,16 @@
         "team_scoring_style": "medium",
         "chance_conversion_style": "average",
         "game_management_style": "aggressive",
-        "low_score_win_tendency": 0.5489,
-        "btts_allowed_tendency": 0.5215,
+        "low_score_win_tendency": 0.5309,
+        "btts_allowed_tendency": 0.5536,
         "late_throttle_tendency": 0.4
       },
       "team_style_away": {
         "team_scoring_style": "medium",
         "chance_conversion_style": "average",
         "game_management_style": "conservative",
-        "low_score_win_tendency": 0.3775,
-        "btts_allowed_tendency": 0.5966,
+        "low_score_win_tendency": 0.2655,
+        "btts_allowed_tendency": 0.7185,
         "late_throttle_tendency": 0.7
       },
       "lineup_function": {
@@ -7842,7 +8732,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.5037755
+          "press_resistance_quality": 0.5368655
         },
         "Paraguay": {
           "has_real_lineup_signals": false,
@@ -7853,7 +8743,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.4668944
+          "press_resistance_quality": 0.3995843
         }
       },
       "data_quality": {
@@ -8504,6 +9394,530 @@
         "1-0",
         "2-0",
         "1-2"
+      ],
+      "scoreline_probability_grid": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "score": "1-1",
+          "probability": 0.102983
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "score": "2-1",
+          "probability": 0.091056
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "score": "1-0",
+          "probability": 0.073643
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "score": "2-0",
+          "probability": 0.072486
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "score": "1-2",
+          "probability": 0.067087
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 2,
+          "score": "2-2",
+          "probability": 0.061987
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 1,
+          "score": "3-1",
+          "probability": 0.056088
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "score": "0-1",
+          "probability": 0.052994
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "score": "0-0",
+          "probability": 0.047259
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "score": "3-0",
+          "probability": 0.04465
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "score": "0-2",
+          "probability": 0.039348
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 2,
+          "score": "3-2",
+          "probability": 0.038183
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 3,
+          "score": "1-3",
+          "probability": 0.030447
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 3,
+          "score": "2-3",
+          "probability": 0.028132
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 1,
+          "score": "4-1",
+          "probability": 0.025912
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "score": "4-0",
+          "probability": 0.020627
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "score": "0-3",
+          "probability": 0.017858
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 2,
+          "score": "4-2",
+          "probability": 0.01764
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 3,
+          "score": "3-3",
+          "probability": 0.017329
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 4,
+          "score": "1-4",
+          "probability": 0.010363
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 1,
+          "score": "5-1",
+          "probability": 0.009577
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 4,
+          "score": "2-4",
+          "probability": 0.009576
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 3,
+          "score": "4-3",
+          "probability": 0.008005
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "score": "5-0",
+          "probability": 0.007623
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 2,
+          "score": "5-2",
+          "probability": 0.006519
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 4,
+          "score": "0-4",
+          "probability": 0.006079
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 4,
+          "score": "3-4",
+          "probability": 0.005899
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 3,
+          "score": "5-3",
+          "probability": 0.002959
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 1,
+          "score": "6-1",
+          "probability": 0.00295
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 5,
+          "score": "1-5",
+          "probability": 0.002822
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 4,
+          "score": "4-4",
+          "probability": 0.002725
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 5,
+          "score": "2-5",
+          "probability": 0.002607
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 0,
+          "score": "6-0",
+          "probability": 0.002348
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 2,
+          "score": "6-2",
+          "probability": 0.002008
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 5,
+          "score": "0-5",
+          "probability": 0.001655
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 5,
+          "score": "3-5",
+          "probability": 0.001606
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 4,
+          "score": "5-4",
+          "probability": 0.001007
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 3,
+          "score": "6-3",
+          "probability": 0.000911
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 1,
+          "score": "7-1",
+          "probability": 0.000779
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 5,
+          "score": "4-5",
+          "probability": 0.000742
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 6,
+          "score": "1-6",
+          "probability": 0.00064
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 0,
+          "score": "7-0",
+          "probability": 0.00062
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 6,
+          "score": "2-6",
+          "probability": 0.000592
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 2,
+          "score": "7-2",
+          "probability": 0.00053
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 6,
+          "score": "0-6",
+          "probability": 0.000375
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 6,
+          "score": "3-6",
+          "probability": 0.000365
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 4,
+          "score": "6-4",
+          "probability": 0.00031
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 5,
+          "score": "5-5",
+          "probability": 0.000275
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 3,
+          "score": "7-3",
+          "probability": 0.000241
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 1,
+          "score": "8-1",
+          "probability": 0.000178
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 6,
+          "score": "4-6",
+          "probability": 0.000169
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 0,
+          "score": "8-0",
+          "probability": 0.000142
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 7,
+          "score": "1-7",
+          "probability": 0.000124
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 2,
+          "score": "8-2",
+          "probability": 0.000121
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 7,
+          "score": "2-7",
+          "probability": 0.000115
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 5,
+          "score": "6-5",
+          "probability": 8.4e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 4,
+          "score": "7-4",
+          "probability": 8.1e-05
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 7,
+          "score": "0-7",
+          "probability": 7.3e-05
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 7,
+          "score": "3-7",
+          "probability": 7.1e-05
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 6,
+          "score": "5-6",
+          "probability": 6.2e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 3,
+          "score": "8-3",
+          "probability": 5.5e-05
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 1,
+          "score": "9-1",
+          "probability": 3.6e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 7,
+          "score": "4-7",
+          "probability": 3.3e-05
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 0,
+          "score": "9-0",
+          "probability": 2.8e-05
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 2,
+          "score": "9-2",
+          "probability": 2.4e-05
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 5,
+          "score": "7-5",
+          "probability": 2.2e-05
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 8,
+          "score": "1-8",
+          "probability": 2.1e-05
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 8,
+          "score": "2-8",
+          "probability": 1.9e-05
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 6,
+          "score": "6-6",
+          "probability": 1.9e-05
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 4,
+          "score": "8-4",
+          "probability": 1.8e-05
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 8,
+          "score": "0-8",
+          "probability": 1.3e-05
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 7,
+          "score": "5-7",
+          "probability": 1.2e-05
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 8,
+          "score": "3-8",
+          "probability": 1.2e-05
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 3,
+          "score": "9-3",
+          "probability": 1.1e-05
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 8,
+          "score": "4-8",
+          "probability": 6e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 5,
+          "score": "8-5",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 6,
+          "score": "7-6",
+          "probability": 5e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 4,
+          "score": "9-4",
+          "probability": 4e-06
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 7,
+          "score": "6-7",
+          "probability": 4e-06
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 9,
+          "score": "1-9",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 9,
+          "score": "2-9",
+          "probability": 3e-06
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 8,
+          "score": "5-8",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 9,
+          "score": "3-9",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 9,
+          "score": "0-9",
+          "probability": 2e-06
+        },
+        {
+          "home_goals": 8,
+          "away_goals": 6,
+          "score": "8-6",
+          "probability": 1e-06
+        },
+        {
+          "home_goals": 9,
+          "away_goals": 5,
+          "score": "9-5",
+          "probability": 1e-06
+        },
+        {
+          "home_goals": 7,
+          "away_goals": 7,
+          "score": "7-7",
+          "probability": 1e-06
+        }
       ]
     }
   },
@@ -9494,49 +10908,38 @@
       "calibration_strength": "none",
       "diagnostics_only": true,
       "favorite_side": "home",
-      "favorite_leads_early_likelihood": 0.0907775,
-      "underdog_leads_early_likelihood": 0.1219878,
-      "favorite_game_management_likelihood": 0.43240000000000006,
-      "underdog_btts_conversion_likelihood": 0.22836599999999999,
-      "low_block_survival_likelihood": 0.45309299999999997,
+      "favorite_leads_early_likelihood": 0.0,
+      "underdog_leads_early_likelihood": 0.0,
+      "favorite_game_management_likelihood": 0.4,
+      "underdog_btts_conversion_likelihood": 0.2475,
+      "low_block_survival_likelihood": 0.15,
       "chance_quality_score": 0.37,
       "shot_volume_quality_gap": 0.0,
-      "lead_throttle_score": 0.10810000000000002,
+      "lead_throttle_score": 0.1,
       "scoreline_family_boost": [
         "favorite_clean_win_low",
-        "favorite_clean_win_mid",
-        "draw_low",
-        "underdog_low_win"
+        "favorite_clean_win_mid"
       ],
       "scoreline_family_penalty": [
         "favorite_btts_win",
-        "favorite_big_win",
-        "chaos_high"
+        "favorite_big_win"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ],
+      "conditional_branches": [],
       "team_style_home": {
-        "team_scoring_style": "low_output",
+        "team_scoring_style": "medium",
         "chance_conversion_style": "average",
         "game_management_style": "balanced",
-        "low_score_win_tendency": 0.681,
-        "btts_allowed_tendency": 0.3889,
-        "late_throttle_tendency": 0.4
+        "low_score_win_tendency": 0.5,
+        "btts_allowed_tendency": 0.5,
+        "late_throttle_tendency": 0.5
       },
       "team_style_away": {
-        "team_scoring_style": "low_output",
+        "team_scoring_style": "medium",
         "chance_conversion_style": "average",
         "game_management_style": "balanced",
-        "low_score_win_tendency": 0.8326,
-        "btts_allowed_tendency": 0.2857,
-        "late_throttle_tendency": 0.4
+        "low_score_win_tendency": 0.5,
+        "btts_allowed_tendency": 0.5,
+        "late_throttle_tendency": 0.5
       },
       "lineup_function": {
         "Netherlands": {
@@ -9548,7 +10951,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.637382
+          "press_resistance_quality": 0.5
         },
         "Sweden": {
           "has_real_lineup_signals": false,
@@ -9559,7 +10962,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.7826234
+          "press_resistance_quality": 0.5
         }
       },
       "data_quality": {
@@ -9586,7 +10989,7 @@
     },
     "btts_conversion_gate": {
       "enabled": true,
-      "threat_presence": true,
+      "threat_presence": false,
       "conversion_supported": false,
       "conversion_supported_by_quality": false,
       "adjustment_direction": "none",
@@ -9595,12 +10998,10 @@
       "btts_factor_delta_pct": 0.0,
       "btts_delta_pct": 0.0,
       "up_signals_count": 0,
-      "down_signals_count": 5,
+      "down_signals_count": 3,
       "up_reasons": [],
       "down_reasons": [
         "chance_quality_unavailable",
-        "favorite_lead_management_likely",
-        "underdog_low_output_style",
         "underdog_threat_present_but_conversion_low",
         "counterattack_exit_quality_low"
       ],
@@ -9663,15 +11064,7 @@
         "1-1",
         "3-0"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ]
+      "conditional_branches": []
     },
     "realized_probability": {
       "home_win": 0.6911,
@@ -16835,40 +18228,38 @@
       "calibration_strength": "none",
       "diagnostics_only": true,
       "favorite_side": "home",
-      "favorite_leads_early_likelihood": 0.31088550000000004,
+      "favorite_leads_early_likelihood": 0.0,
       "underdog_leads_early_likelihood": 0.0,
-      "favorite_game_management_likelihood": 0.30444000000000004,
-      "underdog_btts_conversion_likelihood": 0.4674286,
-      "low_block_survival_likelihood": 0.0,
+      "favorite_game_management_likelihood": 0.4,
+      "underdog_btts_conversion_likelihood": 0.2475,
+      "low_block_survival_likelihood": 0.15,
       "chance_quality_score": 0.37,
       "shot_volume_quality_gap": 0.0,
-      "lead_throttle_score": 0.09464598162000003,
-      "scoreline_family_boost": [],
-      "scoreline_family_penalty": [],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
+      "lead_throttle_score": 0.1,
+      "scoreline_family_boost": [
+        "favorite_clean_win_low",
+        "favorite_clean_win_mid"
       ],
+      "scoreline_family_penalty": [
+        "favorite_btts_win",
+        "favorite_big_win"
+      ],
+      "conditional_branches": [],
       "team_style_home": {
         "team_scoring_style": "medium",
         "chance_conversion_style": "average",
-        "game_management_style": "aggressive",
-        "low_score_win_tendency": 0.3611,
-        "btts_allowed_tendency": 0.631,
-        "late_throttle_tendency": 0.4
+        "game_management_style": "balanced",
+        "low_score_win_tendency": 0.5,
+        "btts_allowed_tendency": 0.5,
+        "late_throttle_tendency": 0.5
       },
       "team_style_away": {
-        "team_scoring_style": "high_output",
-        "chance_conversion_style": "clinical",
-        "game_management_style": "conservative",
-        "low_score_win_tendency": 0.0,
-        "btts_allowed_tendency": 1.0,
-        "late_throttle_tendency": 0.7
+        "team_scoring_style": "medium",
+        "chance_conversion_style": "average",
+        "game_management_style": "balanced",
+        "low_score_win_tendency": 0.5,
+        "btts_allowed_tendency": 0.5,
+        "late_throttle_tendency": 0.5
       },
       "lineup_function": {
         "Ecuador": {
@@ -16880,7 +18271,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.3890939
+          "press_resistance_quality": 0.5
         },
         "Curacao": {
           "has_real_lineup_signals": false,
@@ -16891,7 +18282,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.0
+          "press_resistance_quality": 0.5
         }
       },
       "data_quality": {
@@ -16918,7 +18309,7 @@
     },
     "btts_conversion_gate": {
       "enabled": true,
-      "threat_presence": true,
+      "threat_presence": false,
       "conversion_supported": false,
       "conversion_supported_by_quality": false,
       "adjustment_direction": "none",
@@ -16993,15 +18384,7 @@
         "2-0",
         "0-0"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ]
+      "conditional_branches": []
     },
     "realized_probability": {
       "home_win": 0.5151,
@@ -17946,14 +19329,14 @@
       "calibration_strength": "none",
       "diagnostics_only": true,
       "favorite_side": "away",
-      "favorite_leads_early_likelihood": 0.11478250000000001,
-      "underdog_leads_early_likelihood": 0.0491886,
-      "favorite_game_management_likelihood": 0.73976,
-      "underdog_btts_conversion_likelihood": 0.2969676,
-      "low_block_survival_likelihood": 0.221931,
+      "favorite_leads_early_likelihood": 0.0,
+      "underdog_leads_early_likelihood": 0.0,
+      "favorite_game_management_likelihood": 0.4,
+      "underdog_btts_conversion_likelihood": 0.2475,
+      "low_block_survival_likelihood": 0.15,
       "chance_quality_score": 0.37,
       "shot_volume_quality_gap": 0.0,
-      "lead_throttle_score": 0.18494,
+      "lead_throttle_score": 0.1,
       "scoreline_family_boost": [
         "favorite_clean_win_low",
         "favorite_clean_win_mid"
@@ -17962,30 +19345,22 @@
         "favorite_btts_win",
         "favorite_big_win"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ],
+      "conditional_branches": [],
       "team_style_home": {
         "team_scoring_style": "medium",
         "chance_conversion_style": "average",
         "game_management_style": "balanced",
-        "low_score_win_tendency": 0.4665,
-        "btts_allowed_tendency": 0.5298,
-        "late_throttle_tendency": 0.4
+        "low_score_win_tendency": 0.5,
+        "btts_allowed_tendency": 0.5,
+        "late_throttle_tendency": 0.5
       },
       "team_style_away": {
-        "team_scoring_style": "low_output",
+        "team_scoring_style": "medium",
         "chance_conversion_style": "average",
-        "game_management_style": "conservative",
-        "low_score_win_tendency": 0.6494,
-        "btts_allowed_tendency": 0.4004,
-        "late_throttle_tendency": 0.7
+        "game_management_style": "balanced",
+        "low_score_win_tendency": 0.5,
+        "btts_allowed_tendency": 0.5,
+        "late_throttle_tendency": 0.5
       },
       "lineup_function": {
         "Tunisia": {
@@ -17997,7 +19372,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.4892189
+          "press_resistance_quality": 0.5
         },
         "Japan": {
           "has_real_lineup_signals": false,
@@ -18008,7 +19383,7 @@
           "set_piece_height_advantage": false,
           "wide_overload_available": false,
           "counterattack_exit_quality": 0.35,
-          "press_resistance_quality": 0.6403220000000001
+          "press_resistance_quality": 0.5
         }
       },
       "data_quality": {
@@ -18035,7 +19410,7 @@
     },
     "btts_conversion_gate": {
       "enabled": true,
-      "threat_presence": true,
+      "threat_presence": false,
       "conversion_supported": false,
       "conversion_supported_by_quality": false,
       "adjustment_direction": "none",
@@ -18044,11 +19419,10 @@
       "btts_factor_delta_pct": 0.0,
       "btts_delta_pct": 0.0,
       "up_signals_count": 0,
-      "down_signals_count": 4,
+      "down_signals_count": 3,
       "up_reasons": [],
       "down_reasons": [
         "chance_quality_unavailable",
-        "favorite_lead_management_likely",
         "underdog_threat_present_but_conversion_low",
         "counterattack_exit_quality_low"
       ],
@@ -18111,15 +19485,7 @@
         "1-2",
         "0-3"
       ],
-      "conditional_branches": [
-        {
-          "branch_id": "underdog_early_goal",
-          "status": "conditional_prematch",
-          "trigger": "若弱势方先入球",
-          "effect": "激活 low_block_survival；上调 0-1/1-1，下调大球与强队多进球",
-          "active": false
-        }
-      ]
+      "conditional_branches": []
     },
     "realized_probability": {
       "home_win": 0.1173,

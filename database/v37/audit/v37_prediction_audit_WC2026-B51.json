@@ -1,0 +1,57 @@
+{
+  "match_id": "WC2026-B51",
+  "home": "Switzerland",
+  "away": "Canada",
+  "v37_guards": {
+    "group_pressure": {
+      "home": 0.13,
+      "away": 0.17,
+      "pressure_type_home": "draw_ok",
+      "pressure_type_away": "draw_ok",
+      "draw_utility_home": 0.55,
+      "draw_utility_away": 0.55
+    },
+    "attack_conversion_gate": {
+      "home": 0.3525,
+      "away": 0.3716,
+      "must_win_no_convert_home": false,
+      "must_win_no_convert_away": false
+    },
+    "early_goal_cascade": {
+      "early_goal_cascade_index": 0.4174,
+      "cascade_tail_active_raw": false,
+      "phase1_enabled": false,
+      "phase1_note": "EGCI cascade_tail_active disabled in phase-1; index recorded for audit only"
+    },
+    "low_block_keeper_guard": {
+      "cold_draw_guard_score": 0.547,
+      "cold_guard_active": false,
+      "deep_handicap_contra_flag": false,
+      "favorite": "Switzerland",
+      "underdog": "Canada"
+    },
+    "score_family_adjustments": {
+      "phase1_applied": false,
+      "note": "No V3.7 score-family or λ adjustments in phase-1"
+    },
+    "betting_risk_flags": [
+      "home_draw_utility_elevated",
+      "away_draw_utility_elevated"
+    ]
+  },
+  "v37_guard_summary": {
+    "group_pressure": "draw_ok / draw_ok",
+    "attack_conversion_gate": 0.352,
+    "early_goal_cascade_index": 0.417,
+    "low_block_keeper_guard": 0.547,
+    "active_flags": [],
+    "risk_reserve_scorelines": [],
+    "betting_risk_flags": [
+      "home_draw_utility_elevated",
+      "away_draw_utility_elevated"
+    ]
+  },
+  "data_quality_grade": "degraded",
+  "loaded": true,
+  "generated_at": "2026-06-21T07:57:25.119971+00:00"
+}

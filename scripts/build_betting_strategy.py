@@ -14,6 +14,16 @@ from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 from eventflow_common import ROOT, read_csv, read_json, write_json
 
+try:
+    from scenario_realization_common import load_v37_features
+except ImportError:
+    load_v37_features = None  # type: ignore
+
+try:
+    from v37_common import match_odds_by_teams
+except ImportError:
+    match_odds_by_teams = None  # type: ignore
+
 ODDS_DB = ROOT / "database" / "jc-odds" / "processed"
 EVENTFLOW_DB = ROOT / "database" / "eventflow" / "processed"
 PROB_SCORES_CSV = ROOT / "database" / "eventflow" / "raw" / "probability_engine_scores.csv"
@@ -28,6 +38,7 @@ HAFU_CODE_TO_LABEL = {
     "dh": "平/主", "dd": "平/平", "da": "平/客",
     "ah": "客/主", "ad": "客/平", "aa": "客/客",
 }
+HAFU_SELECTION_RE = re.compile(r"^半全场[主平客](/[主平客])+$")
 
 
 @dataclass
@@ -111,6 +122,7 @@ class StrategyResult:
     filtered_out: List[Dict[str, Any]]
     recommended_combos: List[ComboRecommendation]
     sections: Dict[str, str] = field(default_factory=dict)
+    emit_recommendations: bool = False
 
     def to_markdown(self) -> str:
         return render_markdown(self)
@@ -133,8 +145,70 @@ def _parse_score(score: str) -> Optional[Tuple[int, int]]:
     return int(m.group(1)), int(m.group(2))
 
 
-def _odds_row_key(fifa_match_id: str) -> str:
-    return f"周五{int(fifa_match_id):03d}"
+def _parse_match_teams(payload: Dict[str, Any]) -> Tuple[str, str]:
+    match_line = snum(payload, "match")
+    if " vs " in match_line:
+        home, away = match_line.split(" vs ", 1)
+        return home.strip(), away.strip()
+    return "", ""
+
+
+def _resolve_odds_row(
+    payload: Dict[str, Any],
+    odds_by_key: Dict[str, Dict[str, str]],
+    summary_rows: Sequence[Dict[str, str]],
+) -> Optional[Dict[str, str]]:
+    """Resolve jc-odds summary row by team names, then fifa id suffix fallback."""
+    home_en, away_en = _parse_match_teams(payload)
+    if match_odds_by_teams and home_en and away_en:
+        row = match_odds_by_teams(home_en, away_en, summary_rows)
+        if row:
+            return row
+    fifa_id = str(payload.get("fifa_match_id", "")).strip()
+    if fifa_id:
+        suffix = f"{int(fifa_id):03d}"
+        for key, row in odds_by_key.items():
+            if key.endswith(suffix):
+                return row
+    return None
+
+
+def _filter_detail_rows(
+    rows: Sequence[Dict[str, str]],
+    match_key: str,
+    home_cn: str,
+    away_cn: str,
+) -> List[Dict[str, str]]:
+    """Restrict TTG/HAFU/CRS detail rows to this match (matchNumStr + home/away)."""
+    return [
+        r for r in rows
+        if snum(r, "matchNumStr") == match_key
+        and snum(r, "homeTeam") == home_cn
+        and snum(r, "awayTeam") == away_cn
+    ]
+
+
+def _contains_foreign_team_name(
+    selection: str,
+    home_cn: str,
+    away_cn: str,
+    known_teams: Sequence[str],
+) -> bool:
+    allowed = {t for t in (home_cn, away_cn) if t}
+    for team in known_teams:
+        if team and len(team) >= 2 and team not in allowed and team in selection:
+            return True
+    return False
+
+
+def _valid_hafu_selection(selection: str) -> bool:
+    """HAFU parlay legs must use home-perspective 半全场主/平/客 labels only."""
+    return bool(HAFU_SELECTION_RE.match(selection.strip()))
+
+
+def _combo_leg_label(selection: str) -> str:
+    """Parlay display label: selection text only (never prefix match team name)."""
+    return selection.strip()
 
 
 def _fusion_score(row: Dict[str, Any]) -> float:
@@ -589,7 +663,7 @@ def build_candidates_for_match(
 
     match_key = snum(odds_row, "matchNumStr")
     if avail.ttg_available:
-        ttg_rows = [r for r in odds_detail["ttg"] if snum(r, "matchNumStr") == match_key]
+        ttg_rows = _filter_detail_rows(odds_detail["ttg"], match_key, home_cn, away_cn)
         for r in ttg_rows:
             g = snum(r, "goals")
             sel = f"总进球{g}"
@@ -606,20 +680,29 @@ def build_candidates_for_match(
             add_raw("TTG", sel, min(sps), p_sum, True, avail.ttg_single)
 
     if avail.hafu_available:
-        hafu_rows = [r for r in odds_detail["hafu"] if snum(r, "matchNumStr") == match_key]
+        hafu_rows = _filter_detail_rows(odds_detail["hafu"], match_key, home_cn, away_cn)
         fusion_hf = match_payload.get("final_fusion", {}).get("half_full_time_top3", [])
         top_labels = [h.get("label", "") if isinstance(h, dict) else str(h) for h in fusion_hf[:3]]
         for r in hafu_rows:
             label = snum(r, "label") or HAFU_CODE_TO_LABEL.get(snum(r, "code"), "")
             if not label:
                 continue
+            sel = f"半全场{label}"
+            if not _valid_hafu_selection(sel):
+                filtered.append({
+                    "match": match_label,
+                    "market": "HAFU",
+                    "selection": sel,
+                    "reason": "半全场选项含非本场球队名或格式非法，已剔除",
+                })
+                continue
             boost = 1.2 if label in top_labels else 1.0
-            add_raw("HAFU", f"半全场{label}", float(r["sp"]), None, True, avail.hafu_single)
+            add_raw("HAFU", sel, float(r["sp"]), None, True, avail.hafu_single)
             raw[-1].eventflow_alignment = min(1.0, raw[-1].eventflow_alignment * boost)
             raw[-1].fusion_alignment = min(1.0, raw[-1].fusion_alignment * boost)
 
     if avail.crs_available:
-        crs_rows = [r for r in odds_detail["crs"] if snum(r, "matchNumStr") == match_key]
+        crs_rows = _filter_detail_rows(odds_detail["crs"], match_key, home_cn, away_cn)
         top_crs = [r["score"] for r in fusion_ranking[:3]]
         for r in crs_rows:
             sc = snum(r, "score").replace(":", "-")
@@ -673,6 +756,70 @@ def build_candidates_for_match(
     return raw, filtered
 
 
+def _v37_from_payload(match_payload: Dict[str, Any]) -> Dict[str, Any]:
+    summary = match_payload.get("v37_guard_summary") or {}
+    if summary:
+        return summary
+    if load_v37_features and match_payload.get("match_id"):
+        feat = load_v37_features(match_payload["match_id"])
+        return {
+            "betting_risk_flags": [],
+            "active_flags": feat.get("active_flags", []),
+            "_features": feat,
+        }
+    return {}
+
+
+def apply_v37_betting_guards(
+    candidates: List[Candidate],
+    match_payload: Dict[str, Any],
+    odds_row: Dict[str, str],
+) -> Dict[str, Any]:
+    """Phase-1 V3.7 betting adjustments — score modifiers only, audit returned."""
+    if load_v37_features is None:
+        return {"applied": False}
+    feat = load_v37_features(match_payload.get("match_id", ""))
+    if not feat.get("loaded"):
+        return {"applied": False, "reason": "v37_features_not_loaded"}
+
+    audit_flags: List[str] = []
+    home_cn = snum(odds_row, "homeTeam")
+
+    for c in candidates:
+        if feat.get("deep_handicap_contra_flag"):
+            if c.market == "HHAD" and "让负" in c.selection:
+                c.strategy_score_conservative *= 1.12
+                c.strategy_score_balanced *= 1.15
+                c.strategy_score_aggressive *= 1.10
+                c.risk_note = (c.risk_note + "; V3.7 deep_handicap_contra boost").strip("; ")
+                audit_flags.append("boost_hhad_underdog_plus")
+            if c.market == "HHAD" and "让胜" in c.selection:
+                c.strategy_score_conservative *= 0.82
+                c.strategy_score_balanced *= 0.78
+                c.strategy_score_aggressive *= 0.75
+                c.risk_note = (c.risk_note + "; V3.7 deep_handicap_contra penalize").strip("; ")
+                audit_flags.append("penalize_favorite_deep_handicap")
+
+        if feat.get("must_win_no_convert_home"):
+            if c.market == "HAD" and home_cn in c.selection and "胜" in c.selection:
+                c.strategy_score_conservative *= 0.85
+                c.strategy_score_balanced *= 0.82
+                c.risk_note = (c.risk_note + "; must_win_no_convert").strip("; ")
+                audit_flags.append("must_win_does_not_equal_conversion")
+        if feat.get("must_win_no_convert_away"):
+            away_cn = snum(odds_row, "awayTeam")
+            if c.market == "HAD" and away_cn in c.selection and "胜" in c.selection:
+                c.strategy_score_conservative *= 0.85
+                c.strategy_score_balanced *= 0.82
+                audit_flags.append("must_win_does_not_equal_conversion_away")
+
+    return {
+        "applied": True,
+        "risk_flags": list(dict.fromkeys(audit_flags)),
+        "phase1_egci_enabled": False,
+    }
+
+
 def pick_top_per_match(candidates: List[Candidate], n: int = 5) -> List[Candidate]:
     by_match: Dict[str, List[Candidate]] = {}
     for c in candidates:
@@ -687,6 +834,8 @@ def build_combos(
     candidates: List[Candidate],
     tier: str,
     score_key: str,
+    match_teams: Optional[Dict[str, Tuple[str, str]]] = None,
+    all_jc_teams: Optional[Sequence[str]] = None,
 ) -> List[ComboRecommendation]:
     by_match: Dict[str, List[Candidate]] = {}
     for c in candidates:
@@ -698,9 +847,19 @@ def build_combos(
     def score_fn(c: Candidate) -> float:
         return getattr(c, score_key)
 
+    def _leg_ok(c: Candidate) -> bool:
+        if c.market == "HAFU" and not _valid_hafu_selection(c.selection):
+            return False
+        if match_teams and all_jc_teams:
+            home_cn, away_cn = match_teams.get(c.match, ("", ""))
+            if _contains_foreign_team_name(c.selection, home_cn, away_cn, all_jc_teams):
+                return False
+        return True
+
     picks: Dict[str, Candidate] = {}
     for m, items in by_match.items():
         ranked = sorted(items, key=lambda x: -score_fn(x))
+        ranked = [x for x in ranked if _leg_ok(x)] or ranked
         if tier == "safe":
             ranked = [
                 x for x in ranked
@@ -709,7 +868,7 @@ def build_combos(
                 and not (x.market == "HHAD" and "让负" in x.selection)
             ] or ranked
         elif tier == "aggressive":
-            ranked = sorted(items, key=lambda x: -x.strategy_score_aggressive)
+            ranked = sorted([x for x in items if _leg_ok(x)] or items, key=lambda x: -x.strategy_score_aggressive)
         picks[m] = ranked[0]
 
     legs = [
@@ -741,7 +900,7 @@ def build_combos(
         "balanced": "均衡进取型",
         "aggressive": "高收益小注型",
     }
-    label = " × ".join(leg.selection for leg in legs[:3])
+    label = " × ".join(_combo_leg_label(leg.selection) for leg in legs[:3])
     risk = "概率低、小注、非保证收益" if tier == "aggressive" else "关注数据缺口与临场变化"
     if tier == "aggressive":
         risk = "概率低、小注、非保证收益；" + risk
@@ -787,8 +946,17 @@ def build_strategy(
     odds_hafu: Path,
     odds_crs: Path,
     mode: str = "balanced",
+    use_v37: bool = False,
+    emit_recommendations: bool = False,
 ) -> StrategyResult:
     odds_by_key, odds_detail = load_odds(odds_summary, odds_ttg, odds_hafu, odds_crs)
+    summary_rows = read_csv(odds_summary)
+    all_jc_teams = sorted({
+        snum(r, "homeTeam") for r in summary_rows if snum(r, "homeTeam")
+    } | {
+        snum(r, "awayTeam") for r in summary_rows if snum(r, "awayTeam")
+    })
+    match_teams: Dict[str, Tuple[str, str]] = {}
     match_files = sorted(glob.glob(match_glob))
     if not match_files:
         match_files = sorted(str(p) for p in Path(match_glob).parent.glob(Path(match_glob).name))
@@ -796,29 +964,45 @@ def build_strategy(
     all_candidates: List[Candidate] = []
     all_filtered: List[Dict[str, Any]] = []
     audit: List[MarketAvailability] = []
+    v37_betting_audits: List[Dict[str, Any]] = []
 
     for mf in match_files:
         payload = read_json(mf, {})
         if not payload:
             continue
         fifa_id = str(payload.get("fifa_match_id", ""))
-        odds_key = _odds_row_key(fifa_id)
-        odds_row = odds_by_key.get(odds_key)
+        odds_row = _resolve_odds_row(payload, odds_by_key, summary_rows)
         if not odds_row:
+            all_filtered.append({
+                "match": payload.get("match", mf),
+                "market": "ALL",
+                "selection": "",
+                "reason": f"未找到体彩赔率行 (fifa_match_id={fifa_id})",
+            })
             continue
         avail = build_market_availability(odds_row, payload.get("match", ""))
+        match_teams[avail.match] = (snum(odds_row, "homeTeam"), snum(odds_row, "awayTeam"))
         audit.append(avail)
         cands, filt = build_candidates_for_match(payload, odds_row, avail, odds_detail)
+        if use_v37:
+            v37_audit = apply_v37_betting_guards(cands, payload, odds_row)
+            if v37_audit.get("applied"):
+                v37_betting_audits.append({
+                    "match_id": payload.get("match_id", ""),
+                    "match": payload.get("match", ""),
+                    **v37_audit,
+                })
         all_candidates.extend(cands)
         all_filtered.extend(filt)
 
     pool = pick_top_per_match(all_candidates, 6)
     combos: List[ComboRecommendation] = []
-    single_banker = [c for c in pool if c.single_allowed and c.strategy_score_conservative >= 0.5]
-    single_banker.sort(key=lambda x: -x.strategy_score_conservative)
-
-    for tier, key in (("safe", "strategy_score_conservative"), ("balanced", "strategy_score_balanced"), ("aggressive", "strategy_score_aggressive")):
-        combos.extend(build_combos(pool, tier, key))
+    single_banker: List[Candidate] = []
+    if emit_recommendations:
+        single_banker = [c for c in pool if c.single_allowed and c.strategy_score_conservative >= 0.5]
+        single_banker.sort(key=lambda x: -x.strategy_score_conservative)
+        for tier, key in (("safe", "strategy_score_conservative"), ("balanced", "strategy_score_balanced"), ("aggressive", "strategy_score_aggressive")):
+            combos.extend(build_combos(pool, tier, key, match_teams, all_jc_teams))
 
     meta = {
         "mode": mode,
@@ -828,6 +1012,9 @@ def build_strategy(
         "value_proxy_note": VALUE_PROXY_NOTE,
         "probability_source": "adjusted_probability",
         "market_gate_applied": True,
+        "v37_betting_guards": use_v37,
+        "emit_recommendations": emit_recommendations,
+        "report_type": "market_guard" if not emit_recommendations else "betting_recommendations",
     }
     for mf in match_files:
         payload = read_json(mf, {})
@@ -842,34 +1029,44 @@ def build_strategy(
         availability_audit=audit,
         candidate_pool=pool,
         filtered_out=all_filtered,
-        recommended_combos=combos[:12],
+        recommended_combos=combos[:12] if emit_recommendations else [],
+        emit_recommendations=emit_recommendations,
     )
-    result.sections["single_banker"] = "\n".join(
-        f"- {c.match} {c.selection}" for c in single_banker[:5]
-    )
+    if use_v37:
+        result.meta["v37_betting_audit"] = v37_betting_audits
+    if emit_recommendations:
+        result.sections["single_banker"] = "\n".join(
+            f"- {c.match} {c.selection}" for c in single_banker[:5]
+        )
     return result
 
 
 def render_markdown(res: StrategyResult) -> str:
+    guard_mode = not res.emit_recommendations
+    title = "盘口保护审计报告（V3.7）" if guard_mode else "投注策略推荐（V3.5）"
     lines = [
-        "# 投注策略推荐（V3.5）",
+        f"# {title}",
         "",
         f"> {SEMANTICS_NOTE}",
         f"> {VALUE_PROXY_NOTE}",
+    ]
+    if guard_mode:
+        lines.append("> V3.7 默认仅输出保护性审计，不生成自动串关/主推结论。")
+    lines.extend([
         "",
         "## 1. 可售性审计",
         "",
         "| 比赛 | HAD | HHAD | TTG | HAFU | CRS | 备注 |",
         "|---|---|---|---|---|---|---|",
-    ]
+    ])
     for a in res.availability_audit:
         lines.append(
             f"| {a.match} | {a.had} | {a.hhad} | {a.ttg} | {a.hafu} | {a.crs} | {a.note} |"
         )
 
-    lines.extend(["", "## 2. 候选玩法池", ""])
+    lines.extend(["", "## 2. 盘口风险项（诊断排序，非推荐）" if guard_mode else "## 2. 候选玩法池", ""])
     lines.append(
-        "| 比赛 | 推荐玩法 | SP | 单关 | 过关 | V2概率 | 融合支持 | EventFlow支持 | 风险 |"
+        "| 比赛 | 玩法 | SP | 单关 | 过关 | V2概率 | 融合支持 | EventFlow支持 | 风险 |"
     )
     lines.append("|---|---|---:|---|---|---:|---:|---:|---|")
     for c in res.candidate_pool[:24]:
@@ -880,33 +1077,41 @@ def render_markdown(res: StrategyResult) -> str:
             f"{p} | {c.fusion_alignment:.2f} | {c.eventflow_alignment:.2f} | {c.risk_note or c.reason[:30]} |"
         )
 
-    lines.extend(["", "## 3. 组合推荐", ""])
-    for section, tier_filter in (
-        ("### A. 概率和收益都可观（稳健）", "稳健"),
-        ("### B. 兼顾可能性、赌博性、收益性（均衡）", "均衡"),
-        ("### C. 高收益小注型（进取）", "高收益"),
-    ):
-        lines.append(section)
-        lines.append("")
-        shown = 0
-        for combo in res.recommended_combos:
-            if tier_filter not in combo.tier:
-                continue
-            leg_txt = " × ".join(l.selection for l in combo.legs)
-            lines.append(f"- **{combo.combo_type}**：{leg_txt}")
-            lines.append(f"  - SP：{combo.sp_display}；组合概率：{combo.combo_probability or '半全场/比分无校准概率'}")
-            lines.append(f"  - 过关：{'均可' if combo.all_parlay_ok else '部分仅过关'}；单关：{'均可' if combo.all_single_ok else '不可全单关'}")
-            lines.append(f"  - 理由：{combo.rationale}")
-            lines.append(f"  - 风险：{combo.risk_note}")
-            shown += 1
-            if shown >= 3:
-                break
-        lines.append("")
+    if res.meta.get("v37_betting_audit"):
+        lines.extend(["", "## 3. V3.7 保护性标记", ""])
+        for item in res.meta.get("v37_betting_audit", []):
+            flags = ", ".join(item.get("risk_flags", [])) or "—"
+            lines.append(f"- **{item.get('match', '')}**：{flags}")
 
-    if res.sections.get("single_banker"):
-        lines.extend(["## 4. 单关保底（须全部可单关）", "", res.sections["single_banker"], ""])
+    if not guard_mode:
+        lines.extend(["", "## 3. 组合推荐", ""])
+        for section, tier_filter in (
+            ("### A. 概率和收益都可观（稳健）", "稳健"),
+            ("### B. 兼顾可能性、赌博性、收益性（均衡）", "均衡"),
+            ("### C. 高收益小注型（进取）", "高收益"),
+        ):
+            lines.append(section)
+            lines.append("")
+            shown = 0
+            for combo in res.recommended_combos:
+                if tier_filter not in combo.tier:
+                    continue
+                leg_txt = " × ".join(l.selection for l in combo.legs)
+                lines.append(f"- **{combo.combo_type}**：{leg_txt}")
+                lines.append(f"  - SP：{combo.sp_display}；组合概率：{combo.combo_probability or '半全场/比分无校准概率'}")
+                lines.append(f"  - 过关：{'均可' if combo.all_parlay_ok else '部分仅过关'}；单关：{'均可' if combo.all_single_ok else '不可全单关'}")
+                lines.append(f"  - 理由：{combo.rationale}")
+                lines.append(f"  - 风险：{combo.risk_note}")
+                shown += 1
+                if shown >= 3:
+                    break
+            lines.append("")
 
-    lines.extend(["## 5. 已过滤项", ""])
+        if res.sections.get("single_banker"):
+            lines.extend(["## 4. 单关保底（须全部可单关）", "", res.sections["single_banker"], ""])
+
+    filtered_heading = "## 4. 已过滤项" if guard_mode else "## 5. 已过滤项"
+    lines.extend([filtered_heading, ""])
     for f in res.filtered_out:
         lines.append(f"- 已过滤：{f.get('selection')} —— {f.get('reason')}")
 
@@ -914,15 +1119,19 @@ def render_markdown(res: StrategyResult) -> str:
 
 
 def result_to_json(res: StrategyResult) -> Dict[str, Any]:
-    return {
+    items_key = "market_guard_items" if not res.emit_recommendations else "candidate_pool"
+    out = {
         "meta": res.meta,
         "availability_audit": [asdict(a) for a in res.availability_audit],
-        "candidate_pool": [asdict(c) for c in res.candidate_pool],
+        items_key: [asdict(c) for c in res.candidate_pool],
         "filtered_out": res.filtered_out,
         "recommended_combos": [
             {**asdict(c), "legs": [asdict(l) for l in c.legs]} for c in res.recommended_combos
         ],
     }
+    if res.meta.get("v37_betting_guards"):
+        out["v37_betting_audit"] = res.meta.get("v37_betting_audit", [])
+    return out
 
 
 def main() -> None:
@@ -937,16 +1146,25 @@ def main() -> None:
     parser.add_argument("--odds-hafu", default=str(ODDS_DB / "match_odds_hafu.csv"))
     parser.add_argument("--odds-crs", default=str(ODDS_DB / "match_odds_crs.csv"))
     parser.add_argument("--mode", default="balanced", choices=["safe", "balanced", "hit_hunting"])
+    parser.add_argument("--use-v37-odds-value", action="store_true",
+                        help="Apply V3.7 phase-1 betting guard score adjustments")
+    parser.add_argument(
+        "--emit-recommendations",
+        default="false",
+        choices=["true", "false"],
+        help="Emit combo/single recommendations (default false: guard-only audit)",
+    )
     parser.add_argument(
         "--out",
-        default=str(EVENTFLOW_DB / "betting_strategy_recommendations.md"),
+        default=str(EVENTFLOW_DB / "market_guard_report.md"),
     )
     parser.add_argument(
         "--json-out",
-        default=str(EVENTFLOW_DB / "betting_strategy_recommendations.json"),
+        default=str(EVENTFLOW_DB / "market_guard_report.json"),
     )
     args = parser.parse_args()
 
+    emit_recs = args.emit_recommendations == "true"
     res = build_strategy(
         args.match_outputs,
         Path(args.odds_summary),
@@ -954,6 +1172,8 @@ def main() -> None:
         Path(args.odds_hafu),
         Path(args.odds_crs),
         mode=args.mode,
+        use_v37=args.use_v37_odds_value,
+        emit_recommendations=emit_recs,
     )
     md = res.to_markdown()
     out_path = Path(args.out)

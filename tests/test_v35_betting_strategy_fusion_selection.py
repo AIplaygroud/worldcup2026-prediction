@@ -21,6 +21,7 @@ class TestV35BettingStrategyFusionSelection(unittest.TestCase):
             ODDS / "match_odds_hafu.csv",
             ODDS / "match_odds_crs.csv",
             mode="balanced",
+            emit_recommendations=True,
         )
         tur_candidates = [c for c in recs.candidate_pool if c.match_id == "WC2026-D31"]
         self.assertTrue(

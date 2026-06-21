@@ -1,0 +1,6 @@
+﻿match_id,team,player_id,player_name,is_starter,is_bench,position,role_group,importance_tier,formation_slot,lineup_status,source,evidence_grade,confirmed_at_utc
+WC2026-D32,USA,,Christian Pulisic,false,false,Winger,wide_attacker,core,,confirmed,realtime_availability_signals,A,2026-06-19
+WC2026-D32,USA,,Christian Pulisic,false,false,Winger,wide_attacker,core,,doubtful,realtime_availability_signals,C,2026-06-19
+WC2026-D32,Australia,,Garang Kuol,true,false,Winger,wide_attacker,rotation,,confirmed,realtime_availability_signals,B,2026-06-19
+WC2026-D32,Australia,,Nestory Irankunda,false,true,Winger,wide_attacker,regular,,confirmed,realtime_availability_signals,A,2026-06-20
+WC2026-D32,Australia,,Connor Metcalfe,false,true,Midfielder,creator,regular,,confirmed,realtime_availability_signals,A,2026-06-20

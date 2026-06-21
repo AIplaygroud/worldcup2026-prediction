@@ -1,0 +1,145 @@
+﻿match_id,team,opponent,points_before,gd_before,rank_before,win_necessity,draw_utility,loss_damage,first_place_incentive,second_place_safety,third_place_safety,opponent_path_risk,group_pressure_index,pressure_type
+WC2026-A1,Mexico,South Africa,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-A1,South Africa,Mexico,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-A2,South Korea,Czechia,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-A2,Czechia,South Korea,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-B3,Canada,Bosnia and Herzegovina,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-B3,Bosnia and Herzegovina,Canada,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-D4,USA,Paraguay,0,0,1,0.7325,0.1,0,0.55,1,0.3,0.45,0.4096,must_win
+WC2026-D4,Paraguay,USA,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-C5,Haiti,Scotland,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-C5,Scotland,Haiti,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-D6,Australia,Turkey,3,2,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-D6,Turkey,Australia,0,-2,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-C7,Brazil,Morocco,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-C7,Morocco,Brazil,0,0,1,0.7325,0.1,0,0.55,1,0.3,0.45,0.4096,must_win
+WC2026-B8,Qatar,Switzerland,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-B8,Switzerland,Qatar,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-E9,Ivory Coast,Ecuador,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-E9,Ecuador,Ivory Coast,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-E10,Germany,Curacao,0,0,1,0.7325,0.1,0,0.55,1,0.3,0.45,0.4096,must_win
+WC2026-E10,Curacao,Germany,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-F11,Netherlands,Japan,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-F11,Japan,Netherlands,0,0,1,0.7325,0.1,0,0.55,1,0.3,0.45,0.4096,must_win
+WC2026-F12,Sweden,Tunisia,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-F12,Tunisia,Sweden,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-H13,Saudi Arabia,Uruguay,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-H13,Uruguay,Saudi Arabia,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-H14,Spain,Cape Verde,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-H14,Cape Verde,Spain,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-G15,Iran,New Zealand,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-G15,New Zealand,Iran,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-G16,Belgium,Egypt,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-G16,Egypt,Belgium,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-I17,France,Senegal,0,0,1,0.7325,0.1,0,0.55,1,0.3,0.45,0.4096,must_win
+WC2026-I17,Senegal,France,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-I18,Iraq,Norway,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-I18,Norway,Iraq,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-J19,Argentina,Algeria,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-J19,Algeria,Argentina,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-J20,Austria,Jordan,3,2,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-J20,Jordan,Austria,0,-2,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-L21,Ghana,Panama,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-L21,Panama,Ghana,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-L22,England,Croatia,0,0,1,0.7325,0.1,0,0.55,1,0.3,0.45,0.4096,must_win
+WC2026-L22,Croatia,England,0,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-K23,Portugal,DR Congo,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-K23,DR Congo,Portugal,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-K24,Uzbekistan,Colombia,0,0,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-K24,Colombia,Uzbekistan,0,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-A25,Czechia,South Africa,0,-1,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-A25,South Africa,Czechia,0,-2,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-B26,Switzerland,Bosnia and Herzegovina,1,0,1,0.35,0.3,0,0.55,1,0.3,0.45,0.1775,low_pressure
+WC2026-B26,Bosnia and Herzegovina,Switzerland,1,0,4,0.35,0.3,0.25,0.15,0.4,0.3,0.45,0.16,low_pressure
+WC2026-B27,Canada,Qatar,1,0,2,0.35,0.3,0,0.35,1,0.3,0.45,0.1375,low_pressure
+WC2026-B27,Qatar,Canada,1,0,3,0.35,0.3,0.25,0.15,0.4,0.7,0.45,0.16,low_pressure
+WC2026-A28,Mexico,South Korea,3,2,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-A28,South Korea,Mexico,3,1,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-C29,Brazil,Haiti,1,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-C29,Haiti,Brazil,0,-1,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-C30,Scotland,Morocco,3,1,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-C30,Morocco,Scotland,1,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-D31,Turkey,Paraguay,0,-2,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-D31,Paraguay,Turkey,0,-3,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-D32,USA,Australia,3,3,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-D32,Australia,USA,3,2,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-E33,Germany,Ivory Coast,3,6,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-E33,Ivory Coast,Germany,3,1,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-E34,Ecuador,Curacao,0,-1,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-E34,Curacao,Ecuador,0,-6,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-F35,Netherlands,Sweden,1,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-F35,Sweden,Netherlands,3,4,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-F36,Tunisia,Japan,0,-4,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-F36,Japan,Tunisia,1,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-H37,Uruguay,Cape Verde,1,0,1,0.35,0.3,0,0.55,1,0.3,0.45,0.1775,low_pressure
+WC2026-H37,Cape Verde,Uruguay,1,0,4,0.35,0.3,0.25,0.15,0.4,0.3,0.45,0.16,low_pressure
+WC2026-H38,Spain,Saudi Arabia,1,0,3,0.35,0.3,0.25,0.15,0.4,0.7,0.45,0.16,low_pressure
+WC2026-H38,Saudi Arabia,Spain,1,0,2,0.35,0.3,0,0.35,1,0.3,0.45,0.1375,low_pressure
+WC2026-G39,Belgium,Iran,1,0,3,0.35,0.3,0.25,0.15,0.4,0.7,0.45,0.16,low_pressure
+WC2026-G39,Iran,Belgium,1,0,2,0.35,0.3,0,0.35,1,0.3,0.45,0.1375,low_pressure
+WC2026-G40,New Zealand,Egypt,1,0,1,0.35,0.3,0,0.55,1,0.3,0.45,0.1775,low_pressure
+WC2026-G40,Egypt,New Zealand,1,0,4,0.35,0.3,0.25,0.15,0.4,0.3,0.45,0.16,low_pressure
+WC2026-I41,Norway,Senegal,3,3,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-I41,Senegal,Norway,0,-2,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-I42,France,Iraq,3,2,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-I42,Iraq,France,0,-3,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-J43,Argentina,Austria,3,3,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-J43,Austria,Argentina,3,2,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-J44,Jordan,Algeria,0,-2,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-J44,Algeria,Jordan,0,-3,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-L45,England,Ghana,3,2,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-L45,Ghana,England,3,1,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-L46,Panama,Croatia,0,-1,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-L46,Croatia,Panama,0,-2,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-K47,Portugal,Uzbekistan,1,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-K47,Uzbekistan,Portugal,0,-2,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-K48,Colombia,DR Congo,3,2,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-K48,DR Congo,Colombia,1,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-C49,Scotland,Brazil,3,0,3,0.5875,0.25,0,0.15,0.4,0.7,0.45,0.2194,low_pressure
+WC2026-C49,Brazil,Scotland,4,3,1,0.5,0.55,0,0.55,1,0.3,0.45,0.17,draw_ok
+WC2026-C50,Morocco,Haiti,4,1,2,0.5,0.55,0,0.35,1,0.3,0.45,0.13,draw_ok
+WC2026-C50,Haiti,Morocco,0,-4,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-B51,Switzerland,Canada,4,3,2,0.5,0.55,0,0.35,1,0.3,0.45,0.13,draw_ok
+WC2026-B51,Canada,Switzerland,4,6,1,0.5,0.55,0,0.55,1,0.3,0.45,0.17,draw_ok
+WC2026-B52,Bosnia and Herzegovina,Qatar,1,-3,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-B52,Qatar,Bosnia and Herzegovina,1,-6,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-A53,Czechia,Mexico,1,-1,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-A53,Mexico,Czechia,6,3,1,0.15,0.75,0,0.55,1,0.3,0.45,0,draw_ok
+WC2026-A54,South Africa,South Korea,1,-2,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-A54,South Korea,South Africa,3,0,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-E55,Curacao,Ivory Coast,0,-6,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-E55,Ivory Coast,Curacao,3,1,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-E56,Ecuador,Germany,0,-1,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-E56,Germany,Ecuador,3,6,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-F57,Japan,Sweden,1,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-F57,Sweden,Japan,3,4,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-F58,Tunisia,Netherlands,0,-4,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-F58,Netherlands,Tunisia,1,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-D59,Turkey,USA,0,-3,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-D59,USA,Turkey,6,5,1,0.15,0.75,0,0.55,1,0.3,0.45,0,draw_ok
+WC2026-D60,Paraguay,Australia,3,-2,3,0.625,0.25,0,0.15,0.4,0.7,0.45,0.2363,low_pressure
+WC2026-D60,Australia,Paraguay,3,0,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-I61,Norway,France,3,3,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-I61,France,Norway,3,2,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-I62,Senegal,Iraq,0,-2,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-I62,Iraq,Senegal,0,-3,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-G63,Egypt,Iran,1,0,4,0.35,0.3,0.25,0.15,0.4,0.3,0.45,0.16,low_pressure
+WC2026-G63,Iran,Egypt,1,0,2,0.35,0.3,0,0.35,1,0.3,0.45,0.1375,low_pressure
+WC2026-G64,New Zealand,Belgium,1,0,1,0.35,0.3,0,0.55,1,0.3,0.45,0.1775,low_pressure
+WC2026-G64,Belgium,New Zealand,1,0,3,0.35,0.3,0.25,0.15,0.4,0.7,0.45,0.16,low_pressure
+WC2026-H65,Cape Verde,Saudi Arabia,1,0,4,0.35,0.3,0.25,0.15,0.4,0.3,0.45,0.16,low_pressure
+WC2026-H65,Saudi Arabia,Cape Verde,1,0,2,0.35,0.3,0,0.35,1,0.3,0.45,0.1375,low_pressure
+WC2026-H66,Uruguay,Spain,1,0,1,0.35,0.3,0,0.55,1,0.3,0.45,0.1775,low_pressure
+WC2026-H66,Spain,Uruguay,1,0,3,0.35,0.3,0.25,0.15,0.4,0.7,0.45,0.16,low_pressure
+WC2026-L67,Panama,England,0,-1,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-L67,England,Panama,3,2,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-L68,Croatia,Ghana,0,-2,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win
+WC2026-L68,Ghana,Croatia,3,1,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-J69,Algeria,Austria,0,-3,4,0.855,0.1,0.25,0.15,0.4,0.3,0.45,0.4472,must_win
+WC2026-J69,Austria,Algeria,3,2,2,0.42,0.45,0,0.35,1,0.3,0.45,0.124,low_pressure
+WC2026-J70,Jordan,Argentina,0,-2,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-J70,Argentina,Jordan,3,3,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-K71,Colombia,Portugal,3,2,1,0.55,0.3,0,0.55,1,0.3,0.45,0.2675,low_pressure
+WC2026-K71,Portugal,Colombia,1,0,3,0.7325,0.1,0.25,0.15,0.4,0.7,0.45,0.3921,must_win
+WC2026-K72,DR Congo,Uzbekistan,1,0,2,0.7325,0.1,0,0.35,1,0.3,0.45,0.3696,must_win
+WC2026-K72,Uzbekistan,DR Congo,0,-2,4,0.7325,0.1,0.25,0.15,0.4,0.3,0.45,0.3921,must_win

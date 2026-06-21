@@ -1,0 +1,51 @@
+{
+  "match_id": "WC2026-L45",
+  "home": "England",
+  "away": "Ghana",
+  "v37_guards": {
+    "group_pressure": {
+      "home": 0.2675,
+      "away": 0.124,
+      "pressure_type_home": "low_pressure",
+      "pressure_type_away": "low_pressure",
+      "draw_utility_home": 0.3,
+      "draw_utility_away": 0.45
+    },
+    "attack_conversion_gate": {
+      "home": 0.3821,
+      "away": 0.3572,
+      "must_win_no_convert_home": false,
+      "must_win_no_convert_away": false
+    },
+    "early_goal_cascade": {
+      "early_goal_cascade_index": 0.4734,
+      "cascade_tail_active_raw": false,
+      "phase1_enabled": false,
+      "phase1_note": "EGCI cascade_tail_active disabled in phase-1; index recorded for audit only"
+    },
+    "low_block_keeper_guard": {
+      "cold_draw_guard_score": 0.5361,
+      "cold_guard_active": false,
+      "deep_handicap_contra_flag": false,
+      "favorite": "England",
+      "underdog": "Ghana"
+    },
+    "score_family_adjustments": {
+      "phase1_applied": false,
+      "note": "No V3.7 score-family or λ adjustments in phase-1"
+    },
+    "betting_risk_flags": []
+  },
+  "v37_guard_summary": {
+    "group_pressure": "low_pressure / low_pressure",
+    "attack_conversion_gate": 0.382,
+    "early_goal_cascade_index": 0.473,
+    "low_block_keeper_guard": 0.536,
+    "active_flags": [],
+    "risk_reserve_scorelines": [],
+    "betting_risk_flags": []
+  },
+  "data_quality_grade": "degraded",
+  "loaded": true,
+  "generated_at": "2026-06-21T07:57:25.065777+00:00"
+}

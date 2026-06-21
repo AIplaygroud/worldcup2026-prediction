@@ -18,6 +18,7 @@ from eventflow_common import (
     normalize_team,
     read_csv,
     snum,
+    write_csv,
 )
 
 DIAG_PATH = ROOT / "database" / "eventflow" / "raw" / "v2_engine_diagnostics.json"
@@ -1073,3 +1074,85 @@ def market_snapshot_from_grid(grid: Sequence[Mapping[str, Any]]) -> Dict[str, An
             for g in sorted_g
         ],
     }
+
+
+V37_REALIZATION_CSV = ROOT / "database" / "v37" / "features" / "v37_realization_features.csv"
+V37_AUDIT_DIR = ROOT / "database" / "v37" / "audit"
+
+V37_NEUTRAL: Dict[str, Any] = {
+    "match_id": "",
+    "loaded": False,
+    "data_quality_grade": "degraded",
+    "group_pressure_home": 0.35,
+    "group_pressure_away": 0.35,
+    "pressure_type_home": "low_pressure",
+    "pressure_type_away": "low_pressure",
+    "draw_utility_home": 0.3,
+    "draw_utility_away": 0.3,
+    "attack_conversion_home": 0.5,
+    "attack_conversion_away": 0.5,
+    "must_win_no_convert_home": False,
+    "must_win_no_convert_away": False,
+    "early_goal_cascade_index": 0.0,
+    "cascade_tail_active": False,
+    "favorite": "",
+    "underdog": "",
+    "cold_draw_guard_score": 0.0,
+    "cold_guard_active": False,
+    "deep_handicap_contra_flag": False,
+    "active_flags": [],
+    "phase1_egci_enabled": False,
+    "fallback_reason": "missing_v37_features",
+}
+
+
+def _v37_bool(val: Any) -> bool:
+    if isinstance(val, bool):
+        return val
+    return str(val or "").strip().lower() == "true"
+
+
+def load_v37_features(match_id: str) -> Dict[str, Any]:
+    """Load V3.7 guard features. Fail-closed to neutral values if missing."""
+    out = dict(V37_NEUTRAL)
+    out["match_id"] = match_id
+    rows = read_csv(V37_REALIZATION_CSV)
+    row = next((r for r in rows if snum(r, "match_id") == match_id), None)
+    if not row:
+        V37_AUDIT_DIR.mkdir(parents=True, exist_ok=True)
+        audit_path = V37_AUDIT_DIR / "v37_feature_load_miss.csv"
+        miss_rows = read_csv(audit_path) if audit_path.exists() else []
+        miss_rows.append({
+            "match_id": match_id,
+            "fallback": "neutral",
+            "reason": "v37_realization_features.csv missing row",
+        })
+        write_csv(audit_path, miss_rows)
+        return out
+
+    flags = [x for x in snum(row, "active_flags").split(";") if x]
+    out.update({
+        "loaded": True,
+        "data_quality_grade": snum(row, "data_quality_grade", "medium"),
+        "group_pressure_home": fnum(row, "group_pressure_home", 0.35),
+        "group_pressure_away": fnum(row, "group_pressure_away", 0.35),
+        "pressure_type_home": snum(row, "pressure_type_home", "low_pressure"),
+        "pressure_type_away": snum(row, "pressure_type_away", "low_pressure"),
+        "draw_utility_home": fnum(row, "draw_utility_home", 0.3),
+        "draw_utility_away": fnum(row, "draw_utility_away", 0.3),
+        "attack_conversion_home": fnum(row, "attack_conversion_home", 0.5),
+        "attack_conversion_away": fnum(row, "attack_conversion_away", 0.5),
+        "must_win_no_convert_home": _v37_bool(row.get("must_win_no_convert_home")),
+        "must_win_no_convert_away": _v37_bool(row.get("must_win_no_convert_away")),
+        "early_goal_cascade_index": fnum(row, "early_goal_cascade_index", 0.0),
+        "cascade_tail_active": _v37_bool(row.get("cascade_tail_active")),
+        "favorite": snum(row, "favorite"),
+        "underdog": snum(row, "underdog"),
+        "cold_draw_guard_score": fnum(row, "cold_draw_guard_score", 0.0),
+        "cold_guard_active": _v37_bool(row.get("cold_guard_active")),
+        "deep_handicap_contra_flag": _v37_bool(row.get("deep_handicap_contra_flag")),
+        "active_flags": flags,
+        "phase1_egci_enabled": False,
+        "fallback_reason": "",
+    })
+    return out

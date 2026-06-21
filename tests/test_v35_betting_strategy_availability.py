@@ -20,6 +20,7 @@ def _build():
         ODDS / "match_odds_hafu.csv",
         ODDS / "match_odds_crs.csv",
         mode="balanced",
+        emit_recommendations=True,
     )
 
 

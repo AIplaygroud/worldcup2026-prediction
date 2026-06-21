@@ -9,7 +9,15 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from eventflow_common import EVENTFLOW_DB, read_csv, read_json, write_csv, write_json, fnum, snum, normalize_weights
-from eventflow_htft import resolve_match_id, summarize_data_quality, count_prematch_evidence, resolve_source_notes_path
+from eventflow_htft import (
+    resolve_match_id,
+    summarize_data_quality,
+    count_prematch_evidence,
+    resolve_source_notes_path,
+    resolve_eventflow_merge_attachments,
+    validate_htft_output,
+)
+from scenario_realization_common import load_v37_features
 
 MODE = {
     "safe": (0.65, 0.35),
@@ -28,6 +36,29 @@ DEGRADATION_REASONS_PROB_ONLY = {
     "fallback_ratio_too_high",
     "no_prematch_evidence",
 }
+
+
+def classify_eventflow_contribution(
+    ev_rows: List[Dict[str, Any]],
+    ev_by_score: Dict[str, Dict[str, Any]],
+    score: str,
+) -> str:
+    """Clarify EventFlow=0 semantics: active row vs missing-match fallback vs missing-score fallback."""
+    if not ev_rows:
+        return "missing_match_fallback_zero"
+    if score not in ev_by_score:
+        return "missing_score_fallback_zero"
+    ev = ev_by_score[score]
+    rank = (
+        fnum(ev, "eventflow_ranking_score")
+        or fnum(ev, "eventflow_score")
+        or fnum(ev, "event_probability")
+    )
+    if rank > 0:
+        return "active"
+    if snum(ev, "score"):
+        return "active_zero_rank"
+    return "missing_score_fallback_zero"
 
 
 def row_home(r: Dict[str, str]) -> str:
@@ -325,6 +356,47 @@ def build_eventflow_process_summary(
     }
 
 
+def build_v37_cold_reserve(
+    prob_by_score: Dict[str, float],
+    fusion_top3_scores: List[str],
+    v37: Dict[str, Any],
+    max_reserve: int = 2,
+) -> List[Dict[str, Any]]:
+    """Add cold reserve scorelines from V2 top-5 when LBKG active. Does not alter fusion ranks."""
+    if not v37.get("cold_guard_active"):
+        return []
+
+    prob_top5 = sorted(prob_by_score.items(), key=lambda x: -x[1])[:5]
+    prob_top5_scores = [s for s, _ in prob_top5]
+    priority = ["0-0", "1-1"]
+    reserves: List[Dict[str, Any]] = []
+    seen: set[str] = set()
+
+    for score in priority + prob_top5_scores:
+        if score in seen or score in fusion_top3_scores:
+            continue
+        if score not in prob_top5_scores:
+            continue
+        try:
+            h, a = map(int, score.split("-"))
+        except Exception:
+            continue
+        if score in priority or (h + a) <= 2:
+            reserves.append({
+                "score": score,
+                "v2_scoreline_probability": round(prob_by_score.get(score, 0.0), 4),
+                "reason": (
+                    "cold_guard_active + probability_top5"
+                    if score in priority
+                    else "low_block_keeper_guard"
+                ),
+            })
+            seen.add(score)
+        if len(reserves) >= max_reserve:
+            break
+    return reserves
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument(
@@ -337,7 +409,15 @@ def main() -> None:
     ap.add_argument("--away", default="")
     ap.add_argument("--topn", type=int, default=5)
     ap.add_argument("--export-json", default=str(EVENTFLOW_DB / "dual_engine_output.json"))
+    ap.add_argument("--use-v37", action="store_true", help="Enable V3.7 phase-1 fusion guards")
+    ap.add_argument("--use-v37-cold-reserve", action="store_true",
+                    help="Add cold reserve scorelines when LBKG active (implies --use-v37)")
+    ap.add_argument("--cold-reserve-max", type=int, default=2)
+    ap.add_argument("--fail-on-htft-mismatch", action="store_true",
+                    help="Exit non-zero if half_full_time_top3 is not bound to this match")
     args = ap.parse_args()
+
+    use_v37 = args.use_v37 or args.use_v37_cold_reserve
 
     resolved = resolve_match_id(args.match_id, args.home, args.away)
     mid = snum(resolved, "internal_match_id") or args.match_id
@@ -424,6 +504,9 @@ def main() -> None:
             )
 
     out: List[Dict[str, Any]] = []
+    eventflow_match_status = (
+        "active" if ev_rows else "missing_match_fallback_zero"
+    )
     for score in scores:
         ev = ev_by_score.get(score, {})
         v2_prob = prob_by_score.get(score, 0.0)
@@ -432,6 +515,7 @@ def main() -> None:
             or fnum(ev, "eventflow_score")
             or fnum(ev, "event_probability")
         )
+        ef_contrib = classify_eventflow_contribution(ev_rows, ev_by_score, score)
         raw_blend = p_weight * v2_prob + e_weight * ef_rank
         out.append({
             "match_id": mid,
@@ -442,6 +526,7 @@ def main() -> None:
             "score": score,
             "v2_scoreline_probability": v2_prob,
             "eventflow_ranking_score": ef_rank,
+            "eventflow_contribution": ef_contrib,
             "fusion_ranking_score": raw_blend,
             "raw_probability": v2_prob,
             "eventflow_score": ef_rank,
@@ -473,14 +558,48 @@ def main() -> None:
         )
 
     prob_top = sorted(prob_by_score.items(), key=lambda x: -x[1])[:5]
-    ef_engine = ev_json.get("eventflow_engine", {})
-    activated = ef_engine.get("activated_scenarios", [])
-    htft_top3 = ef_engine.get("half_full_time_top3", [])
+    ef_attach = resolve_eventflow_merge_attachments(
+        ev_json, mid, home, away, lam_home, lam_away,
+    )
+    htft_top3 = ef_attach["half_full_time_top3"]
+    activated = ef_attach["activated_scenarios"]
+    ef_engine = ev_json.get("eventflow_engine", {}) or {}
+    if not ef_attach.get("eventflow_json_aligned"):
+        print(
+            f"warning: eventflow_output.json stale for {mid}; "
+            f"rebound HT/FT source={ef_attach.get('half_full_time_source')}"
+        )
     top3 = out[:3]
     dq = summarize_data_quality(mid, home, away)
     source_fusion = load_source_fusion(mid)
     baseline_degraded = ev_json.get("baseline_degraded", False)
     eventflow_degraded = ev_json.get("eventflow_data_degraded", False)
+
+    v37_features = load_v37_features(mid) if use_v37 else None
+    risk_reserve: List[Dict[str, Any]] = []
+    v37_guard_summary: Dict[str, Any] = {}
+    if use_v37 and v37_features:
+        risk_reserve = build_v37_cold_reserve(
+            prob_by_score,
+            [r["score"] for r in top3],
+            v37_features,
+            max_reserve=args.cold_reserve_max,
+        )
+        v37_guard_summary = {
+            "group_pressure": (
+                f"{v37_features.get('pressure_type_home')} / "
+                f"{v37_features.get('pressure_type_away')}"
+            ),
+            "attack_conversion_gate": round(float(v37_features.get("attack_conversion_home", 0.5)), 3),
+            "early_goal_cascade_index": round(float(v37_features.get("early_goal_cascade_index", 0)), 3),
+            "low_block_keeper_guard": round(float(v37_features.get("cold_draw_guard_score", 0)), 3),
+            "active_flags": v37_features.get("active_flags", []),
+            "risk_reserve_scorelines": risk_reserve,
+            "betting_risk_flags": [],
+            "phase1_egci_enabled": False,
+        }
+        from apply_v37_realization_guards import _risk_flags
+        v37_guard_summary["betting_risk_flags"] = _risk_flags(v37_features)
 
     payload = {
         "match": f"{home} vs {away}",
@@ -492,6 +611,11 @@ def main() -> None:
         "semantics": {
             "v2_scoreline_probability": "calibrated scoreline probability from V2 Dixon-Coles",
             "eventflow_ranking_score": "non-probabilistic EventFlow ranking score",
+            "eventflow_contribution": (
+                "active=EventFlow row present; active_zero_rank=row present but rank is 0; "
+                "missing_match_fallback_zero=no EventFlow rows for match (0 is fallback, not signal); "
+                "missing_score_fallback_zero=score absent from EventFlow export (0 is fallback)"
+            ),
             "fusion_ranking_score": "normalized ranking score, not a calibrated probability",
         },
         "baseline_degraded": baseline_degraded,
@@ -517,10 +641,14 @@ def main() -> None:
         },
         "eventflow_engine": {
             "eventflow_data_degraded": eventflow_degraded,
+            "eventflow_match_status": eventflow_match_status,
+            "half_full_time_source": ef_attach.get("half_full_time_source", "eventflow_json"),
+            "eventflow_json_aligned": ef_attach.get("eventflow_json_aligned", True),
+            "competition_context": ef_attach.get("competition_context", {}),
             "realtime_signal_usage": v2_diag.get("realtime_signal_usage", []),
             "activated_scenarios": activated,
-            "all_scenario_weights": ef_engine.get("all_scenario_weights", []),
-            "phase_simulation": ef_engine.get("phase_simulation", {}),
+            "all_scenario_weights": ef_attach.get("all_scenario_weights", ef_engine.get("all_scenario_weights", [])),
+            "phase_simulation": ef_attach.get("phase_simulation", ef_engine.get("phase_simulation", {})),
             "top_scores": [snum(r, "score") for r in ev_rows[:3]],
             "half_full_time_top3": htft_top3,
             "half_full_time": [h.get("label", h) if isinstance(h, dict) else h for h in htft_top3[:3]],
@@ -548,6 +676,7 @@ def main() -> None:
                     "reason": r["main_reason"] or "概率派与事件流加权",
                     "v2_scoreline_probability": round(float(r["v2_scoreline_probability"]), 4),
                     "eventflow_ranking_score": round(float(r["eventflow_ranking_score"]), 4),
+                    "eventflow_contribution": r.get("eventflow_contribution", "active"),
                     "fusion_ranking_score": round(float(r["fusion_ranking_score"]), 4),
                     "raw_probability_deprecated": round(float(r["v2_scoreline_probability"]), 4),
                     "eventflow_score_deprecated": round(float(r["eventflow_ranking_score"]), 4),
@@ -575,8 +704,22 @@ def main() -> None:
         },
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
+    if use_v37:
+        payload["v37_guard_summary"] = v37_guard_summary
+        payload["final_fusion"]["risk_reserve_scorelines"] = risk_reserve
+        payload["final_fusion"]["v37_phase1_enabled"] = True
+        if risk_reserve:
+            payload["final_fusion"]["risk_notes"].append(
+                "V3.7 cold reserve: " + ", ".join(r["score"] for r in risk_reserve)
+            )
     if args.export_json:
         write_json(args.export_json, payload)
+        htft_errors = validate_htft_output(payload)
+        if htft_errors:
+            for err in htft_errors:
+                print(f"HTFT_VALIDATION_ERROR: {err}")
+            if args.fail_on_htft_mismatch:
+                raise SystemExit(1)
         print(f"Wrote {args.export_json}")
 
 

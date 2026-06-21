@@ -1,0 +1,57 @@
+{
+  "match_id": "WC2026-J69",
+  "home": "Algeria",
+  "away": "Austria",
+  "v37_guards": {
+    "group_pressure": {
+      "home": 0.4472,
+      "away": 0.124,
+      "pressure_type_home": "must_win",
+      "pressure_type_away": "low_pressure",
+      "draw_utility_home": 0.1,
+      "draw_utility_away": 0.45
+    },
+    "attack_conversion_gate": {
+      "home": 0.2272,
+      "away": 0.385,
+      "must_win_no_convert_home": true,
+      "must_win_no_convert_away": false
+    },
+    "early_goal_cascade": {
+      "early_goal_cascade_index": 0.555,
+      "cascade_tail_active_raw": false,
+      "phase1_enabled": false,
+      "phase1_note": "EGCI cascade_tail_active disabled in phase-1; index recorded for audit only"
+    },
+    "low_block_keeper_guard": {
+      "cold_draw_guard_score": 0.518,
+      "cold_guard_active": false,
+      "deep_handicap_contra_flag": false,
+      "favorite": "Austria",
+      "underdog": "Algeria"
+    },
+    "score_family_adjustments": {
+      "phase1_applied": false,
+      "note": "No V3.7 score-family or λ adjustments in phase-1"
+    },
+    "betting_risk_flags": [
+      "must_win_does_not_equal_conversion_home"
+    ]
+  },
+  "v37_guard_summary": {
+    "group_pressure": "must_win / low_pressure",
+    "attack_conversion_gate": 0.227,
+    "early_goal_cascade_index": 0.555,
+    "low_block_keeper_guard": 0.518,
+    "active_flags": [
+      "must_win_no_convert_home"
+    ],
+    "risk_reserve_scorelines": [],
+    "betting_risk_flags": [
+      "must_win_does_not_equal_conversion_home"
+    ]
+  },
+  "data_quality_grade": "degraded",
+  "loaded": true,
+  "generated_at": "2026-06-21T07:57:25.278553+00:00"
+}

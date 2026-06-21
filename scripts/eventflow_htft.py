@@ -729,3 +729,147 @@ def count_prematch_evidence(match_id: str) -> Dict[str, int]:
     }
 
 
+def eventflow_json_matches(ev_json: dict, mid: str, home: str, away: str) -> bool:
+    """True when eventflow_output.json belongs to the requested match."""
+    if snum(ev_json, "match_id") and snum(ev_json, "match_id") != mid:
+        return False
+    expected = f"{home} vs {away}".strip()
+    em = snum(ev_json, "match")
+    if em and expected and em != expected:
+        return False
+    return True
+
+
+def htft_teams_bound(htft: list[dict], home: str, away: str) -> bool:
+    """Ensure half_full_time_top3 perspective_basis only references this match's teams."""
+    allowed = {home, away}
+    for item in htft or []:
+        basis = item.get("perspective_basis", "")
+        for marker in ("强队=", "弱队="):
+            if marker not in basis:
+                continue
+            token = basis.split(marker, 1)[1].split("；")[0].split("(")[0].strip()
+            if token and token not in allowed:
+                return False
+    return True
+
+
+def recompute_htft_top3(
+    mid: str,
+    home: str,
+    away: str,
+    lam_home: float,
+    lam_away: float,
+) -> tuple[list[dict], str]:
+    from predict_eventflow import (
+        build_activated_payload,
+        pick_activated,
+        scenario_rows,
+    )
+
+    all_scenarios, baseline_degraded, fallback_ratio = scenario_rows(mid, home, away)
+    if baseline_degraded or fallback_ratio >= 0.50:
+        return [], "empty_degraded"
+    activated_raw = pick_activated(all_scenarios)
+    if not activated_raw:
+        return [], "empty_no_activation"
+    activated = build_activated_payload(activated_raw)
+    phase_sim = enrich_phase_simulation(activated, all_scenarios, mid)
+    evidence = count_prematch_evidence(mid)
+    high_conf = evidence.get("pre_match_evidence_count", 0) >= 2
+    htft = compute_htft_top3(
+        all_scenarios,
+        phase_sim,
+        lam_home,
+        lam_away,
+        home=home,
+        away=away,
+        high_confidence_evidence=high_conf,
+        match_id=mid,
+        top_n=3,
+    )
+    return htft, "recomputed"
+
+
+def resolve_eventflow_merge_attachments(
+    ev_json: dict,
+    mid: str,
+    home: str,
+    away: str,
+    lam_home: float,
+    lam_away: float,
+) -> dict:
+    """Bind EventFlow merge fields to current match; recompute HT/FT when JSON is stale."""
+    ef_engine = ev_json.get("eventflow_engine", {}) or {}
+    aligned = eventflow_json_matches(ev_json, mid, home, away)
+    htft = ef_engine.get("half_full_time_top3", [])
+    htft_source = "eventflow_json"
+
+    if not aligned or not htft_teams_bound(htft, home, away):
+        htft, htft_source = recompute_htft_top3(mid, home, away, lam_home, lam_away)
+
+    activated = ef_engine.get("activated_scenarios", [])
+    phase_sim = ef_engine.get("phase_simulation", {})
+    comp_ctx = ef_engine.get("competition_context", {})
+    all_weights = ef_engine.get("all_scenario_weights", [])
+
+    if not aligned:
+        from predict_eventflow import (
+            build_activated_payload,
+            competition_context_for,
+            pick_activated,
+            scenario_rows,
+        )
+
+        all_scenarios, baseline_degraded, fallback_ratio = scenario_rows(mid, home, away)
+        if not baseline_degraded and fallback_ratio < 0.50:
+            activated_raw = pick_activated(all_scenarios)
+            activated = build_activated_payload(activated_raw)
+            phase_sim = enrich_phase_simulation(activated, all_scenarios, mid) if activated else {}
+            all_weights = [
+                {
+                    "scenario_id": snum(s, "scenario_id"),
+                    "name": snum(s, "scenario_name"),
+                    "weight_composition": {
+                        "raw_total_score": float(s.get("weight", 0) or 0),
+                    },
+                }
+                for s in sorted(all_scenarios, key=lambda r: float(r.get("weight", 0) or 0), reverse=True)
+            ]
+        else:
+            activated = []
+            phase_sim = {}
+            all_weights = []
+        comp_ctx = competition_context_for(mid) if mid else {}
+
+    return {
+        "half_full_time_top3": htft,
+        "half_full_time_source": htft_source,
+        "activated_scenarios": activated,
+        "phase_simulation": phase_sim,
+        "competition_context": comp_ctx,
+        "all_scenario_weights": all_weights,
+        "eventflow_json_aligned": aligned,
+    }
+
+
+def validate_htft_output(payload: dict, forbidden_teams: list[str] | None = None) -> list[str]:
+    """Return validation errors for half_full_time binding (empty = pass)."""
+    home, away = "", ""
+    match_line = snum(payload, "match")
+    if " vs " in match_line:
+        home, away = [x.strip() for x in match_line.split(" vs ", 1)]
+    errors: list[str] = []
+    forbidden = forbidden_teams or []
+    for section in ("eventflow_engine", "final_fusion"):
+        block = payload.get(section, {}) or {}
+        htft = block.get("half_full_time_top3", [])
+        if not htft_teams_bound(htft, home, away):
+            errors.append(f"{section}.half_full_time_top3 references foreign teams")
+        for item in htft:
+            basis = item.get("perspective_basis", "")
+            for team in forbidden:
+                if team in basis:
+                    errors.append(f"{section}.half_full_time_top3 contains forbidden team {team}")
+    return errors
+
