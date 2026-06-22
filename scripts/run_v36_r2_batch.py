@@ -57,7 +57,7 @@ def main() -> None:
         cmd = [
             py, str(pipeline),
             "--match-id", mid, "--home", home, "--away", away,
-            "--mode", "balanced",
+            "--mode", "auto",
             "--use-v36-realization", "true",
             "--export-json", str(out.relative_to(ROOT)).replace("\\", "/"),
         ]

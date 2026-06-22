@@ -1,5 +1,6 @@
 import sys
 import unittest
+import csv
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,12 +20,19 @@ def _build():
         ODDS / "match_odds_ttg.csv",
         ODDS / "match_odds_hafu.csv",
         ODDS / "match_odds_crs.csv",
-        mode="balanced",
+        mode="auto",
         emit_recommendations=True,
     )
 
 
 class TestV35BettingStrategyAvailability(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        with (ODDS / "match_odds_summary.csv").open(encoding="utf-8-sig", newline="") as handle:
+            teams = {(row["homeTeam"], row["awayTeam"]) for row in csv.DictReader(handle)}
+        if ("巴西", "海地") not in teams:
+            raise unittest.SkipTest("historical Brazil-Haiti odds snapshot not active")
+
     def test_brazil_had_unavailable_filtered(self):
         recs = _build()
         text = recs.to_markdown()

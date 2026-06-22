@@ -166,7 +166,11 @@ def write_reports(results: List[Dict[str, Any]], hashes_before: Dict[str, str], 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Phase 05A R2 batch predictions")
-    ap.add_argument("--mode", default="balanced", choices=["safe", "balanced", "hit_hunting"])
+    ap.add_argument(
+        "--mode", default="auto",
+        choices=["auto", "safe", "balanced", "hit_hunting"],
+        help="Compatibility input; fusion is dynamically weighted.",
+    )
     ap.add_argument("--match-id", default="", help="Run single R2 match only")
     ap.add_argument("--smoke-f35-only", action="store_true")
     ap.add_argument("--skip-build", action="store_true", default=True)

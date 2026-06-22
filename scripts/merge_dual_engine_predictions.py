@@ -18,11 +18,14 @@ from eventflow_htft import (
     validate_htft_output,
 )
 from scenario_realization_common import load_v37_features
+from eventflow_dynamic_weight import AUTO_MODE, MODE_CHOICES, compute_dynamic_fusion_profile
 
+# Import compatibility for older tests/integrations. Runtime fusion no longer
+# reads this mapping; all legacy names resolve through auto_dynamic instead.
 MODE = {
-    "safe": (0.65, 0.35),
-    "balanced": (0.50, 0.50),
-    "hit_hunting": (0.35, 0.65),
+    "safe": (0.80, 0.20),
+    "balanced": (0.80, 0.20),
+    "hit_hunting": (0.80, 0.20),
 }
 
 FUSION_SCORE_NOTE = (
@@ -259,6 +262,7 @@ def build_eventflow_process_summary(
     mode: str,
     p_weight: float,
     e_weight: float,
+    dynamic_profile: Dict[str, Any] | None = None,
     topn: int = 3,
 ) -> Dict[str, Any]:
     """Expose the EventFlow reasoning path in the final dual-engine JSON.
@@ -328,13 +332,14 @@ def build_eventflow_process_summary(
     )
     summary = (
         f"EventFlow 先将赛前信号映射为 {len(activated)} 个激活剧本，"
-        f"再按 {mode} 模式进行比分族加权；当前主线为"
+        f"再由自动可靠度策略进行比分族加权；当前主线为"
         f"{'、'.join(top_names) if top_names else '无明确主线'}。{evidence_text}。"
     )
 
     return {
         "summary": summary,
         "fusion_weight_note": f"最终融合使用 V2概率引擎 {p_weight:.0%} + EventFlow事件流 {e_weight:.0%}；本摘要只解释 EventFlow 侧，不改变最终分数。",
+        "dynamic_weight_profile": dynamic_profile or {},
         "evidence_gate": {
             "uses_pre_match_evidence_only": source_fusion.get("uses_pre_match_evidence_only", True),
             "pre_match_evidence_count": source_fusion.get("pre_match_evidence_count", 0),
@@ -403,7 +408,12 @@ def main() -> None:
         "--baseline",
         default=str(Path(__file__).resolve().parents[1] / "database" / "eventflow" / "raw" / "probability_engine_scores.csv"),
     )
-    ap.add_argument("--mode", choices=sorted(MODE), default="balanced")
+    ap.add_argument(
+        "--mode",
+        choices=MODE_CHOICES,
+        default=AUTO_MODE,
+        help="Compatibility input only; fusion weights are automatic.",
+    )
     ap.add_argument("--match-id", default="")
     ap.add_argument("--home", default="")
     ap.add_argument("--away", default="")
@@ -452,7 +462,6 @@ def main() -> None:
     if not prob_rows:
         print("warning: no probability_engine rows for this match; merge will be EventFlow-only")
 
-    p_weight, e_weight = MODE[args.mode]
     ef_engine_pre = read_json(EVENTFLOW_DB / "eventflow_output.json", {}) or {}
     ef_engine_state = ef_engine_pre.get("eventflow_engine", {}) or {}
     eventflow_degraded_pre = bool(
@@ -464,9 +473,32 @@ def main() -> None:
         or ef_engine_state.get("degradation_reason")
         or ""
     )
-    fusion_mode_effective = args.mode
+    dq = summarize_data_quality(mid, home, away)
+    source_fusion = load_source_fusion(mid)
+    dynamic_profile = compute_dynamic_fusion_profile(
+        data_quality=dq,
+        source_fusion=source_fusion,
+        scenarios=(
+            ef_engine_state.get("all_scenario_weights")
+            or ef_engine_state.get("activated_scenarios")
+            or []
+        ),
+        fallback_ratio=fnum(ef_engine_pre, "fallback_ratio"),
+        eventflow_degraded=eventflow_degraded_pre,
+        probability_degraded=bool(v2_diag.get("probability_data_degraded", False)),
+        requested_mode=args.mode,
+    )
+    p_weight = dynamic_profile["probability_weight"]
+    e_weight = dynamic_profile["eventflow_weight"]
+    fusion_mode_effective = dynamic_profile["effective_mode"]
+    if dynamic_profile.get("legacy_mode_ignored"):
+        print(f"legacy mode '{args.mode}' accepted but ignored; effective mode=auto_dynamic")
+    print(
+        "Dynamic fusion weights: "
+        f"prob={p_weight:.3f} event={e_weight:.3f} "
+        f"reliability={dynamic_profile['reliability_score']:.3f}"
+    )
     if eventflow_degraded_pre and degradation_reason in DEGRADATION_REASONS_PROB_ONLY:
-        p_weight, e_weight = 1.0, 0.0
         fusion_mode_effective = "probability_only_due_to_eventflow_degradation"
 
     prob_by_score = {snum(r, "score"): fnum(r, "probability") for r in prob_rows}
@@ -521,7 +553,8 @@ def main() -> None:
             "match_id": mid,
             "home": home,
             "away": away,
-            "mode": args.mode,
+            "mode": fusion_mode_effective,
+            "requested_mode": args.mode,
             "rank": 0,
             "score": score,
             "v2_scoreline_probability": v2_prob,
@@ -570,8 +603,6 @@ def main() -> None:
             f"rebound HT/FT source={ef_attach.get('half_full_time_source')}"
         )
     top3 = out[:3]
-    dq = summarize_data_quality(mid, home, away)
-    source_fusion = load_source_fusion(mid)
     baseline_degraded = ev_json.get("baseline_degraded", False)
     eventflow_degraded = ev_json.get("eventflow_data_degraded", False)
 
@@ -605,8 +636,10 @@ def main() -> None:
         "match": f"{home} vs {away}",
         "match_id": mid,
         "fifa_match_id": snum(resolved, "fifa_match_id"),
-        "mode": args.mode,
+        "mode": fusion_mode_effective,
+        "requested_mode": args.mode,
         "fusion_mode_effective": fusion_mode_effective,
+        "dynamic_weight_profile": dynamic_profile,
         "score_semantics_note": FUSION_SCORE_NOTE,
         "semantics": {
             "v2_scoreline_probability": "calibrated scoreline probability from V2 Dixon-Coles",
@@ -656,7 +689,8 @@ def main() -> None:
         },
         "source_fusion": source_fusion,
         "eventflow_process_summary": build_eventflow_process_summary(
-            ef_engine, ev_rows, source_fusion, dq, args.mode, p_weight, e_weight, topn=3
+            ef_engine, ev_rows, source_fusion, dq, fusion_mode_effective,
+            p_weight, e_weight, dynamic_profile=dynamic_profile, topn=3
         ),
         "final_fusion": {
             "fusion_input": {
@@ -668,6 +702,9 @@ def main() -> None:
                 "probability_file": str(Path(args.baseline)),
                 "eventflow_file": str(EVENTFLOW_DB / "eventflow_predictions.csv"),
                 "fusion_penetration_ok": fusion_penetration_ok,
+                "dynamic_weight_policy": dynamic_profile["policy"],
+                "probability_weight": p_weight,
+                "eventflow_weight": e_weight,
             },
             "score_ranking": [
                 {
@@ -700,6 +737,10 @@ def main() -> None:
                 "fusion_ranking_score 是排序分，不可与赔率隐含概率直接对比",
                 "若上半场无早球，大比分权重下降",
                 f"估算数据占比 {dq.get('estimated_data_ratio', 0)*100:.0f}%，EventFlow 尾部已降权",
+                (
+                    f"EventFlow动态权重 {e_weight:.1%}；"
+                    f"可靠度 {dynamic_profile['reliability_score']:.2f}"
+                ),
             ],
         },
         "generated_at": datetime.now(timezone.utc).isoformat(),

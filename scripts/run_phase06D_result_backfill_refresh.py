@@ -114,7 +114,7 @@ def main() -> None:
         subprocess.run([
             sys.executable, str(SCRIPTS / "run_phase05B_r2_formal_prediction.py"),
             "--match-id", "WC2026-F35", "--home", "Netherlands", "--away", "Sweden",
-            "--mode", "balanced",
+            "--mode", "auto",
         ], check=True, cwd=ROOT)
 
     print("Phase 06D complete")

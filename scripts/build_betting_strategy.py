@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""V3.5 betting strategy builder: availability gate + multi-engine candidate scoring + combos."""
+"""V3.8 betting strategy builder with audited composite-option expansion."""
 from __future__ import annotations
 
 import argparse
@@ -86,6 +86,10 @@ class Candidate:
     fusion_topn_limited: bool = False
     conflict_count: int = 0
     tier: str = "balanced"
+    sp_display: str = ""
+    line_count: int = 1
+    option_details: List[Dict[str, Any]] = field(default_factory=list)
+    expected_return_factor: Optional[float] = None
 
 
 @dataclass
@@ -97,6 +101,10 @@ class ComboLeg:
     single_allowed: bool
     parlay_allowed: bool
     v2_model_probability: Optional[float]
+    sp_display: str = ""
+    line_count: int = 1
+    option_details: List[Dict[str, Any]] = field(default_factory=list)
+    expected_return_factor: Optional[float] = None
 
 
 @dataclass
@@ -112,6 +120,10 @@ class ComboRecommendation:
     risk_note: str
     all_parlay_ok: bool
     all_single_ok: bool
+    line_count: int = 1
+    payout_sp_min: Optional[float] = None
+    payout_sp_max: Optional[float] = None
+    expected_return_factor: Optional[float] = None
 
 
 @dataclass
@@ -593,6 +605,7 @@ def build_candidates_for_match(
         parlay_ok: bool,
         single_ok: bool,
         hhad_line_local: float = 0.0,
+        option_details: Optional[List[Dict[str, Any]]] = None,
     ) -> None:
         if not parlay_ok or not _sp_present(sp):
             filtered.append({
@@ -605,7 +618,27 @@ def build_candidates_for_match(
         covered = covered_scorelines_for_selection(market, selection, hhad_line_local)
         fa = fusion_alignment(fusion_map, covered)
         ea = eventflow_alignment(ef, covered, market)
-        vp = (sp * p) if p is not None else None
+        options = option_details or [{
+            "selection": selection,
+            "sp": float(sp),
+            "probability": p,
+        }]
+        valid_options = [o for o in options if _sp_present(o.get("sp"))]
+        sp_values = [float(o["sp"]) for o in valid_options]
+        line_count = max(1, len(valid_options))
+        expected_return_factor: Optional[float] = None
+        if valid_options and all(o.get("probability") is not None for o in valid_options):
+            expected_return_factor = sum(
+                float(o["probability"]) * float(o["sp"]) for o in valid_options
+            ) / line_count
+        vp = expected_return_factor
+        if vp is None and p is not None:
+            vp = float(sp) * p
+        sp_display = (
+            f"{min(sp_values):.2f}-{max(sp_values):.2f} ({line_count}注展开)"
+            if line_count > 1
+            else f"{float(sp):.2f}"
+        )
         conflicts = count_conflicts(covered, prob_top, fusion_top, ef.get("top_scores", []))
         supporting = [s for s in covered if s in fusion_map][:4]
         scenarios = list(ef.get("scenario_weights", {}).keys())[:3]
@@ -630,6 +663,13 @@ def build_candidates_for_match(
             reason=build_reason(market, selection, fusion_top, ef, prob_top),
             fusion_topn_limited=fusion_limited,
             conflict_count=conflicts,
+            sp_display=sp_display,
+            line_count=line_count,
+            option_details=valid_options,
+            expected_return_factor=(
+                round(expected_return_factor, 4)
+                if expected_return_factor is not None else None
+            ),
         )
         raw.append(c)
 
@@ -677,7 +717,20 @@ def build_candidates_for_match(
             sps = [float(r["sp"]) for r in ttg_rows if snum(r, "goals") in combo]
             if not sps:
                 continue
-            add_raw("TTG", sel, min(sps), p_sum, True, avail.ttg_single)
+            options = [
+                {
+                    "selection": f"总进球{x}",
+                    "sp": float(r["sp"]),
+                    "probability": ttg_p.get(x, 0.0),
+                }
+                for x in combo
+                for r in ttg_rows
+                if snum(r, "goals") == x
+            ]
+            add_raw(
+                "TTG", sel, min(sps), p_sum, True, avail.ttg_single,
+                option_details=options,
+            )
 
     if avail.hafu_available:
         hafu_rows = _filter_detail_rows(odds_detail["hafu"], match_key, home_cn, away_cn)
@@ -724,7 +777,20 @@ def build_candidates_for_match(
                         sps.append(float(r["sp"]))
             if sps:
                 sel = "比分" + "/".join(combo)
-                add_raw("CRS", sel, min(sps), p_sum, True, avail.crs_single)
+                options = [
+                    {
+                        "selection": f"比分{c}",
+                        "sp": float(r["sp"]),
+                        "probability": crs_p.get(c, 0.0),
+                    }
+                    for c in combo
+                    for r in crs_rows
+                    if snum(r, "score").replace(":", "-") == c
+                ]
+                add_raw(
+                    "CRS", sel, min(sps), p_sum, True, avail.crs_single,
+                    option_details=options,
+                )
 
     ps = [c.v2_model_probability for c in raw if c.v2_model_probability is not None]
     p_norms = _norm_map([p or 0 for p in ps])
@@ -871,6 +937,7 @@ def build_combos(
             ranked = sorted([x for x in items if _leg_ok(x)] or items, key=lambda x: -x.strategy_score_aggressive)
         picks[m] = ranked[0]
 
+    selected = sorted(picks.values(), key=lambda c: -score_fn(c))[:3]
     legs = [
         ComboLeg(
             match=c.match,
@@ -880,8 +947,12 @@ def build_combos(
             single_allowed=c.single_allowed,
             parlay_allowed=c.parlay_allowed,
             v2_model_probability=c.v2_model_probability,
+            sp_display=c.sp_display or f"{c.sp:.2f}",
+            line_count=c.line_count,
+            option_details=c.option_details,
+            expected_return_factor=c.expected_return_factor,
         )
-        for c in picks.values()
+        for c in selected
     ]
     combo_p = 1.0
     has_p = True
@@ -890,10 +961,26 @@ def build_combos(
             has_p = False
             break
         combo_p *= leg.v2_model_probability
-    sp_prod = math.prod(leg.sp for leg in legs)
-    avg_f = sum(c.fusion_alignment for c in picks.values()) / len(picks)
-    avg_e = sum(c.eventflow_alignment for c in picks.values()) / len(picks)
-    combo_score = 0.45 * (combo_p if has_p else 0.3) + 0.25 * avg_f + 0.15 * avg_e + 0.15 * min(1.0, sp_prod / 20)
+    line_count = math.prod(leg.line_count for leg in legs)
+    sp_min = math.prod(
+        min(float(o["sp"]) for o in leg.option_details) if leg.option_details else leg.sp
+        for leg in legs
+    )
+    sp_max = math.prod(
+        max(float(o["sp"]) for o in leg.option_details) if leg.option_details else leg.sp
+        for leg in legs
+    )
+    expected_factor = None
+    if all(leg.expected_return_factor is not None for leg in legs):
+        expected_factor = math.prod(float(leg.expected_return_factor) for leg in legs)
+    avg_f = sum(c.fusion_alignment for c in selected) / len(selected)
+    avg_e = sum(c.eventflow_alignment for c in selected) / len(selected)
+    combo_score = (
+        0.45 * (combo_p if has_p else 0.3)
+        + 0.25 * avg_f
+        + 0.15 * avg_e
+        + 0.15 * min(1.0, sp_max / 20)
+    )
 
     tier_labels = {
         "safe": "稳健收益型",
@@ -912,12 +999,20 @@ def build_combos(
             label=label,
             legs=legs[:3],
             combo_probability=round(combo_p, 4) if has_p else None,
-            sp_display=f"SP约{sp_prod:.2f}",
+            sp_display=(
+                f"{line_count}注展开；单注合成SP {sp_min:.2f}-{sp_max:.2f}"
+            ),
             combo_score=round(combo_score, 4),
             rationale="概率派聚合×融合支持×EventFlow路径；非仅看胜负方向",
             risk_note=risk,
             all_parlay_ok=all(l.parlay_allowed for l in legs),
             all_single_ok=all(l.single_allowed for l in legs),
+            line_count=line_count,
+            payout_sp_min=round(sp_min, 4),
+            payout_sp_max=round(sp_max, 4),
+            expected_return_factor=(
+                round(expected_factor, 4) if expected_factor is not None else None
+            ),
         )
     ]
     if len(legs) >= 3:
@@ -934,6 +1029,12 @@ def build_combos(
                 risk_note=risk,
                 all_parlay_ok=all(l.parlay_allowed for l in legs),
                 all_single_ok=False,
+                line_count=line_count,
+                payout_sp_min=round(sp_min, 4),
+                payout_sp_max=round(sp_max, 4),
+                expected_return_factor=(
+                    round(expected_factor, 4) if expected_factor is not None else None
+                ),
             )
         )
     return combos
@@ -945,7 +1046,7 @@ def build_strategy(
     odds_ttg: Path,
     odds_hafu: Path,
     odds_crs: Path,
-    mode: str = "balanced",
+    mode: str = "auto",
     use_v37: bool = False,
     emit_recommendations: bool = False,
 ) -> StrategyResult:
@@ -1005,7 +1106,9 @@ def build_strategy(
             combos.extend(build_combos(pool, tier, key, match_teams, all_jc_teams))
 
     meta = {
-        "mode": mode,
+        "mode": "auto_dynamic",
+        "requested_mode": mode,
+        "legacy_mode_ignored": mode in {"safe", "balanced", "hit_hunting"},
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "odds_last_update": "match_odds_summary.csv",
         "semantics_note": SEMANTICS_NOTE,
@@ -1043,7 +1146,7 @@ def build_strategy(
 
 def render_markdown(res: StrategyResult) -> str:
     guard_mode = not res.emit_recommendations
-    title = "盘口保护审计报告（V3.7）" if guard_mode else "投注策略推荐（V3.5）"
+    title = "盘口保护审计报告（V3.8）" if guard_mode else "投注策略推荐（V3.8）"
     lines = [
         f"# {title}",
         "",
@@ -1072,7 +1175,7 @@ def render_markdown(res: StrategyResult) -> str:
     for c in res.candidate_pool[:24]:
         p = f"{c.v2_model_probability:.2%}" if c.v2_model_probability is not None else "—"
         lines.append(
-            f"| {c.match} | {c.selection} | {c.sp:.2f} | "
+            f"| {c.match} | {c.selection} | {c.sp_display or f'{c.sp:.2f}'} | "
             f"{'是' if c.single_allowed else '否'} | {'是' if c.parlay_allowed else '否'} | "
             f"{p} | {c.fusion_alignment:.2f} | {c.eventflow_alignment:.2f} | {c.risk_note or c.reason[:30]} |"
         )
@@ -1099,6 +1202,10 @@ def render_markdown(res: StrategyResult) -> str:
                 leg_txt = " × ".join(l.selection for l in combo.legs)
                 lines.append(f"- **{combo.combo_type}**：{leg_txt}")
                 lines.append(f"  - SP：{combo.sp_display}；组合概率：{combo.combo_probability or '半全场/比分无校准概率'}")
+                if combo.expected_return_factor is not None:
+                    lines.append(
+                        f"  - 等额展开模型期望回报倍数：{combo.expected_return_factor:.3f}（非保证收益）"
+                    )
                 lines.append(f"  - 过关：{'均可' if combo.all_parlay_ok else '部分仅过关'}；单关：{'均可' if combo.all_single_ok else '不可全单关'}")
                 lines.append(f"  - 理由：{combo.rationale}")
                 lines.append(f"  - 风险：{combo.risk_note}")
@@ -1135,7 +1242,7 @@ def result_to_json(res: StrategyResult) -> Dict[str, Any]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build V3.5 betting strategy from dual-engine outputs + jc-odds.")
+    parser = argparse.ArgumentParser(description="Build V3.8 betting strategy from dual-engine outputs + jc-odds.")
     parser.add_argument(
         "--match-outputs",
         default=str(EVENTFLOW_DB / "dual_engine_output_*_balanced_v36.json"),
@@ -1145,7 +1252,11 @@ def main() -> None:
     parser.add_argument("--odds-ttg", default=str(ODDS_DB / "match_odds_ttg.csv"))
     parser.add_argument("--odds-hafu", default=str(ODDS_DB / "match_odds_hafu.csv"))
     parser.add_argument("--odds-crs", default=str(ODDS_DB / "match_odds_crs.csv"))
-    parser.add_argument("--mode", default="balanced", choices=["safe", "balanced", "hit_hunting"])
+    parser.add_argument(
+        "--mode", default="auto",
+        choices=["auto", "safe", "balanced", "hit_hunting"],
+        help="Compatibility input; strategy scoring is automatic.",
+    )
     parser.add_argument("--use-v37-odds-value", action="store_true",
                         help="Apply V3.7 phase-1 betting guard score adjustments")
     parser.add_argument(

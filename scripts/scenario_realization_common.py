@@ -953,11 +953,13 @@ def apply_family_deltas_to_grid(
 
 def compute_v36_fusion_weights(
     data_quality_score: float,
-    mode: str = "balanced",
+    mode: str = "auto",
 ) -> Tuple[float, float, float, float]:
-    base = {"safe": (0.45, 0.30, 0.20, 0.05), "balanced": (0.45, 0.30, 0.20, 0.05),
-            "hit_hunting": (0.45, 0.30, 0.20, 0.05)}
-    w_prob, w_ef, w_real, w_mkt = base.get(mode, base["balanced"])
+    # Compatibility helper for the realization layer. User-selected fusion
+    # modes are intentionally ignored; final dual-engine weights are computed
+    # by eventflow_dynamic_weight.py from prematch evidence quality.
+    _ = mode
+    w_prob, w_ef, w_real, w_mkt = 0.45, 0.30, 0.20, 0.05
     if data_quality_score < 0.35:
         w_real = 0.05
         w_prob = 0.55

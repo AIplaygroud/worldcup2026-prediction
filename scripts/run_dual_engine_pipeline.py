@@ -52,7 +52,11 @@ def main() -> None:
     ap.add_argument("--match-id", required=True, help="internal_match_id e.g. WC2026-C29")
     ap.add_argument("--home", default="")
     ap.add_argument("--away", default="")
-    ap.add_argument("--mode", default="balanced", choices=["safe", "balanced", "hit_hunting"])
+    ap.add_argument(
+        "--mode", default="auto",
+        choices=["auto", "safe", "balanced", "hit_hunting"],
+        help="Compatibility input; fusion is dynamically weighted.",
+    )
     ap.add_argument("--notes", default="",
                     help="Override source notes; default uses per-match file if exists")
     ap.add_argument("--export-json", default="database/eventflow/processed/dual_engine_output.json")

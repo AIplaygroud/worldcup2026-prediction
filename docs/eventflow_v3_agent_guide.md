@@ -1,4 +1,4 @@
-# WorldCup2026 Prediction Skill V3.3：EventFlow 事件流赛果派 Agent 执行指南
+# WorldCup2026 Prediction Skill V3.8：EventFlow 事件流赛果派 Agent 执行指南
 
 适用项目：`AIplaygroud/worldcup2026-prediction` / `prediction-skill` 体系  
 目标：在现有 V2.0 `xG + 修正层 + Dixon-Coles` 概率派预测链路之外，新增 **EventFlow 事件流推演分支**。  
@@ -13,7 +13,7 @@ V3.3 不推翻 `scripts/predict_v2.py`（Probability Engine V2.2），而是在 
 ```text
 Probability Engine：负责 xG、Dixon-Coles、赔率/竞彩规则、稳态比分分布
 EventFlow Engine：负责战术对弈、球员惯用脚/位置偏移、比赛阶段、早球/红牌/追分/崩盘、大比分尾部
-Dual Merge：负责把两套结果按 safe / balanced / hit_hunting 三种模式融合
+Dual Merge：根据赛前证据可靠性自动计算 Probability / EventFlow 权重
 ```
 
 现有裁判层可继续作为 L10 小幅 ΔxG 修正层，EventFlow 读取它的结论，但不直接把“裁判偏某队”作为强结论。
@@ -323,16 +323,15 @@ python scripts/predict_eventflow.py \
   --home Brazil \
   --away Haiti \
   --lam-home 2.35 \
-  --lam-away 0.45 \
-  --mode balanced
+  --lam-away 0.45
 ```
 
-模式：
+动态权重：
 
 ```text
-safe：概率派 65%，事件流 35%，适合稳健输出
-balanced：概率派 50%，事件流 50%，默认
-hit_hunting：概率派 35%，事件流 65%，适合赛果命中/大比分覆盖
+默认 auto_dynamic_v1。
+EventFlow 权重为 0–35%，由数据覆盖、A/B 证据、冲突率、剧本特异性与集中度决定。
+safe / balanced / hit_hunting 仅兼容旧命令，传入后不改变权重。
 ```
 
 ### Step 5：融合双引擎
@@ -342,7 +341,6 @@ python scripts/merge_dual_engine_predictions.py \
   --match-id 66456932 \
   --home Brazil \
   --away Haiti \
-  --mode balanced \
   --topn 5
 ```
 
@@ -361,7 +359,7 @@ database/eventflow/processed/dual_engine_predictions.csv
 ```json
 {
   "match": "Brazil vs Haiti",
-  "mode": "balanced",
+  "mode": "auto_dynamic",
   "probabilityEngine": {
     "topScores": [
       {"score": "2-0", "probability": 0.13},
@@ -430,10 +428,9 @@ EventFlow 输出必须包含：
 5. 球员层解释：惯用脚、擅长位置、实际站位、世界杯第一轮是否发生位置偏移；
 6. 数据置信度与风险提示。
 
-最终推荐使用双引擎融合：
-- safe：概率派 65%，事件流 35%；
-- balanced：概率派 50%，事件流 50%；
-- hit_hunting：概率派 35%，事件流 65%。
+最终推荐使用自动双引擎融合，并输出
+`dynamic_weight_profile`、`reliability_score`、`caps_applied` 和实际两侧权重。
+不得把融合排序分描述为概率，也不得让用户通过模式选择改变权重。
 ```
 
 ---

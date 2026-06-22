@@ -19,7 +19,11 @@ def main() -> None:
     ap.add_argument("--match-id", required=True)
     ap.add_argument("--home", required=True)
     ap.add_argument("--away", required=True)
-    ap.add_argument("--mode", default="balanced", choices=["safe", "balanced", "hit_hunting"])
+    ap.add_argument(
+        "--mode", default="auto",
+        choices=["auto", "safe", "balanced", "hit_hunting"],
+        help="Compatibility input; fusion is dynamically weighted.",
+    )
     ap.add_argument("--snapshot-id", default="")
     ap.add_argument("--allow-partial-standings", action="store_true", help="Smoke test / backtest only")
     ap.add_argument("--smoke-test", action="store_true", help="Alias for controlled partial run")

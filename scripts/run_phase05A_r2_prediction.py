@@ -285,7 +285,7 @@ def predict_one(
     match_id: str,
     home: str,
     away: str,
-    mode: str = "balanced",
+    mode: str = "auto",
     skip_build: bool = True,
     run_prediction: bool = True,
 ) -> Dict[str, Any]:
@@ -371,7 +371,11 @@ def main() -> None:
     ap.add_argument("--match-id", required=True)
     ap.add_argument("--home", required=True)
     ap.add_argument("--away", required=True)
-    ap.add_argument("--mode", default="balanced", choices=["safe", "balanced", "hit_hunting"])
+    ap.add_argument(
+        "--mode", default="auto",
+        choices=["auto", "safe", "balanced", "hit_hunting"],
+        help="Compatibility input; fusion is dynamically weighted.",
+    )
     ap.add_argument("--preflight-only", action="store_true")
     ap.add_argument("--skip-build", action="store_true", default=True)
     ap.add_argument("--no-skip-build", dest="skip_build", action="store_false")

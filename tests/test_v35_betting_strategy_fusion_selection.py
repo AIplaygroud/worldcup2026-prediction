@@ -1,5 +1,6 @@
 import sys
 import unittest
+import csv
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,13 +15,17 @@ MATCH_GLOB = str(ROOT / "database" / "eventflow" / "processed" / "dual_engine_ou
 
 class TestV35BettingStrategyFusionSelection(unittest.TestCase):
     def test_turkey_eventflow_lifts_ttg3(self):
+        with (ODDS / "match_odds_summary.csv").open(encoding="utf-8-sig", newline="") as handle:
+            teams = {(row["homeTeam"], row["awayTeam"]) for row in csv.DictReader(handle)}
+        if ("土耳其", "巴拉圭") not in teams:
+            self.skipTest("historical Turkey-Paraguay odds snapshot not active")
         recs = build_strategy(
             MATCH_GLOB,
             ODDS / "match_odds_summary.csv",
             ODDS / "match_odds_ttg.csv",
             ODDS / "match_odds_hafu.csv",
             ODDS / "match_odds_crs.csv",
-            mode="balanced",
+            mode="auto",
             emit_recommendations=True,
         )
         tur_candidates = [c for c in recs.candidate_pool if c.match_id == "WC2026-D31"]

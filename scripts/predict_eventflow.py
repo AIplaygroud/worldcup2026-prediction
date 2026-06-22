@@ -13,12 +13,7 @@ from eventflow_common import (
 )
 from eventflow_v32_gates import parse_gates_json, competition_context_for
 from eventflow_htft import compute_htft_top3, enrich_phase_simulation, summarize_data_quality, count_prematch_evidence
-
-MODE_WEIGHT = {
-    "safe": {"prob": 0.65, "event": 0.35, "tail": 0.60},
-    "balanced": {"prob": 0.50, "event": 0.50, "tail": 0.85},
-    "hit_hunting": {"prob": 0.35, "event": 0.65, "tail": 1.20},
-}
+from eventflow_dynamic_weight import AUTO_MODE, MODE_CHOICES, compute_dynamic_fusion_profile
 
 SCORE_FAMILY_BONUS = {
     "0-0": -0.03, "1-0": 0.00, "0-1": 0.00, "1-1": 0.00,
@@ -122,6 +117,24 @@ def pick_activated(scenarios: List[Dict[str, str]], min_n: int = 3, max_n: int =
     return pool[:n]
 
 
+def source_fusion_metrics(match_id: str, evidence_counts: Dict[str, int]) -> Dict[str, Any]:
+    claims = [
+        r for r in read_csv(EVENTFLOW_DB / "source_signal_claims.csv")
+        if snum(r, "match_id") == match_id
+    ]
+    fused = [
+        r for r in read_csv(EVENTFLOW_DB / "eventflow_fused_evidence.csv")
+        if snum(r, "match_id") == match_id
+    ]
+    return {
+        **evidence_counts,
+        "grade_A_count": sum(snum(r, "evidence_grade") == "A" for r in claims),
+        "grade_B_count": sum(snum(r, "evidence_grade") == "B" for r in claims),
+        "conflict_count": sum(int(fnum(r, "conflict_count")) for r in claims),
+        "fused_evidence_rows": len(fused),
+    }
+
+
 def build_activated_payload(activated: List[Dict[str, str]]) -> List[Dict[str, Any]]:
     out = []
     for s in activated:
@@ -143,7 +156,9 @@ def build_activated_payload(activated: List[Dict[str, str]]) -> List[Dict[str, A
 def event_bonus_for_score(
     score: str, all_scenarios: List[Dict[str, str]], activated: List[Dict[str, str]], tail_strength: float,
 ) -> Tuple[float, List[str], List[str], List[str]]:
-    bonus = SCORE_FAMILY_BONUS.get(score, 0.0) * tail_strength
+    # No unconditional scoreline bonus. Tail scores must be supported by
+    # match-specific scenarios; a global 3-1/4-1 preference overfits blowouts.
+    contributions: List[float] = []
     scenario_ids: List[str] = []
     reasons: List[str] = []
     ht_biases: List[str] = []
@@ -157,9 +172,10 @@ def event_bonus_for_score(
             weight *= 0.35
         fam = [x.strip() for x in snum(s, "score_family").split(";") if x.strip()]
         if score in fam:
-            bonus += weight * 0.22 * tail_strength
+            contribution = weight * 0.22 * tail_strength
             if sid == "S11_group_state_draw_control" and score == "1-1":
-                bonus += weight * 0.06 * tail_strength
+                contribution += weight * 0.06 * tail_strength
+            contributions.append(contribution)
             if sid in activated_ids:
                 scenario_ids.append(sid)
                 reasons.append(snum(s, "scenario_name"))
@@ -171,29 +187,46 @@ def event_bonus_for_score(
                 for fs in fam:
                     fh, fa = parse_score(fs)
                     if sh + sa == fh + fa:
-                        bonus += weight * 0.05 * tail_strength
+                        contributions.append(weight * 0.05 * tail_strength)
             except Exception:
                 pass
+    if contributions:
+        strongest = max(contributions)
+        bonus = strongest + 0.20 * (sum(contributions) - strongest)
+    else:
+        bonus = 0.0
+    # Complexity regularizer: generic scenarios often list several high-total
+    # score families. Require progressively stronger evidence for each goal
+    # above two instead of rewarding those overlaps automatically.
+    total_goals = sum(parse_score(score))
+    bonus /= 1.0 + 0.30 * max(0, total_goals - 2)
     return bonus, scenario_ids, reasons, ht_biases
 
 
 def generate_candidates(
     lam_home: float, lam_away: float, all_scenarios: List[Dict[str, str]],
-    activated: List[Dict[str, str]], mode: str, degraded: bool = False,
+    activated: List[Dict[str, str]], mode: str = AUTO_MODE, degraded: bool = False,
+    dynamic_profile: Dict[str, Any] | None = None,
 ) -> List[Dict[str, Any]]:
-    weights = MODE_WEIGHT[mode]
+    profile = dynamic_profile or {
+        "tail_strength": 0.70,
+        "effective_mode": "auto_dynamic",
+    }
+    tail_strength = fnum(profile, "tail_strength", 0.70)
     base = top_score_distribution(lam_home, lam_away, max_goals=6)
     candidates: List[Dict[str, Any]] = []
     for row in base:
         score = row["score"]
         if degraded:
-            event_score = max(0.0, row["probability"] * weights["prob"])
+            event_score = 0.0
             reason = "baseline_prior_only; EventFlow degraded"
             sids: List[str] = []
         else:
-            b, sids, reasons, _ = event_bonus_for_score(score, all_scenarios, activated, weights["tail"])
-            event_score = max(0.0, row["probability"] * weights["prob"] + b * weights["event"])
-            reason = "；".join(reasons[:3]) if reasons else "多剧本叠加；概率基准参与"
+            b, sids, reasons, _ = event_bonus_for_score(
+                score, all_scenarios, activated, tail_strength
+            )
+            event_score = max(0.0, b)
+            reason = "；".join(reasons[:3]) if reasons else "多剧本事件证据排序"
         candidates.append({
             "score": score,
             "eventflow_ranking_score": event_score,
@@ -206,11 +239,16 @@ def generate_candidates(
             "scenario_ids": ";".join(dict.fromkeys(sids[:6])),
             "data_confidence": min([fnum(s, "data_confidence", 0.55) for s in all_scenarios] or [0.55]),
         })
-    normalize_weights(candidates, "eventflow_ranking_score")
+    if not degraded:
+        normalize_weights(candidates, "eventflow_ranking_score")
     for c in candidates:
         c["eventflow_score"] = c["eventflow_ranking_score"]
         c["event_probability_deprecated"] = c["eventflow_ranking_score"]
-    return sorted(candidates, key=lambda x: x["eventflow_ranking_score"], reverse=True)
+    return sorted(
+        candidates,
+        key=lambda x: (x["eventflow_ranking_score"], x.get("score", "")),
+        reverse=True,
+    )
 
 
 def main() -> None:
@@ -220,7 +258,12 @@ def main() -> None:
     ap.add_argument("--away", required=True)
     ap.add_argument("--lam-home", type=float, required=True)
     ap.add_argument("--lam-away", type=float, required=True)
-    ap.add_argument("--mode", choices=sorted(MODE_WEIGHT), default="balanced")
+    ap.add_argument(
+        "--mode",
+        choices=MODE_CHOICES,
+        default=AUTO_MODE,
+        help="Compatibility input only; EventFlow weighting is automatic.",
+    )
     ap.add_argument("--topn", type=int, default=5)
     ap.add_argument("--export-json", default=str(EVENTFLOW_DB / "eventflow_output.json"))
     args = ap.parse_args()
@@ -251,29 +294,50 @@ def main() -> None:
         degradation_reason = "fallback_ratio_too_high"
         precision_warning = "EventFlow degraded: insufficient match-specific tactical evidence."
 
-    activated_raw = [] if baseline_degraded or fallback_ratio >= 0.50 else pick_activated(all_scenarios)
-    activated = build_activated_payload(activated_raw)
-    phase_sim = enrich_phase_simulation(activated, all_scenarios, args.match_id) if activated else {}
     evidence_counts = count_prematch_evidence(args.match_id)
-    if evidence_counts.get("pre_match_evidence_count", 0) == 0 and evidence_counts.get("excluded_post_match_evidence_count", 0) > 0:
-        degradation_reason = degradation_reason or "no_prematch_evidence"
-    high_conf = evidence_counts.get("pre_match_evidence_count", 0) >= 2
-    htft_top3 = compute_htft_top3(
-        all_scenarios, phase_sim, args.lam_home, args.lam_away,
-        home=args.home, away=args.away, high_confidence_evidence=high_conf,
-        match_id=args.match_id, top_n=3,
-    ) if activated else []
     data_quality = summarize_data_quality(args.match_id, args.home, args.away)
     eventflow_degraded = (
         baseline_degraded
         or fallback_ratio >= 0.35
         or data_quality.get("real_data_ratio", 0) < 0.25
     )
+    source_metrics = source_fusion_metrics(args.match_id, evidence_counts)
+    dynamic_profile = compute_dynamic_fusion_profile(
+        data_quality=data_quality,
+        source_fusion=source_metrics,
+        scenarios=all_scenarios,
+        fallback_ratio=fallback_ratio,
+        eventflow_degraded=eventflow_degraded,
+        requested_mode=args.mode,
+    )
+    activated_raw = (
+        []
+        if eventflow_degraded
+        else pick_activated(
+            all_scenarios,
+            min_n=3,
+            max_n=int(dynamic_profile["active_scenario_limit"]),
+        )
+    )
+    activated = build_activated_payload(activated_raw)
+    phase_sim = enrich_phase_simulation(activated, all_scenarios, args.match_id) if activated else {}
+    if evidence_counts.get("pre_match_evidence_count", 0) == 0 and evidence_counts.get("excluded_post_match_evidence_count", 0) > 0:
+        degradation_reason = degradation_reason or "no_prematch_evidence"
+    high_conf = (
+        dynamic_profile["evidence_counts"]["grade_a"]
+        + dynamic_profile["evidence_counts"]["grade_b"]
+    ) >= 1
+    htft_top3 = compute_htft_top3(
+        all_scenarios, phase_sim, args.lam_home, args.lam_away,
+        home=args.home, away=args.away, high_confidence_evidence=high_conf,
+        match_id=args.match_id, top_n=3,
+    ) if activated else []
     if fallback_ratio >= 0.50:
         eventflow_degraded = True
     cand = generate_candidates(
         args.lam_home, args.lam_away, all_scenarios, activated_raw, args.mode,
         degraded=eventflow_degraded,
+        dynamic_profile=dynamic_profile,
     )
     now = datetime.now(timezone.utc).isoformat()
 
@@ -281,7 +345,9 @@ def main() -> None:
     for i, c in enumerate(cand[: max(3, args.topn)], 1):
         out.append({
             "match_id": args.match_id, "home": args.home, "away": args.away,
-            "engine_mode": args.mode, "rank": i, **c, "generated_at": now,
+            "engine_mode": dynamic_profile["effective_mode"],
+            "requested_mode": args.mode,
+            "rank": i, **c, "generated_at": now,
         })
     write_csv(EVENTFLOW_DB / "eventflow_predictions.csv", out)
 
@@ -296,7 +362,9 @@ def main() -> None:
     payload = {
         "match": f"{args.home} vs {args.away}",
         "match_id": args.match_id,
-        "mode": args.mode,
+        "mode": dynamic_profile["effective_mode"],
+        "requested_mode": args.mode,
+        "dynamic_weight_profile": dynamic_profile,
         "baseline_degraded": baseline_degraded,
         "eventflow_data_degraded": eventflow_degraded,
         "degradation_reason": degradation_reason,
@@ -313,6 +381,7 @@ def main() -> None:
             "degradation_reason": degradation_reason,
             "precision_warning": precision_warning,
             "fallback_ratio": fallback_ratio,
+            "dynamic_weight_profile": dynamic_profile,
             "activated_scenarios": activated,
             "all_scenario_weights": [
                 {
@@ -333,6 +402,14 @@ def main() -> None:
     write_json(args.export_json, payload)
 
     print(f"Activated {len(activated)} scenarios (baseline_degraded={baseline_degraded}, fallback_ratio={fallback_ratio:.2f}):")
+    if dynamic_profile.get("legacy_mode_ignored"):
+        print(f"legacy mode '{args.mode}' accepted but ignored; effective mode=auto_dynamic")
+    print(
+        "Dynamic weights: "
+        f"prob={dynamic_profile['probability_weight']:.3f} "
+        f"event={dynamic_profile['eventflow_weight']:.3f} "
+        f"reliability={dynamic_profile['reliability_score']:.3f}"
+    )
     for a in activated:
         wc = a["weight_composition"]
         print(f"  - {a['scenario_id']} norm={a['weight']:.3f} [raw_total={wc['raw_total_score']:.2f} tac={wc['raw_tactical_delta']:.2f} src={wc['raw_source_delta']:.2f}]")

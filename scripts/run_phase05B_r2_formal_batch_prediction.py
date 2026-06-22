@@ -224,7 +224,11 @@ def write_reports(
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Phase 05B formal R2 batch prediction")
-    ap.add_argument("--mode", default="balanced", choices=["safe", "balanced", "hit_hunting"])
+    ap.add_argument(
+        "--mode", default="auto",
+        choices=["auto", "safe", "balanced", "hit_hunting"],
+        help="Compatibility input; fusion is dynamically weighted.",
+    )
     ap.add_argument("--snapshot-id", default="WC2026_GROUP_20260620_PRE_F35")
     ap.add_argument("--as-of", default="", help="UTC cutoff for upcoming vs completed (default: now)")
     ap.add_argument("--match-id", default="", help="Run single R2 match only")

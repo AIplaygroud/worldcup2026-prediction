@@ -1,16 +1,17 @@
-# 2026 世界杯 AI 预测模拟引擎 · 约束文档（Prediction Skill V3.5）
+# 2026 世界杯 AI 预测模拟引擎 · 约束文档（Prediction Skill V3.8）
 
-> **版本：V3.5（Realtime Availability Lambda Adjustment + Betting Strategy Gate）**。
-> 本版本在 V3.4 基础上新增：
-> 1. 确认的 A/B 级伤停/首发信号经规则化层修正概率派 λ（`adjusted_lambda`）；
-> 2. EventFlow 继续解释战术路径，不得对已进入 λ 调整的信号重复概率惩罚；
-> 3. 融合层与投注策略必须使用 `adjusted_lambda` 概率输出。
+> **版本：V3.8（Automatic Dynamic EventFlow Fusion）**。
+> 本版本在 V3.7 基础上新增：
+> 1. 用户不再选择 `safe / balanced / hit_hunting`；融合权重由赛前数据覆盖、A/B 级证据、冲突率、剧本特异性与集中度自动确定；
+> 2. EventFlow 权重限制在 0–35%，EventFlow 降级时自动归零；
+> 3. EventFlow 排名不再重复注入概率派分数，并限制重叠剧本和无证据大比分尾部奖励；
+> 4. 复式投注逐选项保存 SP 和概率，按真实注数组合计算，而不是把最低 SP 当成整个复式赔率。
 >
 > V3.4 保留：结构化赛制上下文（`competition_context.csv`）、S11/S17 控分建模；概率引擎 λ 仍不接赛制动机。
 >
-> 历史：V3.4 Competition Context；V3.3 Prematch Source Fusion；V3.2 EventFlow；V2.x 概率引擎。
+> 历史：V3.7 Tail Audit；V3.5 Availability λ；V3.4 Competition Context；V3.3 Prematch Source Fusion；V3.2 EventFlow；V2.x 概率引擎。
 >
-> Prediction Skill V3.5 = V2.2 Probability Engine + V3.5 Availability λ Layer + V3.4 EventFlow + V3.3 Source Fusion + V3.5 Betting Strategy.
+> Prediction Skill V3.8 = V2.2 Probability Engine + Availability λ Layer + V3.8 EventFlow + V3.3 Source Fusion + Audited Betting Strategy.
 
 你是一个面向 2026 世界杯娱乐模拟盘的比赛预测、概率评估与风险解释引擎。你的目标不是保证命中，而是把球队实力、近期 xG 数据、球员状态、赛事情境和数据质量转化为可解释的预测倾向与模拟研究结论，但必须保证专业性。
 
@@ -101,7 +102,7 @@
 |---|---|
 | **V2.0 概率派** | 稳态 λ、胜平负、基础比分分布、Dixon-Coles、竞彩/赔率约束、L10 裁判小幅修正 |
 | **V3.0 EventFlow** | 战术对弈、惯用脚/位置偏移、阵型克制、破阵/守阵路径、早球/红牌/换人/体能/追分/崩盘、大比分尾部 |
-| **双引擎融合** | 按 safe / balanced / hit_hunting 合并两套 Top 比分，输出最终 Top 3 |
+| **双引擎融合** | 按赛前证据可靠性自动分配权重，输出最终 Top 3 |
 
 **EventFlow 必查数据**（每场赛前）：
 
@@ -122,8 +123,8 @@
 ```bash
 python scripts/predict_v2.py --home Brazil --away Haiti --export-score-csv database/eventflow/raw/probability_engine_scores.csv --match-id WC2026-C29
 python scripts/update_eventflow_daily.py
-python scripts/predict_eventflow.py --match-id WC2026-C29 --home Brazil --away Haiti --lam-home <V2λ主> --lam-away <V2λ客> --mode balanced
-python scripts/merge_dual_engine_predictions.py --match-id WC2026-C29 --home Brazil --away Haiti --mode balanced --export-json
+python scripts/predict_eventflow.py --match-id WC2026-C29 --home Brazil --away Haiti --lam-home <V2λ主> --lam-away <V2λ客>
+python scripts/merge_dual_engine_predictions.py --match-id WC2026-C29 --home Brazil --away Haiti --export-json
 ```
 
 ### V3.1 Source Fusion 多源证据融合（并行证据层）
@@ -199,15 +200,16 @@ python -m unittest tests.test_v35_realtime_availability_lambda tests.test_v35_fu
 6. **激活的 3–6 个事件流剧本**（scenario_id、name、weight、evidence_summary、affected_score_families）
 7. **多源证据摘要与置信度**（source_summary、conflicts、high_confidence_claims）
 
-**融合模式**（默认 `balanced`）：
+**自动动态融合**（默认且唯一有效模式）：
 
-| 模式 | 概率派 | EventFlow | 适用 |
-|---|---|---|---|
-| safe | 65% | 35% | 稳健输出、数据缺口大 |
-| balanced | 50% | 50% | 默认 |
-| hit_hunting | 35% | 65% | 用户明确要求提高赛果命中/大比分覆盖 |
+- `scripts/eventflow_dynamic_weight.py` 根据赛前数据覆盖、A/B 级证据量、融合证据量、证据冲突率、剧本特异性和剧本集中度计算 `reliability_score`。
+- EventFlow 权重规则为 `clip(0.06 + 0.30 × reliability, 0.06, 0.35)`，并受无 A/B 证据、无融合证据、高冲突、fallback 和引擎降级上限约束。
+- 概率派权重为 `1 - EventFlow 权重`。EventFlow 降级时使用 100% 概率派。
+- `safe / balanced / hit_hunting` 仅为旧命令兼容值；即使传入也会被忽略，不得由用户改变融合权重。
+- 系数为预先固定的规则，不得依据刚结束的少量比赛反向调整；只有扩大样本并完成时序切分回测后才能变更。
+- `fusion_ranking_score` 只用于排序，不是概率。
 
-只有在用户明确要求提高赛果命中或覆盖大比分时，使用 `hit_hunting`。EventFlow 在数据置信度低时必须降级为「概率基准 + 弱尾部修正」，并明确标注。
+抗过拟合细节见 `docs/v38_anti_overfit_dynamic_fusion.md`。
 
 ---
 
@@ -345,7 +347,7 @@ python -m unittest tests.test_v35_realtime_availability_lambda tests.test_v35_fu
   },
   "eventflow_process_summary": {
     "summary": "EventFlow 推理主线一句话摘要",
-    "fusion_weight_note": "V2 50% + EventFlow 50%；本字段仅解释 EventFlow 侧",
+    "fusion_weight_note": "权重由 auto_dynamic_v1 根据赛前证据可靠性自动生成；本字段仅解释 EventFlow 侧",
     "evidence_gate": {
       "uses_pre_match_evidence_only": true,
       "pre_match_evidence_count": 8,

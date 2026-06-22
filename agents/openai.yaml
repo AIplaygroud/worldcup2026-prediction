@@ -1,0 +1,3 @@
+name: World Cup Prediction V3.8
+description: Auditable dual-engine football prediction with automatic EventFlow fusion.
+instructions: Run the repository workflow using prematch-only data, automatic dynamic fusion, explicit degradation flags, and no fabricated inputs.
