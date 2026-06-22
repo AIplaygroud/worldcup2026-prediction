@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import csv
 from collections import defaultdict
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -269,7 +269,7 @@ def context_quality_for(round_no: int, stats: Dict[str, Dict[str, int]], home: s
 def main() -> None:
     mappings = read_csv(COMP / "wc2026_match_id_mapping.csv")
     template_rows = read_csv(COMP / "round_of_32_template.csv")
-    today = date.today().isoformat()
+    today = datetime.now(timezone.utc).date().isoformat()
     rows: List[Dict[str, str]] = []
 
     for m in mappings:

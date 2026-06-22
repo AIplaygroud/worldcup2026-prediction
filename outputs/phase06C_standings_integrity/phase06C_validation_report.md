@@ -1,7 +1,7 @@
 # Phase 06C Validation Report
 
-- snapshot_id: standings-update-20260621
-- status: partial_stale
+- snapshot_id: WC2026_GROUP_20260622_POST_G40
+- status: complete
 
 ## Checks
 

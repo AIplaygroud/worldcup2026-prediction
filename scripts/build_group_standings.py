@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import csv
 from collections import defaultdict
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -172,7 +172,12 @@ def build_notes(
         notes.append("Knockout stage confirmed after R2 (group leader on 6pts).")
     if group == "B" and team == "Canada" and rank == 1 and pts >= 4 and played >= 2:
         notes.append("Group B leader after R2; ahead of Switzerland on overall goal difference.")
-    tied = [s for s in ranked if s["points"] == pts and gd(s) == gd(stats)]
+    tied = [
+        s for s in ranked
+        if s["points"] == pts
+        and gd(s) == gd(stats)
+        and s["goals_for"] == stats["goals_for"]
+    ]
     if len(tied) > 1 and any(
         fair_play.get(s["team_en"], 0) == fair_play.get(team, 0)
         for s in tied if s["team_en"] != team
@@ -195,7 +200,7 @@ def main() -> None:
     groups = load_groups()
     matches = load_matches()
     fair_play = load_fair_play()
-    today = date.today().isoformat()
+    today = datetime.now(timezone.utc).date().isoformat()
 
     group_stats: dict[str, dict[str, dict]] = {
         g: {t: init_stats(t) for t in teams} for g, teams in groups.items()
@@ -218,7 +223,10 @@ def main() -> None:
             played = stats["played"]
             status = "provisional" if played < 3 else "final"
             if played >= 2 and any(
-                s["points"] == stats["points"] and gd(s) == gd(stats) and s["team_en"] != team
+                s["points"] == stats["points"]
+                and gd(s) == gd(stats)
+                and s["goals_for"] == stats["goals_for"]
+                and s["team_en"] != team
                 for s in ranked
             ):
                 if fair_play:

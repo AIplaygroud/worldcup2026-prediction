@@ -504,7 +504,7 @@ def build_source_notes(snap: str, incentives: list[dict], cutoff: str) -> list[d
     return rows
 
 
-def run_phase06_scripts(snap: str, cutoff: str) -> None:
+def run_phase06_scripts(snap: str, cutoff: str, round_num: int) -> None:
     py = sys.executable
     subprocess.run(
         [py, str(SCRIPTS / "build_live_group_standings.py"),
@@ -518,7 +518,7 @@ def run_phase06_scripts(snap: str, cutoff: str) -> None:
     )
     subprocess.run(
         [py, str(SCRIPTS / "build_match_incentive_features.py"),
-         "--snapshot-id", snap, "--source-cutoff-time", cutoff, "--round", "2"],
+         "--snapshot-id", snap, "--source-cutoff-time", cutoff, "--round", str(round_num)],
         check=True, cwd=ROOT,
     )
 
@@ -527,6 +527,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--source-cutoff-time", default="2026-06-20T12:00:00Z")
     ap.add_argument("--snapshot-id", default="WC2026_GROUP_20260620_PRE_F35")
+    ap.add_argument("--round", type=int, default=2, choices=(2, 3))
     ap.add_argument("--skip-phase06", action="store_true")
     ap.add_argument("--allow-partial-standings", action="store_true")
     ap.add_argument("--skip-integrity-check", action="store_true")
@@ -561,7 +562,7 @@ def main() -> None:
             )
 
     if not args.skip_phase06:
-        run_phase06_scripts(snap, cutoff)
+        run_phase06_scripts(snap, cutoff, args.round)
 
     standings_raw = read_csv(PHASE06_DIR / "live_group_standings.csv")
     snapshot_standings = [r for r in standings_raw if r.get("snapshot_id") == snap]
@@ -590,7 +591,7 @@ def main() -> None:
         info = classify_path_state(
             p["team"], p["group"], int(p["current_rank"]), standings,
             remaining.get(p["group"], []),
-            round_num=2,
+            round_num=args.round,
             cutoff=cutoff_dt,
         )
         path_details[p["team"]] = {**info, **p}
@@ -622,6 +623,9 @@ def main() -> None:
     )
     write_csv(RUNTIME_DIR / "bracket_route_runtime_R2.csv", BRACKET_FIELDS, bracket)
     write_csv(RUNTIME_DIR / "match_incentive_runtime_R2.csv", RUNTIME_INCENTIVE_FIELDS, runtime)
+    if args.round == 3:
+        write_csv(RUNTIME_DIR / "bracket_route_runtime_R3.csv", BRACKET_FIELDS, bracket)
+        write_csv(RUNTIME_DIR / "match_incentive_runtime_R3.csv", RUNTIME_INCENTIVE_FIELDS, runtime)
 
     source_notes = build_source_notes(snap, incentives, cutoff)
     write_csv(
