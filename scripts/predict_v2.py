@@ -61,6 +61,7 @@ COUNTER_FLOOR_CONF_CAP_LOW = 0.70
 COUNTER_FLOOR = COUNTER_FLOOR_BASE  # legacy alias; L2 uses dynamic_counter_floor
 RHO = -0.045           # Dixon-Coles 低分相关
 MAXG = 8               # 每段最大进球枚举
+OPEN_INTERVAL_EPSILON = 1e-6  # 仅防止数值概率达到 0/1；不是人为胜率上限
 
 # 档位地板（来自 skill.md 第四节球队分档）：仅在 xG 明显低估真实实力时抬升
 TIER = {
@@ -114,6 +115,17 @@ def znum(row, key, default=0.0):
 
 def clip(x, lo, hi):
     return max(lo, min(hi, x))
+
+
+def open_interval_probabilities(prob_map: dict[str, float], epsilon: float = OPEN_INTERVAL_EPSILON) -> dict[str, float]:
+    """Clip probabilities into (0, 1) and renormalize.
+
+    This protects downstream JSON/UI consumers from exact 0/100% while avoiding
+    any material fixed cap such as the removed 85% rule.
+    """
+    clipped = {k: clip(float(v), epsilon, 1.0 - epsilon) for k, v in prob_map.items()}
+    total = sum(clipped.values()) or 1.0
+    return {k: v / total for k, v in clipped.items()}
 
 
 def load_data():
@@ -830,6 +842,12 @@ def build_v2_diagnostics(result, ctx, data, match_id="") -> dict:
     ratio = lam_h / max(lam_a, 0.01)
     imbalance = abs(ratio - 1.0)
     top3_str = ", ".join(f"{i}-{j}({p*100:.1f}%)" for i, j, p in top3)
+    raw_outcome_probability = {
+        "home_win": m["pH"],
+        "draw": m["pD"],
+        "away_win": m["pA"],
+    }
+    final_outcome_probability = open_interval_probabilities(raw_outcome_probability)
     if imbalance >= 0.8:
         reason = f"λ比={ratio:.2f}，强弱差距大，Top3偏向{top3[0][0]}-{top3[0][1]}等一侧比分"
     elif imbalance <= 0.35:
@@ -854,6 +872,14 @@ def build_v2_diagnostics(result, ctx, data, match_id="") -> dict:
         "probability_top3_reason": reason,
         "probability_top3": [f"{i}-{j}" for i, j, _ in top3],
         "probability_data_degraded": degraded,
+        "raw_probability": {k: round(v, 6) for k, v in raw_outcome_probability.items()},
+        "calibrated_probability": {
+            "status": "not_available_in_v2_runtime",
+            "note": "When an out-of-time calibration table is available, publish calibrated_probability; current runtime keeps raw model probabilities and applies only open-interval epsilon protection.",
+        },
+        "final_probability": {k: round(v, 6) for k, v in final_outcome_probability.items()},
+        "probability_open_interval_epsilon": OPEN_INTERVAL_EPSILON,
+        "probability_cap_policy": "no_fixed_85_cap; epsilon_only_prevents_exact_0_or_1",
         "wc_def_blend_applied_home": result.get("base_info", {}).get("wc_def_blend_applied_home"),
         "wc_def_blend_applied_away": result.get("base_info", {}).get("wc_def_blend_applied_away"),
         "raw_deff_home": result.get("base_info", {}).get("raw_deff_h"),

@@ -16,6 +16,7 @@ from eventflow_htft import (
     resolve_source_notes_path,
     resolve_eventflow_merge_attachments,
     validate_htft_output,
+    halftime_layer_status,
 )
 from scenario_realization_common import load_v37_features
 from eventflow_dynamic_weight import AUTO_MODE, MODE_CHOICES, compute_dynamic_fusion_profile
@@ -537,7 +538,8 @@ def main() -> None:
 
     out: List[Dict[str, Any]] = []
     eventflow_match_status = (
-        "active" if ev_rows else "missing_match_fallback_zero"
+        "degraded_probability_only" if eventflow_degraded_pre
+        else ("active" if ev_rows else "missing_match_fallback_zero")
     )
     for score in scores:
         ev = ev_by_score.get(score, {})
@@ -595,6 +597,12 @@ def main() -> None:
         ev_json, mid, home, away, lam_home, lam_away,
     )
     htft_top3 = ef_attach["half_full_time_top3"]
+    eventflow_degraded = bool(eventflow_degraded_pre or dynamic_profile.get("eventflow_weight", 0.0) == 0.0)
+    halftime_status = halftime_layer_status(
+        dq, dynamic_profile, eventflow_degraded=eventflow_degraded, htft_top3=htft_top3
+    )
+    if not halftime_status.get("halftime_output_allowed"):
+        htft_top3 = []
     activated = ef_attach["activated_scenarios"]
     ef_engine = ev_json.get("eventflow_engine", {}) or {}
     if not ef_attach.get("eventflow_json_aligned"):
@@ -604,19 +612,19 @@ def main() -> None:
         )
     top3 = out[:3]
     baseline_degraded = ev_json.get("baseline_degraded", False)
-    eventflow_degraded = ev_json.get("eventflow_data_degraded", False)
 
     v37_features = load_v37_features(mid) if use_v37 else None
     risk_reserve: List[Dict[str, Any]] = []
     v37_guard_summary: Dict[str, Any] = {}
     if use_v37 and v37_features:
-        risk_reserve = build_v37_cold_reserve(
-            prob_by_score,
-            [r["score"] for r in top3],
-            v37_features,
-            max_reserve=args.cold_reserve_max,
-        )
+        v37_loaded = bool(v37_features.get("loaded"))
+        v37_quality = str(v37_features.get("data_quality_grade", "degraded") or "degraded")
+        v37_usable = v37_loaded and v37_quality != "degraded"
         v37_guard_summary = {
+            "loaded": v37_loaded,
+            "data_quality_grade": v37_quality,
+            "applied": v37_usable,
+            "reason": "loaded" if v37_usable else "v37_features_not_loaded_or_degraded",
             "group_pressure": (
                 f"{v37_features.get('pressure_type_home')} / "
                 f"{v37_features.get('pressure_type_away')}"
@@ -624,13 +632,21 @@ def main() -> None:
             "attack_conversion_gate": round(float(v37_features.get("attack_conversion_home", 0.5)), 3),
             "early_goal_cascade_index": round(float(v37_features.get("early_goal_cascade_index", 0)), 3),
             "low_block_keeper_guard": round(float(v37_features.get("cold_draw_guard_score", 0)), 3),
-            "active_flags": v37_features.get("active_flags", []),
-            "risk_reserve_scorelines": risk_reserve,
+            "active_flags": v37_features.get("active_flags", []) if v37_usable else [],
+            "risk_reserve_scorelines": [],
             "betting_risk_flags": [],
             "phase1_egci_enabled": False,
         }
-        from apply_v37_realization_guards import _risk_flags
-        v37_guard_summary["betting_risk_flags"] = _risk_flags(v37_features)
+        if v37_usable:
+            risk_reserve = build_v37_cold_reserve(
+                prob_by_score,
+                [r["score"] for r in top3],
+                v37_features,
+                max_reserve=args.cold_reserve_max,
+            )
+            v37_guard_summary["risk_reserve_scorelines"] = risk_reserve
+            from apply_v37_realization_guards import _risk_flags
+            v37_guard_summary["betting_risk_flags"] = _risk_flags(v37_features)
 
     payload = {
         "match": f"{home} vs {away}",
@@ -655,6 +671,7 @@ def main() -> None:
         "eventflow_data_degraded": eventflow_degraded,
         "degradation_reason": degradation_reason,
         "data_quality": dq,
+        "halftime_layer_status": halftime_status,
         "probability_engine": {
             "lambda_home": lam_home,
             "lambda_away": lam_away,
@@ -675,6 +692,7 @@ def main() -> None:
         "eventflow_engine": {
             "eventflow_data_degraded": eventflow_degraded,
             "eventflow_match_status": eventflow_match_status,
+            "halftime_layer_status": halftime_status,
             "half_full_time_source": ef_attach.get("half_full_time_source", "eventflow_json"),
             "eventflow_json_aligned": ef_attach.get("eventflow_json_aligned", True),
             "competition_context": ef_attach.get("competition_context", {}),
@@ -705,6 +723,8 @@ def main() -> None:
                 "dynamic_weight_policy": dynamic_profile["policy"],
                 "probability_weight": p_weight,
                 "eventflow_weight": e_weight,
+                "eventflow_degraded": eventflow_degraded,
+                "v37_feature_layer": v37_guard_summary if use_v37 else {},
             },
             "score_ranking": [
                 {
@@ -730,6 +750,7 @@ def main() -> None:
                 for r in top3
             ],
             "total_goals": total_goals_fusion([r["score"] for r in top3]),
+            "halftime_layer_status": halftime_status,
             "half_full_time_top3": htft_top3,
             "half_full_time": [h.get("label", "") for h in htft_top3[:3]],
             "confidence": confidence_label(prob_rows, len(activated), dq),
@@ -748,7 +769,11 @@ def main() -> None:
     if use_v37:
         payload["v37_guard_summary"] = v37_guard_summary
         payload["final_fusion"]["risk_reserve_scorelines"] = risk_reserve
-        payload["final_fusion"]["v37_phase1_enabled"] = True
+        payload["final_fusion"]["v37_phase1_enabled"] = bool(v37_guard_summary.get("applied"))
+        if not v37_guard_summary.get("applied"):
+            payload["final_fusion"]["risk_notes"].append(
+                "V3.7特征层未加载或已降级：已按 fail-closed 处理，不参与融合/投注守门"
+            )
         if risk_reserve:
             payload["final_fusion"]["risk_notes"].append(
                 "V3.7 cold reserve: " + ", ".join(r["score"] for r in risk_reserve)

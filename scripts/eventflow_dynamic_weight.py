@@ -104,12 +104,17 @@ def compute_dynamic_fusion_profile(
     real_ratio = _num(data_quality, "real_data_ratio")
 
     row_coverage = clip(real_rows / 12.0)
-    layer_coverage = clip(1.0 - missing_layers / 5.0)
+    layer_coverage = clip(_num(data_quality, "coverage_score", 1.0 - missing_layers / 5.0))
+    authenticity = clip(_num(data_quality, "authenticity_score", real_ratio))
+    freshness = clip(_num(data_quality, "freshness_score", 0.55))
+    consistency = clip(_num(data_quality, "consistency_score", 1.0))
     estimate_penalty = clip(estimated_rows / max(1.0, real_rows + estimated_rows))
     data_coverage = clip(
-        0.40 * row_coverage
-        + 0.35 * layer_coverage
-        + 0.25 * real_ratio
+        0.30 * row_coverage
+        + 0.30 * layer_coverage
+        + 0.20 * authenticity
+        + 0.10 * freshness
+        + 0.10 * consistency
         - 0.25 * estimate_penalty
     )
 
@@ -175,6 +180,10 @@ def compute_dynamic_fusion_profile(
         "reliability_score": round(reliability, 4),
         "components": {
             "data_coverage": round(data_coverage, 4),
+            "authenticity_score": round(authenticity, 4),
+            "coverage_score": round(layer_coverage, 4),
+            "freshness_score": round(freshness, 4),
+            "consistency_score": round(consistency, 4),
             "evidence_strength": round(evidence_strength, 4),
             "scenario_specificity": round(specificity, 4),
             "scenario_concentration": round(concentration, 4),

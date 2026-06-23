@@ -69,7 +69,8 @@ def main() -> None:
                     if m.get(key):
                         api_by_id[mid][key] = m[key]
 
-    api_top8 = sorted(api_by_id.values(), key=lambda x: (x["matchDate"], x["matchTime"]))[:8]
+    api_top8 = sorted(api_by_id.values(), key=lambda x: (x["matchDate"], x["matchTime"]))
+    api_top8 = [m for m in api_top8 if m.get("leagueAbbName") == "世界杯"][:8]
     local_ids = [m["matchId"] for m in local_matches]
     api_ids = [m["matchId"] for m in api_top8]
 
@@ -83,7 +84,7 @@ def main() -> None:
     ok = True
 
     if local_ids == api_ids:
-        print("[PASS] 场次选择与排序：与 API 在售前 8 场一致")
+        print("[PASS] 场次选择与排序：与 API 世界杯在售前 8 场一致")
     else:
         ok = False
         print("[FAIL] 场次选择与排序不一致")

@@ -48,3 +48,20 @@ Database tables:
 - database/eventflow/processed/dual_engine_predictions.csv
 - database/eventflow/processed/eventflow_backtest.csv
 - database/eventflow/processed/eventflow_data_quality.csv
+
+R2-G44 standings/path update:
+- docs/v38_r2_g44_standings_path_update.md
+- scripts/generate_standings_situation_report.py
+- outputs/standings_update_20260623_post_g44.md
+- outputs/phase06_group_state/group_situation_report.md
+- database/competition/live_group_standings.csv
+- database/competition/third_place_rankings.csv
+- database/competition/advancement_path_snapshot.csv
+- database/competition/runtime/match_incentive_runtime_R3.csv
+- database/competition/runtime/bracket_route_runtime_R3.csv
+
+R2 last-day incentive impact update:
+- docs/v38_r2_last_day_incentive_impact_update.md
+- scripts/generate_r2_last_day_incentive_impact.py
+- outputs/r2_last_day_incentive_impact_20260623_post_g44.md
+- database/competition/runtime/r2_last_day_incentive_impact_post_g44.csv

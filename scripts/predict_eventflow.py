@@ -12,7 +12,7 @@ from eventflow_common import (
     fnum, snum, top_score_distribution, htft_label, normalize_weights,
 )
 from eventflow_v32_gates import parse_gates_json, competition_context_for
-from eventflow_htft import compute_htft_top3, enrich_phase_simulation, summarize_data_quality, count_prematch_evidence
+from eventflow_htft import compute_htft_top3, enrich_phase_simulation, summarize_data_quality, count_prematch_evidence, halftime_layer_status
 from eventflow_dynamic_weight import AUTO_MODE, MODE_CHOICES, compute_dynamic_fusion_profile
 
 SCORE_FAMILY_BONUS = {
@@ -27,10 +27,43 @@ DEGRADED_REASON = (
     "EventFlow disabled because match-specific scenario rows are unavailable."
 )
 
+# Scenario-library score families such as 2-0/3-0 are written from the
+# advantaged/favorite side. When the away team is the favorite, these families
+# must be mirrored to 0-2/0-3. Mixed/chaos scenarios already contain both
+# directions and are intentionally left unchanged.
+FAVORITE_ORIENTED_SCENARIOS = {
+    "S01_favorite_early_break_open",
+    "S02_low_block_survival",
+    "S03_wide_overload_crossfire",
+    "S04_press_trap_turnover_goal",
+    "S06_set_piece_breakthrough",
+    "S09_fatigue_travel_second_half_drop",
+    "S12_rotation_tempo_drop",
+    "S17_group_top_spot_controlled_win",
+}
+
 
 def parse_score(s: str) -> Tuple[int, int]:
     h, a = s.split("-")
     return int(h), int(a)
+
+
+def mirror_score(score: str) -> str:
+    h, a = parse_score(score)
+    return f"{a}-{h}"
+
+
+def score_family_for_match(row: Dict[str, str], favorite_is_home: bool) -> List[str]:
+    fam = [x.strip() for x in snum(row, "score_family").split(";") if x.strip()]
+    if favorite_is_home or snum(row, "scenario_id") not in FAVORITE_ORIENTED_SCENARIOS:
+        return fam
+    mirrored: List[str] = []
+    for score in fam:
+        try:
+            mirrored.append(mirror_score(score))
+        except Exception:
+            mirrored.append(score)
+    return list(dict.fromkeys(mirrored))
 
 
 def total_bucket(score: str) -> str:
@@ -135,10 +168,10 @@ def source_fusion_metrics(match_id: str, evidence_counts: Dict[str, int]) -> Dic
     }
 
 
-def build_activated_payload(activated: List[Dict[str, str]]) -> List[Dict[str, Any]]:
+def build_activated_payload(activated: List[Dict[str, str]], favorite_is_home: bool = True) -> List[Dict[str, Any]]:
     out = []
     for s in activated:
-        fam = [x.strip() for x in snum(s, "score_family").split(";") if x.strip()]
+        fam = score_family_for_match(s, favorite_is_home)
         raw_total = fnum(s, "raw_total_score") or _w(s)
         out.append({
             "scenario_id": snum(s, "scenario_id"),
@@ -154,7 +187,11 @@ def build_activated_payload(activated: List[Dict[str, str]]) -> List[Dict[str, A
 
 
 def event_bonus_for_score(
-    score: str, all_scenarios: List[Dict[str, str]], activated: List[Dict[str, str]], tail_strength: float,
+    score: str,
+    all_scenarios: List[Dict[str, str]],
+    activated: List[Dict[str, str]],
+    tail_strength: float,
+    favorite_is_home: bool = True,
 ) -> Tuple[float, List[str], List[str], List[str]]:
     # No unconditional scoreline bonus. Tail scores must be supported by
     # match-specific scenarios; a global 3-1/4-1 preference overfits blowouts.
@@ -170,7 +207,7 @@ def event_bonus_for_score(
         weight *= est_penalty
         if sid not in activated_ids:
             weight *= 0.35
-        fam = [x.strip() for x in snum(s, "score_family").split(";") if x.strip()]
+        fam = score_family_for_match(s, favorite_is_home)
         if score in fam:
             contribution = weight * 0.22 * tail_strength
             if sid == "S11_group_state_draw_control" and score == "1-1":
@@ -207,6 +244,7 @@ def generate_candidates(
     lam_home: float, lam_away: float, all_scenarios: List[Dict[str, str]],
     activated: List[Dict[str, str]], mode: str = AUTO_MODE, degraded: bool = False,
     dynamic_profile: Dict[str, Any] | None = None,
+    favorite_is_home: bool = True,
 ) -> List[Dict[str, Any]]:
     profile = dynamic_profile or {
         "tail_strength": 0.70,
@@ -223,7 +261,7 @@ def generate_candidates(
             sids: List[str] = []
         else:
             b, sids, reasons, _ = event_bonus_for_score(
-                score, all_scenarios, activated, tail_strength
+                score, all_scenarios, activated, tail_strength, favorite_is_home
             )
             event_score = max(0.0, b)
             reason = "；".join(reasons[:3]) if reasons else "多剧本事件证据排序"
@@ -302,6 +340,7 @@ def main() -> None:
         or data_quality.get("real_data_ratio", 0) < 0.25
     )
     source_metrics = source_fusion_metrics(args.match_id, evidence_counts)
+    favorite_is_home = args.lam_home >= args.lam_away
     dynamic_profile = compute_dynamic_fusion_profile(
         data_quality=data_quality,
         source_fusion=source_metrics,
@@ -319,7 +358,7 @@ def main() -> None:
             max_n=int(dynamic_profile["active_scenario_limit"]),
         )
     )
-    activated = build_activated_payload(activated_raw)
+    activated = build_activated_payload(activated_raw, favorite_is_home=favorite_is_home)
     phase_sim = enrich_phase_simulation(activated, all_scenarios, args.match_id) if activated else {}
     if evidence_counts.get("pre_match_evidence_count", 0) == 0 and evidence_counts.get("excluded_post_match_evidence_count", 0) > 0:
         degradation_reason = degradation_reason or "no_prematch_evidence"
@@ -334,10 +373,16 @@ def main() -> None:
     ) if activated else []
     if fallback_ratio >= 0.50:
         eventflow_degraded = True
+    halftime_status = halftime_layer_status(
+        data_quality, dynamic_profile, eventflow_degraded=eventflow_degraded, htft_top3=htft_top3
+    )
+    if not halftime_status.get("halftime_output_allowed"):
+        htft_top3 = []
     cand = generate_candidates(
         args.lam_home, args.lam_away, all_scenarios, activated_raw, args.mode,
         degraded=eventflow_degraded,
         dynamic_profile=dynamic_profile,
+        favorite_is_home=favorite_is_home,
     )
     now = datetime.now(timezone.utc).isoformat()
 
@@ -365,6 +410,10 @@ def main() -> None:
         "mode": dynamic_profile["effective_mode"],
         "requested_mode": args.mode,
         "dynamic_weight_profile": dynamic_profile,
+        "score_family_perspective": {
+            "favorite_is_home": favorite_is_home,
+            "policy": "favorite_oriented_scenarios_are_mirrored_when_away_is_favorite",
+        },
         "baseline_degraded": baseline_degraded,
         "eventflow_data_degraded": eventflow_degraded,
         "degradation_reason": degradation_reason,
@@ -372,6 +421,7 @@ def main() -> None:
         "fallback_ratio": fallback_ratio,
         "evidence_isolation": evidence_counts,
         "data_quality": data_quality,
+        "halftime_layer_status": halftime_status,
         "eventflow_process_summary": eventflow_process_summary,
         "eventflow_engine": {
             "lambda_home": args.lam_home,
@@ -382,6 +432,10 @@ def main() -> None:
             "precision_warning": precision_warning,
             "fallback_ratio": fallback_ratio,
             "dynamic_weight_profile": dynamic_profile,
+            "score_family_perspective": {
+                "favorite_is_home": favorite_is_home,
+                "mirrored_favorite_oriented_scenarios": not favorite_is_home,
+            },
             "activated_scenarios": activated,
             "all_scenario_weights": [
                 {
@@ -393,6 +447,7 @@ def main() -> None:
             ],
             "phase_simulation": phase_sim,
             "top_scores": top_scores,
+            "halftime_layer_status": halftime_status,
             "half_full_time_top3": htft_top3,
             "half_full_time": [h["label"] for h in htft_top3],
             "total_goals": total_goals_range(top_scores) if top_scores else "未知",

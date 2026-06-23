@@ -1,7 +1,7 @@
 # Phase 06 Group State Build Report
 
-- **snapshot_id**: `WC2026_GROUP_20260622_POST_G40`
-- **source_cutoff_time**: `2026-06-22T04:00:00Z`
+- **snapshot_id**: `WC2026_GROUP_20260623_POST_G44`
+- **source_cutoff_time**: `2026-06-23T04:00:00Z`
 - **teams covered**: 48
 - **third-place candidates**: 12
 
@@ -15,8 +15,8 @@
 - **Group F**: 1st/2nd — Netherlands (4pts), Japan (4pts); 3rd — Sweden (3pts)
 - **Group G**: 1st/2nd — Egypt (4pts), Iran (2pts); 3rd — Belgium (2pts)
 - **Group H**: 1st/2nd — Spain (4pts), Uruguay (2pts); 3rd — Cape Verde (2pts)
-- **Group I**: 1st/2nd — Norway (3pts), France (3pts); 3rd — Senegal (0pts)
-- **Group J**: 1st/2nd — Argentina (3pts), Austria (3pts); 3rd — Jordan (0pts)
+- **Group I**: 1st/2nd — France (6pts), Norway (6pts); 3rd — Senegal (0pts)
+- **Group J**: 1st/2nd — Argentina (6pts), Austria (3pts); 3rd — Algeria (3pts)
 - **Group K**: 1st/2nd — Colombia (3pts), DR Congo (1pts); 3rd — Portugal (1pts)
 - **Group L**: 1st/2nd — England (3pts), Ghana (3pts); 3rd — Panama (0pts)
 
@@ -25,11 +25,11 @@
 - #1 Sweden (Group F) — 3pts, GD 0, status=strong_position
 - #2 Scotland (Group C) — 3pts, GD 0, status=strong_position
 - #3 Paraguay (Group D) — 3pts, GD -2, status=strong_position
-- #4 Cape Verde (Group H) — 2pts, GD 0, status=strong_position
-- #5 Belgium (Group G) — 2pts, GD 0, status=bubble
-- #6 Portugal (Group K) — 1pts, GD 0, status=bubble
-- #7 Czechia (Group A) — 1pts, GD -1, status=bubble
-- #8 Ecuador (Group E) — 1pts, GD -1, status=bubble
+- #4 Algeria (Group J) — 3pts, GD -2, status=strong_position
+- #5 Cape Verde (Group H) — 2pts, GD 0, status=bubble
+- #6 Belgium (Group G) — 2pts, GD 0, status=bubble
+- #7 Portugal (Group K) — 1pts, GD 0, status=bubble
+- #8 Czechia (Group A) — 1pts, GD -1, status=bubble
 
 ## Match incentive summary (R2)
 
@@ -45,16 +45,16 @@
 - `WC2026-F58` Tunisia vs Netherlands: eliminated / near_clinched
 - `WC2026-D59` Turkey vs USA: must_win_big / clinched_top2
 - `WC2026-D60` Paraguay vs Australia: third_place_bubble / must_not_lose
-- `WC2026-I61` Norway vs France: near_clinched / near_clinched
-- `WC2026-I62` Senegal vs Iraq: must_win / must_win_big
+- `WC2026-I61` Norway vs France: clinched_top2 / clinched_top2
+- `WC2026-I62` Senegal vs Iraq: must_win_big / must_win_big
 - `WC2026-G63` Egypt vs Iran: top_slot_chase / control_destiny
 - `WC2026-G64` New Zealand vs Belgium: must_win / control_destiny
 - `WC2026-H65` Cape Verde vs Saudi Arabia: control_destiny / must_win
 - `WC2026-H66` Uruguay vs Spain: control_destiny / top_slot_chase
 - `WC2026-L67` Panama vs England: must_win / near_clinched
 - `WC2026-L68` Croatia vs Ghana: must_win / near_clinched
-- `WC2026-J69` Algeria vs Austria: must_win_big / near_clinched
-- `WC2026-J70` Jordan vs Argentina: must_win / near_clinched
+- `WC2026-J69` Algeria vs Austria: third_place_bubble / must_not_lose
+- `WC2026-J70` Jordan vs Argentina: must_win_big / clinched_top2
 - `WC2026-K71` Colombia vs Portugal: control_destiny / must_win
 - `WC2026-K72` DR Congo vs Uzbekistan: must_win / must_win
 

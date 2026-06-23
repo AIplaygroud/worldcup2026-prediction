@@ -488,9 +488,13 @@ def write_board_md(path: Path, meta: dict, records: list[dict]) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def build_records(raw_by_pool: dict[str, dict], limit: int) -> list[dict]:
+def build_records(
+    raw_by_pool: dict[str, dict], limit: int, wc_only: bool = True
+) -> list[dict]:
     merged = merge_matches(raw_by_pool)
     ordered = sorted(merged.values(), key=lambda m: (m["matchDate"], m["matchTime"]))
+    if wc_only:
+        ordered = [m for m in ordered if m.get("league") == "世界杯"]
     selected = ordered[:limit]
     return [build_match_record(m) for m in selected]
 
@@ -596,7 +600,7 @@ def build_meta(raw_by_pool: dict[str, dict], records: list[dict], fetched_at: st
     }
 
 
-def pull_odds(limit: int = 8) -> dict:
+def pull_odds(limit: int = 8, wc_only: bool = True) -> dict:
     pools = ["had,hhad", "crs", "ttg", "hafu"]
     raw_by_pool: dict[str, dict] = {}
     for pool in pools:
@@ -606,7 +610,7 @@ def pull_odds(limit: int = 8) -> dict:
         except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
             raw_by_pool[pool] = {"error": str(exc)}
 
-    records = build_records(raw_by_pool, limit)
+    records = build_records(raw_by_pool, limit, wc_only=wc_only)
     meta = build_meta(raw_by_pool, records)
     raw_path = save_raw_snapshot(meta, raw_by_pool)
     if not records:
@@ -621,10 +625,10 @@ def pull_odds(limit: int = 8) -> dict:
     return {"meta": meta, "paths": {"json": str(json_path), "raw": str(raw_path)}}
 
 
-def restore_from_raw(raw_path: Path, limit: int = 8) -> dict:
+def restore_from_raw(raw_path: Path, limit: int = 8, wc_only: bool = True) -> dict:
     payload = json.loads(raw_path.read_text(encoding="utf-8"))
     raw_by_pool = payload["rawByPool"]
-    records = build_records(raw_by_pool, limit)
+    records = build_records(raw_by_pool, limit, wc_only=wc_only)
     if not records:
         raise RuntimeError(f"raw snapshot has no recoverable matches: {raw_path}")
     meta = build_meta(
@@ -639,12 +643,18 @@ def restore_from_raw(raw_path: Path, limit: int = 8) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description="拉取竞彩足球世界杯在售赔率")
     parser.add_argument("--limit", type=int, default=8, help="拉取场次数（默认 8）")
+    parser.add_argument(
+        "--all-leagues",
+        action="store_true",
+        help="不过滤联赛，按全局开赛时间取前 N 场（默认仅世界杯）",
+    )
     parser.add_argument("--from-raw", type=Path, help="从已有 raw/api_snapshot_*.json 重建 processed 表")
     args = parser.parse_args()
+    wc_only = not args.all_leagues
     if args.from_raw:
-        result = restore_from_raw(args.from_raw, limit=args.limit)
+        result = restore_from_raw(args.from_raw, limit=args.limit, wc_only=wc_only)
     else:
-        result = pull_odds(limit=args.limit)
+        result = pull_odds(limit=args.limit, wc_only=wc_only)
     meta = result["meta"]
     if result.get("processedSkipped"):
         print(f"接口未返回可用场次，已保留现有 processed，仅保存 raw -> {ODDS_DIR}")

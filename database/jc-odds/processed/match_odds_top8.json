@@ -1,35 +1,2172 @@
 {
   "meta": {
     "source": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry",
-    "fetchedAt": "2026-06-21 18:27:02 +0800",
-    "lastUpdateTime": "2026-06-21 18:04:41",
+    "fetchedAt": "2026-06-23 16:38:24 +0800",
+    "lastUpdateTime": "2026-06-23 16:31:59",
     "matchCount": 8,
     "poolErrors": {}
   },
   "matches": [
     {
-      "matchId": 2040247,
-      "matchNum": 7037,
-      "matchNumStr": "周日037",
-      "matchDate": "2026-06-22",
-      "matchTime": "00:00:00",
+      "matchId": 2040255,
+      "matchNum": 2045,
+      "matchNumStr": "周二045",
+      "matchDate": "2026-06-24",
+      "matchTime": "01:00:00",
+      "matchKey": "POR-UZB",
+      "homeTeam": "葡萄牙",
+      "awayTeam": "乌兹别克斯坦",
+      "homeTeamOddsName": "葡萄牙",
+      "awayTeamOddsName": "乌兹别克",
+      "homeTeamAllName": "葡萄牙",
+      "awayTeamAllName": "乌兹别克斯坦",
+      "homeTeamEn": "Portugal",
+      "awayTeamEn": "Uzbekistan",
+      "homeTeamCode": "POR",
+      "awayTeamCode": "UZB",
+      "homeTeamApiCode": "POG",
+      "awayTeamApiCode": "UZB",
+      "homeTeamApiEnName": "POG",
+      "awayTeamApiEnName": "UZB",
+      "homeRank": "[K组3]",
+      "awayRank": "[K组4]",
+      "league": "世界杯",
+      "matchStatus": "Selling",
+      "remark": "比赛将在美国-得克萨斯州休斯敦举行",
+      "pools": {
+        "had": {
+          "label": "胜平负",
+          "selling": false,
+          "single": false
+        },
+        "hhad": {
+          "label": "让球胜平负",
+          "selling": true,
+          "single": true
+        },
+        "ttg": {
+          "label": "总进球",
+          "selling": true,
+          "single": true
+        },
+        "hafu": {
+          "label": "半全场",
+          "selling": true,
+          "single": true
+        },
+        "crs": {
+          "label": "比分",
+          "selling": true,
+          "single": true
+        }
+      },
+      "had": null,
+      "hhad": {
+        "goalLine": "-2",
+        "home": "1.98",
+        "draw": "4.05",
+        "away": "2.65",
+        "updateDate": "2026-06-23",
+        "updateTime": "15:18:23"
+      },
+      "ttg": [
+        {
+          "goals": "0",
+          "sp": "24.00"
+        },
+        {
+          "goals": "1",
+          "sp": "7.50"
+        },
+        {
+          "goals": "2",
+          "sp": "4.55"
+        },
+        {
+          "goals": "3",
+          "sp": "3.35"
+        },
+        {
+          "goals": "4",
+          "sp": "4.20"
+        },
+        {
+          "goals": "5",
+          "sp": "6.50"
+        },
+        {
+          "goals": "6",
+          "sp": "10.50"
+        },
+        {
+          "goals": "7+",
+          "sp": "13.50"
+        }
+      ],
+      "hafu": [
+        {
+          "code": "aa",
+          "label": "客/客",
+          "sp": "39.00"
+        },
+        {
+          "code": "ad",
+          "label": "客/平",
+          "sp": "29.00"
+        },
+        {
+          "code": "ah",
+          "label": "客/主",
+          "sp": "31.00"
+        },
+        {
+          "code": "da",
+          "label": "平/客",
+          "sp": "45.00"
+        },
+        {
+          "code": "dd",
+          "label": "平/平",
+          "sp": "13.00"
+        },
+        {
+          "code": "dh",
+          "label": "平/主",
+          "sp": "3.95"
+        },
+        {
+          "code": "ha",
+          "label": "主/客",
+          "sp": "85.00"
+        },
+        {
+          "code": "hd",
+          "label": "主/平",
+          "sp": "29.00"
+        },
+        {
+          "code": "hh",
+          "label": "主/主",
+          "sp": "1.31"
+        }
+      ],
+      "crs": [
+        {
+          "score": "0:0",
+          "code": "s00s00",
+          "sp": "24.00"
+        },
+        {
+          "score": "0:1",
+          "code": "s00s01",
+          "sp": "50.00"
+        },
+        {
+          "score": "0:2",
+          "code": "s00s02",
+          "sp": "150.0"
+        },
+        {
+          "score": "0:3",
+          "code": "s00s03",
+          "sp": "500.0"
+        },
+        {
+          "score": "0:4",
+          "code": "s00s04",
+          "sp": "1000"
+        },
+        {
+          "score": "0:5",
+          "code": "s00s05",
+          "sp": "1000"
+        },
+        {
+          "score": "1:0",
+          "code": "s01s00",
+          "sp": "7.75"
+        },
+        {
+          "score": "1:1",
+          "code": "s01s01",
+          "sp": "16.00"
+        },
+        {
+          "score": "1:2",
+          "code": "s01s02",
+          "sp": "70.00"
+        },
+        {
+          "score": "1:3",
+          "code": "s01s03",
+          "sp": "200.0"
+        },
+        {
+          "score": "1:4",
+          "code": "s01s04",
+          "sp": "700.0"
+        },
+        {
+          "score": "1:5",
+          "code": "s01s05",
+          "sp": "1000"
+        },
+        {
+          "score": "2:0",
+          "code": "s02s00",
+          "sp": "5.30"
+        },
+        {
+          "score": "2:1",
+          "code": "s02s01",
+          "sp": "9.50"
+        },
+        {
+          "score": "2:2",
+          "code": "s02s02",
+          "sp": "28.00"
+        },
+        {
+          "score": "2:3",
+          "code": "s02s03",
+          "sp": "150.0"
+        },
+        {
+          "score": "2:4",
+          "code": "s02s04",
+          "sp": "700.0"
+        },
+        {
+          "score": "2:5",
+          "code": "s02s05",
+          "sp": "1000"
+        },
+        {
+          "score": "3:0",
+          "code": "s03s00",
+          "sp": "5.10"
+        },
+        {
+          "score": "3:1",
+          "code": "s03s01",
+          "sp": "8.00"
+        },
+        {
+          "score": "3:2",
+          "code": "s03s02",
+          "sp": "40.00"
+        },
+        {
+          "score": "3:3",
+          "code": "s03s03",
+          "sp": "125.0"
+        },
+        {
+          "score": "4:0",
+          "code": "s04s00",
+          "sp": "8.50"
+        },
+        {
+          "score": "4:1",
+          "code": "s04s01",
+          "sp": "12.50"
+        },
+        {
+          "score": "4:2",
+          "code": "s04s02",
+          "sp": "45.00"
+        },
+        {
+          "score": "5:0",
+          "code": "s05s00",
+          "sp": "17.00"
+        },
+        {
+          "score": "5:1",
+          "code": "s05s01",
+          "sp": "24.00"
+        },
+        {
+          "score": "5:2",
+          "code": "s05s02",
+          "sp": "60.00"
+        },
+        {
+          "score": "负其他",
+          "code": "s1sa",
+          "sp": "600.0"
+        },
+        {
+          "score": "平其他",
+          "code": "s1sd",
+          "sp": "600.0"
+        },
+        {
+          "score": "胜其他",
+          "code": "s1sh",
+          "sp": "11.00"
+        }
+      ]
+    },
+    {
+      "matchId": 2040256,
+      "matchNum": 2046,
+      "matchNumStr": "周二046",
+      "matchDate": "2026-06-24",
+      "matchTime": "04:00:00",
+      "matchKey": "ENG-GHA",
+      "homeTeam": "英格兰",
+      "awayTeam": "加纳",
+      "homeTeamOddsName": "英格兰",
+      "awayTeamOddsName": "加纳",
+      "homeTeamAllName": "英格兰",
+      "awayTeamAllName": "加纳",
+      "homeTeamEn": "England",
+      "awayTeamEn": "Ghana",
+      "homeTeamCode": "ENG",
+      "awayTeamCode": "GHA",
+      "homeTeamApiCode": "ENG",
+      "awayTeamApiCode": "GHA",
+      "homeTeamApiEnName": "ENG",
+      "awayTeamApiEnName": "GHA",
+      "homeRank": "[L组1]",
+      "awayRank": "[L组2]",
+      "league": "世界杯",
+      "matchStatus": "Selling",
+      "remark": "比赛将在美国-马萨诸塞州福克斯伯勒举行",
+      "pools": {
+        "had": {
+          "label": "胜平负",
+          "selling": false,
+          "single": false
+        },
+        "hhad": {
+          "label": "让球胜平负",
+          "selling": true,
+          "single": false
+        },
+        "ttg": {
+          "label": "总进球",
+          "selling": true,
+          "single": true
+        },
+        "hafu": {
+          "label": "半全场",
+          "selling": true,
+          "single": true
+        },
+        "crs": {
+          "label": "比分",
+          "selling": true,
+          "single": true
+        }
+      },
+      "had": null,
+      "hhad": {
+        "goalLine": "-2",
+        "home": "2.20",
+        "draw": "3.80",
+        "away": "2.43",
+        "updateDate": "2026-06-23",
+        "updateTime": "15:55:13"
+      },
+      "ttg": [
+        {
+          "goals": "0",
+          "sp": "20.00"
+        },
+        {
+          "goals": "1",
+          "sp": "6.50"
+        },
+        {
+          "goals": "2",
+          "sp": "4.20"
+        },
+        {
+          "goals": "3",
+          "sp": "3.60"
+        },
+        {
+          "goals": "4",
+          "sp": "4.25"
+        },
+        {
+          "goals": "5",
+          "sp": "6.70"
+        },
+        {
+          "goals": "6",
+          "sp": "11.00"
+        },
+        {
+          "goals": "7+",
+          "sp": "17.00"
+        }
+      ],
+      "hafu": [
+        {
+          "code": "aa",
+          "label": "客/客",
+          "sp": "30.00"
+        },
+        {
+          "code": "ad",
+          "label": "客/平",
+          "sp": "28.00"
+        },
+        {
+          "code": "ah",
+          "label": "客/主",
+          "sp": "29.00"
+        },
+        {
+          "code": "da",
+          "label": "平/客",
+          "sp": "33.00"
+        },
+        {
+          "code": "dd",
+          "label": "平/平",
+          "sp": "11.00"
+        },
+        {
+          "code": "dh",
+          "label": "平/主",
+          "sp": "4.15"
+        },
+        {
+          "code": "ha",
+          "label": "主/客",
+          "sp": "80.00"
+        },
+        {
+          "code": "hd",
+          "label": "主/平",
+          "sp": "28.00"
+        },
+        {
+          "code": "hh",
+          "label": "主/主",
+          "sp": "1.35"
+        }
+      ],
+      "crs": [
+        {
+          "score": "0:0",
+          "code": "s00s00",
+          "sp": "20.00"
+        },
+        {
+          "score": "0:1",
+          "code": "s00s01",
+          "sp": "36.00"
+        },
+        {
+          "score": "0:2",
+          "code": "s00s02",
+          "sp": "125.0"
+        },
+        {
+          "score": "0:3",
+          "code": "s00s03",
+          "sp": "500.0"
+        },
+        {
+          "score": "0:4",
+          "code": "s00s04",
+          "sp": "1000"
+        },
+        {
+          "score": "0:5",
+          "code": "s00s05",
+          "sp": "1000"
+        },
+        {
+          "score": "1:0",
+          "code": "s01s00",
+          "sp": "6.70"
+        },
+        {
+          "score": "1:1",
+          "code": "s01s01",
+          "sp": "13.50"
+        },
+        {
+          "score": "1:2",
+          "code": "s01s02",
+          "sp": "40.00"
+        },
+        {
+          "score": "1:3",
+          "code": "s01s03",
+          "sp": "200.0"
+        },
+        {
+          "score": "1:4",
+          "code": "s01s04",
+          "sp": "700.0"
+        },
+        {
+          "score": "1:5",
+          "code": "s01s05",
+          "sp": "1000"
+        },
+        {
+          "score": "2:0",
+          "code": "s02s00",
+          "sp": "5.70"
+        },
+        {
+          "score": "2:1",
+          "code": "s02s01",
+          "sp": "8.50"
+        },
+        {
+          "score": "2:2",
+          "code": "s02s02",
+          "sp": "28.00"
+        },
+        {
+          "score": "2:3",
+          "code": "s02s03",
+          "sp": "175.0"
+        },
+        {
+          "score": "2:4",
+          "code": "s02s04",
+          "sp": "600.0"
+        },
+        {
+          "score": "2:5",
+          "code": "s02s05",
+          "sp": "1000"
+        },
+        {
+          "score": "3:0",
+          "code": "s03s00",
+          "sp": "6.00"
+        },
+        {
+          "score": "3:1",
+          "code": "s03s01",
+          "sp": "8.50"
+        },
+        {
+          "score": "3:2",
+          "code": "s03s02",
+          "sp": "30.00"
+        },
+        {
+          "score": "3:3",
+          "code": "s03s03",
+          "sp": "90.00"
+        },
+        {
+          "score": "4:0",
+          "code": "s04s00",
+          "sp": "9.50"
+        },
+        {
+          "score": "4:1",
+          "code": "s04s01",
+          "sp": "13.00"
+        },
+        {
+          "score": "4:2",
+          "code": "s04s02",
+          "sp": "42.00"
+        },
+        {
+          "score": "5:0",
+          "code": "s05s00",
+          "sp": "18.00"
+        },
+        {
+          "score": "5:1",
+          "code": "s05s01",
+          "sp": "24.00"
+        },
+        {
+          "score": "5:2",
+          "code": "s05s02",
+          "sp": "70.00"
+        },
+        {
+          "score": "负其他",
+          "code": "s1sa",
+          "sp": "600.0"
+        },
+        {
+          "score": "平其他",
+          "code": "s1sd",
+          "sp": "600.0"
+        },
+        {
+          "score": "胜其他",
+          "code": "s1sh",
+          "sp": "13.00"
+        }
+      ]
+    },
+    {
+      "matchId": 2040257,
+      "matchNum": 2047,
+      "matchNumStr": "周二047",
+      "matchDate": "2026-06-24",
+      "matchTime": "07:00:00",
+      "matchKey": "PAN-CRO",
+      "homeTeam": "巴拿马",
+      "awayTeam": "克罗地亚",
+      "homeTeamOddsName": "巴拿马",
+      "awayTeamOddsName": "克罗地亚",
+      "homeTeamAllName": "巴拿马",
+      "awayTeamAllName": "克罗地亚",
+      "homeTeamEn": "Panama",
+      "awayTeamEn": "Croatia",
+      "homeTeamCode": "PAN",
+      "awayTeamCode": "CRO",
+      "homeTeamApiCode": "PAM",
+      "awayTeamApiCode": "CRO",
+      "homeTeamApiEnName": "PAM",
+      "awayTeamApiEnName": "CRO",
+      "homeRank": "[L组3]",
+      "awayRank": "[L组4]",
+      "league": "世界杯",
+      "matchStatus": "Selling",
+      "remark": "比赛将在加拿大-多伦多举行",
+      "pools": {
+        "had": {
+          "label": "胜平负",
+          "selling": true,
+          "single": true
+        },
+        "hhad": {
+          "label": "让球胜平负",
+          "selling": true,
+          "single": false
+        },
+        "ttg": {
+          "label": "总进球",
+          "selling": true,
+          "single": true
+        },
+        "hafu": {
+          "label": "半全场",
+          "selling": true,
+          "single": true
+        },
+        "crs": {
+          "label": "比分",
+          "selling": true,
+          "single": true
+        }
+      },
+      "had": {
+        "home": "6.90",
+        "draw": "4.20",
+        "away": "1.34",
+        "updateDate": "2026-06-23",
+        "updateTime": "11:09:41"
+      },
+      "hhad": {
+        "goalLine": "+1",
+        "home": "2.65",
+        "draw": "3.60",
+        "away": "2.11",
+        "updateDate": "2026-06-23",
+        "updateTime": "11:37:54"
+      },
+      "ttg": [
+        {
+          "goals": "0",
+          "sp": "14.00"
+        },
+        {
+          "goals": "1",
+          "sp": "5.10"
+        },
+        {
+          "goals": "2",
+          "sp": "3.50"
+        },
+        {
+          "goals": "3",
+          "sp": "3.55"
+        },
+        {
+          "goals": "4",
+          "sp": "4.95"
+        },
+        {
+          "goals": "5",
+          "sp": "8.80"
+        },
+        {
+          "goals": "6",
+          "sp": "16.00"
+        },
+        {
+          "goals": "7+",
+          "sp": "24.00"
+        }
+      ],
+      "hafu": [
+        {
+          "code": "aa",
+          "label": "客/客",
+          "sp": "1.88"
+        },
+        {
+          "code": "ad",
+          "label": "客/平",
+          "sp": "17.00"
+        },
+        {
+          "code": "ah",
+          "label": "客/主",
+          "sp": "50.00"
+        },
+        {
+          "code": "da",
+          "label": "平/客",
+          "sp": "4.00"
+        },
+        {
+          "code": "dd",
+          "label": "平/平",
+          "sp": "6.65"
+        },
+        {
+          "code": "dh",
+          "label": "平/主",
+          "sp": "16.00"
+        },
+        {
+          "code": "ha",
+          "label": "主/客",
+          "sp": "22.00"
+        },
+        {
+          "code": "hd",
+          "label": "主/平",
+          "sp": "17.00"
+        },
+        {
+          "code": "hh",
+          "label": "主/主",
+          "sp": "13.00"
+        }
+      ],
+      "crs": [
+        {
+          "score": "0:0",
+          "code": "s00s00",
+          "sp": "14.00"
+        },
+        {
+          "score": "0:1",
+          "code": "s00s01",
+          "sp": "6.60"
+        },
+        {
+          "score": "0:2",
+          "code": "s00s02",
+          "sp": "6.50"
+        },
+        {
+          "score": "0:3",
+          "code": "s00s03",
+          "sp": "9.00"
+        },
+        {
+          "score": "0:4",
+          "code": "s00s04",
+          "sp": "18.00"
+        },
+        {
+          "score": "0:5",
+          "code": "s00s05",
+          "sp": "45.00"
+        },
+        {
+          "score": "1:0",
+          "code": "s01s00",
+          "sp": "15.50"
+        },
+        {
+          "score": "1:1",
+          "code": "s01s01",
+          "sp": "7.60"
+        },
+        {
+          "score": "1:2",
+          "code": "s01s02",
+          "sp": "6.00"
+        },
+        {
+          "score": "1:3",
+          "code": "s01s03",
+          "sp": "9.50"
+        },
+        {
+          "score": "1:4",
+          "code": "s01s04",
+          "sp": "20.00"
+        },
+        {
+          "score": "1:5",
+          "code": "s01s05",
+          "sp": "45.00"
+        },
+        {
+          "score": "2:0",
+          "code": "s02s00",
+          "sp": "36.00"
+        },
+        {
+          "score": "2:1",
+          "code": "s02s01",
+          "sp": "18.00"
+        },
+        {
+          "score": "2:2",
+          "code": "s02s02",
+          "sp": "18.00"
+        },
+        {
+          "score": "2:3",
+          "code": "s02s03",
+          "sp": "25.00"
+        },
+        {
+          "score": "2:4",
+          "code": "s02s04",
+          "sp": "45.00"
+        },
+        {
+          "score": "2:5",
+          "code": "s02s05",
+          "sp": "120.0"
+        },
+        {
+          "score": "3:0",
+          "code": "s03s00",
+          "sp": "125.0"
+        },
+        {
+          "score": "3:1",
+          "code": "s03s01",
+          "sp": "70.00"
+        },
+        {
+          "score": "3:2",
+          "code": "s03s02",
+          "sp": "60.00"
+        },
+        {
+          "score": "3:3",
+          "code": "s03s03",
+          "sp": "80.00"
+        },
+        {
+          "score": "4:0",
+          "code": "s04s00",
+          "sp": "500.0"
+        },
+        {
+          "score": "4:1",
+          "code": "s04s01",
+          "sp": "350.0"
+        },
+        {
+          "score": "4:2",
+          "code": "s04s02",
+          "sp": "350.0"
+        },
+        {
+          "score": "5:0",
+          "code": "s05s00",
+          "sp": "1000"
+        },
+        {
+          "score": "5:1",
+          "code": "s05s01",
+          "sp": "800.0"
+        },
+        {
+          "score": "5:2",
+          "code": "s05s02",
+          "sp": "800.0"
+        },
+        {
+          "score": "负其他",
+          "code": "s1sa",
+          "sp": "38.00"
+        },
+        {
+          "score": "平其他",
+          "code": "s1sd",
+          "sp": "500.0"
+        },
+        {
+          "score": "胜其他",
+          "code": "s1sh",
+          "sp": "350.0"
+        }
+      ]
+    },
+    {
+      "matchId": 2040258,
+      "matchNum": 2048,
+      "matchNumStr": "周二048",
+      "matchDate": "2026-06-24",
+      "matchTime": "10:00:00",
+      "matchKey": "COL-COD",
+      "homeTeam": "哥伦比亚",
+      "awayTeam": "刚果金",
+      "homeTeamOddsName": "哥伦比亚",
+      "awayTeamOddsName": "刚果金",
+      "homeTeamAllName": "哥伦比亚",
+      "awayTeamAllName": "刚果(金)",
+      "homeTeamEn": "Colombia",
+      "awayTeamEn": "DR Congo",
+      "homeTeamCode": "COL",
+      "awayTeamCode": "COD",
+      "homeTeamApiCode": "COM",
+      "awayTeamApiCode": "COD",
+      "homeTeamApiEnName": "COM",
+      "awayTeamApiEnName": "COD",
+      "homeRank": "[K组1]",
+      "awayRank": "[K组2]",
+      "league": "世界杯",
+      "matchStatus": "Selling",
+      "remark": "比赛将在墨西哥-萨波潘举行",
+      "pools": {
+        "had": {
+          "label": "胜平负",
+          "selling": true,
+          "single": false
+        },
+        "hhad": {
+          "label": "让球胜平负",
+          "selling": true,
+          "single": false
+        },
+        "ttg": {
+          "label": "总进球",
+          "selling": true,
+          "single": true
+        },
+        "hafu": {
+          "label": "半全场",
+          "selling": true,
+          "single": true
+        },
+        "crs": {
+          "label": "比分",
+          "selling": true,
+          "single": true
+        }
+      },
+      "had": {
+        "home": "1.35",
+        "draw": "3.90",
+        "away": "7.60",
+        "updateDate": "2026-06-23",
+        "updateTime": "13:45:06"
+      },
+      "hhad": {
+        "goalLine": "-1",
+        "home": "2.22",
+        "draw": "3.35",
+        "away": "2.63",
+        "updateDate": "2026-06-23",
+        "updateTime": "13:45:12"
+      },
+      "ttg": [
+        {
+          "goals": "0",
+          "sp": "10.00"
+        },
+        {
+          "goals": "1",
+          "sp": "4.40"
+        },
+        {
+          "goals": "2",
+          "sp": "3.15"
+        },
+        {
+          "goals": "3",
+          "sp": "3.60"
+        },
+        {
+          "goals": "4",
+          "sp": "6.00"
+        },
+        {
+          "goals": "5",
+          "sp": "12.00"
+        },
+        {
+          "goals": "6",
+          "sp": "21.00"
+        },
+        {
+          "goals": "7+",
+          "sp": "30.00"
+        }
+      ],
+      "hafu": [
+        {
+          "code": "aa",
+          "label": "客/客",
+          "sp": "13.50"
+        },
+        {
+          "code": "ad",
+          "label": "客/平",
+          "sp": "19.00"
+        },
+        {
+          "code": "ah",
+          "label": "客/主",
+          "sp": "27.00"
+        },
+        {
+          "code": "da",
+          "label": "平/客",
+          "sp": "15.50"
+        },
+        {
+          "code": "dd",
+          "label": "平/平",
+          "sp": "6.00"
+        },
+        {
+          "code": "dh",
+          "label": "平/主",
+          "sp": "3.85"
+        },
+        {
+          "code": "ha",
+          "label": "主/客",
+          "sp": "50.00"
+        },
+        {
+          "code": "hd",
+          "label": "主/平",
+          "sp": "19.00"
+        },
+        {
+          "code": "hh",
+          "label": "主/主",
+          "sp": "1.90"
+        }
+      ],
+      "crs": [
+        {
+          "score": "0:0",
+          "code": "s00s00",
+          "sp": "10.00"
+        },
+        {
+          "score": "0:1",
+          "code": "s00s01",
+          "sp": "18.00"
+        },
+        {
+          "score": "0:2",
+          "code": "s00s02",
+          "sp": "60.00"
+        },
+        {
+          "score": "0:3",
+          "code": "s00s03",
+          "sp": "200.0"
+        },
+        {
+          "score": "0:4",
+          "code": "s00s04",
+          "sp": "600.0"
+        },
+        {
+          "score": "0:5",
+          "code": "s00s05",
+          "sp": "1000"
+        },
+        {
+          "score": "1:0",
+          "code": "s01s00",
+          "sp": "5.60"
+        },
+        {
+          "score": "1:1",
+          "code": "s01s01",
+          "sp": "7.20"
+        },
+        {
+          "score": "1:2",
+          "code": "s01s02",
+          "sp": "22.00"
+        },
+        {
+          "score": "1:3",
+          "code": "s01s03",
+          "sp": "90.00"
+        },
+        {
+          "score": "1:4",
+          "code": "s01s04",
+          "sp": "500.0"
+        },
+        {
+          "score": "1:5",
+          "code": "s01s05",
+          "sp": "1000"
+        },
+        {
+          "score": "2:0",
+          "code": "s02s00",
+          "sp": "5.70"
+        },
+        {
+          "score": "2:1",
+          "code": "s02s01",
+          "sp": "5.70"
+        },
+        {
+          "score": "2:2",
+          "code": "s02s02",
+          "sp": "20.00"
+        },
+        {
+          "score": "2:3",
+          "code": "s02s03",
+          "sp": "100.0"
+        },
+        {
+          "score": "2:4",
+          "code": "s02s04",
+          "sp": "500.0"
+        },
+        {
+          "score": "2:5",
+          "code": "s02s05",
+          "sp": "1000"
+        },
+        {
+          "score": "3:0",
+          "code": "s03s00",
+          "sp": "9.00"
+        },
+        {
+          "score": "3:1",
+          "code": "s03s01",
+          "sp": "10.00"
+        },
+        {
+          "score": "3:2",
+          "code": "s03s02",
+          "sp": "28.00"
+        },
+        {
+          "score": "3:3",
+          "code": "s03s03",
+          "sp": "100.0"
+        },
+        {
+          "score": "4:0",
+          "code": "s04s00",
+          "sp": "19.00"
+        },
+        {
+          "score": "4:1",
+          "code": "s04s01",
+          "sp": "20.00"
+        },
+        {
+          "score": "4:2",
+          "code": "s04s02",
+          "sp": "65.00"
+        },
+        {
+          "score": "5:0",
+          "code": "s05s00",
+          "sp": "50.00"
+        },
+        {
+          "score": "5:1",
+          "code": "s05s01",
+          "sp": "70.00"
+        },
+        {
+          "score": "5:2",
+          "code": "s05s02",
+          "sp": "200.0"
+        },
+        {
+          "score": "负其他",
+          "code": "s1sa",
+          "sp": "500.0"
+        },
+        {
+          "score": "平其他",
+          "code": "s1sd",
+          "sp": "600.0"
+        },
+        {
+          "score": "胜其他",
+          "code": "s1sh",
+          "sp": "50.00"
+        }
+      ]
+    },
+    {
+      "matchId": 2040285,
+      "matchNum": 3049,
+      "matchNumStr": "周三049",
+      "matchDate": "2026-06-25",
+      "matchTime": "03:00:00",
+      "matchKey": "SUI-CAN",
+      "homeTeam": "瑞士",
+      "awayTeam": "加拿大",
+      "homeTeamOddsName": "瑞士",
+      "awayTeamOddsName": "加拿大",
+      "homeTeamAllName": "瑞士",
+      "awayTeamAllName": "加拿大",
+      "homeTeamEn": "Switzerland",
+      "awayTeamEn": "Canada",
+      "homeTeamCode": "SUI",
+      "awayTeamCode": "CAN",
+      "homeTeamApiCode": "SWI",
+      "awayTeamApiCode": "CAA",
+      "homeTeamApiEnName": "SWI",
+      "awayTeamApiEnName": "CAA",
+      "homeRank": "[B组2]",
+      "awayRank": "[B组1]",
+      "league": "世界杯",
+      "matchStatus": "Selling",
+      "remark": "比赛将在加拿大-温哥华举行",
+      "pools": {
+        "had": {
+          "label": "胜平负",
+          "selling": true,
+          "single": false
+        },
+        "hhad": {
+          "label": "让球胜平负",
+          "selling": true,
+          "single": false
+        },
+        "ttg": {
+          "label": "总进球",
+          "selling": true,
+          "single": true
+        },
+        "hafu": {
+          "label": "半全场",
+          "selling": true,
+          "single": true
+        },
+        "crs": {
+          "label": "比分",
+          "selling": true,
+          "single": true
+        }
+      },
+      "had": {
+        "home": "2.30",
+        "draw": "2.62",
+        "away": "3.20",
+        "updateDate": "2026-06-22",
+        "updateTime": "09:27:20"
+      },
+      "hhad": {
+        "goalLine": "-1",
+        "home": "4.95",
+        "draw": "4.05",
+        "away": "1.47",
+        "updateDate": "2026-06-22",
+        "updateTime": "09:27:20"
+      },
+      "ttg": [
+        {
+          "goals": "0",
+          "sp": "7.25"
+        },
+        {
+          "goals": "1",
+          "sp": "4.60"
+        },
+        {
+          "goals": "2",
+          "sp": "2.90"
+        },
+        {
+          "goals": "3",
+          "sp": "4.00"
+        },
+        {
+          "goals": "4",
+          "sp": "6.00"
+        },
+        {
+          "goals": "5",
+          "sp": "14.00"
+        },
+        {
+          "goals": "6",
+          "sp": "24.00"
+        },
+        {
+          "goals": "7+",
+          "sp": "40.00"
+        }
+      ],
+      "hafu": [
+        {
+          "code": "aa",
+          "label": "客/客",
+          "sp": "5.40"
+        },
+        {
+          "code": "ad",
+          "label": "客/平",
+          "sp": "14.00"
+        },
+        {
+          "code": "ah",
+          "label": "客/主",
+          "sp": "25.00"
+        },
+        {
+          "code": "da",
+          "label": "平/客",
+          "sp": "6.70"
+        },
+        {
+          "code": "dd",
+          "label": "平/平",
+          "sp": "4.15"
+        },
+        {
+          "code": "dh",
+          "label": "平/主",
+          "sp": "5.00"
+        },
+        {
+          "code": "ha",
+          "label": "主/客",
+          "sp": "30.00"
+        },
+        {
+          "code": "hd",
+          "label": "主/平",
+          "sp": "14.00"
+        },
+        {
+          "code": "hh",
+          "label": "主/主",
+          "sp": "3.80"
+        }
+      ],
+      "crs": [
+        {
+          "score": "0:0",
+          "code": "s00s00",
+          "sp": "7.25"
+        },
+        {
+          "score": "0:1",
+          "code": "s00s01",
+          "sp": "9.25"
+        },
+        {
+          "score": "0:2",
+          "code": "s00s02",
+          "sp": "16.00"
+        },
+        {
+          "score": "0:3",
+          "code": "s00s03",
+          "sp": "55.00"
+        },
+        {
+          "score": "0:4",
+          "code": "s00s04",
+          "sp": "125.0"
+        },
+        {
+          "score": "0:5",
+          "code": "s00s05",
+          "sp": "500.0"
+        },
+        {
+          "score": "1:0",
+          "code": "s01s00",
+          "sp": "7.25"
+        },
+        {
+          "score": "1:1",
+          "code": "s01s01",
+          "sp": "4.50"
+        },
+        {
+          "score": "1:2",
+          "code": "s01s02",
+          "sp": "10.00"
+        },
+        {
+          "score": "1:3",
+          "code": "s01s03",
+          "sp": "30.00"
+        },
+        {
+          "score": "1:4",
+          "code": "s01s04",
+          "sp": "100.0"
+        },
+        {
+          "score": "1:5",
+          "code": "s01s05",
+          "sp": "500.0"
+        },
+        {
+          "score": "2:0",
+          "code": "s02s00",
+          "sp": "10.50"
+        },
+        {
+          "score": "2:1",
+          "code": "s02s01",
+          "sp": "8.00"
+        },
+        {
+          "score": "2:2",
+          "code": "s02s02",
+          "sp": "11.50"
+        },
+        {
+          "score": "2:3",
+          "code": "s02s03",
+          "sp": "40.00"
+        },
+        {
+          "score": "2:4",
+          "code": "s02s04",
+          "sp": "150.0"
+        },
+        {
+          "score": "2:5",
+          "code": "s02s05",
+          "sp": "500.0"
+        },
+        {
+          "score": "3:0",
+          "code": "s03s00",
+          "sp": "23.00"
+        },
+        {
+          "score": "3:1",
+          "code": "s03s01",
+          "sp": "18.00"
+        },
+        {
+          "score": "3:2",
+          "code": "s03s02",
+          "sp": "30.00"
+        },
+        {
+          "score": "3:3",
+          "code": "s03s03",
+          "sp": "60.00"
+        },
+        {
+          "score": "4:0",
+          "code": "s04s00",
+          "sp": "60.00"
+        },
+        {
+          "score": "4:1",
+          "code": "s04s01",
+          "sp": "60.00"
+        },
+        {
+          "score": "4:2",
+          "code": "s04s02",
+          "sp": "100.0"
+        },
+        {
+          "score": "5:0",
+          "code": "s05s00",
+          "sp": "200.0"
+        },
+        {
+          "score": "5:1",
+          "code": "s05s01",
+          "sp": "200.0"
+        },
+        {
+          "score": "5:2",
+          "code": "s05s02",
+          "sp": "300.0"
+        },
+        {
+          "score": "负其他",
+          "code": "s1sa",
+          "sp": "150.0"
+        },
+        {
+          "score": "平其他",
+          "code": "s1sd",
+          "sp": "300.0"
+        },
+        {
+          "score": "胜其他",
+          "code": "s1sh",
+          "sp": "100.0"
+        }
+      ]
+    },
+    {
+      "matchId": 2040286,
+      "matchNum": 3050,
+      "matchNumStr": "周三050",
+      "matchDate": "2026-06-25",
+      "matchTime": "03:00:00",
+      "matchKey": "BIH-QAT",
+      "homeTeam": "波黑",
+      "awayTeam": "卡塔尔",
+      "homeTeamOddsName": "波黑",
+      "awayTeamOddsName": "卡塔尔",
+      "homeTeamAllName": "波黑",
+      "awayTeamAllName": "卡塔尔",
+      "homeTeamEn": "Bosnia and Herzegovina",
+      "awayTeamEn": "Qatar",
+      "homeTeamCode": "BIH",
+      "awayTeamCode": "QAT",
+      "homeTeamApiCode": "BOS",
+      "awayTeamApiCode": "QAT",
+      "homeTeamApiEnName": "BOS",
+      "awayTeamApiEnName": "QAT",
+      "homeRank": "[B组3]",
+      "awayRank": "[B组4]",
+      "league": "世界杯",
+      "matchStatus": "Selling",
+      "remark": "比赛将在美国-华盛顿州西雅图举行",
+      "pools": {
+        "had": {
+          "label": "胜平负",
+          "selling": true,
+          "single": true
+        },
+        "hhad": {
+          "label": "让球胜平负",
+          "selling": true,
+          "single": false
+        },
+        "ttg": {
+          "label": "总进球",
+          "selling": true,
+          "single": true
+        },
+        "hafu": {
+          "label": "半全场",
+          "selling": true,
+          "single": true
+        },
+        "crs": {
+          "label": "比分",
+          "selling": true,
+          "single": true
+        }
+      },
+      "had": {
+        "home": "1.38",
+        "draw": "4.45",
+        "away": "5.55",
+        "updateDate": "2026-06-22",
+        "updateTime": "09:27:20"
+      },
+      "hhad": {
+        "goalLine": "-1",
+        "home": "2.17",
+        "draw": "3.54",
+        "away": "2.59",
+        "updateDate": "2026-06-22",
+        "updateTime": "09:27:20"
+      },
+      "ttg": [
+        {
+          "goals": "0",
+          "sp": "16.00"
+        },
+        {
+          "goals": "1",
+          "sp": "5.70"
+        },
+        {
+          "goals": "2",
+          "sp": "3.90"
+        },
+        {
+          "goals": "3",
+          "sp": "3.30"
+        },
+        {
+          "goals": "4",
+          "sp": "4.75"
+        },
+        {
+          "goals": "5",
+          "sp": "8.00"
+        },
+        {
+          "goals": "6",
+          "sp": "14.00"
+        },
+        {
+          "goals": "7+",
+          "sp": "20.00"
+        }
+      ],
+      "hafu": [
+        {
+          "code": "aa",
+          "label": "客/客",
+          "sp": "10.50"
+        },
+        {
+          "code": "ad",
+          "label": "客/平",
+          "sp": "19.00"
+        },
+        {
+          "code": "ah",
+          "label": "客/主",
+          "sp": "21.00"
+        },
+        {
+          "code": "da",
+          "label": "平/客",
+          "sp": "14.00"
+        },
+        {
+          "code": "dd",
+          "label": "平/平",
+          "sp": "7.00"
+        },
+        {
+          "code": "dh",
+          "label": "平/主",
+          "sp": "4.10"
+        },
+        {
+          "code": "ha",
+          "label": "主/客",
+          "sp": "45.00"
+        },
+        {
+          "code": "hd",
+          "label": "主/平",
+          "sp": "19.00"
+        },
+        {
+          "code": "hh",
+          "label": "主/主",
+          "sp": "1.90"
+        }
+      ],
+      "crs": [
+        {
+          "score": "0:0",
+          "code": "s00s00",
+          "sp": "16.00"
+        },
+        {
+          "score": "0:1",
+          "code": "s00s01",
+          "sp": "16.00"
+        },
+        {
+          "score": "0:2",
+          "code": "s00s02",
+          "sp": "32.00"
+        },
+        {
+          "score": "0:3",
+          "code": "s00s03",
+          "sp": "100.0"
+        },
+        {
+          "score": "0:4",
+          "code": "s00s04",
+          "sp": "300.0"
+        },
+        {
+          "score": "0:5",
+          "code": "s00s05",
+          "sp": "600.0"
+        },
+        {
+          "score": "1:0",
+          "code": "s01s00",
+          "sp": "7.25"
+        },
+        {
+          "score": "1:1",
+          "code": "s01s01",
+          "sp": "8.00"
+        },
+        {
+          "score": "1:2",
+          "code": "s01s02",
+          "sp": "15.00"
+        },
+        {
+          "score": "1:3",
+          "code": "s01s03",
+          "sp": "45.00"
+        },
+        {
+          "score": "1:4",
+          "code": "s01s04",
+          "sp": "200.0"
+        },
+        {
+          "score": "1:5",
+          "code": "s01s05",
+          "sp": "500.0"
+        },
+        {
+          "score": "2:0",
+          "code": "s02s00",
+          "sp": "7.10"
+        },
+        {
+          "score": "2:1",
+          "code": "s02s01",
+          "sp": "6.25"
+        },
+        {
+          "score": "2:2",
+          "code": "s02s02",
+          "sp": "15.00"
+        },
+        {
+          "score": "2:3",
+          "code": "s02s03",
+          "sp": "45.00"
+        },
+        {
+          "score": "2:4",
+          "code": "s02s04",
+          "sp": "200.0"
+        },
+        {
+          "score": "2:5",
+          "code": "s02s05",
+          "sp": "500.0"
+        },
+        {
+          "score": "3:0",
+          "code": "s03s00",
+          "sp": "10.00"
+        },
+        {
+          "score": "3:1",
+          "code": "s03s01",
+          "sp": "9.50"
+        },
+        {
+          "score": "3:2",
+          "code": "s03s02",
+          "sp": "21.00"
+        },
+        {
+          "score": "3:3",
+          "code": "s03s03",
+          "sp": "70.00"
+        },
+        {
+          "score": "4:0",
+          "code": "s04s00",
+          "sp": "19.00"
+        },
+        {
+          "score": "4:1",
+          "code": "s04s01",
+          "sp": "20.00"
+        },
+        {
+          "score": "4:2",
+          "code": "s04s02",
+          "sp": "50.00"
+        },
+        {
+          "score": "5:0",
+          "code": "s05s00",
+          "sp": "50.00"
+        },
+        {
+          "score": "5:1",
+          "code": "s05s01",
+          "sp": "50.00"
+        },
+        {
+          "score": "5:2",
+          "code": "s05s02",
+          "sp": "100.0"
+        },
+        {
+          "score": "负其他",
+          "code": "s1sa",
+          "sp": "200.0"
+        },
+        {
+          "score": "平其他",
+          "code": "s1sd",
+          "sp": "400.0"
+        },
+        {
+          "score": "胜其他",
+          "code": "s1sh",
+          "sp": "28.00"
+        }
+      ]
+    },
+    {
+      "matchId": 2040287,
+      "matchNum": 3051,
+      "matchNumStr": "周三051",
+      "matchDate": "2026-06-25",
+      "matchTime": "06:00:00",
       "matchKey": "",
-      "homeTeam": "西班牙",
-      "awayTeam": "沙特阿拉伯",
-      "homeTeamOddsName": "西班牙",
-      "awayTeamOddsName": "沙特",
-      "homeTeamAllName": "西班牙",
-      "awayTeamAllName": "沙特阿拉伯",
-      "homeTeamEn": "西班牙",
-      "awayTeamEn": "沙特阿拉伯",
+      "homeTeam": "苏格兰",
+      "awayTeam": "巴西",
+      "homeTeamOddsName": "苏格兰",
+      "awayTeamOddsName": "巴西",
+      "homeTeamAllName": "苏格兰",
+      "awayTeamAllName": "巴西",
+      "homeTeamEn": "苏格兰",
+      "awayTeamEn": "巴西",
       "homeTeamCode": "",
       "awayTeamCode": "",
-      "homeTeamApiCode": "SPA",
-      "awayTeamApiCode": "SAR",
-      "homeTeamApiEnName": "SPA",
-      "awayTeamApiEnName": "SAR",
-      "homeRank": "[H组3]",
-      "awayRank": "[H组2]",
+      "homeTeamApiCode": "SCO",
+      "awayTeamApiCode": "BRZ",
+      "homeTeamApiEnName": "SCO",
+      "awayTeamApiEnName": "BRZ",
+      "homeRank": "[C组3]",
+      "awayRank": "[C组1]",
+      "league": "世界杯",
+      "matchStatus": "Selling",
+      "remark": "比赛将在美国-佛罗里达州迈阿密加登斯举行",
+      "pools": {
+        "had": {
+          "label": "胜平负",
+          "selling": true,
+          "single": true
+        },
+        "hhad": {
+          "label": "让球胜平负",
+          "selling": true,
+          "single": false
+        },
+        "ttg": {
+          "label": "总进球",
+          "selling": true,
+          "single": true
+        },
+        "hafu": {
+          "label": "半全场",
+          "selling": true,
+          "single": true
+        },
+        "crs": {
+          "label": "比分",
+          "selling": true,
+          "single": true
+        }
+      },
+      "had": {
+        "home": "7.85",
+        "draw": "4.80",
+        "away": "1.26",
+        "updateDate": "2026-06-22",
+        "updateTime": "09:27:20"
+      },
+      "hhad": {
+        "goalLine": "+1",
+        "home": "3.05",
+        "draw": "3.63",
+        "away": "1.90",
+        "updateDate": "2026-06-22",
+        "updateTime": "09:27:20"
+      },
+      "ttg": [
+        {
+          "goals": "0",
+          "sp": "14.00"
+        },
+        {
+          "goals": "1",
+          "sp": "5.30"
+        },
+        {
+          "goals": "2",
+          "sp": "3.70"
+        },
+        {
+          "goals": "3",
+          "sp": "3.40"
+        },
+        {
+          "goals": "4",
+          "sp": "5.00"
+        },
+        {
+          "goals": "5",
+          "sp": "8.50"
+        },
+        {
+          "goals": "6",
+          "sp": "15.00"
+        },
+        {
+          "goals": "7+",
+          "sp": "22.00"
+        }
+      ],
+      "hafu": [
+        {
+          "code": "aa",
+          "label": "客/客",
+          "sp": "1.75"
+        },
+        {
+          "code": "ad",
+          "label": "客/平",
+          "sp": "21.00"
+        },
+        {
+          "code": "ah",
+          "label": "客/主",
+          "sp": "65.00"
+        },
+        {
+          "code": "da",
+          "label": "平/客",
+          "sp": "3.70"
+        },
+        {
+          "code": "dd",
+          "label": "平/平",
+          "sp": "7.00"
+        },
+        {
+          "code": "dh",
+          "label": "平/主",
+          "sp": "18.00"
+        },
+        {
+          "code": "ha",
+          "label": "主/客",
+          "sp": "27.00"
+        },
+        {
+          "code": "hd",
+          "label": "主/平",
+          "sp": "21.00"
+        },
+        {
+          "code": "hh",
+          "label": "主/主",
+          "sp": "15.00"
+        }
+      ],
+      "crs": [
+        {
+          "score": "0:0",
+          "code": "s00s00",
+          "sp": "14.00"
+        },
+        {
+          "score": "0:1",
+          "code": "s00s01",
+          "sp": "6.50"
+        },
+        {
+          "score": "0:2",
+          "code": "s00s02",
+          "sp": "6.00"
+        },
+        {
+          "score": "0:3",
+          "code": "s00s03",
+          "sp": "7.50"
+        },
+        {
+          "score": "0:4",
+          "code": "s00s04",
+          "sp": "13.00"
+        },
+        {
+          "score": "0:5",
+          "code": "s00s05",
+          "sp": "30.00"
+        },
+        {
+          "score": "1:0",
+          "code": "s01s00",
+          "sp": "20.00"
+        },
+        {
+          "score": "1:1",
+          "code": "s01s01",
+          "sp": "8.25"
+        },
+        {
+          "score": "1:2",
+          "code": "s01s02",
+          "sp": "7.00"
+        },
+        {
+          "score": "1:3",
+          "code": "s01s03",
+          "sp": "9.50"
+        },
+        {
+          "score": "1:4",
+          "code": "s01s04",
+          "sp": "19.00"
+        },
+        {
+          "score": "1:5",
+          "code": "s01s05",
+          "sp": "50.00"
+        },
+        {
+          "score": "2:0",
+          "code": "s02s00",
+          "sp": "50.00"
+        },
+        {
+          "score": "2:1",
+          "code": "s02s01",
+          "sp": "21.00"
+        },
+        {
+          "score": "2:2",
+          "code": "s02s02",
+          "sp": "20.00"
+        },
+        {
+          "score": "2:3",
+          "code": "s02s03",
+          "sp": "27.00"
+        },
+        {
+          "score": "2:4",
+          "code": "s02s04",
+          "sp": "50.00"
+        },
+        {
+          "score": "2:5",
+          "code": "s02s05",
+          "sp": "100.0"
+        },
+        {
+          "score": "3:0",
+          "code": "s03s00",
+          "sp": "150.0"
+        },
+        {
+          "score": "3:1",
+          "code": "s03s01",
+          "sp": "90.00"
+        },
+        {
+          "score": "3:2",
+          "code": "s03s02",
+          "sp": "75.00"
+        },
+        {
+          "score": "3:3",
+          "code": "s03s03",
+          "sp": "90.00"
+        },
+        {
+          "score": "4:0",
+          "code": "s04s00",
+          "sp": "500.0"
+        },
+        {
+          "score": "4:1",
+          "code": "s04s01",
+          "sp": "400.0"
+        },
+        {
+          "score": "4:2",
+          "code": "s04s02",
+          "sp": "400.0"
+        },
+        {
+          "score": "5:0",
+          "code": "s05s00",
+          "sp": "800.0"
+        },
+        {
+          "score": "5:1",
+          "code": "s05s01",
+          "sp": "800.0"
+        },
+        {
+          "score": "5:2",
+          "code": "s05s02",
+          "sp": "800.0"
+        },
+        {
+          "score": "负其他",
+          "code": "s1sa",
+          "sp": "25.00"
+        },
+        {
+          "score": "平其他",
+          "code": "s1sd",
+          "sp": "500.0"
+        },
+        {
+          "score": "胜其他",
+          "code": "s1sh",
+          "sp": "400.0"
+        }
+      ]
+    },
+    {
+      "matchId": 2040288,
+      "matchNum": 3052,
+      "matchNumStr": "周三052",
+      "matchDate": "2026-06-25",
+      "matchTime": "06:00:00",
+      "matchKey": "",
+      "homeTeam": "摩洛哥",
+      "awayTeam": "海地",
+      "homeTeamOddsName": "摩洛哥",
+      "awayTeamOddsName": "海地",
+      "homeTeamAllName": "摩洛哥",
+      "awayTeamAllName": "海地",
+      "homeTeamEn": "摩洛哥",
+      "awayTeamEn": "海地",
+      "homeTeamCode": "",
+      "awayTeamCode": "",
+      "homeTeamApiCode": "MCO",
+      "awayTeamApiCode": "HAT",
+      "homeTeamApiEnName": "MCO",
+      "awayTeamApiEnName": "HAT",
+      "homeRank": "[C组2]",
+      "awayRank": "[C组4]",
       "league": "世界杯",
       "matchStatus": "Selling",
       "remark": "比赛将在美国-佐治亚州亚特兰大举行",
@@ -63,1860 +2200,24 @@
       "had": null,
       "hhad": {
         "goalLine": "-2",
-        "home": "1.59",
-        "draw": "4.55",
-        "away": "3.56",
-        "updateDate": "2026-06-21",
-        "updateTime": "17:59:06"
+        "home": "2.30",
+        "draw": "3.85",
+        "away": "2.30",
+        "updateDate": "2026-06-22",
+        "updateTime": "09:27:20"
       },
       "ttg": [
         {
           "goals": "0",
-          "sp": "34.00"
-        },
-        {
-          "goals": "1",
-          "sp": "9.50"
-        },
-        {
-          "goals": "2",
-          "sp": "5.20"
-        },
-        {
-          "goals": "3",
-          "sp": "4.00"
-        },
-        {
-          "goals": "4",
-          "sp": "3.95"
-        },
-        {
-          "goals": "5",
-          "sp": "5.40"
-        },
-        {
-          "goals": "6",
-          "sp": "8.25"
-        },
-        {
-          "goals": "7+",
-          "sp": "8.50"
-        }
-      ],
-      "hafu": [
-        {
-          "code": "aa",
-          "label": "客/客",
-          "sp": "50.00"
-        },
-        {
-          "code": "ad",
-          "label": "客/平",
-          "sp": "35.00"
-        },
-        {
-          "code": "ah",
-          "label": "客/主",
-          "sp": "27.00"
-        },
-        {
-          "code": "da",
-          "label": "平/客",
-          "sp": "50.00"
-        },
-        {
-          "code": "dd",
-          "label": "平/平",
-          "sp": "15.50"
-        },
-        {
-          "code": "dh",
-          "label": "平/主",
-          "sp": "4.20"
-        },
-        {
-          "code": "ha",
-          "label": "主/客",
-          "sp": "100.0"
-        },
-        {
-          "code": "hd",
-          "label": "主/平",
-          "sp": "35.00"
-        },
-        {
-          "code": "hh",
-          "label": "主/主",
-          "sp": "1.24"
-        }
-      ],
-      "crs": [
-        {
-          "score": "0:0",
-          "code": "s00s00",
-          "sp": "34.00"
-        },
-        {
-          "score": "0:1",
-          "code": "s00s01",
-          "sp": "70.00"
-        },
-        {
-          "score": "0:2",
-          "code": "s00s02",
-          "sp": "200.0"
-        },
-        {
-          "score": "0:3",
-          "code": "s00s03",
-          "sp": "500.0"
-        },
-        {
-          "score": "0:4",
-          "code": "s00s04",
-          "sp": "800.0"
-        },
-        {
-          "score": "0:5",
-          "code": "s00s05",
-          "sp": "800.0"
-        },
-        {
-          "score": "1:0",
-          "code": "s01s00",
-          "sp": "9.70"
-        },
-        {
-          "score": "1:1",
-          "code": "s01s01",
-          "sp": "22.00"
-        },
-        {
-          "score": "1:2",
-          "code": "s01s02",
-          "sp": "50.00"
-        },
-        {
-          "score": "1:3",
-          "code": "s01s03",
-          "sp": "300.0"
-        },
-        {
-          "score": "1:4",
-          "code": "s01s04",
-          "sp": "800.0"
-        },
-        {
-          "score": "1:5",
-          "code": "s01s05",
-          "sp": "800.0"
-        },
-        {
-          "score": "2:0",
-          "code": "s02s00",
-          "sp": "6.10"
-        },
-        {
-          "score": "2:1",
-          "code": "s02s01",
-          "sp": "10.00"
-        },
-        {
-          "score": "2:2",
-          "code": "s02s02",
-          "sp": "45.00"
-        },
-        {
-          "score": "2:3",
-          "code": "s02s03",
-          "sp": "200.0"
-        },
-        {
-          "score": "2:4",
-          "code": "s02s04",
-          "sp": "600.0"
-        },
-        {
-          "score": "2:5",
-          "code": "s02s05",
-          "sp": "800.0"
-        },
-        {
-          "score": "3:0",
-          "code": "s03s00",
-          "sp": "5.50"
-        },
-        {
-          "score": "3:1",
-          "code": "s03s01",
-          "sp": "8.70"
-        },
-        {
-          "score": "3:2",
-          "code": "s03s02",
-          "sp": "38.00"
-        },
-        {
-          "score": "3:3",
-          "code": "s03s03",
-          "sp": "150.0"
-        },
-        {
-          "score": "4:0",
-          "code": "s04s00",
-          "sp": "6.85"
-        },
-        {
-          "score": "4:1",
-          "code": "s04s01",
-          "sp": "11.50"
-        },
-        {
-          "score": "4:2",
-          "code": "s04s02",
-          "sp": "42.00"
-        },
-        {
-          "score": "5:0",
-          "code": "s05s00",
-          "sp": "10.00"
-        },
-        {
-          "score": "5:1",
-          "code": "s05s01",
-          "sp": "18.50"
-        },
-        {
-          "score": "5:2",
-          "code": "s05s02",
-          "sp": "55.00"
-        },
-        {
-          "score": "负其他",
-          "code": "s1sa",
-          "sp": "500.0"
-        },
-        {
-          "score": "平其他",
-          "code": "s1sd",
-          "sp": "500.0"
-        },
-        {
-          "score": "胜其他",
-          "code": "s1sh",
-          "sp": "8.00"
-        }
-      ]
-    },
-    {
-      "matchId": 2040248,
-      "matchNum": 7038,
-      "matchNumStr": "周日038",
-      "matchDate": "2026-06-22",
-      "matchTime": "03:00:00",
-      "matchKey": "",
-      "homeTeam": "比利时",
-      "awayTeam": "伊朗",
-      "homeTeamOddsName": "比利时",
-      "awayTeamOddsName": "伊朗",
-      "homeTeamAllName": "比利时",
-      "awayTeamAllName": "伊朗",
-      "homeTeamEn": "比利时",
-      "awayTeamEn": "伊朗",
-      "homeTeamCode": "",
-      "awayTeamCode": "",
-      "homeTeamApiCode": "BEG",
-      "awayTeamApiCode": "IRA",
-      "homeTeamApiEnName": "BEG",
-      "awayTeamApiEnName": "IRA",
-      "homeRank": "[G组3]",
-      "awayRank": "[G组2]",
-      "league": "世界杯",
-      "matchStatus": "Selling",
-      "remark": "比赛将在美国-加利福尼亚州英格尔伍德举行",
-      "pools": {
-        "had": {
-          "label": "胜平负",
-          "selling": true,
-          "single": false
-        },
-        "hhad": {
-          "label": "让球胜平负",
-          "selling": true,
-          "single": false
-        },
-        "ttg": {
-          "label": "总进球",
-          "selling": true,
-          "single": true
-        },
-        "hafu": {
-          "label": "半全场",
-          "selling": true,
-          "single": true
-        },
-        "crs": {
-          "label": "比分",
-          "selling": true,
-          "single": true
-        }
-      },
-      "had": {
-        "home": "1.26",
-        "draw": "4.76",
-        "away": "7.95",
-        "updateDate": "2026-06-21",
-        "updateTime": "18:04:41"
-      },
-      "hhad": {
-        "goalLine": "-1",
-        "home": "1.89",
-        "draw": "3.72",
-        "away": "3.02",
-        "updateDate": "2026-06-21",
-        "updateTime": "18:04:15"
-      },
-      "ttg": [
-        {
-          "goals": "0",
-          "sp": "13.00"
-        },
-        {
-          "goals": "1",
-          "sp": "5.40"
-        },
-        {
-          "goals": "2",
-          "sp": "3.65"
-        },
-        {
-          "goals": "3",
-          "sp": "3.40"
-        },
-        {
-          "goals": "4",
-          "sp": "4.90"
-        },
-        {
-          "goals": "5",
-          "sp": "9.00"
-        },
-        {
-          "goals": "6",
-          "sp": "15.00"
-        },
-        {
-          "goals": "7+",
-          "sp": "24.00"
-        }
-      ],
-      "hafu": [
-        {
-          "code": "aa",
-          "label": "客/客",
-          "sp": "14.00"
-        },
-        {
-          "code": "ad",
-          "label": "客/平",
-          "sp": "19.00"
-        },
-        {
-          "code": "ah",
-          "label": "客/主",
-          "sp": "26.00"
-        },
-        {
-          "code": "da",
-          "label": "平/客",
-          "sp": "17.00"
-        },
-        {
-          "code": "dd",
-          "label": "平/平",
-          "sp": "7.10"
-        },
-        {
-          "code": "dh",
-          "label": "平/主",
-          "sp": "3.90"
-        },
-        {
-          "code": "ha",
-          "label": "主/客",
-          "sp": "55.00"
-        },
-        {
-          "code": "hd",
-          "label": "主/平",
-          "sp": "19.00"
-        },
-        {
-          "code": "hh",
-          "label": "主/主",
-          "sp": "1.77"
-        }
-      ],
-      "crs": [
-        {
-          "score": "0:0",
-          "code": "s00s00",
-          "sp": "13.00"
-        },
-        {
-          "score": "0:1",
-          "code": "s00s01",
-          "sp": "21.00"
-        },
-        {
-          "score": "0:2",
-          "code": "s00s02",
-          "sp": "50.00"
-        },
-        {
-          "score": "0:3",
-          "code": "s00s03",
-          "sp": "150.0"
-        },
-        {
-          "score": "0:4",
-          "code": "s00s04",
-          "sp": "500.0"
-        },
-        {
-          "score": "0:5",
-          "code": "s00s05",
-          "sp": "800.0"
-        },
-        {
-          "score": "1:0",
-          "code": "s01s00",
-          "sp": "6.50"
-        },
-        {
-          "score": "1:1",
-          "code": "s01s01",
-          "sp": "8.00"
-        },
-        {
-          "score": "1:2",
-          "code": "s01s02",
-          "sp": "23.00"
-        },
-        {
-          "score": "1:3",
-          "code": "s01s03",
-          "sp": "80.00"
-        },
-        {
-          "score": "1:4",
-          "code": "s01s04",
-          "sp": "300.0"
-        },
-        {
-          "score": "1:5",
-          "code": "s01s05",
-          "sp": "600.0"
-        },
-        {
-          "score": "2:0",
-          "code": "s02s00",
-          "sp": "6.50"
-        },
-        {
-          "score": "2:1",
-          "code": "s02s01",
-          "sp": "6.50"
-        },
-        {
-          "score": "2:2",
-          "code": "s02s02",
-          "sp": "18.50"
-        },
-        {
-          "score": "2:3",
-          "code": "s02s03",
-          "sp": "70.00"
-        },
-        {
-          "score": "2:4",
-          "code": "s02s04",
-          "sp": "300.0"
-        },
-        {
-          "score": "2:5",
-          "code": "s02s05",
-          "sp": "600.0"
-        },
-        {
-          "score": "3:0",
-          "code": "s03s00",
-          "sp": "8.50"
-        },
-        {
-          "score": "3:1",
-          "code": "s03s01",
-          "sp": "8.75"
-        },
-        {
-          "score": "3:2",
-          "code": "s03s02",
-          "sp": "22.00"
-        },
-        {
-          "score": "3:3",
-          "code": "s03s03",
-          "sp": "70.00"
-        },
-        {
-          "score": "4:0",
-          "code": "s04s00",
-          "sp": "17.00"
-        },
-        {
-          "score": "4:1",
-          "code": "s04s01",
-          "sp": "19.00"
-        },
-        {
-          "score": "4:2",
-          "code": "s04s02",
-          "sp": "45.00"
-        },
-        {
-          "score": "5:0",
-          "code": "s05s00",
-          "sp": "35.00"
-        },
-        {
-          "score": "5:1",
-          "code": "s05s01",
-          "sp": "40.00"
-        },
-        {
-          "score": "5:2",
-          "code": "s05s02",
-          "sp": "80.00"
-        },
-        {
-          "score": "负其他",
-          "code": "s1sa",
-          "sp": "300.0"
-        },
-        {
-          "score": "平其他",
-          "code": "s1sd",
-          "sp": "350.0"
-        },
-        {
-          "score": "胜其他",
-          "code": "s1sh",
-          "sp": "27.50"
-        }
-      ]
-    },
-    {
-      "matchId": 2040249,
-      "matchNum": 7039,
-      "matchNumStr": "周日039",
-      "matchDate": "2026-06-22",
-      "matchTime": "06:00:00",
-      "matchKey": "",
-      "homeTeam": "乌拉圭",
-      "awayTeam": "佛得角",
-      "homeTeamOddsName": "乌拉圭",
-      "awayTeamOddsName": "佛得角",
-      "homeTeamAllName": "乌拉圭",
-      "awayTeamAllName": "佛得角",
-      "homeTeamEn": "乌拉圭",
-      "awayTeamEn": "佛得角",
-      "homeTeamCode": "",
-      "awayTeamCode": "",
-      "homeTeamApiCode": "URU",
-      "awayTeamApiCode": "CVI",
-      "homeTeamApiEnName": "URU",
-      "awayTeamApiEnName": "CVI",
-      "homeRank": "[H组1]",
-      "awayRank": "[H组4]",
-      "league": "世界杯",
-      "matchStatus": "Selling",
-      "remark": "比赛将在美国-佛罗里达州迈阿密加登斯举行",
-      "pools": {
-        "had": {
-          "label": "胜平负",
-          "selling": true,
-          "single": true
-        },
-        "hhad": {
-          "label": "让球胜平负",
-          "selling": true,
-          "single": false
-        },
-        "ttg": {
-          "label": "总进球",
-          "selling": true,
-          "single": true
-        },
-        "hafu": {
-          "label": "半全场",
-          "selling": true,
-          "single": true
-        },
-        "crs": {
-          "label": "比分",
-          "selling": true,
-          "single": true
-        }
-      },
-      "had": {
-        "home": "1.30",
-        "draw": "4.05",
-        "away": "8.80",
-        "updateDate": "2026-06-21",
-        "updateTime": "10:28:20"
-      },
-      "hhad": {
-        "goalLine": "-1",
-        "home": "2.10",
-        "draw": "3.30",
-        "away": "2.86",
-        "updateDate": "2026-06-21",
-        "updateTime": "17:13:29"
-      },
-      "ttg": [
-        {
-          "goals": "0",
-          "sp": "8.50"
-        },
-        {
-          "goals": "1",
-          "sp": "3.75"
-        },
-        {
-          "goals": "2",
-          "sp": "3.05"
-        },
-        {
-          "goals": "3",
-          "sp": "4.00"
-        },
-        {
-          "goals": "4",
-          "sp": "6.80"
-        },
-        {
-          "goals": "5",
-          "sp": "13.50"
-        },
-        {
-          "goals": "6",
-          "sp": "25.00"
-        },
-        {
-          "goals": "7+",
-          "sp": "32.00"
-        }
-      ],
-      "hafu": [
-        {
-          "code": "aa",
-          "label": "客/客",
-          "sp": "15.00"
-        },
-        {
-          "code": "ad",
-          "label": "客/平",
-          "sp": "21.00"
-        },
-        {
-          "code": "ah",
-          "label": "客/主",
-          "sp": "34.00"
-        },
-        {
-          "code": "da",
-          "label": "平/客",
-          "sp": "16.00"
-        },
-        {
-          "code": "dd",
-          "label": "平/平",
-          "sp": "5.55"
-        },
-        {
-          "code": "dh",
-          "label": "平/主",
-          "sp": "3.60"
-        },
-        {
-          "code": "ha",
-          "label": "主/客",
-          "sp": "60.00"
-        },
-        {
-          "code": "hd",
-          "label": "主/平",
-          "sp": "21.00"
-        },
-        {
-          "code": "hh",
-          "label": "主/主",
-          "sp": "1.90"
-        }
-      ],
-      "crs": [
-        {
-          "score": "0:0",
-          "code": "s00s00",
-          "sp": "8.50"
-        },
-        {
-          "score": "0:1",
-          "code": "s00s01",
-          "sp": "15.00"
-        },
-        {
-          "score": "0:2",
-          "code": "s00s02",
-          "sp": "45.00"
-        },
-        {
-          "score": "0:3",
-          "code": "s00s03",
-          "sp": "175.0"
-        },
-        {
-          "score": "0:4",
-          "code": "s00s04",
-          "sp": "600.0"
-        },
-        {
-          "score": "0:5",
-          "code": "s00s05",
-          "sp": "800.0"
-        },
-        {
-          "score": "1:0",
-          "code": "s01s00",
-          "sp": "4.95"
-        },
-        {
-          "score": "1:1",
-          "code": "s01s01",
-          "sp": "7.30"
-        },
-        {
-          "score": "1:2",
-          "code": "s01s02",
-          "sp": "26.00"
-        },
-        {
-          "score": "1:3",
-          "code": "s01s03",
-          "sp": "120.0"
-        },
-        {
-          "score": "1:4",
-          "code": "s01s04",
-          "sp": "500.0"
-        },
-        {
-          "score": "1:5",
-          "code": "s01s05",
-          "sp": "800.0"
-        },
-        {
-          "score": "2:0",
-          "code": "s02s00",
-          "sp": "5.00"
-        },
-        {
-          "score": "2:1",
-          "code": "s02s01",
-          "sp": "7.40"
-        },
-        {
-          "score": "2:2",
-          "code": "s02s02",
-          "sp": "27.00"
-        },
-        {
-          "score": "2:3",
-          "code": "s02s03",
-          "sp": "120.0"
-        },
-        {
-          "score": "2:4",
-          "code": "s02s04",
-          "sp": "500.0"
-        },
-        {
-          "score": "2:5",
-          "code": "s02s05",
-          "sp": "800.0"
-        },
-        {
-          "score": "3:0",
-          "code": "s03s00",
-          "sp": "7.60"
-        },
-        {
-          "score": "3:1",
-          "code": "s03s01",
-          "sp": "12.00"
-        },
-        {
-          "score": "3:2",
-          "code": "s03s02",
-          "sp": "50.00"
-        },
-        {
-          "score": "3:3",
-          "code": "s03s03",
-          "sp": "120.0"
-        },
-        {
-          "score": "4:0",
-          "code": "s04s00",
-          "sp": "17.00"
-        },
-        {
-          "score": "4:1",
-          "code": "s04s01",
-          "sp": "27.00"
-        },
-        {
-          "score": "4:2",
-          "code": "s04s02",
-          "sp": "75.00"
-        },
-        {
-          "score": "5:0",
-          "code": "s05s00",
-          "sp": "45.00"
-        },
-        {
-          "score": "5:1",
-          "code": "s05s01",
-          "sp": "65.00"
-        },
-        {
-          "score": "5:2",
-          "code": "s05s02",
-          "sp": "175.0"
-        },
-        {
-          "score": "负其他",
-          "code": "s1sa",
-          "sp": "500.0"
-        },
-        {
-          "score": "平其他",
-          "code": "s1sd",
-          "sp": "650.0"
-        },
-        {
-          "score": "胜其他",
-          "code": "s1sh",
-          "sp": "46.00"
-        }
-      ]
-    },
-    {
-      "matchId": 2040250,
-      "matchNum": 7040,
-      "matchNumStr": "周日040",
-      "matchDate": "2026-06-22",
-      "matchTime": "09:00:00",
-      "matchKey": "",
-      "homeTeam": "新西兰",
-      "awayTeam": "埃及",
-      "homeTeamOddsName": "新西兰",
-      "awayTeamOddsName": "埃及",
-      "homeTeamAllName": "新西兰",
-      "awayTeamAllName": "埃及",
-      "homeTeamEn": "新西兰",
-      "awayTeamEn": "埃及",
-      "homeTeamCode": "",
-      "awayTeamCode": "",
-      "homeTeamApiCode": "NZD",
-      "awayTeamApiCode": "EGY",
-      "homeTeamApiEnName": "NZD",
-      "awayTeamApiEnName": "EGY",
-      "homeRank": "[G组1]",
-      "awayRank": "[G组4]",
-      "league": "世界杯",
-      "matchStatus": "Selling",
-      "remark": "比赛将在加拿大-温哥华举行",
-      "pools": {
-        "had": {
-          "label": "胜平负",
-          "selling": true,
-          "single": false
-        },
-        "hhad": {
-          "label": "让球胜平负",
-          "selling": true,
-          "single": false
-        },
-        "ttg": {
-          "label": "总进球",
-          "selling": true,
-          "single": true
-        },
-        "hafu": {
-          "label": "半全场",
-          "selling": true,
-          "single": true
-        },
-        "crs": {
-          "label": "比分",
-          "selling": true,
-          "single": true
-        }
-      },
-      "had": {
-        "home": "6.00",
-        "draw": "3.87",
-        "away": "1.42",
-        "updateDate": "2026-06-21",
-        "updateTime": "17:31:19"
-      },
-      "hhad": {
-        "goalLine": "+1",
-        "home": "2.46",
-        "draw": "3.30",
-        "away": "2.38",
-        "updateDate": "2026-06-21",
-        "updateTime": "17:31:24"
-      },
-      "ttg": [
-        {
-          "goals": "0",
-          "sp": "10.00"
-        },
-        {
-          "goals": "1",
-          "sp": "4.30"
-        },
-        {
-          "goals": "2",
-          "sp": "3.20"
-        },
-        {
-          "goals": "3",
-          "sp": "3.60"
-        },
-        {
-          "goals": "4",
-          "sp": "6.00"
-        },
-        {
-          "goals": "5",
-          "sp": "12.00"
-        },
-        {
-          "goals": "6",
-          "sp": "21.00"
-        },
-        {
-          "goals": "7+",
-          "sp": "30.00"
-        }
-      ],
-      "hafu": [
-        {
-          "code": "aa",
-          "label": "客/客",
-          "sp": "2.05"
-        },
-        {
-          "code": "ad",
-          "label": "客/平",
-          "sp": "18.00"
-        },
-        {
-          "code": "ah",
-          "label": "客/主",
-          "sp": "50.00"
-        },
-        {
-          "code": "da",
-          "label": "平/客",
-          "sp": "4.10"
-        },
-        {
-          "code": "dd",
-          "label": "平/平",
-          "sp": "5.55"
-        },
-        {
-          "code": "dh",
-          "label": "平/主",
-          "sp": "12.00"
-        },
-        {
-          "code": "ha",
-          "label": "主/客",
-          "sp": "27.00"
-        },
-        {
-          "code": "hd",
-          "label": "主/平",
-          "sp": "18.00"
-        },
-        {
-          "code": "hh",
-          "label": "主/主",
-          "sp": "11.00"
-        }
-      ],
-      "crs": [
-        {
-          "score": "0:0",
-          "code": "s00s00",
-          "sp": "10.00"
-        },
-        {
-          "score": "0:1",
-          "code": "s00s01",
-          "sp": "5.75"
-        },
-        {
-          "score": "0:2",
-          "code": "s00s02",
-          "sp": "5.80"
-        },
-        {
-          "score": "0:3",
-          "code": "s00s03",
-          "sp": "10.50"
-        },
-        {
-          "score": "0:4",
-          "code": "s00s04",
-          "sp": "21.00"
-        },
-        {
-          "score": "0:5",
-          "code": "s00s05",
-          "sp": "60.00"
-        },
-        {
-          "score": "1:0",
-          "code": "s01s00",
-          "sp": "14.00"
-        },
-        {
-          "score": "1:1",
-          "code": "s01s01",
-          "sp": "6.80"
-        },
-        {
-          "score": "1:2",
-          "code": "s01s02",
-          "sp": "6.75"
-        },
-        {
-          "score": "1:3",
-          "code": "s01s03",
-          "sp": "12.00"
-        },
-        {
-          "score": "1:4",
-          "code": "s01s04",
-          "sp": "28.00"
-        },
-        {
-          "score": "1:5",
-          "code": "s01s05",
-          "sp": "70.00"
-        },
-        {
-          "score": "2:0",
-          "code": "s02s00",
-          "sp": "30.00"
-        },
-        {
-          "score": "2:1",
-          "code": "s02s01",
-          "sp": "17.00"
-        },
-        {
-          "score": "2:2",
-          "code": "s02s02",
-          "sp": "17.00"
-        },
-        {
-          "score": "2:3",
-          "code": "s02s03",
-          "sp": "30.00"
-        },
-        {
-          "score": "2:4",
-          "code": "s02s04",
-          "sp": "60.00"
-        },
-        {
-          "score": "2:5",
-          "code": "s02s05",
-          "sp": "125.0"
-        },
-        {
-          "score": "3:0",
-          "code": "s03s00",
-          "sp": "100.0"
-        },
-        {
-          "score": "3:1",
-          "code": "s03s01",
-          "sp": "70.00"
-        },
-        {
-          "score": "3:2",
-          "code": "s03s02",
-          "sp": "70.00"
-        },
-        {
-          "score": "3:3",
-          "code": "s03s03",
-          "sp": "65.00"
-        },
-        {
-          "score": "4:0",
-          "code": "s04s00",
-          "sp": "400.0"
-        },
-        {
-          "score": "4:1",
-          "code": "s04s01",
-          "sp": "250.0"
-        },
-        {
-          "score": "4:2",
-          "code": "s04s02",
-          "sp": "250.0"
-        },
-        {
-          "score": "5:0",
-          "code": "s05s00",
-          "sp": "700.0"
-        },
-        {
-          "score": "5:1",
-          "code": "s05s01",
-          "sp": "500.0"
-        },
-        {
-          "score": "5:2",
-          "code": "s05s02",
-          "sp": "700.0"
-        },
-        {
-          "score": "负其他",
-          "code": "s1sa",
-          "sp": "50.00"
-        },
-        {
-          "score": "平其他",
-          "code": "s1sd",
-          "sp": "350.0"
-        },
-        {
-          "score": "胜其他",
-          "code": "s1sh",
-          "sp": "350.0"
-        }
-      ]
-    },
-    {
-      "matchId": 2040251,
-      "matchNum": 1041,
-      "matchNumStr": "周一041",
-      "matchDate": "2026-06-23",
-      "matchTime": "01:00:00",
-      "matchKey": "ARG-AUT",
-      "homeTeam": "阿根廷",
-      "awayTeam": "奥地利",
-      "homeTeamOddsName": "阿根廷",
-      "awayTeamOddsName": "奥地利",
-      "homeTeamAllName": "阿根廷",
-      "awayTeamAllName": "奥地利",
-      "homeTeamEn": "Argentina",
-      "awayTeamEn": "Austria",
-      "homeTeamCode": "ARG",
-      "awayTeamCode": "AUT",
-      "homeTeamApiCode": "ARG",
-      "awayTeamApiCode": "AUS",
-      "homeTeamApiEnName": "ARG",
-      "awayTeamApiEnName": "AUS",
-      "homeRank": "[J组1]",
-      "awayRank": "[J组2]",
-      "league": "世界杯",
-      "matchStatus": "Selling",
-      "remark": "比赛将在美国-得克萨斯州阿灵顿举行",
-      "pools": {
-        "had": {
-          "label": "胜平负",
-          "selling": true,
-          "single": true
-        },
-        "hhad": {
-          "label": "让球胜平负",
-          "selling": true,
-          "single": false
-        },
-        "ttg": {
-          "label": "总进球",
-          "selling": true,
-          "single": true
-        },
-        "hafu": {
-          "label": "半全场",
-          "selling": true,
-          "single": true
-        },
-        "crs": {
-          "label": "比分",
-          "selling": true,
-          "single": true
-        }
-      },
-      "had": {
-        "home": "1.40",
-        "draw": "3.98",
-        "away": "6.10",
-        "updateDate": "2026-06-21",
-        "updateTime": "15:58:43"
-      },
-      "hhad": {
-        "goalLine": "-1",
-        "home": "2.28",
-        "draw": "3.48",
-        "away": "2.48",
-        "updateDate": "2026-06-21",
-        "updateTime": "15:58:51"
-      },
-      "ttg": [
-        {
-          "goals": "0",
-          "sp": "11.00"
-        },
-        {
-          "goals": "1",
-          "sp": "4.50"
-        },
-        {
-          "goals": "2",
-          "sp": "3.25"
-        },
-        {
-          "goals": "3",
-          "sp": "3.60"
-        },
-        {
-          "goals": "4",
-          "sp": "5.60"
-        },
-        {
-          "goals": "5",
-          "sp": "10.50"
-        },
-        {
-          "goals": "6",
           "sp": "20.00"
         },
         {
-          "goals": "7+",
-          "sp": "32.00"
-        }
-      ],
-      "hafu": [
-        {
-          "code": "aa",
-          "label": "客/客",
-          "sp": "11.00"
-        },
-        {
-          "code": "ad",
-          "label": "客/平",
-          "sp": "17.00"
-        },
-        {
-          "code": "ah",
-          "label": "客/主",
-          "sp": "22.00"
-        },
-        {
-          "code": "da",
-          "label": "平/客",
-          "sp": "13.50"
-        },
-        {
-          "code": "dd",
-          "label": "平/平",
-          "sp": "5.80"
-        },
-        {
-          "code": "dh",
-          "label": "平/主",
-          "sp": "4.00"
-        },
-        {
-          "code": "ha",
-          "label": "主/客",
-          "sp": "45.00"
-        },
-        {
-          "code": "hd",
-          "label": "主/平",
-          "sp": "17.00"
-        },
-        {
-          "code": "hh",
-          "label": "主/主",
-          "sp": "2.08"
-        }
-      ],
-      "crs": [
-        {
-          "score": "0:0",
-          "code": "s00s00",
-          "sp": "11.00"
-        },
-        {
-          "score": "0:1",
-          "code": "s00s01",
-          "sp": "12.50"
-        },
-        {
-          "score": "0:2",
-          "code": "s00s02",
-          "sp": "30.00"
-        },
-        {
-          "score": "0:3",
-          "code": "s00s03",
-          "sp": "100.0"
-        },
-        {
-          "score": "0:4",
-          "code": "s00s04",
-          "sp": "350.0"
-        },
-        {
-          "score": "0:5",
-          "code": "s00s05",
-          "sp": "900.0"
-        },
-        {
-          "score": "1:0",
-          "code": "s01s00",
-          "sp": "6.00"
-        },
-        {
-          "score": "1:1",
-          "code": "s01s01",
-          "sp": "6.50"
-        },
-        {
-          "score": "1:2",
-          "code": "s01s02",
-          "sp": "14.50"
-        },
-        {
-          "score": "1:3",
-          "code": "s01s03",
-          "sp": "60.00"
-        },
-        {
-          "score": "1:4",
-          "code": "s01s04",
-          "sp": "200.0"
-        },
-        {
-          "score": "1:5",
-          "code": "s01s05",
-          "sp": "700.0"
-        },
-        {
-          "score": "2:0",
-          "code": "s02s00",
-          "sp": "6.50"
-        },
-        {
-          "score": "2:1",
-          "code": "s02s01",
-          "sp": "6.50"
-        },
-        {
-          "score": "2:2",
-          "code": "s02s02",
-          "sp": "14.50"
-        },
-        {
-          "score": "2:3",
-          "code": "s02s03",
-          "sp": "60.00"
-        },
-        {
-          "score": "2:4",
-          "code": "s02s04",
-          "sp": "250.0"
-        },
-        {
-          "score": "2:5",
-          "code": "s02s05",
-          "sp": "600.0"
-        },
-        {
-          "score": "3:0",
-          "code": "s03s00",
-          "sp": "11.50"
-        },
-        {
-          "score": "3:1",
-          "code": "s03s01",
-          "sp": "11.00"
-        },
-        {
-          "score": "3:2",
-          "code": "s03s02",
-          "sp": "27.00"
-        },
-        {
-          "score": "3:3",
-          "code": "s03s03",
-          "sp": "75.00"
-        },
-        {
-          "score": "4:0",
-          "code": "s04s00",
-          "sp": "26.00"
-        },
-        {
-          "score": "4:1",
-          "code": "s04s01",
-          "sp": "28.00"
-        },
-        {
-          "score": "4:2",
-          "code": "s04s02",
-          "sp": "60.00"
-        },
-        {
-          "score": "5:0",
-          "code": "s05s00",
-          "sp": "70.00"
-        },
-        {
-          "score": "5:1",
-          "code": "s05s01",
-          "sp": "75.00"
-        },
-        {
-          "score": "5:2",
-          "code": "s05s02",
-          "sp": "150.0"
-        },
-        {
-          "score": "负其他",
-          "code": "s1sa",
-          "sp": "250.0"
-        },
-        {
-          "score": "平其他",
-          "code": "s1sd",
-          "sp": "400.0"
-        },
-        {
-          "score": "胜其他",
-          "code": "s1sh",
-          "sp": "50.00"
-        }
-      ]
-    },
-    {
-      "matchId": 2040252,
-      "matchNum": 1042,
-      "matchNumStr": "周一042",
-      "matchDate": "2026-06-23",
-      "matchTime": "05:00:00",
-      "matchKey": "FRA-IRQ",
-      "homeTeam": "法国",
-      "awayTeam": "伊拉克",
-      "homeTeamOddsName": "法国",
-      "awayTeamOddsName": "伊拉克",
-      "homeTeamAllName": "法国",
-      "awayTeamAllName": "伊拉克",
-      "homeTeamEn": "France",
-      "awayTeamEn": "Iraq",
-      "homeTeamCode": "FRA",
-      "awayTeamCode": "IRQ",
-      "homeTeamApiCode": "FRA",
-      "awayTeamApiCode": "IRQ",
-      "homeTeamApiEnName": "FRA",
-      "awayTeamApiEnName": "IRQ",
-      "homeRank": "[I组2]",
-      "awayRank": "[I组4]",
-      "league": "世界杯",
-      "matchStatus": "Selling",
-      "remark": "比赛将在美国-宾夕法尼亚州费城举行",
-      "pools": {
-        "had": {
-          "label": "胜平负",
-          "selling": false,
-          "single": false
-        },
-        "hhad": {
-          "label": "让球胜平负",
-          "selling": true,
-          "single": false
-        },
-        "ttg": {
-          "label": "总进球",
-          "selling": true,
-          "single": true
-        },
-        "hafu": {
-          "label": "半全场",
-          "selling": true,
-          "single": true
-        },
-        "crs": {
-          "label": "比分",
-          "selling": true,
-          "single": true
-        }
-      },
-      "had": null,
-      "hhad": {
-        "goalLine": "-3",
-        "home": "2.61",
-        "draw": "4.50",
-        "away": "1.91",
-        "updateDate": "2026-06-21",
-        "updateTime": "10:14:02"
-      },
-      "ttg": [
-        {
-          "goals": "0",
-          "sp": "32.00"
-        },
-        {
           "goals": "1",
-          "sp": "8.50"
+          "sp": "6.35"
         },
         {
           "goals": "2",
-          "sp": "5.00"
-        },
-        {
-          "goals": "3",
-          "sp": "3.80"
-        },
-        {
-          "goals": "4",
-          "sp": "4.20"
-        },
-        {
-          "goals": "5",
-          "sp": "5.70"
-        },
-        {
-          "goals": "6",
-          "sp": "8.50"
-        },
-        {
-          "goals": "7+",
-          "sp": "9.00"
-        }
-      ],
-      "hafu": [
-        {
-          "code": "aa",
-          "label": "客/客",
-          "sp": "45.00"
-        },
-        {
-          "code": "ad",
-          "label": "客/平",
-          "sp": "40.00"
-        },
-        {
-          "code": "ah",
-          "label": "客/主",
-          "sp": "27.00"
-        },
-        {
-          "code": "da",
-          "label": "平/客",
-          "sp": "50.00"
-        },
-        {
-          "code": "dd",
-          "label": "平/平",
-          "sp": "16.00"
-        },
-        {
-          "code": "dh",
-          "label": "平/主",
           "sp": "4.15"
-        },
-        {
-          "code": "ha",
-          "label": "主/客",
-          "sp": "120.0"
-        },
-        {
-          "code": "hd",
-          "label": "主/平",
-          "sp": "40.00"
-        },
-        {
-          "code": "hh",
-          "label": "主/主",
-          "sp": "1.23"
-        }
-      ],
-      "crs": [
-        {
-          "score": "0:0",
-          "code": "s00s00",
-          "sp": "32.00"
-        },
-        {
-          "score": "0:1",
-          "code": "s00s01",
-          "sp": "60.00"
-        },
-        {
-          "score": "0:2",
-          "code": "s00s02",
-          "sp": "200.0"
-        },
-        {
-          "score": "0:3",
-          "code": "s00s03",
-          "sp": "600.0"
-        },
-        {
-          "score": "0:4",
-          "code": "s00s04",
-          "sp": "1000"
-        },
-        {
-          "score": "0:5",
-          "code": "s00s05",
-          "sp": "1000"
-        },
-        {
-          "score": "1:0",
-          "code": "s01s00",
-          "sp": "9.50"
-        },
-        {
-          "score": "1:1",
-          "code": "s01s01",
-          "sp": "18.00"
-        },
-        {
-          "score": "1:2",
-          "code": "s01s02",
-          "sp": "65.00"
-        },
-        {
-          "score": "1:3",
-          "code": "s01s03",
-          "sp": "400.0"
-        },
-        {
-          "score": "1:4",
-          "code": "s01s04",
-          "sp": "900.0"
-        },
-        {
-          "score": "1:5",
-          "code": "s01s05",
-          "sp": "1000"
-        },
-        {
-          "score": "2:0",
-          "code": "s02s00",
-          "sp": "6.00"
-        },
-        {
-          "score": "2:1",
-          "code": "s02s01",
-          "sp": "12.00"
-        },
-        {
-          "score": "2:2",
-          "code": "s02s02",
-          "sp": "40.00"
-        },
-        {
-          "score": "2:3",
-          "code": "s02s03",
-          "sp": "200.0"
-        },
-        {
-          "score": "2:4",
-          "code": "s02s04",
-          "sp": "700.0"
-        },
-        {
-          "score": "2:5",
-          "code": "s02s05",
-          "sp": "1000"
-        },
-        {
-          "score": "3:0",
-          "code": "s03s00",
-          "sp": "5.25"
-        },
-        {
-          "score": "3:1",
-          "code": "s03s01",
-          "sp": "10.00"
-        },
-        {
-          "score": "3:2",
-          "code": "s03s02",
-          "sp": "50.00"
-        },
-        {
-          "score": "3:3",
-          "code": "s03s03",
-          "sp": "200.0"
-        },
-        {
-          "score": "4:0",
-          "code": "s04s00",
-          "sp": "6.50"
-        },
-        {
-          "score": "4:1",
-          "code": "s04s01",
-          "sp": "13.00"
-        },
-        {
-          "score": "4:2",
-          "code": "s04s02",
-          "sp": "60.00"
-        },
-        {
-          "score": "5:0",
-          "code": "s05s00",
-          "sp": "10.00"
-        },
-        {
-          "score": "5:1",
-          "code": "s05s01",
-          "sp": "18.00"
-        },
-        {
-          "score": "5:2",
-          "code": "s05s02",
-          "sp": "70.00"
-        },
-        {
-          "score": "负其他",
-          "code": "s1sa",
-          "sp": "700.0"
-        },
-        {
-          "score": "平其他",
-          "code": "s1sd",
-          "sp": "700.0"
-        },
-        {
-          "score": "胜其他",
-          "code": "s1sh",
-          "sp": "6.50"
-        }
-      ]
-    },
-    {
-      "matchId": 2040253,
-      "matchNum": 1043,
-      "matchNumStr": "周一043",
-      "matchDate": "2026-06-23",
-      "matchTime": "08:00:00",
-      "matchKey": "NOR-SEN",
-      "homeTeam": "挪威",
-      "awayTeam": "塞内加尔",
-      "homeTeamOddsName": "挪威",
-      "awayTeamOddsName": "塞内加尔",
-      "homeTeamAllName": "挪威",
-      "awayTeamAllName": "塞内加尔",
-      "homeTeamEn": "Norway",
-      "awayTeamEn": "Senegal",
-      "homeTeamCode": "NOR",
-      "awayTeamCode": "SEN",
-      "homeTeamApiCode": "NOW",
-      "awayTeamApiCode": "SEN",
-      "homeTeamApiEnName": "NOW",
-      "awayTeamApiEnName": "SEN",
-      "homeRank": "[I组1]",
-      "awayRank": "[I组3]",
-      "league": "世界杯",
-      "matchStatus": "Selling",
-      "remark": "比赛将在美国-新泽西州东拉瑟福德举行",
-      "pools": {
-        "had": {
-          "label": "胜平负",
-          "selling": true,
-          "single": true
-        },
-        "hhad": {
-          "label": "让球胜平负",
-          "selling": true,
-          "single": false
-        },
-        "ttg": {
-          "label": "总进球",
-          "selling": true,
-          "single": true
-        },
-        "hafu": {
-          "label": "半全场",
-          "selling": true,
-          "single": true
-        },
-        "crs": {
-          "label": "比分",
-          "selling": true,
-          "single": true
-        }
-      },
-      "had": {
-        "home": "1.95",
-        "draw": "3.30",
-        "away": "3.20",
-        "updateDate": "2026-06-21",
-        "updateTime": "15:35:20"
-      },
-      "hhad": {
-        "goalLine": "-1",
-        "home": "3.88",
-        "draw": "3.82",
-        "away": "1.64",
-        "updateDate": "2026-06-21",
-        "updateTime": "15:35:29"
-      },
-      "ttg": [
-        {
-          "goals": "0",
-          "sp": "11.00"
-        },
-        {
-          "goals": "1",
-          "sp": "4.60"
-        },
-        {
-          "goals": "2",
-          "sp": "3.35"
         },
         {
           "goals": "3",
@@ -1924,530 +2225,223 @@
         },
         {
           "goals": "4",
-          "sp": "5.30"
+          "sp": "4.40"
         },
         {
           "goals": "5",
-          "sp": "10.50"
+          "sp": "7.00"
         },
         {
           "goals": "6",
-          "sp": "20.00"
+          "sp": "11.50"
         },
         {
           "goals": "7+",
-          "sp": "32.00"
+          "sp": "15.00"
         }
       ],
       "hafu": [
         {
           "code": "aa",
           "label": "客/客",
-          "sp": "5.05"
+          "sp": "30.00"
         },
         {
           "code": "ad",
           "label": "客/平",
-          "sp": "14.00"
+          "sp": "33.00"
         },
         {
           "code": "ah",
           "label": "客/主",
-          "sp": "24.00"
+          "sp": "30.00"
         },
         {
           "code": "da",
           "label": "平/客",
-          "sp": "7.00"
+          "sp": "37.00"
         },
         {
           "code": "dd",
           "label": "平/平",
-          "sp": "5.20"
+          "sp": "10.50"
         },
         {
           "code": "dh",
           "label": "平/主",
-          "sp": "5.10"
+          "sp": "3.85"
         },
         {
           "code": "ha",
           "label": "主/客",
-          "sp": "30.00"
+          "sp": "100.0"
         },
         {
           "code": "hd",
           "label": "主/平",
-          "sp": "14.00"
+          "sp": "33.00"
         },
         {
           "code": "hh",
           "label": "主/主",
-          "sp": "3.25"
+          "sp": "1.36"
         }
       ],
       "crs": [
         {
           "score": "0:0",
           "code": "s00s00",
-          "sp": "11.00"
+          "sp": "20.00"
         },
         {
           "score": "0:1",
           "code": "s00s01",
-          "sp": "10.00"
+          "sp": "30.00"
         },
         {
           "score": "0:2",
           "code": "s00s02",
-          "sp": "16.50"
+          "sp": "100.0"
         },
         {
           "score": "0:3",
           "code": "s00s03",
-          "sp": "40.00"
-        },
-        {
-          "score": "0:4",
-          "code": "s00s04",
-          "sp": "120.0"
-        },
-        {
-          "score": "0:5",
-          "code": "s00s05",
-          "sp": "400.0"
-        },
-        {
-          "score": "1:0",
-          "code": "s01s00",
-          "sp": "7.75"
-        },
-        {
-          "score": "1:1",
-          "code": "s01s01",
-          "sp": "6.00"
-        },
-        {
-          "score": "1:2",
-          "code": "s01s02",
-          "sp": "10.50"
-        },
-        {
-          "score": "1:3",
-          "code": "s01s03",
-          "sp": "25.00"
-        },
-        {
-          "score": "1:4",
-          "code": "s01s04",
-          "sp": "90.00"
-        },
-        {
-          "score": "1:5",
-          "code": "s01s05",
-          "sp": "350.0"
-        },
-        {
-          "score": "2:0",
-          "code": "s02s00",
-          "sp": "10.00"
-        },
-        {
-          "score": "2:1",
-          "code": "s02s01",
-          "sp": "6.75"
-        },
-        {
-          "score": "2:2",
-          "code": "s02s02",
-          "sp": "11.50"
-        },
-        {
-          "score": "2:3",
-          "code": "s02s03",
-          "sp": "35.00"
-        },
-        {
-          "score": "2:4",
-          "code": "s02s04",
-          "sp": "100.0"
-        },
-        {
-          "score": "2:5",
-          "code": "s02s05",
-          "sp": "400.0"
-        },
-        {
-          "score": "3:0",
-          "code": "s03s00",
-          "sp": "20.00"
-        },
-        {
-          "score": "3:1",
-          "code": "s03s01",
-          "sp": "13.00"
-        },
-        {
-          "score": "3:2",
-          "code": "s03s02",
-          "sp": "23.00"
-        },
-        {
-          "score": "3:3",
-          "code": "s03s03",
-          "sp": "45.00"
-        },
-        {
-          "score": "4:0",
-          "code": "s04s00",
-          "sp": "60.00"
-        },
-        {
-          "score": "4:1",
-          "code": "s04s01",
-          "sp": "40.00"
-        },
-        {
-          "score": "4:2",
-          "code": "s04s02",
-          "sp": "50.00"
-        },
-        {
-          "score": "5:0",
-          "code": "s05s00",
-          "sp": "150.0"
-        },
-        {
-          "score": "5:1",
-          "code": "s05s01",
-          "sp": "120.0"
-        },
-        {
-          "score": "5:2",
-          "code": "s05s02",
-          "sp": "150.0"
-        },
-        {
-          "score": "负其他",
-          "code": "s1sa",
-          "sp": "120.0"
-        },
-        {
-          "score": "平其他",
-          "code": "s1sd",
-          "sp": "300.0"
-        },
-        {
-          "score": "胜其他",
-          "code": "s1sh",
-          "sp": "75.00"
-        }
-      ]
-    },
-    {
-      "matchId": 2040254,
-      "matchNum": 1044,
-      "matchNumStr": "周一044",
-      "matchDate": "2026-06-23",
-      "matchTime": "11:00:00",
-      "matchKey": "JOR-ALG",
-      "homeTeam": "约旦",
-      "awayTeam": "阿尔及利亚",
-      "homeTeamOddsName": "约旦",
-      "awayTeamOddsName": "阿尔及利",
-      "homeTeamAllName": "约旦",
-      "awayTeamAllName": "阿尔及利亚",
-      "homeTeamEn": "Jordan",
-      "awayTeamEn": "Algeria",
-      "homeTeamCode": "JOR",
-      "awayTeamCode": "ALG",
-      "homeTeamApiCode": "JOR",
-      "awayTeamApiCode": "ALG",
-      "homeTeamApiEnName": "JOR",
-      "awayTeamApiEnName": "ALG",
-      "homeRank": "[J组3]",
-      "awayRank": "[J组4]",
-      "league": "世界杯",
-      "matchStatus": "Selling",
-      "remark": "比赛将在美国-加利福尼亚州圣克拉拉举行",
-      "pools": {
-        "had": {
-          "label": "胜平负",
-          "selling": true,
-          "single": false
-        },
-        "hhad": {
-          "label": "让球胜平负",
-          "selling": true,
-          "single": false
-        },
-        "ttg": {
-          "label": "总进球",
-          "selling": true,
-          "single": true
-        },
-        "hafu": {
-          "label": "半全场",
-          "selling": true,
-          "single": true
-        },
-        "crs": {
-          "label": "比分",
-          "selling": true,
-          "single": true
-        }
-      },
-      "had": {
-        "home": "5.82",
-        "draw": "3.80",
-        "away": "1.44",
-        "updateDate": "2026-06-21",
-        "updateTime": "11:47:10"
-      },
-      "hhad": {
-        "goalLine": "+1",
-        "home": "2.40",
-        "draw": "3.35",
-        "away": "2.42",
-        "updateDate": "2026-06-21",
-        "updateTime": "11:47:19"
-      },
-      "ttg": [
-        {
-          "goals": "0",
-          "sp": "10.50"
-        },
-        {
-          "goals": "1",
-          "sp": "4.20"
-        },
-        {
-          "goals": "2",
-          "sp": "3.25"
-        },
-        {
-          "goals": "3",
-          "sp": "3.60"
-        },
-        {
-          "goals": "4",
-          "sp": "6.00"
-        },
-        {
-          "goals": "5",
-          "sp": "11.50"
-        },
-        {
-          "goals": "6",
-          "sp": "20.00"
-        },
-        {
-          "goals": "7+",
-          "sp": "32.00"
-        }
-      ],
-      "hafu": [
-        {
-          "code": "aa",
-          "label": "客/客",
-          "sp": "2.10"
-        },
-        {
-          "code": "ad",
-          "label": "客/平",
-          "sp": "18.00"
-        },
-        {
-          "code": "ah",
-          "label": "客/主",
-          "sp": "50.00"
-        },
-        {
-          "code": "da",
-          "label": "平/客",
-          "sp": "3.95"
-        },
-        {
-          "code": "dd",
-          "label": "平/平",
-          "sp": "5.60"
-        },
-        {
-          "code": "dh",
-          "label": "平/主",
-          "sp": "12.50"
-        },
-        {
-          "code": "ha",
-          "label": "主/客",
-          "sp": "25.00"
-        },
-        {
-          "code": "hd",
-          "label": "主/平",
-          "sp": "18.00"
-        },
-        {
-          "code": "hh",
-          "label": "主/主",
-          "sp": "10.50"
-        }
-      ],
-      "crs": [
-        {
-          "score": "0:0",
-          "code": "s00s00",
-          "sp": "10.50"
-        },
-        {
-          "score": "0:1",
-          "code": "s00s01",
-          "sp": "5.60"
-        },
-        {
-          "score": "0:2",
-          "code": "s00s02",
-          "sp": "6.20"
-        },
-        {
-          "score": "0:3",
-          "code": "s00s03",
-          "sp": "10.00"
-        },
-        {
-          "score": "0:4",
-          "code": "s00s04",
-          "sp": "23.00"
-        },
-        {
-          "score": "0:5",
-          "code": "s00s05",
-          "sp": "60.00"
-        },
-        {
-          "score": "1:0",
-          "code": "s01s00",
-          "sp": "12.50"
-        },
-        {
-          "score": "1:1",
-          "code": "s01s01",
-          "sp": "7.00"
-        },
-        {
-          "score": "1:2",
-          "code": "s01s02",
-          "sp": "6.50"
-        },
-        {
-          "score": "1:3",
-          "code": "s01s03",
-          "sp": "11.00"
-        },
-        {
-          "score": "1:4",
-          "code": "s01s04",
-          "sp": "28.00"
-        },
-        {
-          "score": "1:5",
-          "code": "s01s05",
-          "sp": "75.00"
-        },
-        {
-          "score": "2:0",
-          "code": "s02s00",
-          "sp": "30.00"
-        },
-        {
-          "score": "2:1",
-          "code": "s02s01",
-          "sp": "16.00"
-        },
-        {
-          "score": "2:2",
-          "code": "s02s02",
-          "sp": "16.00"
-        },
-        {
-          "score": "2:3",
-          "code": "s02s03",
-          "sp": "30.00"
-        },
-        {
-          "score": "2:4",
-          "code": "s02s04",
-          "sp": "65.00"
-        },
-        {
-          "score": "2:5",
-          "code": "s02s05",
-          "sp": "200.0"
-        },
-        {
-          "score": "3:0",
-          "code": "s03s00",
-          "sp": "100.0"
-        },
-        {
-          "score": "3:1",
-          "code": "s03s01",
-          "sp": "70.00"
-        },
-        {
-          "score": "3:2",
-          "code": "s03s02",
-          "sp": "70.00"
-        },
-        {
-          "score": "3:3",
-          "code": "s03s03",
-          "sp": "80.00"
-        },
-        {
-          "score": "4:0",
-          "code": "s04s00",
           "sp": "500.0"
         },
         {
+          "score": "0:4",
+          "code": "s00s04",
+          "sp": "800.0"
+        },
+        {
+          "score": "0:5",
+          "code": "s00s05",
+          "sp": "800.0"
+        },
+        {
+          "score": "1:0",
+          "code": "s01s00",
+          "sp": "6.75"
+        },
+        {
+          "score": "1:1",
+          "code": "s01s01",
+          "sp": "12.00"
+        },
+        {
+          "score": "1:2",
+          "code": "s01s02",
+          "sp": "40.00"
+        },
+        {
+          "score": "1:3",
+          "code": "s01s03",
+          "sp": "200.0"
+        },
+        {
+          "score": "1:4",
+          "code": "s01s04",
+          "sp": "500.0"
+        },
+        {
+          "score": "1:5",
+          "code": "s01s05",
+          "sp": "800.0"
+        },
+        {
+          "score": "2:0",
+          "code": "s02s00",
+          "sp": "5.40"
+        },
+        {
+          "score": "2:1",
+          "code": "s02s01",
+          "sp": "8.00"
+        },
+        {
+          "score": "2:2",
+          "code": "s02s02",
+          "sp": "29.00"
+        },
+        {
+          "score": "2:3",
+          "code": "s02s03",
+          "sp": "150.0"
+        },
+        {
+          "score": "2:4",
+          "code": "s02s04",
+          "sp": "500.0"
+        },
+        {
+          "score": "2:5",
+          "code": "s02s05",
+          "sp": "800.0"
+        },
+        {
+          "score": "3:0",
+          "code": "s03s00",
+          "sp": "6.00"
+        },
+        {
+          "score": "3:1",
+          "code": "s03s01",
+          "sp": "10.50"
+        },
+        {
+          "score": "3:2",
+          "code": "s03s02",
+          "sp": "30.00"
+        },
+        {
+          "score": "3:3",
+          "code": "s03s03",
+          "sp": "150.0"
+        },
+        {
+          "score": "4:0",
+          "code": "s04s00",
+          "sp": "8.50"
+        },
+        {
           "score": "4:1",
           "code": "s04s01",
-          "sp": "350.0"
+          "sp": "16.00"
         },
         {
           "score": "4:2",
           "code": "s04s02",
-          "sp": "350.0"
+          "sp": "60.00"
         },
         {
           "score": "5:0",
           "code": "s05s00",
-          "sp": "1000"
+          "sp": "15.00"
         },
         {
           "score": "5:1",
           "code": "s05s01",
-          "sp": "800.0"
+          "sp": "28.00"
         },
         {
           "score": "5:2",
           "code": "s05s02",
-          "sp": "900.0"
+          "sp": "100.0"
         },
         {
           "score": "负其他",
           "code": "s1sa",
-          "sp": "50.00"
+          "sp": "500.0"
         },
         {
           "score": "平其他",
           "code": "s1sd",
-          "sp": "700.0"
+          "sp": "500.0"
         },
         {
           "score": "胜其他",
           "code": "s1sh",
-          "sp": "450.0"
+          "sp": "13.00"
         }
       ]
     }

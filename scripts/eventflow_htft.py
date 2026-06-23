@@ -667,6 +667,24 @@ def summarize_data_quality(match_id: str, home: str, away: str) -> Dict[str, Any
             missing += 1
 
     total = max(1, real + estimated)
+    coverage_score = max(0.0, min(1.0, 1.0 - missing / max(1, len(checks))))
+    authenticity_score = max(0.0, min(1.0, real / total))
+
+    claim_rows = [
+        r for r in read_csv(root / "database/eventflow/processed/source_signal_claims.csv")
+        if not match_id or snum(r, "match_id") == match_id
+    ]
+    conflict_count = sum(int(fnum(r, "conflict_count")) for r in claim_rows)
+    consistency_score = max(0.0, min(1.0, 1.0 - conflict_count / max(1, len(claim_rows) + conflict_count)))
+
+    freshness_values = []
+    for d in details:
+        # Most processed tables in this project are regenerated snapshots and may not
+        # carry source timestamps. Keep freshness separate from authenticity instead
+        # of calling real rows "complete".
+        freshness_values.append(float(d.get("confidence", 0.5) or 0.5))
+    freshness_score = max(0.0, min(1.0, sum(freshness_values) / len(freshness_values))) if freshness_values else 0.0
+    overall = max(0.0, min(1.0, 0.35 * coverage_score + 0.30 * authenticity_score + 0.20 * consistency_score + 0.15 * freshness_score))
 
     return {
 
@@ -680,7 +698,21 @@ def summarize_data_quality(match_id: str, home: str, away: str) -> Dict[str, Any
 
         "estimated_data_ratio": round(estimated / total, 3),
 
-        "note": "估算数据已降权参与；不可与真实数据同权",
+        "authenticity_score": round(authenticity_score, 3),
+
+        "coverage_score": round(coverage_score, 3),
+
+        "freshness_score": round(freshness_score, 3),
+
+        "consistency_score": round(consistency_score, 3),
+
+        "overall_data_reliability": round(overall, 3),
+
+        "conflict_count": conflict_count,
+
+        "data_quality_status": "完整" if overall >= 0.75 else ("一般" if overall >= 0.45 else "不足"),
+
+        "note": "真实性、覆盖率、时效性和一致性已分列；已有真实数据不等于字段完整",
 
         "details": details[:12],
 
@@ -688,6 +720,41 @@ def summarize_data_quality(match_id: str, home: str, away: str) -> Dict[str, Any
 
 
 
+
+
+def halftime_layer_status(
+    data_quality: Dict[str, Any],
+    dynamic_profile: Dict[str, Any] | None = None,
+    eventflow_degraded: bool = False,
+    htft_top3: List[Dict[str, Any]] | None = None,
+) -> Dict[str, Any]:
+    """Audit gate for HT/FT outputs.
+
+    V3.8 treats halftime and half/full-time as a separate low-confidence
+    experimental layer. This helper never upgrades HT/FT to robust betting use
+    without an explicit future calibration flag.
+    """
+    dynamic_profile = dynamic_profile or {}
+    htft_top3 = htft_top3 or []
+    coverage = fnum(data_quality, "coverage_score", fnum(data_quality, "real_data_ratio", 0.0))
+    consistency = fnum(data_quality, "consistency_score", 1.0)
+    reliability = fnum(dynamic_profile, "reliability_score", 0.0)
+    enough_for_reference = bool(htft_top3) and not eventflow_degraded and coverage >= 0.35
+    confidence = "low"
+    if enough_for_reference and coverage >= 0.80 and consistency >= 0.80 and reliability >= 0.70:
+        # Still a reference layer until independent time-out calibration is complete.
+        confidence = "medium_reference_only"
+    return {
+        "halftime_confidence": confidence,
+        "halftime_calibration_status": "not_independently_calibrated",
+        "halftime_data_coverage": round(coverage, 3),
+        "halftime_consistency": round(consistency, 3),
+        "halftime_output_allowed": enough_for_reference,
+        "halftime_betting_eligible": False,
+        "label": "低置信度参考" if enough_for_reference else "不输出或仅内部审计",
+        "sensitive_factors": ["早球", "点球", "红牌", "临场换人", "伤退", "天气/中断"],
+        "reason": "半场样本短且两段泊松/EventFlow半场分布尚未完成独立时间外校准",
+    }
 
 
 def count_prematch_evidence(match_id: str) -> Dict[str, int]:
@@ -773,7 +840,7 @@ def recompute_htft_top3(
     activated_raw = pick_activated(all_scenarios)
     if not activated_raw:
         return [], "empty_no_activation"
-    activated = build_activated_payload(activated_raw)
+    activated = build_activated_payload(activated_raw, favorite_is_home=lam_home >= lam_away)
     phase_sim = enrich_phase_simulation(activated, all_scenarios, mid)
     evidence = count_prematch_evidence(mid)
     high_conf = evidence.get("pre_match_evidence_count", 0) >= 2
@@ -824,7 +891,7 @@ def resolve_eventflow_merge_attachments(
         all_scenarios, baseline_degraded, fallback_ratio = scenario_rows(mid, home, away)
         if not baseline_degraded and fallback_ratio < 0.50:
             activated_raw = pick_activated(all_scenarios)
-            activated = build_activated_payload(activated_raw)
+            activated = build_activated_payload(activated_raw, favorite_is_home=lam_home >= lam_away)
             phase_sim = enrich_phase_simulation(activated, all_scenarios, mid) if activated else {}
             all_weights = [
                 {
